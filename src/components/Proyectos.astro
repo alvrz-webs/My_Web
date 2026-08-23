@@ -1,6 +1,8 @@
 ---
 import { obtenerDescripciones } from '../lib/descripciones';
+import { obtenerWebs } from '../lib/webs';
 import type { Locale } from '../lib/i18n';
+import imageOffIcon from 'lucide-static/icons/image-off.svg?raw';
 
 interface Repo {
 	id: number;
@@ -30,6 +32,15 @@ const UI = {
 		fallbackDescripcion: 'Proyecto de análisis y ciencia de datos.',
 		verEnGithub: 'Ver en GitHub',
 		vacio: 'No se pudieron cargar los repositorios en este momento.',
+		filtroLabel: 'Filtrar proyectos por tipo',
+		filtroTodos: 'Todos',
+		filtroDatos: 'Datos',
+		filtroWebs: 'Webs',
+		verWeb: 'Ver web',
+		verCodigo: 'Ver código',
+		enDesarrollo: 'En desarrollo',
+		fallbackDescripcionWeb: 'Proyecto web.',
+		vacioWebs: 'Todavía no hay webs publicadas en esta sección.',
 	},
 	en: {
 		eyebrow: 'Work',
@@ -39,6 +50,15 @@ const UI = {
 		fallbackDescripcion: 'Data analysis and data science project.',
 		verEnGithub: 'View on GitHub',
 		vacio: "Repositories couldn't be loaded right now.",
+		filtroLabel: 'Filter projects by type',
+		filtroTodos: 'All',
+		filtroDatos: 'Data',
+		filtroWebs: 'Websites',
+		verWeb: 'View site',
+		verCodigo: 'View code',
+		enDesarrollo: 'In progress',
+		fallbackDescripcionWeb: 'Web project.',
+		vacioWebs: "There aren't any websites published in this section yet.",
 	},
 } as const;
 
@@ -79,6 +99,13 @@ try {
 } catch (error) {
 	console.error('Error al generar las descripciones con IA:', error);
 }
+
+let webs: Awaited<ReturnType<typeof obtenerWebs>> = [];
+try {
+	webs = await obtenerWebs();
+} catch (error) {
+	console.error('Error al obtener las webs de la organización de GitHub:', error);
+}
 ---
 
 <section id="proyectos">
@@ -89,47 +116,140 @@ try {
 			<p class="text-dim">{t.intro}</p>
 		</div>
 
-		{
-			languages.length > 0 && (
-				<div class="especializaciones reveal">
-					<h3>{t.especializaciones}</h3>
-					<ul class="tags">
-						{languages.map((especialidad) => (
-							<li class="tag">{especialidad}</li>
-						))}
-					</ul>
-				</div>
-			)
-		}
+		<div class="filtro reveal" role="group" aria-label={t.filtroLabel}>
+			<button type="button" class="filtro-btn is-active" data-filtro="todos" aria-pressed="true">
+				{t.filtroTodos}
+			</button>
+			<button type="button" class="filtro-btn" data-filtro="datos" aria-pressed="false">
+				{t.filtroDatos}
+			</button>
+			<button type="button" class="filtro-btn" data-filtro="webs" aria-pressed="false">
+				{t.filtroWebs}
+			</button>
+		</div>
 
-		{
-			repos.length > 0 ? (
-				<div class="grid">
-					{repos.map((repo, i) => (
-						<article
-							class="card reveal"
-							style={`transition-delay: ${Math.min(i, 6) * 0.06}s`}
-							data-tracking-proyecto={repo.name}
-						>
-							<div class="card-header">
-								<h3>{repo.name}</h3>
-								{repo.language && <span class="language">{repo.language}</span>}
-							</div>
-							<p class="description text-dim">
-								{descripciones[repo.name] || repo.description || t.fallbackDescripcion}
-							</p>
-							<a class="button" href={repo.html_url} target="_blank" rel="noopener noreferrer">
-								{t.verEnGithub}
-							</a>
-						</article>
-					))}
-				</div>
-			) : (
-				<p class="empty text-dim">{t.vacio}</p>
-			)
-		}
+		<div class="panel" data-panel="datos">
+			{
+				languages.length > 0 && (
+					<div class="especializaciones reveal">
+						<h3>{t.especializaciones}</h3>
+						<ul class="tags">
+							{languages.map((especialidad) => (
+								<li class="tag">{especialidad}</li>
+							))}
+						</ul>
+					</div>
+				)
+			}
+
+			{
+				repos.length > 0 ? (
+					<div class="grid">
+						{repos.map((repo, i) => (
+							<article
+								class="card reveal"
+								style={`transition-delay: ${Math.min(i, 6) * 0.06}s`}
+								data-tracking-proyecto={repo.name}
+							>
+								<div class="card-header">
+									<h3>{repo.name}</h3>
+									{repo.language && <span class="language">{repo.language}</span>}
+								</div>
+								<p class="description text-dim">
+									{descripciones[repo.name] || repo.description || t.fallbackDescripcion}
+								</p>
+								<a class="button" href={repo.html_url} target="_blank" rel="noopener noreferrer">
+									{t.verEnGithub}
+								</a>
+							</article>
+						))}
+					</div>
+				) : (
+					<p class="empty text-dim">{t.vacio}</p>
+				)
+			}
+		</div>
+
+		<div class="panel" data-panel="webs">
+			{
+				webs.length > 0 ? (
+					<div class="grid">
+						{webs.map((web, i) => (
+							<article
+								class="card card-web reveal"
+								style={`transition-delay: ${Math.min(i, 6) * 0.06}s`}
+								data-tracking-proyecto={web.name}
+							>
+								<div class="card-preview">
+									<span class="preview-placeholder" set:html={imageOffIcon} />
+									<img
+										src={web.previewUrl}
+										alt=""
+										loading="lazy"
+										decoding="async"
+										onerror="this.style.display='none'"
+									/>
+									{web.enDesarrollo && <span class="badge-dev">{t.enDesarrollo}</span>}
+								</div>
+								<div class="card-body">
+									<h3>{web.name}</h3>
+									<p class="description text-dim">{web.description || t.fallbackDescripcionWeb}</p>
+									{
+										web.stack.length > 0 && (
+											<ul class="tags card-tags">
+												{web.stack.map((tecnologia) => (
+													<li class="tag">{tecnologia}</li>
+												))}
+											</ul>
+										)
+									}
+									<div class="card-actions">
+										{web.homepage && (
+											<a class="button" href={web.homepage} target="_blank" rel="noopener noreferrer">
+												{t.verWeb}
+											</a>
+										)}
+										<a class="button button-secondary" href={web.htmlUrl} target="_blank" rel="noopener noreferrer">
+											{t.verCodigo}
+										</a>
+									</div>
+								</div>
+							</article>
+						))}
+					</div>
+				) : (
+					<p class="empty text-dim">{t.vacioWebs}</p>
+				)
+			}
+		</div>
 	</div>
 </section>
+
+<script>
+	const seccion = document.querySelector('#proyectos');
+	const botones = seccion?.querySelectorAll<HTMLButtonElement>('.filtro-btn');
+	const paneles = seccion?.querySelectorAll<HTMLElement>('[data-panel]');
+
+	botones?.forEach((boton) => {
+		boton.addEventListener('click', () => {
+			const filtro = boton.dataset.filtro;
+
+			botones.forEach((b) => {
+				const activo = b === boton;
+				b.classList.toggle('is-active', activo);
+				b.setAttribute('aria-pressed', String(activo));
+			});
+
+			paneles?.forEach((panel) => {
+				const visible = filtro === 'todos' || panel.dataset.panel === filtro;
+				panel.hidden = !visible;
+				if (visible) {
+					panel.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible'));
+				}
+			});
+		});
+	});
+</script>
 
 <style>
 	#proyectos {
@@ -144,6 +264,44 @@ try {
 	.section-header h2 {
 		font-size: clamp(1.6rem, 3vw, 2.1rem);
 		margin-block: 0.75rem 0.5rem;
+	}
+
+	.filtro {
+		display: inline-flex;
+		gap: 0.4rem;
+		padding: 0.3rem;
+		margin-block-end: 2.5rem;
+		background: var(--color-bg-elevated);
+		border: 1px solid var(--color-border);
+		border-radius: 999px;
+	}
+
+	.filtro-btn {
+		font-family: var(--font-mono);
+		font-size: 0.85rem;
+		font-weight: 500;
+		color: var(--color-text-dim);
+		background: transparent;
+		border: none;
+		border-radius: 999px;
+		padding: 0.5rem 1.1rem;
+		cursor: pointer;
+		transition:
+			background var(--transition-fast),
+			color var(--transition-fast);
+	}
+
+	.filtro-btn:hover {
+		color: var(--color-text);
+	}
+
+	.filtro-btn.is-active {
+		background: rgba(56, 189, 248, 0.14);
+		color: var(--color-blue);
+	}
+
+	.panel + .panel {
+		margin-block-start: 3.5rem;
 	}
 
 	.especializaciones {
@@ -173,6 +331,15 @@ try {
 		font-weight: 500;
 		padding: 0.4rem 0.85rem;
 		border-radius: 999px;
+	}
+
+	.card-tags {
+		margin-block-end: 1.25rem;
+	}
+
+	.card-tags .tag {
+		font-size: 0.72rem;
+		padding: 0.3rem 0.7rem;
 	}
 
 	.grid {
@@ -250,6 +417,84 @@ try {
 	.button:hover {
 		border-color: var(--color-blue);
 		background: rgba(56, 189, 248, 0.08);
+	}
+
+	.button-secondary {
+		border-color: var(--color-border);
+	}
+
+	.button-secondary:hover {
+		border-color: var(--color-text-dim);
+		background: transparent;
+	}
+
+	/* Tarjetas de la pestaña "Webs" */
+	.card-web {
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.card-preview {
+		position: relative;
+		aspect-ratio: 16 / 9;
+		background: var(--color-bg);
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.card-preview img {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.preview-placeholder {
+		position: absolute;
+		inset: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(52, 211, 153, 0.1));
+		color: var(--color-text-dim);
+	}
+
+	.preview-placeholder :global(svg) {
+		width: 28px;
+		height: 28px;
+	}
+
+	.badge-dev {
+		position: absolute;
+		top: 0.75rem;
+		right: 0.75rem;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--color-amber);
+		background: rgba(232, 181, 99, 0.16);
+		border: 1px solid rgba(232, 181, 99, 0.4);
+		padding: 0.25rem 0.65rem;
+		border-radius: 999px;
+	}
+
+	.card-body {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		padding: 1.25rem 1.5rem 1.5rem;
+	}
+
+	.card-body h3 {
+		font-size: 1.1rem;
+		word-break: break-word;
+		margin-block-end: 0.75rem;
+	}
+
+	.card-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
 	}
 
 	.empty {
