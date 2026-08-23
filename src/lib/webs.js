@@ -16,15 +16,13 @@ const TOPIC_EN_DESARROLLO = 'en-desarrollo';
 /**
  * Obtiene los repos de la organización de GitHub que tengan el topic "portfolio-web" y los
  * transforma al formato que necesita la tarjeta de la pestaña "Webs" de Proyectos.
- * Usa GITHUB_TOKEN (opcional) para autenticar la petición y evitar el límite de 60 peticiones/hora
- * sin autenticar; si no está definida, la petición se hace igualmente sin autenticar.
+ * Petición siempre sin autenticar: la organización "alvrz-webs" rechaza con 403 los fine-grained
+ * PAT con vida útil superior a 366 días (política propia de la org), y con tan pocos repos el
+ * límite de 60 peticiones/hora sin autenticar no supone ningún riesgo en build time.
  * @returns {Promise<RepoWeb[]>}
  */
 export async function obtenerWebs() {
 	const headers = { Accept: 'application/vnd.github+json' };
-	if (process.env.GITHUB_TOKEN) {
-		headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-	}
 
 	let repos = [];
 	try {
