@@ -1533,7 +1533,7 @@ import Layout from '../layouts/Layout.astro';
 		if (!boton) return;
 		activarPestana('basedatos');
 		const tabla = boton.dataset.tabla;
-		sqlInputEl.value = `SELECT * FROM ${tabla} LIMIT 100;`;
+		sqlInputEl.value = `SELECT * FROM ${tabla} ORDER BY id DESC LIMIT 100;`;
 		ejecutarSQL(sqlInputEl.value);
 	});
 
