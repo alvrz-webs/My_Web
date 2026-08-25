@@ -47,10 +47,20 @@ async function aplicarTraduccion(codigo, marcarCargando, actualizarInsignia) {
 			body: JSON.stringify({ ruta: location.pathname, idioma: codigo, textos }),
 		});
 
-		if (!response.ok) return;
+		if (!response.ok) {
+			let detalle = '';
+			try {
+				detalle = (await response.json())?.error ?? '';
+			} catch {}
+			console.error(`No se pudo traducir (HTTP ${response.status}): ${detalle}`);
+			return;
+		}
 
 		const data = await response.json();
-		if (!data.ok || !Array.isArray(data.traducciones) || data.traducciones.length !== nodos.length) return;
+		if (!data.ok || !Array.isArray(data.traducciones) || data.traducciones.length !== nodos.length) {
+			console.error('Respuesta de traducción inesperada:', data);
+			return;
+		}
 
 		nodos.forEach((nodo, i) => {
 			nodo.nodeValue = data.traducciones[i];
