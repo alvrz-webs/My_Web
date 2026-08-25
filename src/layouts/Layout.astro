@@ -3,8 +3,10 @@ import '../styles/global.css';
 import SocialLinks from '../components/SocialLinks.astro';
 import CookieBanner from '../components/CookieBanner.astro';
 import { type Locale, localizedPath, alternatePath, strings } from '../lib/i18n';
+import { IDIOMAS } from '../data/idiomas.js';
 import sunIcon from 'lucide-static/icons/sun.svg?raw';
 import moonIcon from 'lucide-static/icons/moon.svg?raw';
+import globeIcon from 'lucide-static/icons/globe.svg?raw';
 
 interface Props {
 	title?: string;
@@ -150,7 +152,57 @@ const personSchema = {
 					</nav>
 
 					<div class="nav-actions">
-						<div class="lang-switch" aria-label={t.langSwitch.label}>
+						<div class="lang-switch" aria-label={t.langSwitch.label} data-no-traducir>
+							<div class="lang-selector">
+								<button
+									type="button"
+									id="lang-globe-btn"
+									class="lang-globe-btn"
+									aria-haspopup="listbox"
+									aria-expanded="false"
+									aria-controls="lang-menu"
+									aria-label={t.langSwitch.traducir}
+								>
+									<span class="lang-globe-icon" set:html={globeIcon} />
+									<span class="lang-globe-badge" hidden></span>
+								</button>
+
+								<div id="lang-menu" class="lang-menu" role="listbox" aria-label={t.langSwitch.traducir} hidden>
+									<div class="lang-menu-buscador-wrap">
+										<input
+											type="text"
+											class="lang-menu-buscador"
+											placeholder={t.langSwitch.buscar}
+											autocomplete="off"
+										/>
+									</div>
+									<ul class="lang-menu-lista">
+										<li>
+											<button type="button" class="lang-menu-opcion lang-menu-original" data-lang="__original__">
+												{t.langSwitch.original}
+											</button>
+										</li>
+										{
+											IDIOMAS.map((idioma) => (
+												<li>
+													<button
+														type="button"
+														class="lang-menu-opcion"
+														data-lang={idioma.codigo}
+														data-busqueda={`${idioma.nombre} ${idioma.nombreEs} ${idioma.codigo}`.toLowerCase()}
+													>
+														<span class="lang-menu-nombre">{idioma.nombre}</span>
+														<span class="lang-menu-codigo">{idioma.codigo.toUpperCase()}</span>
+													</button>
+												</li>
+											))
+										}
+									</ul>
+								</div>
+							</div>
+
+							<span class="lang-switch-divisor" aria-hidden="true"></span>
+
 							<a href={pathES} aria-current={lang === 'es' ? 'true' : undefined}>
 								{t.langSwitch.es}
 							</a>
@@ -270,6 +322,10 @@ const personSchema = {
 		<script>
 			import '../scripts/tracking.js';
 		</script>
+
+		<script>
+			import '../scripts/traduccion.js';
+		</script>
 	</body>
 </html>
 
@@ -360,10 +416,14 @@ const personSchema = {
 	.lang-switch {
 		display: flex;
 		align-items: center;
-		gap: 0.4rem;
+		gap: 0.5rem;
 		font-family: var(--font-mono);
 		font-size: 0.8rem;
 		color: var(--color-text-dim);
+		background: var(--color-bg-elevated);
+		border: 1px solid var(--color-border);
+		border-radius: 999px;
+		padding: 0.4rem 0.75rem;
 	}
 
 	.lang-switch a {
@@ -379,6 +439,139 @@ const personSchema = {
 
 	.lang-switch a:hover {
 		color: var(--color-text);
+	}
+
+	.lang-switch-divisor {
+		width: 1px;
+		height: 16px;
+		background: var(--color-border);
+	}
+
+	.lang-selector {
+		position: relative;
+		display: flex;
+	}
+
+	.lang-globe-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;
+		background: transparent;
+		border: none;
+		padding: 0;
+		color: var(--color-text-dim);
+		cursor: pointer;
+		transition: color var(--transition-fast);
+	}
+
+	.lang-globe-btn:hover,
+	.lang-globe-btn.is-active {
+		color: var(--color-blue);
+	}
+
+	.lang-globe-btn .lang-globe-icon svg {
+		width: 16px;
+		height: 16px;
+		stroke: currentColor;
+		display: block;
+	}
+
+	.lang-globe-btn.is-loading .lang-globe-icon svg {
+		animation: lang-globe-spin 0.9s linear infinite;
+	}
+
+	@keyframes lang-globe-spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	.lang-globe-badge {
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: var(--color-blue);
+		background: rgba(56, 189, 248, 0.14);
+		padding: 0.1rem 0.4rem;
+		border-radius: 999px;
+	}
+
+	.lang-menu {
+		position: absolute;
+		top: calc(100% + 10px);
+		right: 0;
+		width: 240px;
+		max-height: 320px;
+		display: flex;
+		flex-direction: column;
+		background: var(--color-bg-elevated);
+		border: 1px solid var(--color-border);
+		border-radius: 12px;
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+		overflow: hidden;
+		z-index: 200;
+	}
+
+	.lang-menu-buscador-wrap {
+		padding: 0.6rem;
+		border-bottom: 1px solid var(--color-border);
+	}
+
+	.lang-menu-buscador {
+		width: 100%;
+		background: var(--color-bg);
+		border: 1px solid var(--color-border);
+		border-radius: 8px;
+		padding: 0.45rem 0.65rem;
+		font-family: var(--font-body);
+		font-size: 0.85rem;
+		color: var(--color-text);
+	}
+
+	.lang-menu-buscador:focus {
+		outline: none;
+		border-color: var(--color-blue);
+	}
+
+	.lang-menu-lista {
+		list-style: none;
+		overflow-y: auto;
+		padding: 0.4rem;
+	}
+
+	.lang-menu-opcion {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		width: 100%;
+		background: transparent;
+		border: none;
+		border-radius: 8px;
+		padding: 0.5rem 0.65rem;
+		font-family: var(--font-body);
+		font-size: 0.85rem;
+		color: var(--color-text);
+		text-align: left;
+		cursor: pointer;
+		transition: background var(--transition-fast);
+	}
+
+	.lang-menu-opcion:hover {
+		background: rgba(56, 189, 248, 0.1);
+	}
+
+	.lang-menu-original {
+		font-weight: 600;
+		border-bottom: 1px solid var(--color-border);
+		border-radius: 0;
+		margin-block-end: 0.3rem;
+	}
+
+	.lang-menu-codigo {
+		flex-shrink: 0;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		color: var(--color-text-dim);
 	}
 
 	.btn-tema {

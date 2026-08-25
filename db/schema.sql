@@ -30,3 +30,16 @@ CREATE TABLE IF NOT EXISTS logs_sistema (
 	creado_en TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE INDEX IF NOT EXISTS idx_logs_creado ON logs_sistema(creado_en);
+
+-- Caché de la capa de traducción client-side (ver functions/api/traducir.js): evita volver a
+-- llamar a Gemini para la misma ruta + idioma + contenido exacto (hash_contenido detecta si el
+-- contenido de la página cambió desde la última traducción cacheada).
+CREATE TABLE IF NOT EXISTS traducciones_cache (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	ruta TEXT NOT NULL,
+	idioma TEXT NOT NULL,
+	hash_contenido TEXT NOT NULL,
+	contenido_json TEXT NOT NULL,
+	creado_en TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_traducciones_cache_clave ON traducciones_cache(ruta, idioma, hash_contenido);

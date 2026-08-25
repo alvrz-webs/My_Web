@@ -57,7 +57,14 @@ export const strings = {
 			copy: (year: number) => `© ${year} Mario Álvarez. Valencia.`,
 			ariaSocial: 'Redes sociales',
 		},
-		langSwitch: { es: 'ES', en: 'EN', label: 'Cambiar idioma' },
+		langSwitch: {
+			es: 'ES',
+			en: 'EN',
+			label: 'Cambiar idioma',
+			traducir: 'Traducir página',
+			buscar: 'Buscar idioma…',
+			original: 'Original',
+		},
 		cookies: {
 			texto: 'Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.',
 			politica: 'Política de cookies',
@@ -86,7 +93,14 @@ export const strings = {
 			copy: (year: number) => `© ${year} Mario Álvarez. Valencia, Spain.`,
 			ariaSocial: 'Social media',
 		},
-		langSwitch: { es: 'ES', en: 'EN', label: 'Switch language' },
+		langSwitch: {
+			es: 'ES',
+			en: 'EN',
+			label: 'Switch language',
+			traducir: 'Translate page',
+			buscar: 'Search language…',
+			original: 'Original',
+		},
 		cookies: {
 			texto: "We use first-party cookies for anonymous analytics and to improve your experience. We don't use third-party cookies.",
 			politica: 'Cookie policy',

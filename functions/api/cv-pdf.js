@@ -1,19 +1,10 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { leerArchivoJson, json } from './_lib.js';
+import { leerArchivoJson, json, limpiarJsonModelo } from './_lib.js';
 import { generarCvPdf } from './_generar-cv.js';
 import { verificarSesion } from './_auth.js';
 
 const MODEL_NAME = 'gemini-flash-latest';
 const IDIOMAS = { en: 'inglés (en)', es: 'español (es)' };
-
-function limpiarJsonModelo(texto) {
-	const sinFences = texto
-		.trim()
-		.replace(/^```(?:json)?/i, '')
-		.replace(/```$/, '')
-		.trim();
-	return JSON.parse(sinFences);
-}
 
 async function traducirCv(env, cv, destino) {
 	const apiKey = env.GEMINI_API_KEY;

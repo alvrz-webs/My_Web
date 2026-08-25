@@ -32,6 +32,25 @@ export function json(data, status = 200) {
 	});
 }
 
+/** Hash SHA-256 en hexadecimal, usado como clave de caché de contenido. */
+export async function sha256Hex(texto) {
+	const datos = new TextEncoder().encode(texto);
+	const hashBuffer = await crypto.subtle.digest('SHA-256', datos);
+	return Array.from(new Uint8Array(hashBuffer))
+		.map((b) => b.toString(16).padStart(2, '0'))
+		.join('');
+}
+
+/** Quita los fences ```json que Gemini añade a veces y parsea el resto como JSON. */
+export function limpiarJsonModelo(texto) {
+	const sinFences = texto
+		.trim()
+		.replace(/^```(?:json)?/i, '')
+		.replace(/```$/, '')
+		.trim();
+	return JSON.parse(sinFences);
+}
+
 /**
  * Lee src/data/<archivo> de GitHub en `ramaPreferida`, cayendo a "main" si esa
  * rama todavía no existe (404). Lanza si GitHub responde con cualquier otro error.

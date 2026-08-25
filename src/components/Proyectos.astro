@@ -249,6 +249,40 @@ try {
 			});
 		});
 	});
+
+	// Reordena las tarjetas de cada grid (Datos y Webs) según el tiempo de atención acumulado
+	// que ya tenemos registrado en analítica. Si el endpoint falla, se deja el orden con el que
+	// se generó la página (por fecha de actualización de cada repo) tal cual está.
+	async function ordenarPorTiempo() {
+		let tiempos;
+		try {
+			const response = await fetch('/api/proyectos/tiempos');
+			if (!response.ok) return;
+			tiempos = await response.json();
+		} catch {
+			return;
+		}
+
+		seccion?.querySelectorAll<HTMLElement>('[data-panel] .grid').forEach((grid) => {
+			const tarjetas = Array.from(grid.querySelectorAll<HTMLElement>(':scope > .card'));
+
+			tarjetas.sort((a, b) => {
+				const segundosA = tiempos[a.dataset.trackingProyecto ?? ''];
+				const segundosB = tiempos[b.dataset.trackingProyecto ?? ''];
+				const tieneA = typeof segundosA === 'number';
+				const tieneB = typeof segundosB === 'number';
+
+				if (tieneA && tieneB) return segundosB - segundosA;
+				if (tieneA) return -1;
+				if (tieneB) return 1;
+				return 0; // ninguno tiene datos: se conserva el orden original (sort es estable)
+			});
+
+			tarjetas.forEach((tarjeta) => grid.appendChild(tarjeta));
+		});
+	}
+
+	ordenarPorTiempo();
 </script>
 
 <style>
