@@ -162,6 +162,8 @@ const personSchema = {
 									aria-expanded="false"
 									aria-controls="lang-menu"
 									aria-label={t.langSwitch.traducir}
+									data-texto-error={t.langSwitch.error}
+									data-texto-parcial={t.langSwitch.parcial}
 								>
 									<span class="lang-globe-icon" set:html={globeIcon} />
 									<span class="lang-globe-badge" hidden></span>
@@ -178,7 +180,13 @@ const personSchema = {
 									</div>
 									<ul class="lang-menu-lista">
 										<li>
-											<button type="button" class="lang-menu-opcion lang-menu-original" data-lang="__original__">
+											<button
+												type="button"
+												role="option"
+												class="lang-menu-opcion lang-menu-original"
+												data-lang="__original__"
+												aria-selected="true"
+											>
 												{t.langSwitch.original}
 											</button>
 										</li>
@@ -187,8 +195,10 @@ const personSchema = {
 												<li>
 													<button
 														type="button"
+														role="option"
 														class="lang-menu-opcion"
 														data-lang={idioma.codigo}
+														aria-selected="false"
 														data-busqueda={`${idioma.nombre} ${idioma.nombreEs} ${idioma.codigo}`.toLowerCase()}
 													>
 														<span class="lang-menu-nombre">{idioma.nombre}</span>
@@ -576,6 +586,36 @@ const personSchema = {
 		font-family: var(--font-mono);
 		font-size: 0.7rem;
 		color: var(--color-text-dim);
+	}
+
+	.lang-menu-opcion.is-selected {
+		background: rgba(56, 189, 248, 0.14);
+		color: var(--color-blue);
+	}
+
+	.lang-menu-opcion.is-selected .lang-menu-codigo {
+		color: var(--color-blue);
+	}
+
+	.lang-aviso {
+		position: absolute;
+		top: calc(100% + 10px);
+		right: 0;
+		width: 240px;
+		background: var(--color-bg-elevated);
+		border: 1px solid var(--color-border);
+		border-radius: 10px;
+		padding: 0.6rem 0.85rem;
+		font-family: var(--font-body);
+		font-size: 0.8rem;
+		line-height: 1.4;
+		color: var(--color-text);
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+		z-index: 200;
+	}
+
+	.lang-aviso[hidden] {
+		display: none;
 	}
 
 	.btn-tema {

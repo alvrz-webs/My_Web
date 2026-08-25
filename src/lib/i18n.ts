@@ -64,6 +64,8 @@ export const strings = {
 			traducir: 'Traducir página',
 			buscar: 'Buscar idioma…',
 			original: 'Original',
+			error: 'No se pudo traducir la página. Inténtalo de nuevo en un momento.',
+			parcial: 'Traducción parcial: parte del texto sigue en el idioma original.',
 		},
 		cookies: {
 			texto: 'Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.',
@@ -100,6 +102,8 @@ export const strings = {
 			traducir: 'Translate page',
 			buscar: 'Search language…',
 			original: 'Original',
+			error: "Couldn't translate the page. Please try again in a moment.",
+			parcial: "Partial translation: some text is still in the original language.",
 		},
 		cookies: {
 			texto: "We use first-party cookies for anonymous analytics and to improve your experience. We don't use third-party cookies.",
