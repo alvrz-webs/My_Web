@@ -1,4 +1,10 @@
 {
+	"meta": {
+		"title": "Sobre mí — Mario Álvarez",
+		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
+		"eyebrow": "Sobre mí",
+		"heading": "Del velódromo a los datos"
+	},
 	"bio": [
 		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
 		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",

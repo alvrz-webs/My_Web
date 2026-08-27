@@ -1,4 +1,10 @@
 {
+	"meta": {
+		"title": "Política de Privacidad — Mario Álvarez",
+		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
+		"eyebrow": "Legal",
+		"heading": "Política de Privacidad"
+	},
 	"secciones": [
 		{
 			"titulo": "1. Responsable del tratamiento",
@@ -49,10 +55,7 @@
 		{
 			"titulo": "5. Plazo de conservación",
 			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
-				}
+				{ "tipo": "parrafo", "texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente." }
 			]
 		},
 		{
@@ -75,9 +78,7 @@
 		},
 		{
 			"titulo": "8. Cambios en esta política",
-			"bloques": [
-				{ "tipo": "parrafo", "texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio." }
-			]
+			"bloques": [{ "tipo": "parrafo", "texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio." }]
 		}
 	]
 }

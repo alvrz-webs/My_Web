@@ -3,8 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
 import PoliticaBloques from '../PoliticaBloques.astro';
 import { type Locale } from '../../lib/i18n';
-import cookiesEs from '../../data/politica-cookies.json';
-import cookiesEn from '../../data/en/politica-cookies.json';
+import { getDict } from '../../lib/dictionary';
 
 interface Props {
 	lang?: Locale;
@@ -12,24 +11,8 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const politica = lang === 'en' ? cookiesEn : cookiesEs;
-
-const UI = {
-	es: {
-		title: 'Política de Cookies — Mario Álvarez',
-		description: 'Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.',
-		eyebrow: 'Legal',
-		heading: 'Política de Cookies',
-	},
-	en: {
-		title: 'Cookie Policy — Mario Álvarez',
-		description: 'What cookies this site uses, for what purpose, and how to change your consent at any time.',
-		eyebrow: 'Legal',
-		heading: 'Cookie Policy',
-	},
-} as const;
-
-const t = UI[lang];
+const politica = getDict(lang, 'politica-cookies') as any;
+const t = politica.meta;
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>

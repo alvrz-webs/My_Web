@@ -1,12 +1,13 @@
 ---
-import { type Locale, localizedPath, strings } from '../lib/i18n';
+import { type Locale, localizedPath } from '../lib/i18n';
+import { getDict } from '../lib/dictionary';
 
 interface Props {
 	lang: Locale;
 }
 
 const { lang } = Astro.props;
-const t = strings[lang].cookies;
+const t = (getDict(lang, 'common') as any).cookies;
 const politicaHref = localizedPath('/politica-de-cookies', lang);
 ---
 

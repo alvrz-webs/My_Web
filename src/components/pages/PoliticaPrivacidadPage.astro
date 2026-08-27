@@ -3,8 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
 import PoliticaBloques from '../PoliticaBloques.astro';
 import { type Locale } from '../../lib/i18n';
-import politicaEs from '../../data/politica-privacidad.json';
-import politicaEn from '../../data/en/politica-privacidad.json';
+import { getDict } from '../../lib/dictionary';
 
 interface Props {
 	lang?: Locale;
@@ -12,25 +11,8 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const politica = lang === 'en' ? politicaEn : politicaEs;
-
-const UI = {
-	es: {
-		title: 'Política de Privacidad — Mario Álvarez',
-		description:
-			'Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.',
-		eyebrow: 'Legal',
-		heading: 'Política de Privacidad',
-	},
-	en: {
-		title: 'Privacy Policy — Mario Álvarez',
-		description: "Privacy policy for Mario Álvarez's site: what data is collected, for what purpose, and how to exercise your rights.",
-		eyebrow: 'Legal',
-		heading: 'Privacy Policy',
-	},
-} as const;
-
-const t = UI[lang];
+const politica = getDict(lang, 'politica-privacidad') as any;
+const t = politica.meta;
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>

@@ -1,4 +1,14 @@
 {
+	"meta": {
+		"title": "Mario Álvarez — Data scientist specialized in sport",
+		"description": "Mario Álvarez, data scientist in Valencia specialized in sports analytics. Data · Sport · Progress.",
+		"verProyectos": "View projects",
+		"contacto": "Contact",
+		"verMas": "Learn more",
+		"verTodosProyectos": "View all projects",
+		"irAContacto": "Get in touch",
+		"herramientas": "Core tools"
+	},
 	"hero": {
 		"eyebrow": "Data Scientist · Sports Analytics · Valencia",
 		"titlePre": "Turning data into ",

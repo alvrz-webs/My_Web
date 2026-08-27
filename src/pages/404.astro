@@ -1,28 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { localeFromPath, localizedPath } from '../lib/i18n';
+import { getDict } from '../lib/dictionary';
 
-const lang = Astro.url.pathname.startsWith('/en/') ? 'en' : 'es';
-
-const UI = {
-	es: {
-		title: 'Página no encontrada — Mario Álvarez',
-		description: 'La página que buscas no existe o se ha movido.',
-		heading: 'Página no encontrada',
-		text: 'Lo sentimos, la página que buscas no existe o se ha movido.',
-		cta: 'Volver al inicio',
-		home: '/',
-	},
-	en: {
-		title: 'Page not found — Mario Álvarez',
-		description: 'The page you are looking for does not exist or has been moved.',
-		heading: 'Page not found',
-		text: "Sorry, the page you're looking for doesn't exist or has been moved.",
-		cta: 'Back to home',
-		home: '/en',
-	},
-} as const;
-
-const t = UI[lang];
+const lang = localeFromPath(Astro.url.pathname);
+const t = getDict(lang, '404') as any;
+const home = localizedPath('/', lang);
 ---
 
 <Layout title={t.title} description={t.description} lang={lang} noindex={true}>

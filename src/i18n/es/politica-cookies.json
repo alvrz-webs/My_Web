@@ -1,4 +1,10 @@
 {
+	"meta": {
+		"title": "Política de Cookies — Mario Álvarez",
+		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
+		"eyebrow": "Legal",
+		"heading": "Política de Cookies"
+	},
 	"bloques": [
 		{
 			"tipo": "parrafo",

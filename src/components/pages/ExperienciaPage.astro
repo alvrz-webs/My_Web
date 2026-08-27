@@ -2,8 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
 import { localizedPath, type Locale } from '../../lib/i18n';
-import experienciaEs from '../../data/experiencia.json';
-import experienciaEn from '../../data/en/experiencia.json';
+import { getDict } from '../../lib/dictionary';
 
 interface Props {
 	lang?: Locale;
@@ -11,32 +10,8 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const experiencia = lang === 'en' ? experienciaEn : experienciaEs;
-const datosItems = experiencia.datos;
-const deporteItems = experiencia.deporte;
-
-const UI = {
-	es: {
-		title: 'Experiencia — Mario Álvarez',
-		description:
-			'Dos mundos, un mismo lenguaje: el rendimiento. Experiencia de Mario Álvarez en datos e ingeniería, y en ciclismo de élite.',
-		eyebrow: 'Experiencia',
-		heading: 'Dos mundos, un mismo lenguaje: el rendimiento',
-		colDatos: 'Datos & Tecnología',
-		colDeporte: 'Deporte de élite',
-	},
-	en: {
-		title: 'Experience — Mario Álvarez',
-		description:
-			'Two worlds, one language: performance. Mario Álvarez’s experience in data and engineering, and in elite cycling.',
-		eyebrow: 'Experience',
-		heading: 'Two worlds, one language: performance',
-		colDatos: 'Data & Technology',
-		colDeporte: 'Elite sport',
-	},
-} as const;
-
-const t = UI[lang];
+const experiencia = getDict(lang, 'experiencia') as any;
+const { datos: datosItems, deporte: deporteItems, meta: t } = experiencia;
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>

@@ -2,7 +2,8 @@
 import '../styles/global.css';
 import SocialLinks from '../components/SocialLinks.astro';
 import CookieBanner from '../components/CookieBanner.astro';
-import { type Locale, localizedPath, alternatePath, strings } from '../lib/i18n';
+import { type Locale, LOCALES, localizedPath, basePath, isRtl } from '../lib/i18n';
+import { getDict } from '../lib/dictionary';
 import { IDIOMAS } from '../data/idiomas.js';
 import sunIcon from 'lucide-static/icons/sun.svg?raw';
 import moonIcon from 'lucide-static/icons/moon.svg?raw';
@@ -24,16 +25,18 @@ const {
 	panelPrivado = false,
 } = Astro.props;
 
-const t = strings[lang];
+const t = getDict(lang, 'common') as any;
+const dir = isRtl(lang) ? 'rtl' : 'ltr';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const socialImageURL = new URL('/og-card.png?v=1', Astro.site);
 const socialImageAlt = 'Mario Álvarez — científico de datos especializado en analítica deportiva';
 
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
-const otherLocalePath = alternatePath(currentPath);
-const pathES = lang === 'es' ? currentPath : otherLocalePath;
-const pathEN = lang === 'en' ? currentPath : otherLocalePath;
+const rutaBase = basePath(currentPath);
+const hreflangs = LOCALES.map((locale) => ({ locale, href: new URL(localizedPath(rutaBase, locale), Astro.site) }));
+const pathES = localizedPath(rutaBase, 'es');
+const pathEN = localizedPath(rutaBase, 'en');
 
 const navLinks = [
 	{ href: localizedPath('/sobre-mi', lang), label: t.nav.sobreMi },
@@ -55,11 +58,8 @@ const personSchema = {
 	'@context': 'https://schema.org',
 	'@type': 'Person',
 	name: 'Mario Álvarez',
-	jobTitle: lang === 'en' ? 'Data Scientist' : 'Científico de datos',
-	description:
-		lang === 'en'
-			? 'Data scientist specialized in sports analytics, with experience within professional cycling.'
-			: 'Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional.',
+	jobTitle: t.person.jobTitle,
+	description: t.person.description,
 	url: 'https://marioalvarez.me',
 	image: 'https://marioalvarez.me/mario.webp',
 	alumniOf: {
@@ -76,7 +76,7 @@ const personSchema = {
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={dir}>
 	<head>
 		<meta charset="utf-8" />
 		{!panelPrivado && (
@@ -97,8 +97,7 @@ const personSchema = {
 		<meta name="description" content={description} />
 		{noindex && <meta name="robots" content="noindex,nofollow" />}
 		<link rel="canonical" href={canonicalURL} />
-		<link rel="alternate" hreflang="es" href={new URL(pathES, Astro.site)} />
-		<link rel="alternate" hreflang="en" href={new URL(pathEN, Astro.site)} />
+		{hreflangs.map(({ locale, href }) => <link rel="alternate" hreflang={locale} href={href} />)}
 		<link rel="alternate" hreflang="x-default" href={new URL(pathES, Astro.site)} />
 
 		<meta property="og:type" content="website" />
@@ -152,7 +151,7 @@ const personSchema = {
 					</nav>
 
 					<div class="nav-actions">
-						<div class="lang-switch" aria-label={t.langSwitch.label} data-no-traducir>
+						<div class="lang-switch" aria-label={t.langSwitch.label}>
 							<div class="lang-selector">
 								<button
 									type="button"
@@ -162,11 +161,8 @@ const personSchema = {
 									aria-expanded="false"
 									aria-controls="lang-menu"
 									aria-label={t.langSwitch.traducir}
-									data-texto-error={t.langSwitch.error}
-									data-texto-parcial={t.langSwitch.parcial}
 								>
 									<span class="lang-globe-icon" set:html={globeIcon} />
-									<span class="lang-globe-badge" hidden></span>
 								</button>
 
 								<div id="lang-menu" class="lang-menu" role="listbox" aria-label={t.langSwitch.traducir} hidden>
@@ -179,31 +175,19 @@ const personSchema = {
 										/>
 									</div>
 									<ul class="lang-menu-lista">
-										<li>
-											<button
-												type="button"
-												role="option"
-												class="lang-menu-opcion lang-menu-original"
-												data-lang="__original__"
-												aria-selected="true"
-											>
-												{t.langSwitch.original}
-											</button>
-										</li>
 										{
 											IDIOMAS.map((idioma) => (
 												<li>
-													<button
-														type="button"
+													<a
 														role="option"
-														class="lang-menu-opcion"
-														data-lang={idioma.codigo}
-														aria-selected="false"
+														class:list={['lang-menu-opcion', { 'is-selected': lang === idioma.codigo }]}
+														href={localizedPath(rutaBase, idioma.codigo as Locale)}
+														aria-selected={lang === idioma.codigo ? 'true' : 'false'}
 														data-busqueda={`${idioma.nombre} ${idioma.nombreEs} ${idioma.codigo}`.toLowerCase()}
 													>
 														<span class="lang-menu-nombre">{idioma.nombre}</span>
 														<span class="lang-menu-codigo">{idioma.codigo.toUpperCase()}</span>
-													</button>
+													</a>
 												</li>
 											))
 										}
@@ -214,11 +198,11 @@ const personSchema = {
 							<span class="lang-switch-divisor" aria-hidden="true"></span>
 
 							<a href={pathES} aria-current={lang === 'es' ? 'true' : undefined}>
-								{t.langSwitch.es}
+								ES
 							</a>
 							<span aria-hidden="true">·</span>
 							<a href={pathEN} aria-current={lang === 'en' ? 'true' : undefined}>
-								{t.langSwitch.en}
+								EN
 							</a>
 						</div>
 						<button type="button" id="btn-tema" class="btn-tema" aria-label="Cambiar entre modo claro y oscuro">
@@ -264,7 +248,7 @@ const personSchema = {
 					</div>
 				</div>
 				<div class="container">
-					<p class="footer-copy text-dim">{t.footer.copy(new Date().getFullYear())}</p>
+					<p class="footer-copy text-dim">© {new Date().getFullYear()} {t.footer.copySufijo}</p>
 				</div>
 			</footer>
 		)}
@@ -334,7 +318,7 @@ const personSchema = {
 		</script>
 
 		<script>
-			import '../scripts/traduccion.js';
+			import '../scripts/lang-menu.js';
 		</script>
 	</body>
 </html>
@@ -474,8 +458,7 @@ const personSchema = {
 		transition: color var(--transition-fast);
 	}
 
-	.lang-globe-btn:hover,
-	.lang-globe-btn.is-active {
+	.lang-globe-btn:hover {
 		color: var(--color-blue);
 	}
 
@@ -484,25 +467,6 @@ const personSchema = {
 		height: 16px;
 		stroke: currentColor;
 		display: block;
-	}
-
-	.lang-globe-btn.is-loading .lang-globe-icon svg {
-		animation: lang-globe-spin 0.9s linear infinite;
-	}
-
-	@keyframes lang-globe-spin {
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
-	.lang-globe-badge {
-		font-size: 0.7rem;
-		font-weight: 600;
-		color: var(--color-blue);
-		background: rgba(56, 189, 248, 0.14);
-		padding: 0.1rem 0.4rem;
-		border-radius: 999px;
 	}
 
 	.lang-menu {
@@ -566,19 +530,13 @@ const personSchema = {
 		font-size: 0.85rem;
 		color: var(--color-text);
 		text-align: left;
+		text-decoration: none;
 		cursor: pointer;
 		transition: background var(--transition-fast);
 	}
 
 	.lang-menu-opcion:hover {
 		background: rgba(56, 189, 248, 0.1);
-	}
-
-	.lang-menu-original {
-		font-weight: 600;
-		border-bottom: 1px solid var(--color-border);
-		border-radius: 0;
-		margin-block-end: 0.3rem;
 	}
 
 	.lang-menu-codigo {
@@ -595,27 +553,6 @@ const personSchema = {
 
 	.lang-menu-opcion.is-selected .lang-menu-codigo {
 		color: var(--color-blue);
-	}
-
-	.lang-aviso {
-		position: absolute;
-		top: calc(100% + 10px);
-		right: 0;
-		width: 240px;
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 10px;
-		padding: 0.6rem 0.85rem;
-		font-family: var(--font-body);
-		font-size: 0.8rem;
-		line-height: 1.4;
-		color: var(--color-text);
-		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
-		z-index: 200;
-	}
-
-	.lang-aviso[hidden] {
-		display: none;
 	}
 
 	.btn-tema {

@@ -1,4 +1,14 @@
 {
+	"meta": {
+		"title": "Mario Álvarez — Científico de datos especializado en deporte",
+		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
+		"verProyectos": "Ver proyectos",
+		"contacto": "Contacto",
+		"verMas": "Ver más",
+		"verTodosProyectos": "Ver todos los proyectos",
+		"irAContacto": "Ir a contacto",
+		"herramientas": "Herramientas principales"
+	},
 	"hero": {
 		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
 		"titlePre": "Convierto datos en ",

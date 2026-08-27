@@ -1,122 +1,89 @@
-export const LOCALES = ['es', 'en'] as const;
+import { IDIOMAS } from '../data/idiomas.js';
+
+// Lista maestra de locales servidos como páginas estáticas reales. Debe mantenerse en sync con
+// los códigos de src/data/idiomas.js (que además aporta el nombre nativo para el selector). Se
+// duplica aquí como tupla literal para conservar el tipo `Locale` como unión de strings.
+export const LOCALES = [
+	'es',
+	'en',
+	'fr', 'de', 'it', 'pt', 'ca', 'eu', 'gl', 'nl', 'sv', 'no', 'da', 'fi', 'is',
+	'pl', 'cs', 'sk', 'hu', 'ro', 'bg', 'el', 'ru', 'uk', 'hr', 'sr', 'sl', 'lt', 'lv', 'et',
+	'tr', 'ar', 'he', 'fa', 'ur', 'hi', 'bn', 'pa', 'gu', 'mr', 'ta', 'te', 'kn', 'ml', 'ne',
+	'si', 'th', 'vi', 'id', 'ms', 'tl', 'my', 'km', 'lo', 'zh', 'ja', 'ko', 'sw', 'am', 'af',
+	'az', 'ka', 'hy', 'ga',
+] as const;
+
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = 'es';
 
+/** Los 62 locales servidos como rutas dinámicas nuevas (todo LOCALES salvo es/en, que ya tienen sus .astro propios). */
+export const NEW_LOCALES = LOCALES.filter((l): l is Exclude<Locale, 'es' | 'en'> => l !== 'es' && l !== 'en');
+
+/** Locales que se renderizan de derecha a izquierda. */
+export const RTL_LOCALES: readonly Locale[] = ['ar', 'he', 'fa', 'ur'];
+export const isRtl = (lang: Locale): boolean => (RTL_LOCALES as readonly string[]).includes(lang);
+
 /**
- * Rutas cuyo slug no sigue el patrón simétrico /foo <-> /en/foo (por ejemplo, páginas legales
- * con un slug distinto y más natural en cada idioma). Formato: [ruta en es, ruta en en].
+ * Rutas cuyo slug no sigue el patrón simétrico /foo <-> /en/foo (páginas legales con un slug
+ * distinto y más natural en cada idioma). Formato: [ruta en es, ruta en en]. Solo EN tiene slugs
+ * localizados a mano; el resto de idiomas usan el slug español bajo su prefijo.
  */
-const RUTAS_ASIMETRICAS: [es: string, en: string][] = [
+const RUTAS_ASIMETRICAS_EN: [es: string, en: string][] = [
 	['/politica-de-privacidad', '/en/privacy-policy'],
 	['/politica-de-cookies', '/en/cookie-policy'],
 ];
 
-/** Antepone /en a una ruta en español cuando el idioma no es el por defecto. */
+/** Antepone /{lang} a una ruta en español cuando el idioma no es el por defecto. */
 export function localizedPath(path: string, lang: Locale): string {
 	if (lang === DEFAULT_LOCALE) return path;
-	const excepcion = RUTAS_ASIMETRICAS.find(([es]) => es === path);
-	if (excepcion) return excepcion[1];
-	return path === '/' ? '/en' : `/en${path}`;
+	if (lang === 'en') {
+		const excepcion = RUTAS_ASIMETRICAS_EN.find(([es]) => es === path);
+		if (excepcion) return excepcion[1];
+	}
+	return path === '/' ? `/${lang}` : `/${lang}${path}`;
 }
 
-/** Dada la ruta actual (con o sin /en), devuelve la misma ruta en el otro idioma. */
-export function alternatePath(pathname: string): string {
+/** Dada una ruta ya localizada, devuelve su equivalente en español (sin prefijo de idioma). */
+export function basePath(pathname: string): string {
 	const clean = pathname.replace(/\/$/, '') || '/';
 
-	const porRutaEn = RUTAS_ASIMETRICAS.find(([, en]) => en === clean);
+	const porRutaEn = RUTAS_ASIMETRICAS_EN.find(([, en]) => en === clean);
 	if (porRutaEn) return porRutaEn[0];
-
-	const porRutaEs = RUTAS_ASIMETRICAS.find(([es]) => es === clean);
-	if (porRutaEs) return porRutaEs[1];
 
 	if (clean === '/en' || clean.startsWith('/en/')) {
 		const sinPrefijo = clean.slice(3);
 		return sinPrefijo || '/';
 	}
-	return localizedPath(clean, 'en');
+
+	for (const lang of LOCALES) {
+		if (lang === 'es' || lang === 'en') continue;
+		const prefijo = `/${lang}`;
+		if (clean === prefijo || clean.startsWith(`${prefijo}/`)) {
+			const sinPrefijo = clean.slice(prefijo.length);
+			return sinPrefijo || '/';
+		}
+	}
+
+	return clean;
+}
+
+/** Dada la ruta actual, devuelve la misma ruta en el idioma indicado. */
+export function pathForLocale(pathname: string, lang: Locale): string {
+	return localizedPath(basePath(pathname), lang);
 }
 
 /** Idioma actual a partir de la ruta. */
 export function localeFromPath(pathname: string): Locale {
 	const clean = pathname.replace(/\/$/, '') || '/';
-	return clean === '/en' || clean.startsWith('/en/') ? 'en' : 'es';
+	if (clean === '/en' || clean.startsWith('/en/')) return 'en';
+
+	for (const lang of LOCALES) {
+		if (lang === 'es' || lang === 'en') continue;
+		const prefijo = `/${lang}`;
+		if (clean === prefijo || clean.startsWith(`${prefijo}/`)) return lang;
+	}
+
+	return 'es';
 }
 
-export const strings = {
-	es: {
-		nav: {
-			sobreMi: 'Sobre mí',
-			proyectos: 'Proyectos',
-			experiencia: 'Experiencia',
-			contacto: 'Contacto',
-			ariaMain: 'Navegación principal',
-			openMenu: 'Abrir menú',
-		},
-		footer: {
-			tagline: 'Data · Sport · Progress',
-			copy: (year: number) => `© ${year} Mario Álvarez. Valencia.`,
-			ariaSocial: 'Redes sociales',
-		},
-		langSwitch: {
-			es: 'ES',
-			en: 'EN',
-			label: 'Cambiar idioma',
-			traducir: 'Traducir página',
-			buscar: 'Buscar idioma…',
-			original: 'Original',
-			error: 'No se pudo traducir la página. Inténtalo de nuevo en un momento.',
-			parcial: 'Traducción parcial: parte del texto sigue en el idioma original.',
-		},
-		cookies: {
-			texto: 'Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.',
-			politica: 'Política de cookies',
-			aceptar: 'Aceptar',
-			rechazar: 'Rechazar',
-			configurar: 'Configurar cookies',
-			borrarDatos: 'Borrar mis datos',
-			ariaBanner: 'Consentimiento de cookies',
-		},
-		legal: {
-			privacidad: 'Política de privacidad',
-			cookies: 'Política de cookies',
-		},
-	},
-	en: {
-		nav: {
-			sobreMi: 'About',
-			proyectos: 'Projects',
-			experiencia: 'Experience',
-			contacto: 'Contact',
-			ariaMain: 'Main navigation',
-			openMenu: 'Open menu',
-		},
-		footer: {
-			tagline: 'Data · Sport · Progress',
-			copy: (year: number) => `© ${year} Mario Álvarez. Valencia, Spain.`,
-			ariaSocial: 'Social media',
-		},
-		langSwitch: {
-			es: 'ES',
-			en: 'EN',
-			label: 'Switch language',
-			traducir: 'Translate page',
-			buscar: 'Search language…',
-			original: 'Original',
-			error: "Couldn't translate the page. Please try again in a moment.",
-			parcial: "Partial translation: some text is still in the original language.",
-		},
-		cookies: {
-			texto: "We use first-party cookies for anonymous analytics and to improve your experience. We don't use third-party cookies.",
-			politica: 'Cookie policy',
-			aceptar: 'Accept',
-			rechazar: 'Reject',
-			configurar: 'Cookie settings',
-			borrarDatos: 'Delete my data',
-			ariaBanner: 'Cookie consent',
-		},
-		legal: {
-			privacidad: 'Privacy policy',
-			cookies: 'Cookie policy',
-		},
-	},
-} as const;
+export { IDIOMAS };

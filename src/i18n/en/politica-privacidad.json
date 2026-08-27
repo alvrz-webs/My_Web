@@ -1,10 +1,14 @@
 {
+	"meta": {
+		"title": "Privacy Policy — Mario Álvarez",
+		"description": "Privacy policy for Mario Álvarez's site: what data is collected, for what purpose, and how to exercise your rights.",
+		"eyebrow": "Legal",
+		"heading": "Privacy Policy"
+	},
 	"secciones": [
 		{
 			"titulo": "1. Data controller",
-			"bloques": [
-				{ "tipo": "parrafo", "texto": "Mario Álvarez Martínez, based in Benidorm (Alicante), Spain. Contact: malvmar5@hotmail.com" }
-			]
+			"bloques": [{ "tipo": "parrafo", "texto": "Mario Álvarez Martínez, based in Benidorm (Alicante), Spain. Contact: malvmar5@hotmail.com" }]
 		},
 		{
 			"titulo": "2. Purpose of processing",
@@ -49,10 +53,7 @@
 		{
 			"titulo": "5. Retention period",
 			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Data is kept for a maximum of 12 months from your last visit, after which it is automatically deleted."
-				}
+				{ "tipo": "parrafo", "texto": "Data is kept for a maximum of 12 months from your last visit, after which it is automatically deleted." }
 			]
 		},
 		{
@@ -75,9 +76,7 @@
 		},
 		{
 			"titulo": "8. Changes to this policy",
-			"bloques": [
-				{ "tipo": "parrafo", "texto": "This policy may be updated to reflect legal changes or changes to the site itself." }
-			]
+			"bloques": [{ "tipo": "parrafo", "texto": "This policy may be updated to reflect legal changes or changes to the site itself." }]
 		}
 	]
 }

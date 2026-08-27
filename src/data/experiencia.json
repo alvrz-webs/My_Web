@@ -1,4 +1,12 @@
 {
+	"meta": {
+		"title": "Experiencia — Mario Álvarez",
+		"description": "Dos mundos, un mismo lenguaje: el rendimiento. Experiencia de Mario Álvarez en datos e ingeniería, y en ciclismo de élite.",
+		"eyebrow": "Experiencia",
+		"heading": "Dos mundos, un mismo lenguaje: el rendimiento",
+		"colDatos": "Datos & Tecnología",
+		"colDeporte": "Deporte de élite"
+	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Prácticas de Ciencia de Datos",

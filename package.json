@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "translate": "node scripts/translate.mjs",
     "panel:dev": "astro build && wrangler pages dev dist --compatibility-date=2024-01-01"
   },
   "dependencies": {

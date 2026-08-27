@@ -8,13 +8,18 @@ import path from 'node:path';
 const CACHE_PATH = path.join(process.cwd(), 'src', 'data', 'descripciones-cache.json');
 
 const GITHUB_USER = 'Marioam200';
-const MODEL_NAME = 'gemini-flash-latest';
+const MODEL_NAME = 'gemini-3.5-flash-lite';
 const FALLBACK_DESCRIPTION = {
 	es: 'Proyecto de análisis y ciencia de datos.',
 	en: 'Data analysis and data science project.',
 };
 // Margen prudente por debajo del límite del free tier de Gemini (15 req/min).
 const RATE_LIMIT_DELAY_MS = 4500;
+
+// Se emite como mucho una vez por proceso (en `astro dev` esta función se llama en cada
+// petición a una página con proyectos): repetir el aviso en cada render es ruido, no información
+// nueva.
+let avisoApiKeyEmitido = false;
 
 // Compartido a nivel de módulo (no dentro de obtenerDescripciones) para que el retraso entre
 // llamadas a Gemini se respete entre TODAS las llamadas del build, sin importar el idioma:
@@ -140,7 +145,8 @@ export async function obtenerDescripciones(repos, lang = 'es') {
 	const cache = leerCache();
 	const apiKey = process.env.GEMINI_API_KEY;
 
-	if (!apiKey) {
+	if (!apiKey && !avisoApiKeyEmitido) {
+		avisoApiKeyEmitido = true;
 		console.warn('GEMINI_API_KEY no está definida: se usarán descripciones de la caché o el texto de reserva.');
 	}
 
@@ -148,6 +154,11 @@ export async function obtenerDescripciones(repos, lang = 'es') {
 	const otroLang = lang === 'es' ? 'en' : 'es';
 
 	const descripciones = {};
+	// `src/data/descripciones-cache.json` está dentro de `src/`, que el watcher de Vite vigila
+	// para recargar la página en `astro dev`. Si se reescribiera en cada render aunque el
+	// contenido fuera idéntico, cada recarga volvería a llamar a esta función, que volvería a
+	// escribir el archivo, y así en bucle. Por eso solo se persiste cuando algo cambia de verdad.
+	let huboCambios = false;
 
 	for (const repo of repos) {
 		const entradaCache = normalizarEntrada(cache[repo.name]);
@@ -204,9 +215,10 @@ export async function obtenerDescripciones(repos, lang = 'es') {
 				...(entradaVigente?.[otroLang] ? { [otroLang]: entradaVigente[otroLang] } : {}),
 				[lang]: descripcion,
 			};
+			huboCambios = true;
 		}
 	}
 
-	guardarCache(cache);
+	if (huboCambios) guardarCache(cache);
 	return descripciones;
 }

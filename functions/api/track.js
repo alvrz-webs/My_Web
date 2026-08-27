@@ -1,6 +1,11 @@
 import { json } from './_lib.js';
+import { IDIOMAS } from '../../src/data/idiomas.js';
 
-const IDIOMAS_VALIDOS = new Set(['es', 'en']);
+// es/en tienen ruta propia (no están en idiomas.js, ver src/lib/i18n.ts); el resto son las
+// páginas estáticas reales de /{lang}/... generadas por src/pages/[lang]/. Se importa la lista
+// en vez de duplicarla a mano para que un idioma nuevo en el selector quede válido aquí sin
+// tocar este archivo.
+const IDIOMAS_VALIDOS = new Set(['es', 'en', ...IDIOMAS.map((idioma) => idioma.codigo)]);
 const DISPOSITIVOS_VALIDOS = new Set(['movil', 'escritorio']);
 
 function esEventoValido(evento) {

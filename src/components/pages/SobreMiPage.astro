@@ -2,8 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
 import { type Locale } from '../../lib/i18n';
-import sobreMiEs from '../../data/sobre-mi.json';
-import sobreMiEn from '../../data/en/sobre-mi.json';
+import { getDict } from '../../lib/dictionary';
 
 interface Props {
 	lang?: Locale;
@@ -11,27 +10,8 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const sobreMi = lang === 'en' ? sobreMiEn : sobreMiEs;
-const { bio, facts } = sobreMi;
-
-const UI = {
-	es: {
-		title: 'Sobre mí — Mario Álvarez',
-		description:
-			'De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.',
-		eyebrow: 'Sobre mí',
-		heading: 'Del velódromo a los datos',
-	},
-	en: {
-		title: 'About me — Mario Álvarez',
-		description:
-			'From Spanish madison champion to Data Science student: Mario Álvarez’s journey between elite cycling and sports analytics.',
-		eyebrow: 'About me',
-		heading: 'From the velodrome to data',
-	},
-} as const;
-
-const t = UI[lang];
+const sobreMi = getDict(lang, 'sobre-mi') as any;
+const { bio, facts, meta: t } = sobreMi;
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>

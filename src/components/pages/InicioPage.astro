@@ -2,8 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Proyectos from '../Proyectos.astro';
 import { localizedPath, type Locale } from '../../lib/i18n';
-import inicioEs from '../../data/inicio.json';
-import inicioEn from '../../data/en/inicio.json';
+import { getDict } from '../../lib/dictionary';
 
 interface Props {
 	lang?: Locale;
@@ -11,35 +10,8 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const inicio = lang === 'en' ? inicioEn : inicioEs;
-const { hero, sobreMiResumen, stats, experienciaResumen, ctaFinal } = inicio;
-
-const UI = {
-	es: {
-		title: 'Mario Álvarez — Científico de datos especializado en deporte',
-		description:
-			'Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.',
-		verProyectos: 'Ver proyectos',
-		contacto: 'Contacto',
-		verMas: 'Ver más',
-		verTodosProyectos: 'Ver todos los proyectos',
-		irAContacto: 'Ir a contacto',
-		herramientas: 'Herramientas principales',
-	},
-	en: {
-		title: 'Mario Álvarez — Data scientist specialized in sport',
-		description:
-			'Mario Álvarez, data scientist in Valencia specialized in sports analytics. Data · Sport · Progress.',
-		verProyectos: 'View projects',
-		contacto: 'Contact',
-		verMas: 'Learn more',
-		verTodosProyectos: 'View all projects',
-		irAContacto: 'Get in touch',
-		herramientas: 'Core tools',
-	},
-} as const;
-
-const t = UI[lang];
+const inicio = getDict(lang, 'inicio') as any;
+const { hero, sobreMiResumen, stats, experienciaResumen, ctaFinal, meta: t } = inicio;
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>

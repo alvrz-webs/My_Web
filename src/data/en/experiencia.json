@@ -1,4 +1,12 @@
 {
+	"meta": {
+		"title": "Experience — Mario Álvarez",
+		"description": "Two worlds, one language: performance. Mario Álvarez’s experience in data and engineering, and in elite cycling.",
+		"eyebrow": "Experience",
+		"heading": "Two worlds, one language: performance",
+		"colDatos": "Data & Technology",
+		"colDeporte": "Elite sport"
+	},
 	"datos": [
 		{
 			"title": "SIME Telecom — Data Science Internship",
