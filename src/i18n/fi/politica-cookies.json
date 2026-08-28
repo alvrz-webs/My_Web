@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Evästekäytäntö — Mario Álvarez",
+		"description": "Mitä evästeitä tämä sivusto käyttää, mihin tarkoitukseen ja miten voit muuttaa suostumustasi milloin tahansa.",
+		"eyebrow": "Oikeudelliset tiedot",
+		"heading": "Evästekäytäntö"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Tämä verkkosivusto käyttää evästeitä ja vastaavia tekniikoita (kuten selaimen paikallista tallennustilaa) asianmukaiseen toimintaansa ja, jos annat suostumuksesi, sisällön käytön nimettömään analysointiin."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Käytetyt evästeet:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nimi",
+				"Tarkoitus",
+				"Tyyppi",
+				"Kesto"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Muistaa valintasi koskien tätä evästekäytäntöä",
+					"Ensimmäisen osapuolen tekninen (vapautettu suostumuksesta)",
+					"12 kuukautta"
+				],
+				[
+					"visitante_id",
+					"Nimetön tunniste käyntiesi yhdistämiseen ja sen selvittämiseen, mikä sisältö on hyödyllistä",
+					"Ensimmäisen osapuolen analyyttinen (vaatii suostumuksesi)",
+					"12 kuukautta"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Mikään näistä evästeistä ei ole kolmannen osapuolen eväste, mitään niistä ei käytetä mainontatarkoituksiin eikä mitään niistä jaeta tämän sivuston ulkopuolisten tahojen kanssa."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Voit muuttaa päätöstäsi tai peruuttaa suostumuksesi milloin tahansa sivuston alatunnisteen \"Määritä evästeet\" -linkistä ja poistaa kaikki tietosi välittömästi saman paneelin \"Poista tietoni\" -painikkeella."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Lisätietoja tietojesi käsittelystä saat tietosuojakäytännöstä."
+		}
+	]
+}

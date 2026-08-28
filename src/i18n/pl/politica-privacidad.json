@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Polityka prywatności — Mario Álvarez",
+		"description": "Polityka prywatności strony Mario Álvarez: jakie dane są zbierane, w jakim celu i jak można skorzystać ze swoich praw.",
+		"eyebrow": "Legal",
+		"heading": "Polityka prywatności"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Administrator danych",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, z siedzibą w Benidormie (Alicante), Hiszpania. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Cel przetwarzania",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ta strona analizuje wewnętrznie i wyłącznie w celach statystycznych, które treści (sekcje, projekty) są najbardziej użyteczne dla osób ją odwiedzających, w celu poprawy jej zawartości. Nie jest wykorzystywana do celów reklamowych, nie jest udostępniana osobom trzecim ani sprzedawana w żadnych okolicznościach."
+				}
+			]
+		},
+		{
+			"titulo": "3. Zbierane dane (tylko w przypadku wyrażenia zgody na pliki cookie analityczne)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Losowy, anonimowy identyfikator, niepowiązany z Twoim imieniem i nazwiskiem, adresem e-mail ani żadnymi innymi informacjami identyfikującymi Cię bezpośrednio.",
+						"Odwiedzane strony i projekty oraz czas uwagi poświęcony każdej z nich (gdy karta jest aktywna).",
+						"Interakcje (kliknięcia w projekty, linki lub przyciski).",
+						"Data i godzina wizyty.",
+						"Język przeglądanej strony.",
+						"Typ urządzenia (telefon komórkowy lub komputer stacjonarny).",
+						"Przybliżony kraj, uzyskiwany za pośrednictwem infrastruktury Cloudflare, bez przechowywania adresu IP.",
+						"Strona źródłowa (na przykład LinkedIn lub wyszukiwarka)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Twój adres IP nie jest zbierany, nie stosuje się technik identyfikacji przeglądarki (fingerprinting) ani narzędzi firm trzecich, takich jak Google Analytics czy podobne."
+				}
+			]
+		},
+		{
+			"titulo": "4. Podstawa prawna",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Przetwarzanie odbywa się na podstawie Twojej wyraźnej zgody (art. 6 ust. 1 lit. a RODO oraz art. 22 ust. 2 hiszpańskiej ustawy LSSI-CE), którą możesz wycofać w dowolnym momencie za pomocą menedżera plików cookie na stronie."
+				}
+			]
+		},
+		{
+			"titulo": "5. Okres przechowywania",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dane są przechowywane maksymalnie przez 12 miesięcy od ostatniej wizyty, po czym są automatycznie usuwane."
+				}
+			]
+		},
+		{
+			"titulo": "6. Odbiorcy i transfery międzynarodowe",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dane nie są przekazywane ani sprzedawane osobom trzecim. Są przechowywane w Cloudflare D1, usłudze bazy danych świadczonej przez Cloudflare, Inc., która działa jako podmiot przetwarzający. Cloudflare może przetwarzać dane poza Europejskim Obszarem Gospodarczym; w takim przypadku przekazanie to opiera się na standardowych klauzulach umownych zatwierdzonych przez Komisję Europejską. Więcej informacji w polityce prywatności Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Twoje prawa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Możesz w dowolnym momencie skorzystać ze swoich praw do dostępu, sprostowania, usunięcia, sprzeciwu, ograniczenia przetwarzania oraz przenoszenia danych, pisząc na adres malvmar5@hotmail.com. Ponadto możesz natychmiast usunąć swoje dane, bez konieczności pisania do kogokolwiek, za pomocą przycisku \"Usuń moje dane\" dostępnego w ustawieniach plików cookie na stronie. Masz również prawo wnieść skargę do Hiszpańskiej Agencji Ochrony Danych (www.aepd.es), jeśli uważasz, że Twoje prawa nie zostały potraktowane właściwie."
+				}
+			]
+		},
+		{
+			"titulo": "8. Zmiany w niniejszej polityce",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Niniejsza polityka może zostać zaktualizowana w celu dostosowania jej do zmian prawnych lub zmian na samej stronie."
+				}
+			]
+		}
+	]
+}

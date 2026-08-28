@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Datenschutzbestimmungen — Mario Álvarez",
+		"description": "Datenschutzbestimmungen der Website von Mario Álvarez: Welche Daten erfasst werden, zu welchem Zweck und wie Sie Ihre Rechte ausüben können.",
+		"eyebrow": "Rechtliches",
+		"heading": "Datenschutzbestimmungen"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Verantwortlicher für die Datenverarbeitung",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, mit Sitz in Benidorm (Alicante), Spanien. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Zweck der Verarbeitung",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Diese Website analysiert intern und ausschließlich zu statistischen Zwecken, welche Inhalte (Bereiche, Projekte) für die Besucher am nützlichsten sind, um deren Inhalt zu verbessern. Sie wird nicht für Werbezwecke verwendet, nicht an Dritte weitergegeben und unter keinen Umständen verkauft."
+				}
+			]
+		},
+		{
+			"titulo": "3. Erfasste Daten (nur wenn Sie den Analyse-Cookies zustimmen)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Eine anonyme, zufällige Kennung, die weder mit Ihrem Namen, Ihrer E-Mail-Adresse noch mit anderen Informationen verknüpft ist, die Sie direkt identifizieren.",
+						"Besuchte Seiten und Projekte sowie die Verweildauer auf den einzelnen Seiten (während der Tab aktiv ist).",
+						"Interaktionen (Klicks auf Projekte, Links oder Schaltflächen).",
+						"Datum und Uhrzeit des Besuchs.",
+						"Sprache der aufgerufenen Website.",
+						"Gerätetyp (Mobilgerät oder Desktop).",
+						"Ungefähres Land, ermittelt über die Infrastruktur von Cloudflare, ohne Speicherung Ihrer IP-Adresse.",
+						"Herkunftsseite (z. B. LinkedIn oder eine Suchmaschine)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ihre IP-Adresse wird nicht erfasst, es werden keine Browser-Fingerprinting-Techniken oder Tools von Drittanbietern wie Google Analytics oder ähnliche verwendet."
+				}
+			]
+		},
+		{
+			"titulo": "4. Rechtsgrundlage",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die Verarbeitung basiert auf Ihrer ausdrücklichen Einwilligung (Artikel 6 Absatz 1 Buchstabe a DSGVO und Artikel 22 Absatz 2 LSSI-CE), die Sie jederzeit über den Cookie-Manager der Website widerrufen können."
+				}
+			]
+		},
+		{
+			"titulo": "5. Aufbewahrungsfrist",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die Daten werden maximal 12 Monate ab Ihrem letzten Besuch aufbewahrt und danach automatisch gelöscht."
+				}
+			]
+		},
+		{
+			"titulo": "6. Empfänger und internationale Übermittlungen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die Daten werden nicht an Dritte weitergegeben oder verkauft. Sie werden in Cloudflare D1 gespeichert, einem Datenbankdienst von Cloudflare, Inc., der als Auftragsverarbeiter fungiert. Cloudflare kann Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten; in diesem Fall stützt sich diese Übermittlung auf die von der Europäischen Kommission genehmigten Standardvertragsklauseln. Weitere Informationen in den Datenschutzbestimmungen von Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Ihre Rechte",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sie können Ihre Rechte auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung der Verarbeitung und Datenübertragbarkeit jederzeit durch eine E-Mail an malvmar5@hotmail.com ausüben. Darüber hinaus können Sie Ihre Daten sofort und ohne Kontaktaufnahme über die Schaltfläche „Meine Daten löschen“ in den Cookie-Einstellungen der Website löschen. Sie haben auch das Recht, eine Beschwerde bei der zuständigen Datenschutzbehörde einzureichen, wenn Sie der Ansicht sind, dass Ihre Rechte nicht ordnungsgemäß behandelt wurden."
+				}
+			]
+		},
+		{
+			"titulo": "8. Änderungen dieser Richtlinie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Diese Richtlinie kann aktualisiert werden, um sie an rechtliche Änderungen oder Änderungen der Website selbst anzupassen."
+				}
+			]
+		}
+	]
+}

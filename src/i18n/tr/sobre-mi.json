@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Hakkımda — Mario Álvarez",
+		"description": "İspanya madison şampiyonluğundan Veri Bilimi öğrenciliğine: Mario Álvarez'in elit bisiklet sporu ile spor analitiği arasındaki kariyer yolculuğu.",
+		"eyebrow": "Hakkımda",
+		"heading": "Velodromdan verilere"
+	},
+	"bio": [
+		"Yarışarak başladım. 18 yaşında İspanya pist madison şampiyonu oldum ve İspanya Bisiklet Milli Takımı beni Dünya ve Avrupa Şampiyonalarına çağırdı; her ikisinde de altıncı olarak elit sporcu statüsü kazandım.",
+		"Oradan Veri Bilimi'ne geçiş yaptım: bugün Universitat Politècnica de València'da, spora uygulanan dijitalleşme ve teknoloji odaklı 3. sınıf lisans eğitimime devam ediyorum.",
+		"Benim fark yaratan değerim bu köprüdür: Üst düzey performansı içeriden yaşadım — bir yarışmacı, tabandaki bir sportif direktör ve profesyonel bisikletçilerin masörü olarak — ve arkasındaki verileri okumayı biliyorum. Bir sayının bir sporcu için ne anlama geldiğini anlıyorum, çünkü o sporcu ben oldum. Performansı artıran verilere dönüştürmek için iki dünyayı birleştiriyorum.",
+		"Ayrıca, elit sporcu statüm sayesinde, bisikletin ötesinde spor ekosisteminin tamamına odaklanmamı genişleten ve halihazırda tamamladığım Sporda Dijitalleşme, İnovasyon ve Teknoloji Yüksek Lisansını okumak için bir burs kazandım."
+	],
+	"facts": [
+		{
+			"label": "Üs",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Durum",
+			"value": "Projelere açığım"
+		},
+		{
+			"label": "Odak",
+			"value": "Veri + spor performansı"
+		},
+		{
+			"label": "Diller",
+			"value": "Ana dil İspanyolca · Valensiyaca · İngilizce B1"
+		},
+		{
+			"label": "Eğitim",
+			"value": "Veri Bilimi Lisans (UPV) · Sporda Dijitalleşme, İnovasyon ve Teknoloji Yüksek Lisansı"
+		}
+	]
+}

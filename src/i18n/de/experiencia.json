@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Erfahrung — Mario Álvarez",
+		"description": "Zwei Welten, dieselbe Sprache: Leistung. Die Erfahrung von Mario Álvarez in den Bereichen Daten und Engineering sowie im Spitzensport.",
+		"eyebrow": "Erfahrung",
+		"heading": "Zwei Welten, dieselbe Sprache: Leistung",
+		"colDatos": "Daten & Technologie",
+		"colDeporte": "Spitzensport"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Praktikum in Data Science",
+			"meta": "Data Engineering · Benidorm · 2026",
+			"paragraphs": [
+				"SIME entwickelt Management-Software (Reservierungen, Abrechnung, Berichte, Gastronomiebestellungen), die Hunderte von Kunden von einem zentralen System aus bedient, basierend auf einer Datenbank mit über 580 miteinander verknüpften Tabellen und über 100 Millionen Datensätzen. Das Wachstum hatte dazu gezwungen, Kunden auf mehrere Datenbanken aufzuteilen, um die Last und Beschwerden über Langsamkeit zu verringern.",
+				"Meine Aufgabe: Analyse dieser Datenbanken und Entwurf der Zusammenführung aller Daten in eine einzige effiziente Datenbank durch Abfrage- und Indexoptimierung, ohne die Hardware (RAM/CPU) nennenswert skalieren zu müssen. Diese Verbesserung wurde bereits entwickelt und befindet sich in der Validierungsphase auf einem Testserver."
+			]
+		},
+		{
+			"title": "Projekte mit dem Team Cofidis (World Tour)",
+			"meta": "Python · Sommer 2025",
+			"paragraphs": [
+				"Eigenes Projekt, das ich als Test für den Einstieg in die Datenanalyse im professionellen Radsport durchgeführt habe:"
+			],
+			"list": [
+				"UCI-Schwierigkeitsanalysator: Bestimmt durch Web Scraping der UCI-Rangliste die Fahrer des Teams und schätzt das Schwierigkeitsgrad ein, um je nach Kader UCI-Punkte zu sammeln.",
+				"Rennprofil-Prädiktor: Antizipiert die Merkmale jedes Rennens und weist ihm eine Schwierigkeitsnote zu, um Ziele und Strategie zu planen."
+			]
+		},
+		{
+			"title": "Akademische und persönliche Projekte",
+			"meta": "Analyse, Visualisierung und Machine Learning",
+			"paragraphs": [
+				"Eigene Arbeiten zu Datenanalyse, Visualisierung und Machine Learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Projekte ansehen"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Wettkampf",
+			"paragraphs": [
+				"Spanischer Meister im Madison (18 Jahre); Welt- und Europameisterschaften auf der Bahn mit der spanischen Nationalmannschaft (6. Platz bei beiden); Spitzensportler; lizenzierter, aktiver Bahnradfahrer."
+			]
+		},
+		{
+			"title": "Sportliche Leitung",
+			"paragraphs": [
+				"Sportdirektor Level I und II (RFEC); Training und Betreuung von Nachwuchsradfahrern (14–18) zusammen mit meinem Vater; Betreuer bei der Auswahl der Region Valencia bei Wettkämpfen (2026)."
+			]
+		},
+		{
+			"title": "Sportmassage und technisches Personal",
+			"meta": "Sommer 2025",
+			"paragraphs": [
+				"Zertifizierter Sportmasseur; Masseur von Profi-Radfahrern; Personal bei der Auswahl der Region Valencia, bei einem philippinischen Continental-Team und bei Radfahrern auf privater Basis in Benidorm."
+			]
+		}
+	]
+}

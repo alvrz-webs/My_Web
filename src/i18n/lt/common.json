@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Apie mane",
+		"proyectos": "Projektai",
+		"experiencia": "Patirtis",
+		"contacto": "Kontaktai",
+		"ariaMain": "Pagrindinė navigacija",
+		"openMenu": "Atidaryti meniu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Socialiniai tinklai"
+	},
+	"langSwitch": {
+		"label": "Pakeisti kalbą",
+		"traducir": "Pakeisti kalbą",
+		"buscar": "Ieškoti kalbos…"
+	},
+	"cookies": {
+		"texto": "Naudojame savo slapukus anoniminei analitikai ir jūsų patirčiai pagerinti. Trečiųjų šalių slapukų nenaudojame.",
+		"politica": "Slapukų politika",
+		"aceptar": "Priimti",
+		"rechazar": "Atmesti",
+		"configurar": "Konfigūruoti slapukus",
+		"borrarDatos": "Ištrinti mano duomenis",
+		"ariaBanner": "Sutikimas dėl slapukų"
+	},
+	"legal": {
+		"privacidad": "Privatumo politika",
+		"cookies": "Slapukų politika"
+	},
+	"person": {
+		"jobTitle": "Duomenų mokslininkas",
+		"description": "Duomenų mokslininkas, kurio sritis – sporto analitika, turintis patirties profesionalų dviračių sporte."
+	}
+}

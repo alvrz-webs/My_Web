@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Esperienza — Mario Álvarez",
+		"description": "Due mondi, un'unica lingua: la prestazione. Esperienza di Mario Álvarez nei dati e nell'ingegneria, e nel ciclismo d'élite.",
+		"eyebrow": "Esperienza",
+		"heading": "Due mondi, un'unica lingua: la prestazione",
+		"colDatos": "Dati & Tecnologia",
+		"colDeporte": "Sport d'élite"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Tirocinio in Scienza dei Dati",
+			"meta": "Ingegneria dei Dati · Benidorm · 2026",
+			"paragraphs": [
+				"SIME sviluppa software gestionale (prenotazioni, fatturazione, report, ordini di ristorazione) che serve centinaia di clienti da un sistema centrale, su un database di oltre 580 tabelle interconnesse e oltre 100 milioni di record. La crescita aveva costretto a suddividere i clienti in più database per alleggerire il carico e i reclami per la lentezza.",
+				"Il mio lavoro: analizzare quei database e, attraverso l'ottimizzazione di query e indici, progettare l'unificazione di tutti i dati in un unico database efficiente senza quasi scalare l'hardware (RAM/CPU). Miglioramento già sviluppato, in fase di validazione su server di prova."
+			]
+		},
+		{
+			"title": "Progetti con la squadra Cofidis (World Tour)",
+			"meta": "Python · Estate 2025",
+			"paragraphs": [
+				"Progetto personale che ho realizzato come prova per accedere all'analisi dei dati nel ciclismo professionistico:"
+			],
+			"list": [
+				"Analizzatore di difficoltà UCI: tramite web scraping del ranking UCI, posiziona i corridori della squadra e stima il livello di difficoltà per accumulare punti UCI in base alla rosa.",
+				"Predittore di profilo di gara: anticipa le caratteristiche di ogni gara e assegna un voto di difficoltà per pianificare obiettivi e strategia."
+			]
+		},
+		{
+			"title": "Progetti accademici e personali",
+			"meta": "Analisi, visualizzazione e machine learning",
+			"paragraphs": [
+				"Lavori personali di analisi dei dati, visualizzazione e machine learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Vedi progetti"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Competizione",
+			"paragraphs": [
+				"Campione di Spagna di madison (18 anni); Mondiale ed Europeo su pista con la Nazionale Spagnola (6º in entrambi); atleta d'élite; ciclista su pista tesserato, in attività."
+			]
+		},
+		{
+			"title": "Direzione sportiva",
+			"paragraphs": [
+				"Direttore Sportivo Livello I e II (RFEC); formazione e monitoraggio di ciclisti di base (14–18) insieme a mio padre; assistente con la Nazionale della Comunità Valenciana nelle competizioni (2026)."
+			]
+		},
+		{
+			"title": "Chiromassaggio e staff tecnico",
+			"meta": "Estate 2025",
+			"paragraphs": [
+				"Chiromassaggiatore qualificato; massaggiatore di ciclisti professionisti; staff con la Nazionale della Comunità Valenciana, con una squadra continentale filippina e con ciclisti a titolo privato a Benidorm."
+			]
+		}
+	]
+}

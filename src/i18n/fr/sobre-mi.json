@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "À propos de moi — Mario Álvarez",
+		"description": "De champion d'Espagne de madison à étudiant en science des données : le parcours de Mario Álvarez entre le cyclisme de compétition et l'analyse sportive.",
+		"eyebrow": "À propos de moi",
+		"heading": "Du vélodrome aux données"
+	},
+	"bio": [
+		"J'ai commencé par la compétition. À 18 ans, j'ai été sacré champion d'Espagne de madison sur piste et l'équipe nationale espagnole de cyclisme m'a convoqué pour les championnats du monde et d'Europe, où j'ai terminé sixième dans les deux cas, ce qui m'a valu le statut d'athlète de haut niveau.",
+		"De là, j'ai fait le saut vers la science des données : je suis actuellement en troisième année de licence à l'Universitat Politècnica de València, axée sur la numérisation et la technologie appliquées au sport.",
+		"Ma valeur ajoutée est ce pont : j'ai vécu la haute performance de l'intérieur — en tant que coureur, directeur sportif de jeunes et massothérapeute pour des cyclistes professionnels — et je sais lire les données qui se cachent derrière. Je comprends ce qu'un chiffre signifie pour un athlète, car j'ai été cet athlète. Je relie les deux mondes pour transformer les données en décisions qui améliorent la performance.",
+		"De plus, grâce à mon statut d'athlète de haut niveau, j'ai obtenu une bourse pour suivre un master en numérisation, innovation et technologie dans le sport, que j'ai déjà complété et qui élargit mon approche à l'ensemble de l'écosystème sportif, au-delà du cyclisme."
+	],
+	"facts": [
+		{
+			"label": "Base",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Statut",
+			"value": "Disponible pour des projets"
+		},
+		{
+			"label": "Approche",
+			"value": "Données + performance sportive"
+		},
+		{
+			"label": "Langues",
+			"value": "Espagnol natif · Valencien · Anglais B1"
+		},
+		{
+			"label": "Formation",
+			"value": "Licence en science des données (UPV) · Master en numérisation, innovation et technologie dans le sport"
+		}
+	]
+}

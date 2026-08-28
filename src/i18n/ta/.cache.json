@@ -1,1 +1,824 @@
-{}
+{
+	"404": {
+		"title": {
+			"hash": "f2f9549cf822a7ffa8236c0b7d541d1eb9f8cf84d847f435c8fc73c2719f21f5",
+			"value": "பக்கம் கிடைக்கவில்லை — Mario Álvarez"
+		},
+		"description": {
+			"hash": "cbfee3e3698cab2526b53ec83db3f3f712ba87a07c39535c760ebe407a072a5f",
+			"value": "நீங்கள் தேடும் பக்கம் இல்லை அல்லது நகர்த்தப்பட்டுள்ளது."
+		},
+		"heading": {
+			"hash": "66d468d4451f7e367a88dfa02c32529db2507711b1e59afc629c110837b57844",
+			"value": "பக்கம் கிடைக்கவில்லை"
+		},
+		"text": {
+			"hash": "4558944d17a022944ce9189b30e7fd22e62161433c066aa929f05131bb7934a4",
+			"value": "மன்னிக்கவும், நீங்கள் தேடும் பக்கம் இல்லை அல்லது நகர்த்தப்பட்டுள்ளது."
+		},
+		"cta": {
+			"hash": "3906c387259fafc4003807694b0fcfa7ba670df028e7be356f33554cb17f3f00",
+			"value": "முகப்புக்குத் திரும்பு"
+		}
+	},
+	"common": {
+		"nav/sobreMi": {
+			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
+			"value": "என் შესახებ"
+		},
+		"nav/proyectos": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "திட்டங்கள்"
+		},
+		"nav/experiencia": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "அனுபவம்"
+		},
+		"nav/contacto": {
+			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
+			"value": "தொடர்பு"
+		},
+		"nav/ariaMain": {
+			"hash": "781509b25aa03251597e440ff24fac15d7dca46b131f8e1c0c9af48c9e64c80f",
+			"value": "முதன்மை வழிசெலுத்தல்"
+		},
+		"nav/openMenu": {
+			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
+			"value": "மெனுவைத் திற"
+		},
+		"footer/tagline": {
+			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
+			"value": "Data · Sport · Progress"
+		},
+		"footer/copySufijo": {
+			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
+			"value": "Mario Álvarez. Valencia."
+		},
+		"footer/ariaSocial": {
+			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
+			"value": "சமூக வலைப்பின்னல்கள்"
+		},
+		"langSwitch/label": {
+			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
+			"value": "மொழியை மாற்று"
+		},
+		"langSwitch/traducir": {
+			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
+			"value": "மொழியை மாற்று"
+		},
+		"langSwitch/buscar": {
+			"hash": "231136217d662bd389a6c8702687d9c958a0cfcc44d599697e19c1133bc5fe09",
+			"value": "மொழியைக் தேடு..."
+		},
+		"cookies/texto": {
+			"hash": "bbe7f104f14f32cbf00cdc66b8f9242af1bab766b03d71720d7a3caec9d775d6",
+			"value": "அநாமதேய பகுப்பாய்விற்காகவும் உங்கள் அனுபவத்தை மேம்படுத்தவும் எங்கள் சொந்த கூக்கிகளைப் பயன்படுத்துகிறோம். மூன்றாம் தரப்பு கூக்கிகளை நாங்கள் பயன்படுத்துவதில்லை."
+		},
+		"cookies/politica": {
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "கூக்கி கொள்கை"
+		},
+		"cookies/aceptar": {
+			"hash": "640d6761c178f2ad81e2a8cdb44c589bdc879396563118f96ebba2de686efefa",
+			"value": "ஏற்றுக்கொள்"
+		},
+		"cookies/rechazar": {
+			"hash": "2a0515602d3158761b6018d3ffc0d34173eb2f66f68bd077e62d84f4d891f26b",
+			"value": "நிராகரி"
+		},
+		"cookies/configurar": {
+			"hash": "bd6b28e0422ee9e821e232d28fcab1ebf60fb359b8efc271ee4b8096433f36e8",
+			"value": "கூக்கிகளை உள்ளமை"
+		},
+		"cookies/borrarDatos": {
+			"hash": "387bf6fea239f5988b1d38d3a9cb71465d9460234af481b203793e15642afe85",
+			"value": "எனது தரவை நீக்கு"
+		},
+		"cookies/ariaBanner": {
+			"hash": "8a27f245f419cf27e1055c0004349e13d64579b79a7c51e2d9d91f35e85874dd",
+			"value": "கூக்கி ஒப்புதல்"
+		},
+		"legal/privacidad": {
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
+			"value": "தனியுரிமைக் கொள்கை"
+		},
+		"legal/cookies": {
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "கூக்கி கொள்கை"
+		},
+		"person/jobTitle": {
+			"hash": "d4eb464156ca87b9fafede59deacd1c0ddc7bcd6971cc2c82d2355c2d38e0c58",
+			"value": "தரவு விஞ்ஞானி"
+		},
+		"person/description": {
+			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
+			"value": "தொழில்முறை சைக்கிள் ஓட்டுதலில் அனுபவமுள்ள, விளையாட்டு பகுப்பாய்வில் நிபுணத்துவம் பெற்ற தரவு விஞ்ஞானி."
+		}
+	},
+	"inicio": {
+		"meta/title": {
+			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
+			"value": "மரியோ அஸ்வவரெஸ் — விளையாட்டுத் துறையில் நிபுணத்துவம் பெற்ற தரவு அறிவியல் நிபுணர்"
+		},
+		"meta/description": {
+			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
+			"value": "வலென்சியாவில் விளையாட்டுப் பகுப்பாய்வில் நிபுணத்துவம் பெற்ற தரவு அறிவியல் நிபுணர் மரியோ அஸ்வவரெஸ். Data · Sport · Progress."
+		},
+		"meta/verProyectos": {
+			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
+			"value": "திட்டங்களைக் காண்க"
+		},
+		"meta/contacto": {
+			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
+			"value": "தொடர்பு கொள்க"
+		},
+		"meta/verMas": {
+			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
+			"value": "மேலும் காண்க"
+		},
+		"meta/verTodosProyectos": {
+			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
+			"value": "அனைத்துத் திட்டங்களையும் காண்க"
+		},
+		"meta/irAContacto": {
+			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
+			"value": "தொடர்புக்குச் செல்லவும்"
+		},
+		"meta/herramientas": {
+			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
+			"value": "முக்கிய கருவிகள்"
+		},
+		"hero/eyebrow": {
+			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
+			"value": "தரவு அறிவியல் · விளையாட்டுப் பகுப்பாய்வு · வலென்சியா"
+		},
+		"hero/titlePre": {
+			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
+			"value": "நான் தரவுகளை மாற்றுவது "
+		},
+		"hero/titleHighlight": {
+			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
+			"value": "தெளிவான முடிவுகளாக"
+		},
+		"hero/subtitle": {
+			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
+			"value": "நான் தரவு பகுப்பாய்வு மற்றும் உயர்மட்ட விளையாட்டுக்கும் இடையேயான பாலமாக இருக்கிறேன்: செயல்திறன் அளவீடுகளை களத்தில் மாற்றத்தை ஏற்படுத்தும் உத்திகளாக மாற்றுகிறேன்."
+		},
+		"hero/tools/0": {
+			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+			"value": "Python"
+		},
+		"hero/tools/1": {
+			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+			"value": "R"
+		},
+		"hero/tools/2": {
+			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
+			"value": "SQL"
+		},
+		"hero/tools/3": {
+			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
+			"value": "Power BI"
+		},
+		"hero/tools/4": {
+			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
+			"value": "Machine Learning"
+		},
+		"sobreMiResumen/eyebrow": {
+			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
+			"value": "என்னைப் பற்றி"
+		},
+		"sobreMiResumen/title": {
+			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
+			"value": "தடம், சாலை மற்றும் போட்டிச் சூழலுடன் கூடிய தரவு"
+		},
+		"sobreMiResumen/text": {
+			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
+			"value": "நான் மரியோ அஸ்வவரெஸ், UPV இல் தரவு அறிவியல் மாணவர் மற்றும் தொழில்முறை சைக்கிள் ஓட்டுதலில் உண்மையான அனுபவம் உள்ளவர். ஒவ்வொரு அளவீட்டையும் முடிவுகளை மேம்படுத்தும் முடிவாக மாற்ற, தரவு பகுப்பாய்வை உயர்மட்ட விளையாட்டு செயல்திறனுடன் இணைக்கிறேன்."
+		},
+		"stats/0/value": {
+			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
+			"value": "UPV"
+		},
+		"stats/0/label": {
+			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
+			"value": "கல்வி"
+		},
+		"stats/0/detail": {
+			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
+			"value": "தரவு அறிவியலில் இளங்கலை பட்டம், வலென்சியா பாலிடெக்னிக் பல்கலைக்கழகம்."
+		},
+		"stats/1/value": {
+			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
+			"value": "உயர்மட்டம்"
+		},
+		"stats/1/label": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "அனுபவம்"
+		},
+		"stats/1/detail": {
+			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
+			"value": "ஒரு தொழில்முறை சைக்கிள் ஓட்டுதல் அணியில் உண்மையான வேலை."
+		},
+		"stats/2/value": {
+			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
+			"value": "Data + Sport"
+		},
+		"stats/2/label": {
+			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
+			"value": "दृष्टि"
+		},
+		"stats/2/detail": {
+			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
+			"value": "விளையாட்டு செயல்திறனை மேம்படுத்துவதற்காக প্রয়োগকৃত பகுப்பாய்வு."
+		},
+		"experienciaResumen/eyebrow": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "அனுபவம்"
+		},
+		"experienciaResumen/title": {
+			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
+			"value": "இரண்டு உலகங்கள், ஒரே மொழி: செயல்திறன்"
+		},
+		"experienciaResumen/text": {
+			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
+			"value": "நான் உச்ச மட்டத்தில் போட்டியிட்டுள்ளேன், இன்று அதே அளவுகோலை தரவுகளுக்குப் பயன்படுத்துகிறேன்: ஒரு எண் விளையாட்டு வீரருக்கு என்ன அர்த்தம் என்பதை நான் புரிந்துகொள்ள1 காரணம் நானும் அந்த விளையாட்டு வீரராக இருந்திருக்கிறேன்."
+		},
+		"ctaFinal/title": {
+			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
+			"value": "தரவு பற்றி பேசலாமா?"
+		},
+		"ctaFinal/text": {
+			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
+			"value": "உங்கள் திட்டத்தைப் பற்றி என்னிடம் கூறுங்கள், செயல்திறனை மேம்படுத்தும் முடிவுகள் எங்கே உள்ளன என்பதை நாம் ஒன்றாகத் தேடுவோம்."
+		}
+	},
+	"sobre-mi": {
+		"meta/title": {
+			"hash": "4c3d3ad7a59738a85621c902a9c559c3f17d126604eb1170d4d5a496eca743e6",
+			"value": "என் შესახებ — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "065998767d0c9a6c0b30b681912801e42c75ce724eaaf80c998f070b9439f0cd",
+			"value": "ஸ்பெயின் மேடிசன் சாம்பியனிலிருந்து தரவு அறிவியல் மாணவர் வரை: எலைட் சைக்கிள் ஓட்டுதலுக்கும் விளையாட்டுப் பகுப்பாய்வுக்கும் இடையே Mario Álvarez-ன் பயணம்."
+		},
+		"meta/eyebrow": {
+			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
+			"value": "என் შესახებ"
+		},
+		"meta/heading": {
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "வெல்ட்ரோமிலிருந்து தரவு வரை"
+		},
+		"bio/0": {
+			"hash": "d7d611e5e1b9b9834eb8052dd8edd5c1e1986ee032a232146858b8bcedcbb7b0",
+			"value": "நான் போட்டியிடுவதன் மூலம் தொடங்கினேன். எனது 18வது வயதில் ஸ்பெயின் நாட்டின் மேடிசன் ட்ராக் சைக்கிள் ஓட்டுதல் சாம்பியனாக அறிவிக்கப்பட்டேன் மற்றும் ஸ்பானிஷ் சைக்கிள் ஓட்டுதல் குழு என்னை உலக மற்றும் ஐரோப்பிய சாம்பியன்ஷிப்புகளுக்கு அழைத்தது, அங்கு நான் இரண்டிலும் ஆறாவது இடத்தைப் பிடித்தேன், இது எனக்கு எலைட் தடகள வீரர் அந்தஸ்தைப் பெற்றுத் தந்தது."
+		},
+		"bio/1": {
+			"hash": "cb7a91dc70b36b438e730343472b3d3ece358d6f4aa95b52f66421a63990951f",
+			"value": "அங்கிருந்து நான் தரவு அறிவியலுக்கு மாறினேன்: இன்று நான் Universitat Politècnica de València-வில் பட்டப்படிப்பின் 3வது ஆண்டு படிக்கிறேன், இது விளையாட்டுக்குப் பயன்படுத்தப்படும் டிஜிட்டல்மயமாக்கல் மற்றும் தொழில்நுட்பத்தை மையமாகக் கொண்டது."
+		},
+		"bio/2": {
+			"hash": "6eeee944c5047dd44420998562b90a8ea28d2c35be7a2e1e836348e8d509d121",
+			"value": "எனது தனித்துவமான மதிப்பு அந்தப் பாலமாகும்: நான் உயர் செயல்திறனை உள்ளிருந்து அனுபவித்துள்ளேன் - ஒரு ஓட்டப்பந்தய வீரராக, ஒரு அடிப்படை விளையாட்டு இயக்குனராக மற்றும் தொழில்முறை சைக்கிள் ஓட்டுநர்களின் சிரோபிராக்டராக - மேலும் அதன் பின்னணியில் உள்ள தரவைப் படிக்க எனக்குத் தெரியும். ஒரு எண் ஒரு விளையாட்டு வீரருக்கு என்ன அர்த்தம் என்பதை நான் புரிந்துகொள்கிறேன், ஏனென்றால் நானே அந்த விளையாட்டு வீரராக இருந்திருக்கிறேன். செயல்திறனை மேம்படுத்தும் முடிவுகளாக தரவை மாற்ற இரண்டு உலகங்களையும் நான் இணைக்கிறேன்."
+		},
+		"bio/3": {
+			"hash": "453e09fc193caca7117df201b7a7d0d40cc56a10520b2de9a62cae6643ada803",
+			"value": "கூடுதலாக, எனது எலைட் தடகள வீரர் அந்தஸ்துக்கு நன்றி, விளையாட்டுப் பிரிவில் டிஜிட்டல்மயமாக்கல், கண்டுபிடிப்பு மற்றும் தொழில்நுட்பம் குறித்த முதுகலைப் படிப்பைத் தொடர எனக்கு உதவித்தொகை கிடைத்தது, அதை நான் ஏற்கனவே முடித்துள்ளேன் மற்றும் இது சைக்கிள் ஓட்டுதலைத் தாண்டி முழு விளையாட்டு சுற்றுச்சூழல் அமைப்புக்கும் எனது பார்வையை விரிவுபடுத்துகிறது."
+		},
+		"facts/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "அடிப்படை"
+		},
+		"facts/0/value": {
+			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
+			"value": "Benidorm · Valencia"
+		},
+		"facts/1/label": {
+			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
+			"value": "நிலை"
+		},
+		"facts/1/value": {
+			"hash": "06094d707532d93671f096ffd82caf91a680ce537fdeb291699cf5355ea653e5",
+			"value": "திட்டங்களுக்குக் கிடைக்கக்கூடியது"
+		},
+		"facts/2/label": {
+			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
+			"value": "கவனம்"
+		},
+		"facts/2/value": {
+			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
+			"value": "தரவு + விளையாட்டு செயல்திறன்"
+		},
+		"facts/3/label": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "மொழிகள்"
+		},
+		"facts/3/value": {
+			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
+			"value": "தாய்மொழி ஸ்பானிஷ் · வலென்சியன் · ஆங்கிலம் B1"
+		},
+		"facts/4/label": {
+			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
+			"value": "கல்வி"
+		},
+		"facts/4/value": {
+			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
+			"value": "தரவு அறிவியல் பட்டம் (UPV) · விளையாட்டில் டிஜிட்டல்மயமாக்கல், கண்டுபிடிப்பு மற்றும் தொழில்நுட்பத்தில் முதுகலை"
+		}
+	},
+	"experiencia": {
+		"meta/title": {
+			"hash": "53e146e44dcc62fdf154b05e8558ed180494224b34f8151d9da9835ab6262133",
+			"value": "அனுபவம் — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "f2b25552e0b9b597bdbb674ccf1b3749d55af30a1434e173f2449fc1156a8996",
+			"value": "இரண்டு உலகங்கள், ஒரே மொழி: செயல்திறன். தரவு மற்றும் பொறியியல் மற்றும் உயரடுக்கு சைக்கிள் ஓட்டுதலில் Mario Álvarez-இன் அனுபவம்."
+		},
+		"meta/eyebrow": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "அனுபவம்"
+		},
+		"meta/heading": {
+			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
+			"value": "இரண்டு உலகங்கள், ஒரே மொழி: செயல்திறன்"
+		},
+		"meta/colDatos": {
+			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
+			"value": "தரவு & தொழில்நுட்பம்"
+		},
+		"meta/colDeporte": {
+			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
+			"value": "உயரடுக்கு விளையாட்டு"
+		},
+		"datos/0/title": {
+			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
+			"value": "SIME TELECOM — தரவு அறிவியல் பயிற்சி"
+		},
+		"datos/0/meta": {
+			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
+			"value": "தரவு பொறியியல் · பெனிഡോர்ம் · 2026"
+		},
+		"datos/0/paragraphs/0": {
+			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
+			"value": "SIME மேலாண்மை மென்பொருளை உருவாக்குகிறது (முன்பதிவுகள், பில்லிங், அறிக்கைகள், உணவக ஆர்டர்கள்), இது நூற்றுக்கணக்கான வாடிக்கையாளர்களுக்கு ஒரு மத்திய அமைப்பிலிருந்து சேவை செய்கிறது, +580 ஒன்றோடொன்று இணைக்கப்பட்ட அட்டவணைகள் மற்றும் +100 மில்லியன் பதிவுகளைக் கொண்ட தரவுத்தளத்தின் அடிப்படையில். வளர்ச்சியானது சுமையைக் குறைக்கவும் மெத்தனப் புகார்களைத் தவிர்க்கவும் பல தரவுத்தளங்களில் வாடிக்கையாளர்களைப் பிரிக்க கட்டாயப்படுத்தியது."
+		},
+		"datos/0/paragraphs/1": {
+			"hash": "a052914694417d03fd48e9c8ff06ccc3b6a57bb6b9d7f5bd67d0540d37b8c3db",
+			"value": "எனது பணி: அந்த தரவுத்தளங்களை பகுப்பாய்வு செய்து, வினவல் மேம்படுத்தல் மற்றும் குறியீடுகள் மூலம், ஹார்டுவேரை (RAM/CPU) கிட்டத்தட்ட அளவிடாமல் அனைத்து தரவையும் ஒரே திறமையான தரவுத்தளத்தில் ஒருங்கிணைக்க வடிவமைப்பது. மேம்பாடு ஏற்கனவே உருவாக்கப்பட்டுள்ளது, சோதனைக் சர்வரில் சரிபார்க்கும் கட்டத்தில் உள்ளது."
+		},
+		"datos/1/title": {
+			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
+			"value": "Cofidis அணியுடன் திட்டங்கள் (World Tour)"
+		},
+		"datos/1/meta": {
+			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
+			"value": "Python · கோடை 2025"
+		},
+		"datos/1/paragraphs/0": {
+			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
+			"value": "தொழில்முறை சைக்கிள் ஓட்டுதலில் தரவு பகுப்பாய்வை அணுகுவதற்கான சோதனையாக நான் மேற்கொண்ட சொந்தத் திட்டம்:"
+		},
+		"datos/1/list/0": {
+			"hash": "15b3ec38dc8dfa12d8b1316799dfa877540922c75f5393652d8222fc34cf9f32",
+			"value": "UCI சிரமப் பகுப்பாய்வி: UCI தரவரிசையின் வலை ஸ்கிராப்பிங் மூலம், அணியின் வீரர்களைக் கண்டறிந்து, அணியின் அடிப்படையில் UCI புள்ளிகளைச் சேர்ப்பதற்கான சிரமத்தின் அளவைக் கணக்கிடுகிறது."
+		},
+		"datos/1/list/1": {
+			"hash": "d35542e142f04b315824ed35881fbc8bdeab4f6efe42052aa25af7ccf9219a06",
+			"value": "பந்தய சுயவிவர முன்னறிவிப்பாளர்: ஒவ்வொரு பந்தயத்தின் சிறப்பியல்புகளை முன்னறிவித்து, இலக்குகள் மற்றும் மூலோபாயத்தைத் திட்டமிட சிரம மதிப்பெண்ணை ஒதுக்குகிறது."
+		},
+		"datos/2/title": {
+			"hash": "6d6d9b9c6b1106b6be84b18aa1c031065f3a79ae1d253f8a2de353d153b9c20d",
+			"value": "கல்வி மற்றும் தனிப்பட்ட திட்டங்கள்"
+		},
+		"datos/2/meta": {
+			"hash": "c73ff150048e61d76526446d7cc50545db26bd4664c6a316e0b0f62388192d4a",
+			"value": "ப பகுப்பாய்வு, காட்சிப்படுத்தல் மற்றும் machine learning"
+		},
+		"datos/2/paragraphs/0": {
+			"hash": "56c987b927c8903bc1f35e99e1e33ca3ebe390ec2df72af47a36d213309f4d41",
+			"value": "தரவு பகுப்பாய்வு, காட்சிப்படுத்தல் மற்றும் machine learning பற்றிய சொந்தப் பணிகள்."
+		},
+		"datos/2/link/href": {
+			"hash": "c5afb1a7380093032d8666e47d956a4a237a39e2c2af2a14e95d2be0c4a38382",
+			"value": "/proyectos"
+		},
+		"datos/2/link/label": {
+			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
+			"value": "திட்டங்களைக் காண்க"
+		},
+		"deporte/0/title": {
+			"hash": "aeaf5051b84ddf9e892f45b118553a28bd15f4a82ffc13357946c8cb768bce4c",
+			"value": "போட்டி"
+		},
+		"deporte/0/paragraphs/0": {
+			"hash": "431d7654ad9c17cfef188c6dd216d77877c67074b5a70fccc26b28faecb96342",
+			"value": "மேடிசன் ஸ்பெயின் சாம்பியன் (18 வயது); ஸ்பெயின் தேசிய அணியுடன் உலக மற்றும் ஐரோப்பிய டிராக் போட்டிகள் (இரண்டிலும் 6வது); உயரடுக்கு விளையாட்டு வீரர்; செயலில் உள்ள கூட்டாட்சி டிராக் சைக்கிள் ஓட்டுநர்."
+		},
+		"deporte/1/title": {
+			"hash": "84790bf295460a6481da8ad76c8e18d330f20f20baefb8c4d37a1818f065b8a5",
+			"value": "விளையாட்டு வழிகாட்டுதல்கள்"
+		},
+		"deporte/1/paragraphs/0": {
+			"hash": "5dc31dcec5b8544c3fc67da4aedaf52f4da758ba225c9b41297dbeb77730d51b",
+			"value": "விளையாட்டு இயக்குனர் நிலை I மற்றும் II (RFEC); எனது தந்தையுடன் இணைந்து அடிமட்ட சைக்கிள் ஓட்டுநர்களின் பயிற்சி மற்றும் கண்காணிப்பு (14–18); போட்டிகளில் வலென்சிய சமூக தேசிய அணியுடன் உதவியாளர் (2026)."
+		},
+		"deporte/2/title": {
+			"hash": "0cfe14a47563f418eb121ade7cad7186d2ee23873832ee8f81b43b56f8c18212",
+			"value": "கியரோமசாஜ் மற்றும் தொழில்நுட்பக் குழு"
+		},
+		"deporte/2/meta": {
+			"hash": "907fae24556078db9b490356a39c8eba0b3c8f124cc2f6172d189ab43f6f3d1a",
+			"value": "கோடை 2025"
+		},
+		"deporte/2/paragraphs/0": {
+			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
+			"value": "சான்றிதழ் பெற்ற கியரோமசாஜர்; தொழில்முறை சைக்கிள் ஓட்டுநர்களின் மசாஜர்; வலென்சிய சமூக தேசிய அணி, ஒரு பிலிப்பைன்ஸ் கான்டினென்டல் அணி மற்றும் பெனிடோர்மில் தனிப்பட்ட முறையில் சைக்கிள் ஓட்டுநர்களுடன் தொழில்நுட்பக் குழு."
+		}
+	},
+	"proyectos": {
+		"page/title": {
+			"hash": "dc68b582e188886457e1b55efc4df6bf08f3a121e742cdfd897f43e026324697",
+			"value": "திட்டங்கள் — மரியோ அல்வாரেস"
+		},
+		"page/description": {
+			"hash": "192d4e8f6e24c4c0f8fa9b18704402e95304c8e30db3a8ff4cf09dac90457005",
+			"value": "மரியோ அல்வாரேசின் தரவு பகுப்பாய்வு, காட்சிப்படுத்தல் மற்றும் இயந்திரக் கற்றல் களஞ்சியங்கள் மற்றும் திட்டங்கள்."
+		},
+		"page/eyebrow": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "திட்டங்கள்"
+		},
+		"page/heading": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "திட்டங்கள்"
+		},
+		"page/intro": {
+			"hash": "1fd2e8bddd12d8068f8b276948c38027993b3b9bdfceddc4b731d6f8d8cf0050",
+			"value": "எனது பணியின் ஒரு பார்வை: தொழில்முறை சைக்கிள் ஓட்டுதல் கருவிகள் முதல் கல்வி பகுப்பாய்வு மற்றும் இயந்திரக் கற்றல் திட்டங்கள் வரை."
+		},
+		"list/eyebrow": {
+			"hash": "e1ddc0cbc9891e79be8a4e469ca4f1acdeb9c42cf5a43ae2fa45c189e422cdae",
+			"value": "பணி"
+		},
+		"list/title": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "திட்டங்கள்"
+		},
+		"list/intro": {
+			"hash": "3c874d438dff6087fd02219358c83c5b478df23b2056dd1f49b950b60dcebb23",
+			"value": "GitHub இல் உள்ள எனது பொது களஞ்சியங்களின் தானியங்கு தேர்வு."
+		},
+		"list/especializaciones": {
+			"hash": "4868e2c81f282650fbf682045a1249f1d1fa9cc1c117e643bb50f9ee12fa76af",
+			"value": "சிறப்புப் புலங்கள்"
+		},
+		"list/fallbackDescripcion": {
+			"hash": "f8e04c1f99a5ecede6152ef8fa961a8aef5c1527a8666d91c96f5eef0372d866",
+			"value": "தரவு பகுப்பாய்வு மற்றும் அறிவியல் திட்டம்."
+		},
+		"list/verEnGithub": {
+			"hash": "98602d08033f5f94d11ba15dd76e26157235a6adb805562db8c7a33ff222d370",
+			"value": "GitHub இல் காண்க"
+		},
+		"list/vacio": {
+			"hash": "f2d6d40e022c41ab88d0382d5c2bb675167ac894b4c995db6e92faade6a32843",
+			"value": "தற்போது களஞ்சியங்களை ஏற்ற முடியவில்லை."
+		},
+		"list/filtroLabel": {
+			"hash": "4230bb5c8c7867ea3feebf99c453538b89b42855f8e553c21592e014f66a95a1",
+			"value": "வகை வாரியாக திட்டங்களை வடிகட்டவும்"
+		},
+		"list/filtroTodos": {
+			"hash": "bd02b9a7d71dac67a21b2758f11975bc491cc834c22edd9fa598fed97405aaa9",
+			"value": "அனைத்தும்"
+		},
+		"list/filtroDatos": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "தரவு"
+		},
+		"list/filtroWebs": {
+			"hash": "1ec3b637c23a52f410704a08e78d3e49db83ce9f2687362b3807c62f4be6e5b7",
+			"value": "வலைத்தளங்கள்"
+		},
+		"list/verWeb": {
+			"hash": "52ef3f7fa3693b8bf3a54d2a86fe19d2d2df0a63a7c10e6628ba5fef7b249cbf",
+			"value": "வலைத்தளத்தைக் காண்க"
+		},
+		"list/verCodigo": {
+			"hash": "3061e8f2bed20825cf05843ea53e01b99df5d632640f233a8ee5c442d17b79ff",
+			"value": "குறியீட்டைக் காண்க"
+		},
+		"list/enDesarrollo": {
+			"hash": "3ce7a5c9ca33e8a88b04a1dd189147bbca9a4abbdbb81874151819e8a042fadc",
+			"value": "வளர்ச்சியில் உள்ளது"
+		},
+		"list/fallbackDescripcionWeb": {
+			"hash": "66bc7ca64208c5a5a449d60b56606837cc989cda0c84b2e33e39113e96b80100",
+			"value": "வலைத் திட்டம்."
+		},
+		"list/vacioWebs": {
+			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
+			"value": "இந்தப் பிரிவில் இன்னும் வலைத்தளங்கள் வெளியிடப்படவில்லை."
+		}
+	},
+	"contacto": {
+		"meta/title": {
+			"hash": "aea50b4ba87e9e3e84db2ca412373c6cc792bb9b4361330c701dea599ead6c10",
+			"value": "தொடர்பு — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "488eeae794c50d1eff512378b1e3b30c3124295d6f27623b217f311bda98aad9",
+			"value": "தரவு, விளையாட்டுத் திறன் மற்றும் திட்டங்கள் பற்றிப் பேச Mario Álvarez-ஐத் தொடர்பு கொள்ளவும்."
+		},
+		"meta/eyebrow": {
+			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
+			"value": "தொடர்பு"
+		},
+		"meta/heading": {
+			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
+			"value": "உங்களிடம் தரவுகளும் தீர்க்க வேண்டிய கேள்வியும் உள்ளதா?"
+		},
+		"meta/intro": {
+			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
+			"value": "பேசலாம். இது ஒரு விளையாட்டுப் பகுப்பாய்வுத் திட்டமாக இருந்தாலும் சரி, தரவு ஒத்துழைப்பாக இருந்தாலும் சரி, அல்லது நீங்கள் விவாதிக்க விரும்பும் யோசனையாக இருந்தாலும் சரி, நான் மகிழ்ச்சியுடன் பதிலளிக்கிறேன்."
+		},
+		"meta/email": {
+			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
+			"value": "மின்னஞ்சல்"
+		},
+		"meta/telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "தொலைபேசி"
+		},
+		"meta/verTelefono": {
+			"hash": "165ab097ca1a7b8f038b50494caea6b7733988c98e4e55045edf16ed20205aa9",
+			"value": "தொலைபேசியைக் காண்க"
+		},
+		"meta/redesSociales": {
+			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
+			"value": "சமூக வலைப்பின்னல்கள்"
+		}
+	},
+	"politica-cookies": {
+		"meta/title": {
+			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
+			"value": "கuki கொள்கை — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
+			"value": "இந்தத் தளம் எந்தக் kuki-களைப் பயன்படுத்துகிறது, என்ன நோக்கத்திற்காக, எந்த நேரத்திலும் உங்கள் ஒப்புதலை எவ்வாறு மாற்றுவது."
+		},
+		"meta/eyebrow": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "சட்டம்"
+		},
+		"meta/heading": {
+			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
+			"value": "கuki கொள்கை"
+		},
+		"bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/0/texto": {
+			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
+			"value": "இந்த வலைத்தளம் அதன் முறையான செயல்பாட்டிற்காகவும், நீங்கள் ஒப்புதல் அளித்தால், உள்ளடக்கம் எவ்வாறு பயன்படுத்தப்படுகிறது என்பதை அநாமதேயமாகப் பகுப்பாய்வு செய்வதற்காகவும் kuki-கள் மற்றும் ஒத்த தொழில்நுட்பங்களைப் (உலாவி உள்ளூர் சேமிப்பகம் போன்றவை) பயன்படுத்துகிறது."
+		},
+		"bloques/1/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/1/texto": {
+			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
+			"value": "பயன்படுத்தப்படும் kuki-கள்:"
+		},
+		"bloques/2/tipo": {
+			"hash": "4a106a9d5ab0bb93b5b43a631db37df385a14c174875bea35bf244e5f35eedc8",
+			"value": "tabla"
+		},
+		"bloques/2/columnas/0": {
+			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
+			"value": "பெயர்"
+		},
+		"bloques/2/columnas/1": {
+			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
+			"value": "நோக்கம்"
+		},
+		"bloques/2/columnas/2": {
+			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
+			"value": "வகை"
+		},
+		"bloques/2/columnas/3": {
+			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
+			"value": "கால அளவு"
+		},
+		"bloques/2/filas/0/0": {
+			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
+			"value": "consentimiento_cookies"
+		},
+		"bloques/2/filas/0/1": {
+			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
+			"value": "இந்தக் kuki கொள்கை குறித்த உங்கள் தேர்வை நினைவில் கொள்ள"
+		},
+		"bloques/2/filas/0/2": {
+			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
+			"value": "சொந்தமானது, தொழில்நுட்பமானது (ஒப்புதலிலிருந்து விலக்கு அளிக்கப்பட்டது)"
+		},
+		"bloques/2/filas/0/3": {
+			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
+			"value": "12 மாதங்கள்"
+		},
+		"bloques/2/filas/1/0": {
+			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
+			"value": "visitante_id"
+		},
+		"bloques/2/filas/1/1": {
+			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
+			"value": "உங்கள் வருகைகளைத் தொடர்புபடுத்தவும், எந்த உள்ளடக்கம் பயனுள்ளது என்பதை அறியவும் அநாமதேய அடையாளங்காட்டி"
+		},
+		"bloques/2/filas/1/2": {
+			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
+			"value": "சொந்தமானது, பகுப்பாய்வு சார்ந்தது (உங்கள் ஒப்புதல் தேவை)"
+		},
+		"bloques/2/filas/1/3": {
+			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
+			"value": "12 மாதங்கள்"
+		},
+		"bloques/3/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/3/texto": {
+			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
+			"value": "இந்தக் kuki-களில் எதுவும் மூன்றாம் தரப்பு kuki அல்ல, விளம்பர நோக்கங்களுக்காக எவையும் பயன்படுத்தப்படுவதில்லை, மேலும் இந்தத் தளத்திற்கு வெளியே யாருடனும் எவையும் பகிரப்படுவதில்லை."
+		},
+		"bloques/4/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/4/texto": {
+			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
+			"value": "அடிக்குறிப்பில் உள்ள \"kuki-களை உள்ளமை\" என்ற இணைப்பிலிருந்து எந்த நேரத்திலும் உங்கள் முடிவை மாற்றலாம் அல்லது உங்கள் ஒப்புதலைத் திரும்பப் பெறலாம், மேலும் அதே பலகத்தில் உள்ள \"எனது தரவை நீக்கு\" பொத்தான் மூலம் உங்கள் எல்லா தரவையும் உடனடியாக நீக்கலாம்."
+		},
+		"bloques/5/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/5/texto": {
+			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
+			"value": "உங்கள் தரவு எவ்வாறு处理ப்படுகிறது என்பது பற்றிய கூடுதல் தகவலுக்கு, தனியுரிமைக் கொள்கையைப் பார்க்கவும்."
+		}
+	},
+	"politica-privacidad": {
+		"meta/title": {
+			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
+			"value": "தனியுரிமைக் கொள்கை — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
+			"value": "Mario Álvarez இன் தளம் தனியுரிமைக் கொள்கை: என்ன தரவு சேகரிக்கப்படுகிறது, என்ன நோக்கத்திற்காக மற்றும் உங்கள் உரிமைகளைப் பயன்படுத்துவது எப்படி."
+		},
+		"meta/eyebrow": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "சட்டப்பூர்வமானது"
+		},
+		"meta/heading": {
+			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
+			"value": "தனியுரிமைக் கொள்கை"
+		},
+		"secciones/0/titulo": {
+			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
+			"value": "1. செயலாக்கத்தின் பொறுப்பாளர்"
+		},
+		"secciones/0/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
+			"value": "Mario Álvarez Martínez, Benidorm (அலிகாண்ட்), ஸ்பெயின். தொடர்பு: malvmar5@hotmail.com"
+		},
+		"secciones/1/titulo": {
+			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
+			"value": "2. செயலாக்கத்தின் நோக்கம்"
+		},
+		"secciones/1/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
+			"value": "இந்த இணையதளமானது அதன் உள்ளடக்கத்தை மேம்படுத்தும் நோக்கத்திற்காக, பார்வையாளர்களுக்கு எந்த உள்ளடக்கம் (பிரிவுகள், திட்டங்கள்) மிகவும் பயனுள்ளதாக இருக்கும் என்பதை உள் ரீதியாகவும் புள்ளியியல் நோக்கங்களுக்காக மட்டுமே பகுப்பாய்வு செய்கிறது. இது விளம்பர நோக்கங்களுக்காகப் பயன்படுத்தப்படுவதில்லை, மூன்றாம் தரப்பினருடன் பகிரப்படுவதில்லை மற்றும் எந்தச் சூழ்நிலையிலும் விற்கப்படுவதில்லை."
+		},
+		"secciones/2/titulo": {
+			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
+			"value": "3. சேகரிக்கப்பட்ட தரவு (பகுப்பாய்வு குக்கீகளை நீங்கள் ஏற்றுக்கொண்டால் மட்டுமே)"
+		},
+		"secciones/2/bloques/0/tipo": {
+			"hash": "0296c43c240aa12c0950ff03ab0ebe09a1762b6600266e122f9c4b4099f72359",
+			"value": "lista"
+		},
+		"secciones/2/bloques/0/items/0": {
+			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
+			"value": "உங்கள் பெயர், மின்னஞ்சல் அல்லது உங்களை நேரடியாக அடையாளம் காணும் பிற தகவல்களுடன் இணைக்கப்படாத, சீரற்ற அநாமதேய அடையாளங்காட்டி."
+		},
+		"secciones/2/bloques/0/items/1": {
+			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
+			"value": "நீங்கள் பார்வையிடும் பக்கங்கள் மற்றும் திட்டங்கள், மற்றும் ஒவ்வொன்றிலும் செலவிடப்பட்ட நேரம் (தாவல் செயலில் இருக்கும்போது)."
+		},
+		"secciones/2/bloques/0/items/2": {
+			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
+			"value": "தொடர்புகள் (திட்டங்கள், இணைப்புகள் அல்லது பொத்தான்களில் கிளிக்குகள்)."
+		},
+		"secciones/2/bloques/0/items/3": {
+			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
+			"value": "வருகையின் தேதி மற்றும் நேரம்."
+		},
+		"secciones/2/bloques/0/items/4": {
+			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
+			"value": "ஆலோசனை செய்யப்பட்ட தளத்தின் மொழி."
+		},
+		"secciones/2/bloques/0/items/5": {
+			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
+			"value": "சாதனத்தின் வகை (மொபைல் அல்லது டெஸ்க்டாப்)."
+		},
+		"secciones/2/bloques/0/items/6": {
+			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
+			"value": "உங்கள் ஐபி முகவரியைச் சேமிக்காமல், Cloudflare உள்கட்டமைப்பு மூலம் பெறப்பட்ட தோராயமான நாடு."
+		},
+		"secciones/2/bloques/0/items/7": {
+			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
+			"value": "தோற்றப் பக்கம் (எடுத்துக்காட்டாக, LinkedIn அல்லது தேடுபொறி)."
+		},
+		"secciones/2/bloques/1/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/2/bloques/1/texto": {
+			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
+			"value": "உங்கள் ஐபி முகவரி சேகரிக்கப்படவில்லை, உலாவி அடையாள நுட்பங்கள் (கைரேகை) பயன்படுத்தப்படவில்லை, மற்றும் Google Analytics அல்லது ஒத்த மூன்றாம் தரப்பு கருவிகள் பயன்படுத்தப்படவில்லை."
+		},
+		"secciones/3/titulo": {
+			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
+			"value": "4. சட்ட அடிப்படை"
+		},
+		"secciones/3/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
+			"value": "இந்தச் செயலாக்கமானது உங்களின் வெளிப்படையான ஒப்புதலை அடிப்படையாகக் கொண்டது (GDPR இன் கட்டுரை 6.1.a மற்றும் LSSI-CE இன் கட்டுரை 22.2), தளத்தின் குக்கீ மேலாளரிடமிருந்து எந்த நேரத்திலும் நீங்கள் அதைத் திரும்பப் பெறலாம்."
+		},
+		"secciones/4/titulo": {
+			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
+			"value": "5. தக்கவைப்பு காலம்"
+		},
+		"secciones/4/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
+			"value": "தரவு உங்கள் கடைசி வருகையிலிருந்து அதிகபட்சமாக 12 மாதங்கள் சேமிக்கப்படும், அதன் பிறகு அவை தானாகவே நீக்கப்படும்."
+		},
+		"secciones/5/titulo": {
+			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
+			"value": "6. பெறுநர்கள் மற்றும் சர்வதேச இடமாற்றங்கள்"
+		},
+		"secciones/5/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
+			"value": "தரவு மூன்றாம் தரப்பினருக்கு வழங்கப்படுவதோ அல்லது விற்கப்படுவதோ இல்லை. இது செயலாக்க முகவராகச் செயல்படும் Cloudflare, Inc. வழங்கும் தரவுத்தள சேவையான Cloudflare D1 இல் சேமிக்கப்படுகிறது. Cloudflare ஐரோப்பிய பொருளாதாரப் பகுதிக்கு வெளியே தரவைச் செயலாக்கக்கூடும்; அத்தகைய சந்தர்ப்பத்தில், அத்தகைய இடமாற்றமானது ஐரோப்பிய ஆணையத்தால் அங்கீகரிக்கப்பட்ட நிலையான ஒப்பந்தக் பிரிவுகளால் பாதுகாக்கப்படுகிறது. Cloudflare தனியுரிமைக் கொள்கையில் கூடுதல் தகவல்: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/6/titulo": {
+			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
+			"value": "7. உங்கள் உரிமைகள்"
+		},
+		"secciones/6/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
+			"value": "malvmar5@hotmail.com க்கு எழுதுவதன் மூலம் அணுகல், திருத்தம், நீக்கம், எதிர்ப்பு, செயலாக்கக் கட்டுப்பாடு மற்றும் பெயர்வுத்திறன் போன்ற உங்களின் உரிமைகளை எந்த நேரத்திலும் நீங்கள்ப் பயன்படுத்தலாம். கூடுதலாக, தளத்தின் குக்கீ அமைப்புகளில் கிடைக்கும் \"எனது தரவை நீக்கு\" பொத்தானிலிருந்து, யாருக்கும் எழுத வேண்டிய அவசியமின்றி, உங்கள் தரவை உடனடியாக நீக்கலாம். உங்கள் உரிமைகள் சரியாக கவனிக்கப்படவில்லை என்று நீங்கள் நம்பினால், ஸ்பானிஷ் தரவு பாதுகாப்பு முகமைக்கு (www.aepd.es) புகார் அளிக்கும் உரிமை உங்களுக்கு உண்டு."
+		},
+		"secciones/7/titulo": {
+			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
+			"value": "8. இந்தக் கொள்கையில் மாற்றங்கள்"
+		},
+		"secciones/7/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
+			"value": "சட்ட மாற்றங்கள் அல்லது தளத்திற்கேற்ப இந்தக் கொள்கை புதுப்பிக்கப்படலாம்."
+		}
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Adatvédelmi Irányelvek — Mario Álvarez",
+		"description": "Mario Álvarez webhelyének adatvédelmi irányelvei: milyen adatokat gyűjtenek, milyen céllal és hogyan gyakorolhatja jogait.",
+		"eyebrow": "Jogi",
+		"heading": "Adatvédelmi Irányelvek"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Az adatkezelő",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, lakhelye Benidorm (Alicante), Spanyolország. Kapcsolat: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Az adatkezelés célja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ez a webhely belső jelleggel és kizárólag statisztikai célból elemzi, hogy mely tartalmak (szakaszok, projektek) a leghasznosabbak a látogatók számára, a tartalom javítása érdekében. Nem használják fel hirdetési célokra, nem osztják meg harmadik felekkel, és semmilyen körülmények között nem értékesítik."
+				}
+			]
+		},
+		{
+			"titulo": "3. Gyűjtött adatok (csak ha elfogadja az analitikai sütiket)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Véletlenszerű, névtelen azonosító, amely nincs összekapcsolva az Ön nevével, e-mail címével vagy más, Önt közvetlenül azonosító információval.",
+						"A meglátogatott oldalak és projektek, valamint az egyes oldalakon eltöltött idő (amíg a fül aktív).",
+						"Interakciók (kattintások projektekre, linkekre vagy gombokra).",
+						"A látogatás dátuma és ideje.",
+						"A megtekintett oldal nyelve.",
+						"Az eszköz típusa (mobil vagy asztali).",
+						"Hozzávetőleges ország, amelyet a Cloudflare infrastruktúráján keresztül szereznek be, az Ön IP-címének tárolása nélkül.",
+						"A hivatkozó oldal (például a LinkedIn vagy egy keresőmotor)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Az Ön IP-címét nem gyűjtik, nem használnak böngésző-azonosítási technikákat (fingerprinting), és nem vesznek igénybe harmadik féltől származó eszközöket, mint például a Google Analytics vagy hasonlók."
+				}
+			]
+		},
+		{
+			"titulo": "4. Jogi alap",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Az adatkezelés az Ön kifejezett hozzájárulásán alapul (a GDPR 6. cikk (1) bekezdésének a) pontja és a LSSI-CE 22. cikkének (2) bekezdése), amelyet bármikor visszavonhat magának a webhelynek a sütikezelőjéből."
+				}
+			]
+		},
+		{
+			"titulo": "5. Megőrzési idő",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Az adatokat az utolsó látogatástól számított legfeljebb 12 hónapig őrzik meg, ezt követően automatikusan törlésre kerülnek."
+				}
+			]
+		},
+		{
+			"titulo": "6. Címzettek és nemzetközi adattovábbítások",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Az adatokat nem adják át és nem értékesítik harmadik feleknek. Tárolásuk a Cloudflare D1-ben történik, amely a Cloudflare, Inc. által biztosított adatbázis-szolgáltatás, és adatfeldolgozóként jár el. A Cloudflare feldolgozhat adatokat az Európai Gazdasági Térségen kívül is; ebben az esetben az ilyen továbbítás az Európai Bizottság által jóváhagyott általános szerződési feltételeken alapul. További információ a Cloudflare adatvédelmi irányelveiben: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Az Ön jogai",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bikor gyakorolhatja a hozzáféréshez, helyesbítéshez, törléshez, tiltakozáshoz, az adatkezelés korlátozásához és az adathordozhatósághoz való jogait a malvmar5@hotmail.com címre írva. Ezenkívül azonnal, bárkinek történő levélírás nélkül törölheti adatait a webhely cookie-beállításaiban elérhető „Adataim törlése” gomb megnyomásával. Önnek joga van panaszt tenni a Spanyol Adatvédelmi Ügynökségnél is (www.aepd.es), ha úgy ítéli meg, hogy jogait nem kezelték megfelelően."
+				}
+			]
+		},
+		{
+			"titulo": "8. Változások ezen irányelvekben",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ezek az irányelvek frissülhetnek a jogi változásokhoz vagy magához a webhelyhez való igazodás érdekében."
+				}
+			]
+		}
+	]
+}

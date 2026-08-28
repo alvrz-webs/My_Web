@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Informativa sui Cookie — Mario Álvarez",
+		"description": "Quali cookie utilizza questo sito, con quale scopo e come modificare il tuo consenso in qualsiasi momento.",
+		"eyebrow": "Legale",
+		"heading": "Informativa sui Cookie"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Questo sito Web utilizza cookie e tecnologie simili (come la memorizzazione locale del browser) per il suo corretto funzionamento e, se dai il tuo consenso, per analizzare in modo anonimo come viene utilizzato il contenuto."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Cookie utilizzati:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nome",
+				"Scopo",
+				"Tipo",
+				"Durata"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Memorizzare la tua scelta relativa a questa informativa sui cookie",
+					"Proprio, tecnico (esente da consenso)",
+					"12 mesi"
+				],
+				[
+					"visitante_id",
+					"Identificatore anonimo per mettere in relazione le tue visite e sapere quale contenuto risulta utile",
+					"Proprio, analitico (richiede il tuo consenso)",
+					"12 mesi"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Nessuno di questi cookie è di terze parti, nessuno viene utilizzato per scopi pubblicitari e nessuno viene condiviso con nessuno al di fuori di questo sito."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Puoi cambiare la tua decisione o revocare il tuo consenso in qualsiasi momento dal link \"Configura cookie\" nel piè di pagina, ed eliminare immediatamente tutti i tuoi dati con il pulsante \"Elimina i miei dati\" nello stesso pannello."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Per ulteriori informazioni su come vengono trattati i tuoi dati, consulta l'Informativa sulla Privacy."
+		}
+	]
+}

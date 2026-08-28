@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Uzoefu — Mario Álvarez",
+		"description": "Ulimwengu miwili, lugha moja: utendaji. Uzoefu wa Mario Álvarez katika data na uhandisi, na katika michezo ya baiskeli ya kiwango cha juu.",
+		"eyebrow": "Uzoefu",
+		"heading": "Ulimwengu miwili, lugha moja: utendaji",
+		"colDatos": "Data na Teknolojia",
+		"colDeporte": "Michezo ya Kiwango cha Juu"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Mafunzo ya Sayansi ya Data",
+			"meta": "Uhandisi wa Data · Benidorm · 2026",
+			"paragraphs": [
+				"SIME hutengeneza programu za usimamizi (uhifadhi, utozaji, ripoti, maagizo ya mikahawa) ambazo zinahudumia mamia ya wateja kutoka mfumo mkuu, kwenye hifadhidata ya zaidi ya majedwali 580 yaliyounganishwa na zaidi ya rekodi milioni 100. Ukuaji ulikuwa umelazimu kugawanya wateja katika hifadhidata kadhaa ili kupunguza mzigo na malalamiko ya polepole.",
+				"Kazi yangu: kuchambua hifadhidata hizo na, kupitia uboreshaji wa maswali na fahirisi, kubuni muunganisho wa data zote katika hifadhidata moja yenye ufanisi bila kuongeza karibu rasilimali za kompyuta (RAM/CPU). Uboreshaji tayari umesanifiwa, ukiwa katika hatua ya uthibitishaji kwenye seva ya majaribio."
+			]
+		},
+		{
+			"title": "Miradi na timu ya Cofidis (World Tour)",
+			"meta": "Python · Majira ya joto 2025",
+			"paragraphs": [
+				"Mradi binafsi nilioufanya kama jaribio la kupata nafasi ya uchambuzi wa data katika michezo ya baiskeli ya kitaalamu:"
+			],
+			"list": [
+				"Kipima ugumu cha UCI: kupitia uchimbaji data wa mtandao wa viwango vya UCI, kinaweka wachezaji wa timu na kukadiria kiwango cha ugumu cha kupata alama za UCI kulingana na kikosi.",
+				"Tabiri ya wasifu wa mashindano: inatarajia sifa za kila mashindano na kuweka alama ya ugumu ili kupanga malengo na mikakati."
+			]
+		},
+		{
+			"title": "Miradi ya kitaaluma na binafsi",
+			"meta": "Uchambuzi, uonyeshaji na kujifunza kwa mashine",
+			"paragraphs": [
+				"Kazi binafsi za uchambuzi wa data, uonyeshaji na kujifunza kwa mashine."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Tazama miradi"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Mashindano",
+			"paragraphs": [
+				"Bingwa wa Uhispania wa madison (miaka 18); Kombe la Dunia na Uropa la uwanjani na Timu ya Taifa ya Uhispania (wa 6 katika zote mbili); mwanariadha wa kiwango cha juu; mwendesha baiskeli wa uwanjani aliyesajiliwa na anayeshiriki kikamilifu."
+			]
+		},
+		{
+			"title": "Usimamizi wa michezo",
+			"paragraphs": [
+				"Mkurugenzi wa Michezo Ngazi ya I na II (RFEC); mafunzo na ufuatiliaji wa wanariadha wa vijana (14–18) pamoja na baba yangu; msaidizi wa Timu ya Taifa ya Jumuiya ya Valencia katika mashindano (2026)."
+			]
+		},
+		{
+			"title": "Tiba ya masaji na wafanyakazi wa ufundi",
+			"meta": "Majira ya joto 2025",
+			"paragraphs": [
+				"Mtaalamu wa tiba ya masaji; mtaalamu wa masaji wa waendesha baiskeli wa kitaalamu; mfanyakazi wa ufundi na Timu ya Taifa ya Jumuiya ya Valencia, na timu ya bara ya Ufilipino na na wanariadha binafsi huko Benidorm."
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Mtaalamu wa takwimu za michezo aliyeobebea katika michezo",
+		"description": "Mario Álvarez, mtaalamu wa takwimu za michezo huko Valencia aliyeobebea katika uchambuzi wa michezo. Data · Sport · Progress.",
+		"verProyectos": "Tazama miradi",
+		"contacto": "Mawasiliano",
+		"verMas": "Tazama zaidi",
+		"verTodosProyectos": "Tazama miradi yote",
+		"irAContacto": "Nenda kwenye mawasiliano",
+		"herramientas": "Zana kuu"
+	},
+	"hero": {
+		"eyebrow": "Mtaalamu wa takwimu · Uchambuzi wa michezo · Valencia",
+		"titlePre": "Ninageuza data kuwa ",
+		"titleHighlight": "maamuzi yaliyo wazi",
+		"subtitle": "Mimi ni daraja kati ya uchambuzi wa data na michezo ya kiwango cha juu: ninageuza vipimo vya utendakazi kuwa mikakati inayofanya tofauti uwanjani.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Kuhusu mimi",
+		"title": "Data yenye muktadha wa uwanja, barabara na mashindano",
+		"text": "Mimi ni Mario Álvarez, mwanafunzi wa Sayansi ya Data katika UPV mwenye uzoefu halisi ndani ya timu ya kitaalamu ya baiskeli. Ninachanganya uchambuzi wa data na utendakazi wa michezo ya kiwango cha juu, ili kugeuza kila kipimo kuwa uamuzi unaoboresha matokeo."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Elimu",
+			"detail": "Shahada ya Sayansi ya Data, Universitat Politècnica de València."
+		},
+		{
+			"value": "Kiwango cha juu",
+			"label": "Uzoefu",
+			"detail": "Kazi halisi ndani ya timu ya kitaalamu ya baiskeli."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Mtazamo",
+			"detail": "Uchambuzi uliotumika kuboresha utendakazi wa michezo."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Uzoefu",
+		"title": "Dunia mbili, lugha moja: utendakazi",
+		"text": "Nimeshindana katika kiwango cha juu zaidi na leo ninatumia kigezo hicho hicho kwa data: ninaelewa namba inamaanisha nini kwa mwanamichezo kwa sababu nimekuwa mwanamichezo huyo."
+	},
+	"ctaFinal": {
+		"title": "Tuzungumze kuhusu data?",
+		"text": "Niambie kuhusu mradi wako na tutatafuta pamoja mahali ambapo kuna maamuzi yanayoboresha utendakazi."
+	}
+}

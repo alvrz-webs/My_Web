@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "ກ່ຽວກັບຂ້ອຍ",
+		"proyectos": "ໂຄງການ",
+		"experiencia": "ປະສົບການ",
+		"contacto": "ຕິດຕໍ່",
+		"ariaMain": "ການນໍາທາງຫຼັກ",
+		"openMenu": "ເປີດເມນູ"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "ເຄືອຂ່າຍສັງຄົມ"
+	},
+	"langSwitch": {
+		"label": "ປ່ຽນພາສາ",
+		"traducir": "ປ່ຽນພາສາ",
+		"buscar": "ຄົ້ນຫາພາສາ…"
+	},
+	"cookies": {
+		"texto": "ພວກ​ເຮົາ​ໃຊ້ cookies ຂອງ​ພວກ​ເຮົາ​เอง​ສໍາ​ລັບ​ການ​ວິ​ເຄາະ​ທີ່​ບໍ່​ລະ​ບຸ​ຊື່​ແລະ​ປັບ​ປຸງ​ປະ​ສົບ​ການ​ຂອງ​ທ່ານ. ພວກ​ເຮົາ​ບໍ່​ໄດ້​ໃຊ້ cookies ຂອງ​ບຸກ​ຄົນ​ທີ່​ສາມ.",
+		"politica": "ນະໂຍບາຍ cookies",
+		"aceptar": "ຍອມຮັບ",
+		"rechazar": "ປະຕິເສດ",
+		"configurar": "ຕັ້ງຄ່າ cookies",
+		"borrarDatos": "ລຶບຂໍ້ມູນຂອງຂ້ອຍ",
+		"ariaBanner": "ການຍິນຍອມເຫັນພ້ອມ cookies"
+	},
+	"legal": {
+		"privacidad": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+		"cookies": "ນະໂຍບາຍ cookies"
+	},
+	"person": {
+		"jobTitle": "ນັກວິທະຍາສາດຂໍ້ມູນ",
+		"description": "ນັກວິທະຍາສາດຂໍ້ມູນທີ່ມີຄວາມຊ່ຽວຊານດ້ານການວິເຄາະກິລາ, ມີປະສົບການພາຍໃນກິລາຖີບລົດອາຊີບ."
+	}
+}

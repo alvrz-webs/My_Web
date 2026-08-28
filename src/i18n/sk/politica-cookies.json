@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Zásady používania súborov cookie — Mario Álvarez",
+		"description": "Aké súbory cookie táto stránka používa, na aký účel a ako môžete kedykoľvek zmeniť svoj súhlas.",
+		"eyebrow": "Právne informácie",
+		"heading": "Zásady používania súborov cookie"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Táto webová stránka používa súbory cookie a podobné technológie (ako napríklad lokálne úložisko prehliadača) na zabezpečenie svojho správneho fungovania a v prípade, že udelíte súhlas, na anonymnú analýzu spôsobu používania obsahu."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Používané súbory cookie:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Názov",
+				"Účel",
+				"Typ",
+				"Doba platnosti"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Zapamätanie si vášho výberu týkajúceho sa týchto zásad používania súborov cookie",
+					"Vlastné, technické (oslobodené od súhlasu)",
+					"12 mesiacov"
+				],
+				[
+					"visitante_id",
+					"Anonymný identifikátor na prepojenie vašich návštev a zistenie, ktorý obsah je užitočný",
+					"Vlastné, analytické (vyžadujú váš súhlas)",
+					"12 mesiacov"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Žiadny z týchto súborov cookie nie je od tretích strán, žiaden sa nepoužíva na reklamné účely a žiaden sa nezdieľa s nikým mimo tejto stránky."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Svoje rozhodnutie môžete kedykoľvek zmeniť alebo svoj súhlas odvolať prostredníctvom odkazu \"Konfigurovať súbory cookie\" v päte stránky a okamžite vymazať všetky svoje údaje pomocou tlačidla \"Vymazať moje údaje\" v tom istom paneli."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Viac informácií o tom, ako sa s vašimi údajmi nakladá, nájdete v Zásadách ochrany osobných údajov."
+		}
+	]
+}

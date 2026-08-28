@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Kirolaren arloan espezializatutako datu-zientzialaria",
+		"description": "Mario Álvarez, Valentziako datu-zientzialaria, kirol-analitikan espezializatua. Data · Sport · Progress.",
+		"verProyectos": "Ikusi proiektuak",
+		"contacto": "Kontaktua",
+		"verMas": "Ikusi gehiago",
+		"verTodosProyectos": "Ikusi proiektu guztiak",
+		"irAContacto": "Joan kontaktuara",
+		"herramientas": "Tresna nagusiak"
+	},
+	"hero": {
+		"eyebrow": "Datu-zientzialaria · Kirol-analitika · Valentzia",
+		"titlePre": "Datuak bihurtzen ditut ",
+		"titleHighlight": "erabaki argi",
+		"subtitle": "Datu-analisiaren eta eliteko kirolaren arteko zubia naiz: errendimendu-metrikak zelaian aldea markatzen duten estrategia bihurtzen ditut.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Honi buruz",
+		"title": "Pistako, errepideko eta lehiaketako testuingurua duten datuak",
+		"text": "Mario Álvarez naiz, UPVko Datu Zientziako ikaslea, eta txirrindularitza profesionalean esperientzia erreala dut. Datu-analisia eta eliteko kirol-errendimendua uztartzen ditut, metrika bakoitza emaitzak hobetzen dituen erabaki bihurtzeko."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Prestakuntza",
+			"detail": "Datu Zientziako Gradua, Valentziako Unibertsitate Politeknikoa."
+		},
+		{
+			"value": "Elitea",
+			"label": "Esperientzia",
+			"detail": "Lan erreala talde profesional bateko txirrindularitzan."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Ikuspegia",
+			"detail": "Kirol-errendimendua hobetzeko aplikatutako analitika."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Esperientzia",
+		"title": "Bi mundu, hizkuntza bera: errendimendua",
+		"text": "Maila gorenean lehiatu naiz eta gaur egun irizpide bera aplikatzen diet datuei: zenbaki batek kirolari batentzat zer esnahi duen ulertzen dut, kirolari hori izan naizelako."
+	},
+	"ctaFinal": {
+		"title": "Datai buruz hitz egingo al dugu?",
+		"text": "Kontaidazu zure proiektua eta elkarrekin bilatuko ditugu errendimendua hobetzen duten erabakiak non dauden."
+	}
+}

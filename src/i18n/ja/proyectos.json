@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "プロジェクト — Mario Álvarez",
+		"description": "Mario Álvarezのデータ分析、可視化、機械学習のレポジトリとプロジェクト。",
+		"eyebrow": "プロジェクト",
+		"heading": "プロジェクト",
+		"intro": "私の仕事の紹介：プロサイクリング用ツールから、学術的な分析や機械学習のプロジェクトまで。"
+	},
+	"list": {
+		"eyebrow": "実績",
+		"title": "プロジェクト",
+		"intro": "GitHubのパブリックリポジトリの自動セレクション。",
+		"especializaciones": "専門分野",
+		"fallbackDescripcion": "データ分析およびデータサイエンスプロジェクト。",
+		"verEnGithub": "GitHubで見る",
+		"vacio": "現在リポジトリを読み込めませんでした。",
+		"filtroLabel": "タイプでプロジェクトを絞り込む",
+		"filtroTodos": "すべて",
+		"filtroDatos": "データ",
+		"filtroWebs": "ウェブ",
+		"verWeb": "ウェブを見る",
+		"verCodigo": "コードを見る",
+		"enDesarrollo": "開発中",
+		"fallbackDescripcionWeb": "ウェブプロジェクト。",
+		"vacioWebs": "このセクションにはまだ公開されたウェブサイトはありません。"
+	}
+}

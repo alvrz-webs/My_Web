@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "אודותי",
+		"proyectos": "פרויקטים",
+		"experiencia": "ניסיון",
+		"contacto": "צור קשר",
+		"ariaMain": "ניווט ראשי",
+		"openMenu": "פתח תפריט"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "רשתות חברתיות"
+	},
+	"langSwitch": {
+		"label": "שנה שפה",
+		"traducir": "שנה שפה",
+		"buscar": "חפש שפה…"
+	},
+	"cookies": {
+		"texto": "אנו משתמשים בעוגיות משלנו עבור אנליטיקה אנונימית ושיפור החוויה שלך. אינו משתמשים בעוגיות של צד שלישי.",
+		"politica": "מדיניות עוגיות",
+		"aceptar": "קבל",
+		"rechazar": "דחה",
+		"configurar": "הגדר עוגיות",
+		"borrarDatos": "מחק את הנתונים שלי",
+		"ariaBanner": "הסכמת עוגיות"
+	},
+	"legal": {
+		"privacidad": "מדיניות פרטיות",
+		"cookies": "מדיניות עוגיות"
+	},
+	"person": {
+		"jobTitle": "מדען נתונים",
+		"description": "מדען נתונים המתמחה באנליטיקה של ספורט, עם ניסיון ברכיבת אופניים מקצוענית."
+	}
+}

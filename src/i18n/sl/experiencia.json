@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Izkušnje — Mario Álvarez",
+		"description": "Dva svetova, isti jezik: zmogljivost. Izkušnje Maria Álvareza na področju podatkov in inženiringa ter v elitnem kolesarstvu.",
+		"eyebrow": "Izkušnje",
+		"heading": "Dva svetova, isti jezik: zmogljivost",
+		"colDatos": "Podatki & tehnologija",
+		"colDeporte": "Elitni šport"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Praksa s področja podatkovne znanosti",
+			"meta": "Podatkovni inženiring · Benidorm · 2026",
+			"paragraphs": [
+				"SIME razvija programsko opremo za upravljanje (rezervacije, obračunavanje, poročila, naročila v gostinstvu), ki služi stotim strankam iz centralnega sistema, na bazi podatkov z več kot 580 med seboj povezanimi tabelami in več kot 100 milijoni zapisov. Rast je prisilila v porazdelitev strank v več baz za razbremenitev in pritožbe glede počasnosti.",
+				"Moje delo: analiza teh baz in z optimizacijo poizvedb ter indeksov načrtovanje združitve vseh podatkov v eno samo učinkovito bazo brez skoraj nikakršnega povečanja strojne opreme (RAM/CPU). Izboljšatve so že razvite, trenutno v fazi preverjanja na testnem strežniku."
+			]
+		},
+		{
+			"title": "Projekti z ekipo Cofidis (World Tour)",
+			"meta": "Python · Poletje 2025",
+			"paragraphs": [
+				"Lasten projekt, ki sem ga izvedel kot preizkus za vstop v analizo podatkov v profesionalnem kolesarstvu:"
+			],
+			"list": [
+				"Analizator težavnosti UCI: z zajemanjem podatkov s spleta (web scraping) z lestvice UCI določa kolesarje ekipe in ocenjuje stopnjo težavnosti za zbiranje točk UCI glede na postavo.",
+				"Napovedovalec profila dirke: predvideva značilnosti vsake dirke in ji dodeljuje oceno težavnosti za načrtovanje ciljev in strategije."
+			]
+		},
+		{
+			"title": "Akademski in osebni projekti",
+			"meta": "Analiza, vizualizacija in strojni učenje",
+			"paragraphs": [
+				"Lastna dela s področja analize podatkov, vizualizacije in strojnega učenja."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Poglej projekte"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Tekmovanje",
+			"paragraphs": [
+				"Španski prvak v madisonu (18 let); svetovno in evropsko prvenstvo na stezi s špansko reprezentanco (6. mesto na obeh); elitni športnik; registrirani tekmovalni kolesar na stezi."
+			]
+		},
+		{
+			"title": "Športno vodenje",
+			"paragraphs": [
+				"Športni direktor I. in II. stopnje (RFEC); usposabljanje in spremljanje mlajših kolesarjev (14–18) skupaj z očetom; pomočnik v reprezentanci Valencie na tekmovanjih (2026)."
+			]
+		},
+		{
+			"title": "Kiromasaža in tehnično osebje",
+			"meta": "Poletje 2025",
+			"paragraphs": [
+				"Certificirani kiromaser; maser profesionalnih kolesarjev; osebje v reprezentanci Valencie, s filipinsko kontinentalno ekipo in s kolesarji posamično v Benidormu."
+			]
+		}
+	]
+}

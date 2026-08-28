@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Íþrótta-gagnafræðingur",
+		"description": "Mario Álvarez, gagnafræðingur í Valencia sem sérhæfir sig í íþróttagreiningu. Data · Sport · Progress.",
+		"verProyectos": "Skoða verkefni",
+		"contacto": "Hafa samband",
+		"verMas": "Skoða meira",
+		"verTodosProyectos": "Skoða öll verkefni",
+		"irAContacto": "Fara í samband",
+		"herramientas": "Helstu tól"
+	},
+	"hero": {
+		"eyebrow": "Gagnafræðingur · Íþróttagreining · Valencia",
+		"titlePre": "Ég breyti gögnum í ",
+		"titleHighlight": "skýrar ákvarðanir",
+		"subtitle": "Ég er brúin milli gagnafærni og afreksíþrótta: ég breyti frammistöðumælingum í stefnur sem skipta máli ávellinum.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Um mig",
+		"title": "Gögn með samhengisbraut, vegi og keppni",
+		"text": "Ég er Mario Álvarez, nemi í gagnafræði við UPV með raunverulega reynslu úr atvinnumannahjólreiðum. Ég hef gaman af því að sameina gagnafærni og afreksíþróttaárangur til að breyta hverri mælingu í ákvörðun sem bætir árangur."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Menntun",
+			"detail": "Gráða í gagnafræði, Tækniháskólanum í Valencia."
+		},
+		{
+			"value": "Eðla",
+			"label": "Reynslusaga",
+			"detail": "Raunveruleg vinna innan atvinnumannaliðs í hjólreiðum."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Áhersla",
+			"detail": "Greining beitt til að bæta íþróttaárangur."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Reynslusaga",
+		"title": "Heimur tvíburanna, sama tungumálið: árangurinn",
+		"text": "Ég hef keppt á hæsta stigi og beiti nú sömu viðmiðum við gögnin: ég skil hvað tala þýðir fyrir íþróttamann því ég hef verið sá íþróttamaður."
+	},
+	"ctaFinal": {
+		"title": "Tulum við um gögn?",
+		"text": "Segðu mér frá verkefninu þínu og við finnum saman hvar ákvarðanirnar eru sem bæta árangur."
+	}
+}

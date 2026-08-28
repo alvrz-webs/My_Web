@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Om mig — Mario Álvarez",
+		"description": "Från spansk mästare i madison till datavetenskapsstudent: Mario Álvarez resa mellan elitskidåkning och idrottsanalys.",
+		"eyebrow": "Om mig",
+		"heading": "Från velodromen till data"
+	},
+	"bio": [
+		"Jag började med att tävla. Vid 18 års ålder utropades jag till spansk mästare i ban-madison och det spanska cykellandslaget kallade mig till VM och EM, där jag kom på sjätte plats i båda, vilket gav mig status som elitidrottare.",
+		"Därifrån tog jag steget till datavetenskap: idag studerar jag tredje året på kandidatprogrammet vid Universitat Politècnica de València, inriktat på digitalisering och teknik tillämpad på idrott.",
+		"Mitt mervärde är den bryggan: jag har upplevt höga prestationer från insidan — som cyklist, som ungdomsidrottsledare och som idrottsmassör för professionella cyklister — och jag vet hur man läser datan bakom. Jag förstår vad en siffra betyder för en idrottare, eftersom jag har varit den idrottaren. Jag förenar de två världarna för att omvandla data till beslut som förbättrar prestationen.",
+		"Dessutom, tack vare min status som elitidrottare, fick jag ett stipendium för att läsa en masterexamen i digitalisering, innovation och teknik inom idrotten, som jag redan har slutfört och som breddar mitt fokus till hela idrottsekosystemet, bortom cyklingen."
+	],
+	"facts": [
+		{
+			"label": "Bas",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Status",
+			"value": "Tillgänglig för projekt"
+		},
+		{
+			"label": "Fokus",
+			"value": "Data + idrottsprestation"
+		},
+		{
+			"label": "Språk",
+			"value": "Modersmål spanska · Valencianska · Engelska B1"
+		},
+		{
+			"label": "Utbildning",
+			"value": "Kandidatexamen i datavetenskap (UPV) · Masterexamen i digitalisering, innovation och teknik inom idrotten"
+		}
+	]
+}

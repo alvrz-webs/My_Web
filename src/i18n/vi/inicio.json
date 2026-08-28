@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Chuyên gia khoa học dữ liệu chuyên về thể thao",
+		"description": "Mario Álvarez, chuyên gia khoa học dữ liệu tại Valencia chuyên về phân tích thể thao. Dữ liệu · Thể thao · Tiên tiến.",
+		"verProyectos": "Xem các dự án",
+		"contacto": "Liên hệ",
+		"verMas": "Xem thêm",
+		"verTodosProyectos": "Xem tất cả các dự án",
+		"irAContacto": "Đi tới liên hệ",
+		"herramientas": "Các công cụ chính"
+	},
+	"hero": {
+		"eyebrow": "Chuyên gia khoa học dữ liệu · Phân tích thể thao · Valencia",
+		"titlePre": "Tôi chuyển đổi dữ liệu thành ",
+		"titleHighlight": "các quyết định rõ ràng",
+		"subtitle": "Tôi là cầu nối giữa phân tích dữ liệu và thể thao đỉnh cao: tôi chuyển hóa các chỉ số hiệu suất thành chiến lược tạo nên sự khác biệt trên sân thi đấu.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Về tôi",
+		"title": "Dữ liệu với bối cảnh thi đấu trên đường đua và trong các giải đấu",
+		"text": "Tôi là Mario Álvarez, sinh viên ngành Khoa học Dữ liệu tại UPV với kinh nghiệm thực tế trong bộ môn đua xe đạp chuyên nghiệp. Tôi kết hợp phân tích dữ liệu với hiệu suất thể thao đỉnh cao, để biến mỗi chỉ số thành một quyết định cải thiện kết quả."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Học vấn",
+			"detail": "Cử nhân Khoa học Dữ liệu, Đại học Bách khoa Valencia."
+		},
+		{
+			"value": "Tinh hoa",
+			"label": "Kinh nghiệm",
+			"detail": "Làm việc thực tế trong một đội đua xe đạp chuyên nghiệp."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Phương pháp tiếp cận",
+			"detail": "Phân tích được áp dụng để nâng cao hiệu suất thể thao."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Kinh nghiệm",
+		"title": "Hai thế giới, một ngôn ngữ chung: hiệu suất",
+		"text": "Tôi đã thi đấu ở cấp độ cao nhất và ngày nay tôi áp dụng tiêu chí đó vào dữ liệu: tôi hiểu một con số có ý nghĩa gì đối với một vận động viên vì tôi chính là vận động viên đó."
+	},
+	"ctaFinal": {
+		"title": "Chúng ta nói về dữ liệu chứ?",
+		"text": "Hãy kể cho tôi nghe về dự án của bạn và chúng ta sẽ cùng nhau tìm ra những quyết định giúp cải thiện hiệu suất."
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Tentang Saya",
+		"proyectos": "Proyek",
+		"experiencia": "Pengalaman",
+		"contacto": "Kontak",
+		"ariaMain": "Navigasi utama",
+		"openMenu": "Buka menu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Media sosial"
+	},
+	"langSwitch": {
+		"label": "Ubah bahasa",
+		"traducir": "Ubah bahasa",
+		"buscar": "Cari bahasa…"
+	},
+	"cookies": {
+		"texto": "Kami menggunakan cookie sendiri untuk analitik anonim dan meningkatkan pengalaman Anda. Kami tidak menggunakan cookie pihak ketiga.",
+		"politica": "Kebijakan cookie",
+		"aceptar": "Terima",
+		"rechazar": "Tolak",
+		"configurar": "Konfigurasi cookie",
+		"borrarDatos": "Hapus data saya",
+		"ariaBanner": "Persetujuan cookie"
+	},
+	"legal": {
+		"privacidad": "Kebijakan privasi",
+		"cookies": "Kebijakan cookie"
+	},
+	"person": {
+		"jobTitle": "Ilmuwan data",
+		"description": "Ilmuwan data yang berspesialisasi dalam analitik olahraga, dengan pengalaman di bidang balap sepeda profesional."
+	}
+}

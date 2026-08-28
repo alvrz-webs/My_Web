@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Sobre mi",
+		"proyectos": "Projectes",
+		"experiencia": "Experiència",
+		"contacto": "Contacte",
+		"ariaMain": "Navegació principal",
+		"openMenu": "Obrir menú"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Xarxes socials"
+	},
+	"langSwitch": {
+		"label": "Canviar idioma",
+		"traducir": "Canviar idioma",
+		"buscar": "Cercar idioma…"
+	},
+	"cookies": {
+		"texto": "Fem servir galetes pròpies per a analítica anònima i millorar la teva experiència. No fem servir galetes de tercers.",
+		"politica": "Política de galetes",
+		"aceptar": "Acceptar",
+		"rechazar": "Rebutjar",
+		"configurar": "Configurar galetes",
+		"borrarDatos": "Esborrar les meves dades",
+		"ariaBanner": "Consentiment de galetes"
+	},
+	"legal": {
+		"privacidad": "Política de privacitat",
+		"cookies": "Política de galetes"
+	},
+	"person": {
+		"jobTitle": "Ciientífic de dades",
+		"description": "Científic de dades especialitzat en analítica esportiva, amb experiència dins el ciclisme professional."
+	}
+}

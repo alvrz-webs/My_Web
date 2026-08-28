@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Cookie-szabályzat — Mario Álvarez",
+		"description": "Milyen sütiket használ ez az oldal, milyen céllal, és hogyan módosíthatja hozzájárulását bármikor.",
+		"eyebrow": "Jogi",
+		"heading": "Cookie-szabályzat"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Ez a webhely sütiket és hasonló technológiákat (például a böngésző helyi tárolását) használ a megfelelő működés érdekében, és az Ön hozzájárulásával a tartalomhasználat névtelen elemzésére."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Felhasznált sütik:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Név",
+				"Cél",
+				"Típus",
+				"Időtartam"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Emlékezzen a cookie-szabályzattal kapcsolatos választására",
+					"Saját, technikai (hozzájárulást nem igénylő)",
+					"12 hónap"
+				],
+				[
+					"visitante_id",
+					"Névtelen azonosító a látogatások összekapcsolásához és annak megállapításához, hogy mely tartalom hasznos",
+					"Saját, analitikai (hozzájárulást igénylő)",
+					"12 hónap"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Ezek közül a sütik közül egyik sem harmadik féltől származik, egyiket sem használják hirdetési célokra, és egyiket sem osztják meg senkivel ezen az oldalon kívül."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Bármikor módosíthatja döntését vagy visszavonhatja hozzájárulását az oldallábon található „Sütik beállítása” linken keresztül, és azonnal törölheti minden adatát ugyanezen panel „Adataim törlése” gombjával."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "További információkért arról, hogy miként kezeljük adatait, tekintse meg az Adatvédelmi szabályzatot."
+		}
+	]
+}

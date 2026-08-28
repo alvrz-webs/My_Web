@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Cookie-Richtlinie — Mario Álvarez",
+		"description": "Welche Cookies diese Website verwendet, zu welchem Zweck und wie Sie Ihre Einwilligung jederzeit ändern können.",
+		"eyebrow": "Rechtliches",
+		"heading": "Cookie-Richtlinie"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Diese Website verwendet Cookies und ähnliche Technologien (wie den lokalen Speicher des Browsers) für ihren ordnungsgemäßen Betrieb und, falls Sie zustimmen, zur anonymen Analyse der Nutzung der Inhalte."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Verwendete Cookies:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Name",
+				"Zweck",
+				"Typ",
+				"Dauer"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Speicherung Ihrer Entscheidung bezüglich dieser Cookie-Richtlinie",
+					"Eigene, technisch (von der Einwilligung ausgenommen)",
+					"12 Monate"
+				],
+				[
+					"visitante_id",
+					"Anonyme Kennung zur Verknüpfung Ihrer Besuche und um zu sehen, welche Inhalte nützlich sind",
+					"Eigene, analytisch (erfordert Ihre Einwilligung)",
+					"12 Monate"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Keines dieser Cookies ist ein Drittanbieter-Cookie, keines wird für Werbezwecke verwendet und keines wird an Dritte außerhalb dieser Website weitergegeben."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Sie können Ihre Entscheidung jederzeit ändern oder Ihre Einwilligung über den Link „Cookies konfigurieren“ in der Fußzeile widerrufen und alle Ihre Daten mit der Schaltfläche „Meine Daten löschen“ in demselben Bereich sofort löschen."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Weitere Informationen darüber, wie Ihre Daten verarbeitet werden, finden Sie in der Datenschutzerklärung."
+		}
+	]
+}

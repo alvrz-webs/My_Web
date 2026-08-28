@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "پrogییکٹس — Mario Álvarez",
+		"description": "Mario Álvarez کے ڈیٹا تجزیہ، ویژولائزیشن اور مشین لرننگ کے ریپوزٹوریز اور پروجیکٹس۔",
+		"eyebrow": "پrogییکٹس",
+		"heading": "پrogییکٹس",
+		"intro": "میرے کام کا ایک جھلک: پیشہ ورانہ سائیکلنگ کے ٹولز سے لے کر تعلیمی تجزیہ اور مشین لرننگ کے پروجیکٹس تک۔"
+	},
+	"list": {
+		"eyebrow": "کام",
+		"title": "پrogییکٹس",
+		"intro": "GitHub پر میرے پبلک ریپوزٹوریز کا خودکار انتخاب۔",
+		"especializaciones": "تخصصات",
+		"fallbackDescripcion": "ڈیٹا تجزیہ اور سائنس کا پروجیکٹ۔",
+		"verEnGithub": "GitHub پر دیکھیں",
+		"vacio": "اس وقت ریپوزٹوریز لوڈ نہیں ہو سکے۔",
+		"filtroLabel": "قسم کے لحاظ سے پروجیکٹس فلٹر کریں",
+		"filtroTodos": "سب",
+		"filtroDatos": "ڈیٹا",
+		"filtroWebs": "ویب سائٹس",
+		"verWeb": "ویب دیکھیں",
+		"verCodigo": "کوڈ دیکھیں",
+		"enDesarrollo": "ترقی کے تحت",
+		"fallbackDescripcionWeb": "ویب پروجیکٹ۔",
+		"vacioWebs": "اس سیکشن میں ابھی تک کوئی ویب سائٹ شائع نہیں ہوئی ہے۔"
+	}
+}

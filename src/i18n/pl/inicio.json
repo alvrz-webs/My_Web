@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Analityk danych specjalizujący się w sporcie",
+		"description": "Mario Álvarez, analityk danych w Walencji specjalizujący się w analityce sportowej. Data · Sport · Progress.",
+		"verProyectos": "Zobacz projekty",
+		"contacto": "Kontakt",
+		"verMas": "Zobacz więcej",
+		"verTodosProyectos": "Zobacz wszystkie projekty",
+		"irAContacto": "Przejdź do kontaktu",
+		"herramientas": "Główne narzędzia"
+	},
+	"hero": {
+		"eyebrow": "Analityk danych · Analityka sportowa · Walencja",
+		"titlePre": "Zamieniam dane w ",
+		"titleHighlight": "jasne decyzje",
+		"subtitle": "Jestem pomostem między analizą danych a sportem wyczynowym: przekształcam metryki wydajności w strategie, które robią różnicę na boisku.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "O mnie",
+		"title": "Dane z kontekstem toru, szosy i rywalizacji",
+		"text": "Nazywam się Mario Álvarez, jestem studentem Data Science na UPV z rzeczywistym doświadczeniem w kolarstwie zawodowym. Łączę analizę danych z wynikami sportowymi na najwyższym poziomie, aby przekształcić każdą metrykę w decyzję poprawiającą wyniki."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Wykształcenie",
+			"detail": "Studia licencjackie z Data Science, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elita",
+			"label": "Doświadczenie",
+			"detail": "Rzeczywista praca w zawodowej grupie kolarskiej."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Podejście",
+			"detail": "Analityka stosowana do poprawy wyników sportowych."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Doświadczenie",
+		"title": "Dwa światy, ten sam język: wyniki",
+		"text": "Rywalizowałem na najwyższym poziomie, a dzisiaj stosuję te same kryteria do danych: rozumiem, co liczba oznacza dla sportońca, ponieważ sam nim byłem."
+	},
+	"ctaFinal": {
+		"title": "Porozmawiajmy o danych?",
+		"text": "Opowiedz mi o swoim projekcie i poszukajmy razem miejsc na decyzje, które poprawiają wyniki."
+	}
+}

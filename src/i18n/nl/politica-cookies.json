@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Cookiebeleid — Mario Álvarez",
+		"description": "Welke cookies deze website gebruikt, met welk doel en hoe je je toestemming op elk moment kunt wijzigen.",
+		"eyebrow": "Juridisch",
+		"heading": "Cookiebeleid"
+	},
+	"bloques": [
+		{
+			"tipo": "paragraaf",
+			"texto": "Deze website maakt gebruik van cookies en vergelijkbare technologieën (zoals lokale opslag van de browser) voor de juiste werking en, als je toestemming geeft, om anoniem te analyseren hoe de inhoud wordt gebruikt."
+		},
+		{
+			"tipo": "paragraaf",
+			"texto": "Gebruikte cookies:"
+		},
+		{
+			"tipo": "tabel",
+			"columnas": [
+				"Naam",
+				"Doel",
+				"Type",
+				"Duur"
+			],
+			"filas": [
+				[
+					"cookie_toestemming",
+					"Onthouden van je keuze met betrekking tot dit cookiebeleid",
+					"Eigen, technisch (vrijgesteld van toestemming)",
+					"12 maanden"
+				],
+				[
+					"bezoeker_id",
+					"Anonieme identificatie om je bezoeken te koppelen en te weten welke inhoud nuttig is",
+					"Eigen, analytisch (vereist je toestemming)",
+					"12 maanden"
+				]
+			]
+		},
+		{
+			"tipo": "paragraaf",
+			"texto": "Geen van deze cookies is van derden, geen enkele wordt gebruikt voor advertentiedoeleinden en geen enkele wordt gedeeld met iemand buiten deze site."
+		},
+		{
+			"tipo": "paragraaf",
+			"texto": "Je kunt je beslissing wijzigen of je toestemming op elk moment intrekken via de link \"Cookies configureren\" in de voettekst, en al je gegevens onmiddellijk wissen met de knop \"Mijn gegevens wissen\" in datzelfde paneel."
+		},
+		{
+			"tipo": "paragraaf",
+			"texto": "Raadpleeg het Privacybeleid voor meer informatie over hoe je gegevens worden verwerkt."
+		}
+	]
+}

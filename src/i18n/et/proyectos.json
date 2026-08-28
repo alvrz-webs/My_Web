@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projektid — Mario Álvarez",
+		"description": "Mario Álvarezi andnianüütika, visualiseerimise ja masinõppe repositooriumid ja projektid.",
+		"eyebrow": "Projektid",
+		"heading": "Projektid",
+		"intro": "Pilguheit minu tööle: alates tööriistadest professionaalsele jalgrattaspordile kuni akadeemiliste analüüsi- ja masinõppeprojektideni."
+	},
+	"list": {
+		"eyebrow": "Töö",
+		"title": "Projektid",
+		"intro": "Automaatne valik minu avalikest GitHubi repositooriumidest.",
+		"especializaciones": "Spetsialiseerumised",
+		"fallbackDescripcion": "Andnianüütika ja -teaduse projekt.",
+		"verEnGithub": "Vaata GitHubis",
+		"vacio": "Repositooriumide laadimine ebaõnnestus.",
+		"filtroLabel": "Filtreeri projekte tüübi järgi",
+		"filtroTodos": "Kõik",
+		"filtroDatos": "Andmed",
+		"filtroWebs": "Veebid",
+		"verWeb": "Vaata veebi",
+		"verCodigo": "Vaata koodi",
+		"enDesarrollo": "Arenduses",
+		"fallbackDescripcionWeb": "Veebiprojekt.",
+		"vacioWebs": "Selles jaotises pole veel avaldatud veebisüsteeme."
+	}
+}

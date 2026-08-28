@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "隐私政策 — Mario Álvarez",
+		"description": "Mario Álvarez 网站的隐私政策：收集哪些数据、目的以及如何行使您的权利。",
+		"eyebrow": "法律",
+		"heading": "隐私政策"
+	},
+	"secciones": [
+		{
+			"titulo": "1. 数据处理者",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez，居住于西班牙阿利坎特贝尼多姆。联系方式：malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. 处理目的",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "本网站在内部且仅出于统计目的，分析访问者认为哪些内容（栏目、项目）最有用，旨在改善其内容。它不用于广告目的，不会与第三方共享，在任何情况下都不会出售。"
+				}
+			]
+		},
+		{
+			"titulo": "3. 收集的数据（仅在您接受分析 Cookie 的情况下）",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"随机匿名标识符，不与您的姓名、电子邮箱或任何其他直接识别您身份的信息绑定。",
+						"您访问的页面和项目，以及在每个页面上的停留时间（选项卡处于活动状态时）。",
+						"互动（点击项目、链接或按钮）。",
+						"访问日期和时间。",
+						"所浏览网站的语言。",
+						"设备类型（移动端或桌面端）。",
+						"通过 Cloudflare 基础设施获得的近似国家/地区，不存储您的 IP 地址。",
+						"来源页面（例如 LinkedIn 或搜索引擎）。"
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "不收集您的 IP 地址，不使用浏览器指纹识别技术，也不使用 Google Analytics 或类似工具等第三方工具。"
+				}
+			]
+		},
+		{
+			"titulo": "4. 法律依据",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "处理基于您的明确同意（《GDPR》第 6.1.a 条和《LSSI-CE》第 22.2 条），您可以随时在本网站的 Cookie 管理器中撤回该同意。"
+				}
+			]
+		},
+		{
+			"titulo": "5. 保留期限",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "数据自您最后一次访问起最多保留 12 个月，之后将被自动删除。"
+				}
+			]
+		},
+		{
+			"titulo": "6. 接收者与国际传输",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "数据不会转让或出售给第三方。数据存储在 Cloudflare D1 中，这是由作为处理者的 Cloudflare, Inc. 提供的数据库服务。Cloudflare 可能会在欧洲经济区之外处理数据；在这种情况下，此类传输受欧盟委员会批准的标准合同条款的保护。更多信息请参见 Cloudflare 隐私政策：https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. 您的权利",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "您可以随时通过发送邮件至 malvmar5@hotmail.com 来行使访问、更正、删除、反对、限制处理和数据可携权的权利。此外，您无需向任何人写信，即可通过网站 Cookie 设置中提供的“删除我的数据”按钮立即删除您的数据。如果您认为您的权利未得到妥善处理，您还有权向西班牙数据保护局 (www.aepd.es) 提出申诉。"
+				}
+			]
+		},
+		{
+			"titulo": "8. 本政策的变更",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "本政策可能会进行更新，以适应法律或网站本身的变更。"
+				}
+			]
+		}
+	]
+}

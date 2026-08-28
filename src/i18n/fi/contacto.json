@@ -1,0 +1,13 @@
+{
+	"meta": {
+		"title": "Yhteystiedot — Mario Álvarez",
+		"description": "Ota yhteyttä Mario Álvareziin keskustellaksesi datasta, urheilun suorituskyvystä ja projekteista.",
+		"eyebrow": "Yhteystiedot",
+		"heading": "Onko sinulla dataa ja ratkaistava kysymys?",
+		"intro": "Puhutaan asiasta. Olipa kyseessä urheiluanalytiikkaprojekti, datayhteistyö tai vain idea, jota haluat pallotella, vastaan mielelläni.",
+		"email": "Sähköposti",
+		"telefono": "Puhelin",
+		"verTelefono": "Näytä puhelinnumero",
+		"redesSociales": "Sosiaalinen media"
+	}
+}

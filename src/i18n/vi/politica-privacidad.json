@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Chính sách Bảo mật — Mario Álvarez",
+		"description": "Chính sách bảo mật của trang web Mario Álvarez: dữ liệu nào được thu thập, nhằm mục đích gì và cách thực hiện các quyền của bạn.",
+		"eyebrow": "Pháp lý",
+		"heading": "Chính sách Bảo mật"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Người chịu trách nhiệm xử lý",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, có trụ sở tại Benidorm (Alicante), Tây Ban Nha. Liên hệ: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Mục đích xử lý",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Trang web này phân tích nội dung nào (các phần, dự án) hữu ích nhất đối với khách truy cập, nội bộ và hoàn toàn vì mục đích thống kê, nhằm cải thiện nội dung của trang. Dữ liệu không được sử dụng cho mục đích quảng cáo, không được chia sẻ với bên thứ ba và không bị bán dưới bất kỳ hình thức nào."
+				}
+			]
+		},
+		{
+			"titulo": "3. Dữ liệu được thu thập (chỉ khi bạn chấp nhận cookie phân tích)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Một mã định danh ẩn danh ngẫu nhiên, không liên kết với tên, email của bạn hoặc bất kỳ thông tin nào khác có thể xác định trực tiếp danh tính của bạn.",
+						"Các trang và dự án bạn truy cập, cùng với thời gian chú ý cho mỗi trang (trong khi tab đang hoạt động).",
+						"Tương tác (nhấp vào các dự án, liên kết hoặc nút).",
+						"Ngày và giờ truy cập.",
+						"Ngôn ngữ của trang web được tham khảo.",
+						"Loại thiết bị (di động hoặc máy tính để bàn).",
+						"Quốc gia tương ứng, được lấy thông qua cơ sở hạ tầng của Cloudflare, mà không lưu trữ địa chỉ IP của bạn.",
+						"Trang nguồn (ví dụ: LinkedIn hoặc công cụ tìm kiếm)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Địa chỉ IP của bạn không được thu thập, không sử dụng kỹ thuật nhận dạng trình duyệt (fingerprinting) hoặc các công cụ của bên thứ ba như Google Analytics hoặc tương tự."
+				}
+			]
+		},
+		{
+			"titulo": "4. Cơ sở pháp lý",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Việc xử lý dựa trên sự đồng ý rõ ràng của bạn (Điều 6.1.a của GDPR và Điều 22.2 của LSSI-CE), bạn có thể rút lại bất kỳ lúc nào từ trình quản lý cookie của trang web."
+				}
+			]
+		},
+		{
+			"titulo": "5. Thời hạn lưu trữ",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dữ liệu được lưu trữ tối đa 12 tháng kể từ lần truy cập cuối cùng của bạn, sau thời gian đó dữ liệu sẽ tự động bị xóa."
+				}
+			]
+		},
+		{
+			"titulo": "6. Người nhận và chuyển giao quốc tế",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dữ liệu không được chuyển giao hoặc bán cho bên thứ ba. Dữ liệu được lưu trữ trong Cloudflare D1, một dịch vụ cơ sở dữ liệu được cung cấp bởi Cloudflare, Inc., đóng vai trò là bên xử lý dữ liệu. Cloudflare có thể xử lý dữ liệu bên ngoài Khu vực Kinh tế Châu Âu; trong trường hợp đó, việc chuyển giao đó được bảo vệ bởi các Điều khoản Hợp đồng Chuẩn do Ủy ban Châu Âu phê duyệt. Thêm thông tin trong chính sách bảo mật của Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Quyền của bạn",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bạn có thể thực hiện các quyền truy cập, cải chính, xóa, phản đối, hạn chế xử lý và di chuyển dữ liệu bất kỳ lúc nào bằng cách viết thư tới malvmar5@hotmail.com. Ngoài ra, bạn có thể xóa dữ liệu của mình ngay lập tức mà không cần viết thư cho bất kỳ ai, thông qua nút \"Xóa dữ liệu của tôi\" có sẵn trong cấu hình cookie của trang web. Bạn cũng có quyền nộp đơn khiếu nại lên Cơ quan Bảo vệ Dữ liệu Tây Ban Nha (www.aepd.es) nếu bạn choว่า quyền của mình chưa được giải quyết đúng cách."
+				}
+			]
+		},
+		{
+			"titulo": "8. Thay đổi trong chính sách này",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Chính sách này có thể được cập nhật để phù hợp với các thay đổi pháp lý hoặc của chính trang web."
+				}
+			]
+		}
+	]
+}

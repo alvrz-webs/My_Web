@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Deneyim — Mario Álvarez",
+		"description": "İki dünya, tek dil: performans. Mario Álvarez'in veri, mühendislik ve elit bisikletçilik alanındaki deneyimi.",
+		"eyebrow": "Deneyim",
+		"heading": "İki dünya, tek dil: performans",
+		"colDatos": "Veri ve Teknoloji",
+		"colDeporte": "Elit Spor"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Veri Bilimi Stajı",
+			"meta": "Veri Mühendisliği · Benidorm · 2026",
+			"paragraphs": [
+				"SIME, birbirine bağlı 580'den fazla tablo ve 100 milyonun üzerinde kayıttan oluşan merkezi bir veritabanı üzerinden yüzlerce müşteriye hizmet veren yönetim yazılımı (rezervasyonlar, faturalandırma, raporlar, restoran siparişleri) geliştirmektedir. Büyüme, yükü hafifletmek ve yavaşlık şikayetlerini gidermek için müşterileri birden fazla veritabanına bölmeyi zorunlu kıl__________________mişti.",
+				"İşim: bu veritabanlarını analiz etmek ve sorgu optimizasyonu ile indeksler aracılığıyla, donanımı (RAM/CPU) neredeyse hiç artırmadan tüm verilerin tek ve verimli bir veritabanında birleştirilmesini tasarlamak. Geliştirme tamamlanmış olup test sunucusunda doğrulama aşamasındadır."
+			]
+		},
+		{
+			"title": "Cofidis takımı ile projeler (World Tour)",
+			"meta": "Python · 2025 Yazı",
+			"paragraphs": [
+				"Profesyonel bisikletçilikte veri analizi pozisyonuna başvuru testi olarak gerçekleştirdiğim kişisel proje:"
+			],
+			"list": [
+				"UCI zorluk analizörü: UCI sıralamasından web scraping (web kazıma) yöntemiyle takımın bisikletçilerini konumlandırır ve kadroya göre UCI puanı toplama zorluk seviyesini tahmin eder.",
+				"Yarış profili tahmincisi: Her yarışın özelliklerini öngörür ve hedefler ile stratejiyi planlamak için bir zorluk notu atar."
+			]
+		},
+		{
+			"title": "Akademik ve kişisel projeler",
+			"meta": "Analiz, görselleştirme ve machine learning",
+			"paragraphs": [
+				"Kişisel veri analizi, görselleştirme ve machine learning çalışmaları."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Projeleri gör"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Yarışma",
+			"paragraphs": [
+				"Madison İspanya Şampiyonu (18 yaş); İspanya Milli Takımı ile pist Dünya ve Avrupa Şampiyonaları (her ikisinde de 6.); elit sporcu; lisanslı, aktif pist bisikletçisi."
+			]
+		},
+		{
+			"title": "Sportif direktörlük",
+			"paragraphs": [
+				"Sportif Direktör Seviye I ve II (RFEC); babamla birlikte temel eğitim kategorisindeki (14–18) bisikletçilerin eğitimi ve takibi; yarışmalarda Valensiya Topluluğu Milli Takımı ile yardımcı personel (2026)."
+			]
+		},
+		{
+			"title": "Spor masajı ve teknik kadro",
+			"meta": "2025 Yazı",
+			"paragraphs": [
+				"Sertifikalı spor masörü; profesyonel bisikletçi masörü; Valensiya Topluluğu Milli Takımı, Filipinli bir kıtasal takım ve Benidorm'daki bireysel bisikletçilerle teknik kadro görevi."
+			]
+		}
+	]
+}

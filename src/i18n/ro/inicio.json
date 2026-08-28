@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Oamen de știință a datelor specializat în sport",
+		"description": "Mario Álvarez, om de știință a datelor în Valencia specializat în analitică sportivă. Data · Sport · Progress.",
+		"verProyectos": "Vezi proiecte",
+		"contacto": "Contact",
+		"verMas": "Vezi mai mult",
+		"verTodosProyectos": "Vezi toate proiectele",
+		"irAContacto": "Mergi la contact",
+		"herramientas": "Instrumente principale"
+	},
+	"hero": {
+		"eyebrow": "Om de știință a datelor · Analitică sportivă · Valencia",
+		"titlePre": "Transform datele în ",
+		"titleHighlight": "decizii clare",
+		"subtitle": "Sunt puntea dintre analiza datelor și sportul de elită: transform valorile de performanță în strategii care fac diferența pe teren.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Despre mine",
+		"title": "Date cu context de pistă, șosea și competiție",
+		"text": "Sunt Mario Álvarez, student în Știința Datelor la UPV cu experiență reală în ciclismul profesionist. Combin analiza datelor cu performanța sportivă de elită, pentru a transforma fiecare metrice într-o decizie care îmbunătățește rezultatele."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Formare",
+			"detail": "Licență în Știința Datelor, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elită",
+			"label": "Experiență",
+			"detail": "Muncă reală în cadrul unei echipe de ciclism profesionist."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Abordare",
+			"detail": "Analitică aplicată la îmbunătățirea performanței sportive."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Experiență",
+		"title": "Două lumi, aceeași limbă: performanța",
+		"text": "Am concurat la cel mai înalt nivel și astăzi aplic același criteriu datelor: înțeleg ce înseamnă un număr pentru un sportiv deoarece am fost acel sportiv."
+	},
+	"ctaFinal": {
+		"title": "Vorbim despre date?",
+		"text": "Povestește-mi despre proiectul tău și căutăm împreună unde sunt deciziile care îmbunătățesc performanța."
+	}
+}

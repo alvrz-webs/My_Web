@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Data Scientist specijalizovan za sport",
+		"description": "Mario Álvarez, data scientist u Valensiji specijalizovan za sportsku analitiku. Data · Sport · Progress.",
+		"verProyectos": "Pogledaj projekte",
+		"contacto": "Kontakt",
+		"verMas": "Pogledaj više",
+		"verTodosProyectos": "Pogledaj sve projekte",
+		"irAContacto": "Idi na kontakt",
+		"herramientas": "Glavni alati"
+	},
+	"hero": {
+		"eyebrow": "Data Scientist · Sportska analitika · Valensija",
+		"titlePre": "Pretvaram podatke u ",
+		"titleHighlight": "jasne odluke",
+		"subtitle": "Ja sam most između analize podataka i vrhunskog sporta: pretvaram metrike performansi u strategije koje prave razliku na terenu.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "O meni",
+		"title": "Podaci sa kontekstom staze, puta i takmičenja",
+		"text": "Ja sam Mario Álvarez, student Data Science na UPV-u sa stvarnim iskustvom u profesionalnom biciklizmu. Kombinujem analizu podataka sa vrhunskim sportskim performansama, kako bih svaku metriku pretvorio u odluku koja poboljšava rezultate."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Obrazovanje",
+			"detail": "Osnovne studije Data Science, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elita",
+			"label": "Iskustvo",
+			"detail": "Stvarni rad unutar profesionalnog biciklističkog tima."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pristup",
+			"detail": "Analitika primenjena na poboljšanje sportskih performansi."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Iskustvo",
+		"title": "Dva sveta, isti jezik: performanse",
+		"text": "Takmičio sam se na najvišem nivou i danas primenjujem isti kriterijum na podatke: razumem šta broj znači za sportistu jer sam bio taj sportista."
+	},
+	"ctaFinal": {
+		"title": "Da pričamo o podacima?",
+		"text": "Reci mi više o svom projektu i da zajedno pronađemo gde su odluke koje poboljšavaju performanse."
+	}
+}

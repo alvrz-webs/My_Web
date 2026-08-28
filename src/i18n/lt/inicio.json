@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Duomenų mokslininkas, kurio specializacija – sportas",
+		"description": "Mario Álvarez, duomenų mokslininkas Valensijoje, kurio specializacija – sporto analitika. Data · Sport · Progress.",
+		"verProyectos": "Žiūrėti projektus",
+		"contacto": "Kontaktai",
+		"verMas": "Žiūrėti daugiau",
+		"verTodosProyectos": "Žiūrėti visus projektus",
+		"irAContacto": "Eiti į kontaktus",
+		"herramientas": "Pagrindiniai įrankiai"
+	},
+	"hero": {
+		"eyebrow": "Duomenų mokslininkas · Sporto analitika · Valensija",
+		"titlePre": "Paverčiu duomenis ",
+		"titleHighlight": "aiškiais sprendimais",
+		"subtitle": "Eu esu tiltas tarp duomenų analizės ir elito sporto: paverčiu rezultatų metrikas strategijomis, kurios lemia skirtumą aikštelėje.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Apie mane",
+		"title": "Duomenys su aikštelės, kelio ir varžybų kontekstu",
+		"text": "Esu Mario Álvarez, Duomenų mokslo studentas UPV su realia patirtimi profesionaliame dviračių sporte. Derinu duomenų analizę su elito sportiniais rezultatais, kad kiekvieną metriką paverčiau sprendimu, gerinančiu rezultatus."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Išsilavinimas",
+			"detail": "Duomenų mokslo bakalauras, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elitas",
+			"label": "Patirtis",
+			"detail": "Realus darbas profesionalioje dviračių sporto komandoje."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Požiūris",
+			"detail": "Analitika, pritaikyta sportinių rezultatų gerinimui."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Patirtis",
+		"title": "Du pasauliai, viena kalba: rezultatai",
+		"text": "Eu varžybose dalyvavau aukščiausiu lygiu ir šiandien taikau tą patį kriterijų duomenims: suprantu, ką skaičius reiškia sportininkui, nes pats buvau toks sportininkas."
+	},
+	"ctaFinal": {
+		"title": "Pakalbėkime apie duomenis?",
+		"text": "Papasakokite apie savo projektą ir kartu ieškokime sprendimų, kurie gerina rezultatus."
+	}
+}

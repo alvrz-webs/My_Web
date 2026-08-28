@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Rólam",
+		"proyectos": "Projektek",
+		"experiencia": "Tapasztalat",
+		"contacto": "Kapcsolat",
+		"ariaMain": "Fő navigáció",
+		"openMenu": "Menü megnyitása"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Közösségi média"
+	},
+	"langSwitch": {
+		"label": "Nyelv váltása",
+		"traducir": "Nyelv váltása",
+		"buscar": "Nyelv keresése…"
+	},
+	"cookies": {
+		"texto": "Saját sütiket használunk anonim analitikához és a felhasználói élmény javításához. Nem használunk harmadik féltől származó sütiket.",
+		"politica": "Sütiszabályzat",
+		"aceptar": "Elfogadás",
+		"rechazar": "Elutasítás",
+		"configurar": "Sütik beállítása",
+		"borrarDatos": "Adataim törlése",
+		"ariaBanner": "Sütihozzájárulás"
+	},
+	"legal": {
+		"privacidad": "Adatvédelmi irányelvek",
+		"cookies": "Sütiszabályzat"
+	},
+	"person": {
+		"jobTitle": "Adattudós",
+		"description": "Sportanalitikára szakosodott adattudós, profi kerékpározásban szerzett tapasztalattal."
+	}
+}

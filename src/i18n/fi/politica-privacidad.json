@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Tietosuojakäytäntö — Mario Álvarez",
+		"description": "Mario Álvarezin sivuston tietosuojakäytäntö: mitä tietoja kerätään, mihin tarkoitukseen ja miten voit käyttää oikeuksiasi.",
+		"eyebrow": "Oikeudelliset tiedot",
+		"heading": "Tietosuojakäytäntö"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Rekisterinpitäjä",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, osoite Benidorm (Alicante), Espanja. Yhteystiedot: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Käsittelyn tarkoitus",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tämä verkkosivusto analysoi sisäisesti ja yksinomaan tilastollisia tarkoituksia varten, mitkä sisällöt (osiot, projektit) ovat vierailijoille hyödyllisimpiä, tavoitteenaan sisällön parantaminen. Sitä ei käytetä mainontatarkoituksiin, sitä ei jaeta kolmansille osapuille eikä sitä myydä missään olosuhteissa."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kerättävät tiedot (vain jos hyväksyt analyyttiset evästeet)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Satunnainen anonymisoitu tunniste, jota ei ole sidottu nimeesi, sähköpostiisi tai muihin suoraan sinut tunnistaviin tietoihin.",
+						"Sivut ja projektit, joilla vierailet, sekä kussakin vietetty aika (kun välilehti on aktiivinen).",
+						"Vuorovaikutukset (klikkaukset projekteissa, linkeissä tai painikkeissa).",
+						"Vierailun päivämäärä ja kellonaika.",
+						"Katsotun sivuston kieli.",
+						"Laitetyyppi (mobiili tai työpöytä).",
+						"Arvioitu maa, joka saadaan Cloudflaren infrastruktuurin kautta tallentamatta IP-osoitettasi.",
+						"Saapumissivu (esimerkiksi LinkedIn tai hakukone)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "IP-osoitettasi ei kerätä, selaimen tunnistustekniikoita (fingerprinting) ei käytetä, eikä kolmannen osapuolen työkaluja, kuten Google Analyticsia tai vastaavia, käytetä."
+				}
+			]
+		},
+		{
+			"titulo": "4. Oikeusperusta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Käsittely perustuu nimenomaiseen suostumukseesi (GDPR:n artikla 6.1.a ja Espanjan LSSI-CE:n artikla 22.2), jonka voit peruuttaa milloin tahansa sivuston omasta evästeiden hallinnasta."
+				}
+			]
+		},
+		{
+			"titulo": "5. Säilytysaika",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tietoja säilytetään enintään 12 kuukautta viimeisestä vierailustasi, minkä jälkeen ne poistetaan automaattisesti."
+				}
+			]
+		},
+		{
+			"titulo": "6. Vastaanottajat ja kansainväliset siirrot",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tietoja ei luovuteta eikä myydä kolmansille osapuille. Ne tallennetaan Cloudflare D1:een, Cloudflare, Inc:n tarjoamaan tietokantapalveluun, joka toimii henkilötietojen käsittelijänä. Cloudflare voi käsitellä tietoja Euroopan talousalueen ulkopuolella; tässä tapauksessa siirto perustuu Euroopan komission hyväksymiin EU:n mallisopimuslausekkeisiin. Lisätietoja Cloudflaren tietosuojakäytännöstä: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Sinun oikeutesi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Voit käyttää milloin tahansa oikeuttasi tutustua tietoihin, oikaista niitä, poistaa niitä, vastustaa niiden käsittelyä, rajoittaa sitä ja siirtää tiedot toiselle järjestelmälle kirjoittamalla osoitteeseen malvmar5@hotmail.com. Lisäksi voit poistaa tietosi välittömästi ilman tarvetta kirjoittaa kenellekään sivuston evästeasetuksista löytyvän \"Poista tietoni\" -painikkeen kautta. Sinulla on myös oikeus tehdä valitus Espanjan tietosuojaviranomaiselle (www.aepd.es), jos katsot, että oikeuksiasi ei ole käsitelty asianmukaisesti."
+				}
+			]
+		},
+		{
+			"titulo": "8. Muutokset tähän käytäntöön",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tätä käytäntöä voidaan päivittää vastaamaan lainsäädännön tai itse sivuston muutoksia."
+				}
+			]
+		}
+	]
+}

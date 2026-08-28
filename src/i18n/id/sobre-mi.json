@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Tentang Saya — Mario Álvarez",
+		"description": "Dari juara madison Spanyol hingga mahasiswa Ilmu Data: perjalanan Mario Álvarez antara balap sepeda elit dan analisis olahraga.",
+		"eyebrow": "Tentang Saya",
+		"heading": "Dari Velodrom ke Data"
+	},
+	"bio": [
+		"Saya mulai dengan berkompetisi. Pada usia 18 tahun, saya dinobatkan sebagai juara madison trek Spanyol dan Tim Nasional Balap Sepeda Spanyol memanggil saya untuk Kejuaraan Dunia dan Eropa, di mana saya finis di posisi keenam pada keduanya, yang memberi saya status atlet elit.",
+		"Dari sana saya melompat ke Ilmu Data: hari ini saya sedang menempuh tahun ke-3 Gelar Sarjana di Universitat Politècnica de València, yang berorientasi pada digitalisasi dan teknologi yang diterapkan pada olahraga.",
+		"Nilai tambah saya adalah jembatan itu: saya telah mengalami performa tinggi dari dalam —sebagai pembalap, sebagai direktur olahraga junior, dan sebagai masinis olahraga untuk pembalap sepeda profesional— dan saya tahu cara membaca data di baliknya. Saya mengerti arti sebuah angka bagi seorang atlet, karena saya adalah atlet tersebut. Saya menyatukan kedua dunia untuk mengubah data menjadi keputusan yang meningkatkan performa.",
+		"Selain itu, berkat status saya sebagai atlet elit, saya memperoleh beasiswa untuk menempuh studi S2 dalam Digitalisasi, Inovasi, dan Teknologi dalam Olahraga, yang telah saya selesaikan dan memperluas fokus saya ke seluruh ekosistem olahraga, di luar balap sepeda."
+	],
+	"facts": [
+		{
+			"label": "Basis",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Status",
+			"value": "Tersedia untuk proyek"
+		},
+		{
+			"label": "Fokus",
+			"value": "Data + performa olahraga"
+		},
+		{
+			"label": "Bahasa",
+			"value": "Spanyol asli · Valencia · Inggris B1"
+		},
+		{
+			"label": "Pendidikan",
+			"value": "Gelar Sarjana Ilmu Data (UPV) · S2 Digitalisasi, Inovasi, dan Teknologi dalam Olahraga"
+		}
+	]
+}

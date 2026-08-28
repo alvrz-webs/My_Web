@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "O mnie",
+		"proyectos": "Projekty",
+		"experiencia": "Doświadczenie",
+		"contacto": "Kontakt",
+		"ariaMain": "Główna nawigacja",
+		"openMenu": "Otwórz menu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Walencja.",
+		"ariaSocial": "Media społecznościowe"
+	},
+	"langSwitch": {
+		"label": "Zmień język",
+		"traducir": "Zmień język",
+		"buscar": "Szukaj języka…"
+	},
+	"cookies": {
+		"texto": "Używamy własnych plików cookie do anonimowej analityki i poprawy komfortu korzystania z witryny. Nie używamy plików cookie stron trzecich.",
+		"politica": "Polityka plików cookie",
+		"aceptar": "Zaakceptuj",
+		"rechazar": "Odrzuć",
+		"configurar": "Skonfiguruj pliki cookie",
+		"borrarDatos": "Usuń moje dane",
+		"ariaBanner": "Zgoda na pliki cookie"
+	},
+	"legal": {
+		"privacidad": "Polityka prywatności",
+		"cookies": "Polityka plików cookie"
+	},
+	"person": {
+		"jobTitle": "Data Scientist",
+		"description": "Data Scientist specjalizujący się w analityce sportowej, z doświadczeniem w kolarstwie zawodowym."
+	}
+}

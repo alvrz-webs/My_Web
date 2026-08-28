@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Dataforsker med speciale i sport",
+		"description": "Mario Álvarez, dataforsker i Valencia med speciale i sportsanalyse. Data · Sport · Progress.",
+		"verProyectos": "Se projekter",
+		"contacto": "Kontakt",
+		"verMas": "Se mere",
+		"verTodosProyectos": "Se alle projekter",
+		"irAContacto": "Gå til kontakt",
+		"herramientas": "Hovedværktøjer"
+	},
+	"hero": {
+		"eyebrow": "Dataforsker · Sportsanalyse · Valencia",
+		"titlePre": "Jeg forvandler data til ",
+		"titleHighlight": "klare beslutninger",
+		"subtitle": "Jeg er bindeleddet mellem dataanalyse og elitsport: Jeg omdanner præstationsmålinger til strategier, der gør en forskel på banen.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Om mig",
+		"title": "Data med kontekst fra bane, landevej og konkurrence",
+		"text": "Jeg er Mario Álvarez, datavidenskabsstuderende på UPV med reel erfaring fra professionel cykling. Jeg kombinerer dataanalyse med eliteidrætspræstationer for at omdanne hver enkelt måling til en beslutning, der forbedrer resultaterne."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Uddannelse",
+			"detail": "Bachelor i datavidenskab, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elite",
+			"label": "Erfaring",
+			"detail": "Reelt arbejde på et professionelt cykelhold."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Tilgang",
+			"detail": "Analyse anvendt til forbedring af sportspræstationer."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Erfaring",
+		"title": "To verdener, samme sprog: præstationen",
+		"text": "Jeg har konkurreret på højeste niveau og anvender i dag den samme tilgang på data: Jeg forstår, hvad et tal betyder for en sportsmand, fordi jeg har været den sportsmand."
+	},
+	"ctaFinal": {
+		"title": "Skal vi snakke data?",
+		"text": "Fortæl mig om dit projekt, og lad os sammen finde ud af, hvor de beslutninger, der forbedrer præstationerne, ligger."
+	}
+}

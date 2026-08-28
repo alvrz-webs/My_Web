@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — ਖel ਕਾਰj vigānik jo ki khel vich maharath rakhda hai",
+		"description": "Mario Álvarez, Valencia vich khel vishleshan vich maharath rakhda data vigānik. Data · Sport · Progress.",
+		"verProyectos": "Project dekho",
+		"contacto": "Sampark",
+		"verMas": "Hor dekho",
+		"verTodosProyectos": "Sare project dekho",
+		"irAContacto": "Sampark val jao",
+		"herramientas": "Mukhya saundhan"
+	},
+	"hero": {
+		"eyebrow": "Khel vigānik · Khel vishleshan · Valencia",
+		"titlePre": "Main data nu badalda han ",
+		"titleHighlight": "saf aehmyate vich",
+		"subtitle": "Main data vishleshan te elit khel vichkar ek pul han: main karkardgi mitar nu aisi rananiti vich badalda han jo maidan te farak paudiyan han.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Mere bare",
+		"title": "Track, sarak te mukabale de sandarbh nal data",
+		"text": "Main Mario Álvarez han, UPV vich Data Science da vidyarthi han te peshevar cycling andar vastavik tajruba rakhda han. Main data vishleshan nu elit khel karkardgi nal ralauna han, taan jo har mitar nu nateejeyan nu sudharun vali aehmyat vich badal sakeya jave."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Sikhlayi",
+			"detail": "Data Science vich Degree, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Tajruba",
+			"detail": "Ik peshevar cycling team andar vastavik kamm."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pahunch",
+			"detail": "Khel karkardgi de sudhar lai lagu kita vishleshan."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Tajruba",
+		"title": "Do duniyaan, ikko bhasha: karkardgi",
+		"text": "Main sab ton uche padar te mukabala kita hai te aj ohi mapdand data te lagu karda han: main samajhda han ki ik khidari lai number da ki matlab hunda hai kiunki main ohi khidari reha han."
+	},
+	"ctaFinal": {
+		"title": "Ki asi data bare gall kariye?",
+		"text": "Mainu apne project bare dasso te asi ikathe labhde han ki karkardgi sudharun vale faisle kithe han."
+	}
+}

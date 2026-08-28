@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Data Scientist spécialisé dans le sport",
+		"description": "Mario Álvarez, data scientist à Valencia spécialisé dans l'analytique sportive. Data · Sport · Progress.",
+		"verProyectos": "Voir les projets",
+		"contacto": "Contact",
+		"verMas": "Voir plus",
+		"verTodosProyectos": "Voir tous les projets",
+		"irAContacto": "Aller au contact",
+		"herramientas": "Outils principaux"
+	},
+	"hero": {
+		"eyebrow": "Data scientist · Analytique sportive · Valencia",
+		"titlePre": "Je transforme les données en ",
+		"titleHighlight": "décisions claires",
+		"subtitle": "Je suis le pont entre l'analyse des données et le sport de haut niveau : je transforme les mesures de performance en stratégies qui font la différence sur le terrain.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "À propos de moi",
+		"title": "Des données avec un contexte de piste, de route et de compétition",
+		"text": "Je suis Mario Álvarez, étudiant en science des données à l'UPV avec une expérience réelle dans le cyclisme professionnel. Je combine l'analyse des données et la performance sportive d'élite pour transformer chaque métrique en une décision qui améliore les résultats."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Formation",
+			"detail": "Licence en Science des Données, Universitat Politècnica de València."
+		},
+		{
+			"value": "Élite",
+			"label": "Expérience",
+			"detail": "Travail réel au sein d'une équipe cycliste professionnelle."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Approche",
+			"detail": "Analytique appliquée à l'amélioration de la performance sportive."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Expérience",
+		"title": "Deux mondes, un même langage : la performance",
+		"text": "J'ai concouru au plus haut niveau et aujourd'hui j'applique ce même critère aux données : je comprends ce qu'un chiffre signifie pour un sportif parce que j'ai été ce sportif."
+	},
+	"ctaFinal": {
+		"title": "On parle de données ?",
+		"text": "Parlez-moi de votre projet et nous chercherons ensemble où se trouvent les décisions qui améliorent la performance."
+	}
+}

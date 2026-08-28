@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projektit — Mario Álvarez",
+		"description": "Mario Álvarezin data-analyysi-, visualisointi- ja koneoppimisrepositoriot ja -projektit.",
+		"eyebrow": "Projektit",
+		"heading": "Projektit",
+		"intro": "Katsaus työhöni: ammattipyöräilytyökaluista akateemisiin analyysi- ja koneoppimisprojekteihin."
+	},
+	"list": {
+		"eyebrow": "Työ",
+		"title": "Projektit",
+		"intro": "Automaattinen valikoima julkisia GitHub-repositorioitani.",
+		"especializaciones": "Erikoisalat",
+		"fallbackDescripcion": "Data-analyysin ja datatieteen projekti.",
+		"verEnGithub": "Katso GitHubissa",
+		"vacio": "Repositorioita ei voitu ladata tällä hetkellä.",
+		"filtroLabel": "Suodata projektit tyypin mukaan",
+		"filtroTodos": "Kaikki",
+		"filtroDatos": "Data",
+		"filtroWebs": "Verkkosivut",
+		"verWeb": "Katso sivusto",
+		"verCodigo": "Katso koodi",
+		"enDesarrollo": "Kehitteillä",
+		"fallbackDescripcionWeb": "Verkkosivustoprojekti.",
+		"vacioWebs": "Tässä osiossa ei ole vielä julkaistuja verkkosivustoja."
+	}
+}

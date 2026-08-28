@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Proiektuak — Mario Álvarez",
+		"description": "Mario Álvarezen datu-analisiko, bistaratze eta ikasketa automatikoko biltegi eta proiektuak.",
+		"eyebrow": "Proiektuak",
+		"heading": "Proiektuak",
+		"intro": "Nire lanaren ikuspegi bat: txirrindularitza profesionalerako tresnetatik hasi eta analisi eta ikasketa automatikoko lan akademikoetaraino."
+	},
+	"list": {
+		"eyebrow": "Lana",
+		"title": "Proiektuak",
+		"intro": "GitHub-en ditudan nire biltegi publikoen hautaketa automatikoa.",
+		"especializaciones": "Espezializazioak",
+		"fallbackDescripcion": "Datuen analisi eta zientzia proiektua.",
+		"verEnGithub": "Ikusi GitHub-en",
+		"vacio": "Ezin izan dira biltegiak kargatu momentu honetan.",
+		"filtroLabel": "Iragazi proiektuak motaren arabera",
+		"filtroTodos": "Denak",
+		"filtroDatos": "Datuak",
+		"filtroWebs": "Webguneak",
+		"verWeb": "Ikusi webgunea",
+		"verCodigo": "Ikusi kodea",
+		"enDesarrollo": "Garapenean",
+		"fallbackDescripcionWeb": "Web proiektua.",
+		"vacioWebs": "Oraindik ez dago webgunerik argitaratuta atal honetan."
+	}
+}

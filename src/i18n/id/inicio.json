@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Ilmuwan data yang mengkhususkan diri dalam bidang olahraga",
+		"description": "Mario Álvarez, ilmuwan data di Valencia yang mengkhususkan diri dalam analitik olahraga. Data · Sport · Progress.",
+		"verProyectos": "Lihat proyek",
+		"contacto": "Kontak",
+		"verMas": "Lihat lebih banyak",
+		"verTodosProyectos": "Lihat semua proyek",
+		"irAContacto": "Ke kontak",
+		"herramientas": "Alat utama"
+	},
+	"hero": {
+		"eyebrow": "Ilmuwan data · Analitik olahraga · Valencia",
+		"titlePre": "Saya mengubah data menjadi ",
+		"titleHighlight": "keputusan yang jelas",
+		"subtitle": "Saya adalah jembatan antara analisis data dan olahraga elit: saya mengubah metrik performa menjadi strategi yang membuat perbedaan di lapangan.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Tentang saya",
+		"title": "Data dengan konteks lintasan, jalan raya, dan kompetisi",
+		"text": "Saya Mario Álvarez, mahasiswa Sains Data di UPV dengan pengalaman nyata di bidang balap sepeda profesional. Saya memadukan analisis data dengan performa olahraga elit, untuk mengubah setiap metrik menjadi keputusan yang meningkatkan hasil."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Pendidikan",
+			"detail": "Gelar Sarjana Sains Data, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Pengalaman",
+			"detail": "Pekerjaan nyata di dalam tim balap sepeda profesional."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pendekatan",
+			"detail": "Analitik yang diterapkan untuk peningkatan performa olahraga."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Pengalaman",
+		"title": "Dua dunia, satu bahasa yang sama: performa",
+		"text": "Saya telah berkompetisi di tingkat tertinggi dan hari ini saya menerapkan kriteria yang sama pada data: saya memahami arti sebuah angka bagi seorang atlet karena saya pernah menjadi atlet tersebut."
+	},
+	"ctaFinal": {
+		"title": "Mari bicara tentang data?",
+		"text": "Ceritakan proyek Anda dan kita cari bersama di mana letak keputusan yang meningkatkan performa."
+	}
+}

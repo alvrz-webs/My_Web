@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Privātuma politika — Mario Álvarez",
+		"description": "Mario Álvarez vietnes privātuma politika: kādi dati tiek vākti, kādam nolūkam un kā īstenot savas tiesības.",
+		"eyebrow": "Juridiskā informācija",
+		"heading": "Privātuma politika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Pārzinis",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, ar adresi Benidorm (Alikante), Spānija. Kontakti: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Apstrādes nolūks",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šī vietne iekšēji un ekskluzīvi statistikas nolūkos analizē, kurš saturs (sadaļas, projekti) apmeklētājiem šķiet visnoderīgākais, lai uzlabotu tās saturu. Tā netiek izmantota reklāmas nolūkos, netiek kopīgota ar trešajām pusēm un nekādos apstākļos netiek pārdota."
+				}
+			]
+		},
+		{
+			"titulo": "3. Apkopotie dati (tikai tad, ja piekrītat analītiskajām sīkdatnēm)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Nejauša anonīma identifikatora numurs, kas nav saistīts ar jūsu vārdu, e-pastu vai citu informāciju, kas jūs tieši identificē.",
+						"Apmeklētās lapas un projekti, kā arī katrā no tiem pavadītais laiks (kamēr cilne ir aktīva).",
+						"Mijiedarbība (klikšķi uz projektiem, saitēm vai pogām).",
+						"Apmeklējuma datums un laiks.",
+						"Konsultētās vietnes valoda.",
+						"Ierīces tips (mobilā vai galddatora).",
+						"Aptuvenā valsts, kas iegūta, izmantojot Cloudflare infrastruktūru, neuzglabājot jūsu IP adresi.",
+						"Izcelsmes lapa (piemēram, LinkedIn vai meklētājprogramma)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jūsu IP adrese netiek vākta, netiek izmantotas pārlūkprogrammas identifikācijas tehnikas (fingerprinting) vai trešo pušu rīki, piemēram, Google Analytics vai tamlīdzīgi."
+				}
+			]
+		},
+		{
+			"titulo": "4. Likumīgais pamats",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Apstrāde balstās uz jūsu nepārprotamu piekrišanu (VPDAR 6. panta 1. punkta a apakšpunkts un LSSI-CE 22. panta 2. punkts), kuru varat jebkurā laikā atsaukt no pašas vietnes sīkdatņu pārvaldnieka."
+				}
+			]
+		},
+		{
+			"titulo": "5. Saglabāšanas termiņš",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dati tiek glabāti ne ilgāk kā 12 mēnešus kopš jūsu pēdējā apmeklējuma, pēc kura tie tiek automātiski dzēsti."
+				}
+			]
+		},
+		{
+			"titulo": "6. Saņēmēji un starptautiskā datu pārsūtīšana",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dati netiek izpausti vai pārdoti trešajām pusēm. Tie tiek glabāti Cloudflare D1, datu bāzes pakalpojumā, ko nodrošina Cloudflare, Inc., kas darbojas kā apstrādātājs. Cloudflare var apstrādāt datus ārpus Eiropas Ekonomikas zonas; šādā gadījumā šāda pārsūtīšana balstās uz Eiropas Komisijas apstiprinātajiem Līguma standartklauzulu noteikumiem. Vairāk informācijas Cloudflare privātuma politikā: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Jūsu tiesības",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jūs varat jebkurā laikā īstenot savas tiesības piekļūt, labot, dzēst, iebilst, ierobežot apstrādi un datu pārnesamību, rakstot uz malvmar5@hotmail.com. Turklāt jūs varat nekavējoties izdzēst savus datus, nevienam nerakstot, izmantojot pogu \"Dzēst manus datus\", kas pieejama vietnes sīkdatņu iestatījumos. Jums ir arī tiesības iesniegt sūdzību Spānijas Datu aizsardzības aģentūrā (www.aepd.es), ja uzskatāt, ka jūsu tiesības nav ievērotas pareizi."
+				}
+			]
+		},
+		{
+			"titulo": "8. Izmaiņas šajā politikā",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šī politika var tikt atjaunināta, lai pielāgotos likumdošanas vai pašas vietnes izmaiņām."
+				}
+			]
+		}
+	]
+}

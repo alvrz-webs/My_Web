@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projektai — Mario Álvarez",
+		"description": "Mario Álvarez duomenų analizės, vizualizacijos ir mašininio mokymosi saugyklos bei projektai.",
+		"eyebrow": "Projektai",
+		"heading": "Projektai",
+		"intro": "Žvilgsnis į my darbą: nuo profesionalių dviračių sporto įrankių iki akademinių analizės ir mašininio mokymosi projektų."
+	},
+	"list": {
+		"eyebrow": "Darbas",
+		"title": "Projektai",
+		"intro": "Automatinė mano viešųjų „GitHub“ saugyklų atranka.",
+		"especializaciones": "Specializacijos",
+		"fallbackDescripcion": "Duomenų analizės ir mokslo projektas.",
+		"verEnGithub": "Žiūrėti „GitHub“",
+		"vacio": "Šiuo metu nepavyko įkelti saugyklų.",
+		"filtroLabel": "Filtruoti projektus pagal tipą",
+		"filtroTodos": "Visi",
+		"filtroDatos": "Duomenys",
+		"filtroWebs": "Svetainės",
+		"verWeb": "Žiūrėti svetainę",
+		"verCodigo": "Žiūrėti kodą",
+		"enDesarrollo": "Kuriamas",
+		"fallbackDescripcionWeb": "Žiniatinklio projektas.",
+		"vacioWebs": "Šiame skyriuje dar nėra paskelbtų svetainių."
+	}
+}

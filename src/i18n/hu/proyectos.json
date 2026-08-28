@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projektek — Mario Álvarez",
+		"description": "Mario Álvarez adatelemzési, vizualizációs és gépi tanulási repozitóriumai és projektjei.",
+		"eyebrow": "Projektek",
+		"heading": "Projektek",
+		"intro": "Betekintés a munkámba: a profi kerékpározáshoz készült eszközöktől az akadémiai elemzési és gépi tanulási projektekig."
+	},
+	"list": {
+		"eyebrow": "Munka",
+		"title": "Projektek",
+		"intro": "A nyilvános GitHub-repozitóriumaim automatikus válogatása.",
+		"especializaciones": "Szakterületek",
+		"fallbackDescripcion": "Adatelemzési és adattudományi projekt.",
+		"verEnGithub": "Megtekintés a GitHubon",
+		"vacio": "A repozitóriumokat jelenleg nem sikerült betölteni.",
+		"filtroLabel": "Projektek szűrése típus szerint",
+		"filtroTodos": "Mind",
+		"filtroDatos": "Adatok",
+		"filtroWebs": "Webhelyek",
+		"verWeb": "Webhely megtekintése",
+		"verCodigo": "Kód megtekintése",
+		"enDesarrollo": "Fejlesztés alatt",
+		"fallbackDescripcionWeb": "Webes projekt.",
+		"vacioWebs": "Ebben a szakaszban még nincsenek közzétett webhelyek."
+	}
+}

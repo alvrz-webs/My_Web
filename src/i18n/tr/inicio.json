@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Spor alanında uzmanlaşmış Veri Bilimci",
+		"description": "Valensiya'da spor analitiği konusunda uzmanlaşmış veri bilimci Mario Álvarez. Data · Sport · Progress.",
+		"verProyectos": "Projeleri gör",
+		"contacto": "İletişim",
+		"verMas": "Daha fazla gör",
+		"verTodosProyectos": "Tüm projeleri gör",
+		"irAContacto": "İletişime geç",
+		"herramientas": "Ana araçlar"
+	},
+	"hero": {
+		"eyebrow": "Veri Bilimci · Spor Analitiği · Valensiya",
+		"titlePre": "Verileri ",
+		"titleHighlight": "net kararlara dönüştürüyorum",
+		"subtitle": "Veri analizi ile elit spor arasındaki köprüyüm: performans metriklerini sahada fark yaratan stratejilere dönüştürüyorum.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Hakkımda",
+		"title": "Pist, yol ve yarış bağlamında veriler",
+		"text": "Ben Mario Álvarez, UPV'de Veri Bilimi öğrencisiyim ve profesyonel bisiklet dünyasında gerçek deneyime sahibim. Her metriği sonucu iyileştiren bir karara dönüştürmek için veri analizini elit spor performansı ile birleştiriyorum."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Eğitim",
+			"detail": "Veri Bilimi Lisans Derecesi, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Deneyim",
+			"detail": "Profesyonel bir bisiklet takımında gerçek çalışma."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Yaklaşım",
+			"detail": "Spor performansının iyileştirilmesine uygulanan analitik."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Deneyim",
+		"title": "İki dünya, tek dil: performans",
+		"text": "En üst düzeyde yarıştıktan sonra bugün aynı kriteri verilere uyguluyorum: bir sayının bir sporcu için ne ifade ettiğini anlıyorum çünkü o sporcu ben oldum."
+	},
+	"ctaFinal": {
+		"title": "Veriler hakkında konuşalım mı?",
+		"text": "Projenden bahset ve performansı iyileştiren kararların nerede olduğunu birlikte arayalım."
+	}
+}

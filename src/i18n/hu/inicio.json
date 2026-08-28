@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Sportspecifikus adattudós",
+		"description": "Mario Álvarez, valenciai adattudós, aki a sportanalitikára szakosodott. Data · Sport · Progress.",
+		"verProyectos": "Projektek megtekintése",
+		"contacto": "Kapcsolat",
+		"verMas": "Tovább",
+		"verTodosProyectos": "Összes projekt megtekintése",
+		"irAContacto": "Ugrás a kapcsolathoz",
+		"herramientas": "Fő eszközök"
+	},
+	"hero": {
+		"eyebrow": "Adattudós · Sportanalitika · Valencia",
+		"titlePre": "Az adatokat ",
+		"titleHighlight": "világos döntésekké",
+		"subtitle": "alakítom. Én vagyok a híd az adatelemzés és az élvonalbeli sport között: a teljesítménymutatókat olyan stratégiákká alakítom, amelyek számítanak a pályán.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Rólam",
+		"title": "Adatok pályás, úti és versenykontextusban",
+		"text": "Mario Álvarez vagyok, az UPV adattudományi hallgatója, valós tapasztalattal a profi kerékpározás világában. Ötvözöm az adatelemzést az elit sportteljesítménnyel, hogy minden egyes mutatót olyan döntéssé formáljak, amely javítja az eredményeket."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Képzés",
+			"detail": "Adattudomány alapképzés, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Tapasztalat",
+			"detail": "Valós munka egy profi kerékpárcsapaton belül."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Megközelítés",
+			"detail": "A sportteljesítmény javítására alkalmazott analitika."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Tapasztalat",
+		"title": "Két világ, ugyanaz a nyelv: a teljesítmény",
+		"text": "Versenyzettem a legmagasabb szinten, és ma ugyanezt a szemléletet alkalmazom az adatokra: értem, mit jelent egy szám egy sportoló számára, mert én magam is az voltam."
+	},
+	"ctaFinal": {
+		"title": "Beszéljünk az adatokról?",
+		"text": "Mesélj a projektedről, és keressük meg együtt, hol vannak azok a döntések, amelyek javítják a teljesítményt."
+	}
+}

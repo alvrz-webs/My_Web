@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Erfarenhet — Mario Álvarez",
+		"description": "Två världar, samma språk: prestanda. Mario Álvarez erfarenhet inom data och teknik, och inom elitskidåkning.",
+		"eyebrow": "Erfarenhet",
+		"heading": "Två världar, samma språk: prestanda",
+		"colDatos": "Data & Teknik",
+		"colDeporte": "Elitidrott"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Praktik i Datavetenskap",
+			"meta": "Dataingenjörskap · Benidorm · 2026",
+			"paragraphs": [
+				"SIME utvecklar mjukvara för administration (bokningar, fakturering, rapporter, restaurangbeställningar) som betjänar hundratals kunder från ett centralt system, baserat på en databas med +580 sammankopplade tabeller och +100 miljoner poster. Tillväxten hade tvingat fram en uppdelning av kunder i flera databaser för att minska belastningen och klagomål på långsamhet.",
+				"Mitt arbete: att analysera dessa databaser och, genom optimering av frågor och index, utforma en sammanslagning av all data till en enda effektiv databas utan att nämnvärt skala hårdvaran (RAM/CPU). Förbättringen är redan utvecklad och befinner sig i valideringsfasen på en testserver."
+			]
+		},
+		{
+			"title": "Projekt med laget Cofidis (World Tour)",
+			"meta": "Python · Sommar 2025",
+			"paragraphs": [
+				"Eget projekt som jag utförde som ett test för att komma in på dataanalys inom professionell cykelsport:"
+			],
+			"list": [
+				"UCI svårighetsanalysator: genom web scraping av UCI-rankingen placerar den lagets cyklister och uppskattar svårighetsgraden för att samla UCI-poäng baserat på truppen.",
+				"Förutsägare av loppprofil: förutser egenskaperna hos varje lopp och tilldelar det ett svårighetsbetyg för att planera mål och strategi."
+			]
+		},
+		{
+			"title": "Akademiska och personliga projekt",
+			"meta": "Analys, visualisering och maskininlärning",
+			"paragraphs": [
+				"Egna arbeten inom dataanalys, visualisering och maskininlärning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Se projekt"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Tävling",
+			"paragraphs": [
+				"Spansk mästare i madison (18 år); VM och EM i bana med det spanska landslaget (6:a i båda); elitidrottare; aktiv, licensierad bancyklist."
+			]
+		},
+		{
+			"title": "Sportchef",
+			"paragraphs": [
+				"Sportchef Nivå I och II (RFEC); träning och uppföljning av ungdomscyklister (14–18) tillsammans med min far; funktionär med Valencian Community-landslaget vid tävlingar (2026)."
+			]
+		},
+		{
+			"title": "Idrottsmassage och teknisk personal",
+			"meta": "Sommar 2025",
+			"paragraphs": [
+				"Certifierad massör; massör för professionella cyklister; personal med Valencian Community-landslaget, ett filippinskt kontinentallag och enskilda cyklister i Benidorm."
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Về tôi",
+		"proyectos": "Dự án",
+		"experiencia": "Kinh nghiệm",
+		"contacto": "Liên hệ",
+		"ariaMain": "Điều hướng chính",
+		"openMenu": "Mở menu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Mạng xã hội"
+	},
+	"langSwitch": {
+		"label": "Đổi ngôn ngữ",
+		"traducir": "Đổi ngôn ngữ",
+		"buscar": "Tìm kiếm ngôn ngữ…"
+	},
+	"cookies": {
+		"texto": "Chúng tôi sử dụng cookie của riêng mình để phân tích ẩn danh và cải thiện trải nghiệm của bạn. Chúng tôi không sử dụng cookie của bên thứ ba.",
+		"politica": "Chính sách cookie",
+		"aceptar": "Chấp nhận",
+		"rechazar": "Từ chối",
+		"configurar": "Cấu hình cookie",
+		"borrarDatos": "Xóa dữ liệu của tôi",
+		"ariaBanner": "Sự đồng ý về cookie"
+	},
+	"legal": {
+		"privacidad": "Chính sách quyền riêng tư",
+		"cookies": "Chính sách cookie"
+	},
+	"person": {
+		"jobTitle": "Nhà khoa học dữ liệu",
+		"description": "Nhà khoa học dữ liệu chuyên về phân tích thể thao, có kinh nghiệm trong bộ môn đạp xe chuyên nghiệp."
+	}
+}

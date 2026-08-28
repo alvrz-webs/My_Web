@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Datavitenskapelig spesialist innen sport",
+		"description": "Mario Álvarez, datavitenskapsmann i Valencia spesialisert på sportsanalytikk. Data · Sport · Progress.",
+		"verProyectos": "Se prosjekter",
+		"contacto": "Kontakt",
+		"verMas": "Se mer",
+		"verTodosProyectos": "Se alle prosjekter",
+		"irAContacto": "Gå til kontakt",
+		"herramientas": "Hovedverktøy"
+	},
+	"hero": {
+		"eyebrow": "Datavitenskapsmann · Sportsanalytikk · Valencia",
+		"titlePre": "Jeg gjør om data til ",
+		"titleHighlight": "klare beslutninger",
+		"subtitle": "Jeg er broen mellom dataanalyse og elitisport: Jeg forvandler ytelsesmålinger til strategier som gjør en forskjell på banen.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Om meg",
+		"title": "Data med kontekst fra bane, vei og konkurranse",
+		"text": "Jeg er Mario Álvarez, student i datavitenskap ved UPV med reell erfaring fra profesjonell sykling. Jeg kombinerer dataanalyse med eliteidrettsprestasjoner for å gjøre om hver måling til en beslutning som forbedrer resultater."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Utdanning",
+			"detail": "Bachelorgrad i datavitenskap, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elite",
+			"label": "Erfaring",
+			"detail": "Reelt arbeid i et profesjonelt sykkelag."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Tilnærming",
+			"detail": "Analytikk brukt til å forbedre sportslige prestasjoner."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Erfaring",
+		"title": "To verdener, ett og samme språk: prestasjon",
+		"text": "Jeg har konkurrert på høyeste nivå og bruker i dag det samme kriteriet på data: Jeg forstår hva et tall betyr for en utøver fordi jeg har vært den utøveren."
+	},
+	"ctaFinal": {
+		"title": "Skal vi snakke om data?",
+		"text": "Fortell meg om prosjektet ditt, så finner vi sammen ut hvor beslutningene som forbedrer prestasjonen ligger."
+	}
+}

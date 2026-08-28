@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Karanasan — Mario Álvarez",
+		"description": "Dalawang mundo, iisang wika: ang pagganap. Karanasan ni Mario Álvarez sa data at inhenyeriya, at sa elite na pagbibisikleta.",
+		"eyebrow": "Karanasan",
+		"heading": "Dalawang mundo, iisang wika: ang pagganap",
+		"colDatos": "Data at Teknolohiya",
+		"colDeporte": "Elite na Paligsahan"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Internship sa Data Science",
+			"meta": "Data Engineering · Benidorm · 2026",
+			"paragraphs": [
+				"Ang SIME ay gumagawa ng management software (mga reservation, billing, ulat, order sa restawran) na nagilingkod sa daan-daang kliyente mula sa isang sentral na sistema, sa ibabaw ng database na may +580 magkakaugnay na talahanayan at +100 milyong rekord. Ang paglago ay nagtulak sa kanila na hatiin ang mga kliyente sa iba't ibang database upang maibsan ang load at ang mga reklamo tungkol sa kabagalan.",
+				"Ang aking trabaho: suriin ang mga database na ito at, sa pamamagitan ng pag-optimize ng mga query at index, idisenyo ang pag-iisa ng lahat ng data sa iisang mahusay na database nang halos hindi pinapalaki ang hardware (RAM/CPU). Ang pagpapabuti ay binuo na, at nasa yugto ng pagpapatunay sa test server."
+			]
+		},
+		{
+			"title": "Mga proyekto kasama ang Cofidis team (World Tour)",
+			"meta": "Python · Tag-init 2025",
+			"paragraphs": [
+				"Sariling proyekto na ginawa ko bilang pagsubok para makapasok sa data analysis sa propesyonal na pagbibisikleta:"
+			],
+			"list": [
+				"Tagasuri ng kahirapan sa UCI: sa pamamagitan ng web scraping ng ranggo ng UCI, inilalagay nito ang mga siklista ng koponan at tinatantya ang antas ng kahirapan upang makakuha ng mga puntos sa UCI ayon sa roster.",
+				"Tagahula ng profile ng karera: inaasahan ang mga katangian ng bawat karera at nagtatakda ng marka ng kahirapan upang planuhin ang mga layunin at estratehiya."
+			]
+		},
+		{
+			"title": "Mga proyektong pang-akademiko at personal",
+			"meta": "Pagsusuri, visualization at machine learning",
+			"paragraphs": [
+				"Sariling mga gawain sa data analysis, visualization at machine learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Tingnan ang mga proyekto"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Paligsahan",
+			"paragraphs": [
+				"Kampeon ng Espanya sa madison (18 taong gulang); World at European track championships kasama ang Pambansang Koponan ng Espanya (ika-6 sa pareho); elite na atleta; aktibong pederadong track cyclist."
+			]
+		},
+		{
+			"title": "Direksyon ng Isports",
+			"paragraphs": [
+				"Sports Director Antas I at II (RFEC); pagsasanay at pagsubaybay sa mga batang siklista (14–18) kasama ang aking ama; assistant kasama ang Pambansang Koponan ng Komunidad ng Valencia sa mga kumpetisyon (2026)."
+			]
+		},
+		{
+			"title": "Quiromassage at technical staff",
+			"meta": "Tag-init 2025",
+			"paragraphs": [
+				"Lisensyadong quiromassage therapist; masahista para sa mga propesyonal na siklista; staff kasama ang Pambansang Koponan ng Komunidad ng Valencia, sa isang kontinental na koponan mula sa Pilipinas, at sa mga indibidwal na siklista sa Benidorm."
+			]
+		}
+	]
+}

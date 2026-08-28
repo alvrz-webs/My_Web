@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Data scientist med specialisering inom sport",
+		"description": "Mario Álvarez, data scientist i Valencia med specialisering inriktad på sportanalys. Data · Sport · Progress.",
+		"verProyectos": "Visa projekt",
+		"contacto": "Kontakt",
+		"verMas": "Visa mer",
+		"verTodosProyectos": "Visa alla projekt",
+		"irAContacto": "Gå till kontakt",
+		"herramientas": "Huvudverktyg"
+	},
+	"hero": {
+		"eyebrow": "Data scientist · Sportanalys · Valencia",
+		"titlePre": "Jag förvandlar data till ",
+		"titleHighlight": "tydliga beslut",
+		"subtitle": "Jag är bryggan mellan dataanalys och elitsport: jag förvandlar prestationsmått till strategier som gör skillnad på planen.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Om mig",
+		"title": "Data med kontext från bana, väg och tävling",
+		"text": "Jag är Mario Álvarez, student i datavetenskap vid UPV med verklig erfarenhet inom professionell cykelsport. Jag kombinerar dataanalys med elitprestationer för att omvandla varje mätvärde till ett beslut som förbättrar resultaten."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Utbildning",
+			"detail": "Kandidatexamen i datavetenskap, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Erfarenhet",
+			"detail": "Verkligt arbete inom ett professionellt cykelstall."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Fokus",
+			"detail": "Analys tillämpad på förbättring av idrottsprestationer."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Erfarenhet",
+		"title": "Två världar, samma språk: prestationen",
+		"text": "Jag har tävlat på högsta nivå och tillämpar idag samma synsätt på data: jag förstår vad en siffra betyder för en idrottare eftersom jag har varit den idrottaren."
+	},
+	"ctaFinal": {
+		"title": "Ska vi snacka data?",
+		"text": "Berätta om ditt projekt så letar vi tillsammans upp var besluten som förbättrar prestationen finns."
+	}
+}

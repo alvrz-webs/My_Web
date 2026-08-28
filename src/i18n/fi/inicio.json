@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Urheilutilastotieteilijä",
+		"description": "Mario Álvarez, datatieteilijä Valenciassa, erikoistunut urheiluanalytiikkaan. Data · Sport · Progress.",
+		"verProyectos": "Näytä projektit",
+		"contacto": "Yhteystiedot",
+		"verMas": "Näytä lisää",
+		"verTodosProyectos": "Näytä kaikki projektit",
+		"irAContacto": "Siirry yhteystietoihin",
+		"herramientas": "Päätyökalut"
+	},
+	"hero": {
+		"eyebrow": "Datatieteilijä · Urheiluanalytiikka · Valencia",
+		"titlePre": "Muutan datan ",
+		"titleHighlight": "selkeiksi päätöksiksi",
+		"subtitle": "Olen siltä kilpaurheilun ja datan analyysin välillä: muunnaan suorituskykymetriikat strategioiksi, jotka tekevät eron kentällä.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Minusta",
+		"title": "Dataa radan, maantien ja kilpailun kontekstissa",
+		"text": "Olen Mario Álvarez, datatieteen opiskelija UPV:ssä, jolla on todellista kokemusta ammattilaispyöräilystä. Yhdistän data-analyysin huippu-urheilun suorituskykyyn muuttaakseni jokaisen metriikan päätökseksi, joka parantaa tuloksia."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Koulutus",
+			"detail": "Datatieteen kandidaatti, Universitat Politècnica de València."
+		},
+		{
+			"value": "Huippu-urheilu",
+			"label": "Kokemus",
+			"detail": "Todellista työtä ammattilaispyöräilytallissa."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Lähestymistapa",
+			"detail": "Urheilun suorituskyvyn parantamiseen sovellettu analytiikka."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Kokemus",
+		"title": "Kaksi maailmaa, sama kieli: suorituskyky",
+		"text": "Olen kilpaillut korkeimmalla tasolla ja sovellettan samaa kriteeriä dataan tänään: ymmärrän, mitä luku merkitsee urheilijalle, koska olen ollut tuo urheilija."
+	},
+	"ctaFinal": {
+		"title": "Puhutaanko datasta?",
+		"text": "Kerro minulle projektistasi ja etsimme yhdessä kohdat, joissa päätökset parantavat suorituskykyä."
+	}
+}

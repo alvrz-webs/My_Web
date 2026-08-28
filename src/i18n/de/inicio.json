@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Datenwissenschaftler mit Spezialisierung auf Sport",
+		"description": "Mario Álvarez, Datenwissenschaftler in Valencia, spezialisiert auf Sportanalytik. Data · Sport · Progress.",
+		"verProyectos": "Projekte ansehen",
+		"contacto": "Kontakt",
+		"verMas": "Mehr ansehen",
+		"verTodosProyectos": "Alle Projekte ansehen",
+		"irAContacto": "Zum Kontakt",
+		"herramientas": "Hauptwerkzeuge"
+	},
+	"hero": {
+		"eyebrow": "Datenwissenschaftler · Sportanalytik · Valencia",
+		"titlePre": "Ich verwandle Daten in ",
+		"titleHighlight": "klare Entscheidungen",
+		"subtitle": "Ich bin die Brücke zwischen Datenanalyse und Spitzensport: Ich verwandle Leistungskennzahlen in Strategien, die auf dem Spielfeld den Unterschied ausmachen.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Über mich",
+		"title": "Daten mit Kontext von Strecke, Straße und Wettkampf",
+		"text": "Ich bin Mario Álvarez, Student der Datenwissenschaft an der UPV mit praktischer Erfahrung im professionellen Radsport. Ich verbinde Datenanalyse mit sportlicher Spitzenleistung, um jede Kennzahl in eine Entscheidung zu verwandeln, die die Ergebnisse verbessert."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Ausbildung",
+			"detail": "Bachelor in Datenwissenschaft, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elite",
+			"label": "Erfahrung",
+			"detail": "Praktische Arbeit in einem professionellen Radsportteam."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Ansatz",
+			"detail": "Analytik angewandt auf die Verbesserung der sportlichen Leistung."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Erfahrung",
+		"title": "Zwei Welten, dieselbe Sprache: die Leistung",
+		"text": "Ich habe auf höchstem Niveau konkurriert und wende heute genau dieses Kriterium auf Daten an: Ich verstehe, was eine Zahl für einen Sportler bedeutet, weil ich dieser Sportler war."
+	},
+	"ctaFinal": {
+		"title": "Sprechen wir über Daten?",
+		"text": "Erzählen Sie mir von Ihrem Projekt und wir suchen gemeinsam nach den Entscheidungen, die die Leistung verbessern."
+	}
+}

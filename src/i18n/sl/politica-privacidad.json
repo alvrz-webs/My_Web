@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Politika zasebnosti — Mario Álvarez",
+		"description": "Politika zasebnosti spletnega mesta Mariae Álvareza: kateri podatki se zbirajo, s kakšnim namenom in kako uveljavljati svoje pravice.",
+		"eyebrow": "Pravno obvestilo",
+		"heading": "Politika zasebnosti"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Upravljavec podatkov",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, s sedežem v Benidormu (Alicante), Španija. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Namen obdelave",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "To spletno mesto interno in izključno v statistične namene analizira, katere vsebine (razdelki, projekti) so najbolj koristne obiskovalcem, z namenom izboljšanja njegove vsebine. Ne uporablja se v oglaševalske namene, se ne deli s tretjimi osebami in se pod nobenim pogojem ne prodaja."
+				}
+			]
+		},
+		{
+			"titulo": "3. Zbrani podatki (samo, če sprejmete analitske piškotke)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Naključni anonimni identifikator, ki ni povezan z vašim imenom, e-pošto ali drugimi podatki, ki bi vas lahko neposredno identificirali.",
+						"Strani in projekti, ki jih obiščete, ter čas ogleda vsakega posebej (medtem ko je zavihek aktiven).",
+						"Interakcije (kliki na projekte, povezave ali gumbe).",
+						"Datum in ura obiska.",
+						"Jezik obiskanega spletnega mesta.",
+						"Vrsta naprave (mobilna ali namizna).",
+						"Približna država, pridobljena preko infrastrukture Cloudflare, brez shranjevanja vašega naslova IP.",
+						"Izvorna stran (na primer LinkedIn ali iskalnik)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Vaš naslov IP se ne zbira, ne uporabljajo se tehnike prepoznavanja brskalnika (fingerprinting) ali orodja tretjih oseb, kot je Google Analytics ali podobno."
+				}
+			]
+		},
+		{
+			"titulo": "4. Pravna podlaga",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Obdelava temelji na vaši izrecni privolitvi (člen 6.1.a GDPR in člen 22.2 LSSI-CE), ki jo lahko kadar koli prekličete v upravljalniku piškotkov na samem spletnem mestu."
+				}
+			]
+		},
+		{
+			"titulo": "5. Rok hrambe",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Podatki se hranijo največ 12 mesecev od vašega zadnjega obiska, po preteku tega roka pa se samodejno izbrišejo."
+				}
+			]
+		},
+		{
+			"titulo": "6. Prejemniki in mednarodni prenos",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Podatki se ne posredujejo ali prodajajo tretjim osebam. Shranjeni so v Cloudflare D1, storitvi podatkovnih baz, ki jo zagotavlja Cloudflare, Inc. in deluje kot obdelovalec podatkov. Cloudflare lahko obdeluje podatke zunaj Evropskega gospodarskega prostora; v tem primeru je tak prenos zavarovan s standardnimi pogodbenimi klavzulami, ki jih je odobrila Evropska komisija. Več informacij v politiki zasebnosti Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Vaše pravice",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kadar koli lahko uveljavljate svoje pravice do dostopa, popravka, izbrisa, ugovora, omejitve obdelave in prenosljivosti s pisanjem na malvmar5@hotmail.com. Poleg tega lahko svoje podatke takoj izbrišete, ne da bi bilo treba komurkoli pisati, s klikom na gumb \"Izbriši moje podatke\", ki je na voljo v nastavitvah piškotkov spletnega mesta. Prav tako imate pravico do vložitve pritožbe pri Španski agenciji za varstvo podatkov (www.aepd.es), če menite, da vaše pravice niso bile ustrezno obravnavane."
+				}
+			]
+		},
+		{
+			"titulo": "8. Spremembe tega pravilnika",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ta pravilnik se lahko posodobi zaradi prilagoditve zakonodajnim spremembam ali spremembam na samem spletnem mestu."
+				}
+			]
+		}
+	]
+}

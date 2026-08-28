@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "프로젝트 — 마리오 알바레즈",
+		"description": "마리오 알바레즈의 데이터 분석, 시각화, 머신러닝 리포지토리 및 프로젝트.",
+		"eyebrow": "프로젝트",
+		"heading": "프로젝트",
+		"intro": "내 작업 살펴보기: 프로 사이클링 도구부터 학술 데이터 분석 및 머신러닝 프로젝트까지."
+	},
+	"list": {
+		"eyebrow": "작업",
+		"title": "프로젝트",
+		"intro": "GitHub의 공개 리포지토리 자동 선택.",
+		"especializaciones": "전문 분야",
+		"fallbackDescripcion": "데이터 분석 및 과학 프로젝트.",
+		"verEnGithub": "GitHub에서 보기",
+		"vacio": "현재 리포지토리를 불러올 수 없습니다.",
+		"filtroLabel": "유형별 프로젝트 필터링",
+		"filtroTodos": "모두",
+		"filtroDatos": "데이터",
+		"filtroWebs": "웹",
+		"verWeb": "웹 보기",
+		"verCodigo": "코드 보기",
+		"enDesarrollo": "개발 중",
+		"fallbackDescripcionWeb": "웹 프로젝트.",
+		"vacioWebs": "이 섹션에 아직 게시된 웹이 없습니다."
+	}
+}

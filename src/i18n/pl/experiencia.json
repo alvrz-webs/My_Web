@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Doświadczenie — Mario Álvarez",
+		"description": "Dwa światy, ten sam język: wydajność. Doświadczenie Mario Álvareza w dziedzinie danych i inżynierii oraz elitarnego kolarstwa.",
+		"eyebrow": "Doświadczenie",
+		"heading": "Dwa światy, ten sam język: wydajność",
+		"colDatos": "Dane i technologia",
+		"colDeporte": "Sport elity"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Staż w dziedzinie nauki o danych",
+			"meta": "Inżynieria danych · Benidorm · 2026",
+			"paragraphs": [
+				"SIME tworzy oprogramowanie do zarządzania (rezerwacje, fakturowanie, raporty, zamówienia gastronomiczne), z którego korzystają setki klientów z poziomu systemu centralnego, opartego na bazie danych zawierającej ponad 580 powiązanych tabel i ponad 100 milionów rekordów. Wzrost zmusił firmę do rozdzielenia klientów na kilka baz danych w celu odciążenia systemu i zmniejszenia liczby skarg dotyczących powolnego działania.",
+				"Moja praca: analiza tych baz danych i, poprzez optymalizację zapytań oraz indeksów, zaprojektowanie unifikacji wszystkich danych w jedną wydajną bazę bez niemal żadnego skalowania sprzętu (RAM/CPU). Ulepszenie zostało już opracowane i znajduje się w fazie walidacji na serwerze testowym."
+			]
+		},
+		{
+			"title": "Projekty z zespołem Cofidis (World Tour)",
+			"meta": "Python · Lato 2025",
+			"paragraphs": [
+				"Własny projekt wykonany jako test rekrutacyjny do pracy przy analizie danych w kolarstwie zawodowym:"
+			],
+			"list": [
+				"Analizator trudności UCI: poprzez web scraping rankingu UCI pozycjonuje kolarzy zespołu i szacuje poziom trudności zdobywania punktów UCI w zależności od składu.",
+				"Predyktor profilu wyścigu: przewiduje charakterystykę każdego wyścigu i przypisuje mu ocenę trudności w celu zaplanowania celów oraz strategii."
+			]
+		},
+		{
+			"title": "Projekty akademickie i osobiste",
+			"meta": "Analiza, wizualizacja i uczenie maszynowe",
+			"paragraphs": [
+				"Własne prace z zakresu analizy danych, wizualizacji i uczenia maszynowego."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Zobacz projekty"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Rywalizacja",
+			"paragraphs": [
+				"Mistrz Hiszpanii w madisonie (18 lat); Mistrzostwa Świata i Europy na torze z reprezentacją Hiszpanii (6. miejsce w obu); sportowiec elity; licencjonowany, aktywny kolarz torowy."
+			]
+		},
+		{
+			"title": "Dyrektor sportowy",
+			"paragraphs": [
+				"Dyrektor sportowy I i II stopnia (RFEC); szkolenie i monitorowanie kolarzy młodzieżowych (14–18 lat) wspólnie z moim ojcem; asystent w reprezentacji Wspólnoty Walenckiej podczas zawodów (2026)."
+			]
+		},
+		{
+			"title": "Masaż klasyczny i sztab techniczny",
+			"meta": "Lato 2025",
+			"paragraphs": [
+				"Dyplomowany masażysta; masażysta kolarzy zawodowych; członek sztabu reprezentacji Wspólnoty Walenckiej, filipińskiego zespołu kontynentalnego oraz kolarzy indywidualnych w Benidorm."
+			]
+		}
+	]
+}

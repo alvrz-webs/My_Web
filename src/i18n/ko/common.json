@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "소개",
+		"proyectos": "프로젝트",
+		"experiencia": "경력",
+		"contacto": "연락처",
+		"ariaMain": "주요 탐색",
+		"openMenu": "메뉴 열기"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "마리오 알바레스. 발렌시아.",
+		"ariaSocial": "소셜 미디어"
+	},
+	"langSwitch": {
+		"label": "언어 변경",
+		"traducir": "언어 변경",
+		"buscar": "언어 검색…"
+	},
+	"cookies": {
+		"texto": "당사는 익명 분석 및 사용자 경험 개선을 위해 자사 쿠키를 사용합니다. 타사 쿠키는 사용하지 않습니다.",
+		"politica": "쿠키 정책",
+		"aceptar": "수락",
+		"rechazar": "거부",
+		"configurar": "쿠키 설정",
+		"borrarDatos": "내 데이터 삭제",
+		"ariaBanner": "쿠키 동의"
+	},
+	"legal": {
+		"privacidad": "개인정보 처리방침",
+		"cookies": "쿠키 정책"
+	},
+	"person": {
+		"jobTitle": "데이터 과학자",
+		"description": "프로 사이클링 분야의 경험을 갖춘 스포츠 분석 전문 데이터 과학자."
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Über mich — Mario Álvarez",
+		"description": "Vom spanischen Madison-Meister zum Data-Science-Studenten: Mario Álvarez' Weg zwischen Leistungssradsport und Sportanalytik.",
+		"eyebrow": "Über mich",
+		"heading": "Vom Velodrom zu den Daten"
+	},
+	"bio": [
+		"Ich fing als Wettkämpfer an. Mit 18 wurde ich spanischer Meister im Madison auf der Bahn, und die spanische Radsportnationalmannschaft berief mich für die Welt- und Europameisterschaften, wo ich jeweils Sechster wurde, was mir den Status eines Elitesportlers einbrachte.",
+		"Von dort aus wagte ich den Sprung in die Data Science: Heute studiere ich im 3. Semester den Bachelor an der Universitat Politècnica de València, ausgerichtet auf Digitalisierung und Technologie im Sport.",
+		"Mein Alleinstellungsmerkmal ist diese Brücke: Ich habe den Hochleistungssport von innen erlebt – als Fahrer, als Sportlicher Leiter im Nachwuchsbereich und als Masseur für Profi-Radfahrer – und ich weiß, wie man die Daten dahinter liest. Ich verstehe, was eine Zahl für einen Sportler bedeutet, denn ich war dieser Sportler. Ich verbinde beide Welten, um Daten in Entscheidungen zu verwandeln, die die Leistung verbessern.",
+		"Zudem erhielt ich dank meines Status als Elitesportler ein Stipendium für ein Masterstudium in Digitalisierung, Innovation und Technologie im Sport, das ich bereits abgeschlossen habe und das meinen Fokus auf das gesamte Sportökosystem über den Radsport hinaus erweitert."
+	],
+	"facts": [
+		{
+			"label": "Standort",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Status",
+			"value": "Verfügbar für Projekte"
+		},
+		{
+			"label": "Fokus",
+			"value": "Daten + Sportliche Leistung"
+		},
+		{
+			"label": "Sprachen",
+			"value": "Spanisch (Muttersprache) · Valencianisch · Englisch B1"
+		},
+		{
+			"label": "Ausbildung",
+			"value": "Bachelor in Data Science (UPV) · Master in Digitalisierung, Innovation und Technologie im Sport"
+		}
+	]
+}

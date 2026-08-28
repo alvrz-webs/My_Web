@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Znanstvenik podataka specijaliziran za sport",
+		"description": "Mario Álvarez, znanstvenik podataka u Valenciji specijaliziran za sportsku analitiku. Data · Sport · Progress.",
+		"verProyectos": "Pogledaj projekte",
+		"contacto": "Kontakt",
+		"verMas": "Pogledaj više",
+		"verTodosProyectos": "Pogledaj sve projekte",
+		"irAContacto": "Idi na kontakt",
+		"herramientas": "Glavni alati"
+	},
+	"hero": {
+		"eyebrow": "Znanstvenik podataka · Sportska analitika · Valencia",
+		"titlePre": "Pretvaram podatke u ",
+		"titleHighlight": "jasne odluke",
+		"subtitle": "Ja sam most između analize podataka i vrhunskog sporta: pretvaram metrike izvedbe u strategije koje donose prevagu na terenu.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "O meni",
+		"title": "Podaci s kontekstom terena, ceste i natjecanja",
+		"text": "Ja sam Mario Álvarez, student znanosti o podacima na UPV-u s stvarnim iskustvom u profesionalnom biciklizmu. Kombiniram analizu podataka s vrhunskim sportskim performansama kako bih svaku metriku pretvorio u odluku koja poboljšava rezultate."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Obrazovanje",
+			"detail": "Prvostupnik znanosti o podacima, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elita",
+			"label": "Iskustvo",
+			"detail": "Stvarni rad unutar profesionalnog biciklističkog tima."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pristup",
+			"detail": "Analitika primijenjena na poboljšanje sportske izvedbe."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Iskustvo",
+		"title": "Dva svijeta, isti jezik: izvedba",
+		"text": "Natjecao sam se na najvišoj razini i danas primjenjujem isti kriterij na podatke: razumijem što broj znači sportašu jer sam bio taj sportaš."
+	},
+	"ctaFinal": {
+		"title": "Razgovaramo li o podacima?",
+		"text": "Ispričaj mi o svom projektu i zajedno ćemo potražiti gdje su odluke koje poboljšavaju izvedbu."
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Nire berri",
+		"proyectos": "Proiektuak",
+		"experiencia": "Esperientzia",
+		"contacto": "Kontaktua",
+		"ariaMain": "Nabigazio nagusia",
+		"openMenu": "Ireki menua"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Sare sozialak"
+	},
+	"langSwitch": {
+		"label": "Aldatu hizkuntza",
+		"traducir": "Aldatu hizkuntza",
+		"buscar": "Bilatu hizkuntza…"
+	},
+	"cookies": {
+		"texto": "Cookie propioak erabiltzen ditugu analisi anonimoetarako eta zure esperientzia hobetzeko. Ez dugu hirugarrenen cookierik erabiltzen.",
+		"politica": "Cookie politika",
+		"aceptar": "Onartu",
+		"rechazar": "Baztertu",
+		"configurar": "Konfiguratu cookieak",
+		"borrarDatos": "Ezabatu nire datuak",
+		"ariaBanner": "Cookie baimena"
+	},
+	"legal": {
+		"privacidad": "Pribatutasun politika",
+		"cookies": "Cookie politika"
+	},
+	"person": {
+		"jobTitle": "Datu zientzialaria",
+		"description": "Kirol analistikan espezializatutako datu zientzialaria, ziklistismo profesionalean esperientzia duena."
+	}
+}

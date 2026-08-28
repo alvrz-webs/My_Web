@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Proyek — Mario Álvarez",
+		"description": "Repositori dan proyek analisis data, visualisasi, dan machine learning oleh Mario Álvarez.",
+		"eyebrow": "Proyek",
+		"heading": "Proyek",
+		"intro": "Sekilas tentang pekerjaan saya: mulai dari perangkat untuk balap sepeda profesional hingga proyek akademik analisis dan machine learning."
+	},
+	"list": {
+		"eyebrow": "Pekerjaan",
+		"title": "Proyek",
+		"intro": "Pilihan otomatis dari repositori publik saya di GitHub.",
+		"especializaciones": "Spesialisasi",
+		"fallbackDescripcion": "Proyek analisis dan sains data.",
+		"verEnGithub": "Lihat di GitHub",
+		"vacio": "Tidak dapat memuat repositori saat ini.",
+		"filtroLabel": "Filter proyek berdasarkan jenis",
+		"filtroTodos": "Semua",
+		"filtroDatos": "Data",
+		"filtroWebs": "Web",
+		"verWeb": "Lihat web",
+		"verCodigo": "Lihat kode",
+		"enDesarrollo": "Dalam pengembangan",
+		"fallbackDescripcionWeb": "Proyek web.",
+		"vacioWebs": "Belum ada web yang dipublikasikan di bagian ini."
+	}
+}

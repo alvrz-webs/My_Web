@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Dátový vedec špecializovaný na šport",
+		"description": "Mario Álvarez, dátový vedec vo Valencii špecializovaný na športovú analytiku. Data · Sport · Progress.",
+		"verProyectos": "Zobraziť projekty",
+		"contacto": "Kontakt",
+		"verMas": "Zobraziť viac",
+		"verTodosProyectos": "Zobraziť všetky projekty",
+		"irAContacto": "Prejsť na kontakt",
+		"herramientas": "Hlavné nástroje"
+	},
+	"hero": {
+		"eyebrow": "Dátový vedec · Športová analytika · Valencia",
+		"titlePre": "Premieňam dáta na ",
+		"titleHighlight": "jasné rozhodnutia",
+		"subtitle": "Som mostom medzi analýzou dát a elitným športom: transformujem metriky výkonnosti na stratégie, ktoré robia rozdiel na ihrisku.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "O mne",
+		"title": "Dáta s kontextom trate, cesty a súťaže",
+		"text": "Som Mario Álvarez, študent dátovej vedy na UPV so skúsenosťami z profesionálnej cyklistiky. Kombinujem analýzu dát s elitným športovým výkonom, aby som premenil každú metriku na rozhodnutie, ktoré zlepšuje výsledky."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Vzdelanie",
+			"detail": "Bakalársky titul v odbore Dátová veda, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elita",
+			"label": "Skúsenosti",
+			"detail": "Reálna práca v profesionálnom cyklistickom tíme."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Prístup",
+			"detail": "Analytika aplikovaná na zlepšenie športového výkonu."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Skúsenosti",
+		"title": "Dva sveta, rovnaký jazyk: výkon",
+		"text": "Súťažil som na najvyššej úrovni a dnes aplikujem rovnaké kritériá na dáta: chápem, čo číslo znamená pre športovca, pretože som tým športovcom bol."
+	},
+	"ctaFinal": {
+		"title": "Porozprávame sa o dátach?",
+		"text": "Povedzte mi o svojom projekte a spolu nájdeme miesta pre rozhodnutia, ktoré zlepšujú výkon."
+	}
+}

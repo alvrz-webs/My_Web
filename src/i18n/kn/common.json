@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "N/A",
+		"proyectos": "N/A",
+		"experiencia": "N/A",
+		"contacto": "N/A",
+		"ariaMain": "N/A",
+		"openMenu": "N/A"
+	},
+	"footer": {
+		"tagline": "N/A",
+		"copySufijo": "N/A",
+		"ariaSocial": "N/A"
+	},
+	"langSwitch": {
+		"label": "N/A",
+		"traducir": "N/A",
+		"buscar": "N/A"
+	},
+	"cookies": {
+		"texto": "N/A",
+		"politica": "N/A",
+		"aceptar": "N/A",
+		"rechazar": "N/A",
+		"configurar": "N/A",
+		"borrarDatos": "N/A",
+		"ariaBanner": "N/A"
+	},
+	"legal": {
+		"privacidad": "N/A",
+		"cookies": "N/A"
+	},
+	"person": {
+		"jobTitle": "N/A",
+		"description": "N/A"
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Saintis data pakar dalam sukan",
+		"description": "Mario Álvarez, saintis data di Valencia yang pakar dalam analitik sukan. Data · Sport · Progress.",
+		"verProyectos": "Lihat projek",
+		"contacto": "Hubungi",
+		"verMas": "Lihat lagi",
+		"verTodosProyectos": "Lihat semua projek",
+		"irAContacto": "Pergi ke kenalan",
+		"herramientas": "Alat utama"
+	},
+	"hero": {
+		"eyebrow": "Saintis data · Analitik sukan · Valencia",
+		"titlePre": "Saya menukarkan data kepada ",
+		"titleHighlight": "keputusan yang jelas",
+		"subtitle": "Saya adalah jambatan antara analisis data dan sukan elit: saya mengubah metrik prestasi kepada strategi yang membawa perubahan ketara di atas padang.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Tentang saya",
+		"title": "Data dengan konteks trek, jalan raya dan pertandingan",
+		"text": "Saya Mario Álvarez, pelajar Sains Data di UPV dengan pengalaman sebenar dalam berbasikal profesional. Saya menggabungkan analisis data dengan prestasi sukan elit, untuk menukar setiap metrik kepada keputusan yang meningkatkan hasil."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Pendidikan",
+			"detail": "Ijazah Sarjana Muda Sains Data, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Pengalaman",
+			"detail": "Kerja sebenar dalam pasukan berbasikal profesional."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pendekatan",
+			"detail": "Analitik yang diaplikasikan untuk penambahbaikan prestasi sukan."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Pengalaman",
+		"title": "Dua dunia, satu bahasa yang sama: prestasi",
+		"text": "Saya telah bersaing di peringkat tertinggi dan hari ini saya mengaplikasikan kriteria yang sama pada data: saya faham maksud nombor kepada seorang atlet kerana saya pernah menjadi atlet tersebut."
+	},
+	"ctaFinal": {
+		"title": "Bercakap tentang data?",
+		"text": "Beritahu saya tentang projek anda dan kita cari bersama di mana terletaknya keputusan yang meningkatkan prestasi."
+	}
+}

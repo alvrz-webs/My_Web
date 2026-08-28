@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Про мене",
+		"proyectos": "Проєкти",
+		"experiencia": "Досвід",
+		"contacto": "Контакти",
+		"ariaMain": "Головна навігація",
+		"openMenu": "Відкрити меню"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Соціальні мережі"
+	},
+	"langSwitch": {
+		"label": "Змінити мову",
+		"traducir": "Змінити мову",
+		"buscar": "Шукати мову…"
+	},
+	"cookies": {
+		"texto": "Ми використовуємо власні файли cookie для анонімної аналітики та покращення вашого досвіду. Ми не використовуємо сторонні файли cookie.",
+		"politica": "Політика щодо файлів cookie",
+		"aceptar": "Прийняти",
+		"rechazar": "Відхилити",
+		"configurar": "Налаштувати файли cookie",
+		"borrarDatos": "Видалити мої дані",
+		"ariaBanner": "Згода на використання файлів cookie"
+	},
+	"legal": {
+		"privacidad": "Політика конфіденційності",
+		"cookies": "Політика щодо файлів cookie"
+	},
+	"person": {
+		"jobTitle": "Спеціаліст з даних",
+		"description": "Спеціаліст з даних, що спеціалізується на спортивній аналітиці, з досвідом роботи у професійному велоспорті."
+	}
+}

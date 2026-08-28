@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Pribatutasun Politika — Mario Álvarez",
+		"description": "Mario Álvarez-ren webgunearen pribatutasun-politika: zer datu biltzen diren, zein helbururekin eta nola erabili zure eskubideak.",
+		"eyebrow": "Legezkoa",
+		"heading": "Pribatutasun Politika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Tratuaren arduraduna",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, egoitza Benidormen (Alacant), Espainia duena. Harremana: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Tratuaren helburua",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web honek barne-mailan eta soilik estatistika-helburuekin aztertzen du zein edukik (atalak, proiektuak) diren baliotsuagoak bisitarientzat, edukia hobetzeko asmoz. Ez da publizitate-helburuekin erabiltzen, ez da hirugarrenekin partekatzen eta ez da inola ere saltzen."
+				}
+			]
+		},
+		{
+			"titulo": "3. Biltzen diren datuak (cookie analitikoak onartzen badituzu soilik)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Ausazko identifikatzaile anonimo bat, zure izenari, e-postari edo zuzenean zuri identifikatzen zaituen beste edozein informazioari lotu gabekoa.",
+						"Bisitatzen dituzun orriak eta proiektuak, eta bakoitzean emandako arreta-denbora (fitxa aktibo dagoen bitartean).",
+						"Elkarrekintzak (proiektuetan, esteketan edo botoietan egindako klikak).",
+						"Bisitaren data eta ordua.",
+						"Kontsultatutako gunearen hizkuntza.",
+						"Gailu mota (mugikorra edo mahaigaina).",
+						"Gutxi gorabeherako herrialdea, Cloudflare azpiegituraren bidez lortua, zure IP helbidea gorde gabe.",
+						"Jatorrizko orria (adibidez, LinkedIn edo bilatzaile bat)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ez da zure IP helbidea biltzen, ez da nabigatzailea identifikatzeko teknikarik erabiltzen (fingerprinting), ezta hirugarrenen tresnarik ere, hala nola Google Analytics edo antzekoak."
+				}
+			]
+		},
+		{
+			"titulo": "4. Oinarri legea",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tratamendua zure berrespen esplizituan oinarritzen da (RGPDaren 6.1.a artikulua eta LSSI-CEaren 22.2 artikulua), edozein unetan ken dezakezuna gunearen bereko cookie-kudeatzailetik."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kontserbazio-epea",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Datuak gehienez 12 hilabetez gordetzen dira azken bisitatik aurrera, eta epe hori igarotakoan automatikoki ezabatzen dira."
+				}
+			]
+		},
+		{
+			"titulo": "6. Hartzaileak eta nazioarteko transferentziak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Datuak ez zaizkie hirugarrenei lagatzen edo saltzen. Cloudflare D1 zerbitzuan gordetzen dira, Cloudflare, Inc.-ek eskainitako datu-base zerbitzu batean, tratamenduaren arduradun gisa jokatzen duena. Cloudflarek Europako Espazio Ekonomikotik kanpo prozesatu ditzake datuak; kasu horretan, transferentzia hori Europako Batzordeak onartutako Kontratu Eredu Estandarretan oinarritzen da. Informazio gehiago Cloudflare-ren pribatutasun-politikan: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Zure eskubideak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Edozein unetan erabil ditzakezu sarbide, zuzenketa, ezabatze, aurka egiteko, tratamendua mugatzeko eta eramangarritasun eskubideak malvmar5@hotmail.com helbidera idatziz. Gainera, zure datuak berehala ezabatu ditzakezu, inori idatzi beharrik gabe, gunearen cookie-en konfigurazioan eskuragarri dagoen \"Ezabatu nire datuak\" botoitik. Espainiako Datu Babes Bulegoaren aurrean (www.aepd.es) erreklamazio bat aurkezteko eskubidea ere baduzu, zure eskubideak behar bezala ez direla artatu uste baduzu."
+				}
+			]
+		},
+		{
+			"titulo": "8. Politika honen aldaketak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Politika hau eguneratu egin daiteke lege-aldaketetara edo gunearen beraren aldaketetara egokitzeko."
+				}
+			]
+		}
+	]
+}

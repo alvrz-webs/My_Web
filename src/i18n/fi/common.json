@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Minusta",
+		"proyectos": "Projektit",
+		"experiencia": "Kokemus",
+		"contacto": "Yhteystiedot",
+		"ariaMain": "Päänavigaatio",
+		"openMenu": "Avaa valikko"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Sosiaalinen media"
+	},
+	"langSwitch": {
+		"label": "Vaihda kieltä",
+		"traducir": "Vaihda kieltä",
+		"buscar": "Etsi kieltä…"
+	},
+	"cookies": {
+		"texto": "Käytämme omia evästeitä nimettömään analytiikkaan ja käyttökokemuksesi parantamiseen. Emme käytä kolmannen osapuolen evästeitä.",
+		"politica": "Evästekäytäntö",
+		"aceptar": "Hyväksy",
+		"rechazar": "Hylkää",
+		"configurar": "Määritä evästeet",
+		"borrarDatos": "Poista tietoni",
+		"ariaBanner": "Evästesuostumus"
+	},
+	"legal": {
+		"privacidad": "Tietosuojakäytäntö",
+		"cookies": "Evästekäytäntö"
+	},
+	"person": {
+		"jobTitle": "Datatieteilijä",
+		"description": "Urheiluanalytiikkaan erikoistunut datatieteilijä, jolla on kokemusta ammattilaispyöräilystä."
+	}
+}

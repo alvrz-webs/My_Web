@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Pravila o kolačićima — Mario Álvarez",
+		"description": "Koje kolačiće ova stranica koristi, u koje svrhe i kako u bilo kojem trenutku promijeniti svoj pristanak.",
+		"eyebrow": "Pravno",
+		"heading": "Pravila o kolačićima"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Ova web stranica koristi kolačiće i slične tehnologije (poput lokalne pohrane preglednika) za svoj ispravan rad i, uz vaš pristanak, za anonimnu analizu načina na koji se sadržaj koristi."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Korišteni kolačići:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Naziv",
+				"Svrha",
+				"Vrsta",
+				"Trajanje"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Pamćenje vašeg odabira u vezi s ovim pravilima o kolačićima",
+					"Vlastiti, tehnički (izuzet od pristanka)",
+					"12 mjeseci"
+				],
+				[
+					"visitante_id",
+					"Anonimni identifikator za povezivanje vaših posjeta i utvrđivanje koji je sadržaj koristan",
+					"Vlastiti, analitički (zahtijeva vaš pristanak)",
+					"12 mjeseci"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Nijedan od ovih kolačića nije od treće strane, nijedan se ne koristi u reklamne svrhe i nijedan se ne dijeli ni s kim izvan ove stranice."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Svoju odluku možete promijeniti ili povući pristanak u bilo kojem trenutku putem poveznice \"Konfiguriraj kolačiće\" u podnožju stranice, te odmah izbrisati sve svoje podatke pomoću gumba \"Izbriši moje podatke\" na istoj ploči."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Za više informacija o tome kako se postupa s vašim podacima, pogledajte Pravila o privatnosti."
+		}
+	]
+}

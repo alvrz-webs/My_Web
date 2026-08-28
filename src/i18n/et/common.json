@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Minust",
+		"proyectos": "Projektid",
+		"experiencia": "Kogemus",
+		"contacto": "Kontakt",
+		"ariaMain": "Põhinavigatsioon",
+		"openMenu": "Ava menüü"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Sotsiaalvõrgustikud"
+	},
+	"langSwitch": {
+		"label": "Muuda keelt",
+		"traducir": "Muuda keelt",
+		"buscar": "Otsi keelt…"
+	},
+	"cookies": {
+		"texto": "Kasutame oma küpsiseid anonüümseks analüütikaks ja teie kogemuse parandamiseks. Me ei kasuta kolmanda osapoole küpsiseid.",
+		"politica": "Küpsiste poliitika",
+		"aceptar": "Nõustu",
+		"rechazar": "Keeldu",
+		"configurar": "Konfigureeri küpsised",
+		"borrarDatos": "Kustuta minu andmed",
+		"ariaBanner": "Küpsiste nõusolek"
+	},
+	"legal": {
+		"privacidad": "Privaatsuspoliitika",
+		"cookies": "Küpsiste poliitika"
+	},
+	"person": {
+		"jobTitle": "Andmeteadlane",
+		"description": "Spordianalüütikale spetsialiseerunud andmeteadlane, kellel on kogemused professionaalses rattaspordis."
+	}
+}

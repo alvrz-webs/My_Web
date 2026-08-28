@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Zásady ochrany osobných údajov — Mario Álvarez",
+		"description": "Zásady ochrany osobných údajov na webovej stránke Mario Álvarez: aké údaje sa zbierajú, na aký účel a ako si uplatniť svoje práva.",
+		"eyebrow": "Právne",
+		"heading": "Zásady ochrany osobných údajov"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Prevádzkovateľ spracúvania",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, s adresou v Benidorm (Alicante), Španielsko. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Účel spracúvania",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Táto webová stránka interne a výlučne na štatistické účely analyzuje, ktorý obsah (sekcie, projekty) je pre návštevníkov užitočný, s cieľom zlepšiť jej obsah. Nepoužíva sa na reklamné účely, nezdieľa sa s tretími stranami a za žiadnych okolností sa nepredáva."
+				}
+			]
+		},
+		{
+			"titulo": "3. Zbierané údaje (iba ak akceptujete analytické cookies)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Náhodný anonymný identifikátor, neprepojený s vaším menom, e-mailom ani žiadnymi inými údajmi, ktoré by vás priamo identifikovali.",
+						"Stránky a projekty, ktoré navštívite, a čas venovaný každej z nich (kým je karta aktívna).",
+						"Interakcie (kliknutia na projekty, odkazy alebo tlačidlá).",
+						"Dátum a čas návštevy.",
+						"Jazyk konzultovanej stránky.",
+						"Typ zariadenia (mobilné alebo stolné).",
+						"Približná krajina získaná prostredníctvom infraštruktúry Cloudflare bez uloženia vašej IP adresy.",
+						"Stránka pôvodu (napríklad LinkedIn alebo vyhľadávač)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Vaša IP adresa sa nezbiera, nepoužívajú sa techniky identifikácie prehliadača (fingerprinting) ani nástroje tretích strán, ako sú Google Analytics alebo podobné."
+				}
+			]
+		},
+		{
+			"titulo": "4. Právny základ",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Spracúvanie je založené na vašom výslovnom súhlase (článok 6.1.a GDPR a článok 22.2 LSSI-CE), ktorý môžete kedykoľvek odvolať v správcovi cookies danej stránky."
+				}
+			]
+		},
+		{
+			"titulo": "5. Doba uchovávania",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Údaje sa uchovávajú maximálne 12 mesiacov od vašej poslednej návštevy, po uplynutí ktorých sa automaticky vymažú."
+				}
+			]
+		},
+		{
+			"titulo": "6. Príjemcovia a medzinárodné prenosy",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Údaje sa neposkytujú ani nepredávajú tretím stranám. Sú uložené v Cloudflare D1, databázovej službe poskytovanej spoločnosťou Cloudflare, Inc., ktorá vystupuje ako sprostredkovateľ. Cloudflare môže spracúvať údaje mimo Európskeho hospodárskeho priestoru; v takom prípade sa tento prenos opiera o štandardné zmluvné doložky schválené Európskou komisiou. Viac informácií v zásadách ochrany osobných údajov Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Vaše práva",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Svoje práva na prístup, opravu, vymazanie, namietanie, obmedzenie spracúvania a prenosnosť môžete kedykoľvek uplatniť napísaním na adresu malvmar5@hotmail.com. Okrem toho môžete svoje údaje okamžite vymazať bez toho, aby ste museli komukoľvek písať, pomocou tlačidla \"Vymazať moje údaje\", ktoré je k dispozícii v nastaveniach cookies na stránke. Máte tiež právo podať sťažnosť na Španielsku agentúru pre ochranu údajov (www.aepd.es), ak sa domnievate, že vaše práva neboli vybavené správne."
+				}
+			]
+		},
+		{
+			"titulo": "8. Zmeny týchto zásad",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tieto zásady môžu byť aktualizované, aby sa prispôsobili právnym zmenám alebo samotnej stránke."
+				}
+			]
+		}
+	]
+}

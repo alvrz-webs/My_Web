@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Spordile spetsialiseerunud andmeteadlane",
+		"description": "Mario Álvarez, andmeteadlane Valencias, kes on spetsialiseerunud spordianalüütikale. Andmed · Sport · Edusammud.",
+		"verProyectos": "Vaata projekte",
+		"contacto": "Kontakt",
+		"verMas": "Vaata rohkem",
+		"verTodosProyectos": "Vaata kõiki projekte",
+		"irAContacto": "Mine kontaktini",
+		"herramientas": "Peamised tööriistad"
+	},
+	"hero": {
+		"eyebrow": "Andmeteadlane · Spordianalüütika · Valencia",
+		"titlePre": "Muudan andmed ",
+		"titleHighlight": "selgeteks otsusteks",
+		"subtitle": "Olen sild andmeanalüüsi ja eliitspordi vahel: muudan tulemuslikkuse mõõdikud strateegiateks, mis teevad väljakul vahet.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Minust",
+		"title": "Andmed väljaku, maantee ja võistluse kontekstiga",
+		"text": "Olen Mario Álvarez, andmeteaduse üliõpilane UPV-s, kellel on reaalne kogemus professionaalsest the jalgrattaspordist. Ühendan andmeanalüüsi eliitspordi sooritusega, et muuta iga mõõdik otsuseks, mis parandab tulemusi."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Haridus",
+			"detail": "Andmeteaduse bakalaureusekraad, Universitat Politècnica de València."
+		},
+		{
+			"value": "Eliit",
+			"label": "Kogemus",
+			"detail": "Reaalne töö professionaalses jalgrattameeskonnas."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Lähenemine",
+			"detail": "Sporditulemuste parandamisele rakendatud analüütika."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Kogemus",
+		"title": "Kaks maailma, üks keel: tulemuslikkus",
+		"text": "Olen võistelnud kõrgeimal tasemel ja rakendan täna sama kriteeriumi andmetele: saan aru, mida number sportlase jaoks tähendab, sest olen ise see sportlane olnud."
+	},
+	"ctaFinal": {
+		"title": "Räägime andmetest?",
+		"text": "Räägi mulle oma projektist ja otsime koos üles kohad, kus on sooritust parandavad otsused."
+	}
+}

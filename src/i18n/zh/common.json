@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "关于我",
+		"proyectos": "项目",
+		"experiencia": "工作经验",
+		"contacto": "联系方式",
+		"ariaMain": "主导航",
+		"openMenu": "打开菜单"
+	},
+	"footer": {
+		"tagline": "数据 · 体育 · 进阶",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "社交媒体"
+	},
+	"langSwitch": {
+		"label": "更改语言",
+		"traducir": "更改语言",
+		"buscar": "搜索语言…"
+	},
+	"cookies": {
+		"texto": "我们使用自有 Cookie 进行匿名分析并改善您的体验。我们不使用第三方 Cookie。",
+		"politica": "Cookie 政策",
+		"aceptar": "接受",
+		"rechazar": "拒绝",
+		"configurar": "配置 Cookie",
+		"borrarDatos": "删除我的数据",
+		"ariaBanner": "Cookie 同意"
+	},
+	"legal": {
+		"privacidad": "隐私政策",
+		"cookies": "Cookie 政策"
+	},
+	"person": {
+		"jobTitle": "数据科学家",
+		"description": "专注于体育分析的数据科学家，拥有职业自行车领域的经验。"
+	}
+}

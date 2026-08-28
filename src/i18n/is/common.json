@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Um mig",
+		"proyectos": "Verkefni",
+		"experiencia": "Reynsla",
+		"contacto": "Hafa samband",
+		"ariaMain": "Aðalvalmynd",
+		"openMenu": "Opna valmynd"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Samfélagsmiðlar"
+	},
+	"langSwitch": {
+		"label": "Breyta tungumáli",
+		"traducir": "Breyta tungumáli",
+		"buscar": "Leita að tungumáli…"
+	},
+	"cookies": {
+		"texto": "Við notum eigin vefkökur fyrir nafnlausa greiningu og til að bæta upplifun þína. Við notum ekki vefkökur frá þriðja aðila.",
+		"politica": "Stefna um vefkökur",
+		"aceptar": "Samþykkja",
+		"rechazar": "Hafna",
+		"configurar": "Stilla vefkökur",
+		"borrarDatos": "Eyða gögnum mínum",
+		"ariaBanner": "Samþykki fyrir vefkökum"
+	},
+	"legal": {
+		"privacidad": "Persónuverndarstefna",
+		"cookies": "Stefna um vefkökur"
+	},
+	"person": {
+		"jobTitle": "Gagnafræðingur",
+		"description": "Gagnafræðingur sem sérhæfir sig í íþróttagreiningu, með reynslu úr atvinnuhjólreiðum."
+	}
+}

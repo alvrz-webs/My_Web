@@ -1,1 +1,824 @@
-{}
+{
+	"404": {
+		"title": {
+			"hash": "f2f9549cf822a7ffa8236c0b7d541d1eb9f8cf84d847f435c8fc73c2719f21f5",
+			"value": "पृष्ठ फेला परेन — Mario Álvarez"
+		},
+		"description": {
+			"hash": "cbfee3e3698cab2526b53ec83db3f3f712ba87a07c39535c760ebe407a072a5f",
+			"value": "तपाईंले खोज्नु भएको पृष्ठ अवस्थित छैन یا सारिएको छ।"
+		},
+		"heading": {
+			"hash": "66d468d4451f7e367a88dfa02c32529db2507711b1e59afc629c110837b57844",
+			"value": "पृष्ठ फेला परेन"
+		},
+		"text": {
+			"hash": "4558944d17a022944ce9189b30e7fd22e62161433c066aa929f05131bb7934a4",
+			"value": "माफ गर्नुहोला, तपाईंले खोज्नु भएको पृष्ठ अवस्थित छैन یا सारिएको छ।"
+		},
+		"cta": {
+			"hash": "3906c387259fafc4003807694b0fcfa7ba670df028e7be356f33554cb17f3f00",
+			"value": "गृहपृष्ठमा फर्कनुहोस्"
+		}
+	},
+	"common": {
+		"nav/sobreMi": {
+			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
+			"value": "मेro बारेमा"
+		},
+		"nav/proyectos": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "projektहरू"
+		},
+		"nav/experiencia": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "अनुभव"
+		},
+		"nav/contacto": {
+			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
+			"value": "सम्पर्क"
+		},
+		"nav/ariaMain": {
+			"hash": "781509b25aa03251597e440ff24fac15d7dca46b131f8e1c0c9af48c9e64c80f",
+			"value": "मुख्य नेभिगेसन"
+		},
+		"nav/openMenu": {
+			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
+			"value": "मेनु खोल्नुहोस्"
+		},
+		"footer/tagline": {
+			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
+			"value": "Data · Sport · Progress"
+		},
+		"footer/copySufijo": {
+			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
+			"value": "Mario Álvarez. Valencia."
+		},
+		"footer/ariaSocial": {
+			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
+			"value": "सामाजिक सञ्जाल"
+		},
+		"langSwitch/label": {
+			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
+			"value": "भाषा परिवर्तन गर्नुहोस्"
+		},
+		"langSwitch/traducir": {
+			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
+			"value": "भाषा परिवर्तन गर्नुहोस्"
+		},
+		"langSwitch/buscar": {
+			"hash": "231136217d662bd389a6c8702687d9c958a0cfcc44d599697e19c1133bc5fe09",
+			"value": "भाषा खोज्नुहोस्…"
+		},
+		"cookies/texto": {
+			"hash": "bbe7f104f14f32cbf00cdc66b8f9242af1bab766b03d71720d7a3caec9d775d6",
+			"value": "हामी अनाम एनालिटिक्स र तपाइँको अनुभव सुधार गर्न आफ्नै कुкиहरू प्रयोग गर्छौं। हामी तेस्रो-पक्ष कुкиहरू प्रयोग गर्दैनौं।"
+		},
+		"cookies/politica": {
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "कुки नीति"
+		},
+		"cookies/aceptar": {
+			"hash": "640d6761c178f2ad81e2a8cdb44c589bdc879396563118f96ebba2de686efefa",
+			"value": "स्वीकार गर्नुहोस्"
+		},
+		"cookies/rechazar": {
+			"hash": "2a0515602d3158761b6018d3ffc0d34173eb2f66f68bd077e62d84f4d891f26b",
+			"value": "अस्वीकार गर्नुहोस्"
+		},
+		"cookies/configurar": {
+			"hash": "bd6b28e0422ee9e821e232d28fcab1ebf60fb359b8efc271ee4b8096433f36e8",
+			"value": "कुкиहरू कन्फिगर गर्नुहोस्"
+		},
+		"cookies/borrarDatos": {
+			"hash": "387bf6fea239f5988b1d38d3a9cb71465d9460234af481b203793e15642afe85",
+			"value": "मेरो डाटा मेटाउनुहोस्"
+		},
+		"cookies/ariaBanner": {
+			"hash": "8a27f245f419cf27e1055c0004349e13d64579b79a7c51e2d9d91f35e85874dd",
+			"value": "कुки सहमति"
+		},
+		"legal/privacidad": {
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
+			"value": "गोपनीयता नीति"
+		},
+		"legal/cookies": {
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "कुки नीति"
+		},
+		"person/jobTitle": {
+			"hash": "d4eb464156ca87b9fafede59deacd1c0ddc7bcd6971cc2c82d2355c2d38e0c58",
+			"value": "डेटा वैज्ञानिक"
+		},
+		"person/description": {
+			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
+			"value": "व्यावसायिक साइकल चलाउने अनुभव सहित खेलकुद एनालिटिक्समा विशेषज्ञता प्राप्त डेटा वैज्ञानिक।"
+		}
+	},
+	"inicio": {
+		"meta/title": {
+			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
+			"value": "Mario Álvarez — खेलकुदमा विशेषज्ञता प्राप्त डाटा वैज्ञानिक"
+		},
+		"meta/description": {
+			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
+			"value": "Mario Álvarez, भ्यालेन्सियामा खेलकुद विश्लेषणमा विशेषज्ञता प्राप्त डाटा वैज्ञानिक। Data · Sport · Progress।"
+		},
+		"meta/verProyectos": {
+			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
+			"value": "проекты हेर्नुहोस्"
+		},
+		"meta/contacto": {
+			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
+			"value": "सम्पर्क"
+		},
+		"meta/verMas": {
+			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
+			"value": "थप हेर्नुहोस्"
+		},
+		"meta/verTodosProyectos": {
+			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
+			"value": "सबै परियोजनाहरू हेर्नुहोस्"
+		},
+		"meta/irAContacto": {
+			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
+			"value": "सम्पर्कमा जानुहोस्"
+		},
+		"meta/herramientas": {
+			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
+			"value": "मुख्य उपकरणहरू"
+		},
+		"hero/eyebrow": {
+			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
+			"value": "डाटा वैज्ञानिक · खेलकुद विश्लेषण · भ्यालेन्सिया"
+		},
+		"hero/titlePre": {
+			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
+			"value": "म डाटालाई रूपान्तरण गर्छु "
+		},
+		"hero/titleHighlight": {
+			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
+			"value": "स्पष्ट निर्णयहरूमा"
+		},
+		"hero/subtitle": {
+			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
+			"value": "म डाटा विश्लेषण र एलिट खेलकुद बीचको पुल हुँ: प्रदर्शन मेट्रिक्सलाई मैदानमा फरक पार्ने रणनीतिहरूमा रूपान्तरण गर्छु।"
+		},
+		"hero/tools/0": {
+			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
+			"value": "Python"
+		},
+		"hero/tools/1": {
+			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+			"value": "R"
+		},
+		"hero/tools/2": {
+			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
+			"value": "SQL"
+		},
+		"hero/tools/3": {
+			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
+			"value": "Power BI"
+		},
+		"hero/tools/4": {
+			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
+			"value": "Machine Learning"
+		},
+		"sobreMiResumen/eyebrow": {
+			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
+			"value": "मेरो बारेमा"
+		},
+		"sobreMiResumen/title": {
+			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
+			"value": "ट्र्याक, सडक र प्रतियोगिताको सन्दर्भसहितको डाटा"
+		},
+		"sobreMiResumen/text": {
+			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
+			"value": "म Mario Álvarez हुँ, UPV मा डाटा साइन्सको विद्यार्थी र व्यावसायिक साइक्लिङभित्र वास्तविक अनुभव भएको व्यक्ति। म प्रत्येक मेट्रिक्सलाई नतिजा सुधार गर्ने निर्णयमा रूपान्तरण गर्न डाटा विश्लेषणलाई एलिट खेलकुद प्रदर्शनसँग संयोजन गर्छु।"
+		},
+		"stats/0/value": {
+			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
+			"value": "UPV"
+		},
+		"stats/0/label": {
+			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
+			"value": "शिक्षा"
+		},
+		"stats/0/detail": {
+			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
+			"value": "डाटा साइन्समा स्नातक, Universitat Politècnica de València।"
+		},
+		"stats/1/value": {
+			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
+			"value": "एलिट"
+		},
+		"stats/1/label": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "अनुभव"
+		},
+		"stats/1/detail": {
+			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
+			"value": "व्यावसायिक साइक्लिङ टोलीभित्र वास्तविक काम।"
+		},
+		"stats/2/value": {
+			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
+			"value": "Data + Sport"
+		},
+		"stats/2/label": {
+			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
+			"value": "दृष्टिकोण"
+		},
+		"stats/2/detail": {
+			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
+			"value": "खेलकुद प्रदर्शन सुधार गर्न लागू गरिएको विश्लेषण।"
+		},
+		"experienciaResumen/eyebrow": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "अनुभव"
+		},
+		"experienciaResumen/title": {
+			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
+			"value": "दुई संसार, एउटै भाषा: प्रदर्शन"
+		},
+		"experienciaResumen/text": {
+			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
+			"value": "मैले उच्चतम स्तरमा प्रतिस्पर्धा गरेको छु र आज डाटामा पनि यही मापदण्ड लागू गर्छु: एउटा अंकले खेलाडीका लागि के अर्थ राख्छ भन्ने म बुझ्छु किनकि म आफैं त्यो खेलाडी भएको छु।"
+		},
+		"ctaFinal/title": {
+			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
+			"value": "के हामी डाटाको बारेमा कुरा गरौं?"
+		},
+		"ctaFinal/text": {
+			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
+			"value": "तρόक परियोजना मलाई सुनाउनुहोस् र प्रदर्शन सुधार गर्ने निर्णयहरू कहाँ छन् भनेर हामी सँगै खोज्छौं।"
+		}
+	},
+	"sobre-mi": {
+		"meta/title": {
+			"hash": "4c3d3ad7a59738a85621c902a9c559c3f17d126604eb1170d4d5a496eca743e6",
+			"value": "मेro बारेमा — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "065998767d0c9a6c0b30b681912801e42c75ce724eaaf80c998f070b9439f0cd",
+			"value": "स्पेनिश म्याडिसन च्याम्पियनबाट डाटा साइन्सका विद्यार्थीसम्म: एलिट साइकलिंग र खेलकुद एनालिटिक्सबीच Mario Álvarez को यात्रा।"
+		},
+		"meta/eyebrow": {
+			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
+			"value": "मेro बारेमा"
+		},
+		"meta/heading": {
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "भेलोड्रोमबाट डाटासम्म"
+		},
+		"bio/0": {
+			"hash": "d7d611e5e1b9b9834eb8052dd8edd5c1e1986ee032a232146858b8bcedcbb7b0",
+			"value": "मैले प्रतिस्पर्धाबाट सुरु गरेँ। १८ वर्षको उमेरमा म स्पेनिश ट्र्याक म्याडिसन च्याम्पियन बनेँ र स्पेनिश साइक्लिङ राष्ट्रिय टोलीले मलाई विश्व र युरोपेली च्याम्पियनशिपका लागि बोझायो, जहाँ म दुवैमा छैटौं स्थानमा रहें, जसले मलाई एलिट एथलीटको मान्यता दिलायो।"
+		},
+		"bio/1": {
+			"hash": "cb7a91dc70b36b438e730343472b3d3ece358d6f4aa95b52f66421a63990951f",
+			"value": "त्यहाँबाट मैले डाटा साइन्समा कदम राखेँ: आज म Universitat Politècnica de València मा डिग्रीको तेस्रो वर्षमा अध्ययन गर्दैछु, जुन खेलकुदमा लागू गरिएको डिजिटलाइजेसन र प्रविधिमा केन्द्रित छ।"
+		},
+		"bio/2": {
+			"hash": "6eeee944c5047dd44420998562b90a8ea28d2c35be7a2e1e836348e8d509d121",
+			"value": "मेro भिन्नतामूलक मूल्य भनेको यही पुल हो: मैंने उच्च प्रदर्शनलाई भित्रबाट अनुभव गरेको छु — एक खेलाडीको रूपमा, आधारभूत साइक्लिङ निर्देशकको रूपमा र पेशेवर साइकल चालकहरूको कायरोप्रैक्ट्कको रूपमा — र म पछाडिको डाटा पढ्न जान्दछु। म बुझ्छु कि एउटा अंकको अर्थ खेलाडीका लागि के हुन्छ, किनभने म आफैं त्यो खेलाडी भएको छु। प्रदर्शन सुधार गर्ने निर्णयहरूमा डाटालाई बदल्न म यी दुई संसारलाई जोड्छु।"
+		},
+		"bio/3": {
+			"hash": "453e09fc193caca7117df201b7a7d0d40cc56a10520b2de9a62cae6643ada803",
+			"value": "थप रूपमा, मेro एलिट एथलीटको स्थितिको कारण, मैले खेलकुदमा डिजिटलाइजेसन, इनोभेसन र प्रविधिमा मास्टर गर्न छात्रवृत्ति प्राप्त गरेँ, जुन मैले पूरा गरिसकेको छु र जसले साइकलिंगभन्दा बाहिर सम्पूर्ण खेलकुद इकोसिस्टममा मेro दृष्टिकोणलाई फराकिलो बनाउँछ।"
+		},
+		"facts/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "आधार"
+		},
+		"facts/0/value": {
+			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
+			"value": "Benidorm · Valencia"
+		},
+		"facts/1/label": {
+			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
+			"value": "स्थिति"
+		},
+		"facts/1/value": {
+			"hash": "06094d707532d93671f096ffd82caf91a680ce537fdeb291699cf5355ea653e5",
+			"value": "प्रोजेक्टहरूको लागि उपलब्ध"
+		},
+		"facts/2/label": {
+			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
+			"value": "दृष्टिकोण"
+		},
+		"facts/2/value": {
+			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
+			"value": "डाटा + खेलकुद प्रदर्शन"
+		},
+		"facts/3/label": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "भाषाहरू"
+		},
+		"facts/3/value": {
+			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
+			"value": "नेटीभ स्पेनिश · भ्यालेन्सियन · अंग्रेजी B1"
+		},
+		"facts/4/label": {
+			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
+			"value": "शिक्षा"
+		},
+		"facts/4/value": {
+			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
+			"value": "डाटा साइन्समा डिग्री (UPV) · खेलकुदमा डिजिटलाइजेसन, इनोभेसन र प्रविधिमा मास्टर"
+		}
+	},
+	"experiencia": {
+		"meta/title": {
+			"hash": "53e146e44dcc62fdf154b05e8558ed180494224b34f8151d9da9835ab6262133",
+			"value": "अनुभव — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "f2b25552e0b9b597bdbb674ccf1b3749d55af30a1434e173f2449fc1156a8996",
+			"value": "दुई संसार, एउटै भाषा: कार्यसम्पादन। डाटा र इन्जिनियरिङ तथा एलिट साइकलिंगमा Mario Álvarez को अनुभव।"
+		},
+		"meta/eyebrow": {
+			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
+			"value": "अनुभव"
+		},
+		"meta/heading": {
+			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
+			"value": "दुई संसार, एउटै भाषा: कार्यसम्पादन"
+		},
+		"meta/colDatos": {
+			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
+			"value": "डाटा र प्रविधि"
+		},
+		"meta/colDeporte": {
+			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
+			"value": "एलिट खेलकुद"
+		},
+		"datos/0/title": {
+			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
+			"value": "SIME TELECOM — डाटा साइन्स इन्टर्नशिप"
+		},
+		"datos/0/meta": {
+			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
+			"value": "डाटा इन्जिनियरिङ · Benidorm · 2026"
+		},
+		"datos/0/paragraphs/0": {
+			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
+			"value": "SIME ले व्यवस्थापन सफ्टवेयर (बुकिङ, बिलिङ, रिपोर्ट, रेस्टुरेन्ट अर्डर) विकास गर्दछ जसले केन्द्रीय प्रणालीबाट सयौं ग्राहकहरूलाई सेवा दिन्छ, +५८० अन्तरसम्बन्धित तालिकाहरू र +१०० मिलियन रेकर्डहरूको डाटाबेसमा आधारित। वृद्धिले लोड कम गर्न र ढिलाइको गुनासोहरू समाधान गर्न धेरै डाटाबेसमा ग्राहकहरूलाई विभाजन गर्न बाध्य पारेको थियो।"
+		},
+		"datos/0/paragraphs/1": {
+			"hash": "a052914694417d03fd48e9c8ff06ccc3b6a57bb6b9d7f5bd67d0540d37b8c3db",
+			"value": "मेरो काम: ती डाटाबेसहरूको विश्लेषण गर्ने र, consulta अप्टिमाइजेसन र इन्डेक्सहरू मार्फत, हार्डवेयर (RAM/CPU) लाई खासै नबढाई सबै डाटालाई एउटै कुशल डाटाबेसमा एकीकरण गर्ने डिजाइन गर्ने। सुधार पहिले नै विकास भइसकेको छ, परीक्षण सर्भरमा प्रमाणीकरण चरणमा छ।"
+		},
+		"datos/1/title": {
+			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
+			"value": "Cofidis टिम (World Tour) सँगका परियोजनाहरू"
+		},
+		"datos/1/meta": {
+			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
+			"value": "Python · ग्रीष्म २०२५"
+		},
+		"datos/1/paragraphs/0": {
+			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
+			"value": "व्यावसायिक साइकलिंगमा डाटा विश्लेषण पहुँच गर्न परीक्षणको रूपमा मैले गरेको आफ्नै परियोजना:"
+		},
+		"datos/1/list/0": {
+			"hash": "15b3ec38dc8dfa12d8b1316799dfa877540922c75f5393652d8222fc34cf9f32",
+			"value": "UCI कठिनाई विश्लेषक: UCI रैंकिंगको वेब स्क्रैपिङ मार्फत, टिमका राइडरहरूलाई राख्छ र रोस्टर अनुसार UCI अंकहरू थप्न कठिनाई स्तर अनुमान गर्छ।"
+		},
+		"datos/1/list/1": {
+			"hash": "d35542e142f04b315824ed35881fbc8bdeab4f6efe42052aa25af7ccf9219a06",
+			"value": "रेस प्रोफाइल भविष्यवाणी गर्ने उपकरण: प्रत्येक रेसका विशेषताहरूको अनुमान गर्छ र लक्ष्य र रणनीति योजना गर्न यसलाई कठिनाई ग्रेड प्रदान गर्दछ।"
+		},
+		"datos/2/title": {
+			"hash": "6d6d9b9c6b1106b6be84b18aa1c031065f3a79ae1d253f8a2de353d153b9c20d",
+			"value": "शैक्षिक र व्यक्तिगत परियोजनाहरू"
+		},
+		"datos/2/meta": {
+			"hash": "c73ff150048e61d76526446d7cc50545db26bd4664c6a316e0b0f62388192d4a",
+			"value": "विश्लेषण, भिजुअलाइजेशन र मेसिन लर्निङ"
+		},
+		"datos/2/paragraphs/0": {
+			"hash": "56c987b927c8903bc1f35e99e1e33ca3ebe390ec2df72af47a36d213309f4d41",
+			"value": "डाटा विश्लेषण, भिजुअलाइजेशन र मेसिन लर्निङका आफ्नै कामहरू।"
+		},
+		"datos/2/link/href": {
+			"hash": "c5afb1a7380093032d8666e47d956a4a237a39e2c2af2a14e95d2be0c4a38382",
+			"value": "/proyectos"
+		},
+		"datos/2/link/label": {
+			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
+			"value": "परियोजनाहरू हेर्नुहोस्"
+		},
+		"deporte/0/title": {
+			"hash": "aeaf5051b84ddf9e892f45b118553a28bd15f4a82ffc13357946c8cb768bce4c",
+			"value": "प्रतियोगिता"
+		},
+		"deporte/0/paragraphs/0": {
+			"hash": "431d7654ad9c17cfef188c6dd216d77877c67074b5a70fccc26b28faecb96342",
+			"value": "म्याडिसनका स्पेनिस च्याम्पियन (१८ वर्ष); स्पेनिश राष्ट्रिय टोलीसँग ट्रrack को विश्व र युरोपेली च्याम्पियनशिपहरू (दुबैमा छैठौं); एलिट एथलीट; सक्रिय फेडेरेटेड ट्र्याक साइकल चालक।"
+		},
+		"deporte/1/title": {
+			"hash": "84790bf295460a6481da8ad76c8e18d330f20f20baefb8c4d37a1818f065b8a5",
+			"value": "खेलकुद निर्देशन"
+		},
+		"deporte/1/paragraphs/0": {
+			"hash": "5dc31dcec5b8544c3fc67da4aedaf52f4da758ba225c9b41297dbeb77730d51b",
+			"value": "खेलकुद निर्देशक स्तर I र II (RFEC); मेरो बुबासँग आधार साइकल चालकहरूको (१४–१८) प्रशिक्षण र फलो-अप; प्रतियोगिताहरूमा भ्यालेन्सियन समुदायको टोलीसँग सहायक (२०२६)।"
+		},
+		"deporte/2/title": {
+			"hash": "0cfe14a47563f418eb121ade7cad7186d2ee23873832ee8f81b43b56f8c18212",
+			"value": "काइरोमसाज र प्राविधिक कर्मचारी"
+		},
+		"deporte/2/meta": {
+			"hash": "907fae24556078db9b490356a39c8eba0b3c8f124cc2f6172d189ab43f6f3d1a",
+			"value": "ग्रीष्म २०२५"
+		},
+		"deporte/2/paragraphs/0": {
+			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
+			"value": "प्रमाणित काइरोमसाजिस्ट; व्यावसायिक साइकल चालकहरूको masseur; भ्यालेन्सियन समुदायको टोलीसँग, फिलिपिन्सको महाद्वीपीय टोलीसँग र Benidorm मा व्यक्तिगत रूपमा साइकल चालकहरूसँग कर्मचारी।"
+		}
+	},
+	"proyectos": {
+		"page/title": {
+			"hash": "dc68b582e188886457e1b55efc4df6bf08f3a121e742cdfd897f43e026324697",
+			"value": "प्र젝트हरू — मारियो अल्भाрез"
+		},
+		"page/description": {
+			"hash": "192d4e8f6e24c4c0f8fa9b18704402e95304c8e30db3a8ff4cf09dac90457005",
+			"value": "मारियो अल्भाрезका डेटा विश्लेषण, भिजुअलाइजेशन र मेसिन लर्निङका रिपोजिटरीहरू र प्रोजेक्टहरू।"
+		},
+		"page/eyebrow": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "प्र젝트हरू"
+		},
+		"page/heading": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "प्र젝트हरू"
+		},
+		"page/intro": {
+			"hash": "1fd2e8bddd12d8068f8b276948c38027993b3b9bdfceddc4b731d6f8d8cf0050",
+			"value": "मेरो कामको एक झलक: व्यावसायिक साइकल चलाउने उपकरणहरूदेखि लिएर शैक्षिक विश्लेषण र मेसिन लर्निङ प्रोजेक्टहरूसम्म।"
+		},
+		"list/eyebrow": {
+			"hash": "e1ddc0cbc9891e79be8a4e469ca4f1acdeb9c42cf5a43ae2fa45c189e422cdae",
+			"value": "काम"
+		},
+		"list/title": {
+			"hash": "3c83b0107d0ecb99200bde4a10f5dc203dd6345204c6192f09404c2684dc5b66",
+			"value": "प्र젝트हरू"
+		},
+		"list/intro": {
+			"hash": "3c874d438dff6087fd02219358c83c5b478df23b2056dd1f49b950b60dcebb23",
+			"value": "GitHub मा मेरा सार्वजनिक रिपोजिटरीहरूको स्वचालित चयन।"
+		},
+		"list/especializaciones": {
+			"hash": "4868e2c81f282650fbf682045a1249f1d1fa9cc1c117e643bb50f9ee12fa76af",
+			"value": "विशेषज्ञताहरू"
+		},
+		"list/fallbackDescripcion": {
+			"hash": "f8e04c1f99a5ecede6152ef8fa961a8aef5c1527a8666d91c96f5eef0372d866",
+			"value": "डेटा विश्लेषण र विज्ञान प्रोजेक्ट।"
+		},
+		"list/verEnGithub": {
+			"hash": "98602d08033f5f94d11ba15dd76e26157235a6adb805562db8c7a33ff222d370",
+			"value": "GitHub मा हेर्नुहोस्"
+		},
+		"list/vacio": {
+			"hash": "f2d6d40e022c41ab88d0382d5c2bb675167ac894b4c995db6e92faade6a32843",
+			"value": "यस समयमा रिपोजिटरीहरू लोड गर्न सकेन।"
+		},
+		"list/filtroLabel": {
+			"hash": "4230bb5c8c7867ea3feebf99c453538b89b42855f8e553c21592e014f66a95a1",
+			"value": "प्रकार अनुसार प्रोजेक्टहरू फिल्टर गर्नुहोस्"
+		},
+		"list/filtroTodos": {
+			"hash": "bd02b9a7d71dac67a21b2758f11975bc491cc834c22edd9fa598fed97405aaa9",
+			"value": "सबै"
+		},
+		"list/filtroDatos": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "डेटा"
+		},
+		"list/filtroWebs": {
+			"hash": "1ec3b637c23a52f410704a08e78d3e49db83ce9f2687362b3807c62f4be6e5b7",
+			"value": "वेबसाइटहरू"
+		},
+		"list/verWeb": {
+			"hash": "52ef3f7fa3693b8bf3a54d2a86fe19d2d2df0a63a7c10e6628ba5fef7b249cbf",
+			"value": "वेबसाइट हेर्नुहोस्"
+		},
+		"list/verCodigo": {
+			"hash": "3061e8f2bed20825cf05843ea53e01b99df5d632640f233a8ee5c442d17b79ff",
+			"value": "कोड हेर्नुहोस्"
+		},
+		"list/enDesarrollo": {
+			"hash": "3ce7a5c9ca33e8a88b04a1dd189147bbca9a4abbdbb81874151819e8a042fadc",
+			"value": "विकासको क्रममा"
+		},
+		"list/fallbackDescripcionWeb": {
+			"hash": "66bc7ca64208c5a5a449d60b56606837cc989cda0c84b2e33e39113e96b80100",
+			"value": "वेब प्रोजेक्ट।"
+		},
+		"list/vacioWebs": {
+			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
+			"value": "यस खण्डमा अहिलेसम्म कुनै पनि वेबसाइटहरू प्रकाशित गरिएको छैन।"
+		}
+	},
+	"contacto": {
+		"meta/title": {
+			"hash": "aea50b4ba87e9e3e84db2ca412373c6cc792bb9b4361330c701dea599ead6c10",
+			"value": "सम्पर्क — मारियो अल्भारेज"
+		},
+		"meta/description": {
+			"hash": "488eeae794c50d1eff512378b1e3b30c3124295d6f27623b217f311bda98aad9",
+			"value": "डाटा, खेलकुद कार्यसम्पादन र परियोजनाहरूको बारेमा कुरा गर्न मारियो अल्भारेजलाई सम्पर्क गर्नुहोस्।"
+		},
+		"meta/eyebrow": {
+			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
+			"value": "सम्पर्क"
+		},
+		"meta/heading": {
+			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
+			"value": "तपाईंसँग डाटा र समाधान गर्नुपर्ने कुनै प्रश्न छ?"
+		},
+		"meta/intro": {
+			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
+			"value": "कुरा गरौं। खेलकुद एनालिटिक्स परियोजना होस्, डाटा सहकार्य होस् वा केवल तपाईंले छलफल गर्न चाहनुभएको कुनै विचार होस्, म खुसीसाथ उत्तर दिन्छ इमेल।"
+		},
+		"meta/email": {
+			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
+			"value": "इमेल"
+		},
+		"meta/telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "फोन"
+		},
+		"meta/verTelefono": {
+			"hash": "165ab097ca1a7b8f038b50494caea6b7733988c98e4e55045edf16ed20205aa9",
+			"value": "फोन हेर्नुहोस्"
+		},
+		"meta/redesSociales": {
+			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
+			"value": "सामाजिक सञ्जाल"
+		}
+	},
+	"politica-cookies": {
+		"meta/title": {
+			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
+			"value": "कुकीज नीति — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
+			"value": "यस साइटले कुкіजहरू कसरी प्रयोग गर्छ, कुन उद्देश्यका लागि र कुनै पनि समयमा तपाईंको सहमति कसरी परिवर्तन गर्ने।"
+		},
+		"meta/eyebrow": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "कानूनी"
+		},
+		"meta/heading": {
+			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
+			"value": "कुकीज नीति"
+		},
+		"bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/0/texto": {
+			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
+			"value": "यो वेबसाइटले सही सञ्चालनको लागि र, यदि तपाईंले सहमति दिनुभयो भने, सामग्री कसरी प्रयोग गरिन्छ भनेर अज्ञात रूपमा विश्लेषण गर्न कुкіज र यस्तै प्रविधिहरू (जस्तै ब्राउजरको स्थानीय भण्डारण) प्रयोग गर्छ।"
+		},
+		"bloques/1/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/1/texto": {
+			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
+			"value": "प्रयोग गरिएका कुкіजहरू:"
+		},
+		"bloques/2/tipo": {
+			"hash": "4a106a9d5ab0bb93b5b43a631db37df385a14c174875bea35bf244e5f35eedc8",
+			"value": "tabla"
+		},
+		"bloques/2/columnas/0": {
+			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
+			"value": "নাম"
+		},
+		"bloques/2/columnas/1": {
+			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
+			"value": "उद्देश्य"
+		},
+		"bloques/2/columnas/2": {
+			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
+			"value": "प्रकार"
+		},
+		"bloques/2/columnas/3": {
+			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
+			"value": "अवधि"
+		},
+		"bloques/2/filas/0/0": {
+			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
+			"value": "consentimiento_cookies"
+		},
+		"bloques/2/filas/0/1": {
+			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
+			"value": "कुकीज नीति बारे तपाईंको छनौट सम्झिन"
+		},
+		"bloques/2/filas/0/2": {
+			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
+			"value": "आफ्नै, प्राविधिक (सहमतिबाट मुक्त)"
+		},
+		"bloques/2/filas/0/3": {
+			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
+			"value": "१२ महिना"
+		},
+		"bloques/2/filas/1/0": {
+			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
+			"value": "visitante_id"
+		},
+		"bloques/2/filas/1/1": {
+			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
+			"value": "तपाईंको भ्रमणहरू सम्बन्धित गर्न र कुन सामग्री उपयोगी छ भनेर जान्न अज्ञात पहिचानकर्ता"
+		},
+		"bloques/2/filas/1/2": {
+			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
+			"value": "आफ्नै, विश्लेषणात्मक (तपाईंको सहमति आवश्यक छ)"
+		},
+		"bloques/2/filas/1/3": {
+			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
+			"value": "१२ महिना"
+		},
+		"bloques/3/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/3/texto": {
+			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
+			"value": "यी मध्ये कुनै पनि कुकी तेस्रो पक्षको होइन, कुनै पनि विज्ञापन उद्देश्यका लागि प्रयोग गरिँदैन, र यस साइट बाहिर कसैैसँग पनि सेयर गरिँदैन।"
+		},
+		"bloques/4/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/4/texto": {
+			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
+			"value": "तपाईंले फुटरमा रहेको \"कुकीज कन्फिगर गर्नुहोस्\" लिङ्कबाट कुनै भी समयमा आफ्नो निर्णय परिवर्तन गर्न वा आफ्नो सहमति फिर्ता लिन सक्नुहुन्छ, र सोही प्यानलमा रहेको \"मेरो डेटा मेटाउनुहोस्\" बटनमार्फत तपाईंको सबै डेटा तुरुन्तै मेटाउन सक्नुहुन्छ।"
+		},
+		"bloques/5/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"bloques/5/texto": {
+			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
+			"value": "तपाईंको डेटा कसरी ह्यान्डल गरिन्छ भन्ने बारे थप जानकारीको लागि, गोपनीयता नीति हेर्नुहोस्।"
+		}
+	},
+	"politica-privacidad": {
+		"meta/title": {
+			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
+			"value": "गोπनीयता नीति — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
+			"value": "Mario Álvarez को साइटको गोπनीयता नीति: कुन डेटा सङ्कलन गरिन्छ, कुन उद्देश्यका लागि र तपाइँका अधिकारहरू कसरी प्रयोग गर्ने।"
+		},
+		"meta/eyebrow": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "कानूनी"
+		},
+		"meta/heading": {
+			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
+			"value": "गोपनीयता नीति"
+		},
+		"secciones/0/titulo": {
+			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
+			"value": "1. प्रशोधनको जिम्मेवार व्यक्ति"
+		},
+		"secciones/0/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
+			"value": "Mario Álvarez Martínez, बेनidorm (आलिकान्ते), स्पेनमा ठेगाना भएको। सम्पर्क: malvmar5@hotmail.com"
+		},
+		"secciones/1/titulo": {
+			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
+			"value": "2. प्रशोधनको उद्देश्य"
+		},
+		"secciones/1/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
+			"value": "यो वेबसाइटले आन्तरिक रूपमा र विशेष गरी सांख्यिकीय उद्देश्यका लागि कुन सामग्रीहरू (खण्डहरू, परियोजनाहरू) आगन्तुकहरूका लागि बढी उपयोगी छन् भनेर विश्लेषण गर्दछ, यसको सामग्री सुधार गर्ने उद्देश्यका साथ। यो विज्ञापनको लागि प्रयोग गरिँदैन, तेस्रो पक्षहरूसँग साझेदारी गरिँदैन र कुनै पनि परिस्थितिमा बेच tho गरिँदैन।"
+		},
+		"secciones/2/titulo": {
+			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
+			"value": "3. सङ्कलन गरिने डेटा (यदि तपाइँ विश्लेषणात्मक कुकीहरू स्वीकार गर्नुहुन्छ भने मात्र)"
+		},
+		"secciones/2/bloques/0/tipo": {
+			"hash": "0296c43c240aa12c0950ff03ab0ebe09a1762b6600266e122f9c4b4099f72359",
+			"value": "lista"
+		},
+		"secciones/2/bloques/0/items/0": {
+			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
+			"value": "एउटा अनियमित बेनामी पहिचानकर्ता, तपाइँको नाम, इमेल वा तपाइँलाई प्रत्यक्ष रूपमा पहिचान गर्ने अन्य कुनै पनि जानकारीसँग जोडिएको छैन।"
+		},
+		"secciones/2/bloques/0/items/1": {
+			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
+			"value": "तपाइँले भ्रमण गर्नुहुने पृष्ठहरू र परियोजनाहरू, र प्रत्येकमा ध्यान दिइएको समय (ट्याब सक्रिय हुँदा)।"
+		},
+		"secciones/2/bloques/0/items/2": {
+			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
+			"value": "परस्परक्रियाहरू (प्रект, लिङ्क वा बटनहरूमा क्लिकहरू)।"
+		},
+		"secciones/2/bloques/0/items/3": {
+			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
+			"value": "भ्रमणको मिति र समय।"
+		},
+		"secciones/2/bloques/0/items/4": {
+			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
+			"value": "परामर्श गरिएको साइटको भाषा।"
+		},
+		"secciones/2/bloques/0/items/5": {
+			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
+			"value": "यन्त्रको प्रकार (मोबाइल वा डेस्कटप)।"
+		},
+		"secciones/2/bloques/0/items/6": {
+			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
+			"value": "अनुमानित देश, Cloudflare पूर्वाधार मार्फत प्राप्त, तपाइँको IP ठेगाना भण्डारण नगरी।"
+		},
+		"secciones/2/bloques/0/items/7": {
+			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
+			"value": "उत्पत्ति पृष्ठ (उदाहरणका लागि, LinkedIn वा खोज इन्जिन)।"
+		},
+		"secciones/2/bloques/1/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/2/bloques/1/texto": {
+			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
+			"value": "तपाइँको IP ठेगाना सङ्कलन गरिँदैन, ब्राउजर पहिचान प्रविधिहरू (fingerprinting) प्रयोग गरिँदैन, न त Google Analytics वा यस्तै अन्य तेस्रो-पक्ष उपकरणहरू प्रयोग गरिन्छ।"
+		},
+		"secciones/3/titulo": {
+			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
+			"value": "4. कानूनी आधार"
+		},
+		"secciones/3/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
+			"value": "प्रशोधन तपाइँको स्पष्ट सहमतिमा आधारित छ (GDPR को धारा 6.1.a र LSSI-CE को धारा 22.2), जसलाई तपाइँ साइटको आफ्नै कुकी प्रबन्धकबाट कुनै पनि समयमा फिर्ता लिन सक्नुहुन्छ।"
+		},
+		"secciones/4/titulo": {
+			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
+			"value": "5. संरक्षण अवधिको"
+		},
+		"secciones/4/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
+			"value": "डेटा तपाइँको अन्तिम भ्रमणबाट अधिकतम 12 महिनासम्म राखिन्छ, त्यसपछि तिनीहरू स्वचालित रूपमा मेटाइन्छन्।"
+		},
+		"secciones/5/titulo": {
+			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
+			"value": "6. प्राप्तकर्ताहरू र अन्तर्राष्ट्रिय स्थानान्तरणहरू"
+		},
+		"secciones/5/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
+			"value": "डेटा तेस्रो पक्षहरूलाई हस्तान्तरण वा बेच tho गरिँदैन। यो Cloudflare D1 मा भण्डारण गरिएको छ, जो Cloudflare, Inc. द्वारा प्रदान गरिएको डेटाबेस सेवा हो, जसले प्रशोधनकर्ताको रूपमा काम गर्दछ। Cloudflare ले युरोपियन आर्थिक क्षेत्र बाहिर डेटा प्रशोधन गर्न सक्छ; त्यो अवस्थामा, त्यस्तो स्थानान्तरण युरोपेली आयोगद्वारा अनुमोदित मानक संविदात्मक धाराहरूद्वारा संरक्षित हुन्छ। Cloudflare को गोपनीयता नीतिमा थप जानकारी: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/6/titulo": {
+			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
+			"value": "7. तपाइँका अधिकारहरू"
+		},
+		"secciones/6/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
+			"value": "तपाइँ malvmar5@hotmail.com मा लेखेर कुनै पनि समयमा पहुँच, सुधार, मेटाउने, विरोध, प्रशोधन सीमित गर्ने र पोर्टेबिलिटीका अधिकारहरू प्रयोग गर्न सक्नुहुन्छ। थप रूपमा, साइटको कुकी कन्फिगरेसनमा उपलब्ध \"मेरो डेटा मेटाउनुहोस्\" बटनबाट कसैलाई लेख्नु नपरिकन, तपाइँ तुरुन्तै आफ्नो डेटा मेटाउन सक्नुहुन्छ। यदि तपाइँ सोच्नुहुन्छ कि तपाइँका अधिकारहरू सही रूपमा सम्बोधन गरिएका छैनन् भने तपाइँ स्पेनिश डेटा संरक्षण एजेन्सी (www.aepd.es) मा उजुरी पेश गर्ने अधिकार पनि राख्नुहुन्छ।"
+		},
+		"secciones/7/titulo": {
+			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
+			"value": "8. यस नीतिमा परिवर्तनहरू"
+		},
+		"secciones/7/bloques/0/tipo": {
+			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
+			"value": "parrafo"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
+			"value": "कानूनी वा साइटको आफ्नै परिवर्तनहरू अनुकूल गर्न यो नीति अद्यावधिक गर्न सकिन्छ।"
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Pieredze — Mario Álvarez",
+		"description": "Divas pasaules, viena valoda: veiktspēja. Mario Alvaresa (Mario Álvarez) pieredze datu un inženierijas jomā, kā arī elites riteņbraukšanā.",
+		"eyebrow": "Pieredze",
+		"heading": "Divas pasaules, viena valoda: veiktspēja",
+		"colDatos": "Dati un tehnoloģijas",
+		"colDeporte": "Elites sports"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Datu zinātnes prakse",
+			"meta": "Datu inženierija · Benidorma · 2026",
+			"paragraphs": [
+				"SIME izstrādā pārvaldības programmatūru (rezervācijas, rēķinus, atskaites, restorānu pasūtījumus), kas apkalpo simtiem klientu no centralizētas sistēmas, kuras pamatā ir vairāk nekā 580 savstarpēji saistītas tabulas un vairāk nekā 100 miljoni ierakstu. Izaugsme bija likusi sadalīt klientus vairākās datu bāzēs, lai mazinātu slodzi un sūdzības par lēnām darbībām.",
+				"Mans darbs: analizēt šīs datu bāzes un, izmantojot vaicājumu un indeksu optimizāciju, izstrādāt visu datu apvienošanu vienā efektivizētā datu bāzē, gandrīz nepalielinot aparatūras (RAM/CPU) resursus. Uzlabojums jau ir izstrādāts un atrodas validācijas fāzē testa serverī."
+			]
+		},
+		{
+			"title": "Projekti ar komandu Cofidis (World Tour)",
+			"meta": "Python · 2025. gada vasara",
+			"paragraphs": [
+				"Pašu veidots projekts, ko izstrādāju kā testu, lai iekļūtu datu analīzē profesionālajā riteņbraukšanā:"
+			],
+			"list": [
+				"UCI grūtības pakāpes analizators: izmantojot UCI ranga tīmekļa skrāpēšanu (web scraping), tas novieto komandas braucējus un novērtē grūtības līmeni UCI punktu pelnīšanai atbilstoši sastāvam.",
+				"Sacensību profila prognozētājs: paredz katru sacensību īpašības un piešķir tām grūtības novērtējumu mērķu un stratēģijas plānošanai."
+			]
+		},
+		{
+			"title": "Akadēmiskie un personīgie projekti",
+			"meta": "Analīze, vizualizācija un mašīnmācīšanās",
+			"paragraphs": [
+				"Pašu veidoti datu analīzes, vizualizācijas un mašīnmācīšanās darbi."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Skatīt projektus"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Sacensības",
+			"paragraphs": [
+				"Spānijas čempions medisonā (18 gadi); Pasaules un Eiropas čempionāti trekā ar Spānijas izlasi (6. vieta abos); elites sportists; federēts un aktīvs treka riteņbraucējs."
+			]
+		},
+		{
+			"title": "Sporta vadība",
+			"paragraphs": [
+				"I un II līmeņa sporta direktors (RFEC); jauniešu riteņbraucēju (14–18) apmācība un uzraudzība kopā ar manu tēvu; asistents Valensijas kopienas izlasē sacensībās (2026)."
+			]
+		},
+		{
+			"title": "Hiromasāža un tehniskais personāls",
+			"meta": "2025. gada vasara",
+			"paragraphs": [
+				"Sertificēts hiromasieris; profesionālu riteņbraucēju masieris; personāls Valensijas kopienas izlasē, Filipīnu kontinentālajā komandā un individuāliem riteņbraucējiem Benidormā."
+			]
+		}
+	]
+}

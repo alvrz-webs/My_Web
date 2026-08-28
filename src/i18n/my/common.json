@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "المحتوى الشخصي",
+		"proyectos": "المشاريع",
+		"experiencia": "الخبرة",
+		"contacto": "الاتصال",
+		"ariaMain": "الملاحة الرئيسية",
+		"openMenu": "فتح القائمة"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "الشبكات الاجتماعية"
+	},
+	"langSwitch": {
+		"label": "تغيير اللغات",
+		"traducir": "تغيير اللغات",
+		"buscar": "البحث عن اللغة…"
+	},
+	"cookies": {
+		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
+		"politica": "سياسة ملفات تعريف الارتباط",
+		"aceptar": "موافق",
+		"rechazar": "رفض",
+		"configurar": "إعداد ملفات تعريف الارتباط",
+		"borrarDatos": "حذف بياناتي",
+		"ariaBanner": "موافقة ملفات تعريف الارتباط"
+	},
+	"legal": {
+		"privacidad": "سياسة الخصوصية",
+		"cookies": "سياسة ملفات تعريف الارتباط"
+	},
+	"person": {
+		"jobTitle": "عالم بيانات",
+		"description": "عالم بيانات متخصص في تحليل الرياضة، مع خبرة في مجال سباقات الدراجات الاحترافية."
+	}
+}

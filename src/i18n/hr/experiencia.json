@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Iskustvo — Mario Álvarez",
+		"description": "Dva svijeta, isti jezik: performanse. Iskustvo Marija Álvareza u podatcima i inženjerstvu te u vrhunskom biciklizmu.",
+		"eyebrow": "Iskustvo",
+		"heading": "Dva svijeta, isti jezik: performanse",
+		"colDatos": "Podatci i tehnologija",
+		"colDeporte": "Vrhunski sport"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Praksa u znanosti o podatcima",
+			"meta": "Podatkovno inženjerstvo · Benidorm · 2026.",
+			"paragraphs": [
+				"SIME razvija softver za upravljanje (rezervacije, fakturiranje, izvješća, ugostiteljske narudžbe) koji opslužuje stotine klijenata iz središnjeg sustava, na bazi podataka s više od 580 međusobno povezanih tablica i više od 100 milijuna zapisa. Rast je primorao na raspodjelu klijenata na nekoliko baza kako bi se smanjilo opterećenje i pritužbe na sporu brzinu.",
+				"Moj posao: analizirati te baze i, kroz optimizaciju upita i indeksa, dizajnirati ujedinjenje svih podataka u jednu učinkovitu bazu jedva skalirajući hardver (RAM/CPU). Poboljšanje je već razvijeno, u fazi provjere valjanosti na testnom poslužitelju."
+			]
+		},
+		{
+			"title": "Projekti s momčadi Cofidis (World Tour)",
+			"meta": "Python · Ljeto 2025.",
+			"paragraphs": [
+				"Vlastiti projekt koji sam izradio kao test za pristup analizi podataka u profesionalnom biciklizmu:"
+			],
+			"list": [
+				"Analizator težine UCI: web scrapingom UCI ljestvice pozicionira vozače momčadi i procjenjuje razinu težine za osvajanje UCI bodova prema sastavu.",
+				"Prediktor profila utrke: predviđa karakteristike svake utrke i dodjeljuje joj ocjenu težine radi planiranja ciljeva i strategije."
+			]
+		},
+		{
+			"title": "Akademski i osobni projekti",
+			"meta": "Analiza, vizualizacija i strojno učenje",
+			"paragraphs": [
+				"Vlastiti radovi analize podataka, vizualizacije i strojnog učenja."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Pogledaj projekte"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Natjecanje",
+			"paragraphs": [
+				"Prvak Španjolske u madisonu (18 godina); Svjetsko i Europsko prvenstvo na pisti sa španjolskom reprezentacijom (6. mjesto na oba); vrhunski sportaš; licencirani biciklist na pisti, aktivan."
+			]
+		},
+		{
+			"title": "Sportsko vođenje",
+			"paragraphs": [
+				"Sportski direktor I. i II. stupnja (RFEC); obuka i praćenje mlađih biciklista (14–18) zajedno s ocem; pomoćno osoblje s reprezentacijom Valencijske Zajednice na natjecanjima (2026.)."
+			]
+		},
+		{
+			"title": "Kiroterapija i tehničko osoblje",
+			"meta": "Ljeto 2025.",
+			"paragraphs": [
+				"Kvalificirani kiromaser; maser profesionalnih biciklista; osoblje s reprezentacijom Valencijske Zajednice, s filipinskom kontinentalnom momčadi i s individualnim biciklistima u Benidormu."
+			]
+		}
+	]
+}

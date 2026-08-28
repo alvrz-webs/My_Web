@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Erfaring — Mario Álvarez",
+		"description": "To verdener, ét og samme sprog: ydeevne. Mario Álvarez' erfaring inden for data og engineering samt elitecykling.",
+		"eyebrow": "Erfaring",
+		"heading": "To verdener, ét og samme sprog: ydeevne",
+		"colDatos": "Data & Teknologi",
+		"colDeporte": "Elitesport"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Praktik i datatruenskab",
+			"meta": "Data Engineering · Benidorm · 2026",
+			"paragraphs": [
+				"SIME udvikler administrationssoftware (reservationer, fakturering, rapporter, restaurantbestillinger), som betjener hundreder af kunder fra et centralt system baseret på en database med +580 indbyrdes forbundne tabeller og +100 millioner poster. Væksten havde gjort det nødvendigt at fordele kunder på flere databaser for at lette belastningen og klager over langsommelighed.",
+				"Mit arbejde: at analysere disse databaser og gennem forespørgsels- og indeksoptimering designe samlingen af alle data i en enkelt, effektiv database uden nævneværdig skalering af hardware (RAM/CPU). Forbedringen er allerede udviklet og er i valideringsfasen på en testserver."
+			]
+		},
+		{
+			"title": "Projekter med Cofidis-holdet (World Tour)",
+			"meta": "Python · Sommer 2025",
+			"paragraphs": [
+				"Eget projekt udført som en test for at få adgang til dataanalyse i professionel cykling:"
+			],
+			"list": [
+				"UCI-sværhedsgradsanalyse: ved hjælp af web scraping af UCI-ranglisten placerer det holdets ryttere og anslår sværhedsgraden for at score UCI-poeng baseret på truppen.",
+				"Løbsprofil-forudsiger: forudser egenskaberne for hvert løb og tildeler en sværhedsgrad for at planlægge mål og strategi."
+			]
+		},
+		{
+			"title": "Akademiske og personlige projekter",
+			"meta": "Analyse, visualisering og maskinlæring",
+			"paragraphs": [
+				"Egne projekter inden for dataanalyse, visualisering og maskinlæring."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Se projekter"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Konkurrence",
+			"paragraphs": [
+				"Spansk mester i madison (18 år); VM og EM på bane med det spanske landshold (nr. 6 i begge); elitesportudøver; aktiv, licenseret banecykelrytter."
+			]
+		},
+		{
+			"title": "Sportslig ledelse",
+			"paragraphs": [
+				"Sportsdirektør niveau I og II (RFEC); træning og opfølgning af ungdomsryttere (14–18) sammen med min far; holdleder for landsholdet i Valencia-regionen ved konkurrencer (2026)."
+			]
+		},
+		{
+			"title": "Kiro-massage og teknisk personale",
+			"meta": "Sommer 2025",
+			"paragraphs": [
+				"Uddannet kiromassør; massør for professionelle cykelryttere; personale for Valencia-regionens landshold, et filippinsk kontinentalhold og private cykelryttere i Benidorm."
+			]
+		}
+	]
+}

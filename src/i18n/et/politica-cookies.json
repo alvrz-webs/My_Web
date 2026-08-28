@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Küpsiste poliitika — Mario Álvarez",
+		"description": "Milliseid küpsiseid see veebisait kasutab, mis otstarbel ja kuidas oma nõusolekut igal ajal muuta.",
+		"eyebrow": "Õiguslik teave",
+		"heading": "Küpsiste poliitika"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "See veebisait kasutab küpsiseid ja sarnaseid tehnoloogiaid (näiteks brauseri kohalikku salvestusruumi) oma korrektseks toimimiseks ning teie nõusolekul sisu kasutuse anonüümseks analüüsimiseks."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Kasutatavad küpsised:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nimi",
+				"Otstarve",
+				"Tüüp",
+				"Kestus"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Teie valiku meelespidamine selle küpsiste poliitika kohta",
+					"Oma, tehniline (nõusolekust vabastatud)",
+					"12 kuud"
+				],
+				[
+					"visitante_id",
+					"Anonüümne identifikaator teie külastuste seostamiseks ja teadmiseks, milline sisu on kasulik",
+					"Oma, analüütiline (nõuab teie nõusolekut)",
+					"12 kuud"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Ükski neist küpsistest ei ole kolmanda osapoole omad, ühtegi ei kasutata reklaami eesmärgil ega jagata kellegagi väljaspool seda saiti."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Saate oma otsust muuta või nõusoleku igal ajal tagasi võtta lehe jaluses asuva lingi \"Konfigureeri küpsised\" kaudu ning kustutada viivitamatult kõik oma andmed samas paneelis oleva nupu \"Kustuta minu andmed\" abil."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Lisateabe saamiseks selle kohta, kuidas teie andmeid töödeldakse, vaadake Privaatsuspoliitikat."
+		}
+	]
+}

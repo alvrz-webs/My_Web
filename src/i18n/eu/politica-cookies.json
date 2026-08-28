@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Cookie Politika — Mario Álvarez",
+		"description": "Zein cookie erabiltzen dituen webgune honek, zer helbururekin eta nola aldatu dezakezun zure baimena edonoiz.",
+		"eyebrow": "Legezkoa",
+		"heading": "Cookie Politika"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Webgune honek cookieak eta antzeko teknologiak erabiltzen ditu (nabigatzailearen tokiko biltegiratzea, esaterako) behar bezala funtzionatzeko eta, baimena ematen baduzu, edukiak nola erabiltzen diren modu anonimoan aztertzeko."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Erabilitako cookieak:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Izena",
+				"Helburua",
+				"Mota",
+				"Iraupena"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Cookie politika honi buruzko zure aukeraketa gogoratzea",
+					"Berezkoa, teknikoa (baimenik gabekoa)",
+					"12 hilabete"
+				],
+				[
+					"visitante_id",
+					"Identifikatzaile anonimoa, zure bisitak erlazionatzeko eta zein eduki den erabilgarria jakiteko",
+					"Berezkoa, analitikoa (zure baimena behar du)",
+					"12 hilabete"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Cookie horietako bat bera ere ez da hirugarrenenarena, ez da publizitate-helburuekin erabiltzen, eta ez zaio inori partekatzen gune honetatik kanpo."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Zure erabakia aldatu edo baimena edonoiz ken dezakezu orriaren oineko \"Konfiguratu cookieak\" estekaren bidez, eta zure datu guztiak berehala ezabatu panel bereko \"Ezabatu nire datuak\" botoiarekin."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Zure datuak nola tratatzen diren jakiteko informazio gehiago lortzeko, ikusi Pribatutasun Politika."
+		}
+	]
+}

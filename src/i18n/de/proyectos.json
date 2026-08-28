@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projekte — Mario Álvarez",
+		"description": "Repositories und Projekte für Datenanalyse, Visualisierung und Machine Learning von Mario Álvarez.",
+		"eyebrow": "Projekte",
+		"heading": "Projekte",
+		"intro": "Ein Einblick in meine Arbeit: von Tools für den Profi-Radrennsport bis hin zu akademischen Analyse- und Machine-Learning-Projekten."
+	},
+	"list": {
+		"eyebrow": "Arbeit",
+		"title": "Projekte",
+		"intro": "Eine automatische Auswahl meiner öffentlichen Repositories auf GitHub.",
+		"especializaciones": "Spezialisierungen",
+		"fallbackDescripcion": "Datenanalyse- und Data-Science-Projekt.",
+		"verEnGithub": "Auf GitHub ansehen",
+		"vacio": "Die Repositories konnten derzeit nicht geladen werden.",
+		"filtroLabel": "Projekte nach Typ filtern",
+		"filtroTodos": "Alle",
+		"filtroDatos": "Daten",
+		"filtroWebs": "Websites",
+		"verWeb": "Website ansehen",
+		"verCodigo": "Code ansehen",
+		"enDesarrollo": "In Entwicklung",
+		"fallbackDescripcionWeb": "Webprojekt.",
+		"vacioWebs": "In diesem Bereich wurden noch keine Websites veröffentlicht."
+	}
+}

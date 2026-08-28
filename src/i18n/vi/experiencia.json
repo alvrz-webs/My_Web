@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Kinh nghiệm — Mario Álvarez",
+		"description": "Hai thế giới, chung một ngôn ngữ: hiệu suất. Kinh nghiệm của Mario Álvarez trong lĩnh vực dữ liệu và kỹ thuật, cũng như trong môn đua xe đạp đỉnh cao.",
+		"eyebrow": "Kinh nghiệm",
+		"heading": "Hai thế giới, chung một ngôn ngữ: hiệu suất",
+		"colDatos": "Dữ liệu & Công nghệ",
+		"colDeporte": "Thể thao đỉnh cao"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Thực tập Khoa học Dữ liệu",
+			"meta": "Kỹ thuật Dữ liệu · Benidorm · 2026",
+			"paragraphs": [
+				"SIME phát triển phần mềm quản lý (đặt chỗ, lập hóa đơn, báo cáo, gọi món nhà hàng) phục vụ hàng trăm khách hàng từ một hệ thống trung tâm, trên cơ sở dữ liệu có hơn 580 bảng liên kết và hơn 100 triệu bản ghi. Sự phát triển này buộc phải phân chia khách hàng thành nhiều cơ sở dữ liệu để giảm tải và các khiếu nại về tốc độ chậm.",
+				"Công việc của tôi: phân tích các cơ sở dữ liệu đó và, thông qua việc tối ưu hóa truy vấn và chỉ mục, thiết kế việc hợp nhất tất cả dữ liệu vào một cơ sở dữ liệu duy nhất hiệu quả mà hầu như không cần nâng cấp phần cứng (RAM/CPU). Cải tiến đã được phát triển, đang trong giai đoạn xác thực trên máy chủ thử nghiệm."
+			]
+		},
+		{
+			"title": "Các dự án với đội Cofidis (World Tour)",
+			"meta": "Python · Mùa hè 2025",
+			"paragraphs": [
+				"Dự án cá nhân mà tôi thực hiện như một bài kiểm tra để tiếp cận phân tích dữ liệu trong môn đua xe đạp chuyên nghiệp:"
+			],
+			"list": [
+				"Trình phân tích độ khó UCI: thông qua web scraping bảng xếp hạng UCI, xác định vị trí các tay đua trong đội và ước tính mức độ khó để tích lũy điểm UCI theo đội hình.",
+				"Trình dự đoán hồ sơ chặng đua: dự đoán các đặc điểm của từng chặng đua và gán điểm độ khó để lên kế hoạch mục tiêu và chiến lược."
+			]
+		},
+		{
+			"title": "Các dự án học thuật và cá nhân",
+			"meta": "Phân tích, trực quan hóa và machine learning",
+			"paragraphs": [
+				"Các công việc tự thực hiện về phân tích dữ liệu, trực quan hóa và machine learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Xem các dự án"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Thi đấu",
+			"paragraphs": [
+				"Vô địch Tây Ban Nha nội dung madison (18 tuổi); Giải vô địch Thế giới và Châu Âu môn lòng chảo cùng Đội tuyển Tây Ban Nha (thứ 6 ở cả hai giải); vận động viên đỉnh cao; vận động viên đua xe đạp lòng chảo có giấy phép thi đấu, đang hoạt động."
+			]
+		},
+		{
+			"title": "Chỉ đạo thể thao",
+			"paragraphs": [
+				"Giám đốc Thể thao Cấp độ I và II (RFEC); đào tạo và theo dõi các vận động viên đua xe đạp trẻ (14–18 tuổi) cùng cha tôi; trợ lý cho Đội tuyển Cộng đồng Valencia trong các giải đấu (2026)."
+			]
+		},
+		{
+			"title": "Xoa bóp trị liệu và nhân viên kỹ thuật",
+			"meta": "Mùa hè 2025",
+			"paragraphs": [
+				"Chuyên viên xoa bóp trị liệu có bằng cấp; nhân viên xoa bóp cho các tay đua chuyên nghiệp; nhân viên kỹ thuật cho Đội tuyển Cộng đồng Valencia, một đội continental của Philippines và các tay đua cá nhân tại Benidorm."
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "פרויקטים — מריו אלוורז",
+		"description": "מאגרים ופרויקטים של ניתוח נתונים, ויזואליזציה ולמידת מכונה מאת מריו אלוורז.",
+		"eyebrow": "פרויקטים",
+		"heading": "פרויקטים",
+		"intro": "הצהצה על העבודה שלי: החל מכלים לרכיבת אופניים מקצועית ועד לפרויקטים אקדמיים בניתוח נתונים ולמידת מכונה."
+	},
+	"list": {
+		"eyebrow": "עבודה",
+		"title": "פרויקטים",
+		"intro": "בחירה אוטומטית של המאגרים הציבוריים שלי ב-GitHub.",
+		"especializaciones": "התמחויות",
+		"fallbackDescripcion": "פרויקט ניתוח נתונים ומדעי הנתונים.",
+		"verEnGithub": "Ver en GitHub",
+		"vacio": "לא ניתן היה לטעון את המאגרים כרגע.",
+		"filtroLabel": "סינון פרויקטים לפי סוג",
+		"filtroTodos": "הכל",
+		"filtroDatos": "נתונים",
+		"filtroWebs": "אתרים",
+		"verWeb": "Ver web",
+		"verCodigo": "Ver código",
+		"enDesarrollo": "בפיתוח",
+		"fallbackDescripcionWeb": "פרויקט אתר אינטרנט.",
+		"vacioWebs": "עדיין אין אתרים מפורסמים בסעיף זה."
+	}
+}

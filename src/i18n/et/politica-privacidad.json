@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Privaatsuspoliitika — Mario Álvarez",
+		"description": "Mario Álvarezi veebisaidi privaatsuspoliitika: milliseid andmeid kogutakse, mis eesmärgil ja kuidas oma õigusi teostada.",
+		"eyebrow": "Legal",
+		"heading": "Privaatsuspoliitika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Andmetöötleja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, asukohaga Benidorm (Alicante), Hispaania. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Töötlemise eesmärk",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "See veebisait analüüsib sisemiselt ja eranditult statistilistel eesmärkidel, milline sisu (sektsioonid, projektid) on külastajatele kasulikum, eesmärgiga selle sisu parandada. Seda ei kasutata reklaami eesmärgil, seda ei jagata kolmandate osapooltega ega müüda ühelgi tingimusel."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kogutavad andmed (ainult siis, kui nõustute analüütiliste küpsistega)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Juhuslik anonüümne identifikaator, mis ei ole seotud teie nime, e-posti ega muu teabega, mis teid otseselt identifitseerib.",
+						"Külastatavad lehed ja projektid ning igal lehel viibimise aeg (kui vahekaart on aktiivne).",
+						"Interaktsioonid (klõpsud projektidel, linkidel või nuppudel).",
+						"Külastuse kuupäev ja kellaaeg.",
+						"Vaadatud saidi keel.",
+						"Seadme tüüp (mobiil või lauaarvuti).",
+						"Ligikaudne riik, mis on saadud Cloudflare'i infrastruktuuri kaudu, salvestamata teie IP-aadressi.",
+						"Lähteleht (näiteks LinkedIn või otsingumootor)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Teie IP-aadressi ei koguta, ei kasutata brauseri tuvastamise tehnikaid (fingerprinting) ega kolmandate osapoolte tööriistu nagu Google Analytics vms."
+				}
+			]
+		},
+		{
+			"titulo": "4. Õiguslik alus",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Töötlemine põhineb teie selgesõnalisel nõusolekul (isikuandmete kaitse üldmääruse artikkel 6.1.a ja LSSI-CE artikkel 22.2), mille saate igal ajal tagasi võtta saidi enda küpsiste haldurist."
+				}
+			]
+		},
+		{
+			"titulo": "5. Säilitamistähtaeg",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Andmeid säilitatakse maksimaalselt 12 kuud alates teie viimasest külastusest, pärast mida need kustutatakse automaatselt."
+				}
+			]
+		},
+		{
+			"titulo": "6. Vastuvõtjad ja rahvusvahelised edastused",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Andmeid ei edastata ega müüda kolmandatele osapooltele. Neid hoitakse Cloudflare D1-s, mis on Cloudflare, Inc. pakutav andmebaasiteenus, kes tegutseb volitatud töötlejana. Cloudflare võib töödeldaandmeid väljaspool Euroopa Majanduspiirkonda; sellisel juhul tugineb see edastus Euroopa Komisjoni heaks kiidetud standardsetele lepingutingimustele. Lisateavet leiate Cloudflare'i privaatsuspoliitikast: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Teie õigused",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saate igal ajal kasutada oma õigust tutvuda andmetega, neid parandada, kustutada, esitada vastuväiteid, piirata töötlemist ja andmete ülekantavust, kirjutades aadressile malvmar5@hotmail.com. Lisaks saate oma andmed koheselt kustutada, ilma et peaksite kellelegi kirjutama, kasutades saidi küpsiste seadetest leitavat nuppu \"Kustuta minu andmed\". Samuti on teil õigus esitada kaebus Hispaania Andmekaitseametile (www.aepd.es), kui leiate, et teie õigusi ei ole nõuetekohaselt käsitleda võetud."
+				}
+			]
+		},
+		{
+			"titulo": "8. Muudatused käesolevas poliitikas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Seda poliitikat võidakse ajakohastada, et kohaneda õiguslike või saidi enda muudatustega."
+				}
+			]
+		}
+	]
+}

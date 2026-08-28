@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Tungkol sa akin — Mario Álvarez",
+		"description": "Mula sa pagiging kampeon ng Espanya sa madison hanggang sa pagiging estudyante ng Data Science: ang landas ni Mario Álvarez sa pagitan ng elite cycling at sports analytics.",
+		"eyebrow": "Tungkol sa akin",
+		"heading": "Mula sa velodrome patungo sa data"
+	},
+	"bio": [
+		"Nagsimula ako sa pakikipag-kumpetisyon. Sa edad na 18, itinalaga ko ang aking sarili bilang kampeon ng Espanya sa track madison at tinawag ako ng Pambansang Koponan ng Pag- berseKleta ng Espanya para sa World at European Championships, kung saan nakuha ko ang ikaanim na puwesto sa pareho, na nagbigay sa akin ng katayuan bilang isang elite na atleta.",
+		"Mula doon ay lumipat ako sa Data Science: ngayon ay nasa ika-3 taon na ako ng Degree sa Universitat Politècnica de València, na nakatuon sa digitalization at teknolohiya na inilalapat sa sports.",
+		"Ang aking natatanging halaga ay ang tulay na iyon: naranasan ko ang mataas na pagganap mula sa loob —bilang isang manlalaro, bilang isang direktor ng palakasan sa grassroots, at bilang isang masseur para sa mga propesyonal na siklista— at alam ko kung paano basahin ang data sa likod nito. Naiintindihan ko kung ano ang ibig sabihin ng isang numero para sa isang atleta, dahil ako ang atletang iyon. Pinagsasama ko ang dalawang mundo upang gawing mga desisyon ang data na nagpapabuti sa pagganap.",
+		"Bilang karagdagan, dahil sa aking katayuan bilang isang elite na atleta, nakakuha ako ng scholarship upang kumuha ng Master sa Digitalization, Innovation at Technology sa Sports, na nakumpleto ko na at nagpapalawak ng aking pokus sa buong ecosystem ng palakasan, higit pa sa pag- berseKleta."
+	],
+	"facts": [
+		{
+			"label": "Base",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Katayuan",
+			"value": "Handa para sa mga proyekto"
+		},
+		{
+			"label": "Pokus",
+			"value": "Data + pagganap sa palakasan"
+		},
+		{
+			"label": "Mga Wika",
+			"value": "Katutubong Espanyol · Valencian · Ingles B1"
+		},
+		{
+			"label": "Edukasyon",
+			"value": "Degree sa Data Science (UPV) · Master sa Digitalization, Innovation at Technology sa Sports"
+		}
+	]
+}

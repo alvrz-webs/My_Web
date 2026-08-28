@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Experiență — Mario Álvarez",
+		"description": "Două lumi, aceeași limbă: performanța. Experiența lui Mario Álvarez în date și inginerie, și în ciclismul de elită.",
+		"eyebrow": "Experiență",
+		"heading": "Două lumi, aceeași limbă: performanța",
+		"colDatos": "Date și Tehnologie",
+		"colDeporte": "Sport de elită"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Stagiu în Știința Datelor",
+			"meta": "Ingineria Datelor · Benidorm · 2026",
+			"paragraphs": [
+				"SIME dezvoltă software de gestiune (rezervări, facturare, rapoarte, comenzi pentru restaurante) care deservește sute de clienți dintr-un sistem central, pe o bază de date cu peste 580 de tabele interconectate și peste 100 de milioane de înregistrări. Creșterea a impus împărțirea clienților pe mai multe baze pentru a reduce sarcina și plângerile legate de lentoare.",
+				"Munca mea: analiza acelor baze și, prin optimizarea interogărilor și a indexurilor, proiectarea unificării tuturor datelor într-o singură bază eficientă, fără a scala aproape deloc hardware-ul (RAM/CPU). Îmbunătățire deja dezvoltată, în fază de validare pe serverul de test."
+			]
+		},
+		{
+			"title": "Proiecte cu echipa Cofidis (World Tour)",
+			"meta": "Python · Vara 2025",
+			"paragraphs": [
+				"Proiect propriu realizat ca probă pentru a accede la analiza datelor în ciclismul profesional:"
+			],
+			"list": [
+				"Analyzer de dificultate UCI: prin web scraping al clasamentului UCI, plasează rutierii echipei și estimează nivelul de dificultate pentru a aduna puncte UCI în funcție de lot.",
+				"Predictor de profil de cursă: anticipează caracteristicile fiecărei curse și îi atribuie o notă de dificultate pentru a planifica obiectivele și strategia."
+			]
+		},
+		{
+			"title": "Proiecte academice și personale",
+			"meta": "Analiză, vizualizare și machine learning",
+			"paragraphs": [
+				"Lucrări proprii de analiză a datelor, vizualizare și machine learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Vezi proiecte"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Competiție",
+			"paragraphs": [
+				"Campion al Spaniei la madison (18 ani); Campionate Mondiale și Europene de pistă cu Echipa Națională a Spaniei (locul 6 la ambele); sportiv de elită; ciclist de pistă federat, în activitate."
+			]
+		},
+		{
+			"title": "Conducere sportivă",
+			"paragraphs": [
+				"Director Sportiv Nivelul I și II (RFEC); formarea și urmărirea cicliștilor de juniori (14–18) împreună cu tatăl meu; asistent cu Selecționa Comunității Valenciene în competiții (2026)."
+			]
+		},
+		{
+			"title": "Chiromasaj și staff tehnic",
+			"meta": "Vara 2025",
+			"paragraphs": [
+				"Chiromaseur autorizat; maseur al cicliștilor profesioniști; staff cu Selecționa Comunității Valenciene, cu o echipă continentală filipineză și cu cicliști în mod particular în Benidorm."
+			]
+		}
+	]
+}

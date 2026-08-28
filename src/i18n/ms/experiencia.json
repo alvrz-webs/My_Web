@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Pengalaman — Mario Álvarez",
+		"description": "Dua dunia, satu bahasa yang sama: prestasi. Pengalaman Mario Álvarez dalam bidang data dan kejuruteraan, serta dalam sukan berbasikal elit.",
+		"eyebrow": "Pengalaman",
+		"heading": "Dua dunia, satu bahasa yang sama: prestasi",
+		"colDatos": "Data & Teknologi",
+		"colDeporte": "Sukan elit"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Latihan Amali Sains Data",
+			"meta": "Kejuruteraan Data · Benidorm · 2026",
+			"paragraphs": [
+				"SIME membangunkan perisian pengurusan (tempahan, pengebilan, laporan, pesanan restoran) yang memberi perkhidmatan kepada ratusan pelanggan dari sistem pusat, berdasarkan pangkalan data yang mempunyai +580 jadual bersambung dan +100 juta rekod. Pertumbuhan telah memaksa pembahagian pelanggan ke dalam beberapa pangkalan untuk mengurangkan beban dan aduan kelambatan.",
+				"Kerja saya: menganalisis pangkalan data tersebut dan, melalui pengoptimuman pertanyaan dan indeks, merangka penyatuan semua data ke dalam satu pangkalan yang cekap tanpa hampir menaik taraf perkakasan (RAM/CPU). Penambahbaikan telah dibangunkan, dalam fasa pengesahan pada pelayan ujian."
+			]
+		},
+		{
+			"title": "Projek dengan pasukan Cofidis (World Tour)",
+			"meta": "Python · Musim Panas 2025",
+			"paragraphs": [
+				"Projek sendiri yang saya laksanakan sebagai ujian untuk menceburi bidang analisis data dalam sukan berbasikal profesional:"
+			],
+			"list": [
+				"Penganalisis kesukaran UCI: melalui pengikisan web pada ranking UCI, menempatkan pelumba pasukan dan menganggarkan tahap kesukaran untuk mengumpul mata UCI mengikut skuad.",
+				"Peramal profil perlumbaan: menjangkakan ciri-ciri setiap perlumbaan dan menetapkan skor kesukaran untuk merancang objektif dan strategi."
+			]
+		},
+		{
+			"title": "Projek akademik dan peribadi",
+			"meta": "Analisis, visualisasi dan machine learning",
+			"paragraphs": [
+				"Kerja-kerja analisis data, visualisasi dan machine learning sendiri."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Lihat projek"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Perlumbaan",
+			"paragraphs": [
+				"Juara Sepanyol madison (18 tahun); Kejohanan Dunia dan Eropah trek bersama Pasukan Sepanyol (ke-6 dalam kedua-duanya); atlet elit; pelumba trek berdaftar dan aktif."
+			]
+		},
+		{
+			"title": "Pengarahan sukan",
+			"paragraphs": [
+				"Pengarah Sukan Tahap I dan II (RFEC); latihan dan pemantauan pelumba akar umbi (14–18) bersama bapa saya; pembantu dengan Pasukan Komuniti Valencia dalam kejohanan (2026)."
+			]
+		},
+		{
+			"title": "Quiromasaj dan staf teknikal",
+			"meta": "Musim Panas 2025",
+			"paragraphs": [
+				"Tukang urut kiro berijazah; tukang urut pelumba profesional; staf dengan Pasukan Komuniti Valencia, dengan pasukan benua Filipina dan dengan pelumba secara peribadi di Benidorm."
+			]
+		}
+	]
+}

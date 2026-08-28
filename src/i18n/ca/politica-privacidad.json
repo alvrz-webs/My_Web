@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Política de Privadesa — Mario Álvarez",
+		"description": "Política de privadesa del lloc de Mario Álvarez: quines dades es recullen, amb quina finalitat i com exercir els teus drets.",
+		"eyebrow": "Legal",
+		"heading": "Política de Privadesa"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Responsable del tractament",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, amb domicili a Benidorm (Alacant), Espanya. Contacte: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Finalitat del tractament",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aquest web analitza de manera interna i amb finalitats exclusivament estadístiques quins continguts (seccions, projectes) resulten més útils a qui la visita, amb l'objectiu de millorar-ne el contingut. No s'utilitza amb finalitats publicitàries, no es comparteix amb tercers i no es ven sota cap circumstància."
+				}
+			]
+		},
+		{
+			"titulo": "3. Dades que es recullen (només si acceptes les galetes analítiques)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Un identificador anònim aleatori, no vinculat al teu nom, email ni cap altra informació que t'identifiqui directament.",
+						"Pàgines i projectes que visites, i el temps d'atenció en cadascun (mentre la pestanya està activa).",
+						"Interaccions (clics en projectes, enllaços o botons).",
+						"Data i hora de la visita.",
+						"Idioma del lloc consultat.",
+						"Tipus de dispositiu (mòbil o escriptori).",
+						"País aproximat, obtingut a través de la infraestructura de Cloudflare, sense emmagatzemar la teva adreça IP.",
+						"Pàgina de procedència (per exemple, LinkedIn o un cercador)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "No es recull la teva adreça IP, no s'utilitzen tècniques d'identificació del navegador (fingerprinting), ni eines de tercers com Google Analytics o similars."
+				}
+			]
+		},
+		{
+			"titulo": "4. Base legal",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "El tractament es basa en el teu consentiment explícit (article 6.1.a del RGPD i article 22.2 de la LSSI-CE), que pots retirar en qualsevol moment des del gestor de galetes del mateix lloc."
+				}
+			]
+		},
+		{
+			"titulo": "5. Termini de conservació",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les dades es conserven un màxim de 12 mesos des de la teva última visita, transcorreguts els quals s'eliminen automàticament."
+				}
+			]
+		},
+		{
+			"titulo": "6. Destinataris i transferències internacionals",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les dades no se cedeixen ni es venen a tercers. S'emmagatzemen a Cloudflare D1, un servei de base de dades proporcionat per Cloudflare, Inc., que actua com a encarregat del tractament. Cloudflare pot processar dades fora de l'Espai Econòmic Europeu; en aquest cas, aquesta transferència s'ampara en les Clàusules Contractuals Tipus aprovades per la Comissió Europea. Més informació a la política de privadesa de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Els teus drets",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pots exercir en qualsevol moment els teus drets d'accés, rectificació, supressió, oposició, limitació del tractament i portabilitat escrivint a malvmar5@hotmail.com. A més, pots esborrar les teves dades de manera immediata, sense necessitat d'escriure a ningú, des del botó \"Esborrar les meves dades\" disponible a la configuració de galetes del lloc. També tens dret a presentar una reclamació davant de l'Agència Espanyola de Protecció de Dades (www.aepd.es) si consideres que els teus drets no han estat atesos correctament."
+				}
+			]
+		},
+		{
+			"titulo": "8. Canvis en aquesta política",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aquesta política pot actualitzar-se per adaptar-se a canvis legals o del propi lloc."
+				}
+			]
+		}
+	]
+}

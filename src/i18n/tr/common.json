@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Hakkımda",
+		"proyectos": "Projeler",
+		"experiencia": "Deneyim",
+		"contacto": "İletişim",
+		"ariaMain": "Ana menü",
+		"openMenu": "Menüyü aç"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Sosyal medya"
+	},
+	"langSwitch": {
+		"label": "Dili değiştir",
+		"traducir": "Dili değiştir",
+		"buscar": "Dil ara…"
+	},
+	"cookies": {
+		"texto": "Anonim analiz ve deneyiminizi iyileştirmek için kendi çerezlerimizi kullanıyoruz. Üçüncü taraf çerezleri kullanmıyoruz.",
+		"politica": "Çerez politikası",
+		"aceptar": "Kabul et",
+		"rechazar": "Reddet",
+		"configurar": "Çerezleri yapılandır",
+		"borrarDatos": "Verilerimi sil",
+		"ariaBanner": "Çerez onayı"
+	},
+	"legal": {
+		"privacidad": "Gizlilik politikası",
+		"cookies": "Çerez politikası"
+	},
+	"person": {
+		"jobTitle": "Veri Bilimcisi",
+		"description": "Profesyonel bisiklet alanında deneyime sahip, spor analitiği konusunda uzmanlaşmış veri bilimcisi."
+	}
+}

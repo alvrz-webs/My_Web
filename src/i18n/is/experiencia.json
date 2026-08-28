@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Reynsla — Mario Álvarez",
+		"description": "Tveir heimar, sama tungumálið: árangur. Reynsla Mario Álvarez í gögnum og verkfræði, og í úrvalshjólreiðum.",
+		"eyebrow": "Reynsla",
+		"heading": "Tveir heimar, sama tungumálið: árangur",
+		"colDatos": "Gögn & Tækni",
+		"colDeporte": "Úrvalsíþróttir"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Starfsnám í gagnafræði",
+			"meta": "Gagnaverkfræði · Benidorm · 2026",
+			"paragraphs": [
+				"SIME þróar stjórnunarhugbúnað (bókanir, innheimtu, skýrslur, veitingapantanir) sem þjónustar hundruð viðskiptavina frá miðlægu kerfi, á gagnagrunni með yfir 580 samtengdum töflum og yfir 100 milljónum færslna. Vöxturinn hafði neytt fyrirtækisins til að skipta viðskiptavinum á marga gagnagrunna til að létta á álagi og hægagangi.",
+				"Mitt verkefni: að greina þessa gagnagrunna og, með hagræðingu fyrirspurna and vísbendinga, hanna samþættingu allra gagna í einn skilvirkan gagnagrunn án þess að stækka vélbúnaðinn (Vinnsluminni/Örgjörva) að ráði. Umbætur þegar þróun lokið, í staðfestingarfasa á prófunarþjóni."
+			]
+		},
+		{
+			"title": "Verkefni með Cofidis liðinu (World Tour)",
+			"meta": "Python · Sumar 2025",
+			"paragraphs": [
+				"Eigin verkefni sem ég vann sem próf raunhæfni til að komast í gagnagreiningu í atvinnumennsku í hjólreiðum:"
+			],
+			"list": [
+				"UCI erfiðleikagreiningartæki: með því að skafa vefinn (web scraping) af UCI styrkleikalistanum staðsetur það liðsmennina og metur erfiðleikastig til að safna UCI stigum miðað við hópinn.",
+				"Spá um ferilkeppni: spáir fyrir um einkenni hverrar keppni og gefur henni erfiðleikaeinkunn til að skipuleggja markmið og stefnu."
+			]
+		},
+		{
+			"title": "Fræðileg og persónuleg verkefni",
+			"meta": "Greining, sjónræn framsetning og vélnám",
+			"paragraphs": [
+				"Eigin verkefni í gagnagreiningu, sjónrænni framsetningu og vélnámi."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Sjá verkefni"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Keppni",
+			"paragraphs": [
+				"Spænskur meistari í madison (18 ára); Heims- og Evrópumeistaramót á braut með spænska landsliðinu (6. sæti í hvort tveggja); úrvalsíþróttamaður; virkur, skráður brautræsihjólreiðamaður."
+			]
+		},
+		{
+			"title": "Íþróttastjórnun",
+			"paragraphs": [
+				"Íþróttastjóri stig I og II (RFEC); þjálfun og eftirfylgni með yngri flokkum (14–18) ásamt föður mínum; aðstoðarmaður hjá landsliði Valencia-héraðs í keppnum (2026)."
+			]
+		},
+		{
+			"title": "Íþróttanudd og tæknilið",
+			"meta": "Sumar 2025",
+			"paragraphs": [
+				"Viðurkenndur íþróttanuddari; nuddari atvinnumaður í hjólreiðum; tæknilið með landsliði Valencia-héraðs, með fílensku meistaraliði og með sjálfstæðum hjólreiðamönnum í Benidorm."
+			]
+		}
+	]
+}

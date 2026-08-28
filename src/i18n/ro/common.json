@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Despre mine",
+		"proyectos": "Proiecte",
+		"experiencia": "Experiență",
+		"contacto": "Contact",
+		"ariaMain": "Navigare principală",
+		"openMenu": "Deschide meniul"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Rețele sociale"
+	},
+	"langSwitch": {
+		"label": "Schimbă limba",
+		"traducir": "Schimbă limba",
+		"buscar": "Caută limba…"
+	},
+	"cookies": {
+		"texto": "Folosim propriile cookie-uri pentru analitică anonimă și pentru a vă îmbunătăți experiența. Nu folosim cookie-uri ale terților.",
+		"politica": "Politica de cookie-uri",
+		"aceptar": "Accept",
+		"rechazar": "Respinge",
+		"configurar": "Configurează cookie-urile",
+		"borrarDatos": "Șterge datele mele",
+		"ariaBanner": "Consimțământ privind cookie-urile"
+	},
+	"legal": {
+		"privacidad": "Politica de confidențialitate",
+		"cookies": "Politica de cookie-uri"
+	},
+	"person": {
+		"jobTitle": "Om de știință a datelor",
+		"description": "Om de știință a datelor specializat în analitică sportivă, cu experiență în ciclismul profesionist."
+	}
+}

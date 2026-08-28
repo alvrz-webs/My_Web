@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Polityka plików cookie — Mario Álvarez",
+		"description": "Jakie pliki cookie wykorzystuje ta witryna, w jakim celu oraz jak w każdej chwili zmienić swoją zgodę.",
+		"eyebrow": "Informacje prawne",
+		"heading": "Polityka plików cookie"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Ta strona internetowa używa plików cookie i podobnych technologii (takich jak lokalna pamięć przeglądarki) w celu zapewnienia jej prawidłowego działania oraz, jeśli wyrażisz na to zgodę, w celu anonimowej analizy sposobu korzystania z treści."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Używane pliki cookie:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nazwa",
+				"Cel",
+				"Typ",
+				"Czas trwania"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Zapamiętanie Twojego wyboru dotyczącego niniejszej polityki plików cookie",
+					"Własne, techniczne (zwolnione z obowiązku wyrażenia zgody)",
+					"12 miesięcy"
+				],
+				[
+					"visitante_id",
+					"Anonimowy identyfikator służący do powiązania Twoich wizyt i sprawdzenia, które treści są przydatne",
+					"Własne, analityczne (wymagają Twojej zgody)",
+					"12 miesięcy"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Żaden z tych plików cookie nie pochodzi od stron trzecich, żaden nie jest używany do celów reklamowych ani nie jest udostępniany nikomu poza tą witryną."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Możesz zmienić swoją decyzję lub wycofać zgodę w dowolnym momencie, korzystając z linku „Konfiguruj pliki cookie” w stopce strony, oraz natychmiast usunąć wszystkie swoje dane za pomocą przycisku „Usuń moje dane” w tym samym panelu."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Więcej informacji na temat przetwarzania Twoich danych można znaleźć w Polityce prywatności."
+		}
+	]
+}

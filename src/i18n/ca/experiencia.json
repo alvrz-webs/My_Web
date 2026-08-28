@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Experiència — Mario Álvarez",
+		"description": "Dos mons, un mateix llenguatge: el rendiment. Experiència de Mario Álvarez en dades i enginyeria, i en ciclisme d'elit.",
+		"eyebrow": "Experiència",
+		"heading": "Dos mons, un mateix llenguatge: el rendiment",
+		"colDatos": "Dades i Tecnologia",
+		"colDeporte": "Esport d'elit"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Pràctiques de Ciència de Dades",
+			"meta": "Enginyeria de Dades · Benidorm · 2026",
+			"paragraphs": [
+				"SIME desenvolupa programari de gestió (reserves, facturació, informes, comandes de restauració) que serveix a centenars de clients des d'un sistema central, sobre una base de dades de +580 taules interconnectades i +100 milions de registres. El creixement havia obligat a repartir clients en diverses bases per alleujar la càrrega i les queixes de lentitud.",
+				"La meva feina: analitzar aquestes bases i, mitjançant optimització de consultes i índexs, dissenyar la unificación de totes les dades en una única base eficient sense escalar gairebé el maquinari (RAM/CPU). Millora ja desenvolupada, en fase de validació sobre servidor de proves."
+			]
+		},
+		{
+			"title": "Projectes amb l'equip Cofidis (World Tour)",
+			"meta": "Python · Estiu 2025",
+			"paragraphs": [
+				"Projecte propi que vaig realitzar com a prova per accedir a l'anàlisi de dades en el ciclisme professional:"
+			],
+			"list": [
+				"Analitzador de dificultat UCI: mitjançant web scraping del rànquing UCI, situa els corredors de l'equip i estima el nivell de dificultat per sumar punts UCI segons la plantilla.",
+				"Predictor de perfil de cursa: anticipa les característiques de cada cursa i li assigna una nota de dificultat per planificar objectius i estratègia."
+			]
+		},
+		{
+			"title": "Projectes acadèmics i personals",
+			"meta": "Anàlisi, visualització i machine learning",
+			"paragraphs": [
+				"Treballs propis d'anàlisi de dades, visualització i machine learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Veure projectes"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Competició",
+			"paragraphs": [
+				"Campió d'Espanya de madison (18 anys); Mundial i Europeu de pista amb la Selecció Espanyola (6è en ambós); esportista d'elit; ciclista de pista federat, en actiu."
+			]
+		},
+		{
+			"title": "Direcció esportiva",
+			"paragraphs": [
+				"Director Esportiu Nivell I i II (RFEC); formació i seguiment de ciclistes de base (14–18) juntament amb el meu pare; auxiliar amb la Selecció de la Comunitat Valenciana en competicions (2026)."
+			]
+		},
+		{
+			"title": "Quiromassatge i staff tècnic",
+			"meta": "Estiu 2025",
+			"paragraphs": [
+				"Quiromassatgista titulat; massatgista de ciclistes professionals; staff amb la Selecció de la Comunitat Valenciana, amb un equip continental filipí i amb ciclistes a títol particular a Benidorm."
+			]
+		}
+	]
+}

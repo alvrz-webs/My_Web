@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Privatumo politika — Mario Álvarez",
+		"description": "Mario Álvarez svetainės privatumo politika: kokie duomenys renkami, kokiu tikslu ir kaip galite pasinaudoti savo teisėmis.",
+		"eyebrow": "Teisinė informacija",
+		"heading": "Privatumo politika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Duomenų valdytojas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, kurio gyvenamoji vieta yra Benidorm (Alikantė), Ispanija. Kontaktai: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Duomenų tvarkymo tikslas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ši svetainė viduje ir išimtinai statistiniais tikslais analizuoja, kuris turinys (skyriai, projektai) yra naudingiausias jos lankytojams, siekiant pagerinti jos turinį. Ji nenaudojama reklamos tikslais, nėra bendrinama su trečiosiomis šalimis ir jokiu būdu nėra parduodama."
+				}
+			]
+		},
+		{
+			"titulo": "3. Renkami duomenys (tik jei sutinkate su analitiniais slapukais)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Atsitiktinis anoniminis identifikatorius, nesusietas jūsų vardu, el. paštu ar jokia kita informacija, kuri jus tiesiogiai identifikuotų.",
+						"Puslapiai ir projektai, kuriuos lankote, bei dėmesio laikas kiekviename iš jų (kol skirtukas aktyvus).",
+						"Sąveikos (paspaudimai ant projektų, nuorodų ar mygtukų).",
+						"Apsilankymo data ir laikas.",
+						"Peržiūrėtos svetainės kalba.",
+						"Įrenginio tipas (mobilusis ar stalinis kompiuteris).",
+						"Apytikslė šalis, gaunama per Cloudflare infrastruktūrą, nesaugant jūsų IP adreso.",
+						"Kilmės puslapis (pavyzdžiui, LinkedIn arba paieškos sistema)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jūsų IP adresas nerenkamas, nenaudojami naršyklės identifikavimo būdai (pirštų atspaudų rinkimas) ir trečiųjų šalių įrankiai, tokie kaip Google Analytics ar panašūs."
+				}
+			]
+		},
+		{
+			"titulo": "4. Teisinis pagrindas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Duomenys tvarkomi remiantis jūsų aiškiu sutikimu (BDAR 6 straipsnio 1 dalies a punktas), kurį galite bet kada atšaukti svetainės slapukų tvarkytuvėje."
+				}
+			]
+		},
+		{
+			"titulo": "5. Saugojimo laikotarpis",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Duomenys saugomi ne ilgiau kaip 12 mėnesius nuo jūsų paskutinio apsilankymo, po kurio jie automatiškai ištrinami."
+				}
+			]
+		},
+		{
+			"titulo": "6. Duomenų gavėjai ir tarptautiniai perdavimai",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Duomenys nėra perduodami ar parduodami trečiosioms šalims. Jie saugomi Cloudflare D1 – duomenų bazės paslaugoje, kurią teikia Cloudflare, Inc., veikianti kaip duomenų tvarkytojas. Cloudflare gali tvarkyti duomenis už Europos ekonominės erdvės ribų; tokiu atveju toks perdavimas grindžiamas Europos Komisijos patvirtintomis standartinėmis sutartinėmis sąlygomis. Daugiau informacijos Cloudflare privatumo politikoje: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Jūsų teisės",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Galite bet kuriuo metu pasinaudoti savo teisėmis susipažinti, ištaisyti, ištrinti, nesutikti, apriboti tvarkuką ir perkeliamumą parašydami el. paštu malvmar5@hotmail.com. Be to, galite nedelsdami ištrinti savo duomenis, nereikalaudami kam nors rašyti, naudodami mygtuką \"Ištrinti my duomenis\", pateiktą svetainės slapukų nustatymuose. Taip pat turite teisę pateikti skundą Ispanijos duomenų apsaugos agentūrai (www.aepd.es), jei manote, kad jūsų teisės nebuvo tinkamai įgyvendintos."
+				}
+			]
+		},
+		{
+			"titulo": "8. Šios politikos pakeitimai",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ši politika gali būti atnaujinta siekiant pritaikyti prie teisinių ar pačios svetainės pakeitimų."
+				}
+			]
+		}
+	]
+}

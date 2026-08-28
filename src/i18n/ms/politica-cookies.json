@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Dasar Kuki — Mario Álvarez",
+		"description": "Kuki yang digunakan oleh laman web ini, tujuannya dan cara untuk menukar persetujuan anda pada bila-bila masa.",
+		"eyebrow": "Undang-undang",
+		"heading": "Dasar Kuki"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Laman web ini menggunakan kuki dan teknologi yang serupa (seperti storan tempatan pelayar) untuk pengoperasian yang betul dan, jika anda memberikan persetujuan, untuk menganalisis secara anonim cara kandungan digunakan."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Kuki yang digunakan:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nama",
+				"Tujuan",
+				"Jenis",
+				"Tempoh"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Mengingati pilihan anda mengenai dasar kuki ini",
+					"Sendiri, teknikal (dikecualikan daripada persetujuan)",
+					"12 bulan"
+				],
+				[
+					"visitante_id",
+					"Pengecam anonim untuk mengaitkan lawatan anda dan mengetahui kandungan yang berguna",
+					"Sendiri, analitikal (memerlukan persetujuan anda)",
+					"12 bulan"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Tiada satu pun kuki ini daripada pihak ketiga, tiada yang digunakan untuk tujuan pengiklanan, dan tiada yang dikongsi dengan sesiapa di luar laman web ini."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Anda boleh menukar keputusan anda atau menarik balik persetujuan anda pada bila-bila masa dari pautan \"Konfigurasikan kuki\" di footer, dan memadamkan semua data anda dengan serta-merta dengan butang \"Padam data saya\" di panel yang sama."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Untuk maklumat lanjut tentang cara data anda diproses, sila rujuk Dasar Privasi."
+		}
+	]
+}

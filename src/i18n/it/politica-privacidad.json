@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Informativa sulla privacy — Mario Álvarez",
+		"description": "Informativa sulla privacy del sito di Mario Álvarez: quali dati vengono raccolti, con quale finalità e come esercitare i tuoi diritti.",
+		"eyebrow": "Legale",
+		"heading": "Informativa sulla privacy"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Titolare del trattamento",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, con domicilio in Benidorm (Alicante), Spagna. Contatto: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Finalità del trattamento",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Questo sito web analizza internamente e per fini esclusivamente statistici quali contenuti (sezioni, progetti) risultano più utili a chi lo visita, con l'obiettivo di migliorarne il contenuto. Non viene utilizzato per fini pubblicitari, non viene condiviso con terzi e non viene venduto in nessuna circostanza."
+				}
+			]
+		},
+		{
+			"titulo": "3. Dati raccolti (solo se accetti i cookie analitici)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Un identificatore anonimo casuale, non collegato al tuo nome, email o a qualsiasi altra informazione che ti identifichi direttamente.",
+						"Pagine e progetti che visiti e il tempo di attenzione su ciascuno (mentre la scheda è attiva).",
+						"Interazioni (clic su progetti, link o pulsanti).",
+						"Data e ora della visita.",
+						"Lingua del sito consultato.",
+						"Tipo di dispositivo (dispositivo mobile o desktop).",
+						"Paese approssimativo, ottenuto tramite l'infrastruttura di Cloudflare, senza memorizzare il tuo indirizzo IP.",
+						"Pagina di provenienza (ad esempio, LinkedIn o un motore di ricerca)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Non viene raccolto il tuo indirizzo IP, non vengono utilizzate tecniche di identificazione del browser (fingerprinting) né strumenti di terze parti come Google Analytics o simili."
+				}
+			]
+		},
+		{
+			"titulo": "4. Base giuridica",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Il trattamento si basa sul tuo consenso esplicito (articolo 6.1.a del GDPR e articolo 22.2 della LSSI-CE), che puoi revocare in qualsiasi momento dal gestore dei cookie del sito stesso."
+				}
+			]
+		},
+		{
+			"titulo": "5. Periodo di conservazione",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I dati vengono conservati per un massimo di 12 mesi dalla tua ultima visita, trascorsi i quali vengono cancellati automaticamente."
+				}
+			]
+		},
+		{
+			"titulo": "6. Destinatari e trasferimenti internazionali",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I dati non vengono ceduti né venduti a terzi. Sono memorizzati in Cloudflare D1, un servizio di database fornito da Cloudflare, Inc., che agisce in qualità di responsabile del trattamento. Cloudflare può elaborare dati al di fuori dello Spazio Economico Europeo; in tal caso, tale trasferimento si basa sulle Clausole Contrattuali Standard approvate dalla Commissione Europea. Maggiori informazioni nell'informativa sulla privacy di Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. I tuoi diritti",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Puoi esercitare in qualsiasi momento i tuoi diritti di accesso, rettifica, cancellazione, opposizione, limitazione del trattamento e portabilità scrivendo a malvmar5@hotmail.com. Inoltre, puoi cancellare i tuoi dati immediatamente, senza bisogno di scrivere a nessuno, dal pulsante \"Cancella i miei dati\" disponibile nelle impostazioni dei cookie del sito. Hai anche il diritto di presentare un reclamo all'Agenzia Spagnola per la Protezione dei Dati (www.aepd.es) se ritieni che i tuoi diritti non siano stati gestiti correttamente."
+				}
+			]
+		},
+		{
+			"titulo": "8. Modifiche a questa informativa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Questa informativa può essere aggiornata per adattarsi a modifiche legali o del sito stesso."
+				}
+			]
+		}
+	]
+}

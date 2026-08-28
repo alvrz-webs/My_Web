@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "درباره من",
+		"proyectos": "پروژه‌ها",
+		"experiencia": "تجربیات",
+		"contacto": "تماس",
+		"ariaMain": "ناوبری اصلی",
+		"openMenu": "باز کردن منو"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "شبکه‌های اجتماعی"
+	},
+	"langSwitch": {
+		"label": "تغییر زبان",
+		"traducir": "تغییر زبان",
+		"buscar": "جستجوی زبان..."
+	},
+	"cookies": {
+		"texto": "ما از کوکی‌های خودمان برای تحلیل ناشناس و بهبود تجربه شما استفاده می‌کنیم. ما از کوکی‌های شخص ثالث استفاده نمی‌کنیم.",
+		"politica": "سیاست کوکی‌ها",
+		"aceptar": "پذیرش",
+		"rechazar": "رد کردن",
+		"configurar": "تنظیمات کوکی‌ها",
+		"borrarDatos": "پاک کردن داده‌های من",
+		"ariaBanner": "رضایت کوکی‌ها"
+	},
+	"legal": {
+		"privacidad": "سیاست حفظ حریم خصوصی",
+		"cookies": "سیاست کوکی‌ها"
+	},
+	"person": {
+		"jobTitle": "دانشمند داده",
+		"description": "دانشمند داده متخصص در تحلیل ورزشی، با تجربه در دوچرخه‌سواری حرفه‌ای."
+	}
+}

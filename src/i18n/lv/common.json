@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Par mani",
+		"proyectos": "Projekti",
+		"experiencia": "Pieredze",
+		"contacto": "Kontakti",
+		"ariaMain": "Galvenā navigācija",
+		"openMenu": "Atvērt izvēlni"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Sociālie tīkli"
+	},
+	"langSwitch": {
+		"label": "Mainīt valodu",
+		"traducir": "Mainīt valodu",
+		"buscar": "Meklēt valodu…"
+	},
+	"cookies": {
+		"texto": "Mēs izmantojam savas sīkdatnes anonīmai analītikai un jūsu pieredzes uzlabošanai. Mēs neizmantojam trešo pušu sīkdatnes.",
+		"politica": "Sīkdatņu politika",
+		"aceptar": "Pieņemt",
+		"rechazar": "Noraidīt",
+		"configurar": "Konfigurēt sīkdatnes",
+		"borrarDatos": "Dzēst manus datus",
+		"ariaBanner": "Sīkdatņu piekrišana"
+	},
+	"legal": {
+		"privacidad": "Konfidencialitātes politika",
+		"cookies": "Sīkdatņu politika"
+	},
+	"person": {
+		"jobTitle": "Datu zinātnieks",
+		"description": "Datu zinātnieks, kas specializējas sporta analītikā un kuram ir pieredze profesionālajā riteņbraukšanā."
+	}
+}

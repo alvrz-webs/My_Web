@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Sīkdatņu politika — Mario Álvarez",
+		"description": "Kādas sīkdatnes šī vietne izmanto, kādam nolūkam un kā jebkurā laikā mainīt savu piekrišanu.",
+		"eyebrow": "Juridiskā informācija",
+		"heading": "Sīkdatņu politika"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Šī vietne izmanto sīkdatnes un līdzīgas tehnoloģijas (piemēram, pārlūkprogrammas vietējo krātuvi), lai nodrošinātu tās pareizu darbību un, ja jūs sniedzat savu piekrišanu, lai anonīmi analizētu, kā tiek izmantots saturs."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Izmantotās sīkdatnes:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nosaukums",
+				"Nolūks",
+				"Veids",
+				"Ilgums"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Atcerēties jūsu izvēli par šo sīkdatņu politiku",
+					"Paša, tehniska (atbrīvota no piekrišanas)",
+					"12 mēneši"
+				],
+				[
+					"visitante_id",
+					"Anonīms identifikators, lai saistītu jūsu apmeklējumus un noskaidrotu, kurš saturs ir noderīgs",
+					"Paša, analītiska (nepieciešama jūsu piekrišana)",
+					"12 mēneši"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Neviena no šīm sīkdatnēm nav trešo pušu, neviena netiek izmantota reklāmas nolūkos, un neviena netiek kopīgota ar kādu ārpus šīs vietnes."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Jūs varat mainīt savu lēmumu vai atsaukt piekrišanu jebkurā laikā no saites \"Konfigurēt sīkdatnes\" lapas apakšdaļā un nekavējoties dzēst visus savus datus ar pogu \"Dzēst manus datus\" šajā pašā panelī."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Papildinformāciju par to, kā tiek apstrādāti jūsu dati, skatiet Privātuma politikā."
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Patirtis — Mario Álvarez",
+		"description": "Du pasauliai, viena kalba: našumas. Mario Álvarez patirtis duomenų ir inžinerijos bei elito dviračių sporto srityse.",
+		"eyebrow": "Patirtis",
+		"heading": "Du pasauliai, viena kalba: našumas",
+		"colDatos": "Duomenys ir technologija",
+		"colDeporte": "Elito sportas"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Duomenų mokslo praktikantas",
+			"meta": "Duomenų inžinerija · Benidormas · 2026",
+			"paragraphs": [
+				"SIME kuria valdymo programinę įrangą (rezervavimus, sąskaitų faktūrų išrašymą, ataskajas, maitinimo užsakymus), aptarnaujančią šimtus klientų iš centrinės sistemos, kurios pagrindą sudaro daugiau nei 580 tarpusavyje sujungtų lentelių ir daugiau nei 100 milijonų įrašų. Augimas privertė paskirstyti klientus keliose duomenų bazėse, kad būtų sumažinta apkrova ir lėtumo skundai.",
+				"Mano darbas: išanalizuoti šias duomenų bazes ir, optimizuojant užklausas bei indeksus, suprojektuoti visų duomenų sujungimą į vieną efektyvią duomenų bazę beveik nedidinant aparatūros resursų (RAM/CPU). Patobulinimas jau suprojektuotas, šiuo metu tikrinamas bandomajame serveryje."
+			]
+		},
+		{
+			"title": "Projektai su Cofidis komanda (World Tour)",
+			"meta": "Python · 2025 m. vasara",
+			"paragraphs": [
+				"Asmeninis projektas, kurį sukūriau kaip testą norėdamas patekti į profesionalaus dviračių sporto duomenų analizę:"
+			],
+			"list": [
+				"UCI sudėtingumo analizatorius: per web scraping iš UCI reitingo nustato komandos lenktynininkus ir įvertina sunkumo lygį UCI taškams rinkti pagal sudėtį.",
+				"Lenktynių profilio pranašautojas: numato kiekvienų lenktynių charakteristikas ir priskiria sunkumo balą, kad būtų galima planuoti tikslus bei strategiją."
+			]
+		},
+		{
+			"title": "Akademiniai ir asmeniniai projektai",
+			"meta": "Analizė, vizualizacija ir mašininis mokymasis",
+			"paragraphs": [
+				"Mano paties duomenų analizės, vizualizacijos ir mašininio mokymosi darbai."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Žiūrėti projektus"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Varžybos",
+			"paragraphs": [
+				"Ispanijos madisono čempionas (18 metų); Pasaulio ir Europos treko čempionatai su Ispanijos rinktine (6 vieta abiejuose); elito sportininkas; aktyvus federuotas treko dviratininkas."
+			]
+		},
+		{
+			"title": "Sportinė direkcija",
+			"paragraphs": [
+				"I ir II lygio sporto direktorius (RFEC); jaunųjų dviratininkų (14–18 m.) mokymas ir stebėsena kartu su tėčiu; Valensijos bendruomenės rinktinės asistentas varžybose (2026)."
+			]
+		},
+		{
+			"title": "Chiromasažas ir techninis personalas",
+			"meta": "2025 m. vasara",
+			"paragraphs": [
+				"Diplomuotas chiromasažuotojas; profesionalių dviratininkų masažuotojas; personalo narys Valensijos bendruomenės rinktinėje, Filipinų kontinentinėje komandoje ir dirbantis su individualiais dviratininkais Benidorme."
+			]
+		}
+	]
+}

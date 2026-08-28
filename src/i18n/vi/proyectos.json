@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Dự án — Mario Álvarez",
+		"description": "Các kho lưu trữ và dự án phân tích dữ liệu, trực quan hóa và học máy của Mario Álvarez.",
+		"eyebrow": "Dự án",
+		"heading": "Dự án",
+		"intro": "Tổng quan về công việc của tôi: từ các công cụ cho xe đạp chuyên nghiệp đến các dự án học thuật về phân tích và học máy."
+	},
+	"list": {
+		"eyebrow": "Công việc",
+		"title": "Dự án",
+		"intro": "Tuyển chọn tự động các kho lưu trữ công khai của tôi trên GitHub.",
+		"especializaciones": "Chuyên môn",
+		"fallbackDescripcion": "Dự án phân tích và khoa học dữ liệu.",
+		"verEnGithub": "Xem trên GitHub",
+		"vacio": "Không thể tải các kho lưu trữ vào lúc này.",
+		"filtroLabel": "Lọc dự án theo loại",
+		"filtroTodos": "Tất cả",
+		"filtroDatos": "Dữ liệu",
+		"filtroWebs": "Trang web",
+		"verWeb": "Xem trang web",
+		"verCodigo": "Xem mã nguồn",
+		"enDesarrollo": "Đang phát triển",
+		"fallbackDescripcionWeb": "Dự án web.",
+		"vacioWebs": "Chưa có trang web nào được xuất bản trong phần này."
+	}
+}

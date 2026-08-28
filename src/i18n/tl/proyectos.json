@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Mga Proyekto — Mario Álvarez",
+		"description": "Mga repositoryo at proyekto sa pagsusuri ng datos, visualization, at machine learning ni Mario Álvarez.",
+		"eyebrow": "Mga Proyekto",
+		"heading": "Mga Proyekto",
+		"intro": "Isang sulyap sa aking mga gawa: mula sa mga tool para sa propesyonal na pagbisikleta hanggang sa mga akademikong proyekto sa pagsusuri at machine learning."
+	},
+	"list": {
+		"eyebrow": "Gawa",
+		"title": "Mga Proyekto",
+		"intro": "Isang awtomatikong seleksyon ng aking mga pampublikong repositoryo sa GitHub.",
+		"especializaciones": "Mga Espesyalisasyon",
+		"fallbackDescripcion": "Proyekto sa pagsusuri at agham ng datos.",
+		"verEnGithub": "Tingnan sa GitHub",
+		"vacio": "Hindi na-load ang mga repositoryo sa ngayon.",
+		"filtroLabel": "I-filter ang mga proyekto ayon sa uri",
+		"filtroTodos": "Lahat",
+		"filtroDatos": "Datos",
+		"filtroWebs": "Mga Web",
+		"verWeb": "Tingnan ang web",
+		"verCodigo": "Tingnan ang code",
+		"enDesarrollo": "Ginagawa pa",
+		"fallbackDescripcionWeb": "Proyekto sa web.",
+		"vacioWebs": "Wala pang na-publish na web sa seksyong ito."
+	}
+}

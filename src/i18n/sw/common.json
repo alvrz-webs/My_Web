@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Kuhusu mimi",
+		"proyectos": "Miradi",
+		"experiencia": "Uzoefu",
+		"contacto": "Mawasiliano",
+		"ariaMain": "Urambazaji mkuu",
+		"openMenu": "Fungua menyu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Mitandao ya kijamii"
+	},
+	"langSwitch": {
+		"label": "Badilisha lugha",
+		"traducir": "Badilisha lugha",
+		"buscar": "Tafuta lugha…"
+	},
+	"cookies": {
+		"texto": "Tunatumia vidakuzi vyetu wenyewe kwa uchanganuzi wa siri na kuboresha uzoefu wako. Hatutumii vidakuzi vya watu wengine.",
+		"politica": "Sera ya vidakuzi",
+		"aceptar": "Kubali",
+		"rechazar": "Kataa",
+		"configurar": "Sanidi vidakuzi",
+		"borrarDatos": "Futa data yangu",
+		"ariaBanner": "Idhini ya vidakuzi"
+	},
+	"legal": {
+		"privacidad": "Sera ya faragha",
+		"cookies": "Sera ya vidakuzi"
+	},
+	"person": {
+		"jobTitle": "Mwanasayansi wa data",
+		"description": "Mwanasayansi wa data aliobobea katika uchanganuzi wa michezo, mwenye uzoefu katika baiskeli ya kulipwa."
+	}
+}

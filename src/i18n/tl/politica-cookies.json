@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Patakaran sa Cookies — Mario Álvarez",
+		"description": "Anong mga cookie ang ginagamit ng site na ito, para sa aling layunin at paano baguhin ang iyong pahintulot sa anumang oras.",
+		"eyebrow": "Legal",
+		"heading": "Patakaran sa Cookies"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Ang website na ito ay gumagamit ng mga cookie at katulad na teknolohiya (tulad ng local storage ng browser) para sa wastong paggana nito at, kung ibibigay mo ang iyong pahintulot, upang suriin nang hindi nagpapakilala kung paano ginagamit ang nilalaman."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Mga ginamit na cookie:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Pangalan",
+				"Layunin",
+				"Uri",
+				"Tagal"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Tandaan ang iyong pinili tungkol sa patakaran ng cookie na ito",
+					"Sarili, teknikal (exempt sa pahintulot)",
+					"12 buwan"
+				],
+				[
+					"visitante_id",
+					"Hindi nagpapakilalang identifier upang maiugnay ang iyong mga pagbisita at malaman kung aling nilalaman ang kapaki-pakinabang",
+					"Sarili, analytika (nangangailangan ng iyong pahintulot)",
+					"12 buwan"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Wala sa mga cookie na ito ang mula sa third-party, wala sa mga ito ang ginagamit para sa mga layunin ng advertising, at wala sa mga ito ang ibinabahagi sa sinuman sa labas ng site na ito."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Maaari mong baguhin ang iyong desisyon o bawiin ang iyong pahintulot sa anumang oras mula sa link na \"I-configure ang mga cookie\" sa footer, at agad na burahin ang lahat ng iyong data gamit ang button na \"Burahin ang aking data\" sa parehong panel."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Para sa karagdagang impormasyon tungkol sa kung paano pinoproseso ang iyong data, tingnan ang Patakaran sa Pagkapribado."
+		}
+	]
+}

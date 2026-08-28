@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Slapukų politika — Mario Álvarez",
+		"description": "Kokius slapukus naudoja ši svetainė, kokiu tikslu ir kaip bet kada pakeisti savo sutikimą.",
+		"eyebrow": "Teisinė informacija",
+		"heading": "Slapukų politika"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Šioje svetainėje naudojami slapukai ir panašios technologijos (pavyzdžiui, naršyklės vietinė atmintis), užtikrinantys tinkamą jos veikimą, o jums sutikus – anonymiškai analizuojantys, kaip naudojamas turinys."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Naudojami slapukai:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Pavadinimas",
+				"Tikslas",
+				"Tipas",
+				"Trukmė"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Prisiminti jūsų pasirinkimą dėl šios slapukų politikos",
+					"Savas, techninis (nereikalaujantis sutikimo)",
+					"12 mėnesių"
+				],
+				[
+					"visitante_id",
+					"Anoniminis identifikatorius jūsų apsilankymams susieti ir sužinoti, kuris turinys yra naudingas",
+					"Savas, analitinis (reikalaujantis jūsų sutikimo)",
+					"12 mėnesių"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Joks iš šių slapukų nėra trečiųjų šalių, nenaudojamas reklamos tikslais ir nėra bendrinamas su jokiu asmeniu už šios svetainės ribų."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Galite bet kada pakeisti savo sprendimą arba atšaukti sutikimą naudodamiesi nuoroda \"Konfigūruoti slapukus\" puslapio apačioje ir nedelsdami ištrinti visus savo duomenis paspausdami mygtuką \"Ištrinti mano duomenis\" tame pačiame skydelyje."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Daugiau informacijos apie tai, kaip tvarkomi jūsų duomenys, rasite Privatumo politikoje."
+		}
+	]
+}

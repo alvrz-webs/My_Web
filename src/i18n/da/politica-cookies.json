@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Cookiepolitik — Mario Álvarez",
+		"description": "Hvilke cookies dette websted bruger, til hvilke formål og hvordan du til enhver tid kan ændre dit samtykke.",
+		"eyebrow": "Juridisk",
+		"heading": "Cookiepolitik"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Dette websted bruger cookies og lignende teknologier (såsom lokal lagring i browseren) til at fungere korrekt og, hvis du giver dit samtykke, til anonymt at analysere, hvordan indholdet bruges."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Anvendte cookies:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Navn",
+				"Formål",
+				"Type",
+				"Varighed"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Husk dit valg vedrørende denne cookiepolitik",
+					"Egnet, teknisk (fritaget for samtykke)",
+					"12 måneder"
+				],
+				[
+					"visitante_id",
+					"Anonym identifikator til at kæde dine besøg sammen og se, hvilket indhold der er nyttigt",
+					"Egnet, analytisk (kræver dit samtykke)",
+					"12 måneder"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Ingen af disse cookies er fra tredjeparter, ingen bruges til reklameformål, og ingen deles med nogen uden for dette websted."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Du kan ændre din beslutning eller trække dit samtykke tilbage når som helst via linket \"Konfigurer cookies\" i sidefoden og straks slette alle dine data med knappen \"Slet mine data\" i det samme panel."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "For mere information om, hvordan dine data behandles, kan du se Privatlivspolitikken."
+		}
+	]
+}

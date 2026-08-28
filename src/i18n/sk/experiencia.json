@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Skúsenosti — Mario Álvarez",
+		"description": "Dva sveta, jeden jazyk: výkon. Skúsenosti Maria Álvareza v oblasti dát a inžinierstva a v elitnej cyklistike.",
+		"eyebrow": "Skúsenosti",
+		"heading": "Dva sveta, jeden jazyk: výkon",
+		"colDatos": "Dáta & Technológie",
+		"colDeporte": "Elitný šport"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Stáž v oblasti dátovej vedy",
+			"meta": "Dátové inžinierstvo · Benidorm · 2026",
+			"paragraphs": [
+				"SIME vyvíja manažérsky softvér (rezervácie, fakturácia, správy, objednávky v gastronómii), ktorý slúži stovkám klientov z centrálneho systému nad databázou s viac ako 580 prepojenými tabuľkami a viac ako 100 miliónmi záznamov. Rast prinútil rozdeliť klientov do viacerých databáz, aby sa odľahčila záťaž a vyriešili sťažnosti na pomalosť.",
+				"Moja práca: analyzovať tieto databázy a prostredníctvom optimalizácie dopytov a indexov navrhnúť zjednotenie všetkých dát do jedinej efektivnej databázy bez takmer akéhokoľvek navýšenia hardvéru (RAM/CPU). Vylepšenie už bolo vyvinuté, vo fáze overovania na testovacom serveri."
+			]
+		},
+		{
+			"title": "Projekty s tímom Cofidis (World Tour)",
+			"meta": "Python · Leto 2025",
+			"paragraphs": [
+				"Vlastný projekt, ktorý som vytvoril ako test pre prístup k analýze dát v profesionálnej cyklistike:"
+			],
+			"list": [
+				"Analyzátor obtiažnosti UCI: pomocou web scrapingu rebríčka UCI zaraďuje jazdcov tímu a odhaduje úroveň obtiažnosti získavania bodov UCI na základe súpisky.",
+				"Prediktor profilu pretekov: predvída charakteristiky každých pretekov a priraďuje im známku obtiažnosti na plánovanie cieľov a stratégie."
+			]
+		},
+		{
+			"title": "Akademické a osobné projekty",
+			"meta": "Analýza, vizualizácia a machine learning",
+			"paragraphs": [
+				"Vlastné práce v oblasti analýzy dát, vizualizácie a machine learningu."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Zobraziť projekty"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Súťaž",
+			"paragraphs": [
+				"Majster Španielska v madisone (18 rokov); Majstrovstvá sveta a Európy na dráhe so španielskou reprezentáciou (6. miesto na oboch); elitný športovec; federovaný, aktívny dráhový cyklista."
+			]
+		},
+		{
+			"title": "Športové riadenie",
+			"paragraphs": [
+				"Športový riaditeľ I. a II. stupňa (RFEC); vzdelávanie a sledovanie mládežníckych cyklistov (14–18) spolu s mojím otcom; asistent reprezentácie Valencijskej the  komunity na pretekoch (2026)."
+			]
+		},
+		{
+			"title": "Športová masáž a technický personál",
+			"meta": "Leto 2025",
+			"paragraphs": [
+				"Kvalifikovaný športový masér; masér profesionálnych cyklistov; člen personálu reprezentácie Valencijskej komunity, filipínskeho kontinentálneho tímu a individuálnych cyklistov v Benidorme."
+			]
+		}
+	]
+}

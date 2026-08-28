@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Data Scientist na dalubhasa sa palakasan",
+		"description": "Mario Álvarez, data scientist sa Valencia na dalubhasa sa sports analytics. Data · Sport · Progress.",
+		"verProyectos": "Tingnan ang mga proyekto",
+		"contacto": "Makipag-ugnayan",
+		"verMas": "Tingnan pa",
+		"verTodosProyectos": "Tingnan ang lahat ng proyekto",
+		"irAContacto": "Pumunta sa pakikipag-ugnayan",
+		"herramientas": "Mga pangunahing tool"
+	},
+	"hero": {
+		"eyebrow": "Data Scientist · Sports Analytics · Valencia",
+		"titlePre": "Ginagawa ko ang data bilang ",
+		"titleHighlight": "malinaw na mga desisyon",
+		"subtitle": "Ako ang tulay sa pagitan ng pagsusuri ng data at ng elite na palakasan: isinasalin ko ang mga sukatan ng pagganap sa mga estratehiya na gumagawa ng pagkakaiba sa larangan.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Tungkol sa akin",
+		"title": "Data na may konteksto ng track, kalsada at kumpetisyon",
+		"text": "Ako si Mario Álvarez, mag-aaral ng Data Science sa UPV na may tunay na karanasan sa loob ng propesyonal na pagbibisikleta. Pinagsasama ko ang pagsusuri ng data sa elite na pagganap sa palakasan, upang gawing bawat sukatan ang isang desisyon na nagpapabuti ng mga resulta."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Edukasyon",
+			"detail": "Bachelor sa Data Science, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elite",
+			"label": "Karanasan",
+			"detail": "Tunay na trabaho sa loob ng isang propesyonal na koponan ng pagbibisikleta."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pokus",
+			"detail": "Analytics na inilapat sa pagpapabuti ng pagganap sa palakasan."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Karanasan",
+		"title": "Dalawang mundo, iisang wika: ang pagganap",
+		"text": "Nakipagkumpitensya ako sa pinakamataas na antas at ngayon ay inilalapat ko ang parehong pamantayan na iyon sa data: naiintindihan ko kung ano ang ibig sabihin ng isang numero para sa isang atleta dahil ako ang atletang iyon."
+	},
+	"ctaFinal": {
+		"title": "Pag-usapan natin ang tungkol sa data?",
+		"text": "Ikwento sa akin ang iyong proyekto at magkasama naming hahanapin kung nasaan ang mga desisyon na nagpapabuti sa pagganap."
+	}
+}

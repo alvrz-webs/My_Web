@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Política de Cookies — Mario Álvarez",
+		"description": "Que cookies este site utiliza, com que finalidade e como alterar o seu consentimento a qualquer momento.",
+		"eyebrow": "Legal",
+		"heading": "Política de Cookies"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Este site utiliza cookies e tecnologias semelhantes (como o armazenamento local do navegador) para o seu correto funcionamento e, se deres o teu consentimento, para analisar de forma anónima como o conteúdo é utilizado."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Cookies utilizadas:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nome",
+				"Finalidade",
+				"Tipo",
+				"Duração"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Lembrar a tua escolha sobre esta política de cookies",
+					"Própria, técnica (isenta de consentimento)",
+					"12 meses"
+				],
+				[
+					"visitante_id",
+					"Identificador anónimo para relacionar as tuas visitas e saber que conteúdo resulta útil",
+					"Própria, analítica (requer o teu consentimento)",
+					"12 meses"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Nenhum destes cookies é de terceiros, nenhum é utilizado para fins publicitários e nenhum é partilhado com ninguém fora deste site."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Podes alterar a tua decisão ou retirar o teu consentimento a qualquer momento através do link \"Configurar cookies\" no rodapé, e apagar de imediato todos os teus dados com o botão \"Apagar os meus dados\" nesse mesmo painel."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Para mais informações sobre como os teus dados são tratados, consulta a Política de Privacidade."
+		}
+	]
+}

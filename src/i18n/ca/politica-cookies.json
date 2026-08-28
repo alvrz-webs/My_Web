@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Política de galetes — Mario Álvarez",
+		"description": "Quines galetes utilitza aquest lloc, amb quina finalitat i com canviar el teu consentiment en qualsevol moment.",
+		"eyebrow": "Legal",
+		"heading": "Política de galetes"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Aquest web utilitza galetes i tecnologies similars (com l'emmagatzematge local del navegador) per al seu funcionament correcte i, si dones el teu consentiment, per analitzar de manera anònima com s'utilitza el contingut."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Galetes utilitzades:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nom",
+				"Finalitat",
+				"Tipus",
+				"Durada"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Recordar la teva elecció sobre aquesta política de galetes",
+					"Pròpia, tècnica (exenta de consentiment)",
+					"12 mesos"
+				],
+				[
+					"visitante_id",
+					"Identificador anònim per relacionar les teues visites i saber quin contingut resulta útil",
+					"Pròpia, analítica (requereix el teu consentiment)",
+					"12 mesos"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Cap d'estes galetes és de tercers, cap s'utilitza amb finalitats publicitàries, i cap es compartix amb ningú fora d'este lloc."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Pots canviar la teua decisió o retirar el teu consentiment en qualsevol moment des de l'enllaç \"Configurar galetes\" al peu de pàgina, i esborrar de manera immediata totes les teues dades amb el botó \"Esborrar les meues dades\" en eixe mateix panell."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Per a més informació sobre com es tracten les teues dades, consulta la Política de Privacitat."
+		}
+	]
+}

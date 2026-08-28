@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Privatlivspolitik — Mario Álvarez",
+		"description": "Mario Álvarezes websteds privatlivspolitik: hvilke data der indsamles, til hvilket formål, og hvordan du udøver dine rettigheder.",
+		"eyebrow": "Juridisk",
+		"heading": "Privatlivspolitik"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Dataansvarlig",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, med adresse i Benidorm (Alicante), Spanien. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Formål med behandlingen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dette websted analyserer internt og udelukkende til statistiske formål, hvilket indhold (sektioner, projekter) der er mest nyttigt for dem, der besøger det, med det formål at forbedre dets indhold. Det bruges ikke til reklameformål, deles ikke med tredjeparter og sælges ikke under nogen omstændigheder."
+				}
+			]
+		},
+		{
+			"titulo": "3. Data der indsamles (kun hvis du accepterer analytiske cookies)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"En tilfældig anonym identifikator, som ikke er knyttet til dit navn, din e-mail eller andre oplysninger, der identificerer dig direkte.",
+						"Sider og projekter, du besøger, og den tid, du bruger på hvert enkelt (mens fanen er aktiv).",
+						"Interaktioner (klik på projekter, links eller knapper).",
+						"Dato og klokkeslæt for besøget.",
+						"Sprog for det besøgte websted.",
+						"Enhedstype (mobil eller computer).",
+						"Omtrentligt land, opnået via Cloudfarers infrastruktur, uden lagring af din IP-adresse.",
+						"Henvisningsside (for eksempel LinkedIn eller en søgemaskine)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Din IP-adresse indsamles ikke, der anvendes ikke browser-fingerprinting-teknikker, og der bruges ikke tredjepartsværktøjer som Google Analytics eller lignende."
+				}
+			]
+		},
+		{
+			"titulo": "4. Retsgrundlag",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Behandlingen er baseret på dit udtrykkelige samtykke (artikel 6, stk. 1, litra a, i GDPR og artikel 22, stk. 2, i LSSI-CE), som du til enhver tid kan trække tilbage via webstedets egen cookie-manager."
+				}
+			]
+		},
+		{
+			"titulo": "5. Opbevaringsperiode",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data opbevares i højst 12 måneder fra dit sidst besøg, hvorefter de slettes automatisk."
+				}
+			]
+		},
+		{
+			"titulo": "6. Modtagere og internationale overførsler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data overdrages eller sælges ikke til tredjeparter. De gemmes i Cloudflare D1, en databasetjeneste leveret af Cloudflare, Inc., der fungerer som databehandler. Cloudflare kan behandle data uden for Det Europæiske Økonomiske Samarbejdsområde; i så fald er en sådan overførsel dækket af EU-Kommissionens godkendte standardkontraktbestemmelser. Flere oplysninger i Cloudfarers privatlivspolitik: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Dine rettigheder",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kan til enhver tid udøve dine rettigheder til indsigt, berigtigelse, sletning, indsigelse, begrænsning af behandling og dataportabilitet ved at skrive til malvmar5@hotmail.com. Derudover kan du slette dine data med det samme uden at skulle skrive til nogen via knappen \"Slet mine data\", der er tilgængelig i webstedets cookie-indstillinger. Du har også ret til at indgive en klage til den spanske databeskyttelsesmyndighed (www.aepd.es), hvis du mener, at dine rettigheder ikke er blevet behandlet korrekt."
+				}
+			]
+		},
+		{
+			"titulo": "8. Ændringer til denne politik",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Denne politik kan opdateres for at tilpasse sig lovændringer eller ændringer på selve webstedet."
+				}
+			]
+		}
+	]
+}

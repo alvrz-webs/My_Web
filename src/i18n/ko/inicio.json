@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "마리오 알바레스 — 스포츠 전문 데이터 과학자",
+		"description": "마리오 알바레스, 스포츠 분석을 전문으로 하는 발렌시아의 데이터 과학자입니다. 데이터 · 스포츠 · 발전.",
+		"verProyectos": "프로젝트 보기",
+		"contacto": "연락처",
+		"verMas": "더 보기",
+		"verTodosProyectos": "모든 프로젝트 보기",
+		"irAContacto": "연락처로 이동",
+		"herramientas": "주요 도구"
+	},
+	"hero": {
+		"eyebrow": "데이터 과학 · 스포츠 분석 · 발렌시아",
+		"titlePre": "데이터를 ",
+		"titleHighlight": "명확한 결정으로 바꿉니다",
+		"subtitle": "저는 데이터 분석과 엘리트 스포츠 사이의 다리입니다. 성과 지표를 경기장에서 차이를 만드는 전략으로 바꿉니다.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "소개",
+		"title": "트랙, 도로, 대회 맥락이 담긴 데이터",
+		"text": "저는 UPV에서 데이터 과학을 공부하고 프로 사이클링 팀에서 실제 경험을 쌓은 마리오 알바레스입니다. 데이터 분석과 엘리트 스포츠 성과를 결합하여 모든 지표를 결과를 개선하는 결정으로 바꿉니다."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "학력",
+			"detail": "발렌시아 공과대학교(Universitat Politècnica de València) 데이터 과학 학사."
+		},
+		{
+			"value": "엘리트",
+			"label": "경력",
+			"detail": "프로 사이클링 팀에서의 실무 경험."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "접근 방식",
+			"detail": "스포츠 성과 향상에 적용된 분석."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "경력",
+		"title": "두 개의 세계, 하나의 언어: 성과",
+		"text": "최고 수준에서 경쟁했으며, 오늘날 데이터에도 그 기준을 적용합니다. 숫자가 운동선수에게 의미하는 바를 이해합니다. 제가 바로 그 운동선수였기 때문입니다."
+	},
+	"ctaFinal": {
+		"title": "데이터에 대해 이야기해 볼까요?",
+		"text": "프로젝트를 말씀해 주시면 성과를 향상시키는 결정을 내릴 수 있는 곳을 함께 찾아보겠습니다."
+	}
+}

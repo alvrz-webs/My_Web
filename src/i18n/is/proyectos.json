@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Verkefni — Mario Álvarez",
+		"description": "Gagnagreiningar-, sjónræni- og vélnámsverkefni og geymslur eftir Mario Álvarez.",
+		"eyebrow": "Verkefni",
+		"heading": "Verkefni",
+		"intro": "Yfirlit yfir vinnuna mína: allt frá verkfærum fyrir atvinnuhjólreiðar til fræðilegra greiningar- og vélnámsverkefna."
+	},
+	"list": {
+		"eyebrow": "Vinna",
+		"title": "Verkefni",
+		"intro": "Sjálfvirkt val á opnum geymslum mínum á GitHub.",
+		"especializaciones": "Sérsvið",
+		"fallbackDescripcion": "Gagna- og vísindagreiningarverkefni.",
+		"verEnGithub": "Sjá á GitHub",
+		"vacio": "Ekki tókst að hlaða inn geymslum í bili.",
+		"filtroLabel": "Sía verkefni eftir tegund",
+		"filtroTodos": "Öll",
+		"filtroDatos": "Gögn",
+		"filtroWebs": "Vefsvæði",
+		"verWeb": "Sjá vef",
+		"verCodigo": "Sjá kóða",
+		"enDesarrollo": "Í þróun",
+		"fallbackDescripcionWeb": "Vefverkefni.",
+		"vacioWebs": "Engin vefsvæði hafa verið birt í þessum hluta enn sem komið er."
+	}
+}

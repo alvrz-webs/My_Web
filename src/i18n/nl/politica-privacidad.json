@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Privacybeleid — Mario Álvarez",
+		"description": "Privacybeleid van de website van Mario Álvarez: welke gegevens worden verzameld, met welk doel en hoe je je rechten kunt uitoefenen.",
+		"eyebrow": "Juridisch",
+		"heading": "Privacybeleid"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Verantwoordelijke voor de verwerking",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, met adres in Benidorm (Alicante), Spanje. Contact: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Doel van de verwerking",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Deze website analyseert intern en uitsluitend voor statistische doeleinden welke inhoud (secties, projecten) het meest nuttig is voor bezoekers, met als doel de inhoud te verbeteren. Het wordt niet gebruikt voor reclamedoeleinden, niet gedeeld met derden en onder geen enkele beding verkocht."
+				}
+			]
+		},
+		{
+			"titulo": "3. Verzamelde gegevens (alleen als je analytische cookies accepteert)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Een willekeurige anonieme identificator, niet gekoppeld aan je naam, e-mailadres of andere informatie die je direct identificeert.",
+						"Pagina's en projecten die je bezoekt, en de tijd besteed aan elk daarvan (terwijl het tabblad actief is).",
+						"Interacties (klikken op projecten, links of knoppen).",
+						"Datum en tijd van het bezoek.",
+						"Taal van de geraadpleegde site.",
+						"Apparaattype (mobiel of desktop).",
+						"Geschat land, verkregen via de infrastructuur van Cloudflare, zonder je IP-adres op te slaan.",
+						"Herkomstpagina (bijvoorbeeld LinkedIn of een zoekmachine)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Je IP-adres wordt niet verzameld, er worden geen technieken voor browseridentificatie (fingerprinting) gebruikt en er worden geen tools van derden zoals Google Analytics of vergelijkbare diensten gebruikt."
+				}
+			]
+		},
+		{
+			"titulo": "4. Wettelijke grondslag",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "De verwerking is gebaseerd op je uitdrukkelijke toestemming (artikel 6.1.a van de AVG en artikel 22.2 van de LSSI-CE), die je op elk moment kunt intrekken via de cookiebeheerder van de website zelf."
+				}
+			]
+		},
+		{
+			"titulo": "5. Bewaartermijn",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gegevens worden maximaal 12 maanden bewaard vanaf je laatste bezoek, waarna ze automatisch worden verwijderd."
+				}
+			]
+		},
+		{
+			"titulo": "6. Ontvangers en internationale doorgiften",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gegevens worden niet doorgegeven of verkocht aan derden. Ze worden opgeslagen in Cloudflare D1, een databasedienst geleverd door Cloudflare, Inc., die optreedt als verwerker. Cloudflare kan gegevens verwerken buiten de Europese Economische Ruimte; in dat geval is een dergelijke doorgifte gebaseerd op de door de Europese Commissie goedgekeurde standaardcontractbepalingen. Meer informatie in het privacybeleid van Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Jouw rechten",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Je kunt op elk moment je rechten op inzage, rectificatie, verwijdering, bezwaar, beperking van de verwerking en overdraagbaarheid uitoefenen door te schrijven naar malvmar5@hotmail.com. Daarnaast kun je je gegevens direct wissen, zonder dat je iemand hoeft te schrijven, via de knop \"Mijn gegevens wissen\" die beschikbaar is in de cookie-instellingen van de site. Je hebt ook het recht om een klacht in te dienen bij de Spaanse gegevensbeschermingsautoriteit (www.aepd.es) als je van mening bent dat je rechten niet correct zijn behandeld."
+				}
+			]
+		},
+		{
+			"titulo": "8. Wijzigingen in dit beleid",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dit beleid kan worden bijgewerkt om zich aan te passen aan wettelijke wijzigingen of veranderingen op de site zelf."
+				}
+			]
+		}
+	]
+}

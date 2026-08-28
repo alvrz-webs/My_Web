@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Politica de confidențialitate — Mario Álvarez",
+		"description": "Politica de confidențialitate a site-ului lui Mario Álvarez: ce date sunt colectate, în ce scop și cum vă puteți exercita drepturile.",
+		"eyebrow": "Legal",
+		"heading": "Politica de Confidențialitate"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Operatorul de date",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, cu domiciliul în Benidorm (Alicante), Spania. Contact: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Scopul prelucrării",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Acest site web analizează intern și în exclusivitate în scopuri statistice ce conținuturi (secțiuni, proiecte) sunt cele mai utile vizitatorilor săi, cu scopul de a îmbunătăți conținutul acestuia. Nu este utilizat în scopuri publicitare, nu este partajat cu terți și nu este vândut în nicio circumstanță."
+				}
+			]
+		},
+		{
+			"titulo": "3. Date colectate (numai dacă acceptați cookie-urile analitice)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Un identificator anonim aleatoriu, care nu este legat de numele dvs., adresa de e-mail sau orice alte informații care vă identifică direct.",
+						"Paginile și proiectele pe care le vizitați și timpul petrecut pe fiecare în parte (cât timp fila este activă).",
+						"Interacțiuni (clicuri pe proiecte, linkuri sau butoane).",
+						"Data și ora vizitei.",
+						"Limba site-ului consultat.",
+						"Tipul de dispozitiv (mobil sau desktop).",
+						"Țara aproximativă, obținută prin infrastructura Cloudflare, fără a stoca adresa IP.",
+						"Pagina de proveniență (de exemplu, LinkedIn sau un motor de căutare)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Adresa dvs. IP nu este colectată, nu sunt utilizate tehnici de identificare a browserului (fingerprinting) și nici instrumente terțe precum Google Analytics sau similare."
+				}
+			]
+		},
+		{
+			"titulo": "4. Temeiul juridic",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Prelucrarea se bazează pe consimțământul dvs. explicit (articolul 6.1.a din RGPD și articolul 22.2 din LSSI-CE), pe care îl puteți retrage în orice moment din managerul de cookie-uri al site-ului în sine."
+				}
+			]
+		},
+		{
+			"titulo": "5. Perioada de păstrare",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Datele sunt păstrate maximum 12 luni de la ultima dvs. vizită, după care sunt șterse automat."
+				}
+			]
+		},
+		{
+			"titulo": "6. Destinatari și transferuri internaționale",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Datele nu sunt cedate sau vândute terților. Ele sunt stocate în Cloudflare D1, un serviciu de baze de date furnizat de Cloudflare, Inc., care acționează în calitate de persoană împuternicită de operator. Cloudflare poate procesa date în afara Spațiului Economic European; în acest caz, un astfel de transfer se bazează the Clauzele Contractuale Standard aprobate de Comisia Europeană. Mai multe informații în politica de confidențialitate Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Drepturile dumneavoastră",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vă puteți exercita oricând drepturile de acces, rectificare, ștergere, opoziție, restricționare a prelucrării și portabilitate scriind la malvmar5@hotmail.com. În plus, vă puteți șterge datele imediat, fără a fi nevoie să scrieți nimănui, de pe butonul „Șterge datele mele” disponibil în setările de cookie-uri ale site-ului. De asemenea, aveți dreptul de a depune o plângere la Agenția Spaniolă pentru Protecția Datelor (www.aepd.es) dacă considerați că drepturile dvs. nu au fost respectate în mod corespunzător."
+				}
+			]
+		},
+		{
+			"titulo": "8. Modificări ale acestei politici",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Această politică poate fi actualizată pentru a se adapta la modificările legislative sau ale site-ului în sine."
+				}
+			]
+		}
+	]
+}

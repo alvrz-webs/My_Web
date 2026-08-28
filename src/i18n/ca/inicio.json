@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Científic de dades especialitzat en esport",
+		"description": "Mario Álvarez, científic de dades a València especialitzat en analítica esportiva. Data · Sport · Progress.",
+		"verProyectos": "Veure projectes",
+		"contacto": "Contacte",
+		"verMas": "Veure més",
+		"verTodosProyectos": "Veure tots els projectes",
+		"irAContacto": "Anar a contacte",
+		"herramientas": "Eines principals"
+	},
+	"hero": {
+		"eyebrow": "Científic de dades · Analítica esportiva · València",
+		"titlePre": "Converteixo dades en ",
+		"titleHighlight": "decisions clars",
+		"subtitle": "Soc el pont entre l'anàlisi de dades i l'esport d'elit: transformo mètriques de rendiment en estratègies que marquen la diferència sobre el terreny.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Sobre mi",
+		"title": "Dades amb context de pista, carretera i competició",
+		"text": "Soc Mario Álvarez, estudiant de Ciència de Dades a la UPV amb experiència real dins del ciclisme professional. Combino l'anàlisi de dades amb el rendiment esportiu d'elit, per convertir cada mètrica en una decisió que millora resultats."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Formació",
+			"detail": "Grau en Ciència de Dades, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elit",
+			"label": "Experiència",
+			"detail": "Treball real dins d'un equip de ciclisme professional."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Enfocament",
+			"detail": "Analítica aplicada a la millora del rendiment esportiu."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Experiència",
+		"title": "Dos mons, un mateix llenguatge: el rendiment",
+		"text": "He competit al màxim nivell i avui aplico aquest mateix criteri a les dades: entenc el que un número significa per a un esportista perquè he estat aquest esportista."
+	},
+	"ctaFinal": {
+		"title": "Parlem de dades?",
+		"text": "Explica'm el teu projecte i busquem junts on són les decisions que milloren el rendiment."
+	}
+}

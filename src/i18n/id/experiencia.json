@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Pengalaman — Mario Álvarez",
+		"description": "Dua dunia, satu bahasa yang sama: performa. Pengalaman Mario Álvarez di bidang data dan teknik, serta bersepeda elit.",
+		"eyebrow": "Pengalaman",
+		"heading": "Dua dunia, satu bahasa yang sama: performa",
+		"colDatos": "Data & Teknologi",
+		"colDeporte": "Olahraga Elit"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Magang Ilmu Data",
+			"meta": "Teknik Data · Benidorm · 2026",
+			"paragraphs": [
+				"SIME mengembangkan perangkat lunak manajemen (reservasi, penagihan, laporan, pesanan restoran) yang melayani ratusan klien dari sistem pusat, di atas database dengan +580 tabel yang saling terhubung dan +100 juta catatan. Pertumbuhan tersebut memaksa pembagian klien ke beberapa database untuk meringankan beban dan keluhan lambat.",
+				"Pekerjaan saya: menganalisis database tersebut dan, melalui optimasi kueri dan indeks, merancang penyatuan semua data menjadi satu database yang efisien tanpa hampir meningkatkan perangkat keras (RAM/CPU). Peningkatan telah dikembangkan, dalam fase validasi pada server pengujian."
+			]
+		},
+		{
+			"title": "Proyek dengan tim Cofidis (World Tour)",
+			"meta": "Python · Musim Panas 2025",
+			"paragraphs": [
+				"Proyek mandiri yang saya lakukan sebagai tes untuk mengakses analisis data dalam bersepeda profesional:"
+			],
+			"list": [
+				"Penganalisis kesulitan UCI: melalui web scraping peringkat UCI, menempatkan pebalap tim dan memperkirakan tingkat kesulitan untuk mengumpulkan poin UCI sesuai dengan skuad.",
+				"Prediktor profil balapan: mengantisipasi karakteristik setiap balapan dan memberikan nilai kesulitan untuk merencanakan tujuan dan strategi."
+			]
+		},
+		{
+			"title": "Proyek akademik dan pribadi",
+			"meta": "Analisis, visualisasi, dan machine learning",
+			"paragraphs": [
+				"Pekerjaan analisis data, visualisasi, dan machine learning milik sendiri."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Lihat proyek"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Kompetisi",
+			"paragraphs": [
+				"Juara Spanyol madison (18 tahun); Kejuaraan Dunia dan Eropa trek bersama Tim Nasional Spanyol (ke-6 di keduanya); atlet elit; pebalap sepeda trek terfederasi, aktif."
+			]
+		},
+		{
+			"title": "Arahan olahraga",
+			"paragraphs": [
+				"Direktur Olahraga Level I dan II (RFEC); pelatihan dan pemantauan pebalap sepeda muda (14–18) bersama ayah saya; staf pendukung dengan Tim Komunitas Valencia dalam kompetisi (2026)."
+			]
+		},
+		{
+			"title": "Chiromassage dan staf teknis",
+			"meta": "Musim Panas 2025",
+			"paragraphs": [
+				"Ahli chiromassage bersertifikat; pemijat pebalap sepeda profesional; staf dengan Tim Komunitas Valencia, dengan tim kontinental Filipina, dan dengan pebalap sepeda secara pribadi di Benidorm."
+			]
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Kokemus — Mario Álvarez",
+		"description": "Kaksi maailmaa, sama kieli: suorituskyky. Mario Álvarezin kokemus datasta ja insinööritieteestä sekä huippupyöräilystä.",
+		"eyebrow": "Kokemus",
+		"heading": "Kaksi maailmaa, sama kieli: suorituskyky",
+		"colDatos": "Data & Teknologia",
+		"colDeporte": "Huippu-urheilu"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Datatieteen harjoittelu",
+			"meta": "Data-insinööritiede · Benidorm · 2026",
+			"paragraphs": [
+				"SIME kehittää hallintaohjelmistoja (varaukset, laskutus, raportit, ravintolatilaukset), jotka palvelevat satoja asiakkaita keskusjärjestelmästä, yli 580 toisiinsa kytketyn taulun ja yli 100 miljoonan tietueen tietokannassa. Kasvu oli pakottanut jakamaan asiakkaita useisiin tietokantoihin kuormituksen ja hitausvalitusten lieventämiseksi.",
+				"Työni: näiden tietokantojen analysointi ja kyselyjen sekä indeksien optimoinnin kautta kaikkien tietojen yhdistämisen suunnittelu yhteen tehokkaaseen tietokantaan tuskin lainkaan skaalaamalla laitteistoa (RAM/CPU). Parannus on jo kehitetty ja se on validointivaiheessa testipalvelimella."
+			]
+		},
+		{
+			"title": "Projektit Cofidis-tiimin kanssa (World Tour)",
+			"meta": "Python · Kesä 2025",
+			"paragraphs": [
+				"Oma projekti, jonka tein testinä päästäkseni ammattilaispyöräilyn data-analyysiin:"
+			],
+			"list": [
+				"UCI-vaikeusasteen analyysaattori: UCI-rankingin web scraping -tekniikan avulla se sijoittaa tiimin ajajat ja arvioi vaikeustason UCI-pisteiden keräämiseen kokoonpanon mukaan.",
+				"Kilpailureitin ennustaja: ennakoi kunkin kilpailun ominaisuudet ja antaa sille vaikeusarvosanan tavoitteiden ja strategian suunnittelua varten."
+			]
+		},
+		{
+			"title": "Akateemiset ja henkilökohtaiset projektit",
+			"meta": "Analyysi, visualisointi ja koneoppiminen",
+			"paragraphs": [
+				"Omat data-analyysin, visualisoinnin ja koneoppimisen työt."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Katso projektit"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Kilpailu",
+			"paragraphs": [
+				"Madisonin Espanjan mestari (18 vuotta); ratapyöräilyn MM- ja EM-kilpailut Espanjan maajoukkueessa (molemmoissa 6.); huippu-urheilija; aktiivinen lisensoitu ratapyöräilijä."
+			]
+		},
+		{
+			"title": "Urheiluvalmennus ja -johto",
+			"paragraphs": [
+				"Urheilujohtaja Taso I ja II (RFEC); nuorten pyöräilijöiden (14–18) valmennus ja seuranta yhdessä isäni kanssa; huoltaja Valencian alueen maajoukkueessa kilpailuissa (2026)."
+			]
+		},
+		{
+			"title": "Urheiluhieronta ja tekninen henkilöstö",
+			"meta": "Kesä 2025",
+			"paragraphs": [
+				"Pätevä urheiluhieroja; ammattipyöräilijöiden hieroja; henkilökuntaa Valencian alueen maajoukkueessa, filippiiniläisessä mannermaatiimissä ja yksittäisille pyöräilijöille Benidormissa."
+			]
+		}
+	]
+}

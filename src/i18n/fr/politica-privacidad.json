@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Politique de confidentialité — Mario Álvarez",
+		"description": "Politique de confidentialité du site de Mario Álvarez : quelles données sont collectées, dans quel but et comment exercer vos droits.",
+		"eyebrow": "Legal",
+		"heading": "Politique de confidentialité"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Responsable du traitement",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, domicilié à Benidorm (Alicante), Espagne. Contact : malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Finalité du traitement",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ce site analyse de manière interne et à des fins exclusivement statistiques quels contenus (sections, projets) sont les plus utiles aux visiteurs, dans le but d'améliorer son contenu. Il n'est pas utilisé à des fins publicitaires, n'est pas partagé avec des tiers et n'est vendu en aucun cas."
+				}
+			]
+		},
+		{
+			"titulo": "3. Données collectées (uniquement si vous acceptez les cookies analytiques)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Un identifiant anonyme aléatoire, non lié à votre nom, votre e-mail ou toute autre information vous identifiant directement.",
+						"Pages et projets que vous visitez, et le temps d'attention sur chacun (pendant que l'onglet est actif).",
+						"Interactions (clics sur des projets, des liens ou des boutons).",
+						"Date et heure de la visite.",
+						"Langue du site consulté.",
+						"Type d'appareil (mobile ou bureau).",
+						"Pays approximatif, obtenu via l'infrastructure de Cloudflare, sans stocker votre adresse IP.",
+						"Page de provenance (par exemple, LinkedIn ou un moteur de recherche)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Votre adresse IP n'est pas collectée, aucune technique d'identification du navigateur (fingerprinting) n'est utilisée, et aucun outil tiers tel que Google Analytics ou similaire n'est employé."
+				}
+			]
+		},
+		{
+			"titulo": "4. Base juridique",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Le traitement est fondé sur votre consentement explicite (article 6.1.a du RGPD et article 22.2 de la LSSI-CE), que vous pouvez retirer à tout moment depuis le gestionnaire de cookies du site."
+				}
+			]
+		},
+		{
+			"titulo": "5. Durée de conservation",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les données sont conservées pendant un maximum de 12 mois à compter de votre dernière visite, après quoi elles sont automatiquement supprimées."
+				}
+			]
+		},
+		{
+			"titulo": "6. Destinataires et transferts internationaux",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les données ne sont ni cédées ni vendues à des tiers. Elles sont stockées dans Cloudflare D1, un service de base de données fourni par Cloudflare, Inc., qui agit en tant que sous-traitant. Cloudflare peut traiter des données en dehors de l'Espace Économique Européen ; dans ce cas, ce transfert est couvert par les Clauses Contractuelles Types approuvées par la Commission Européenne. Plus d'informations dans la politique de confidentialité de Cloudflare : https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Vos droits",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vous pouvez exercer à tout moment vos droits d'accès, de rectification, de suppression, d'opposition, de limitation du traitement et de portabilité en écrivant à malvmar5@hotmail.com. De plus, vous pouvez supprimer vos données immédiatement, sans avoir à écrire à quiconque, grâce au bouton \"Effacer mes données\" disponible dans les paramètres des cookies du site. Vous avez également le droit d'introduire une réclamation auprès de l'Agence Espagnole de Protection des Données (www.aepd.es) si vous estimez que vos droits n'ont pas été respectés correctement."
+				}
+			]
+		},
+		{
+			"titulo": "8. Modifications de cette politique",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cette politique peut être mise à jour pour s'adapter aux modifications légales ou du site lui-même."
+				}
+			]
+		}
+	]
+}

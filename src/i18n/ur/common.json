@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "میرے بارے میں",
+		"proyectos": "پrogjects",
+		"experiencia": "تجربہ",
+		"contacto": "رابطہ",
+		"ariaMain": "بنیادی نیویگেশন",
+		"openMenu": "مینو کھولیں"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "سوشل میڈیا"
+	},
+	"langSwitch": {
+		"label": "زبان تبدیل کریں",
+		"traducir": "زبان تبدیل کریں",
+		"buscar": "زبان تلاش کریں…"
+	},
+	"cookies": {
+		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
+		"politica": "کুকিজ پالیسی",
+		"aceptar": "قبول کریں",
+		"rechazar": "مسترد کریں",
+		"configurar": "کুকিজ کی ترتیب",
+		"borrarDatos": "میرے ڈیٹا کو حذف کریں",
+		"ariaBanner": "کুকিজ کی رضامندی"
+	},
+	"legal": {
+		"privacidad": "رازداری کی پالیسی",
+		"cookies": "کুকিজ پالیسی"
+	},
+	"person": {
+		"jobTitle": "ڈاکٹر آف ڈیٹا",
+		"description": "کیلنڈر اور کھیلوں کے تجزیات میں ماہر ڈیٹا سائنٹسٹ، جو پیشہ ورانہ سائیکلنگ کے اندر تجربہ رکھتا ہے۔"
+	}
+}

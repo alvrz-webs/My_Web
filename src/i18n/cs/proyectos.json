@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projekty — Mario Álvarez",
+		"description": "Repozitáře a projekty datové analýzy, vizualizace a machine learningu Maria Álvareze.",
+		"eyebrow": "Projekty",
+		"heading": "Projekty",
+		"intro": "Pohled na mou práci: od nástrojů pro profesionální cyklistiku až po akademické projekty analýzy a machine learningu."
+	},
+	"list": {
+		"eyebrow": "Práce",
+		"title": "Projekty",
+		"intro": "Automatický výběr mých veřejných repozitářů na GitHubu.",
+		"especializaciones": "Specializace",
+		"fallbackDescripcion": "Projekt datové analýzy a vědy o datech.",
+		"verEnGithub": "Zobrazit na GitHubu",
+		"vacio": "V tuto chvíli se nepodařilo načíst repozitáře.",
+		"filtroLabel": "Filtrovat projekty podle typu",
+		"filtroTodos": "Všechny",
+		"filtroDatos": "Data",
+		"filtroWebs": "Weby",
+		"verWeb": "Zobrazit web",
+		"verCodigo": "Zobrazit kód",
+		"enDesarrollo": "Ve vývoji",
+		"fallbackDescripcionWeb": "Webový projekt.",
+		"vacioWebs": "V této sekci zatím nejsou publikovány žádné weby."
+	}
+}

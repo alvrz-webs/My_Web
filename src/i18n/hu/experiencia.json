@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Tapasztalat — Mario Álvarez",
+		"description": "Két világ, egy közös nyelv: a teljesítmény. Mario Álvarez tapasztalata az adatok és a mérnöki tudomány területén, valamint az elit kerékpározásban.",
+		"eyebrow": "Tapasztalat",
+		"heading": "Két világ, egy közös nyelv: a teljesítmény",
+		"colDatos": "Adatok és technológia",
+		"colDeporte": "Elit sport"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Adattudományi gyakorlat",
+			"meta": "Adatmérnökség · Benidorm · 2026",
+			"paragraphs": [
+				"A SIME kezelőszoftvereket fejleszt (foglalások, számlázás, jelentések, vendéglátóipari rendelések), amelyek ügyfelek százait szolgálják ki egy központi rendszerből, több mint 580 összekapcsolt táblát és több mint 100 millió rekordot tartalmazó adatbázis alapján. A növekedés arra kényszerítette őket, hogy az ügyfeleket több adatbázis között osszák szét a terhelés és a lassúsági panaszok enyhítése érdekében.",
+				"Az én feladatom: ezen adatbázisok elemzése, valamint lekérdezés-optimalizálás és indexek révén az összes adat egyesítésének megtervezése egyetlen hatékony adatbázisban, a hardver (RAM/CPU) alig történő skálázásával. A fejlesztés már elkészült, a tesztkiszolgálón történő validálási fázisban van."
+			]
+		},
+		{
+			"title": "Projektek a Cofidis csapattal (World Tour)",
+			"meta": "Python · 2025 nyár",
+			"paragraphs": [
+				"Saját projekt, amelyet tesztként készítettem a profi kerékpározás adatelemzéséhez való hozzáféréshez:"
+			],
+			"list": [
+				"UCI nehézségi elemző: az UCI-ranglista webes adatlerakásával (web scraping) pozicionálja a csapat versenyzőit, és megbecsüli az UCI-pontok gyűjtésének nehézségi szintjét a keret alapján.",
+				"Versenyprofil-előrejelző: előre jelzi az egyes versenyek jellemzőit, és nehézségi osztályzatot rendel hozzájuk a célok és a stratégia megtervezése érdekében."
+			]
+		},
+		{
+			"title": "Akadémiai és személyes projektek",
+			"meta": "Elemzés, vizualizáció és gépi tanulás",
+			"paragraphs": [
+				"Saját adatelemzési, vizualizációs és gépi tanulási projektek."
+			],
+			"link": {
+				"href": "/projektek",
+				"label": "Projektek megtekintése"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Versenyzés",
+			"paragraphs": [
+				"Spanyol madison bajnok (18 évesen); pályakerékpáros Világ- és Európa-bajnokság a spanyol válogatottal (6. hely mindkettőn); elit sportoló; aktív, igazolt pályakerékpáros."
+			]
+		},
+		{
+			"title": "Sportvezetés",
+			"paragraphs": [
+				"I. és II. szintű sportvezető (RFEC); utánpótláskorú (14–18) kerékpárosok képzése és kísérése az édesapámmal; segítő a Valenciai Közösség válogatottjával a versenyeken (2026)."
+			]
+		},
+		{
+			"title": "Kiromasszázs és szakmai stáb",
+			"meta": "2025 nyár",
+			"paragraphs": [
+				"Okleveles kiromasszőr; professzionális kerékpárosok masszőrje; stábtag a Valenciai Közösség válogatottjánál, egy Fülöp-szigeteki kontinentális csapatnál, valamint magánszemélyként kerékpárosok mellett Benidormban."
+			]
+		}
+	]
+}

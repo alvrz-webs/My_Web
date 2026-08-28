@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Científico de dados especializado em desporto",
+		"description": "Mario Álvarez, cientista de dados em Valência especializado em analítica desportiva. Data · Sport · Progress.",
+		"verProyectos": "Ver projetos",
+		"contacto": "Contacto",
+		"verMas": "Ver mais",
+		"verTodosProyectos": "Ver todos os projetos",
+		"irAContacto": "Ir para contacto",
+		"herramientas": "Principais ferramentas"
+	},
+	"hero": {
+		"eyebrow": "Cientista de dados · Analítica desportiva · Valência",
+		"titlePre": "Transformo dados em ",
+		"titleHighlight": "decisões claras",
+		"subtitle": "Sou a ponte entre a análise de dados e o desporto de elite: transformo métricas de rendimento em estratégias que fazem a diferença no terreno.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Sobre mim",
+		"title": "Dados com contexto de pista, estrada e competição",
+		"text": "Sou Mario Álvarez, estudante de Ciência de Dados na UPV com experiência real no ciclismo profissional. Combino a análise de dados com o rendimento desportivo de elite, para transformar cada métrica numa decisão que melhora resultados."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Formação",
+			"detail": "Licenciatura em Ciência de Dados, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elite",
+			"label": "Experiência",
+			"detail": "Trabalho real numa equipa de ciclismo profissional."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Abordagem",
+			"detail": "Analítica aplicada à melhoria do rendimento desportivo."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Experiência",
+		"title": "Dois mundos, um mesmo idioma: o rendimento",
+		"text": "Competi ao mais alto nível e hoje aplico esse mesmo critério aos dados: percebo o que um número significa para um desportista porque já fui esse desportista."
+	},
+	"ctaFinal": {
+		"title": "Falamos de dados?",
+		"text": "Conta-me o teu projeto e procuramos juntos onde estão as decisões que melhoram o rendimento."
+	}
+}

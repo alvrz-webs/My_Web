@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Kebijakan Cookie — Mario Álvarez",
+		"description": "Cookie apa saja yang digunakan situs ini, apa tujuannya, dan cara mengubah persetujuan Anda kapan saja.",
+		"eyebrow": "Legal",
+		"heading": "Kebijakan Cookie"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Situs web ini menggunakan cookie dan teknologi serupa (seperti penyimpanan lokal peramban) agar dapat berfungsi dengan baik dan, jika Anda memberikan persetujuan, untuk menganalisis secara anonim bagaimana konten digunakan."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Cookie yang digunakan:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nama",
+				"Tujuan",
+				"Jenis",
+				"Durasi"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Mengingat pilihan Anda tentang kebijakan cookie ini",
+					"Pihak pertama, teknis (dikecualikan dari persetujuan)",
+					"12 bulan"
+				],
+				[
+					"visitante_id",
+					"Pengidentifikasi anonim untuk menghubungkan kunjungan Anda dan mengetahui konten mana yang berguna",
+					"Pihak pertama, analitik (membutuhkan persetujuan Anda)",
+					"12 bulan"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Tidak ada satu pun cookie ini yang berasal dari pihak ketiga, tidak ada yang digunakan untuk tujuan periklanan, dan tidak ada yang dibagikan kepada siapa pun di luar situs ini."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Anda dapat mengubah keputusan atau menarik persetujuan Anda kapan saja dari tautan \"Konfigurasi cookie\" di bagian footer, dan menghapus semua data Anda secara langsung dengan tombol \"Hapus data saya\" di panel yang sama."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Untuk informasi lebih lanjut tentang bagaimana data Anda diproses, lihat Kebijakan Privasi."
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Datu zinātnieks, kas specializējas sportā",
+		"description": "Mario Álvarez, datu zinātnieks Valensijā, kurš specializējas sporta analītikā. Dati · Sports · Progress.",
+		"verProyectos": "Skatīt projektus",
+		"contacto": "Kontakti",
+		"verMas": "Skatīt vairāk",
+		"verTodosProyectos": "Skatīt visus projektus",
+		"irAContacto": "Doties uz kontaktiem",
+		"herramientas": "Galvenie rīki"
+	},
+	"hero": {
+		"eyebrow": "Datu zinātnieks · Sporta analītika · Valensija",
+		"titlePre": "Es pārvēršu datus ",
+		"titleHighlight": "skaidros lēmumos",
+		"subtitle": "Es esmu tilts starp datu analīzi un elitsportu: es pārvēršu snieguma metrikas stratēģijās, kas rada atšķirību laukumā.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Par mani",
+		"title": "Dati ar treneru, ceļu un sacensību kontekstu",
+		"text": "Es esmu Mario Álvarez, Datu zinātnes students UPV ar reālu pieredzi profesionālajā riteņbraukšanā. Es apvienoju datu analīzi ar augsta līmeņa sportisko sniegumu, lai katru metriku pārvērstu lēmumā, kas uzlabo rezultātus."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Izglītība",
+			"detail": "Bakalaura grāds datu zinātnē, Valensijas Politehniskā universitāte."
+		},
+		{
+			"value": "Elite",
+			"label": "Pieredze",
+			"detail": "Reāls darbs profesionālā riteņbraukšanas komandā."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pieeja",
+			"detail": "Analītika, kas pielietota sportiskā snieguma uzlabošanai."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Pieredze",
+		"title": "Divas pasaules, viena valoda: sniegums",
+		"text": "Esmu sacenties augstākajā līmenī un šodien piemēroju to pašu kritēriju datiem: es saprotu, ko skaitlis nozīmē sportistam, jo esmu bijis šis sportists."
+	},
+	"ctaFinal": {
+		"title": "Vai parunāsim par datiem?",
+		"text": "Pastāstiet man par savu projektu, un mēs kopā meklēsim lēmumus, kas uzlabo sniegumu."
+	}
+}

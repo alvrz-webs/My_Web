@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Sobre min — Mario Álvarez",
+		"description": "De campión de España de madison a estudante de Ciencia de Datos: a traxectoria de Mario Álvarez entre o ciclismo de elite e a analítica deportiva.",
+		"eyebrow": "Sobre min",
+		"heading": "Do velódromo aos datos"
+	},
+	"bio": [
+		"Comecei compitiendo. Òs 18 procureime campión de España de madison en pista e a Selección Española de Ciclismo convocoume para os Campionatos do Mundo e de Europa, onde fun sexto en ambos, o que me valeu a condición de deportista de elite.",
+		"De aí dei o salto á Ciencia de Datos: hoxe curso 3º do Grao na Universitat Politècnica de València, orientado á dixitalización e á tecnoloxía aplicadas ao deporte.",
+		"O meu valor diferencial é esa ponte: vivín o alto rendemento dende dentro —como corredor, como director deportivo de base e como quiromasaxista de ciclistas profesionais— e sei ler os datos que hai detrás. Entendo o que un número significa para un deportista, porque eu fun ese deportista. Uni-los dous mundos para converter datos en decisións que melloran o rendemento.",
+		"Ademais, grazas á minha condición de deportista de elite, obtiven unha bolsa para cursar un Máster en Dixitalización, Innovación e Tecnoloxía no Deporte, que xa completei e que amplía o meu enfoque a todo o ecosistema deportivo, máis aló do ciclismo."
+	],
+	"facts": [
+		{
+			"label": "Base",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Estado",
+			"value": "Dispoñible para proxectos"
+		},
+		{
+			"label": "Enfoque",
+			"value": "Datos + rendemento deportivo"
+		},
+		{
+			"label": "Idiomas",
+			"value": "Español nativo · Valenciano · Inglés B1"
+		},
+		{
+			"label": "Formación",
+			"value": "Grao en Ciencia de Datos (UPV) · Máster en Dixitalización, Innovación e Tecnoloxía no Deporte"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "O meni — Mario Álvarez",
+		"description": "Od španskog šampiona u medisonu do studenta nauke o podacima: putanja Marija Alvaresa između elitnog biciklizma i sportske analitike.",
+		"eyebrow": "O meni",
+		"heading": "Od velodroma do podataka"
+	},
+	"bio": [
+		"Počeo sam takmičeći se. Sa 18 godina proglašen sam za šampiona Španije u medisonu na stazi, a Španska biciklistička reprezentacija me je pozvala na Svetska i Evropska prvenstva, gde sam bio šesti na oba, što mi je donelo status elitnog sportiste.",
+		"Od toga sam prešao na nauku o podacima: danas sam na 3. godini osnovnih studija na Univerzitetu u Valensiji (Universitat Politècnica de València), usmerenih na digitalizaciju i tehnologiju primenjenu u sportu.",
+		"Moja diferencijalna vrednost je taj most: doživeo sam vrhunske performanse iznutra — kao vozač, kao sportski direktor mlađih kategorija i kao sportski maser profesionalnih biciklista — i znam kako da čitam podatke koji stoje iza toga. Razumem šta jedan broj znači za sportistu, jer sam ja bio taj sportista. Spajam ova dva sveta kako bih pretvorio podatke u odluke koje poboljšavaju performanse.",
+		"Pored toga, zahvaljujući svom statusu elitnog sportiste, dobio sam stipendiju za pohađanje Master studija iz digitalizacije, inovacija i tehnologije u sportu, koje sam već završio i koje proširuju moj pristup na čitav sportski ekosistem, van okvira biciklizma."
+	],
+	"facts": [
+		{
+			"label": "Baza",
+			"value": "Benidorm · Valensija"
+		},
+		{
+			"label": "Status",
+			"value": "Dostupan za projekte"
+		},
+		{
+			"label": "Fokus",
+			"value": "Podaci + sportske performanse"
+		},
+		{
+			"label": "Jezici",
+			"value": "Maternji španski · Valensijanski · Engleski B1"
+		},
+		{
+			"label": "Obrazovanje",
+			"value": "Osnovne studije nauke o podacima (UPV) · Master studije iz digitalizacije, inovacija i tehnologije u sportu"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Chính sách Cookie — Mario Álvarez",
+		"description": "Trang web này sử dụng cookie nào, với mục đích gì và cách thay đổi sự đồng ý của bạn bất cứ lúc nào.",
+		"eyebrow": "Pháp lý",
+		"heading": "Chính sách Cookie"
+	},
+	"bloques": [
+		{
+			"tipo": "đoạn văn",
+			"texto": "Trang web này sử dụng cookie và các công nghệ tương tự (như lưu trữ cục bộ của trình duyệt) để trang web hoạt động bình thường và, nếu bạn đồng ý, để phân tích ẩn danh cách sử dụng nội dung."
+		},
+		{
+			"tipo": "đoạn văn",
+			"texto": "Cookie được sử dụng:"
+		},
+		{
+			"tipo": "bảng",
+			"columnas": [
+				"Tên",
+				"Mục đích",
+				"Loại",
+				"Thời hạn"
+			],
+			"filas": [
+				[
+					"sự đồng ý của cookie",
+					"Ghi nhớ lựa chọn của bạn về chính sách cookie này",
+					"Của bên đầu tiên, kỹ thuật (được miễn sự đồng ý)",
+					"12 tháng"
+				],
+				[
+					"visitante_id",
+					"Mã định danh ẩn danh để liên kết các lượt truy cập của bạn và biết nội dung nào hữu ích",
+					"Của bên đầu tiên, phân tích (yêu cầu sự đồng ý của bạn)",
+					"12 tháng"
+				]
+			]
+		},
+		{
+			"tipo": "đoạn văn",
+			"texto": "Không có cookie nào trong số này là của bên thứ ba, không cookie nào được sử dụng cho mục đích quảng cáo và không cookie nào được chia sẻ với bất kỳ ai bên ngoài trang web này."
+		},
+		{
+			"tipo": "đoạn văn",
+			"texto": "Bạn có thể thay đổi quyết định hoặc rút lại sự đồng ý của mình bất cứ lúc nào từ liên kết \"Cấu hình cookie\" ở chân trang, và xóa ngay lập tức tất cả dữ liệu của bạn bằng nút \"Xóa dữ liệu của tôi\" trong bảng điều khiển đó."
+		},
+		{
+			"tipo": "đoạn văn",
+			"texto": "Để biết thêm thông tin về cách dữ liệu của bạn được xử lý, hãy tham khảo Chính sách Quyền riêng tư."
+		}
+	]
+}

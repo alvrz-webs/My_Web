@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projeler — Mario Álvarez",
+		"description": "Mario Álvarez'in veri analizi, görselleştirme ve makine öğrenimi depo ve projeleri.",
+		"eyebrow": "Projeler",
+		"heading": "Projeler",
+		"intro": "Çalışmalarıma bir bakış: profesyonel bisiklet araçlarından akademik analiz ve makine öğrenimi projelerine kadar."
+	},
+	"list": {
+		"eyebrow": "Çalışma",
+		"title": "Projeler",
+		"intro": "GitHub'daki genel depolarımın otomatik bir seçkisi.",
+		"especializaciones": "Uzmanlık Alanları",
+		"fallbackDescripcion": "Veri analizi ve bilimi projesi.",
+		"verEnGithub": "GitHub'da görüntüle",
+		"vacio": "Şu anda depolar yüklenemedi.",
+		"filtroLabel": "Projeleri türüne göre filtrele",
+		"filtroTodos": "Tümü",
+		"filtroDatos": "Veri",
+		"filtroWebs": "Web Siteleri",
+		"verWeb": "Web sitesini gör",
+		"verCodigo": "Kodu gör",
+		"enDesarrollo": "Geliştirme aşamasında",
+		"fallbackDescripcionWeb": "Web projesi.",
+		"vacioWebs": "Bu bölümde henüz yayınlanmış web sitesi yok."
+	}
+}

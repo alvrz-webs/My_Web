@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "मेरे बारे में",
+		"proyectos": "प्रोजेक्ट्स",
+		"experiencia": "अनुभव",
+		"contacto": "संपर्क",
+		"ariaMain": "मुख्य नेविगेशन",
+		"openMenu": "मेनू खोलें"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "सोशल मीडिया"
+	},
+	"langSwitch": {
+		"label": "भाषा बदलें",
+		"traducir": "भाषा बदलें",
+		"buscar": "भाषा खोजें..."
+	},
+	"cookies": {
+		"texto": "हम गुमनाम एनालिटिक्स के लिए और आपके अनुभव को बेहतर बनाने के लिए अपनी कुकीज़ का उपयोग करते हैं। हम तृतीय-पक्ष कुकीज़ का उपयोग नहीं करते हैं।",
+		"politica": "कुकी नीति",
+		"aceptar": "स्वीकार करें",
+		"rechazar": "अस्वीकार करें",
+		"configurar": "कुकीज़ कॉन्फ़िगर करें",
+		"borrarDatos": "मेरा डेटा हटाएं",
+		"ariaBanner": "कुकी सहमति"
+	},
+	"legal": {
+		"privacidad": "गोपनीयता नीति",
+		"cookies": "कुकी नीति"
+	},
+	"person": {
+		"jobTitle": "डेटा वैज्ञानिक",
+		"description": "डेटा वैज्ञानिक जो खेल विश्लेषिकी में विशेषज्ञ हैं, जिन्हें पेशेवर साइकिलिंग के भीतर अनुभव है।"
+	}
+}

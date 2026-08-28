@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Çerez Politikası — Mario Álvarez",
+		"description": "Bu sitenin hangi çerezleri kullandığı, hangi amaçla kullandığı ve onayınızı istediğiniz zaman nasıl değiştirebileceğiniz.",
+		"eyebrow": "Yasal",
+		"heading": "Çerez Politikası"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Bu web sitesi, düzgün çalışması için çerezler ve benzeri teknolojiler (tarayıcı yerel depolaması gibi) kullanır ve onay vermeniz halinde içeriğin nasıl kullanıldığını anonim olarak analiz eder."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Kullanılan çerezler:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"İsim",
+				"Amaç",
+				"Tür",
+				"Süre"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Bu çerez politikasıyla ilgili seçiminizi hatırlar",
+					"Birincil, teknik (onay gerektirmez)",
+					"12 ay"
+				],
+				[
+					"visitante_id",
+					"Ziyaretlerinizi ilişkilendirmek ve hangi içeriğin yararlı olduğunu görmek için anonim tanımlayıcı",
+					"Birincil, analitik (onayınızı gerektirir)",
+					"12 ay"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Bu çerezlerin hiçbiri üçüncü taraf çerezi değildir, hiçbiri reklam amaçlı kullanılmaz ve bu sitenin dışındaki hiç kimseyle paylaşılmaz."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Alt bilgideki \"Çerezleri yapılandır\" bağlantısından kararınızı değiştirebilir veya onayınızı istediğiniz zaman geri çekebilir ve aynı paneldeki \"Verilerimi sil\" düğmesiyle tüm verilerinizi hemen silebilirsiniz."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Verilerinizin nasıl işlendiği hakkında daha fazla bilgi için Gizlilik Politikası'na bakın."
+		}
+	]
+}

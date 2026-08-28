@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Tungkol sa akin",
+		"proyectos": "Mga Proyekto",
+		"experiencia": "Karanasan",
+		"contacto": "Pakikipag-ugnayan",
+		"ariaMain": "Pangunahing nabigasyon",
+		"openMenu": "Buksan ang menu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Mga social media"
+	},
+	"langSwitch": {
+		"label": "Baguhin ang wika",
+		"traducir": "Baguhin ang wika",
+		"buscar": "Maghanap ng wika..."
+	},
+	"cookies": {
+		"texto": "Gumagamit kami ng sariling cookies para sa hindi kilalang analytics at upang mapabuti ang iyong karanasan. Hindi kami gumagamit ng mga cookies ng third-party.",
+		"politica": "Patakaran sa cookies",
+		"aceptar": "Tanggapin",
+		"rechazar": "Tanggihan",
+		"configurar": "I-configure ang cookies",
+		"borrarDatos": "Tanggalin ang aking data",
+		"ariaBanner": "Pahintulot sa cookies"
+	},
+	"legal": {
+		"privacidad": "Patakaran sa privacy",
+		"cookies": "Patakaran sa cookies"
+	},
+	"person": {
+		"jobTitle": "Data Scientist",
+		"description": "Data Scientist na dalubhasa sa sports analytics, na may karanasan sa loob ng propesyonal na pagbibisikleta."
+	}
+}

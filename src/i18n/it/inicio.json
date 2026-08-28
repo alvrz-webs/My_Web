@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Cientifico de dati specializzato nello sport",
+		"description": "Mario Álvarez, cientifico de dati a Valencia specializzato in analisi sportiva. Data · Sport · Progress.",
+		"verProyectos": "Vedi progetti",
+		"contacto": "Contatto",
+		"verMas": "Vedi di più",
+		"verTodosProyectos": "Vedi tutti i progetti",
+		"irAContacto": "Vai al contatto",
+		"herramientas": "Strumenti principali"
+	},
+	"hero": {
+		"eyebrow": "Cientifico de dati · Analisi sportiva · Valencia",
+		"titlePre": "Trasformo i dati in ",
+		"titleHighlight": "decisioni chiare",
+		"subtitle": "Sono il ponte tra l'analisi dei dati e lo sport d'élite: trasformo le metriche di prestazione in strategie che fanno la differenza sul campo.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Su di me",
+		"title": "Dati con contesto di pista, strada e competizione",
+		"text": "Sono Mario Álvarez, studente di Scienza dei Dati alla UPV con esperienza reale nel ciclismo professionistico. Combino l'analisi dei dati con le prestazioni sportive d'élite, per trasformare ogni metrica in una decisione che migliora i risultati."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Formazione",
+			"detail": "Laurea in Scienza dei Dati, Universitat Politècnica de València."
+		},
+		{
+			"value": "Élite",
+			"label": "Esperienza",
+			"detail": "Lavoro reale all'interno di una squadra di ciclismo professionistico."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Approccio",
+			"detail": "Analisi applicata al miglioramento delle prestazioni sportive."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Esperienza",
+		"title": "Due mondi, un'unica lingua: la prestazione",
+		"text": "Ho gareggiato al massimo livello e oggi applico lo stesso criterio ai dati: capisco cosa significa un numero per uno sportivo perché sono stato quello sportivo."
+	},
+	"ctaFinal": {
+		"title": "Parliamo di dati?",
+		"text": "Raccontami il tuo progetto e cerchiamo insieme dove sono le decisioni che migliorano le prestazioni."
+	}
+}

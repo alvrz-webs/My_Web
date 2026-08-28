@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Rólam — Mario Álvarez",
+		"description": "Spanyol madison bajnokból adatelemzési hallgató: Mario Álvarez útja az élvonalbeli kerékpározás és a sportanalitika között.",
+		"eyebrow": "Rólam",
+		"heading": "A velodrómtól az adatokig"
+	},
+	"bio": [
+		"Versenyzéssel kezdem. 18 évesen spanyol madison bajnok lettem a pályán, és a spanyol kerékpáros-válogatott meghívott a világ- és Európa-bajnokságra, ahol mindkettőn hatodik helyezést értem el, ami elhozta számomra az elit sportoló státuszt.",
+		"Innen léptem tovább az Adattudomány felé: jelenleg a harmadik évemet végzem a Universitat Politècnica de València adat- és sporttechnológiai alapképzésén.",
+		"A megkülönböztető értékem ez a híd: belülről éltem át a csúcsteljesítményt — versenyzőként, ifjúsági sportigazgatóként és profi kerékpárosok masszőreként —, és tudom, hogyan kell olvasni a mögötte lévő adatokat. Értem, mit jelent egy szám egy sportolónak, mert én magam is az a sportoló voltam. Összekötöm a két világot, hogy az adatokból a teljesítményt javító döntések szülessenek.",
+		"Emellett az elit sportolói státuszomnak köszönhetően ösztöndíjat kaptam egy sportdigitalizációs, -innovációs és -technológiai mesterképzésre, amelyet már elvégeztem, és amely a kerékpározáson túl az egész sportökoszisztémára kiterjeszti a látásmódomat."
+	],
+	"facts": [
+		{
+			"label": "Alap",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Állapot",
+			"value": "Projektként elérhető"
+		},
+		{
+			"label": "Fókusz",
+			"value": "Adatok + sportteljesítmény"
+		},
+		{
+			"label": "Nyelvek",
+			"value": "Anyanyelvi spanyol · valenciai · angol B1"
+		},
+		{
+			"label": "Képzés",
+			"value": "Adattudományi alapképzés (UPV) · Mesterképzés a Sport Digitalizációjában, Innovációjában és Technológiájában"
+		}
+	]
+}

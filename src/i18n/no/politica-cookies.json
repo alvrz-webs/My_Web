@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Informasjonskapselretningslinjer — Mario Álvarez",
+		"description": "Hvilke informasjonskapsler dette nettstedet bruker, med hvilke formål, og hvordan du når som helst kan endre samtykket ditt.",
+		"eyebrow": "Juridisk",
+		"heading": "Informasjonskapselretningslinjer"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Denne nettsiden bruker informasjonskapsler og lignende teknologier (som lokal lagring i nettleseren) for at den skal fungere som den skal, og, hvis du gir ditt samtykke, for å analysere anonymt hvordan innholdet brukes."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Informasjonskapsler som brukes:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Navn",
+				"Formål",
+				"Type",
+				"Varighet"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Huske ditt valg angående disse informasjonskapselretningslinjene",
+					"Egen, teknisk (unntatt fra samtykke)",
+					"12 måneder"
+				],
+				[
+					"visitante_id",
+					"Anonym identifikator for å koble sammen besøkene dine og vite hvilket innhold som er nyttig",
+					"Egen, analytisk (krever ditt samtykke)",
+					"12 måneder"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Ingen av disse informasjonskapslene er fra tredjeparter, ingen brukes til reklameformål, og ingen deles med noen utenfor dette nettstedet."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Du kan når som helst endre avgjørelsen din eller trekke tilbake samtykket ditt via lenken \"Konfigurer informasjonskapsler\" i sidefoten, og slette alle dataene dine umiddelbart med knappen \"Slett mine data\" i det samme panelet."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "For mer informasjon om hvordan dataene dine behandles, se Personvernerklæringen."
+		}
+	]
+}

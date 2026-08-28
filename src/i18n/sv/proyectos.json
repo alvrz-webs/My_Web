@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projekt — Mario Álvarez",
+		"description": "Mario Álvarez dataanalys, visualiserings- och maskininlärningsrepositorier och projekt.",
+		"eyebrow": "Projekt",
+		"heading": "Projekt",
+		"intro": "En titt på mitt arbete: från verktyg för professionell cykling till akademiska analys- och maskininlärningsprojekt."
+	},
+	"list": {
+		"eyebrow": "Arbete",
+		"title": "Projekt",
+		"intro": "Ett automatiskt urval av mina offentliga GitHub-repositorier.",
+		"especializaciones": "Specialiseringar",
+		"fallbackDescripcion": "Dataanalys- och datavetenskapsprojekt.",
+		"verEnGithub": "Visa på GitHub",
+		"vacio": "Kunde inte ladda repositorierna för tillfället.",
+		"filtroLabel": "Filtrera projekt efter typ",
+		"filtroTodos": "Alla",
+		"filtroDatos": "Data",
+		"filtroWebs": "Webbplatser",
+		"verWeb": "Visa webbplats",
+		"verCodigo": "Visa kod",
+		"enDesarrollo": "Under utveckling",
+		"fallbackDescripcionWeb": "Webbprojekt.",
+		"vacioWebs": "Inga webbplatser har publicerats i den här sektionen ännu."
+	}
+}

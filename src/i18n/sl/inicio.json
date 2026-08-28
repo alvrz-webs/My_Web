@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Podatkovni znanstvenik, specializiran za šport",
+		"description": "Mario Álvarez, podatkovni znanstvenik iz Valencie, specializiran za športno analitiko. Data · Sport · Progress.",
+		"verProyectos": "Oglejte si projekte",
+		"contacto": "Kontakt",
+		"verMas": "Poglej več",
+		"verTodosProyectos": "Poglej vse projekte",
+		"irAContacto": "Pojdi na kontakt",
+		"herramientas": "Glavna orodja"
+	},
+	"hero": {
+		"eyebrow": "Podatkovni znanstvenik · Športna analitika · Valencia",
+		"titlePre": "Podatke spreminjam v ",
+		"titleHighlight": "jasne odločitve",
+		"subtitle": "Sem most med analizo podatkov in vrhunskim športom: metrike zmogljivosti spreminjam v strategije, ki naredijo razliko na terenu.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "O meni",
+		"title": "Podatki s kontekstom s steze, ceste in tekmovanj",
+		"text": "Sem Mario Álvarez, študent podatkovne znanosti na UPV z izkušnjami iz resničnega sveta v profesionalnem kolesarstvu. Združujem analizo podatkov in vrhunsko športno uspešnost, da vsako metriko pretvorim v odločitev, ki izboljšuje rezultate."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Izobraževanje",
+			"detail": "Diplomski študij podatkovne znanosti, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elita",
+			"label": "Izkušnje",
+			"detail": "Resnično delo znotraj profesionalne kolesarske ekipe."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Pristop",
+			"detail": "Analitika, uporabljena za izboljšanje športne uspešnosti."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Izkušnje",
+		"title": "Dva sveta, enak jezik: zmogljivost",
+		"text": "Tekmoval sem na najvišji ravni in danes uporabljam isto merilo za podatke: razumem, kaj število pomeni za športnika, ker sem bil tisti športnik."
+	},
+	"ctaFinal": {
+		"title": "Govoriva o podatkih?",
+		"text": "Predstavite mi svoj projekt in skupaj poiščimo odločitve, ki izboljšujejo uspešnost."
+	}
+}

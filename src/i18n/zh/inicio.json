@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — 体育数据科学家",
+		"description": "Mario Álvarez，巴伦西亚的数据科学家，专注于体育分析。数据 · 体育 · 进步。",
+		"verProyectos": "查看项目",
+		"contacto": "联系方式",
+		"verMas": "查看更多",
+		"verTodosProyectos": "查看所有项目",
+		"irAContacto": "转到联系方式",
+		"herramientas": "主要工具"
+	},
+	"hero": {
+		"eyebrow": "数据科学家 · 体育分析 · 巴伦西亚",
+		"titlePre": "我将数据转化为",
+		"titleHighlight": "清晰的决策",
+		"subtitle": "我是数据分析与精英体育之间的桥梁：我将表现指标转化为在球场或赛场上脱颖而出的战略。",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "关于我",
+		"title": "带有场地、公路和竞赛背景的数据",
+		"text": "我是 Mario Álvarez，UPV 数据科学专业的学生，拥有职业自行车队的真实经验。我将数据分析与精英体育表现相结合，将每个指标转化为改善结果的决策。"
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "教育背景",
+			"detail": "巴伦西亚理工大学数据科学学士学位。"
+		},
+		{
+			"value": "精英",
+			"label": "经验",
+			"detail": "在职业自行车队内部的实际工作。"
+		},
+		{
+			"value": "Data + Sport",
+			"label": "方法",
+			"detail": "应用于提升体育表现的分析学。"
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "经验",
+		"title": "两个世界，一种语言：表现",
+		"text": "我曾以最高水平竞技，如今我将同样的标准应用于数据：我理解一个数字对运动员意味着什么，因为我曾是那样一名运动员。"
+	},
+	"ctaFinal": {
+		"title": "我们聊聊数据吗？",
+		"text": "告诉我您的项目，我们一起寻找能够改善表现的决策点。"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Personvernerklæring — Mario Álvarez",
+		"description": "Personvernerklæring for nettsiden til Mario Álvarez: hvilke data som samles inn, i hvilke hensikter, og hvordan du kan utøve dine rettigheter.",
+		"eyebrow": "Juridisk",
+		"heading": "Personvernerklæring"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Behandlingsansvarlig",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, med bosted i Benidorm (Alicante), Spania. Kontakt: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Formål med behandlingen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Denne nettsiden analyserer internt og utelukkende i statistisk øyemed hvilket innhold (seksjoner, prosjekter) som er mest nyttig for de som besøker den, med sikte på å forbedre innholdet. Den brukes ikke til reklameformål, deles ikke med tredjeparter og selges ikke under noen omstendigheter."
+				}
+			]
+		},
+		{
+			"titulo": "3. Data som samles inn (kun hvis du godtar analysekapsler)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"En tilfeldig anonym identifikator, ikke knyttet til navnet ditt, e-posten din eller annen informasjon som identifiserer deg direkte.",
+						"Sider og prosjekter du besøker, og tidsbruk på hver enkelt (mens fanen er aktiv).",
+						"Interaksjoner (klikk på prosjekter, lenker eller knapper).",
+						"Dato og klokkeslett for besøket.",
+						"Språk på nettstedet som ble konsultert.",
+						"Enhetstype (mobil eller stasjonær).",
+						"Omtrentlig land, innhentet gjennom infrastrukturen til Cloudflare, uten å lagre IP-adressen din.",
+						"Henvisningsside (for eksempel LinkedIn eller en søkemotor)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Din IP-adresse samles ikke inn, det brukes ikke teknikker for nettlesergjenkjenning (fingerprinting), og heller ikke verktøy fra tredjeparter som Google Analytics eller lignende."
+				}
+			]
+		},
+		{
+			"titulo": "4. Rettslig grunnlag",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Behandlingen er basert på ditt uttrykkelige samtykke (artikkel 6.1.a i GDPR og artikkel 22.2 i LSSI-CE), som du når som helst kan trekke tilbake fra nettstedets egen informasjonskapselbehandler."
+				}
+			]
+		},
+		{
+			"titulo": "5. Lagringsperiode",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dataene oppbevares i maksimalt 12 måneder fra ditt siste besøk, hvorefter de slettes automatisk."
+				}
+			]
+		},
+		{
+			"titulo": "6. Mottakere og internasjonale overføringer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dataene blir ikke utlevert eller solgt til tredjeparter. De lagres i Cloudflare D1, en databasetjeneste levert av Cloudflare, Inc., som opptrer som databehandler. Cloudflare kan behandle data utenfor Det europeiske økonomiske samarbeidsområde; i slike tilfeller er overføringen basert på standardavtaleklausulene godkjent av EU-kommisjonen. Mer informasjon i Cloudflares personvernerklæring: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Dine rettigheter",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kan når som helst utøve dine rettigheter til innsyn, retting, sletting, innsigelse, begrenset behandling og dataportabilitet ved å skrive til malvmar5@hotmail.com. I tillegg kan du slette dataene dine umiddelbart, uten å måtte skrive til noen, fra knappen \"Slett mine data\" som er tilgjengelig i nettstedets informasjonskapselinnstillinger. Du har også rett til å klage til den spanske datatilsynet (www.aepd.es) hvis du mener at dine rettigheter ikke har blitt behandlet på en korrekt måte."
+				}
+			]
+		},
+		{
+			"titulo": "8. Endringer i denne retningslinjen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Denne retningslinjen kan bli oppdatert for å tilpasse seg juridiske endringer eller endringer på selve nettstedet."
+				}
+			]
+		}
+	]
+}

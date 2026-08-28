@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Persónuverndarstefna — Mario Álvarez",
+		"description": "Persónuverndarstefna vefsvæðis Mario Álvarez: hvaða gögnum er safnað, í hvaða tilgangi og hvernig þú nýtir réttindi þín.",
+		"eyebrow": "Lagalegt",
+		"heading": "Persónuverndarstefna"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ábyrgðaraðili vinnslunnar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, til heimilis í Benidorm (Alicante), Spáni. Tengiliður: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Tilgangur vinnslunnar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þessi vefur greinir með innri hætti og í eingöngu tölfræðilegum tilgangi hvaða efni (hlutar, verkefni) nýtast gestum best, með það að markmiði að bæta efni hans. Hann er ekki notaður í auglýsingaskyni, er ekki deilt með þriðju aðilum og er ekki seldur undir neinum kringumstæðum."
+				}
+			]
+		},
+		{
+			"titulo": "3. Gögnum sem safnað er (að því tilskildu að þ tú samþykki greiningarkökur)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Tilviljanakennt nafnlaust auðkenni, sem ekki er tengt nafni þínu, tölvupósti eða öðrum upplýsingum sem auðkenna þig beint.",
+						"Síður og verkefni sem þú heimsækir, og dvalartími á hverri síðu (á meðan flipinn er virkur).",
+						"Samskipti (smellir á verkefni, tengla eða hnappa).",
+						"Dagsetning og tími heimsóknar.",
+						"Tungumál vefsvæðisins sem skoðað er.",
+						"Tegund tækis (fartæki eða borðtölva).",
+						"Áætlað land, fengið í gegnum innviði Cloudflare, án þess að vista IP-töluna þína.",
+						"Upprunasíða (til dæmis LinkedIn eða leitarvél)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ekki er safnað IP-tölu þinni, engum vafraauðkenningaraðferðum (fingerprinting) er beitt, né tækjum frá þriðju aðilum eins og Google Analytics eða álíka."
+				}
+			]
+		},
+		{
+			"titulo": "4. Lagalegur grundvöllur",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vinnslan byggir á afdráttarlausu samþykki þínu (grein 6.1.a í almennu gagnaverndarreglugerðinni og grein 22.2 í LSSI-CE), sem þú getur afturkallað hvenær sem er í kökustjórnun tól vefsvæðisins sjálfs."
+				}
+			]
+		},
+		{
+			"titulo": "5. Varðveislutími",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gögnin eru geymd í mesta lagi í 12 mánuði frá síðustu heimsókn þinni, en að þeim tíma liðnum er þeim eytt sjálfkrafa."
+				}
+			]
+		},
+		{
+			"titulo": "6. Viðtakendur og alþjóðleg miðlun",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gögnin eru hvorki afhent né seld þriðju aðilum. Þau eru geymd í Cloudflare D1, sem er gagnagrunnsþjónusta sem Cloudflare, Inc. veitir, sem kemur fram sem vinnsluaðili. Cloudflare getur unnið gögn utan Evrópska efnahagssvæðisins; í þeim tilvikum styðst slík miðlun við staðlaða samningsskilmála sem Evrópuframkvæmdastjórnin hefur samþykkt. Nánari upplýsingar í persónuverndarstefnu Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Réttindi þín",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þú getur hvenær sem er nýtt þér réttindi þín til að fá aðgang að gögnum, leiðrétta þau, eyða þeim, mótmæla vinnslu, takmarka vinnslu og flytja gögn með því að senda tölvupóst á malvmar5@hotmail.com. Að auki geturðu eytt gögnum þínum tafarlaust, án þess að þurfa að hafa samband við neinn, með því að smella á hnappinn \"Eyða gögnunum mínum\" sem er að finna í kökustillingum vefsvæðisins. Þú átt einnig rétt á að leggja fram kvörtun hjá Spænsku persónuverndarstofnuninni (www.aepd.es) ef þ tú telur að réttindum þínum hafi ekki verið sinnt á réttan hátt."
+				}
+			]
+		},
+		{
+			"titulo": "8. Breytingar á þessari stefnu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þessi stefna gæti verið uppfærð til að laga sig að lagabreytingum eða breytingum á vefsvæðinu sjálfu."
+				}
+			]
+		}
+	]
+}

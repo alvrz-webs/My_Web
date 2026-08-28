@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Σχετικά με μένα",
+		"proyectos": "Έργα",
+		"experiencia": "Εμπειρία",
+		"contacto": "Επικοινωνία",
+		"ariaMain": "Κύρια πλοήγηση",
+		"openMenu": "Άνοιγμα μενού"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Κοινωνικά δίκτυα"
+	},
+	"langSwitch": {
+		"label": "Αλλαγή γλώσσας",
+		"traducir": "Αλλαγή γλώσσας",
+		"buscar": "Αναζήτηση γλώσσας…"
+	},
+	"cookies": {
+		"texto": "Χρησιμοποιούμε δικά μας cookies για ανώνυμη ανάλυση και βελτίωση της εμπειρίας σας. Δεν χρησιμοποιούμε cookies τρίτων.",
+		"politica": "Πολιτική cookies",
+		"aceptar": "Αποδοχή",
+		"rechazar": "Απόρριψη",
+		"configurar": "Ρύθμιση cookies",
+		"borrarDatos": "Διαγραφή των δεδομένων μου",
+		"ariaBanner": "Συναίνεση για τα cookies"
+	},
+	"legal": {
+		"privacidad": "Πολιτική απορρήτου",
+		"cookies": "Πολιτική cookies"
+	},
+	"person": {
+		"jobTitle": "Επιστήμονας δεδομένων",
+		"description": "Επιστήμονας δεδομένων εξειδικευμένος στην αθλητική ανάλυση, με εμπειρία στην επαγγελματική ποδηλασία."
+	}
+}

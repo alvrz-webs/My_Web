@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Kuhusu mimi — Mario Álvarez",
+		"description": "Kutoka bingwa wa Uhispania wa madison hadi mwanafunzi wa Sayansi ya Data: safari ya Mario Álvarez kati ya baiskeli ya kiwango cha juu na uchambuzi wa michezo.",
+		"eyebrow": "Kuhusu mimi",
+		"heading": "Kutoka uwanja wa baiskeli hadi data"
+	},
+	"bio": [
+		"Nilianza kushindana. Akiwa na miaka 18 nilikuwa bingwa wa Uhispania wa madison kwenye njia na Timu ya Taifa ya Baiskeli ya Uhispania iliniita kwa ajili ya Mashindano ya Dunia na ya Ulaya, ambapo nilikuwa wa sita katika yote mawili, jambo ambalo lilinipa hadhi ya mwanamichezo wa kiwango cha juu.",
+		"Kutoka hapo nilifanya kuruka hadi Sayansi ya Data: leo ninasoma mwaka wa 3 wa Digrii katika Universitat Politècnica de València, inayolenga uwekaji dijiti na teknolojia inayotumika kwenye michezo.",
+		"Thamani yangu ya kipekee ni daraja hilo: nimeishi utendaji wa juu kutoka ndani — kama mkimbiaji, kama mkurugenzi wa michezo wa msingi na kama mtaalamu wa masaji ya michezo kwa wanariadha wataalamu — na najua jinsi ya kusoma data iliyo nyuma. Ninaelewa kile nambari inamaanisha kwa mwanamichezo, kwa sababu nimekuwa mwanamichezo huyo. Ninaunganisha ulimwengu huo mbili ili kugeuza data kuwa maamuzi yanayoboresha utendaji.",
+		"Zaidi ya hayo, kutokana na hali yangu kama mwanamichezo wa kiwango cha juu, nilipata ufadhili wa masomo wa kusoma Shahada ya Uzamili katika Uwekaji Dijiti, Ubunifu na Teknolojia katika Michezo, ambayo nimeshakamilisha na ambayo inapanua mtazamo wangu kwa mfumo mzima wa ikolojia wa michezo, zaidi ya baiskeli."
+	],
+	"facts": [
+		{
+			"label": "Msingi",
+			"value": "Benidorm · Valencia"
+		},
+		{
+			"label": "Hali",
+			"value": "Inapatikana kwa miradi"
+		},
+		{
+			"label": "Mtazamo",
+			"value": "Data + utendaji wa michezo"
+		},
+		{
+			"label": "Lugha",
+			"value": "Kihispania cha asili · Valenciano · Kiingereza B1"
+		},
+		{
+			"label": "Elimu",
+			"value": "Digrii katika Sayansi ya Data (UPV) · Shahada ya Uzamili katika Uwekaji Dijiti, Ubunifu na Teknolojia katika Michezo"
+		}
+	]
+}

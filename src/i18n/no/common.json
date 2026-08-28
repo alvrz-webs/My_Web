@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Om meg",
+		"proyectos": "Prosjekter",
+		"experiencia": "Erfaring",
+		"contacto": "Kontakt",
+		"ariaMain": "Hovednavigasjon",
+		"openMenu": "Åpne meny"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Sosiale medier"
+	},
+	"langSwitch": {
+		"label": "Endre språk",
+		"traducir": "Endre språk",
+		"buscar": "Søk etter språk…"
+	},
+	"cookies": {
+		"texto": "Vi bruker egne informasjonskapsler for anonym analyse og for å forbedre din opplevelse. Vi bruker ikke tredjepartscookies.",
+		"politica": "Retningslinjer for informasjonskapsler",
+		"aceptar": "Godta",
+		"rechazar": "Avvis",
+		"configurar": "Konfigurer informasjonskapsler",
+		"borrarDatos": "Slett mine data",
+		"ariaBanner": "Samtykke til informasjonskapsler"
+	},
+	"legal": {
+		"privacidad": "Personvernerklæring",
+		"cookies": "Retningslinjer for informasjonskapsler"
+	},
+	"person": {
+		"jobTitle": "Datavitenskapelig",
+		"description": "Datavitenskapelig med spesialisering i sportsanalytikk, med erfaring innen profesjonell sykling."
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "Esperientzia — Mario Álvarez",
+		"description": "Bi mundu, hizkuntza bera: errendimendua. Mario Álvarezen esperientzia datuetan eta ingeniaritzan, eta goi-mailako txirrindularitzan.",
+		"eyebrow": "Esperientzia",
+		"heading": "Bi mundu, hizkuntza bera: errendimendua",
+		"colDatos": "Datuak eta Teknologia",
+		"colDeporte": "Goi-mailako kirola"
+	},
+	"datos": [
+		{
+			"title": "SIME TELECOM — Datu Zientziako praktikak",
+			"meta": "Datuen Ingeniaritza · Benidorm · 2026",
+			"paragraphs": [
+				"SIME-k kudeaketa-softwarea garatzen du (erreserbak, fakturazioa, txostenak, jatetxeetako eskaerak), ehunbe bezerori zerbitzua ematen diena sistema zentral batetik, elkarri lotutako +580 taula eta +100 milioi erregistro baino gehiagoko datu-base baten gainean. Hazkundeak bezeroak hainbat datu-batan banatzera behartu zituen karga eta moteltasun-kexak arintzeko.",
+				"Nire lana: datu-base horiek aztertzea eta, kontsulten eta indizeen optimizazioaren bidez, datu guztiak datu-base eraginkor bakarrean bateratzeko diseinatzea, hardwarea (RAM/CPU) ia eskalatu gabe. Hobekuntza garatuta dago jada, probako zerbitzarian baliozkotze-fasean."
+			]
+		},
+		{
+			"title": "Cofidis taldearekin proiektuak (World Tour)",
+			"meta": "Python · 2025eko uda",
+			"paragraphs": [
+				"Txirrindularitza profesionalean datuen analisira sartzeko proba gisa egin nuen proiektu propioa:"
+			],
+			"list": [
+				"UCI zailtasun-analizatzailea: UCI rankingaren web scraping-aren bidez, taldeko txirrindulariak kokatzen ditu eta UCI puntuak batzeko zailtasun-maila estimatzen du plantilla kontuan hartuta.",
+				"Lasterketa-profilaren iragarlea: lasterketa bakoitzaren ezaugarriak aurreikusten ditu eta zailtasun-nota bat esleitzen dio helburuak eta estrategia planifikatzeko."
+			]
+		},
+		{
+			"title": "Proiektu akademiko eta pertsonalak",
+			"meta": "Analisia, bistaratzea eta machine learning",
+			"paragraphs": [
+				"Datuen analisiaren, bistaratzearen eta machine learning-aren lan propioak."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "Ikusi proiektuak"
+			}
+		}
+	],
+	"deporte": [
+		{
+			"title": "Lehiaketa",
+			"paragraphs": [
+				"Espainiako madison txapelduna (18 urte); pistan Munduko eta Europako txapelketak Espainiako Selekzioarekin (6.a bietan); goi-mailako kirolaria; pistan txirrindulari federatua, aktibo dagoena."
+			]
+		},
+		{
+			"title": "Kirol-zuzendaritza",
+			"paragraphs": [
+				"I. eta II. Mailako Kirol Zuzendaria (RFEC); oinarrizko txirrindularien (14–18) prestakuntza eta jarraipena nire aitarekin batera; laguntzailea Valentziako Erkidegoko Selekzioarekin lehiaketetan (2026)."
+			]
+		},
+		{
+			"title": "Quiromasajea eta staff teknikoa",
+			"meta": "2025eko uda",
+			"paragraphs": [
+				"Quiromasajista tituluduna; txirrindulari profesionalen masajista; staff-a Valentziako Erkidegoko Selekzioarekin, talde kontinental filipinar batekin eta txirrindulariekin banaka Benidormen."
+			]
+		}
+	]
+}

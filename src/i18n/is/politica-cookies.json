@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Smákökustefna — Mario Álvarez",
+		"description": "Hvaða smákökur þessi vefur notar, í hvaða tilgangi samþykki þitt er notað og hvernig það er breytt hvenær sem er.",
+		"eyebrow": "Lagalegt",
+		"heading": "Smákökustefna"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Þessi vefur notar smákökur og svipaða tækni (svo sem staðbundna geymslu vafra) fyrir rétta virkni og, ef þú samþykkir, til að greina nafnlaust hvernig efnið er notað."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Notaðar smákökur:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Heiti",
+				"Tilgangur",
+				"Gerð",
+				"Gildistími"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Muna val þitt um þessa smákökustefnu",
+					"Eigin, tæknileg (undanþegin samþykki)",
+					"12 mánuðir"
+				],
+				[
+					"visitante_id",
+					"Nafnlaust auðkenni til að tengja heimsóknir þínar og sjá hvaða efni er gagnlegt",
+					"Eigin, greiningarleg (krefst samþykkis þíns)",
+					"12 mánuðir"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Engar þessara smákökur eru frá þriðja aðila, engar eru notaðar í auglýsingaskyni og engum er deilt með neinum utan þessarar síðu."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Þú getur breytt ákvörðun þinni eða afturkallað samþykki þitt hvenær sem er með hlekknum \"Stilla smákökur\" í fóttexta, og eytt öllum gögnum þínum tafarlaust með hnappinum \"Eyða gögnum mínum\" á sama spjaldi."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Fyrir frekari upplýsingar um hvernig gögn þín eru meðhöndluð, sjá persónuverndarstefnuna."
+		}
+	]
+}

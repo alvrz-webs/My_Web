@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Dasar Privasi — Mario Álvarez",
+		"description": "Dasar privasi tapak web Mario Álvarez: data apa yang dikumpul, untuk tujuan apa dan cara melaksanakan hak anda.",
+		"eyebrow": "Undang-undang",
+		"heading": "Dasar Privasi"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Pengawal data",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, dengan alamat di Benidorm (Alicante), Sepanyol. Hubungi: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Tujuan pemprosesan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Laman web ini menganalisis secara dalaman dan untuk tujuan statistik semata-mata kandungan (seksyen, projek) yang paling berguna kepada mereka yang melawatinya, dengan matlamat untuk menambah baik kandungannya. Ia tidak digunakan untuk tujuan pengiklanan, tidak dikongsi dengan pihak ketiga dan tidak dijual dalam apa jua keadaan."
+				}
+			]
+		},
+		{
+			"titulo": "3. Data yang dikumpul (hanya jika anda menerima kuki analitikal)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Pengenal pasti awanama rawak, tidak dipautkan kepada nama anda, e-mel atau sebarang maklumat lain yang mengenal pasti anda secara langsung.",
+						"Halaman dan projek yang anda lawati, dan masa perhatian pada setiap satu (semasa tab aktif).",
+						"Interaksi (klik pada projek, pautan atau butang).",
+						"Tarikh dan masa lawatan.",
+						"Bahasa tapak yang dirujuk.",
+						"Jenis peranti (mudah alih atau desktop).",
+						"Negara anggaran, diperoleh melalui infrastruktur Cloudflare, tanpa menyimpan alamat IP anda.",
+						"Halaman asal (contohnya, LinkedIn atau enjin carian)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Alamat IP anda tidak dikumpul, tiada teknik pengenalan pelayar (fingerprinting) digunakan, begitu juga alat pihak ketiga seperti Google Analytics atau yang serupa."
+				}
+			]
+		},
+		{
+			"titulo": "4. Asas undang-undang",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pemprosesan adalah berdasarkan persetujuan eksplisit anda (perkara 6.1.a GDPR dan artikel 22.2 LSSI-CE), yang boleh anda tarik balik pada bila-bila masa daripada pengurus kuki tapak itu sendiri."
+				}
+			]
+		},
+		{
+			"titulo": "5. Tempoh pemeliharaan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data disimpan selama maksimum 12 bulan dari lawatan terakhir anda, selepas itu ia dipadamkan secara automatik."
+				}
+			]
+		},
+		{
+			"titulo": "6. Penerima dan pemindahan antarabangsa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data tidak diserah atau dijual kepada pihak ketiga. Ia disimpan dalam Cloudflare D1, perkhidmatan pangkalan data yang disediakan oleh Cloudflare, Inc., yang bertindak sebagai pemproses data. Cloudflare boleh memproses data di luar Kawasan Ekonomi Eropah; dalam kes sedemikian, pemindahan tersebut dilindungi oleh Klausul Kontrak Standard yang diluluskan oleh Suruhanjaya Eropah. Maklumat lanjut dalam dasar privasi Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Hak anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Anda boleh melaksanakan hak anda untuk akses, pembetulan, pemadaman, tentangan, pengehadan pemprosesan dan mudah alih pada bila-bila masa dengan menulis kepada malvmar5@hotmail.com. Di samping itu, anda boleh memadamkan data anda serta-merta, tanpa perlu menulis kepada sesiapa, daripada butang \"Padam data saya\" yang tersedia dalam tetapan kuki tapak. Anda juga mempunyai hak untuk memfailkan aduan dengan Agensi Perlindungan Data Sepanyol (www.aepd.es) jika anda percaya bahawa hak anda belum ditangani dengan betul."
+				}
+			]
+		},
+		{
+			"titulo": "8. Perubahan kepada dasar ini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dasar ini boleh dikemas kini untuk menyesuaikan diri dengan perubahan undang-undang atau tapak itu sendiri."
+				}
+			]
+		}
+	]
+}

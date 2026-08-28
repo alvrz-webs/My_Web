@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projekti — Mario Álvarez",
+		"description": "Mario Álvarez datu analīzes, vizualizācijas un mašīnmācīšanās krātuves un projekti.",
+		"eyebrow": "Projekti",
+		"heading": "Projekti",
+		"intro": "Ieskats manos darbos: no profesionāliem riteņbraukšanas rīkiem līdz akadēmiskiem analīzes un mašīnmācīšanās projektiem."
+	},
+	"list": {
+		"eyebrow": "Darbs",
+		"title": "Projekti",
+		"intro": "Automātiska manu publisko GitHub krātuvju izlase.",
+		"especializaciones": "Specializācijas",
+		"fallbackDescripcion": "Datu analīzes un zinātnes projekts.",
+		"verEnGithub": "Skatīt GitHub",
+		"vacio": "Pašlaik krātuves nevarēja ielādēt.",
+		"filtroLabel": "Filtrēt projektus pēc veida",
+		"filtroTodos": "Visi",
+		"filtroDatos": "Dati",
+		"filtroWebs": "Vietnes",
+		"verWeb": "Skatīt vietni",
+		"verCodigo": "Skatīt kodu",
+		"enDesarrollo": "Izstrādes stadijā",
+		"fallbackDescripcionWeb": "Tīmekļa projekts.",
+		"vacioWebs": "Šajā sadaļā pagaidām nav publicētu vietņu."
+	}
+}

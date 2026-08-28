@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Projekti — Mario Álvarez",
+		"description": "Repozitoriji in projekti analize podatkov, vizualizacije in strojne učenja, katerih avtor je Mario Álvarez.",
+		"eyebrow": "Projekti",
+		"heading": "Projekti",
+		"intro": "Pregled mojega dela: od orodij za profesionalno kolesarjenje do akademskih projektov analize in strojnega učenja."
+	},
+	"list": {
+		"eyebrow": "Delo",
+		"title": "Projekti",
+		"intro": "Samodejni izbor mojih javnih repozitorijev na GitHub.",
+		"especializaciones": "Specializacije",
+		"fallbackDescripcion": "Projekt analize podatkov in podatkovne znanosti.",
+		"verEnGithub": "Glej na GitHub",
+		"vacio": "Trenutno ni bilo mogoče naložiti repozitorijev.",
+		"filtroLabel": "Filtriraj projekte glede na vrsto",
+		"filtroTodos": "Vsi",
+		"filtroDatos": "Podatki",
+		"filtroWebs": "Spletna mesta",
+		"verWeb": "Ogled spletnega mesta",
+		"verCodigo": "Ogled kodo",
+		"enDesarrollo": "V razvoju",
+		"fallbackDescripcionWeb": "Spletni projekt.",
+		"vacioWebs": "V tej razdelku še ni objavljenih spletnih mest."
+	}
+}

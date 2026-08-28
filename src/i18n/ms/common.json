@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "Tentang saya",
+		"proyectos": "Projek",
+		"experiencia": "Pengalaman",
+		"contacto": "Hubungi",
+		"ariaMain": "Navigasi utama",
+		"openMenu": "Buka menu"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Rangkaian sosial"
+	},
+	"langSwitch": {
+		"label": "Tukar bahasa",
+		"traducir": "Tukar bahasa",
+		"buscar": "Cari bahasa…"
+	},
+	"cookies": {
+		"texto": "Kami menggunakan kuki sendiri untuk analitis awanama dan meningkatkan pengalaman anda. Kami tidak menggunakan kuki pihak ketiga.",
+		"politica": "Dasar kuki",
+		"aceptar": "Terima",
+		"rechazar": "Tolak",
+		"configurar": "Konfigurasikan kuki",
+		"borrarDatos": "Padamkan data saya",
+		"ariaBanner": "Persetujuan kuki"
+	},
+	"legal": {
+		"privacidad": "Dasar privasi",
+		"cookies": "Dasar kuki"
+	},
+	"person": {
+		"jobTitle": "Saintis data",
+		"description": "Saintis data pakar dalam analitis sukan, dengan pengalaman dalam berbasikal profesional."
+	}
+}

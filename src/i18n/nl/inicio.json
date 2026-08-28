@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Mario Álvarez — Data-wetenschapper gespecialiseerd in sport",
+		"description": "Mario Álvarez, data-wetenschapper in Valencia gespecialiseerd in sportanalyse. Data · Sport · Progress.",
+		"verProyectos": "Bekijk projecten",
+		"contacto": "Contact",
+		"verMas": "Bekijk meer",
+		"verTodosProyectos": "Bekijk alle projecten",
+		"irAContacto": "Ga naar contact",
+		"herramientas": "Belangrijkste tools"
+	},
+	"hero": {
+		"eyebrow": "Data-wetenschapper · Sportanalyse · Valencia",
+		"titlePre": "Ik zet data om in ",
+		"titleHighlight": "duidelijke beslissingen",
+		"subtitle": "Ik ben de brug tussen data-analyse en topsport: ik transformeer prestatiemetrics in strategieën die het verschil maken op het veld.",
+		"tools": [
+			"Python",
+			"R",
+			"SQL",
+			"Power BI",
+			"Machine Learning"
+		]
+	},
+	"sobreMiResumen": {
+		"eyebrow": "Over mij",
+		"title": "Data met context van baan, weg en competitie",
+		"text": "Ik ben Mario Álvarez, student Data Science aan de UPV met echte ervaring in het professionele wielrennen. Ik combineer data-analyse met topsportprestaties om elke metric om te zetten in een beslissing die de resultaten verbetert."
+	},
+	"stats": [
+		{
+			"value": "UPV",
+			"label": "Opleiding",
+			"detail": "Bachelor in Data Science, Universitat Politècnica de València."
+		},
+		{
+			"value": "Elite",
+			"label": "Ervaring",
+			"detail": "Echte werkervaring binnen een professioneel wielerteam."
+		},
+		{
+			"value": "Data + Sport",
+			"label": "Aanpak",
+			"detail": "Analyse toegepast op de verbetering van sportprestaties."
+		}
+	],
+	"experienciaResumen": {
+		"eyebrow": "Ervaring",
+		"title": "Twee werelden, dezelfde taal: prestatie",
+		"text": "Ik heb op het hoogste niveau geëxpresteerd en pas vandaag dezelfde criteria toe op data: ik begrijp wat een cijfer betekent voor een sporter omdat ik die sporter ben geweest."
+	},
+	"ctaFinal": {
+		"title": "Zullen we over data praten?",
+		"text": "Vertel me over je project en we zoeken samen naar de beslissingen die de prestaties verbeteren."
+	}
+}

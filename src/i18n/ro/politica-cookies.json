@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Politica privind modulele cookie — Mario Álvarez",
+		"description": "Ce module cookie utilizează acest site, în ce scop și cum să îți schimbi consimțământul în orice moment.",
+		"eyebrow": "Legal",
+		"heading": "Politica privind modulele cookie"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "Acest site web utilizează module cookie și tehnologii similare (cum ar fi stocarea locală a browserului) pentru funcționarea sa corectă și, dacă îți dai consimțământul, pentru a analiza în mod anonim modul în care este utilizat conținutul."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Module cookie utilizate:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Nume",
+				"Scop",
+				"Tip",
+				"Durată"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Reținerea alegerii tale cu privire la această politică privind modulele cookie",
+					"Proprie, tehnică (exceptată de la consimțământ)",
+					"12 luni"
+				],
+				[
+					"visitante_id",
+					"Identificator anonim pentru a corela vizitele tale și a ști ce conținut este util",
+					"Proprie, analitică (necesită consimțământul tău)",
+					"12 luni"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Niciunul dintre aceste module cookie nu aparține unor terți, niciunul nu este utilizat în scopuri publicitare și niciunul nu este partajat cu nimeni în afara acestui site."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Îți poți schimba decizia sau îți poți retrage consimțământul în orice moment din linkul „Configurare cookie-uri” din subsolul paginii și îți poți șterge imediat toate datele cu butonul „Șterge datele mele” din același panou."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Pentru mai multe informații despre modul în care sunt prelucrate datele tale, consultă Politica de confidențialitate."
+		}
+	]
+}

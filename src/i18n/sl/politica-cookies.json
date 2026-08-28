@@ -1,0 +1,53 @@
+{
+	"meta": {
+		"title": "Politika piškotkov — Mario Álvarez",
+		"description": "Katere piškotke uporablja to spletno mesto, s kakšnim namenom in kako lahko kadarkoli spremenite svoje soglasje.",
+		"eyebrow": "Pravno obvestilo",
+		"heading": "Politika piškotkov"
+	},
+	"bloques": [
+		{
+			"tipo": "parrafo",
+			"texto": "To spletno mesto uporablja piškotke in podobne tehnologije (kot je lokalna hramba brskalnika) za svoje pravilno delovanje in, če v to privolíte, za anonimno analizo uporabe vsebin."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Uporabljeni piškotki:"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				"Ime",
+				"Namen",
+				"Vrsta",
+				"Trajanje"
+			],
+			"filas": [
+				[
+					"consentimiento_cookies",
+					"Zapomnite si svojo izbiro glede te politike piškotkov",
+					"Lastni, tehnični (izvzeti iz obveznega soglasja)",
+					"12 mesecev"
+				],
+				[
+					"visitante_id",
+					"Anonimni identifikator za povezovanje vaših obiskov in ugotavljanje, katere vsebine so koristne",
+					"Lastni, analitski (zahtevajo vaše soglasje)",
+					"12 mesecev"
+				]
+			]
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Nobeden od teh piškotkov ni last tretjih oseb, noeden se ne uporablja v oglaševalske namene in noeden se ne deli z nikomer zunaj tega spletnega mesta."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Svojo odločitev lahko kadarkoli spremenite ali umaknete svoje soglasje prek povezave \"Nastavitve piškotkov\" v nogi strani, z gumbom \"Izbriši moje podatke\" v isti plošči pa lahko takoj izbrišete vse svoje podatke."
+		},
+		{
+			"tipo": "parrafo",
+			"texto": "Za več informacij o obdelavi vaših podatkov si oglejte Politiko zasebnosti."
+		}
+	]
+}

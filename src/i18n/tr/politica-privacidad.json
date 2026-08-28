@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Gizlilik Politikası — Mario Álvarez",
+		"description": "Mario Álvarez'in web sitesinin gizlilik politikası: hangi verilerin toplandığı, hangi amaçla toplandığı ve haklarınızı nasıl kullanabileceğiniz.",
+		"eyebrow": "Yasal",
+		"heading": "Gizlilik Politikası"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Veri sorumlusu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, Benidorm (Alicante), İspanya ikametgahlı. İletişim: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. İşleme amacı",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu web sitesi, içeriğini iyileştirmek amacıyla hangi içeriklerin (bölümler, projeler) ziyaretçiler için daha yararlı olduğunu dahili olarak ve yalnızca istatistiksel amaçlarla analiz eder. Reklam amaçlı kullanılmaz, üçüncü taraflarla paylaşılmaz ve hiçbir koşulda satılmaz."
+				}
+			]
+		},
+		{
+			"titulo": "3. Toplanan veriler (yalnızca analitik çerezleri kabul ederseniz)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Adınız, e-postanız veya sizi doğrudan tanımlayan diğer bilgilerin hiçbirine bağlı olmayan rastgele, anonim bir tanımlayıcı.",
+						"Ziyaret ettiğiniz sayfalar ve projeler ile her birinde harcanan süre (sekme aktifken).",
+						"Etkileşimler (projelere, bağlantılara veya düğmelere tıklamalar).",
+						"Ziyaretin tarihi ve saati.",
+						"Danışılan site dili.",
+						"Cihaz türü (mobil veya masaüstü).",
+						"IP adresiniz depolanmadan, Cloudflare altyapısı aracılığıyla elde edilen yaklaşık ülke.",
+						"Gelinen sayfa (örneğin LinkedIn veya bir arama motoru)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "IP adresiniz toplanmaz, tarayıcı tanımlama teknikleri (parmak izi) veya Google Analytics veya benzeri üçüncü taraf araçlar kullanılmaz."
+				}
+			]
+		},
+		{
+			"titulo": "4. Yasal dayanak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "İşleme, sitenin kendi çerez yöneticisinden istediğiniz zaman geri çekebileceğiniz açık rızanıza dayanmaktadır (GDPR Madde 6.1.a ve LSSI-CE Madde 22.2)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Saklama süresi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veriler, son ziyaretinizden itibaren en fazla 12 ay süreyle saklanır ve bu sürenin sonunda otomatik olarak silinir."
+				}
+			]
+		},
+		{
+			"titulo": "6. Alıcılar ve uluslararası aktarımlar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veriler üçüncü taraflara aktarılmaz veya satılmaz. Veri işleyici olarak hareket eden Cloudflare, Inc. tarafından sağlanan bir veritabanı hizmeti olan Cloudflare D1'de saklanır. Cloudflare, verileri Avrupa Ekonomik Alanı dışında işleyebilir; bu durumda bu aktarım, Avrupa Komisyonu tarafından onaylanan Standart Sözleşme Maddelerine dayanmaktadır. Daha fazla bilgi Cloudflare gizlilik politikasında: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Haklarınız",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "malvmar5@hotmail.com adresine yazarak erişim, düzeltme, silme, itiraz etme, işlemeyi kısıtlama ve taşınabilirlik haklarınızı istediğiniz zaman kullanabilirsiniz. Ayrıca, sitenin çerez ayarlarında bulunan \"Verilerimi sil\" düğmesinden kimseye yazmanıza gerek kalmadan verilerinizi hemen silebilirsiniz. Haklarınızın düzgün bir şekilde ele alınmadığını düşünüyorsanız, İspanyol Veri Koruma Ajansına (www.aepd.es) şikayette bulunma hakkına da sahipsiniz."
+				}
+			]
+		},
+		{
+			"titulo": "8. Bu politikadaki değişiklikler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu politika, yasal değişikliklere veya sitenin kendisine uyum sağlamak için güncellenebilir."
+				}
+			]
+		}
+	]
+}

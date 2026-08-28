@@ -1,0 +1,37 @@
+{
+	"nav": {
+		"sobreMi": "O meni",
+		"proyectos": "Projekti",
+		"experiencia": "Izkušnje",
+		"contacto": "Kontakt",
+		"ariaMain": "Glavna navigacija",
+		"openMenu": "Odpri meni"
+	},
+	"footer": {
+		"tagline": "Data · Sport · Progress",
+		"copySufijo": "Mario Álvarez. Valencia.",
+		"ariaSocial": "Družbena omrežja"
+	},
+	"langSwitch": {
+		"label": "Spremeni jezik",
+		"traducir": "Spremeni jezik",
+		"buscar": "Išči jezik…"
+	},
+	"cookies": {
+		"texto": "Uporabljamo lastne piškotke za anonymno analitiko in izboljšanje vaše izkušnje. Ne uporabljamo piškotkov tretjih oseb.",
+		"politica": "Politika piškotkov",
+		"aceptar": "Sprejmi",
+		"rechazar": "Zavrni",
+		"configurar": "Nastavi piškotke",
+		"borrarDatos": "Izbriši moje podatke",
+		"ariaBanner": "Soglasje za piškotke"
+	},
+	"legal": {
+		"privacidad": "Politika zasebnosti",
+		"cookies": "Politika piškotkov"
+	},
+	"person": {
+		"jobTitle": "Podatkovni znanstvenik",
+		"description": "Podatkovni znanstvenik, specializiran za športno analitiko, z izkušnjami v profesionalnem kolesarstvu."
+	}
+}

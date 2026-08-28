@@ -1,0 +1,95 @@
+{
+	"meta": {
+		"title": "Patakaran sa Pagkapribado — Mario Álvarez",
+		"description": "Patakaran sa pagkapribado ng site ni Mario Álvarez: anong mga datos ang kinokolekta, para sa anong layunin at paano gamitin ang iyong mga karapatan.",
+		"eyebrow": "Legal",
+		"heading": "Patakaran sa Pagkapribado"
+	},
+	"secciones": [
+		{
+			"titulo": "1. May-ari ng pagproseso",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez Martínez, na may tirahan sa Benidorm (Alicante), Espanya. Makipag-ugnayan sa: malvmar5@hotmail.com"
+				}
+			]
+		},
+		{
+			"titulo": "2. Layunin ng pagproseso",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang web na ito ay nagsusuri sa loob at para sa mga layuning estadistika lamang kung aling mga nilalaman (mga seksyon, proyekto) ang pinaka-kapaki-pakinabang sa mga bumibisita dito, na may layuning mapabuti ang nilalaman nito. Hindi ito ginagamit para sa mga layuning pang-ad, hindi ito ibinabahagi sa mga ikatlong partido at hindi ito ipinagbibili sa anumang sitwasyon."
+				}
+			]
+		},
+		{
+			"titulo": "3. Mga datos na kinokolekta (kung tatanggapin mo lamang ang mga analitikal na cookies)",
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						"Isang random na hindi nagpapakilalang identifier, na hindi nakakonekta sa iyong pangalan, email o anumang iba pang impormasyon na direktang nagpapakilala sa iyo.",
+						"Mga pahina at proyektong binibisita mo, at ang oras ng atensyon sa bawat isa (habang aktibo ang tab).",
+						"Mga pakikipag-ugnayan (mga click sa mga proyekto, link o pindutan).",
+						"Petsa at oras ng pagbisita.",
+						"Wika ng site na kinonsulta.",
+						"Uri ng aparato (mobile o desktop).",
+						"Tinatayang bansa, na nakuha sa pamamagitan ng imprastruktura ng Cloudflare, nang hindi iniimbak ang iyong IP address.",
+						"Pahina ng pinanggalingan (halimbawa, LinkedIn o isang search engine)."
+					]
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hindi kinokolekta ang iyong IP address, walang ginagamit na mga pamamaraan ng pagkakakilanlan ng browser (fingerprinting), o mga tool ng mga ikatlong partido tulad ng Google Analytics o mga katulad nito."
+				}
+			]
+		},
+		{
+			"titulo": "4. Legal na batayan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang pagproseso ay batay sa iyong malinaw na pahintulot (artikulo 6.1.a ng RGPD at artikulo 22.2 ng LSSI-CE), na maaari mong bawiin anumang oras mula sa tag Pamahalaan ng cookies ng mismong site."
+				}
+			]
+		},
+		{
+			"titulo": "5. Panahon ng pagpapanatili",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang mga datos ay iniimbak nang maximum na 12 buwan mula sa iyong huling pagbisita, pagkatapos nito ay awtomatikong tinatanggal."
+				}
+			]
+		},
+		{
+			"titulo": "6. Mga tatanggap at internasyonal na paglilipat",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang mga datos ay hindi ibinibigay o ipinagbibili sa mga ikatlong partido. Ang mga ito ay nakaimbak sa Cloudflare D1, isang serbisyo ng database na ibinigay ng Cloudflare, Inc., na kumikilos bilang tagapamahala ng pagproseso. Ang Cloudflare ay maaaring magproseso ng mga datos sa labas ng European Economic Area; sa kasong iyon, ang naturang paglilipat ay sinusuportahan ng Standard Contractual Clauses na inaprubahan ng European Commission. Higit pang impormasyon sa patakaran sa pagkapribado ng Cloudflare: https://www.cloudflare.com/privacypolicy/"
+				}
+			]
+		},
+		{
+			"titulo": "7. Ang iyong mga karapatan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Maaari mong gamitin anumang oras ang iyong mga karapatan sa pag-access, pagwawasto, pagtanggal, pagsalungat, paghigpit ng pagproseso at paglilipat sa pamamagitan ng pagsulat sa malvmar5@hotmail.com. Bilang karagdagan, maaari mong tanggalin ang iyong datos kaagad, nang hindi kinakailangang magsulat sa sinuman, mula sa pindutang \"Burahin ang aking mga datos\" na magagamit sa mga setting ng cookies ng site. May karapatan ka ring maghain ng reklamo sa Spanish Data Protection Agency (www.aepd.es) kung naniniwala kang ang iyong mga karapatan ay hindi natugunan nang maayos."
+				}
+			]
+		},
+		{
+			"titulo": "8. Mga pagbabago sa patakarang ito",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang patakarang ito ay maaaring i-update upang umangkop sa mga pagbabago sa batas o sa mismong site."
+				}
+			]
+		}
+	]
+}

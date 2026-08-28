@@ -1,0 +1,27 @@
+{
+	"page": {
+		"title": "Proiecte — Mario Álvarez",
+		"description": "Depozite și proiecte de analiză a datelor, vizualizare și machine learning de Mario Álvarez.",
+		"eyebrow": "Proiecte",
+		"heading": "Proiecte",
+		"intro": "O privire asupra muncii mele: de la instrumente pentru ciclism profesional până la proiecte academice de analiză și machine learning."
+	},
+	"list": {
+		"eyebrow": "Muncă",
+		"title": "Proiecte",
+		"intro": "O selecție automată a depozitelor mele publice de pe GitHub.",
+		"especializaciones": "Specializări",
+		"fallbackDescripcion": "Proiect de analiză și știința datelor.",
+		"verEnGithub": "Vezi pe GitHub",
+		"vacio": "Nu s-au putut încărca depozitele în acest moment.",
+		"filtroLabel": "Filtrează proiectele după tip",
+		"filtroTodos": "Toate",
+		"filtroDatos": "Date",
+		"filtroWebs": "Web",
+		"verWeb": "Vezi site-ul",
+		"verCodigo": "Vezi codul",
+		"enDesarrollo": "În dezvoltare",
+		"fallbackDescripcionWeb": "Proiect web.",
+		"vacioWebs": "Nu există încă site-uri publicate în această secțiune."
+	}
+}
