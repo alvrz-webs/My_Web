@@ -578,25 +578,13 @@
 			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
 			"value": "കുッキー നയം"
 		},
-		"bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"bloques/0/texto": {
 			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
 			"value": "ഈ വെബ്‌സൈറ്റ് ശരിയായി പ്രവർത്തിക്കുന്നതിനും, നിങ്ങളുടെ സമ്മതത്തോടെ ഉള്ളടക്കം എങ്ങനെ ഉപയോഗിക്കുന്നുവെന്ന് അജ്ഞാതമായി വിശകലനം ചെയ്യുന്നതിനും കുക്കികളും സമാന സാങ്കേതികവിദ്യകളും (ബ്രൗസർ ലോക്കൽ സ്റ്റോറേജ് പോലെ) ഉപയോഗിക്കുന്നു."
 		},
-		"bloques/1/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"bloques/1/texto": {
 			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
 			"value": "ഉപയോഗിക്കുന്ന കുക്കികൾ:"
-		},
-		"bloques/2/tipo": {
-			"hash": "4a106a9d5ab0bb93b5b43a631db37df385a14c174875bea35bf244e5f35eedc8",
-			"value": "tabla"
 		},
 		"bloques/2/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
@@ -646,25 +634,13 @@
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 മാസങ്ങൾ"
 		},
-		"bloques/3/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"bloques/3/texto": {
 			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
 			"value": "ഈ കുക്കികളിൽ ഒന്നും മൂന്നാം കക്ഷിയുടേതല്ല, പരസ്യ ആവശ്യങ്ങൾക്കായി ഉപയോഗിക്കുന്നില്ല, ഈ സൈറ്റിന് പുറത്തുള്ള ആരുമായും പങ്കിടുന്നുമില്ല."
 		},
-		"bloques/4/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"bloques/4/texto": {
 			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
 			"value": "ഫൂട്ടറിലെ \"കുക്കികൾ കോൺഫിഗർ ചെയ്യുക\" എന്ന ലിങ്കിൽ നിന്ന് നിങ്ങൾക്ക് എപ്പോഴെങ്കിലും തീരുമാനം മാറ്റുകയോ സമ്മതം പിൻവലിക്കുകയോ ചെയ്യാം, കൂടാതെ അതേ പാനലിലെ \"എൻ്റെ ഡാറ്റ ഇല്ലാതാക്കുക\" എന്ന ബട്ടൺ ഉപയോഗിച്ച് നിങ്ങളുടെ എല്ലാ ഡാറ്റയും ഉടനടി ഇല്ലാതാക്കുകയും ചെയ്യാം."
-		},
-		"bloques/5/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
 		},
 		"bloques/5/texto": {
 			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
@@ -692,10 +668,6 @@
 			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
 			"value": "1. ഡാറ്റ പ്രോസസ്സിംഗിന്റെ ഉത്തരവാദി"
 		},
-		"secciones/0/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"secciones/0/bloques/0/texto": {
 			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
 			"value": "Mario Álvarez Martínez, Benidorm (Alicante), സ്പെയിൻ. ബന്ധപ്പെടുക: malvmar5@hotmail.com"
@@ -704,10 +676,6 @@
 			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
 			"value": "2. പ്രോസസ്സിംഗിന്റെ ഉദ്ദേശ്യം"
 		},
-		"secciones/1/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"secciones/1/bloques/0/texto": {
 			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
 			"value": "ഈ വെബ്‌സൈറ്റ് ആന്തരികമായും പൂർണ്ണമായും സ്റ്റാറ്റിസ്റ്റിക്സ് ആവശ്യങ്ങൾക്കായും സന്ദർശകർക്ക് ഏതൊക്കെ ഉള്ളടക്കങ്ങളാണ് (വിഭാഗങ്ങൾ, പ്രോജക്റ്റുകൾ) കൂടുതൽ ഉപകാരപ്രദമെന്ന് വിശകലനം ചെയ്യുന്നു, ഇതിന്റെ ഉള്ളടക്കം മെച്ചപ്പെടുത്തുന്ന ലക്ഷ്യത്തോടെയാണിത്. ഇത് പരസ്യ ആവശ്യങ്ങൾക്കായി ഉപയോഗിക്കുന്നില്ല, മൂന്നാം കക്ഷികളുമായി പങ്കുവെക്കുന്നില്ല, യാതൊരു സാഹചര്യത്തിലും വിൽക്കുന്നതുമല്ല."
@@ -715,10 +683,6 @@
 		"secciones/2/titulo": {
 			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
 			"value": "3. ശേഖരിക്കുന്ന ഡാറ്റ (അനലിറ്റിക്കൽ കുക്കികൾ നിങ്ങൾ അംഗീകരിക്കുകയാണെങ്കിൽ മാത്രം)"
-		},
-		"secciones/2/bloques/0/tipo": {
-			"hash": "0296c43c240aa12c0950ff03ab0ebe09a1762b6600266e122f9c4b4099f72359",
-			"value": "lista"
 		},
 		"secciones/2/bloques/0/items/0": {
 			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
@@ -752,10 +716,6 @@
 			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
 			"value": "വന്ന പേജ് (ഉദാഹരണത്തിന്, LinkedIn അല്ലെങ്കിൽ ഒരു സെർച്ച് എഞ്ചിൻ)."
 		},
-		"secciones/2/bloques/1/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"secciones/2/bloques/1/texto": {
 			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
 			"value": "നിങ്ങളുടെ IP വിലാസം ശേഖരിക്കില്ല, ബ്രൗസർ തിരിച്ചറിയൽ സാങ്കേതികവിദ്യകൾ (fingerprinting) ഉപയോഗിക്കില്ല, Google Analytics അല്ലെങ്കിൽ അതുപോലുള്ള മൂന്നാം കക്ഷി ടൂളുകളും ഉപയോഗിക്കില്ല."
@@ -763,10 +723,6 @@
 		"secciones/3/titulo": {
 			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
 			"value": "4. നിയമപരമായ അടിത്തറ"
-		},
-		"secciones/3/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
 		},
 		"secciones/3/bloques/0/texto": {
 			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
@@ -776,10 +732,6 @@
 			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
 			"value": "5. സൂക്ഷിച്ചുവെക്കുന്ന കാലാവധി"
 		},
-		"secciones/4/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"secciones/4/bloques/0/texto": {
 			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
 			"value": "നിങ്ങളുടെ അവസാന സന്ദർശനം മുതൽ പരമാവധി 12 മാസം വരെ ഡാറ്റ സൂക്ഷിക്കപ്പെടുന്നു, അതിനുശേഷം അവ യാന്ത്രികമായി ഇല്ലാതാക്കപ്പെടും."
@@ -787,10 +739,6 @@
 		"secciones/5/titulo": {
 			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
 			"value": "6. സ്വീകർത്താക്കളും അന്താരാഷ്ട്ര കൈമാറ്റങ്ങളും"
-		},
-		"secciones/5/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
 		},
 		"secciones/5/bloques/0/texto": {
 			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
@@ -800,10 +748,6 @@
 			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
 			"value": "7. നിങ്ങളുടെ അവകാശങ്ങൾ"
 		},
-		"secciones/6/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
-		},
 		"secciones/6/bloques/0/texto": {
 			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
 			"value": "malvmar5@hotmail.com എന്ന വിലാസത്തിലേക്ക് എഴുതിക്കൊണ്ട് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും പ്രവേശനം, തിരുത്തൽ, നീക്കം ചെയ്യൽ, എതിർപ്പ്, പരിമിതപ്പെടുത്തൽ, ഡാറ്റാ പോർട്ടബിലിറ്റി എന്നീ അവകാശങ്ങൾ വിനിയോഗിക്കാവുന്നതാണ്. കൂടാതെ, ആർക്കും എഴുതി അയക്കേണ്ട ആവശ്യമില്ലാതെ തന്നെ, സൈറ്റിന്റെ കുക്കി ക്രമീകരണങ്ങളിൽ ലഭ്യമായ \"എന്റെ ഡാറ്റ ഇല്ലാതാക്കുക\" (Borrar mis datos) ബട്ടൺ വഴി നിങ്ങൾക്ക് ഉടൻ തന്നെ ഡാറ്റ മാറ്റിസ്ഥാപിക്കാവുന്നതാണ്. നിങ്ങളുടെ അവകാശങ്ങൾ ശരിയായി പരിഗണിക്കപ്പെട്ടിട്ടില്ലെന്ന് കരുതുകയാണെങ്കിൽ, സ്പാനിഷ് ഡാറ്റ പ്രൊട്ടക്ഷൻ ഏജൻസിക്ക് (www.aepd.es) പരാതി നൽകാനുള്ള അവകാശവും നിങ്ങൾക്കുണ്ട്."
@@ -811,10 +755,6 @@
 		"secciones/7/titulo": {
 			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
 			"value": "8. ഈ നയത്തിലെ മാറ്റങ്ങൾ"
-		},
-		"secciones/7/bloques/0/tipo": {
-			"hash": "b0df580829160d10430a6e957ad6c5d8412c4eff1bf6caccce28c02b17ec6e84",
-			"value": "parrafo"
 		},
 		"secciones/7/bloques/0/texto": {
 			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",

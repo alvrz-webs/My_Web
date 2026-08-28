@@ -1,4 +1,27 @@
 {
-	"page": {},
-	"list": {}
+	"page": {
+		"title": "Miradi — Mario Álvarez",
+		"description": "Hazina na miradi ya uchambuzi wa data, uonyeshaji na kujifunza kwa mashine ya Mario Álvarez.",
+		"eyebrow": "Miradi",
+		"heading": "Miradi",
+		"intro": "Mtazamo wa kazi yangu: kuanzia zana za baiskeli ya kitaalamu hadi miradi ya kitaaluma ya uchambuzi na kujifunza kwa mashine."
+	},
+	"list": {
+		"eyebrow": "Kazi",
+		"title": "Miradi",
+		"intro": "Uteuzi wa kiotomatiki wa hazina zangu za umma kwenye GitHub.",
+		"especializaciones": "Utaalamu",
+		"fallbackDescripcion": "Mradi wa uchambuzi na sayansi ya data.",
+		"verEnGithub": "Tazama kwenye GitHub",
+		"vacio": "Haikuwezekana kupakia hazina kwa sasa.",
+		"filtroLabel": "Chuja miradi kulingana na aina",
+		"filtroTodos": "Zote",
+		"filtroDatos": "Data",
+		"filtroWebs": "Tovuti",
+		"verWeb": "Tazama tovuti",
+		"verCodigo": "Tazama msimbo",
+		"enDesarrollo": "Inatengenezwa",
+		"fallbackDescripcionWeb": "Mradi wa tovuti.",
+		"vacioWebs": "Hakuna tovuti zilizochapishwa bado katika sehemu hii."
+	}
 }

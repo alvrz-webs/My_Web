@@ -1,0 +1,43 @@
+{
+	"meta": {},
+	"bloques": [
+		{
+			"tipo": "parrafo"
+		},
+		{
+			"tipo": "parrafo"
+		},
+		{
+			"tipo": "tabla",
+			"columnas": [
+				null,
+				null,
+				null,
+				null
+			],
+			"filas": [
+				[
+					null,
+					null,
+					null,
+					null
+				],
+				[
+					null,
+					null,
+					null,
+					null
+				]
+			]
+		},
+		{
+			"tipo": "parrafo"
+		},
+		{
+			"tipo": "parrafo"
+		},
+		{
+			"tipo": "parrafo"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"meta": {},
+	"secciones": [
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "lista",
+					"items": [
+						null,
+						null,
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					]
+				},
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		},
+		{
+			"bloques": [
+				{
+					"tipo": "parrafo"
+				}
+			]
+		}
+	]
+}
