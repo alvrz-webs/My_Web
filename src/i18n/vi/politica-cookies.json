@@ -7,15 +7,15 @@
 	},
 	"bloques": [
 		{
-			"tipo": "đoạn văn",
+			"tipo": "parrafo",
 			"texto": "Trang web này sử dụng cookie và các công nghệ tương tự (như lưu trữ cục bộ của trình duyệt) để trang web hoạt động bình thường và, nếu bạn đồng ý, để phân tích ẩn danh cách sử dụng nội dung."
 		},
 		{
-			"tipo": "đoạn văn",
+			"tipo": "parrafo",
 			"texto": "Cookie được sử dụng:"
 		},
 		{
-			"tipo": "bảng",
+			"tipo": "tabla",
 			"columnas": [
 				"Tên",
 				"Mục đích",
@@ -38,15 +38,15 @@
 			]
 		},
 		{
-			"tipo": "đoạn văn",
+			"tipo": "parrafo",
 			"texto": "Không có cookie nào trong số này là của bên thứ ba, không cookie nào được sử dụng cho mục đích quảng cáo và không cookie nào được chia sẻ với bất kỳ ai bên ngoài trang web này."
 		},
 		{
-			"tipo": "đoạn văn",
+			"tipo": "parrafo",
 			"texto": "Bạn có thể thay đổi quyết định hoặc rút lại sự đồng ý của mình bất cứ lúc nào từ liên kết \"Cấu hình cookie\" ở chân trang, và xóa ngay lập tức tất cả dữ liệu của bạn bằng nút \"Xóa dữ liệu của tôi\" trong bảng điều khiển đó."
 		},
 		{
-			"tipo": "đoạn văn",
+			"tipo": "parrafo",
 			"texto": "Để biết thêm thông tin về cách dữ liệu của bạn được xử lý, hãy tham khảo Chính sách Quyền riêng tư."
 		}
 	]

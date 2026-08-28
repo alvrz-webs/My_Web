@@ -191,7 +191,10 @@ async function traducirPagina(model, lang, idiomaInfo, page, cachePage) {
 	const esSource = leerJson(rutaOrigenEs(page));
 	if (!esSource) return { cambios: false, cachePage };
 
-	const hojas = recogerHojas(esSource);
+	// "tipo" es un discriminador interno de PoliticaBloques.astro ('parrafo' | 'lista' | 'tabla'),
+	// no texto de usuario: traducirlo rompe el matching en el componente (ver bug de nl con
+	// "paragraaf"/"tabel"). Se deja tal cual en destino vía structuredClone, sin pasar por Gemini.
+	const hojas = recogerHojas(esSource).filter((hoja) => hoja.path[hoja.path.length - 1] !== 'tipo');
 	const nuevaCachePage = {};
 	const pendientes = [];
 

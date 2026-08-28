@@ -7,15 +7,15 @@
 	},
 	"bloques": [
 		{
-			"tipo": "paragraaf",
+			"tipo": "parrafo",
 			"texto": "Deze website maakt gebruik van cookies en vergelijkbare technologieën (zoals lokale opslag van de browser) voor de juiste werking en, als je toestemming geeft, om anoniem te analyseren hoe de inhoud wordt gebruikt."
 		},
 		{
-			"tipo": "paragraaf",
+			"tipo": "parrafo",
 			"texto": "Gebruikte cookies:"
 		},
 		{
-			"tipo": "tabel",
+			"tipo": "tabla",
 			"columnas": [
 				"Naam",
 				"Doel",
@@ -38,15 +38,15 @@
 			]
 		},
 		{
-			"tipo": "paragraaf",
+			"tipo": "parrafo",
 			"texto": "Geen van deze cookies is van derden, geen enkele wordt gebruikt voor advertentiedoeleinden en geen enkele wordt gedeeld met iemand buiten deze site."
 		},
 		{
-			"tipo": "paragraaf",
+			"tipo": "parrafo",
 			"texto": "Je kunt je beslissing wijzigen of je toestemming op elk moment intrekken via de link \"Cookies configureren\" in de voettekst, en al je gegevens onmiddellijk wissen met de knop \"Mijn gegevens wissen\" in datzelfde paneel."
 		},
 		{
-			"tipo": "paragraaf",
+			"tipo": "parrafo",
 			"texto": "Raadpleeg het Privacybeleid voor meer informatie over hoe je gegevens worden verwerkt."
 		}
 	]

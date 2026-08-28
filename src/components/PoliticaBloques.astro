@@ -15,10 +15,10 @@ interface BloqueTabla {
 type Bloque = BloqueParrafo | BloqueLista | BloqueTabla;
 
 interface Props {
-	bloques: Bloque[];
+	bloques?: Bloque[];
 }
 
-const { bloques } = Astro.props;
+const { bloques = [] } = Astro.props;
 
 const URL_REGEX = /(https?:\/\/[^\s]+)/g;
 
@@ -52,35 +52,41 @@ function esUrl(parte: string) {
 		if (bloque.tipo === 'lista') {
 			return (
 				<ul class="politica-lista">
-					{bloque.items.map((item) => (
+					{(bloque.items ?? []).map((item) => (
 						<li>{item}</li>
 					))}
 				</ul>
 			);
 		}
 
-		return (
-			<div class="politica-tabla-wrap">
-				<table class="politica-tabla">
-					<thead>
-						<tr>
-							{bloque.columnas.map((columna) => (
-								<th>{columna}</th>
-							))}
-						</tr>
-					</thead>
-					<tbody>
-						{bloque.filas.map((fila) => (
+		if (bloque.tipo === 'tabla') {
+			const columnas = bloque.columnas ?? [];
+			const filas = bloque.filas ?? [];
+			return (
+				<div class="politica-tabla-wrap">
+					<table class="politica-tabla">
+						<thead>
 							<tr>
-								{fila.map((celda) => (
-									<td>{celda}</td>
+								{columnas.map((columna) => (
+									<th>{columna}</th>
 								))}
 							</tr>
-						))}
-					</tbody>
-				</table>
-			</div>
-		);
+						</thead>
+						<tbody>
+							{filas.map((fila) => (
+								<tr>
+									{fila.map((celda) => (
+										<td>{celda}</td>
+									))}
+								</tr>
+							))}
+						</tbody>
+					</table>
+				</div>
+			);
+		}
+
+		return null;
 	})
 }
 
