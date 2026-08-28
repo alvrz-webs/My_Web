@@ -169,6 +169,11 @@ async function traducirLote(model, textos, idiomaInfo) {
 				throw new Error('Traducción con formato inesperado (longitud no coincide)');
 			}
 
+			const indiceInvalido = traducidas.findIndex((valor) => typeof valor !== 'string');
+			if (indiceInvalido !== -1) {
+				throw new Error(`Traducción con formato inesperado (elemento ${indiceInvalido} no es un string: ${JSON.stringify(traducidas[indiceInvalido])})`);
+			}
+
 			return traducidas;
 		} catch (error) {
 			const status = extraerStatusHttp(error);
