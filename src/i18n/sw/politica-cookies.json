@@ -1,53 +1,53 @@
 {
 	"meta": {
-		"title": "Política de Cookies — Mario Álvarez",
-		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"title": "Sera ya Vidhibiti — Mario Álvarez",
+		"description": "Vidhibiti ambavyo tovuti hii inatumia, kwa lengo gani na jinsi ya kubadilisha idhini yako wakati wowote.",
+		"eyebrow": "Kisheria",
+		"heading": "Sera ya Vidhibiti"
 	},
 	"bloques": [
 		{
 			"tipo": "parrafo",
-			"texto": "Esta web utiliza cookies y tecnologías similares (como el almacenamiento local del navegador) para su correcto funcionamiento y, si das tu consentimiento, para analizar de forma anónima cómo se usa el contenido."
+			"texto": "Tovuti hii inatumia vidhibiti na teknolojia zinazofanana (kama vile hifadhi ya ndani ya kivinjari) kwa ajili ya uendeshaji wake sahihi na, ukitoa idhini yako, kuchambua kwa njia isiyojulikana jinsi maudhui yanavyotumika."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
+			"texto": "Vidhibiti vinavyotumika:"
 		},
 		{
 			"tipo": "tabla",
 			"columnas": [
-				"Nombre",
-				"Finalidad",
-				"Tipo",
-				"Duración"
+				"Jina",
+				"Lengo",
+				"Aina",
+				"Muda"
 			],
 			"filas": [
 				[
 					"consentimiento_cookies",
-					"Recordar tu elección sobre esta política de cookies",
-					"Propia, técnica (exenta de consentimiento)",
-					"12 meses"
+					"Kukumbuka chaguo lako kuhusu sera hii ya vidhibiti",
+					"Ya kwake mwenyewe, ya kiufundi (haihitaji idhini)",
+					"miezi 12"
 				],
 				[
 					"visitante_id",
-					"Identificador anónimo para relacionar tus visitas y saber qué contenido resulta útil",
-					"Propia, analítica (requiere tu consentimiento)",
-					"12 meses"
+					"Kitambulisho kisichojulikana cha kuhusisha ziara zako na kujua ni maudhui gani yanayofaa",
+					"Ya kwake mwenyewe, ya kiuchambuzi (inahitaji idhini yako)",
+					"miezi 12"
 				]
 			]
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Ninguna de estas cookies es de terceros, ninguna se usa con fines publicitarios, y ninguna se comparte con nadie fuera de este sitio."
+			"texto": "Hakuna hata moja ya vidhibiti hivi iliyo ya watu wengine, hakuna inayotumika kwa malengo ya utangazaji, na hakuna inayoshirikiwa na mtu yeyote nje ya tovuti hii."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Puedes cambiar tu decisión o retirar tu consentimiento en cualquier momento desde el enlace \"Configurar cookies\" en el pie de página, y borrar de forma inmediata todos tus datos con el botón \"Borrar mis datos\" en ese mismo panel."
+			"texto": "Unaweza kubadilisha uamuzi wako au kuondoa idhini yako wakati wowote kutoka kwa kiungo \"Sanidi vidhibiti\" chini ya ukurasa, na kufuta mara moja data yako yote kwa kitufe \"Futa data yangu\" katika paneli hiyo hiyo."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Para más información sobre cómo se tratan tus datos, consulta la Política de Privacidad."
+			"texto": "Kwa habari zaidi kuhusu jinsi data yako inavyoshughulikiwa, angalia Sera ya Faragha."
 		}
 	]
 }

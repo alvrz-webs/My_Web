@@ -1,56 +1,56 @@
 {
 	"meta": {
-		"title": "Mario Álvarez — Científico de datos especializado en deporte",
-		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
-		"verProyectos": "Ver proyectos",
-		"contacto": "Contacto",
-		"verMas": "Ver más",
-		"verTodosProyectos": "Ver todos los proyectos",
-		"irAContacto": "Ir a contacto",
-		"herramientas": "Herramientas principales"
+		"title": "Մاريո Ալվարես — Տվյալների գիտնական՝ մասնագիտացված սպորտում",
+		"description": "Մاريո Ալվարես, տվյալների գիտնական Վալենսիայում, մասնագիտացված սպորտային վերլուծության մեջ: Տվյալներ · Սպորտ · Առקדընթաց:",
+		"verProyectos": "Տեսնել նախագծերը",
+		"contacto": "Կապ",
+		"verMas": "Տեսնել ավելին",
+		"verTodosProyectos": "Տեսնել բոլոր նախագծերը",
+		"irAContacto": "Անցնել կապին",
+		"herramientas": "Հիմնական գործիքներ"
 	},
 	"hero": {
+		"eyebrow": "Տվյալների գիտնական · Սպորտային վերլուծություն · Վալենսիա",
+		"titlePre": "Ես վերածում եم տվյալները ",
+		"titleHighlight": "հստակ որոշումների",
+		"subtitle": "Ես կամուրջ եմ տվյալների վերլուծության և էլիտար սպորտի միջև. արդյունավետության չափանիշները վերածում եմ ռազմավարությունների, որոնք փոփոխություն են մտցնում խաղադաշտում:",
 		"tools": [
 			"Python",
 			"R",
 			"SQL",
 			"Power BI",
 			"Machine Learning"
-		],
-		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
-		"titlePre": "Convierto datos en ",
-		"titleHighlight": "decisiones claras",
-		"subtitle": "Soy el puente entre el análisis de datos y el deporte de élite: transformo métricas de rendimiento en estrategias que marcan la diferencia sobre el terreno."
+		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Sobre mí",
-		"title": "Datos con contexto de pista, carretera y competición",
-		"text": "Soy Mario Álvarez, estudiante de Ciencia de Datos en la UPV con experiencia real dentro del ciclismo profesional. Combino el análisis de datos con el rendimiento deportivo de élite, para convertir cada métrica en una decisión que mejora resultados."
+		"eyebrow": "Իմ մասին",
+		"title": "Տվյալներ՝ մրցուղու, ճանապարհի և մրցույթի համատեքստով",
+		"text": "Ես Մاريո Ալվարեսն եم, Տվյալների գիտության ուսանող Պոլիտեխնիկական համալսարանում՝ պրոֆեսիոնալ հեծանվավազքում իրական փորձով: Ես համատեղում եմ տվյալների վերլուծությունը էլիտար սպորտային արդյունավետության հետ՝ յուրաքանչյուր ցուցանիշ վերածելու արդյունքները բարելավող որոշման:"
 	},
 	"stats": [
 		{
 			"value": "UPV",
-			"label": "Formación",
-			"detail": "Grado en Ciencia de Datos, Universitat Politècnica de València."
+			"label": "Կրթություն",
+			"detail": "Տվյալների գիտության բակալավր, Վալենսիայի պոլիտեխնիկական համալսարան:"
 		},
 		{
-			"value": "Élite",
-			"label": "Experiencia",
-			"detail": "Trabajo real dentro de un equipo de ciclismo profesional."
+			"value": "Էլիտա",
+			"label": "Փորձ",
+			"detail": "Իրական աշխատանք պրոֆեսիոնալ հեծանվային թիմում:"
 		},
 		{
 			"value": "Data + Sport",
-			"label": "Enfoque",
-			"detail": "Analítica aplicada a la mejora del rendimiento deportivo."
+			"label": "Մոտեցում",
+			"detail": "Վերլուծություն՝ ուղղված սպորտային արդյունավետության բարելավմանը:"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiencia",
-		"title": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"text": "He competido al máximo nivel y hoy aplico ese mismo criterio a los datos: entiendo lo que un número significa para un deportista porque he sido ese deportista."
+		"eyebrow": "Փորձ",
+		"title": "Երկու աշխարհ, միևնույն լեզուն՝ արդյունավետությունը",
+		"text": "Ես մրցել եم ամենաբարձր մակարդակով և այսօր նույն չափանիշը կիրառում եմ տվյալների վրա. հասկանում եմ, թե ինչ է նշանակում թիվը մարզիկի համար, որովհետև ես եղել եմ այդ մարզիկը:"
 	},
 	"ctaFinal": {
-		"title": "¿Hablamos de datos?",
-		"text": "Cuéntame tu proyecto y buscamos juntos dónde están las decisiones que mejoran el rendimiento."
+		"title": "Խոսե՞նք տվյալներից:",
+		"text": "Պատմիր ինձ քո նախագծի մասին, և մենք միասին կփնտրենք, թե որտեղ են այն որոշումները, որոնք բարելավում են արդյունավետությունը:"
 	}
 }

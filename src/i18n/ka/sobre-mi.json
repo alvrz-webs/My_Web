@@ -1,35 +1,35 @@
 {
 	"meta": {
-		"title": "Sobre mí — Mario Álvarez",
-		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
-		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"title": "ჩem შესახებ — Mario Álvarez",
+		"description": "მადისონის ესპანეთის ჩემპიონატიდან მონაცემთა მეცნიერების სტუდენტამდე: Mario Álvarez-ის გზა ელიტურ ციკლპორტსა და სპორტულ ანალიტიკას შორის.",
+		"eyebrow": "ჩem შესახებ",
+		"heading": "ველოდრომიდან მონაცემებამდე"
 	},
 	"bio": [
-		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
-		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",
-		"Mi valor diferencial es ese puente: he vivido el alto rendimiento desde dentro —como corredor, como director deportivo de base y como quiromasajista de ciclistas profesionales— y sé leer los datos que hay detrás. Entiendo lo que un número significa para un deportista, porque yo he sido ese deportista. Uno los dos mundos para convertir datos en decisiones que mejoran el rendimiento.",
-		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
+		"მე შეჯიბრებებით დავიწყე. 18 წლის ასაკში გავხდი ესპანეთის ჩემპიონი ტრეკზე მადისონში და ესპანეთის ველოსიპედისტთა ნაკრებმა მიმიწია მსოფლიოსა და ევროპის ჩემპიონატებზე, სადაც ორივეში მეექვსე ადგილი დავიკავე, რამაც ელიტური სპორტსმენის სტატუსი მომმანიჭა.",
+		"აქედან გადავედი მონაცემთა მეცნიერებაში: დღეს ვსწავლობ ვალენსიის პოლიტექნიკური უნივერსიტეტის (Universitat Politècnica de València) ბაკალავრიატის მე-3 კურსზე, რომელიც ორიენტირებულია სპორტში გამოყენებულ ციფრულობასა და ტექნოლოგიებზე.",
+		"ჩემი დიფერენციალური ღირებულება არის ეს ხიდი: მე გამოვცადე მაღალი მიღწევები შიგნიდან — როგორც მრბოლელმა, როგორც საბაზო სპორტულმა დირექტორმა და როგორც პროფესიონალი ველოსიპედისტების ქირომასაჟისტმა — და ვიცი როგორ წავიკითხო მის უკან მდგომი მონაცემები. მესმის, რას ნიშნავს რიცხვი სპორტსმენისთვის, რადგან მე თვითონ ვიყავი ეს სპორტსმენი. მე ვაერთიანებ ამ ორ სამყაროს, რათა მონაცემები გადავთარგმნო გადაწყვეტილებებად, რომლებიც აუმჯობესებს წარმადობას.",
+		"გარდა ამისა, ელიტური სპორტსმენის სტატუსის წყალობით, მივიღე სტიპენდია სპორტში ციფრული ტრანსფორმაციის, ინოვაციებისა და ტექნოლოგიების სამაგისტრო პროგრამის გასავლელად, რომელიც უკვე დავასრულე და რომელიც აფართოებს ჩემს ხედვას მთელ სპორტულ ეკოსისტემაზე, ველოსიპედის მიღმაც."
 	],
 	"facts": [
 		{
-			"label": "Base",
+			"label": "ბაზა",
 			"value": "Benidorm · Valencia"
 		},
 		{
-			"label": "Estado",
-			"value": "Disponible para proyectos"
+			"label": "სტატუსი",
+			"value": "ხელმისაწვდომია პროექტებისთვის"
 		},
 		{
-			"label": "Enfoque",
-			"value": "Datos + rendimiento deportivo"
+			"label": "მიმართულება",
+			"value": "მონაცემები + სპორტული წარმადობა"
 		},
 		{
-			"label": "Idiomas",
+			"label": "ენები",
 			"value": "Español nativo · Valenciano · Inglés B1"
 		},
 		{
-			"label": "Formación",
+			"label": "განათლება",
 			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
 		}
 	]

@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "Գաղտնիության քաղաքականობა — Mario Álvarez",
+		"description": "Mario Álvarez-ի կայքի գաղտնիության քաղաքականობა. ինչ տվյալներ են հավաքվում, ինչ նպատակով և ինչպես իրացնել ձեր իրավունքները:",
+		"eyebrow": "Իրավական",
+		"heading": "Գաղտնիության քաղաքականություն"
 	},
 	"secciones": [
 		{
+			"titulo": "1. Տվյալների մշակման պատասխանատու",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Mario Álvarez Martínez, բնակության հասցեն՝ Benidorm (Alicante), España։ Կոնտակտ՝ malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. Մշակման նպատակը",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "Այս կայքը ներքին կերպով և բացառապես վիճակագրական նպատակներով վերլուծում է, թե որ բովանդակությունը (բաժիններ, նախագծեր) է առավել օգտակար այցելուների համար՝ բովանդակությունը բարելավելու նպատակով: Այն չի օգտագործվում գովազդային նպատակներով, չի փոխանցվում երրորդ անձանց և որևէ պարագայում չի վաճառվում:"
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. Հավաքվող տվյալներ (միայն եթե ընդունում եք վերլուծական թխուկները / cookies)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"Պատահական անանուն նույնականացուցիչ, որը կապված չէ ձեր անվան, էլ. փոստի կամ որևէ այլ տեղեկատվության հետ, որը ուղղակիորեն նույնականացնում է ձեզ:",
+						"Այցելվող էջեր և նախագծեր, ինչպես նաև յուրաքանչյուրի վրա ծախսված ժամանակը (քանի դեռ ներդիրը ակտիվ է):",
+						"Փոխազդեցություններ (կտտոցներ նախագծերի, հղումների կամ կոճակների վրա):",
+						"Այցելության ամսաթիվը և ժամը:",
+						"Դիտարկվող կայքի լեզուն:",
+						"Սարքի տեսակը (բջջային կամ աշխատասեղանի):",
+						"Մոտավոր երկիր, որը ստացվում է Cloudflare ենթակառուցվածքի միջոցով՝ առանց ձեր IP հասցեն պահպանելու:",
+						"Սկզբնաղբյուր էջը (օրինակ՝ LinkedIn կամ որոնողական համակարգ):"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "Ձեր IP հասցեն չի հավաքվում, բրաուզերի նույնականացման տեխնիկաներ (fingerprinting) կամ երրորդ կողմի գործիքներ, ինչպիսին է Google Analytics-ը կամ նմանատիպերը, չեն օգտագործվում:"
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. Իրավական հիմք",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "Մշակումը հիմնված է ձեր հստակ համաձայնության վրա (GDPR-ի 6.1.a հոդված և LSSI-CE-ի 22.2 հոդված), որը կարող եք ցանկացած պահի հետ կանչել կայքի սեփական թխուկների կառավարչից:"
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. Պահպանման ժամկետ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "Տվյալները պահպանվում են առավելագույնը 12 ամիս՝ ձեր վերջին այցելությունից հաշված, ինչից հետո դրանք ավտոմատ կերպով ջնջվում են:"
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. Ստացողներ և միջազգային փոխանցումներ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Տվյալները չեն տրամադրվում կամ վաճառվում երրորդ անձանց: Դրանք պահվում են Cloudflare D1-ում՝ Cloudflare, Inc.-ի կամայական տվյալների բազայի ծառայությունում, որը հանդես է գալիս որպես տվյալների մշակող: Cloudflare-ը կարող է տվյալներ մշակել Եվրոպական տնտեսական տարածքից դուրս. այդ դեպքում նման փոխանցումը հիմնված է Եվրոպական հանձնաժողովի կողմից հաստատված Ստանդարտ պայմանագրային դրույթների վրա: Լրացուցիչ տեղեկություններ Cloudflare-ի գաղտնիության քաղաքականությունում՝ https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. Ձեր իրավունքները",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "Դուք կարող եք ցանկացած պահի իրացնել մուտքի, ուղղման, ջնջման, առարկելու, մշակման սահմանափակման և տվյալների տեղափոխելիության ձեր իրավունքները՝ գրելով malvmar5@hotmail.com հասցեին: Բացի այդ, դուք կարող եք անմիջապես ջնջել ձեր տվյալները՝ առանց որևէ մեկին գրելու անհրաժեշտության, կայքի թխուկների կարգավորումներում առկա \"Borrar mis datos\" կոճակի միջոցով: Դուք նաև իրավունք ունեք բողոք ներկայացնել Իսպանիայի Տվյալների պաշտպանության գործակալություն (www.aepd.es), եթե կարծում եք, że ձեր իրավունքներըպատշաճ կերպով չեն բավարարվել:"
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. Փոփոխություններ սույն քաղաքականության մեջ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "Այս քաղաքականությունը կարող է թարմացվել՝ հարմարվելու իրավական կամ կայքի սեփական փոփոխություններին:"
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

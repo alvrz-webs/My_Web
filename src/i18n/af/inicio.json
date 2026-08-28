@@ -1,56 +1,56 @@
 {
 	"meta": {
-		"title": "Mario Álvarez — Científico de datos especializado en deporte",
-		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
-		"verProyectos": "Ver proyectos",
-		"contacto": "Contacto",
-		"verMas": "Ver más",
-		"verTodosProyectos": "Ver todos los proyectos",
-		"irAContacto": "Ir a contacto",
-		"herramientas": "Herramientas principales"
+		"title": "Mario Álvarez — Datawetenskaplike gespesialiseerd in sport",
+		"description": "Mario Álvarez, datawetenskaplike in Valencia gespesialiseerd in sportanalise. Data · Sport · Progress.",
+		"verProyectos": "Sien projekte",
+		"contacto": "Kontak",
+		"verMas": "Sien meer",
+		"verTodosProyectos": "Sien alle projekte",
+		"irAContacto": "Gaan na kontak",
+		"herramientas": "Belangrikste gereedskap"
 	},
 	"hero": {
+		"eyebrow": "Datawetenskaplike · Sportanalise · Valencia",
+		"titlePre": "Ek verander data in ",
+		"titleHighlight": "duidelike besluite",
+		"subtitle": "Ek is die brug tussen data-analise en elitisport: ek transformeer prestasiemetrieke in strategieë wat die verskil maak op die veld.",
 		"tools": [
 			"Python",
 			"R",
 			"SQL",
 			"Power BI",
 			"Machine Learning"
-		],
-		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
-		"titlePre": "Convierto datos en ",
-		"titleHighlight": "decisiones claras",
-		"subtitle": "Soy el puente entre el análisis de datos y el deporte de élite: transformo métricas de rendimiento en estrategias que marcan la diferencia sobre el terreno."
+		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Sobre mí",
-		"title": "Datos con contexto de pista, carretera y competición",
-		"text": "Soy Mario Álvarez, estudiante de Ciencia de Datos en la UPV con experiencia real dentro del ciclismo profesional. Combino el análisis de datos con el rendimiento deportivo de élite, para convertir cada métrica en una decisión que mejora resultados."
+		"eyebrow": "Oor my",
+		"title": "Data met baan-, pad- en kompetisieteks",
+		"text": "Ek is Mario Álvarez, 'n student in Datawetenskap aan die UPV met werklike ervaring binne professionele fietsry. Ek kombineer data-analise met elitisportprestasie om elke metriek te verander in 'n besluit wat resultate verbeter."
 	},
 	"stats": [
 		{
 			"value": "UPV",
-			"label": "Formación",
-			"detail": "Grado en Ciencia de Datos, Universitat Politècnica de València."
+			"label": "Opleiding",
+			"detail": "Graad in Datawetenskap, Universitat Politècnica de València."
 		},
 		{
-			"value": "Élite",
-			"label": "Experiencia",
-			"detail": "Trabajo real dentro de un equipo de ciclismo profesional."
+			"value": "Elite",
+			"label": "Ervaring",
+			"detail": "Egte werk binne 'n professionele fietsryspan."
 		},
 		{
 			"value": "Data + Sport",
-			"label": "Enfoque",
-			"detail": "Analítica aplicada a la mejora del rendimiento deportivo."
+			"label": "Benadering",
+			"detail": "Analise toegepas op die verbetering van sportprestasie."
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiencia",
-		"title": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"text": "He competido al máximo nivel y hoy aplico ese mismo criterio a los datos: entiendo lo que un número significa para un deportista porque he sido ese deportista."
+		"eyebrow": "Ervaring",
+		"title": "Twee wêrelde, dieselfde taal: die prestasie",
+		"text": "Ek het op die hoogste vlak meegeding en pas vandag dieselfde kriteria toe op data: ek verstaan wat 'n nommer vir 'n sportman beteken omdat ek daardie sportman gewees het."
 	},
 	"ctaFinal": {
-		"title": "¿Hablamos de datos?",
-		"text": "Cuéntame tu proyecto y buscamos juntos dónde están las decisiones que mejoran el rendimiento."
+		"title": "Praat ons oor data?",
+		"text": "Vertel my van jou projek en ons soek saam waar die besluite is wat prestasie verbeter."
 	}
 }

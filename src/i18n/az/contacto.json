@@ -1,13 +1,13 @@
 {
 	"meta": {
-		"title": "Contacto — Mario Álvarez",
-		"description": "Ponte en contacto con Mario Álvarez para hablar de datos, rendimiento deportivo y proyectos.",
-		"eyebrow": "Contacto",
-		"heading": "¿Tienes datos y una pregunta que resolver?",
-		"intro": "Hablemos. Ya sea un proyecto de analítica deportiva, una colaboración de datos o simplemente una idea que quieras contrastar, respondo con gusto.",
+		"title": "Əlaqə — Mario Álvarez",
+		"description": "Məlumatlar, idman göstəriciləri və layihələr haqqında danışmaq üçün Mario Álvarez ilə əlaqə saxlayın.",
+		"eyebrow": "Əlaqə",
+		"heading": "Məlumatlarınız və həll edilməli bir sualınız varmı?",
+		"intro": "Gəlin danışaq. İstər idman analitikası layihəsi, istər məlumat əməkdaşlığı, istərsə də müzakirə etmək istədiyiniz bir fikir olsun, məmnuniyyətlə cavab verirəm.",
 		"email": "Email",
-		"telefono": "Teléfono",
-		"verTelefono": "Ver teléfono",
-		"redesSociales": "Redes sociales"
+		"telefono": "Telefon",
+		"verTelefono": "Telefon nömrəsinə bax",
+		"redesSociales": "Sosial şəbəkələr"
 	}
 }

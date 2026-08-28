@@ -1,27 +1,27 @@
 {
 	"page": {
-		"title": "Proyectos — Mario Álvarez",
-		"description": "Repositorios y proyectos de análisis de datos, visualización y machine learning de Mario Álvarez.",
-		"eyebrow": "Proyectos",
-		"heading": "Proyectos",
-		"intro": "Un vistazo a mi trabajo: desde herramientas para ciclismo profesional hasta proyectos académicos de análisis y machine learning."
+		"title": "Tionscadail — Mario Álvarez",
+		"description": "Stórtha agus tionscadail um anailís sonraí, amhairciú agus foghlaim mheaisín le Mario Álvarez.",
+		"eyebrow": "Tionscadail",
+		"heading": "Tionscadail",
+		"intro": "Súil ar mo chuid oibre: ó uirlisí do rothaíocht ghairmiúil go tionscadail acadúla um anailís agus foghlaim mheaisín."
 	},
 	"list": {
-		"eyebrow": "Trabajo",
-		"title": "Proyectos",
-		"intro": "Una selección automática de mis repositorios públicos en GitHub.",
-		"especializaciones": "Especializaciones",
-		"fallbackDescripcion": "Proyecto de análisis y ciencia de datos.",
-		"verEnGithub": "Ver en GitHub",
-		"vacio": "No se pudieron cargar los repositorios en este momento.",
-		"filtroLabel": "Filtrar proyectos por tipo",
-		"filtroTodos": "Todos",
-		"filtroDatos": "Datos",
-		"filtroWebs": "Webs",
-		"verWeb": "Ver web",
-		"verCodigo": "Ver código",
-		"enDesarrollo": "En desarrollo",
-		"fallbackDescripcionWeb": "Proyecto web.",
-		"vacioWebs": "Todavía no hay webs publicadas en esta sección."
+		"eyebrow": "Obair",
+		"title": "Tionscadail",
+		"intro": "Roghnú uathoibríoch de mo stórtha poiblí ar GitHub.",
+		"especializaciones": "Speisialtachtaí",
+		"fallbackDescripcion": "Tionscadal anailíse agus eolaíochta sonraí.",
+		"verEnGithub": "Féach ar GitHub",
+		"vacio": "Níorbh fhéidir na stórtha a lódáil ag an am seo.",
+		"filtroLabel": "Scag tionscadail de réir cineáil",
+		"filtroTodos": "Gach",
+		"filtroDatos": "Sonraí",
+		"filtroWebs": "Gréasáin",
+		"verWeb": "Féach ar an ggréasán",
+		"verCodigo": "Féach ar an gcód",
+		"enDesarrollo": "Ar siúl",
+		"fallbackDescripcionWeb": "Tionscadal gréasáin.",
+		"vacioWebs": "Níl aon ghréasáin foilsithe sa chuid seo fós."
 	}
 }

@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "Privaatheidsbeleid — Mario Álvarez",
+		"description": "Privaatheidsbeleid van Mario Álvarez se webwerf: watter data ingesamel word, vir watter doel en hoe om jou regte uit te oefen.",
+		"eyebrow": "Regsaangeleenthede",
+		"heading": "Privaatheidsbeleid"
 	},
 	"secciones": [
 		{
+			"titulo": "1. Verantwoordelike party",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Mario Álvarez Martínez, met adres in Benidorm (Alicante), Spanje. Kontak: malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. Doel van die verwerking",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "Hierdie webwerf ontleed interne en uitsluitlik statistiese doelwitte watter inhoud (afdelings, projekte) die nuttigste is vir diegene wat dit besoek, met die doel om die inhoud daarvan te verbeter. Dit word nie vir advertensiedoeleindes gebruik nie, word nie met derdepartye gedeel nie en word onder geen beding verkoop nie."
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. Data wat ingesamel word (slegs as jy analitiese koekies aanvaar)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"'n Ewekansige anonieme identifiseerder, nie gekoppel aan jou naam, e-pos of enige ander inligting wat jou direk identifiseer nie.",
+						"Bladsye en projekte wat jy besoek, en die aandagtyd op elkeen (terwyl die oortjie aktief is).",
+						"Interaksies (klik op projekte, skakels of knoppies).",
+						"Datum en tyd van die besoek.",
+						"Taal van die webwerf wat geraadpleeg word.",
+						"Tipe toestel (selfoon of rekenaar).",
+						"Oorspronklike land, verkry deur Cloudflare se infrastruktuur, sonder om jou IP-adres te stoor.",
+						"Bronbladsy (byvoorbeeld LinkedIn of 'n soekenjin)."
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "Jou IP-adres word nie ingesamel nie, blaaier-identifiseringstegnieke (fingerprinting) word nie gebruik nie, en derdeparty-nutsgoed soos Google Analytics of soortgelykes word nie gebruik nie."
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. Regsbasis",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "Die verwerking is gebaseer op jou uitdruklike toestemming (artikel 6.1.a van die AVG en artikel 22.2 van die LSSI-CE), wat jy te eniger tyd kan terugtrek vanaf die webwerf se eie koekiebestuurder."
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. Bewaartydperk",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "Data word vir 'n maksimum van 12 maande vanaf jou laaste besoek bewaar, waarna dit outomaties verwyder word."
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. Ontvangers en internasionale oordragte",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Data word nie aan derdepartye oorgedra of verkoop nie. Dit word gestoor in Cloudflare D1, 'n databasisdiens verskaf deur Cloudflare, Inc., wat optree as 'n verwerker. Cloudflare kan data buite die Europese Ekonomiese Ruimte verwerk; in daardie geval word sodanige oordrag gedek deur die Standaard Kontraktuele Klousules goedgekeur deur die Europese Kommissie. Meer inligting in Cloudflare se privaatheidsbeleid: https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. Jou regte",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "Jy kan te eniger tyd jou regte van toegang, regstelling, skrapping, beswaar, beperking van verwerking en oordraagbaarheid uitoefen deur te skryf aan malvmar5@hotmail.com. Daarbenewens kan jy jou data onmiddellik uitvee, sonder om aan iemand te skryf, vanaf die \"Vee my data uit\"-knoppie wat beskikbaar is in die webwerf se koekie-instellings. Jy het ook die reg om 'n klag by die Spaanse Databeskermingsagentskap (www.aepd.es) in te dien as jy van mening is dat jou regte nie behoorlijk hanteer is nie."
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. Veranderinge aan hierdie beleid",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "Hierdie beleid kan opgedateer word om aan te pas by wetlike veranderinge of dié van die webwerf self."
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

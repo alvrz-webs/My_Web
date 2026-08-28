@@ -1,53 +1,53 @@
 {
 	"meta": {
-		"title": "Política de Cookies — Mario Álvarez",
-		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"title": "Polasaí Fianán — Mario Álvarez",
+		"description": "Cad iad na fianáin a úsáideann an suíomh seo, chun críocha cad é, agus conas do thoiliú a athrú ag am ar bith.",
+		"eyebrow": "Dlíthiúil",
+		"heading": "Polasaí Fianán"
 	},
 	"bloques": [
 		{
 			"tipo": "parrafo",
-			"texto": "Esta web utiliza cookies y tecnologías similares (como el almacenamiento local del navegador) para su correcto funcionamiento y, si das tu consentimiento, para analizar de forma anónima cómo se usa el contenido."
+			"texto": "Úsáideann an láithreán gréasáin seo fianáin agus teicneolaíochtaí cosúla (cosúil le stóráil áitiúil an bhrabhsálaí) chun feidhmiú i gceart agus, má thugann tú do thoiliú, chun an chaoi a n-úsáidtear an t-ábhar a anailísiú go hanańainmneach."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
+			"texto": "Fianáin a úsáidtear:"
 		},
 		{
 			"tipo": "tabla",
 			"columnas": [
-				"Nombre",
-				"Finalidad",
-				"Tipo",
-				"Duración"
+				"Ainm",
+				"Cuspóir",
+				"Cineál",
+				"Fad"
 			],
 			"filas": [
 				[
 					"consentimiento_cookies",
-					"Recordar tu elección sobre esta política de cookies",
-					"Propia, técnica (exenta de consentimiento)",
-					"12 meses"
+					"Meabhraigh do rogha maidir leis an pholasaí fianán seo",
+					"Dílse, teicniúil (díolmhaithe ó thoiliú)",
+					"12 mhí"
 				],
 				[
 					"visitante_id",
-					"Identificador anónimo para relacionar tus visitas y saber qué contenido resulta útil",
-					"Propia, analítica (requiere tu consentimiento)",
-					"12 meses"
+					"Aitheantóir anańainmneach chun do chuairteanna a chomhghaolú agus a fháil amach cén t-ábhar atá úsáideach",
+					"Dílse, anailíseach (éilíonn sé do thoiliú)",
+					"12 mhí"
 				]
 			]
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Ninguna de estas cookies es de terceros, ninguna se usa con fines publicitarios, y ninguna se comparte con nadie fuera de este sitio."
+			"texto": "Níl aon cheann de na fianáin seo ó thríú páirtithe, ní úsáidtear aon cheann acu chun críocha fógraíochta, agus ní roinntear aon cheann acu le duine ar bith taobh amuigh den suíomh seo."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Puedes cambiar tu decisión o retirar tu consentimiento en cualquier momento desde el enlace \"Configurar cookies\" en el pie de página, y borrar de forma inmediata todos tus datos con el botón \"Borrar mis datos\" en ese mismo panel."
+			"texto": "Is féidir leat do chinneadh a athrú nó do thoiliú a tharraingt siar ag am ar bith ón nasc \"Cumraigh fianáin\" sa bhunleathanach, agus gach do shonraí a scriosadh láithreach leis an gcnaipe \"Scrios mo shonraí\" sa phainéal céanna sin."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Para más información sobre cómo se tratan tus datos, consulta la Política de Privacidad."
+			"texto": "Chun tuilleadh eolais a fháil faoi conas a dhéantar do shonraí a láimhseáil, féach ar an Pholasaí Príobháideachais."
 		}
 	]
 }

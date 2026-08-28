@@ -1,37 +1,37 @@
 {
 	"nav": {
-		"sobreMi": "Sobre mí",
-		"proyectos": "Proyectos",
-		"experiencia": "Experiencia",
-		"contacto": "Contacto",
-		"ariaMain": "Navegación principal",
-		"openMenu": "Abrir menú"
+		"sobreMi": "ስs o l e  mí",
+		"proyectos": "ፕሮጀክቶች",
+		"experiencia": "ልምድ",
+		"contacto": "እውቂያ",
+		"ariaMain": "ዋና ዳሰሳ",
+		"openMenu": "ምናሌ ክፈት"
 	},
 	"footer": {
 		"tagline": "Data · Sport · Progress",
 		"copySufijo": "Mario Álvarez. Valencia.",
-		"ariaSocial": "Redes sociales"
+		"ariaSocial": "ማህበራዊ ሚዲያ"
 	},
 	"langSwitch": {
-		"label": "Cambiar idioma",
-		"traducir": "Cambiar idioma",
-		"buscar": "Buscar idioma…"
+		"label": "ቋንቋ ቀይር",
+		"traducir": "ቋንቋ ቀይር",
+		"buscar": "ቋንቋ ፈልግ..."
 	},
 	"cookies": {
-		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
-		"politica": "Política de cookies",
-		"aceptar": "Aceptar",
-		"rechazar": "Rechazar",
-		"configurar": "Configurar cookies",
-		"borrarDatos": "Borrar mis datos",
-		"ariaBanner": "Consentimiento de cookies"
+		"texto": "ለስላሳ ትንተና እና ልምድዎን ለማሻሻል የራሳችንን ኩኪዎች እንጠቀማለን። የሶስተኛ ወገን ኩኪዎችን አንጠቀምም።",
+		"politica": "የኩኪዎች ፖሊሲ",
+		"aceptar": "ተቀበል",
+		"rechazar": "ውድቅ አድርግ",
+		"configurar": "ኩኪዎችን አዋቅር",
+		"borrarDatos": "የእኔን ውሂብ ሰርዝ",
+		"ariaBanner": "የኩኪ ፈቃድ"
 	},
 	"legal": {
-		"privacidad": "Política de privacidad",
-		"cookies": "Política de cookies"
+		"privacidad": "የግላዊነት ፖሊሲ",
+		"cookies": "የኩኪዎች ፖሊሲ"
 	},
 	"person": {
-		"jobTitle": "Científico de datos",
-		"description": "Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional."
+		"jobTitle": "የውሂብ ሳይንቲስት",
+		"description": "በስፖርት ትንተና ላይ የተ специализиረ የውሂብ ሳይንቲስት፣ በሙያዊ ብስክሌት ስፖርት ውስጥ ልምድ ያለው።"
 	}
 }

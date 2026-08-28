@@ -1,56 +1,56 @@
 {
 	"meta": {
-		"title": "Mario Álvarez — Científico de datos especializado en deporte",
-		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
-		"verProyectos": "Ver proyectos",
-		"contacto": "Contacto",
-		"verMas": "Ver más",
-		"verTodosProyectos": "Ver todos los proyectos",
-		"irAContacto": "Ir a contacto",
-		"herramientas": "Herramientas principales"
+		"title": "ማሪዮ አልቫሬዝ — በስፖርት ላይ የተخصص የውሂብ ሳይንቲስት",
+		"description": "ማሪዮ አልቫሬዝ፣ በვალენሲያ የሚገኝ በስፖርት ትንተና ላይ የተخصص የውሂብ ሳይንቲስት። ውሂብ · ስፖርት · እድገት።",
+		"verProyectos": "ፕሮጀክቶችን ይመልከቱ",
+		"contacto": "እውቂያ",
+		"verMas": "ተጨማሪ ይመለከቱ",
+		"verTodosProyectos": "ሁሉንም ፕሮጀክቶች ይመለከቱ",
+		"irAContacto": "ወደ እውቂያ ይሂዱ",
+		"herramientas": "ዋና መሣሪያዎች"
 	},
 	"hero": {
+		"eyebrow": "የውሂብ ሳይንቲስት · ስፖርት ትንተና · ቫለሬንሲያ",
+		"titlePre": "ውሂብን ወደ ",
+		"titleHighlight": "ግልጽ ውሳኔዎች እለውጣለሁ",
+		"subtitle": "እኔ በውሂብ ትንተና እና በልዩ ስፖርት መካከል ያለው ድልድይ ነኝ፡ የአፈጻጸም መለኪያዎችን በመሬት ላይ ልዩነት በሚፈጥሩ ስትራቴጂዎች እለውጣለሁ።",
 		"tools": [
 			"Python",
 			"R",
 			"SQL",
 			"Power BI",
 			"Machine Learning"
-		],
-		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
-		"titlePre": "Convierto datos en ",
-		"titleHighlight": "decisiones claras",
-		"subtitle": "Soy el puente entre el análisis de datos y el deporte de élite: transformo métricas de rendimiento en estrategias que marcan la diferencia sobre el terreno."
+		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Sobre mí",
-		"title": "Datos con contexto de pista, carretera y competición",
-		"text": "Soy Mario Álvarez, estudiante de Ciencia de Datos en la UPV con experiencia real dentro del ciclismo profesional. Combino el análisis de datos con el rendimiento deportivo de élite, para convertir cada métrica en una decisión que mejora resultados."
+		"eyebrow": "ስለ እኔ",
+		"title": "ከሜዳ፣ መንገድ እና ውድድር አውድ ጋር ውሂብ",
+		"text": "እኔ ማሪዮ አልቫሬዝ ነኝ፣ በፕሮፌሽናል ብስክሌት ውስጥ እውነተኛ ልምድ ያለው በUPV የውሂብ ሳይንቲስት ተማሪ ነኝ። ውጤቶችን የሚያሻሽል ውሳኔ እያንዳንዱን መለኪያ ለመለወጥ የውሂብ ትንተናን ከልዩ ስፖርታዊ አፈጻጸም ጋር አዋህዳለሁ።"
 	},
 	"stats": [
 		{
 			"value": "UPV",
-			"label": "Formación",
-			"detail": "Grado en Ciencia de Datos, Universitat Politècnica de València."
+			"label": "ስልጠና",
+			"detail": "በውሂብ ሳይንቲስት ዲግሪ፣ ቫለንሲያ ፖሊቴክኒክ ዩኒቨርሲቲ።"
 		},
 		{
-			"value": "Élite",
-			"label": "Experiencia",
-			"detail": "Trabajo real dentro de un equipo de ciclismo profesional."
+			"value": "ልዩ",
+			"label": "ልምድ",
+			"detail": "በፕሮፌሽናል የብስክሌት ቡድን ውስጥ እውነተኛ ሥራ።"
 		},
 		{
 			"value": "Data + Sport",
-			"label": "Enfoque",
-			"detail": "Analítica aplicada a la mejora del rendimiento deportivo."
+			"label": "አቀራረብ",
+			"detail": "ስፖርታዊ አፈጻጸምን ለማሻሻል የተተገበረ ትንተና።"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiencia",
-		"title": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"text": "He competido al máximo nivel y hoy aplico ese mismo criterio a los datos: entiendo lo que un número significa para un deportista porque he sido ese deportista."
+		"eyebrow": "ልምድ",
+		"title": "ሁለት ዓለማት፣ አንድ ቋንቋ፡ አፈጻጸም",
+		"text": "በከፍተኛ ደረጃ ተወዳድሬያለሁ እና ዛሬ ያንን ተመሳሳይ መስፈርት በውሂብ ላይ እተገብራለሁ፡ ቁጥር ለአትሌት ምን ማለት እንደሆነ ተረድቻለሁ ምክንያቱም እኔ ያ አትሌት ነኝና።"
 	},
 	"ctaFinal": {
-		"title": "¿Hablamos de datos?",
-		"text": "Cuéntame tu proyecto y buscamos juntos dónde están las decisiones que mejoran el rendimiento."
+		"title": "ስለ ውሂብ እናውራ?",
+		"text": "ፕሮጀክትዎን ይንገሩኝ እና አፈጻጸምን የሚያሻሽሉ ውሳኔዎች የት እንዳሉ በአንድነት እንፈልጋለን።"
 	}
 }

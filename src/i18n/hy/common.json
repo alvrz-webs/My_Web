@@ -1,37 +1,37 @@
 {
 	"nav": {
-		"sobreMi": "Sobre mí",
-		"proyectos": "Proyectos",
-		"experiencia": "Experiencia",
-		"contacto": "Contacto",
-		"ariaMain": "Navegación principal",
-		"openMenu": "Abrir menú"
+		"sobreMi": "Իմ մասին",
+		"proyectos": "Նախագծեր",
+		"experiencia": "Փորձ",
+		"contacto": "Կապ",
+		"ariaMain": "Հիմնական նավարկություն",
+		"openMenu": "Բացել ըն菜单"
 	},
 	"footer": {
 		"tagline": "Data · Sport · Progress",
 		"copySufijo": "Mario Álvarez. Valencia.",
-		"ariaSocial": "Redes sociales"
+		"ariaSocial": "Սոցիալական ցանցեր"
 	},
 	"langSwitch": {
-		"label": "Cambiar idioma",
-		"traducir": "Cambiar idioma",
-		"buscar": "Buscar idioma…"
+		"label": "Փոխել լեզուն",
+		"traducir": "Փոխել լեզուն",
+		"buscar": "Փնտրել լեզուն…"
 	},
 	"cookies": {
-		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
-		"politica": "Política de cookies",
-		"aceptar": "Aceptar",
-		"rechazar": "Rechazar",
-		"configurar": "Configurar cookies",
-		"borrarDatos": "Borrar mis datos",
-		"ariaBanner": "Consentimiento de cookies"
+		"texto": "Մենք օգտագործում ենք սեփական թխուկներ (cookies) անհատական վերլուծության և ձեր փորձառության բարելավման համար: Մենք չենք օգտագործում երրորդ կողմի թխուկներ:",
+		"politica": "Թխուկների քաղաքականություն",
+		"aceptar": "Ընդունել",
+		"rechazar": "Մերժել",
+		"configurar": "Կարգավորել թխուկները",
+		"borrarDatos": "Ջնջել իմ տվյալները",
+		"ariaBanner": "Թխուկների համաձայնություն"
 	},
 	"legal": {
-		"privacidad": "Política de privacidad",
-		"cookies": "Política de cookies"
+		"privacidad": "Գաղտնիության քաղաքականություն",
+		"cookies": "Թխուկների քաղաքականություն"
 	},
 	"person": {
-		"jobTitle": "Científico de datos",
-		"description": "Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional."
+		"jobTitle": "Տվյալների գիտնական",
+		"description": "Սպորտային վերլուծության ոլորտում մասնագիտացած տվյալների գիտնական՝ պրոֆեսիոնալ հեծանվասպորտում աշխատանքային փորձով:"
 	}
 }

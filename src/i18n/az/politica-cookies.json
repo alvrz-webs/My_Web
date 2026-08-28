@@ -1,53 +1,53 @@
 {
 	"meta": {
-		"title": "Política de Cookies — Mario Álvarez",
-		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"title": "Cookie Siyasəti — Mario Álvarez",
+		"description": "Bu saytın hansı kukilərdən istifadə etdiyi, hansı məqsədlərlə və razılığınızı istənilən vaxt necə dəyişə biləcəyiniz.",
+		"eyebrow": "Hüquqi",
+		"heading": "Cookie Siyasəti"
 	},
 	"bloques": [
 		{
 			"tipo": "parrafo",
-			"texto": "Esta web utiliza cookies y tecnologías similares (como el almacenamiento local del navegador) para su correcto funcionamiento y, si das tu consentimiento, para analizar de forma anónima cómo se usa el contenido."
+			"texto": "Bu veb sayt düzgün işləməsi üçün kukilərdən və oxşar texnologiyalardan (brauzerin yerli yaddaşı kimi) və əgər razılıq versəniz, məzmunun necə istifadə olunduğunu anonim şəkildə təhlil etmək üçün istifadə edir."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
+			"texto": "İstifadə olunan kukilər:"
 		},
 		{
 			"tipo": "tabla",
 			"columnas": [
-				"Nombre",
-				"Finalidad",
-				"Tipo",
-				"Duración"
+				"Ad",
+				"Məqsəd",
+				"Növ",
+				"Müddət"
 			],
 			"filas": [
 				[
-					"consentimiento_cookies",
-					"Recordar tu elección sobre esta política de cookies",
-					"Propia, técnica (exenta de consentimiento)",
-					"12 meses"
+					"cookie_raziligi",
+					"Bu kuki siyasəti ilə bağlı seçiminizi xatırlamaq",
+					"Şəxsi, texniki (razılıq tələb olunmur)",
+					"12 ay"
 				],
 				[
-					"visitante_id",
-					"Identificador anónimo para relacionar tus visitas y saber qué contenido resulta útil",
-					"Propia, analítica (requiere tu consentimiento)",
-					"12 meses"
+					"ziyaretci_id",
+					"Ziyarətlərinizi əlaqələndirmək və hansı məzmunun faydalı olduğunu bilmək üçün anonim identifikator",
+					"Şəxsi, analitik (razılığınızı tələb edir)",
+					"12 ay"
 				]
 			]
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Ninguna de estas cookies es de terceros, ninguna se usa con fines publicitarios, y ninguna se comparte con nadie fuera de este sitio."
+			"texto": "Bu kukilərin heç biri üçüncü tərəfə məxsus deyil, heç biri reklam məqsədləri üçün istifadə olunmur və bu saytdan kənarda heç kimlə paylaşılmır."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Puedes cambiar tu decisión o retirar tu consentimiento en cualquier momento desde el enlace \"Configurar cookies\" en el pie de página, y borrar de forma inmediata todos tus datos con el botón \"Borrar mis datos\" en ese mismo panel."
+			"texto": "Siz səhifənin aşağı hissəsindəki \"Kukiləri konfiqurasiya et\" keçidindən istifadə edərək istənilən vaxt qərarınızı dəyişə və ya razılığınızı geri götürə bilərsiniz və həmin paneldəki \"Məlumatlarımı sil\" düyməsi ilə bütün məlumatlarınızı dərhal silə bilərsiniz."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Para más información sobre cómo se tratan tus datos, consulta la Política de Privacidad."
+			"texto": "Məlumatlarınızın necə emal olunduğu haqqında ətraflı məlumat üçün Məxfilik Siyasətinə baxın."
 		}
 	]
 }

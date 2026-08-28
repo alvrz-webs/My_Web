@@ -1,27 +1,27 @@
 {
 	"page": {
-		"title": "Proyectos — Mario Álvarez",
-		"description": "Repositorios y proyectos de análisis de datos, visualización y machine learning de Mario Álvarez.",
-		"eyebrow": "Proyectos",
-		"heading": "Proyectos",
-		"intro": "Un vistazo a mi trabajo: desde herramientas para ciclismo profesional hasta proyectos académicos de análisis y machine learning."
+		"title": "პროექტები — Mario Álvarez",
+		"description": "Mario Álvarez-ის მონაცემთა ანალიზის, ვიზუალიზაციისა და მანქანური სწავლების საცავები და პროექტები.",
+		"eyebrow": "პროექტები",
+		"heading": "პროექტები",
+		"intro": "ჩემი სამუშაოს მიმოხილვა: პროფესიონალური ციკლოსპორტის ინსტრუმენტებიდან დაწყებული, ანალიტიკისა და მანქანური სწავლების აკადემიური პროექტებით დამთავრებული."
 	},
 	"list": {
-		"eyebrow": "Trabajo",
-		"title": "Proyectos",
-		"intro": "Una selección automática de mis repositorios públicos en GitHub.",
-		"especializaciones": "Especializaciones",
-		"fallbackDescripcion": "Proyecto de análisis y ciencia de datos.",
-		"verEnGithub": "Ver en GitHub",
-		"vacio": "No se pudieron cargar los repositorios en este momento.",
-		"filtroLabel": "Filtrar proyectos por tipo",
-		"filtroTodos": "Todos",
-		"filtroDatos": "Datos",
-		"filtroWebs": "Webs",
-		"verWeb": "Ver web",
-		"verCodigo": "Ver código",
-		"enDesarrollo": "En desarrollo",
-		"fallbackDescripcionWeb": "Proyecto web.",
-		"vacioWebs": "Todavía no hay webs publicadas en esta sección."
+		"eyebrow": "სამუშაო",
+		"title": "პროექტები",
+		"intro": "ჩემი საჯარო GitHub საცავების ავტომატური არჩევანი.",
+		"especializaciones": "სპეციალიზაცია",
+		"fallbackDescripcion": "მონაცემთა ანალიზისა და მეცნიერების პროექტი.",
+		"verEnGithub": "იხილეთ GitHub-ზე",
+		"vacio": "ამჟამად საცავების ჩატვირთვა ვერ მოხერხდა.",
+		"filtroLabel": "პროექტების გაფილტრვა ტიპის მიხედვით",
+		"filtroTodos": "ყველა",
+		"filtroDatos": "მონაცემები",
+		"filtroWebs": "ვებგვერდები",
+		"verWeb": "ვებგვერდის ნახვა",
+		"verCodigo": "კოდის ნახვა",
+		"enDesarrollo": "მუშავდება",
+		"fallbackDescripcionWeb": "ვებპროექტი.",
+		"vacioWebs": "ამ განყოფილებაში ჯერ არ არის გამოქვეყნებული ვებგვერდები."
 	}
 }

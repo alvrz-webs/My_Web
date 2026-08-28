@@ -1,37 +1,37 @@
 {
 	"nav": {
-		"sobreMi": "Sobre mí",
-		"proyectos": "Proyectos",
-		"experiencia": "Experiencia",
-		"contacto": "Contacto",
-		"ariaMain": "Navegación principal",
-		"openMenu": "Abrir menú"
+		"sobreMi": "Oor my",
+		"proyectos": "Projekte",
+		"experiencia": "Ervaring",
+		"contacto": "Kontak",
+		"ariaMain": "Hoofnavigasie",
+		"openMenu": "Maak kieslys oop"
 	},
 	"footer": {
 		"tagline": "Data · Sport · Progress",
 		"copySufijo": "Mario Álvarez. Valencia.",
-		"ariaSocial": "Redes sociales"
+		"ariaSocial": "Sosiale netwerke"
 	},
 	"langSwitch": {
-		"label": "Cambiar idioma",
-		"traducir": "Cambiar idioma",
-		"buscar": "Buscar idioma…"
+		"label": "Verander taal",
+		"traducir": "Verander taal",
+		"buscar": "Soek taal…"
 	},
 	"cookies": {
-		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
-		"politica": "Política de cookies",
-		"aceptar": "Aceptar",
-		"rechazar": "Rechazar",
-		"configurar": "Configurar cookies",
-		"borrarDatos": "Borrar mis datos",
-		"ariaBanner": "Consentimiento de cookies"
+		"texto": "Ons gebruik eie koekies vir anonieme analitika en om jou ervaring te verbeter. Ons gebruik nie derdeparty-koekies nie.",
+		"politica": "Koekiebeleid",
+		"aceptar": "Aanvaar",
+		"rechazar": "Wys an",
+		"configurar": "Konfigureer koekies",
+		"borrarDatos": "Vee my data uit",
+		"ariaBanner": "Koekietoestemming"
 	},
 	"legal": {
-		"privacidad": "Política de privacidad",
-		"cookies": "Política de cookies"
+		"privacidad": "Privaatheidsbeleid",
+		"cookies": "Koekiebeleid"
 	},
 	"person": {
-		"jobTitle": "Científico de datos",
-		"description": "Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional."
+		"jobTitle": "Datawetenskaplike",
+		"description": "Datawetenskaplike gespesialiseerd in sportanalitika, met ervaring binne professionele fietsry."
 	}
 }

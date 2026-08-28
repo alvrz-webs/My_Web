@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "የግላዊነት ፖሊሲ — Mario Álvarez",
+		"description": "የ Mario Álvarez ድር ጣቢያ የግላዊነት ፖሊሲ፡ ምን ዓይነት ውሂብ እንደሚሰበሰብ፣ ለምን ዓላማ እና መብቶችዎን እንዴት እንደሚጠቀሙ።",
+		"eyebrow": "ህጋዊ",
+		"heading": "የግላዊነት ፖሊሲ"
 	},
 	"secciones": [
 		{
+			"titulo": "1. የውሂብ ሃላፊ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Mario Álvarez Martínez፣ አድራሻው በቤኒዶርም (አሊካንቴ)፣ ስፔን። እውቂያ፡ malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. የሂደቱ ዓላማ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "ይህ ድር ጣቢያ ይዘቱን ለማሻሻል ሲባል፣ የትኞቹ ይዘቶች (ክፍሎች፣ ፕሮጀክቶች) ጎብኚዎችን የበለጠ እንደሚጠቅሙ በውስጥ እና በስታቲስቲክስ ዓላማዎች ብቻ ይመረምራል። ለማስታወቂያ ዓላማዎች ጥቅም ላይ አይውልም፣ ከሶስተኛ ወገኖች ጋርጋር አይጋራም እና በምንም አይነት ሁኔታ አይሸጥም።"
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. የተሰበሰቡ መረጃዎች (የትንታኔ ኩኪዎችን ከቀበሉ ብቻ)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"ስምዎን፣ ኢሜልዎን ወይም በቀጥታ ሊለዩዎት ከሚችሉ ሌሎች መረጃዎች ጋር ያልተገናኘ፣ የዘፈቀደ ስም የሌለው መለያ።",
+						"የሚጎበኟቸው ገጾች እና ፕሮጀክቶች፣ እና በእያንዳንዳቸው ላይ የሚጠፋው ጊዜ (ትርሱ ንቁ እስካለ ድረስ)።",
+						"መስተጋብሮች (በፕሮጀክቶች፣ አገናኞች ወይም አዝራሮች ላይ ጠቅታዎች)።",
+						"የጉብኝቱ ቀን እና ሰዓት።",
+						"የተጠየቀው የጣቢያ ቋንቋ።",
+						"የመሣሪያ ዓይነት (ሞባይል ወይም ዴስክቶፕ)።",
+						"የእርስዎን IP አድራሻ ሳያስቀምጡ በCloudflare መሠረተ ልማት በኩል የተገኘ ግምታዊ ሀገር።",
+						"የመነሻ ገጽ (ለምሳሌ፣ LinkedIn ወይም የፍለጋ ሞተር)።"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "የእርስዎ IP አድራሻ አልተሰበሰበም፣ የአሳሽ መለያ ቴክኒኮች (fingerprinting) ጥቅም ላይ አይውሉም፣ እንዲሁም እንደ Google Analytics ወይም მსგავს ያሉ የሶስተኛ ወገን መሳሪያዎች አይጠቀሙም።"
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. ህጋዊ መሰረት",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "ሂደቱ በእርስዎ ግልጽ ስምምነት ላይ የተመሰረተ ነው (የ GDPR አንቀጽ 6.1.a እና የ LSSI-CE አንቀጽ 22.2)፣ እርስዎ ከራሱ ጣቢያው የኩኪ አስተዳዳሪ በማንኛውም ጊዜ ሊያነሱት ይችላሉ።"
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. የማቆያ ጊዜ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "ውሂቡ ከመጨረሻው ጉብኝትዎ ጀምሮ ቢበዛ ለ 12 ወራት ይቀመጣል፣ ከዚያ በኋላ በራስ-ሰር ይሰረዛሉ።"
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. ተቀባዮች እና አለምአቀፍ ዝውውሮች",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "ውሂቡ ለሶስተኛ ወገኖች አይሰጥም ወይም አይሸጥም። በ Cloudflare D1 ውስጥ ተከማችቷል፣ ይህም እንደ ዳታ ማቀነባበሪያ ሆኖ በሚሰራው በ Cloudflare, Inc. የቀረበ የውሂብ ጎታ አገልግሎት ነው። Cloudflare ከевропейският икономически пространство ውጭ ውሂብን ሊያስተናግድ ይችላል; በዚህ ጊዜ, እንደዚህ አይነት ዝውውር በአውሮፓ ኮሚሽን የጸደቁ መደበኛ የውል አንቀጾች የተጠበቀ ነው። ተጨማሪ መረጃ በ Cloudflare የግላዊነት ፖሊሲ ውስጥ: https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. መብቶችዎ",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "malvmar5@hotmail.com በመጻፍ የመድረስ፣ የማስተካከል፣ የመሰረዝ፣ የመቃወም፣ የሂደት ገደብ እና የፖርታብሊቲ መብቶችዎን በማንኛውም ጊዜ መጠቀም ይችላሉ። በተጨማሪም፣ በማንኛውም ሰው ላይ መጻፍ ሳያስፈልግዎት፣ በጣቢያው የኩኪዎች ውቅር ውስጥ ከሚገኘው \"ውሂቤን ሰርዝ\" የሚለው አዝራር ወዲያውኑ መረጃዎን መሰረዝ ይችላሉ። መብቶችዎ በትክክል እንዳልተስተናገዱ ካሰቡ ለስፔን የውሂብ ጥበቃ ኤጀንሲ (www.aepd.es) የማመልከት መብት አለዎት።"
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. በዚህ ፖሊሲ ላይ የሚደረጉ ለውጦች",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "ይህ ፖሊሲ ከህጋዊ ወይም ከጣቢያው ለውጦች ጋር ለመላመድ ሊዘምን ይችላል።"
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

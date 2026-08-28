@@ -1,37 +1,37 @@
 {
 	"nav": {
-		"sobreMi": "Sobre mí",
-		"proyectos": "Proyectos",
-		"experiencia": "Experiencia",
-		"contacto": "Contacto",
-		"ariaMain": "Navegación principal",
-		"openMenu": "Abrir menú"
+		"sobreMi": "Faoi mo choinne",
+		"proyectos": "Tionscadail",
+		"experiencia": "Taithí",
+		"contacto": "Teagmháil",
+		"ariaMain": "Príomh-nascleanúint",
+		"openMenu": "Oscail an roghchlár"
 	},
 	"footer": {
 		"tagline": "Data · Sport · Progress",
 		"copySufijo": "Mario Álvarez. Valencia.",
-		"ariaSocial": "Redes sociales"
+		"ariaSocial": "Meáin shóisialta"
 	},
 	"langSwitch": {
-		"label": "Cambiar idioma",
-		"traducir": "Cambiar idioma",
-		"buscar": "Buscar idioma…"
+		"label": "Athraigh teanga",
+		"traducir": "Athraigh teanga",
+		"buscar": "Cuardaigh teanga…"
 	},
 	"cookies": {
-		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
-		"politica": "Política de cookies",
-		"aceptar": "Aceptar",
-		"rechazar": "Rechazar",
-		"configurar": "Configurar cookies",
-		"borrarDatos": "Borrar mis datos",
-		"ariaBanner": "Consentimiento de cookies"
+		"texto": "Úsáidimid fianáin dhúchasacha le haghaidh anailísíochta anaithnide agus chun d'eispéireas a fheabhsú. Ní úsáidimid fianáin tríú páirtí.",
+		"politica": "Polasaí fianán",
+		"aceptar": "Glac",
+		"rechazar": "Diúltaigh",
+		"configurar": "Cumraigh fianáin",
+		"borrarDatos": "Scrios mo chuid sonraí",
+		"ariaBanner": "Toiliú fianán"
 	},
 	"legal": {
-		"privacidad": "Política de privacidad",
-		"cookies": "Política de cookies"
+		"privacidad": "Polasaí príobháideachais",
+		"cookies": "Polasaí fianán"
 	},
 	"person": {
-		"jobTitle": "Científico de datos",
-		"description": "Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional."
+		"jobTitle": "Eolaí sonraí",
+		"description": "Eolaí sonraí sainithe san anailísíocht spóirt, le taithí laistigh den rothaíocht ghairmiúil."
 	}
 }

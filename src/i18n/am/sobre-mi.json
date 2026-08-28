@@ -1,36 +1,36 @@
 {
 	"meta": {
-		"title": "Sobre mí — Mario Álvarez",
-		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
-		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"title": "ስለ እኔ — Mario Álvarez",
+		"description": "ከእስፔን የማዲሰን ሻምፒዮና እስከ የዳታ ሳይንስ ተማሪ፡ የMario Álvarez ጉዞ በከፍተኛ ደረጃ ብስክሌት እና በስፖርት ትንተና መካከል ያለው።",
+		"eyebrow": "ስለ እኔ",
+		"heading": "ከቬሎድሮም እስከ ዳታ"
 	},
 	"bio": [
-		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
-		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",
-		"Mi valor diferencial es ese puente: he vivido el alto rendimiento desde dentro —como corredor, como director deportivo de base y como quiromasajista de ciclistas profesionales— y sé leer los datos que hay detrás. Entiendo lo que un número significa para un deportista, porque yo he sido ese deportista. Uno los dos mundos para convertir datos en decisiones que mejoran el rendimiento.",
-		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
+		"መወዳደር ጀመርኩ። በ18 ዓመቴ በምህዋር (ትራክ) የማዲሰን የእስፔን ሻምፒዮና አሸናፊ ሆንኩ እና የእስፔን ብስክሌት ማህበር ለዓለም እና ለአውሮፓ ሻምፒዮናዎች ጠራኝ፤ በሁለቱም ላይ ስድስተኛ ወጣሁ፣ ይህም የከፍተኛ አትሌትነት ደረጃን አስገኘልኝ።",
+		" ከዚያም ወደ ዳታ ሳይንስ ዝላይ አደረግሁ፡ ዛሬ በUniversitat Politècnica de València የዲግሪ 3ኛ ዓመት እየተማርኩ ነው፣ ይህም በስፖርት ላይ የተተገበረ ዲጂታላይዜሽን እና ቴክኖሎጂን ያነጣጠረ ነው።",
+		"የእኔ ልዩ ዋጋ ያ ድልድይ ነው፡ ከፍተኛ ብቃትን ከውስጥ ኖሬዋለሁ — እንደ ተወዳዳሪ፣ እንደ መሰረታዊ የስፖርት ዳይሬክተር እና እንደ ባለሙያ ብስክሌተኞች ማساጅ ባለሙያ — እና ከኋላው ያሉትን ዳታዎች ማንበብ እችላለሁ። አንድ ቁጥር ለአትሌት ምን ማለት እንደሆነ እረዳለሁ፣ ምክንያቱም እኔ ያ አትሌት ነኝና። አፈጻጸምን የሚያሻሽሉ ውሳኔዎች ዳታዎችን ለመለወጥ ሁለቱን ዓለማት አገናኛለሁ።",
+		"በተጨማሪም፣ በከፍተኛ አትሌትነቴ ሁኔታ፣ በስፖርት ዲጂታላይዜሽን፣ ፈጠራ እና ቴክኖሎጂ ማስተርስ ዲግሪ ለመከተል ስኮላርሺፕ አግኝቼ ነበር፣ ይህም አሁን ያጠናቀቅኩት እና ትኩረቴን ከብስክሌት ባሻገር ወደ አጠቃላይ የስፖርት ስነ-ምህዳር የሚያሰፋ ነው።"
 	],
 	"facts": [
 		{
-			"label": "Base",
+			"label": "መሠረት",
 			"value": "Benidorm · Valencia"
 		},
 		{
-			"label": "Estado",
-			"value": "Disponible para proyectos"
+			"label": "ሁኔታ",
+			"value": "ለፕሮጀክቶች ዝግጁ"
 		},
 		{
-			"label": "Enfoque",
-			"value": "Datos + rendimiento deportivo"
+			"label": "ትኩረት",
+			"value": "ዳታ + የስፖርት አፈጻጸም"
 		},
 		{
-			"label": "Idiomas",
-			"value": "Español nativo · Valenciano · Inglés B1"
+			"label": "ቋንቋዎች",
+			"value": "የእስፔን ተወላጅ · ቫሌንሺያኛ · እንግሊዝኛ B1"
 		},
 		{
-			"label": "Formación",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"label": "ትምህርት",
+			"value": "የዳታ ሳይንስ ዲግሪ (UPV) · በስፖርት ዲጂታላይዜሽን፣ ፈጠራ እና ቴክኖሎጂ ማስተርስ"
 		}
 	]
 }

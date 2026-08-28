@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "კონფიდენციალურობის პოლიტიკა — Mario Álvarez",
+		"description": "Mario Álvarez-ის ვებსაიტის კონფიდენციალურობის პოლიტიკა: რა მონაცემები გროვდება, რა მიზნით და როგორ შეგიძლიათ ისარგებლოთ თქვენი უფლებებით.",
+		"eyebrow": "იურიდიული",
+		"heading": "კონფიდენციალურობის პოლიტიკა"
 	},
 	"secciones": [
 		{
+			"titulo": "1. მონაცემთა დამმუშავებელი",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Mario Álvarez Martínez, მისამართით: Benidorm (Alicante), ესპანეთი. საკონტაქტო: malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. დამუშავების მიზანი",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "ეს ვებსაიტი შიდა დონეზე და ექსკლუზიურად სტატისტიკური მიზნებისთვის აანალიზებს, თუ რომელი შიგთავსი (სექციები, პროექტები) არის ყველაზე სასარგებლო მისი ვიზიტორებისთვის, შიგთავსის გაუმჯობესების მიზნით. ის არ გამოიყენება სარეკლამო მიზნებით, არ ეზიარება მესამე პირებს და არ იყიდება არავითარ შემთხვევაში."
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. შეგროვებული მონაცემები (მხოლოდ იმ შემთხვევაში, თუ დაეთანხმებით ანალიტიკურ ქუქი-ფაილებს)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"შემთხვევითი ანონიმური იდენტიფიკატორი, რომელიც არ არის დაკავშირებული თქვენს სახელსთან, ელფოსტასთან ან სხვა რაიმე ინფორმაციასთან, რომელიც პირდაპირ გიidentიფიცირებთ.",
+						"გვერდები და პროექტები, რომლებსაც სტუმრობთ, და თითოეულ მათგანზე დახარჯული დრო (სანამ ჩანართი აქტიურია).",
+						"ინტერაქციები (დაწკაპუნებები პროექტებზე, ბმულებზე ან ღილაკებზე).",
+						"ვიზიტის თარიღი და დრო.",
+						"ნახული საიტის ენა.",
+						"მოწყობილობის ტიპი (მობილური ან დესკტოპი).",
+						"დაახლოებითი ქვეყანა, მიღებული Cloudflare-ის ინფრასტრუქტურის მეშვეობით, თქვენი IP მისამართის შენახვის გარეშე.",
+						"წარმოშობის გვერდი (მაგალითად, LinkedIn ან საძიებო სისტემა)."
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "თქვენი IP მისამართი არ გროვდება, არ გამოიყენება ბრაუზერის იდენტიფიკაციის ტექნიკები (fingerprinting) და მესამე მხარის ინსტრუმენტები, როგორიცაა Google Analytics ან მსგავსი."
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. სამართლებრივი საფუძველი",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "დამუშავება ეფუძნება თქვენს მკაფიო თანხმობას (GDPR-ის 6.1.a მუხლი და LSSI-CE-ის 22.2 მუხლი), რომლის გამოხმობაც შეგიძლიათ ნებისმიერ დროს თავად საიტის ქუქი-ფაილების მენეჯერიდან."
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. შენახვის ვადა",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "მონაცემები ინახება თქვენი ბოლო ვიზიტიდან მაქსიმუმ 12 თვის განმავლობაში, რის შემდეგაც ავტომატურად იშლება."
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. მიმღებები და საერთაშორისო გადაცემები",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "მონაცემები არ გადაეცემა და არ იყიდება მესამე პირებზე. ის ინახება Cloudflare D1-ში, მონაცემთა ბაზის სერვისში, რომელსაც უზრუნველყოფს Cloudflare, Inc., რომელიც მოქმედებს როგორც დამმუშავებელი. Cloudflare-მა შეიძლება დაამუშაოს მონაცემები ევროპის ეკონომიკური ზონის გარეთ; ამ შემთხვევაში, ასეთი გადაცემა დაფუძნებულია ევროკომისიის მიერ დამტკიცებულ სტანდარტულ საკონტრაქტო პუნქტებზე. დამატებითი ინფორმაცია Cloudflare-ის კონფიდენციალურობის პოლიტიკაში: https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. თქვენი უფლებები",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "თქვენ შეგიძლიათ ნებისმიერ დროს ისარგებლოთ წვდომის, გასწორების, წაშლის, შეწინააღმდეგების, დამუშავების შეზღუდვისა და პორტირებულობის უფლებებით, თუ მოწერთ მისამართზე malvmar5@hotmail.com. გარდა ამისა, შეგიძლიათ წაშალოთ თქვენი მონაცემები დაუყოვნებლივ, ვინმესთვის მიწერის გარეშე, ღილაკით „ჩემი მონაცემების წაშლა“, რომელიც ხელმისაწვდომია საიტის ქუქი-ფაილების პარამეტრებში. თქვენ ასევე გაქვთ უფლება შეიტანოთ საჩივარი მონაცემთა დაცვის ესპანურ სააგენტოში (www.aepd.es), თუ მიიჩნევთ, რომ თქვენი უფლებები სათანადოდ არ იქნა დაკმაყოფილებული."
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. ცვლილებები ამ პოლიტიკაში",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "ეს პოლიტიკა შესაძლებელია განახლდეს კანონმდებლობის ან თავად საიტის ცვლილებების შესაბამისად."
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

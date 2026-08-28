@@ -1,27 +1,27 @@
 {
 	"page": {
-		"title": "Proyectos — Mario Álvarez",
-		"description": "Repositorios y proyectos de análisis de datos, visualización y machine learning de Mario Álvarez.",
-		"eyebrow": "Proyectos",
-		"heading": "Proyectos",
-		"intro": "Un vistazo a mi trabajo: desde herramientas para ciclismo profesional hasta proyectos académicos de análisis y machine learning."
+		"title": "프로젝트 — Mario Álvarez",
+		"description": "የማሪዮ አልቫሬዝ የመረጃ ትንተና፣ እይታ እና የማሽን లెርኒንግ ማከማቻዎች እና ፕሮጀክቶች።",
+		"eyebrow": "ፕሮጀክቶች",
+		"heading": "ፕሮጀክቶች",
+		"intro": "የሥራዬ ቅኝት፡ ከባለሙያ ብስክሌት መሣሪያዎች እስከ አካዳሚክ ትንተና እና የማሽን లెርኒንግ ፕሮጀክቶች።"
 	},
 	"list": {
-		"eyebrow": "Trabajo",
-		"title": "Proyectos",
-		"intro": "Una selección automática de mis repositorios públicos en GitHub.",
-		"especializaciones": "Especializaciones",
-		"fallbackDescripcion": "Proyecto de análisis y ciencia de datos.",
-		"verEnGithub": "Ver en GitHub",
-		"vacio": "No se pudieron cargar los repositorios en este momento.",
-		"filtroLabel": "Filtrar proyectos por tipo",
-		"filtroTodos": "Todos",
-		"filtroDatos": "Datos",
-		"filtroWebs": "Webs",
-		"verWeb": "Ver web",
-		"verCodigo": "Ver código",
-		"enDesarrollo": "En desarrollo",
-		"fallbackDescripcionWeb": "Proyecto web.",
-		"vacioWebs": "Todavía no hay webs publicadas en esta sección."
+		"eyebrow": "ሥራ",
+		"title": "ፕሮጀክቶች",
+		"intro": "በ GitHub ላይ ያሉ የእኔ የህዝብ ማከማቻዎች አውቶማቲክ ምርጫ።",
+		"especializaciones": "ልዩ ባለሙያዎች",
+		"fallbackDescripcion": "የመረጃ ትንተና እና ሳይንስ ፕሮጀክት።",
+		"verEnGithub": "በ GitHub ላይ ይመልከቱ",
+		"vacio": "በአሁኑ ጊዜ ማከማቻዎቹን መጫን አልተቻለም።",
+		"filtroLabel": "프로젝트 유형별 필터링",
+		"filtroTodos": "ሁሉም",
+		"filtroDatos": "መረጃ",
+		"filtroWebs": "ድረ-ገጾች",
+		"verWeb": "ድረ-ገጽ ይመልከቱ",
+		"verCodigo": "ኮድ ይመልከቱ",
+		"enDesarrollo": "በእድገት ላይ",
+		"fallbackDescripcionWeb": "የድር ፕሮጀክት።",
+		"vacioWebs": "በዚህ ክፍል ውስጥ እስካሁን የታተሙ ድረ-ገጾች የሉም።"
 	}
 }

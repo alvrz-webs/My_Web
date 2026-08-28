@@ -1,37 +1,37 @@
 {
 	"nav": {
-		"sobreMi": "Sobre mí",
-		"proyectos": "Proyectos",
-		"experiencia": "Experiencia",
-		"contacto": "Contacto",
-		"ariaMain": "Navegación principal",
-		"openMenu": "Abrir menú"
+		"sobreMi": "ჩემ შესახებ",
+		"proyectos": "პროექტები",
+		"experiencia": "გამოცდილება",
+		"contacto": "კონტაქტი",
+		"ariaMain": "მთავარი ნავიგაცია",
+		"openMenu": "მენიუს გახსნა"
 	},
 	"footer": {
 		"tagline": "Data · Sport · Progress",
 		"copySufijo": "Mario Álvarez. Valencia.",
-		"ariaSocial": "Redes sociales"
+		"ariaSocial": "სოციალური ქსელები"
 	},
 	"langSwitch": {
-		"label": "Cambiar idioma",
-		"traducir": "Cambiar idioma",
-		"buscar": "Buscar idioma…"
+		"label": "ენის შეცვლა",
+		"traducir": "ენის შეცვლა",
+		"buscar": "ენის ძებნა…"
 	},
 	"cookies": {
-		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
-		"politica": "Política de cookies",
-		"aceptar": "Aceptar",
-		"rechazar": "Rechazar",
-		"configurar": "Configurar cookies",
-		"borrarDatos": "Borrar mis datos",
-		"ariaBanner": "Consentimiento de cookies"
+		"texto": "ვიყენებთ საკუთar ქუქი-ფაილებს ანონიმური ანალიტიკისთვის და თქვენი გამოცდილების გასაუმჯობესებლად. არ ვიყენებთ მესამე მხარის ქუქი-ფაილებს.",
+		"politica": "ქუქი-ფაილების პოლიტიკა",
+		"aceptar": "მიღება",
+		"rechazar": "უარყოფა",
+		"configurar": "ქუქი-ფაილების კონფიგურაცია",
+		"borrarDatos": "ჩემი მონაცემების წაშლა",
+		"ariaBanner": "ქუქი-ფაილების თანხმობა"
 	},
 	"legal": {
-		"privacidad": "Política de privacidad",
-		"cookies": "Política de cookies"
+		"privacidad": "კონფიდენციალურობის პოლიტიკა",
+		"cookies": "ქუქი-ფაილების პოლიტიკა"
 	},
 	"person": {
-		"jobTitle": "Científico de datos",
-		"description": "Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional."
+		"jobTitle": "მონაცემთა მეცნიერი",
+		"description": "მონაცემთა მეცნიერი, რომელიც სპეციალიზებულია სპორტულ ანალიტიკაში, პროფესიონალურ ველოსიპედისტურ სპორტში მუშაობის გამოცდილებით."
 	}
 }

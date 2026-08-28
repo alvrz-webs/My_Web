@@ -1,63 +1,63 @@
 {
 	"meta": {
-		"title": "Experiencia — Mario Álvarez",
-		"description": "Dos mundos, un mismo lenguaje: el rendimiento. Experiencia de Mario Álvarez en datos e ingeniería, y en ciclismo de élite.",
-		"eyebrow": "Experiencia",
-		"heading": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"colDatos": "Datos & Tecnología",
-		"colDeporte": "Deporte de élite"
+		"title": "ልምድ — Mario Álvarez",
+		"description": "ሁለቱ ዓለማት፣ አንድ ቋንቋ፡ አፈጻጸምም። የMario Álvarez ልምድ በዳታ እና ምህንድስና፣ እንዲሁም በላቀ ብስክሌት ስፖርት።",
+		"eyebrow": "ልምድ",
+		"heading": "ሁለቱ ዓለማት፣ አንድ ቋንቋ፡ አፈጻጸም",
+		"colDatos": "ዳታ እና ቴክኖሎጂ",
+		"colDeporte": "የላቀ ስፖርት"
 	},
 	"datos": [
 		{
+			"title": "SIME TELECOM — የዳታ ሳይንስ ልምምድ",
+			"meta": "የዳታ ምህንድስና · Benidorm · 2026",
 			"paragraphs": [
-				"SIME desarrolla software de gestión (reservas, facturación, informes, pedidos de restauración) que sirve a cientos de clientes desde un sistema central, sobre una base de datos de +580 tablas interconectadas y +100 millones de registros. El crecimiento había obligado a repartir clientes en varias bases para aliviar la carga y las quejas de lentitud.",
-				"Mi trabajo: analizar esas bases y, mediante optimización de consultas e índices, diseñar la unificación de todos los datos en una única base eficiente sin escalar apenas el hardware (RAM/CPU). Mejora ya desarrollada, en fase de validación sobre servidor de pruebas."
-			],
-			"title": "SIME TELECOM — Prácticas de Ciencia de Datos",
-			"meta": "Ingeniería de Datos · Benidorm · 2026"
+				"SIME ከማዕከላዊ ስርዓት በመነሳት በመቶዎች ለሚቆጠሩ ደንበኞች የማስተዳደር ሶፍትዌር (ቦታ ማስያዝ፣ ደረሰኝ ማዘጋጀት፣ ሪፖርቶች፣ የምግብ ቤት ትዕዛዞች) ያዘጋጃል። ይህ ከ+580 የተሳሰሩ ሠንጠረዦች እና +100 ሚሊዮን መዝገቦች ጋር ይሰራል። እድገቱ  ጭነቱን እና የዘገየ ቅሬታዎችን ለማቃለል ደንበኞችን በበርካታ ዳታቤዞች ላይ እንዲከፋፍል አስገድዶት ነበር።",
+				"የእኔ ስራ፡- እነዚያን ዳታቤዞች መተንተን እና በጥያቄ ማመቻቸት (query optimization) እና ኢንዴክሶች አማካኝነት ሃርድዌሩን (RAM/CPU) በ ελάቺም ሳይጨምሩ ሁሉንም መረጃዎች በአንድ ቀልጣፋ ዳታቤዝ ውስጥ አንድ ለማድረግ መንደፍ። መሻሻያው ቀድሞውኑ ተዘጋጅቷል፣ በፈተና ሰርቨር ላይ የማረጋገጫ ደረጃ ላይ ይገኛል።"
+			]
 		},
 		{
+			"title": "ከ Cofidis (World Tour) ቡድን ጋር የተሰሩ ፕሮጀክቶች",
+			"meta": "Python · የበጋ 2025",
 			"paragraphs": [
-				"Proyecto propio que realicé como prueba para acceder al análisis de datos en el ciclismo profesional:"
+				"የሙያ ብስክሌት ስፖርት ዳታ ትንተና ለመድረስ እንደ ሙከራ የሰራሁት የግል ፕሮጀክት፡"
 			],
 			"list": [
-				"Analizador de dificultad UCI: mediante web scraping del ranking UCI, sitúa a los corredores del equipo y estima el nivel de dificultad para sumar puntos UCI según la plantilla.",
-				"Predictor de perfil de carrera: anticipa las características de cada carrera y le asigna una nota de dificultad para planificar objetivos y estrategia."
-			],
-			"title": "Proyectos con el equipo Cofidis (World Tour)",
-			"meta": "Python · Verano 2025"
+				"የ UCI ችግር መተንተኛ፡ የ UCI ራንኪንግን በመቃኘት (web scraping) የቡድኑን ሯጮች ያስቀምጣቸዋል እና በቡድኑ አቀማመጥ መሰረት የ UCI ነጥቦችን ለመሰብሰብ የችግር ደረጃውን ይገመታል።",
+				"የእሽቅድምድም መገለጫ (profile) წინዮሽ፡ የእያንዳንዱን እሽቅድምድም ባህሪያት አስቀድሞ በመገመት ዓላማዎችን እና ስትራቴጂዎችን ለማቀድ የችግር ውጤት ይሰጣል።"
+			]
 		},
 		{
+			"title": "አካዳሚክ እና የግል ፕሮጀክቶች",
+			"meta": "ትንተና፣ እይታ (visualization) እና ማሽኑ ለርኒንግ",
 			"paragraphs": [
-				"Trabajos propios de análisis de datos, visualización y machine learning."
+				"የግል የዳታ ትንተና፣ እይታ እና ማሽኑ ለርኒንግ ስራዎች።"
 			],
 			"link": {
 				"href": "/proyectos",
-				"label": "Ver proyectos"
-			},
-			"title": "Proyectos académicos y personales",
-			"meta": "Análisis, visualización y machine learning"
+				"label": "ፕሮጀክቶችን ይመልከቱ"
+			}
 		}
 	],
 	"deporte": [
 		{
+			"title": "ውድድር",
 			"paragraphs": [
-				"Campeón de España de madison (18 años); Mundial y Europeo de pista con la Selección Española (6º en ambos); deportista de élite; ciclista de pista federado, en activo."
-			],
-			"title": "Competición"
+				"የማዲሰን የስፔን ቻምፒዮን (18 ዓመት)፤ ከስፔን ብሔራዊ ቡድን ጋር የአለም እና አውሮፓ የትራክ ሻምፒዮና (በሁለቱም 6ኛ)፤ የላቀ አትሌት፤ ንቁ የሆነ በፌዴሬሽን የተመዘገበ የትራክ ብስክሌተኛ።"
+			]
 		},
 		{
+			"title": "የስፖርት ዳይሬክቶሬት",
 			"paragraphs": [
-				"Director Deportivo Nivel I y II (RFEC); formación y seguimiento de ciclistas de base (14–18) junto a mi padre; auxiliar con la Selección de la Comunidad Valenciana en competiciones (2026)."
-			],
-			"title": "Dirección deportiva"
+				"ደረጃ I እና II ስፖርታዊ ዳይሬክተር (RFEC)፤ ከአባቴ ጋር በመሆን መሰረታዊ የብስክሌተኞችን (14–18) ማሰልጠን እና መከታተል፤ በውድድሮች ከቫሌንሺያ ማህበረሰብ ብሔራዊ ቡድን ጋር ረዳት (2026)።"
+			]
 		},
 		{
+			"title": "ኪሮማሳጅ እና ቴክኒሻን ሰራተኞች",
+			"meta": "የበጋ 2025",
 			"paragraphs": [
-				"Quiromasajista titulado; masajista de ciclistas profesionales; staff con la Selección de la Comunidad Valenciana, con un equipo continental filipino y con ciclistas a título particular en Benidorm."
-			],
-			"title": "Quiromasaje y staff técnico",
-			"meta": "Verano 2025"
+				"የተረጋገጠ ኪሮማሳጅ ባለሙያ፤ የሙያ ብስክሌተኞች ማሳጅ ሰራተኛ፤ ከቫሌንሺያ ማህበረሰብ ብሔራዊ ቡድን ጋር፣ ከፊሊፒንስ ኮንቲኔንታል ቡድን ጋር እና በ Benidorm ከሚገኙ ግለሰብ ብስክሌተኞች ጋር ሰራተኛ።"
+			]
 		}
 	]
 }

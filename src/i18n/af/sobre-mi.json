@@ -1,36 +1,36 @@
 {
 	"meta": {
-		"title": "Sobre mí — Mario Álvarez",
-		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
-		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"title": "Oor my — Mario Álvarez",
+		"description": "Van Spaanse Madison-kampioen tot Datawetenskap-student: Mario Álvarez se reis tussen elite-fietsry en sportanalise.",
+		"eyebrow": "Oor my",
+		"heading": "Van die velodroom tot data"
 	},
 	"bio": [
-		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
-		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",
-		"Mi valor diferencial es ese puente: he vivido el alto rendimiento desde dentro —como corredor, como director deportivo de base y como quiromasajista de ciclistas profesionales— y sé leer los datos que hay detrás. Entiendo lo que un número significa para un deportista, porque yo he sido ese deportista. Uno los dos mundos para convertir datos en decisiones que mejoran el rendimiento.",
-		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
+		"Ek het begin kompeteer. Op 18 is ek as Spaanse Madison-baanfietsrykampioen gekroon en die Spaanse Fietsry Nasionale Span het my opgeroep vir die Wêreld- en Europese Kampioenskappe, waar ek sesde in beide geëindig het, wat my die status van elite-atleet besorg het.",
+		"Van daar af het ek die sprong na Datawetenskap gemaak: vandag is ek in my 3de jaar van die Graad aan die Universitat Politècnica de València, gerig op digitalisering en tegnologie toegepas op sport.",
+		"My differensieërende waarde is daardie brug: ek het hoë prestasie van binne beleef — as 'n renjaer, as 'n basis-sportdirekteur en as 'n sportmasseringsterapeut vir professionele fietsryers — and ek weet hoe om die data agter dit te lees. Ek verstaan wat 'n nommer vir 'n atleet beteken, omdat ek daardie atleet was. Ek verbind die twee wêrelde om data te verander in besluite wat prestasie verbeter.",
+		"Daarbenewens, danksy my status as elite-atleet, het ek 'n beurs ontvang om 'n Meestersgraad in Digitalisering, Innovasie en Tegnologie in Sport te volg, wat ek reeds voltooi het en wat my fokus uitbrei na die hele sportekosisteem, buite fietsry."
 	],
 	"facts": [
 		{
-			"label": "Base",
+			"label": "Basis",
 			"value": "Benidorm · Valencia"
 		},
 		{
-			"label": "Estado",
-			"value": "Disponible para proyectos"
+			"label": "Status",
+			"value": "Beskikbaar vir projekte"
 		},
 		{
-			"label": "Enfoque",
-			"value": "Datos + rendimiento deportivo"
+			"label": "Fokus",
+			"value": "Data + sportprestasie"
 		},
 		{
-			"label": "Idiomas",
-			"value": "Español nativo · Valenciano · Inglés B1"
+			"label": "Tale",
+			"value": "Spaans (moedertaal) · Valenciaans · Engels B1"
 		},
 		{
-			"label": "Formación",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"label": "Opleiding",
+			"value": "Graad in Datawetenskap (UPV) · Meestersgraad in Digitalisering, Innovasie en Tegnologie in Sport"
 		}
 	]
 }

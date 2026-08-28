@@ -1,27 +1,27 @@
 {
 	"page": {
-		"title": "Proyectos — Mario Álvarez",
-		"description": "Repositorios y proyectos de análisis de datos, visualización y machine learning de Mario Álvarez.",
-		"eyebrow": "Proyectos",
-		"heading": "Proyectos",
-		"intro": "Un vistazo a mi trabajo: desde herramientas para ciclismo profesional hasta proyectos académicos de análisis y machine learning."
+		"title": "Նախագծեր — Մարիո Ալվարես",
+		"description": "Մարիո Ալվարեսի տվյալների վերլուծության, վիզուալիզացίας և մեքենայական ուսուցման պահոցներ և նախագծեր:",
+		"eyebrow": "Նախագծեր",
+		"heading": "Նախագծեր",
+		"intro": "Հայացք իմ աշխատանքին՝ պրոֆեսիոնալ հեծանվասպորտի գործիքներից մինչև վերլուծության և մեքենայական ուսուցման ակադեմիական նախագծեր:"
 	},
 	"list": {
-		"eyebrow": "Trabajo",
-		"title": "Proyectos",
-		"intro": "Una selección automática de mis repositorios públicos en GitHub.",
-		"especializaciones": "Especializaciones",
-		"fallbackDescripcion": "Proyecto de análisis y ciencia de datos.",
-		"verEnGithub": "Ver en GitHub",
-		"vacio": "No se pudieron cargar los repositorios en este momento.",
-		"filtroLabel": "Filtrar proyectos por tipo",
-		"filtroTodos": "Todos",
-		"filtroDatos": "Datos",
-		"filtroWebs": "Webs",
-		"verWeb": "Ver web",
-		"verCodigo": "Ver código",
-		"enDesarrollo": "En desarrollo",
-		"fallbackDescripcionWeb": "Proyecto web.",
-		"vacioWebs": "Todavía no hay webs publicadas en esta sección."
+		"eyebrow": "Աշխատանք",
+		"title": "Նախագծեր",
+		"intro": "Իմ հանրային GitHub պահոցների ավտոմատ ընտրանի:",
+		"especializaciones": "Մասնագիտացումներ",
+		"fallbackDescripcion": "Տվյալների վերլուծության և գիտության նախագծ:",
+		"verEnGithub": "Դիտել GitHub-ում",
+		"vacio": "Այս պահին հնարավոր չեղավ բեռնել պահոցները:",
+		"filtroLabel": "Ֆիլտրել նախագծերն ըստ տեսակի",
+		"filtroTodos": "Բոլորը",
+		"filtroDatos": "Տվյալներ",
+		"filtroWebs": "Կայքեր",
+		"verWeb": "Դիտել կայքը",
+		"verCodigo": "Դիտել կոդը",
+		"enDesarrollo": "Մշակման փուլում է",
+		"fallbackDescripcionWeb": "Վեբ նախագծ:",
+		"vacioWebs": "Այս բաժնում դեռևս հրապարակված կայքեր չկան:"
 	}
 }

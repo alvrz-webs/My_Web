@@ -1,13 +1,13 @@
 {
 	"meta": {
-		"title": "Contacto — Mario Álvarez",
-		"description": "Ponte en contacto con Mario Álvarez para hablar de datos, rendimiento deportivo y proyectos.",
-		"eyebrow": "Contacto",
-		"heading": "¿Tienes datos y una pregunta que resolver?",
-		"intro": "Hablemos. Ya sea un proyecto de analítica deportiva, una colaboración de datos o simplemente una idea que quieras contrastar, respondo con gusto.",
-		"email": "Email",
-		"telefono": "Teléfono",
-		"verTelefono": "Ver teléfono",
-		"redesSociales": "Redes sociales"
+		"title": "Teagmháil — Mario Álvarez",
+		"description": "Téigh i dteagmháil le Mario Álvarez chun labhairt faoi shonraí, feidhmíocht spóirt agus tionscadail.",
+		"eyebrow": "Teagmháil",
+		"heading": "An bhfuil sonraí agat agus ceist le réiteach?",
+		"intro": "Labhraímis. Cibé an tionscadal anailísíochta spóirt é, comhoibriú sonraí nó díreach smaoineamh ar mhaith leat plé leis, freagraím go sásta.",
+		"email": "Ríomhphost",
+		"telefono": "Fón",
+		"verTelefono": "Féach ar an bhfón",
+		"redesSociales": "Meáin shóisialta"
 	}
 }

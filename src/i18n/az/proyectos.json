@@ -1,27 +1,27 @@
 {
 	"page": {
-		"title": "Proyectos — Mario Álvarez",
-		"description": "Repositorios y proyectos de análisis de datos, visualización y machine learning de Mario Álvarez.",
-		"eyebrow": "Proyectos",
-		"heading": "Proyectos",
-		"intro": "Un vistazo a mi trabajo: desde herramientas para ciclismo profesional hasta proyectos académicos de análisis y machine learning."
+		"title": "Layihələr — Mario Álvarez",
+		"description": "Mario Álvarez-in məlumatların təhlili, vizuallaşdırma və maşın öyrənməsi üzrə repozitoriyaları və layihələri.",
+		"eyebrow": "Layihələr",
+		"heading": "Layihələr",
+		"intro": "İşlərimə bir baxış: peşəkar velosiped idmanı alətlərindən tutmuş akademik analiz və maşın öyrənməsi layihələrinə qədər."
 	},
 	"list": {
-		"eyebrow": "Trabajo",
-		"title": "Proyectos",
-		"intro": "Una selección automática de mis repositorios públicos en GitHub.",
-		"especializaciones": "Especializaciones",
-		"fallbackDescripcion": "Proyecto de análisis y ciencia de datos.",
-		"verEnGithub": "Ver en GitHub",
-		"vacio": "No se pudieron cargar los repositorios en este momento.",
-		"filtroLabel": "Filtrar proyectos por tipo",
-		"filtroTodos": "Todos",
-		"filtroDatos": "Datos",
-		"filtroWebs": "Webs",
-		"verWeb": "Ver web",
-		"verCodigo": "Ver código",
-		"enDesarrollo": "En desarrollo",
-		"fallbackDescripcionWeb": "Proyecto web.",
-		"vacioWebs": "Todavía no hay webs publicadas en esta sección."
+		"eyebrow": "İş",
+		"title": "Layihələr",
+		"intro": "GitHub-dakı ictimai repozitoriyalarımın avtomatik seçimi.",
+		"especializaciones": "İxtisaslaşmalar",
+		"fallbackDescripcion": "Məlumat analizi və elm layihəsi.",
+		"verEnGithub": "GitHub-da bax",
+		"vacio": "Repozitoriyalar hazırda yüklənmədi.",
+		"filtroLabel": "Layihələri növünə görə filtrlə",
+		"filtroTodos": "Hamısı",
+		"filtroDatos": "Məlumatlar",
+		"filtroWebs": "Veb saytlar",
+		"verWeb": "Veb sayta bax",
+		"verCodigo": "Koda bax",
+		"enDesarrollo": "Hazırlanır",
+		"fallbackDescripcionWeb": "Veb layihə.",
+		"vacioWebs": "Bu bölmədə hələ də dərc olunmuş veb sayt yoxdur."
 	}
 }

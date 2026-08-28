@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "Məxfilik Siyasəti — Mario Álvarez",
+		"description": "Mario Álvarez saytının məxfilik siyasəti: hansı məlumatların toplandığı, hansı məqsədlə və hüquqlarınızdan necə istifadə edə biləcəyiniz.",
+		"eyebrow": "Hüquqi",
+		"heading": "Məxfilik Siyasəti"
 	},
 	"secciones": [
 		{
+			"titulo": "1. Məlumatların işlənməsinə cavabdeh şəxs",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Benidorm (Alicante), İspaniya ünvanında yerləşən Mario Álvarez Martínez. Əlaqə: malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. Məlumatların işlənməsinin məqsədi",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "Bu vebsayt daxili olaraq və yalnız statistik məqsədlərlə məzmunu yaxşılaşdırmaq məqsədi ilə ziyarətçilər üçün hansı məzmunun (bölmələr, layihələr) daha faydalı olduğunu təhlil edir. Reklam məqsədləri üçün istifadə olunmur, üçüncü tərəflərlə paylaşılmır və heç bir halda satılmır."
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. Toplanan məlumatlar (yalnız analitik kukiləri qəbul etdiyiniz təqdirdə)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"Adınız, e-poçtunuz və ya sizi birbaşa müəyyən edən hər hansı digər məlumatla əlaqəli olmayan təsadüfi anonim identifikator.",
+						"Ziyarət etdiyiniz səhifələr və layihələr, həmçinin hər birində sərf olunan diqqət müddəti (tab aktiv olduğu müddətdə).",
+						"Qarşılıqlı əlaqələr (layihələrə, linklərə və ya düymələrə kliklər).",
+						"Ziyarət tarixi və vaxtı.",
+						"Baxılan saytın dili.",
+						"Cihaz növü (mobil və ya masaüstü).",
+						"IP ünvanınız saxlanılmadan, Cloudflare infrastrukturu vasitəsilə əldə edilən təxmini ölkə.",
+						"Mənbə səhifəsi (məsələn, LinkedIn və ya axtarış sistemi)."
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "IP ünvanınız toplanmır, brauzerin müəyyənləşdirilməsi texnikalarından (fingerprinting) və ya Google Analytics və bənzəri üçüncü tərəf alətlərindən istifadə olunmur."
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. Hüquqi əsas",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "Emal sizin açıq razılığınıza əsaslanır (GDPR-in 6.1.a maddəsi və LSSI-CE-nin 22.2 maddəsi), bunu saytın öz kuki menecerindən istənilən vaxt geri götürə bilərsiniz."
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. Saxlama müddəti",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "Məlumatlar son ziyarətinizdən etibarən maksimum 12 ay saxlanılır, bundan sonra avtomatik olaraq silinir."
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. Alıcılar və beynəlxalq köçürmələr",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Məlumatlar üçüncü tərəflərə verilmir və ya satılmır. O, emalçı qismində çıxış edən Cloudflare, Inc. tərəfindən təmin edilən məlumat bazası xidməti olan Cloudflare D1-də saxlanılır. Cloudflare məlumatları Avropa İqtisadi Bölgəsindən kənarda emal edə bilər; bu halda, həmin köçürmə Avropa Komissiyası tərəfindən təsdiq edilmiş Standart Müqavilə Bəndləri ilə əhatə olunur. Ətraflı məlumatı Cloudflare-in məxfilik siyasətində tapa bilərsiniz: https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. Hüquqlarınız",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "malvmar5@hotmail.com ünvanına yazmaqla istənilən vaxt giriş, düzəliş, silmə, etiraz etmə, emalın məhdudlaşdırılması və daşınması hüquqlarınızdan istifadə edə bilərsiniz. Bundan əlavə, heç kimə yazmağa ehtiyac qalmadan, saytın kuki parametrlərində mövcud olan \"Məlumatlarımı sil\" düyməsindən istifadə edərək məlumatlarınızı dərhal silə bilərsiniz. Hüquqlarınızın düzgün şəkildə təmin olunmadığını düşünürsünüzsə, İspaniya Məlumatların Mühafizəsi Agentliyinə (www.aepd.es) şikayət vermək hüququnuz da var."
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. Bu siyasətdə dəyişikliklər",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "Bu siyasət hüquqi dəyişikliklərə və ya saytın özündə baş verən dəyişikliklərə uyğunlaşmaq üçün yenilənə bilər."
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

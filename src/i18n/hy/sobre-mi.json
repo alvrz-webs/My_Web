@@ -1,36 +1,36 @@
 {
 	"meta": {
-		"title": "Sobre mí — Mario Álvarez",
-		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
-		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"title": "Իմ մասին — Mario Álvarez",
+		"description": "Իսպանիայի մедиսոնի չեմպիոնից մինչև տվյալների գիտության ուսանող. Mario Álvarez-ի ուղին էլիտար հեծանվավազքի և սպորտային վերլուծության միջև:",
+		"eyebrow": "Իմ մասին",
+		"heading": "Վելոդրոմից դեպի տվյալներ"
 	},
 	"bio": [
-		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
-		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",
-		"Mi valor diferencial es ese puente: he vivido el alto rendimiento desde dentro —como corredor, como director deportivo de base y como quiromasajista de ciclistas profesionales— y sé leer los datos que hay detrás. Entiendo lo que un número significa para un deportista, porque yo he sido ese deportista. Uno los dos mundos para convertir datos en decisiones que mejoran el rendimiento.",
-		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
+		"Ես սկսել եմ մրցելով։ 18 տարեկանում ես դարձա Իսպանիայի չեմպիոն թրեքային մедиսոնում, և Հեծանվավազքի Իսպանիայի հավաքականը ինձ հրավիրեց Աշխարհի և Եվրոպայի առաջնություններին, որտեղ երկուսում էլ գրավեցի վեցերորդ տեղը, ինչն էլ ինձ շնորհեց էլիտար մարզիկի կարգավիճակ:",
+		"Այնտեղից ես անցում կատարեցի դեպի Տվյալների գիտություն. այսօր սովորում եմ Վալենսիայի պոլիտեխնիկական համալսարանի բակալավրիատի 3-րդ կուրսում՝ ուղղված սպորտին կիրառվող թվայնացմանը և տեխնոլոգիային:",
+		"Իմ տարբերակիչ արժեքը հենց այդ կամուրջն է. ես բարձր արդյունավետությունը ապրել եմ ներսից՝ որպես մրցարշավորդ, որպես հիմնական հեծանվային թիմի մարզական տնօրեն և որպես պրոֆեսիոնալ հեծանվորդների մերսող, և գիտեմ, թե ինչպես կարդալ դրանց հետևում գտնվող տվյալները: Ես հասկանում եմ, թե ինչ է նշանակում թիվը մարզիկի համար, որովհետև ես եղել եմ այդ մարզիկը: Ես միավորում եմ այս երկու աշխարհները՝ տվյալները վերածելու արդյունավետությունը բարելավող որոշումների:",
+		"Բացի այդ, իմ էլիտար մարզիկի կարգավիճակի շնորհիվ ես ստացա կրթաթոշակ՝ սովորելու Սպորտում թվայնացման, նորարարության և տեխնոլոգիայի մագիստրոսական ծրագրով, որն արդեն ավարտել եմ և որն ընդլայնում է իմ մոտեցումը դեպի ողջ սպորտային էկոհամակարգ՝ հեծանվավազքից դուրս:"
 	],
 	"facts": [
 		{
-			"label": "Base",
+			"label": "Հիմք",
 			"value": "Benidorm · Valencia"
 		},
 		{
-			"label": "Estado",
-			"value": "Disponible para proyectos"
+			"label": "Կարգավիճակ",
+			"value": "Հասանելի է նախագծերի համար"
 		},
 		{
-			"label": "Enfoque",
-			"value": "Datos + rendimiento deportivo"
+			"label": "Մոտեցում",
+			"value": "Տվյալներ + սպորտային արդյունավետություն"
 		},
 		{
-			"label": "Idiomas",
-			"value": "Español nativo · Valenciano · Inglés B1"
+			"label": "Լեզուներ",
+			"value": "Մայրենի իսպաներեն · Վալենսիերեն · Անգլերեն B1"
 		},
 		{
-			"label": "Formación",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"label": "Կրթություն",
+			"value": "Տվյալների գիտության բակալավր (UPV) · Սպորտում թվայնացման, նորարարության և տեխնոլոգիայի մագիստրոս"
 		}
 	]
 }

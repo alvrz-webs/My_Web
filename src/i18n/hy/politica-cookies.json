@@ -1,53 +1,53 @@
 {
 	"meta": {
-		"title": "Política de Cookies — Mario Álvarez",
-		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"title": "Թխուկների քաղաքականություն — Mario Álvarez",
+		"description": "Ինչ թխուկներ է օգտագործում այս կայքը, ինչ նպատակով և ինչպես փոխել ձեր համաձայնությունը ցանկացած պահի:",
+		"eyebrow": "Իրավական",
+		"heading": "Թխուկների քաղաքականություն"
 	},
 	"bloques": [
 		{
 			"tipo": "parrafo",
-			"texto": "Esta web utiliza cookies y tecnologías similares (como el almacenamiento local del navegador) para su correcto funcionamiento y, si das tu consentimiento, para analizar de forma anónima cómo se usa el contenido."
+			"texto": "Այս կայքն օգտագործում է թխուկներ և նմանատիպ տեխնոլոգիաներ (ինչպիսին է զննարկչի տեղական պահեստավորումը) իր պատշաճ աշխատանքի համար և, եթե դուք տալիս եք ձեր համաձայնությունը, բովանդակության օգտագործման անօուն վերլուծության համար:"
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
+			"texto": "Օգտագործվող թխուկներ."
 		},
 		{
 			"tipo": "tabla",
 			"columnas": [
-				"Nombre",
-				"Finalidad",
-				"Tipo",
-				"Duración"
+				"Անուն",
+				"Նպատակ",
+				"Տեսակ",
+				"Տևողություն"
 			],
 			"filas": [
 				[
 					"consentimiento_cookies",
-					"Recordar tu elección sobre esta política de cookies",
-					"Propia, técnica (exenta de consentimiento)",
-					"12 meses"
+					"Հիշել թխուկների այս քաղաքականության վերաբերյալ ձեր ընտրությունը",
+					"Սեփական, տեխնիկական (ազատված համաձայնությունից)",
+					"12 ամիս"
 				],
 				[
 					"visitante_id",
-					"Identificador anónimo para relacionar tus visitas y saber qué contenido resulta útil",
-					"Propia, analítica (requiere tu consentimiento)",
-					"12 meses"
+					"Անհայտ նույնականացուցիչ՝ ձեր այցելությունները կապելու և իմանալու համար, թե որ բովանդակությունն է օգտակար",
+					"Սեփական, վերլուծական (պահանջում է ձեր համաձայնությունը)",
+					"12 ամիս"
 				]
 			]
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Ninguna de estas cookies es de terceros, ninguna se usa con fines publicitarios, y ninguna se comparte con nadie fuera de este sitio."
+			"texto": "Այս թխուկներից ոչ մեկը երրորդ կողմի չէ, ոչ մեկն օգտագործվում գովազդային նպատակներով, և ոչ մեկը չի տարածվում այս կայքից դուրս որևէ մեկի հետ:"
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Puedes cambiar tu decisión o retirar tu consentimiento en cualquier momento desde el enlace \"Configurar cookies\" en el pie de página, y borrar de forma inmediata todos tus datos con el botón \"Borrar mis datos\" en ese mismo panel."
+			"texto": "Դուք կարող եք փոխել ձեր որոշումը կամ հետ վերցնել ձեր համաձայնությունը ցանկացած պահի էջի հատակի «Կարգավորել թխուկները» հղումից և անհապաղ ջնջել ձեր բոլոր տվյալները նույն վահանակի «Ջնջել իմ տվյալները» կոճակով:"
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Para más información sobre cómo se tratan tus datos, consulta la Política de Privacidad."
+			"texto": "Ձեր տվյալների մշակման մասին լրացուցիչ տեղեկությունների համար տես Գաղտնիության քաղաքականությունը:"
 		}
 	]
 }

@@ -1,36 +1,36 @@
 {
 	"meta": {
-		"title": "Sobre mí — Mario Álvarez",
-		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
-		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"title": "Maidir liom — Mario Álvarez",
+		"description": "Ó churadh na Spáinne i madison go dtí mac léinn Eolaíochta Sonraí: turas Mario Álvarez idir rothaíocht élít agus anailísíocht spóirt.",
+		"eyebrow": "Maidir liom",
+		"heading": "Ón velodróm go dtí na sonraí"
 	},
 	"bio": [
-		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
-		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",
-		"Mi valor diferencial es ese puente: he vivido el alto rendimiento desde dentro —como corredor, como director deportivo de base y como quiromasajista de ciclistas profesionales— y sé leer los datos que hay detrás. Entiendo lo que un número significa para un deportista, porque yo he sido ese deportista. Uno los dos mundos para convertir datos en decisiones que mejoran el rendimiento.",
-		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
+		"Thosaigh mé ag iomaíocht. Ag 18 mbliana d'aois ghlac mé curadh na Spáinne i madison ar an raon agus chuir Foireann Rothaíochta na Spáinne glaoch orm do Chraobhchomórtais Domhanda agus Eorpacha, áit a raibh mé sa séú háit sa dá cheann acu, rud a thuill stádas lúthchleasaí élít dom.",
+		"As sin léim mé go dtí an Eolaíocht Sonraí: inniu tá mé sa 3ú bliain den Chéim san Universitat Politècnica de València, dírithe ar an digiteachú agus an teicneolaíocht a cuireadh i bhfeidhm ar an spórt.",
+		"Is é mo luach difreálach an droichead sin: tá feidhmíocht ard taithí agam ón taobh istigh — mar rothaí, mar stiúrthóir spóirt bonn agus mar chiromhaisnéir do rothaithe gairmiúla — agus tá a fhios agam conas na sonraí atá taobh thiar de a léamh. Tuigim cad a chiallaíonn uimhir do lúthchleasaí, toisc gurbh mise an lúthchleasaí sin. Aontaím an dá dhomhan chun sonraí a iompú ina gcinntí a fheabhsaíonn an fheidhmíocht.",
+		"In aice leis sin, a bhuíochas le mo stádas mar lúthchleasaí élít, fuair mé scoláireacht chun Máistir i Digiteachú, Nuálaíocht agus Teicneolaíocht sa Spórt a dhéanamh, atá críochnaithe agam cheana féin agus a leathnaíonn mo chur chuige chuig an éiceachóras spóirt go léir, thar an rothaíocht."
 	],
 	"facts": [
 		{
-			"label": "Base",
+			"label": "Bonn",
 			"value": "Benidorm · Valencia"
 		},
 		{
-			"label": "Estado",
-			"value": "Disponible para proyectos"
+			"label": "Stádas",
+			"value": "Ar fáil le haghaidh tionscadal"
 		},
 		{
-			"label": "Enfoque",
-			"value": "Datos + rendimiento deportivo"
+			"label": "Cur chuige",
+			"value": "Sonraí + feidhmíocht spóirt"
 		},
 		{
-			"label": "Idiomas",
-			"value": "Español nativo · Valenciano · Inglés B1"
+			"label": "Teangacha",
+			"value": "Spáinnis dhúchais · Vailéinis · Béarla B1"
 		},
 		{
-			"label": "Formación",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"label": "Oideachas",
+			"value": "Céim san Eolaíocht Sonraí (UPV) · Máistir i Digiteachú, Nuálaíocht agus Teicneolaíocht sa Spórt"
 		}
 	]
 }

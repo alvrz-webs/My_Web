@@ -1,13 +1,13 @@
 {
 	"meta": {
-		"title": "Contacto — Mario Álvarez",
-		"description": "Ponte en contacto con Mario Álvarez para hablar de datos, rendimiento deportivo y proyectos.",
-		"eyebrow": "Contacto",
-		"heading": "¿Tienes datos y una pregunta que resolver?",
-		"intro": "Hablemos. Ya sea un proyecto de analítica deportiva, una colaboración de datos o simplemente una idea que quieras contrastar, respondo con gusto.",
-		"email": "Email",
-		"telefono": "Teléfono",
-		"verTelefono": "Ver teléfono",
-		"redesSociales": "Redes sociales"
+		"title": "Կապ — Մարիո Ալվարես",
+		"description": "Կապվեք Մարիո Ալվարեսի հետ՝ տվյալների, մարզական արդյունավետության և նախագծերի մասին խոսելու համար:",
+		"eyebrow": "Կապ",
+		"heading": "Ունե՞ք տվյալներ և լուծելու ենթակա հարց:",
+		"intro": "Եկեք խոսենք: Լինի դա սպորտային վերլուծության նախագիծ, տվյալների ոլորտում համագործակցություն, թե պարզապես մի միտք, որը ցանկանում եք քննարկել, ես սիրով կպատասխանեմ:",
+		"email": "Էլ. հասցե",
+		"telefono": "Հեռախոս",
+		"verTelefono": "Ցույց տալ հեռախոսահամարը",
+		"redesSociales": "Սոցիալական ցանցեր"
 	}
 }

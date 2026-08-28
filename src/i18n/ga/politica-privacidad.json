@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "Polasaí Príobháideachais — Mario Álvarez",
+		"description": "Polasaí príobháideachais suíomh Web Mario Álvarez: cén sonraí a bhailítear, chun cén chuspóra agus conas do chuid cearta a fheidhmiú.",
+		"eyebrow": "Dlíthiúil",
+		"heading": "Polasaí Príobháideachais"
 	},
 	"secciones": [
 		{
+			"titulo": "1. Rialaitheoir an phróiseála",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Mario Álvarez Martínez, le seoladh i Benidorm (Alicante), an Spáinn. Teagmháil: malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. Cuspóir na próiseála",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "Déanann an suíomh seo turgnamh go hinmheánach agus chun críocha staidrimh amháin, cén t-ábhar (rannóga, tionscadail) is úsáidí dóibh siúd a thugann bisig dó, d'fhonn a ábhar a fheabhsú. Ní úsáidtear é chun críocha fógraíochta, ní roinntear é le tríú páirtithe agus ní dhíoltar é faoi aon chúinse."
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. Sonraí a bhailítear (ach amháin má ghlacann tú leis na fianáin anailíseacha)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"Aitheantóir anaithnid randamach, nach bhfuil nasctha le d'ainm, ríomhphost ná aon fhaisnéis eile a aithníonn go díreach tú.",
+						"Leathanaigh agus tionscadail a dtugann tú bisig dóibh, agus an t-am aire ar gach ceann acu (fad a bhíonn an cluaisín gníomhach).",
+						"Idirghníomhaíochtaí (cliceanna ar thionscadail, naisc nó cnaipí).",
+						"Dáta agus am na cuairte.",
+						"Teanga an suímh a ndearnadh comhairle air.",
+						"Cineál gléis (móibíleach nó deisce).",
+						"Tír thart ar, a fhaightear trí bhonneagar Cloudflare, gan do sheoladh IP a stóráil.",
+						"Leathanach tionscnaimh (mar shampla, LinkedIn nó inneall cuardaigh)."
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "Ní bhailítear do sheoladh IP, ní úsáidtear teicnící aitheantais brabhsálaí (fingerprinting), ná uirlisí tríú páirtí mar Google Analytics nó a leithéidí."
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. Bunús dlí",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "Tá an phróiseáil bunaithe ar do thoiliú sainráite (airteagal 6.1.a den RGPD agus airteagal 22.2 den LSSI-CE), ar féidir leat a tharraingt paitinn ag am ar bith ó bhainisteoir fianán an suímh féin."
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. Tréimhse choinneála",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "Coimeádtar na sonraí ar a mhéad 12 mhí ó do chuairt deireanach, agus tar éis sin scriostar iad go huathoibríoch."
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. Faighteoirí agus aistrithe idirnáisiúnta",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ní shanntar ná ní dhíoltar na sonraí le tríú páirtithe. Stóráiltear iad in Cloudflare D1, seirbhís bunachar sonraí ar a soláthraíonn Cloudflare, Inc., a gníomhaíonn mar phróiseálaí. Féadfaidh Cloudflare sonraí a phróiseáil taobh amuigh den Limistéar Eorpach Eacnamaíoch; sa chás sin, tá an t-aistriú sin clúdaithe ag na Clásailchonarthaí Cineálacha arna n-embláthú ag an gCoimisiún Eorpach. Tuilleadh eolais i polasaí príobháideachais Cloudflare: https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. Do chuid cearta",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "Is féidir leat do chuid cearta rochtana, ceartúcháin, scriosta, cur i gcoinne, teorannaithe ar an bpróiseáil agus iniompartachta a fheidhmiú ag am ar bith trí scríobh chuig malvmar5@hotmail.com. Ina theannta sin, is féidir leat do chuid sonraí a scriosadh láithreach, gan gá le scríobh chuig éinne, ón gcnaipe \"Scriois mo chuid sonraí\" atá ar fáil i gcumraíocht fianán an suímh. Tá an ceart agat freisin gearán a thaisceadh os comhair Ghníomhaireacht Spáinneach um Chosaint Sonraí (www.aepd.es) má mheasann tú nár freastalaíodh ar do chuid cearta i gceart."
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. Athruithe sa pholasaí seo",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "Féadfar an polasaí seo a nuashonrú chun oiriúnú d'athruithe dlíthiúla nó den suíomh féin."
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

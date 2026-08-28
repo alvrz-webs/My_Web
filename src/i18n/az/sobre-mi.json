@@ -1,36 +1,36 @@
 {
 	"meta": {
-		"title": "Sobre mí — Mario Álvarez",
-		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
-		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"title": "Haqqımda — Mario Álvarez",
+		"description": "İspaniya madison çempionundan Data Elmi tələbəsinə: Mario Alvárezin elit velosiped idmanı və idman analitikası arasındakı yolu.",
+		"eyebrow": "Haqqımda",
+		"heading": "Velodromdan verilənlərə"
 	},
 	"bio": [
-		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
-		"De ahí di el salto a la Ciencia de Datos: hoy curso 3º del Grado en la Universitat Politècnica de València, orientado a la digitalización y la tecnología aplicadas al deporte.",
-		"Mi valor diferencial es ese puente: he vivido el alto rendimiento desde dentro —como corredor, como director deportivo de base y como quiromasajista de ciclistas profesionales— y sé leer los datos que hay detrás. Entiendo lo que un número significa para un deportista, porque yo he sido ese deportista. Uno los dos mundos para convertir datos en decisiones que mejoran el rendimiento.",
-		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
+		"Mən yarışmaqla başlamışam. 18 yaşımda trekdə madison növü üzrə İspaniya çempionu oldum və İspaniya Velosiped İdmanı Milli Komandası məni hər ikisində altıncı olduğum Dünya və Avropa Çempionatlarına dəvət etdi, bu da mənə elit idmançı statusu qazandırdı.",
+		"Oradan Data Elminə keçdim: bu gün idmana tətbiq olunan rəqəmsallaşma və texnologiyaya yönəlmiş Universitat Politècnica de València-da Bakalavr dərəcəsinin 3-cü kursunda oxuyuram.",
+		"Mənim fərqləndirici dəyərim məhz həmin körpüdür: mən yüksək nəticələri içəridən yaşamışam — qaçışçı, aşağı yaş qrupları üzrə idman direktoru və peşəkar velosipedçilərin masajisti kimi — və arxadakı məlumatları oxumağı bacarıram. Bir rəqəmin idmançı üçün nə demək olduğunu başa düşürəm, çünki mən həmin idmançı olmuşam. Performansı yaxşılaşdıran qərarlara çevirmək üçün iki dünyanı birləşdirirəm.",
+		"Bundan əlavə, elit idmançı statusum sayəsində İdman Rəqəmsallaşması, İnnovasiyası və Texnologiyası üzrə Magistratura kursunu bitirmək üçün təqaüd qazandım, artıq onu tamamlamışam və bu, yanaşmamı velosiped idmanından kənarda bütün idman ekosisteminə genişləndirir."
 	],
 	"facts": [
 		{
-			"label": "Base",
+			"label": "Baza",
 			"value": "Benidorm · Valencia"
 		},
 		{
-			"label": "Estado",
-			"value": "Disponible para proyectos"
+			"label": "Status",
+			"value": "Layihələr üçün əlçatandır"
 		},
 		{
-			"label": "Enfoque",
-			"value": "Datos + rendimiento deportivo"
+			"label": "Yanaşma",
+			"value": "Məlumatlar + idman göstəriciləri"
 		},
 		{
-			"label": "Idiomas",
-			"value": "Español nativo · Valenciano · Inglés B1"
+			"label": "Dillər",
+			"value": "Ana dili ispan · Valensiya dili · İngilis dili B1"
 		},
 		{
-			"label": "Formación",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"label": "Təhsil",
+			"value": "Data Elmi üzrə Bakalavr (UPV) · İdman Rəqəmsallaşması, İnnovasiyası və Texnologiyası üzrə Magistratura"
 		}
 	]
 }

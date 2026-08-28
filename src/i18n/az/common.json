@@ -1,37 +1,37 @@
 {
 	"nav": {
-		"sobreMi": "Sobre mí",
-		"proyectos": "Proyectos",
-		"experiencia": "Experiencia",
-		"contacto": "Contacto",
-		"ariaMain": "Navegación principal",
-		"openMenu": "Abrir menú"
+		"sobreMi": "Haqqımda",
+		"proyectos": "Layihələr",
+		"experiencia": "Təcrübə",
+		"contacto": "Əlaqə",
+		"ariaMain": "Əsas naviqasiya",
+		"openMenu": "Menyu aç"
 	},
 	"footer": {
 		"tagline": "Data · Sport · Progress",
 		"copySufijo": "Mario Álvarez. Valencia.",
-		"ariaSocial": "Redes sociales"
+		"ariaSocial": "Sosial şəbəkələr"
 	},
 	"langSwitch": {
-		"label": "Cambiar idioma",
-		"traducir": "Cambiar idioma",
-		"buscar": "Buscar idioma…"
+		"label": "Dili dəyiş",
+		"traducir": "Dili dəyiş",
+		"buscar": "Dil axtar…"
 	},
 	"cookies": {
-		"texto": "Usamos cookies propias para analítica anónima y mejorar tu experiencia. No usamos cookies de terceros.",
-		"politica": "Política de cookies",
-		"aceptar": "Aceptar",
-		"rechazar": "Rechazar",
-		"configurar": "Configurar cookies",
-		"borrarDatos": "Borrar mis datos",
-		"ariaBanner": "Consentimiento de cookies"
+		"texto": "Biz anonim analitika üçün öz kukilərimizdən istifadə edirik və təcrübənizi yaxşılaşdırırıq. Üçüncü tərəf kukilərindən istifadə etmirik.",
+		"politica": "Kukilər siyasəti",
+		"aceptar": "Qəbul et",
+		"rechazar": "Rədd et",
+		"configurar": "Kukiləri tənzimlə",
+		"borrarDatos": "Məlumatlarımı sil",
+		"ariaBanner": "Kuki razılığı"
 	},
 	"legal": {
-		"privacidad": "Política de privacidad",
-		"cookies": "Política de cookies"
+		"privacidad": "Məxfilik siyasəti",
+		"cookies": "Kukilər siyasəti"
 	},
 	"person": {
-		"jobTitle": "Científico de datos",
-		"description": "Científico de datos especializado en analítica deportiva, con experiencia dentro del ciclismo profesional."
+		"jobTitle": "Data alimi",
+		"description": "Peşəkar velosiped idmanında təcrübəsi olan, idman analitikası üzrə ixtisaslaşmış data alimi."
 	}
 }

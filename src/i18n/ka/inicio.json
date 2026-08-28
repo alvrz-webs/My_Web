@@ -1,56 +1,56 @@
 {
 	"meta": {
-		"title": "Mario Álvarez — Científico de datos especializado en deporte",
-		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
-		"verProyectos": "Ver proyectos",
-		"contacto": "Contacto",
-		"verMas": "Ver más",
-		"verTodosProyectos": "Ver todos los proyectos",
-		"irAContacto": "Ir a contacto",
-		"herramientas": "Herramientas principales"
+		"title": "მარიო ალვარესი — სპორტზე სპეციალიზებული მონაცემთა მეცნიერი",
+		"description": "მარიო ალვარესი, მონაცემთა მეცნიერი ვალენსიაში, სპორტულ ანალიტიკაზე სპეციალიზებული. მონაცემები · სპორტი · პროგრესი.",
+		"verProyectos": "პროექტების ნახვა",
+		"contacto": "კონტაქტი",
+		"verMas": "მეტის ნახვა",
+		"verTodosProyectos": "ყველა პროექტის ნახვა",
+		"irAContacto": "კონტაქტზე გადასვლა",
+		"herramientas": "ძირითადი ხელსაწყოები"
 	},
 	"hero": {
+		"eyebrow": "მონაცემთა მეცნიერი · სპორტული ანალიტიკა · ვალენსია",
+		"titlePre": "მონაცემებს ვცვლი ",
+		"titleHighlight": "ნათელ გადაწყვეტილებებად",
+		"subtitle": "მე ვარ ხიდი მონაცემთა ანალიზსა და ელიტურ სპორტს შორის: წარმადობის მეტრიკებს ვცვლი სტრატეგიებად, რომლებიც განსხვავებას ქმნიან მოედანზე.",
 		"tools": [
 			"Python",
 			"R",
 			"SQL",
 			"Power BI",
 			"Machine Learning"
-		],
-		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
-		"titlePre": "Convierto datos en ",
-		"titleHighlight": "decisiones claras",
-		"subtitle": "Soy el puente entre el análisis de datos y el deporte de élite: transformo métricas de rendimiento en estrategias que marcan la diferencia sobre el terreno."
+		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Sobre mí",
-		"title": "Datos con contexto de pista, carretera y competición",
-		"text": "Soy Mario Álvarez, estudiante de Ciencia de Datos en la UPV con experiencia real dentro del ciclismo profesional. Combino el análisis de datos con el rendimiento deportivo de élite, para convertir cada métrica en una decisión que mejora resultados."
+		"eyebrow": "ჩემ შესახებ",
+		"title": "მონაცემები ტრეკის, გზისა და შეჯიბრის კონტექსტით",
+		"text": "მე ვარ მარიო ალვარესი, მონაცემთა მეცნიერების სტუდენტი UPV-ში, პროფესიონალურ ციკლოსპორტში რეალური გამოცდილებით. მონაცემთა ანალიზს ვუთავსებ ელიტურ სპორტულ წარმადობას, რათა თითოეული მეტრიკა შედეგების გამუმჯობესებელ გადაწყვეტილებად ვაქციო."
 	},
 	"stats": [
 		{
 			"value": "UPV",
-			"label": "Formación",
-			"detail": "Grado en Ciencia de Datos, Universitat Politècnica de València."
+			"label": "განათლება",
+			"detail": "მონაცემთა მეცნიერების ბაკალავრი, ვალენსიის პოლიტექნიკური უნივერსიტეტი."
 		},
 		{
-			"value": "Élite",
-			"label": "Experiencia",
-			"detail": "Trabajo real dentro de un equipo de ciclismo profesional."
+			"value": "ელიტა",
+			"label": "გამოცდილება",
+			"detail": "რეალური მუშაობა პროფესიონალური ველოსიპედისტების გუნდში."
 		},
 		{
 			"value": "Data + Sport",
-			"label": "Enfoque",
-			"detail": "Analítica aplicada a la mejora del rendimiento deportivo."
+			"label": "მიდგომა",
+			"detail": "სპორტული წარმადობის გაუმჯობესებაზე მიმართული ანალიტიკა."
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiencia",
-		"title": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"text": "He competido al máximo nivel y hoy aplico ese mismo criterio a los datos: entiendo lo que un número significa para un deportista porque he sido ese deportista."
+		"eyebrow": "გამოცდილება",
+		"title": "ორი სამყარო, ერთი ენა: წარმადობა",
+		"text": "ვასპარეზობდი უმაღლეს დონეზე და დღეს იმავე კრიტერიუმს ვიყენებ მონაცემების მიმართ: მესმის, რას ნიშნავს რიცხვი სპორტსმენისთვის, რადგან თავად ვიყავი ეს სპორტსმენი."
 	},
 	"ctaFinal": {
-		"title": "¿Hablamos de datos?",
-		"text": "Cuéntame tu proyecto y buscamos juntos dónde están las decisiones que mejoran el rendimiento."
+		"title": "ვისაუბროთ მონაცემებზე?",
+		"text": "მომიყევით თქვენი პროექტის შესახებ და ერთად ვძებნოთ გადაწყვეტილებები, რომლებიც აუმჯობესებს წარმადობას."
 	}
 }

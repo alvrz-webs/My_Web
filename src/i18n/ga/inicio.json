@@ -1,56 +1,56 @@
 {
 	"meta": {
-		"title": "Mario Álvarez — Científico de datos especializado en deporte",
-		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
-		"verProyectos": "Ver proyectos",
-		"contacto": "Contacto",
-		"verMas": "Ver más",
-		"verTodosProyectos": "Ver todos los proyectos",
-		"irAContacto": "Ir a contacto",
-		"herramientas": "Herramientas principales"
+		"title": "Mario Álvarez — Eolaí sonraí speisialaithe i spóirt",
+		"description": "Mario Álvarez, eolaí sonraí i Valencia speisialaithe i dtaighde spóirt. Data · Sport · Progress.",
+		"verProyectos": "Féach ar thionscadail",
+		"contacto": "Teagmháil",
+		"verMas": "Féach tuilleadh",
+		"verTodosProyectos": "Féach ar na tionscadail go léir",
+		"irAContacto": "Téigh go dtí an teagmháil",
+		"herramientas": "Príomhuirlisí"
 	},
 	"hero": {
+		"eyebrow": "Eolaí sonraí · Mandáil spóirt · Valencia",
+		"titlePre": "Tiontaím sonraí go ",
+		"titleHighlight": "cinntí soiléir",
+		"subtitle": "Is mise an droichead idir anailís sonraí agus spóirt mionlaigh: athraím méadrachtaí feidhmíochta ina straitéisí a dhéanann an difreáil ar an talamh.",
 		"tools": [
 			"Python",
 			"R",
 			"SQL",
 			"Power BI",
 			"Machine Learning"
-		],
-		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
-		"titlePre": "Convierto datos en ",
-		"titleHighlight": "decisiones claras",
-		"subtitle": "Soy el puente entre el análisis de datos y el deporte de élite: transformo métricas de rendimiento en estrategias que marcan la diferencia sobre el terreno."
+		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Sobre mí",
-		"title": "Datos con contexto de pista, carretera y competición",
-		"text": "Soy Mario Álvarez, estudiante de Ciencia de Datos en la UPV con experiencia real dentro del ciclismo profesional. Combino el análisis de datos con el rendimiento deportivo de élite, para convertir cada métrica en una decisión que mejora resultados."
+		"eyebrow": "Fúm",
+		"title": "Sonraí le comhthéacs rianta, bóthair agus comórtais",
+		"text": "Is mise Mario Álvarez, mac léinn Eolaíochta Sonraí san UPV le taithí réadúil laistigh de rothaíocht ghairmiúil. Comhcheanglaím anailís sonraí le feidhmíocht spóirt mhionlaigh, chun gach méadracht a thiontú ina chinneadh a fheabhsaíonn torthaí."
 	},
 	"stats": [
 		{
 			"value": "UPV",
-			"label": "Formación",
-			"detail": "Grado en Ciencia de Datos, Universitat Politècnica de València."
+			"label": "Oideachas",
+			"detail": "Céim san Eolaíocht Sonraí, Universitat Politècnica de València."
 		},
 		{
-			"value": "Élite",
-			"label": "Experiencia",
-			"detail": "Trabajo real dentro de un equipo de ciclismo profesional."
+			"value": "Mionlach",
+			"label": "Taithí",
+			"detail": "Obair réadúil laistigh d'fhoireann rothaíochta ghairstiúil."
 		},
 		{
 			"value": "Data + Sport",
-			"label": "Enfoque",
-			"detail": "Analítica aplicada a la mejora del rendimiento deportivo."
+			"label": "Cur chuige",
+			"detail": "Anailís a cuireadh i bhfeidhm chun feidhmíocht spóirt a fheabhsú."
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiencia",
-		"title": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"text": "He competido al máximo nivel y hoy aplico ese mismo criterio a los datos: entiendo lo que un número significa para un deportista porque he sido ese deportista."
+		"eyebrow": "Taithí",
+		"title": "Dhá domhan, teanga amháin: an fheidhmíocht",
+		"text": "Bhí mé san iomaíocht ag an leibhéal is airde agus inniu cuirim an critéar céanna i bhfeidhm ar na sonraí: tuigim cad a chiallaíonn uimhir do spóirtseach toisc gurbh mise an spóirtseach sin."
 	},
 	"ctaFinal": {
-		"title": "¿Hablamos de datos?",
-		"text": "Cuéntame tu proyecto y buscamos juntos dónde están las decisiones que mejoran el rendimiento."
+		"title": "An labhraímid faoi shonraí?",
+		"text": "Inis dom faoi do thionscadal agus lorgóimid le chéile cá bhfuil na cinntí a fheabhsaíonn an fheidhmíocht."
 	}
 }

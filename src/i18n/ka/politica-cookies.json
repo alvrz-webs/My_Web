@@ -1,53 +1,53 @@
 {
 	"meta": {
-		"title": "Política de Cookies — Mario Álvarez",
-		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"title": "Cookie-ს პოლიტიკა — Mario Álvarez",
+		"description": "რა ქუქ-ფაილებს იყენებს ეს საიტი, რა მიზნით და როგორ შეცვალოთ თქვენი თანხმობა ნებისმიერ დროს.",
+		"eyebrow": "სამართლებრივი",
+		"heading": "Cookie-ს პოლიტიკა"
 	},
 	"bloques": [
 		{
 			"tipo": "parrafo",
-			"texto": "Esta web utiliza cookies y tecnologías similares (como el almacenamiento local del navegador) para su correcto funcionamiento y, si das tu consentimiento, para analizar de forma anónima cómo se usa el contenido."
+			"texto": "ეს ვებ-გვერდი იყენებს ქუქ-ფაილებს და მსგავს ტექნოლოგიებს (როგორიცაა ბრაუზერის ლოკალური მეხსიერება) მისი სწორი მუშაობისთვის და, თუ თქვენ განაცხადებთ თანხმობას, შიგთავსის გამოყენების ანონიმურად გასაანალიზებლად."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
+			"texto": "გამოყენებული ქუქ-ფაილები:"
 		},
 		{
 			"tipo": "tabla",
 			"columnas": [
-				"Nombre",
-				"Finalidad",
-				"Tipo",
-				"Duración"
+				"სახელი",
+				"მიზანი",
+				"ტიპი",
+				"ხანგრძლივობა"
 			],
 			"filas": [
 				[
 					"consentimiento_cookies",
-					"Recordar tu elección sobre esta política de cookies",
-					"Propia, técnica (exenta de consentimiento)",
-					"12 meses"
+					"თქვენი არჩევანის დამახსოვრება ამ cookie-ს პოლიტიკის შესახებ",
+					"საკუთარი, ტექნიკური (თანხმობისგან გათავისუფლებული)",
+					"12 თვე"
 				],
 				[
 					"visitante_id",
-					"Identificador anónimo para relacionar tus visitas y saber qué contenido resulta útil",
-					"Propia, analítica (requiere tu consentimiento)",
-					"12 meses"
+					"ანონიმური იდენტიფიკატორი თქვენი ვიზიტების დასაკავშირებლად და გასაგებად, თუ რომელი შიგთავსია სასარგებლო",
+					"საკუთარი, ანალიტიკური (საჭიროებს თქვენს თანხმობას)",
+					"12 თვე"
 				]
 			]
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Ninguna de estas cookies es de terceros, ninguna se usa con fines publicitarios, y ninguna se comparte con nadie fuera de este sitio."
+			"texto": "არცერთი ეს ქუქ-ფაილი არ არის მესამე მხარის, არცერთი გამოიყენება სარეკლამო მიზნებისთვის და არცერთი არ ზიარდება არავისთან ამ საიტის გარდა."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Puedes cambiar tu decisión o retirar tu consentimiento en cualquier momento desde el enlace \"Configurar cookies\" en el pie de página, y borrar de forma inmediata todos tus datos con el botón \"Borrar mis datos\" en ese mismo panel."
+			"texto": "თქვენ შეგიძლიათ შეცვალოთ თქვენი გადაწყვეტილება ან გამოიხმოთ თანხმობა ნებისმიერ დროს გვერდის ბოლოში არსებული ბმულიდან „ქუქ-ფაილების კონფიგურაცია“ და დაუყოვნებლივ წაშალოთ თქვენი ყველა მონაცემი იმავე პანელში არსებული ღილაკით „ჩემი მონაცემების წაშლა“."
 		},
 		{
 			"tipo": "parrafo",
-			"texto": "Para más información sobre cómo se tratan tus datos, consulta la Política de Privacidad."
+			"texto": "დამატებითი ინფორმაციისთვის იმის შესახებ, თუ როგორ მუშავდება თქვენი მონაცემები, იხილეთ კონფიდენციალურობის პოლიტიკა."
 		}
 	]
 }

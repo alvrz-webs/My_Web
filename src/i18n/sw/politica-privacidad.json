@@ -1,95 +1,95 @@
 {
 	"meta": {
-		"title": "Política de Privacidad — Mario Álvarez",
-		"description": "Política de privacidad del sitio de Mario Álvarez: qué datos se recogen, con qué finalidad y cómo ejercer tus derechos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidad"
+		"title": "Sera ya Faragha — Mario Álvarez",
+		"description": "Sera ya faragha ya tovuti ya Mario Álvarez: data gani inayokusukusanywa, kwa lengo gani na jinsi ya kutumia haki zako.",
+		"eyebrow": "Kisheria",
+		"heading": "Sera ya Faragha"
 	},
 	"secciones": [
 		{
+			"titulo": "1. Msimamizi wa usindikaji",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, con domicilio en Benidorm (Alicante), España. Contacto: malvmar5@hotmail.com"
+					"texto": "Mario Álvarez Martínez, na anwani huko Benidorm (Alicante), Hispania. Mawasiliano: malvmar5@hotmail.com"
 				}
-			],
-			"titulo": "1. Responsable del tratamiento"
+			]
 		},
 		{
+			"titulo": "2. Lango la usindikaji",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta web analiza de forma interna y con fines exclusivamente estadísticos qué contenidos (secciones, proyectos) resultan más útiles a quienes la visitan, con el objetivo de mejorar su contenido. No se utiliza con fines publicitarios, no se comparte con terceros y no se vende bajo ninguna circunstancia."
+					"texto": "Tovuti hii inachambua ndani na kwa madhumuni ya takwimu pekee ni maudhui gani (sehemu, miradi) yanayoonekana kuwa muhimu zaidi kwa wale wanaotembelea, kwa lengo la kuboresha maudhui yake. Haitumiki kwa madhumuni ya utangazaji, haishirikiwi na wahusika wengine na haiuzwi chini ya hali yoyote."
 				}
-			],
-			"titulo": "2. Finalidad del tratamiento"
+			]
 		},
 		{
+			"titulo": "3. Data inayokusanywa (tu ikiwa unakubali kuki za uchambuzi)",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificador anónimo aleatorio, no vinculado a tu nombre, email ni ninguna otra información que te identifique directamente.",
-						"Páginas y proyectos que visitas, y el tiempo de atención en cada uno (mientras la pestaña está activa).",
-						"Interacciones (clics en proyectos, enlaces o botones).",
-						"Fecha y hora de la visita.",
-						"Idioma del sitio consultado.",
-						"Tipo de dispositivo (móvil o escritorio).",
-						"País aproximado, obtenido a través de la infraestructura de Cloudflare, sin almacenar tu dirección IP.",
-						"Página de procedencia (por ejemplo, LinkedIn o un buscador)."
+						"Kitambulisho kisichojulikana cha nasibu, ambacho hakijaunganishwa na jina lako, barua pepe au habari nyingine yoyote inayokutambulisha moja kwa moja.",
+						"Kurasa na miradi unayotembelea, na wakati wa tahadhari kwa kila mmoja (wakati kichupo kikiwa hai).",
+						"Mwingiliano (kubofya miradi, viungo au vifungo).",
+						"Tarehe na wakati wa ziara.",
+						"Lugha ya tovuti iliyoshauriwa.",
+						"Aina ya kifaa (simu au eneo-kazi).",
+						"Nchi ya karibu, iliyopatikana kupitia miundombinu ya Cloudflare, bila kuhifadhi anwani yako ya IP.",
+						"Ukurasa wa asili (kwa mfano, LinkedIn au injini ya utafutaji)."
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "No se recoge tu dirección IP, no se utilizan técnicas de identificación del navegador (fingerprinting), ni herramientas de terceros como Google Analytics o similares."
+					"texto": "Anwani yako ya IP haikusanywi, mbinu za utambulisho wa kivinjari (fingerprinting) hazitumiki, wala zana za wahusika wengine kama Google Analytics au zinazofanana."
 				}
-			],
-			"titulo": "3. Datos que se recogen (solo si aceptas las cookies analíticas)"
+			]
 		},
 		{
+			"titulo": "4. Msingi wa kisheria",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "El tratamiento se basa en tu consentimiento explícito (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI-CE), que puedes retirar en cualquier momento desde el gestor de cookies del propio sitio."
+					"texto": "Usindikaji unategemea idhini yako ya wazi (kifungu cha 6.1.a cha GDPR na kifungu cha 22.2 cha LSSI-CE), ambayo unaweza kuiondoa wakati wowote kutoka kwa meneja wa kuki wa tovuti yenyewe."
 				}
-			],
-			"titulo": "4. Base legal"
+			]
 		},
 		{
+			"titulo": "5. Kipindi cha uhifadhi",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos se conservan un máximo de 12 meses desde tu última visita, transcurridos los cuales se eliminan automáticamente."
+					"texto": "Data huhifadhiwa kwa upeo wa miezi 12 tangu ziara yako ya mwisho, baada ya hapo hufutwa kiotomatiki."
 				}
-			],
-			"titulo": "5. Plazo de conservación"
+			]
 		},
 		{
+			"titulo": "6. Wanaopokea na uhamisho wa kimataifa",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Los datos no se ceden ni se venden a terceros. Se almacenan en Cloudflare D1, un servicio de base de datos proporcionado por Cloudflare, Inc., que actúa como encargado del tratamiento. Cloudflare puede procesar datos fuera del Espacio Económico Europeo; en ese caso, dicha transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Comisión Europea. Más información en la política de privacidad de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Data haitolewi au kuuzwa kwa wahusika wengine. Imesitawishwa katika Cloudflare D1, huduma ya hifadhidata inayotolewa na Cloudflare, Inc., inayofanya kazi kama msimamizi wa usindikaji. Cloudflare inaweza kuchakata data nje ya Eneo la Kiuchumi la Ulaya; katika kesi hiyo, uhamisho huo unalindwa na Vifungu vya Kawaida vya Mkataba vilivyoidhinishwa na Tume ya Ulaya. Maelezo zaidi katika sera ya faragha ya Cloudflare: https://www.cloudflare.com/privacypolicy/"
 				}
-			],
-			"titulo": "6. Destinatarios y transferencias internacionales"
+			]
 		},
 		{
+			"titulo": "7. Haki zako",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a malvmar5@hotmail.com. Además, puedes borrar tus datos de forma inmediata, sin necesidad de escribir a nadie, desde el botón \"Borrar mis datos\" disponible en la configuración de cookies del sitio. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si consideras que tus derechos no han sido atendidos correctamente."
+					"texto": "Unaweza kutumia wakati wowote haki zako za ufikiaji, marekebisho, kufuta, upinzani, upunguzaji wa usindikaji na uhamishaji kwa kuandika kwa malvmar5@hotmail.com. Kwa kuongeza, unaweza kufuta data yako mara moja, bila haja ya kuandika kwa mtu yeyote, kutoka kwa kifungo \"Borrar mis datos\" kinachopatikana katika mipangilio ya kuki ya tovuti. Pia una haki ya kuwasilisha malalamiko kwa Shirika la Ulinzi wa Data la Uhispania (www.aepd.es) ikiwa unaona kuwa haki zako hazijashughulikiwa vizuri."
 				}
-			],
-			"titulo": "7. Tus derechos"
+			]
 		},
 		{
+			"titulo": "8. Mabadiliko katika sera hii",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política puede actualizarse para adaptarse a cambios legales o del propio sitio."
+					"texto": "Sera hii inaweza kusasishwa ili kukabiliana na mabadiliko ya kisheria au ya tovuti yenyewe."
 				}
-			],
-			"titulo": "8. Cambios en esta política"
+			]
 		}
 	]
 }

@@ -1,27 +1,27 @@
 {
 	"page": {
-		"title": "Proyectos — Mario Álvarez",
-		"description": "Repositorios y proyectos de análisis de datos, visualización y machine learning de Mario Álvarez.",
-		"eyebrow": "Proyectos",
-		"heading": "Proyectos",
-		"intro": "Un vistazo a mi trabajo: desde herramientas para ciclismo profesional hasta proyectos académicos de análisis y machine learning."
+		"title": "Projekte — Mario Álvarez",
+		"description": "Bewaarplekke en projekte vir data-analise, visualisering en masjienleer deur Mario Álvarez.",
+		"eyebrow": "Projekte",
+		"heading": "Projekte",
+		"intro": "‘n Kykie na my werk: van gereedskap vir professionele fietsry tot akademiese analise- en masjienleerprojekte."
 	},
 	"list": {
-		"eyebrow": "Trabajo",
-		"title": "Proyectos",
-		"intro": "Una selección automática de mis repositorios públicos en GitHub.",
-		"especializaciones": "Especializaciones",
-		"fallbackDescripcion": "Proyecto de análisis y ciencia de datos.",
-		"verEnGithub": "Ver en GitHub",
-		"vacio": "No se pudieron cargar los repositorios en este momento.",
-		"filtroLabel": "Filtrar proyectos por tipo",
-		"filtroTodos": "Todos",
-		"filtroDatos": "Datos",
-		"filtroWebs": "Webs",
-		"verWeb": "Ver web",
-		"verCodigo": "Ver código",
-		"enDesarrollo": "En desarrollo",
-		"fallbackDescripcionWeb": "Proyecto web.",
-		"vacioWebs": "Todavía no hay webs publicadas en esta sección."
+		"eyebrow": "Werk",
+		"title": "Projekte",
+		"intro": "'n Outomatiese seleksie van my openbare bewaarplekke op GitHub.",
+		"especializaciones": "Spesialisasies",
+		"fallbackDescripcion": "Data-analise en wetenskap projek.",
+		"verEnGithub": "Sien op GitHub",
+		"vacio": "Kon nie die bewaarplekke tans laai nie.",
+		"filtroLabel": "Filtreer projekte volgens tipe",
+		"filtroTodos": "Almal",
+		"filtroDatos": "Data",
+		"filtroWebs": "Webwerwe",
+		"verWeb": "Sien webwerf",
+		"verCodigo": "Sien kode",
+		"enDesarrollo": "In ontwikkeling",
+		"fallbackDescripcionWeb": "Webwerfprojek.",
+		"vacioWebs": "Daar is nog geen webwerwe in hierdie afdeling gepubliseer nie."
 	}
 }
