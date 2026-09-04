@@ -1,0 +1,40 @@
+---
+import type { GetStaticPaths } from 'astro';
+import ProyectosPage from '../../components/pages/ProyectosPage.astro';
+import SobreMiPage from '../../components/pages/SobreMiPage.astro';
+import ExperienciaPage from '../../components/pages/ExperienciaPage.astro';
+import ContactoPage from '../../components/pages/ContactoPage.astro';
+import PoliticaCookiesPage from '../../components/pages/PoliticaCookiesPage.astro';
+import PoliticaPrivacidadPage from '../../components/pages/PoliticaPrivacidadPage.astro';
+import { NEW_LOCALES, type Locale } from '../../lib/i18n';
+import { SECCIONES, slugParaIdioma } from '../../data/slugs.js';
+
+type SeccionCanonica = (typeof SECCIONES)[number];
+
+// Un slug por idioma para cada una de las 6 secciones (ver src/data/slugs.js): el prefijo /{lang}
+// sigue siendo el idioma, pero el segmento que antes era siempre "proyectos"/"contacto"/... ahora
+// se traduce (p. ej. /de/projekte en vez de /de/proyectos).
+export const getStaticPaths = (() =>
+	NEW_LOCALES.flatMap((lang) =>
+		SECCIONES.map((seccion) => ({
+			params: { lang, seccion: slugParaIdioma(seccion, lang) },
+			props: { seccion },
+		})),
+	)) satisfies GetStaticPaths;
+
+const { lang } = Astro.params as { lang: Locale };
+const { seccion } = Astro.props as { seccion: SeccionCanonica };
+
+const PAGINAS: Record<SeccionCanonica, (typeof ProyectosPage)> = {
+	proyectos: ProyectosPage,
+	'sobre-mi': SobreMiPage,
+	experiencia: ExperienciaPage,
+	contacto: ContactoPage,
+	'politica-de-cookies': PoliticaCookiesPage,
+	'politica-de-privacidad': PoliticaPrivacidadPage,
+};
+
+const Pagina = PAGINAS[seccion];
+---
+
+<Pagina lang={lang} />

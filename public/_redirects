@@ -1,0 +1,7 @@
+# Los slugs en inglés eran los mismos que en español (/en/proyectos, /en/sobre-mi...) hasta que
+# se tradujeron. Estas rutas ya pudieron quedar indexadas en Google, así que se redirigen en vez
+# de devolver 404. Los demás idiomas son rutas nuevas de hoy, no tenían URL previa que redirigir.
+/en/proyectos     /en/projects    301
+/en/sobre-mi      /en/about-me    301
+/en/experiencia   /en/experience  301
+/en/contacto      /en/contact     301
