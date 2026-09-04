@@ -22,36 +22,48 @@ let cacheExpira = 0;
  */
 
 /**
+ * Pide la lista de repos de la organización, opcionalmente autenticado. Devuelve null (en vez de
+ * lanzar) si la respuesta no es ok, para que la llamada pueda decidir si reintentar sin token.
+ */
+async function pedirReposOrg(headers) {
+	try {
+		const response = await fetch(`https://api.github.com/orgs/${GITHUB_ORG}/repos?per_page=100`, { headers });
+		if (response.ok) return await response.json();
+		console.error(`GitHub API respondió con estado ${response.status} al listar repos de "${GITHUB_ORG}"`);
+		return null;
+	} catch (error) {
+		console.error(`Error al obtener los repositorios de la organización "${GITHUB_ORG}":`, error);
+		return null;
+	}
+}
+
+/**
  * Obtiene los repos de la organización de GitHub que tengan el topic "portfolio-web" y los
  * transforma al formato que necesita la tarjeta de la pestaña "Webs" de Proyectos.
  * Sin autenticar por defecto: la organización "alvrz-webs" rechaza con 403 los fine-grained PAT
  * con vida útil superior a 366 días (política propia de la org), y con tan pocos repos el límite
  * de 60 peticiones/hora sin autenticar no supone ningún riesgo en build time. En local, definir
  * GITHUB_API_TOKEN (opcional, cualquier PAT de lectura vale) evita agotar ese límite mientras se
- * itera con `astro dev`, que llama a esta función en cada render.
+ * itera con `astro dev`, que llama a esta función en cada render. Si ese token (aquí o el que
+ * haya configurado en el entorno de despliegue) resulta rechazado por la política de la org, se
+ * reintenta automáticamente sin autenticar en vez de devolver la pestaña vacía.
  * @returns {Promise<RepoWeb[]>}
  */
 export async function obtenerWebs() {
 	if (cache && Date.now() < cacheExpira) return cache;
 
-	const headers = { Accept: 'application/vnd.github+json' };
-	// Opcional: en local, un token (aunque sea de solo lectura) sube el límite de 60 a 5000
-	// peticiones/hora. Sigue sin ser obligatorio: sin token, simplemente unauthenticated como hoy.
+	let repos = null;
+
 	if (process.env.GITHUB_API_TOKEN) {
-		headers.Authorization = `Bearer ${process.env.GITHUB_API_TOKEN}`;
+		repos = await pedirReposOrg({
+			Accept: 'application/vnd.github+json',
+			Authorization: `Bearer ${process.env.GITHUB_API_TOKEN}`,
+		});
+		if (!repos) console.error('Reintentando sin autenticar tras el fallo con GITHUB_API_TOKEN...');
 	}
 
-	let repos = [];
-	try {
-		const response = await fetch(`https://api.github.com/orgs/${GITHUB_ORG}/repos?per_page=100`, { headers });
-
-		if (response.ok) {
-			repos = await response.json();
-		} else {
-			console.error(`GitHub API respondió con estado ${response.status} al listar repos de "${GITHUB_ORG}"`);
-		}
-	} catch (error) {
-		console.error(`Error al obtener los repositorios de la organización "${GITHUB_ORG}":`, error);
+	if (!repos) {
+		repos = (await pedirReposOrg({ Accept: 'application/vnd.github+json' })) ?? [];
 	}
 
 	const resultado = repos
