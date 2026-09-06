@@ -737,4 +737,16 @@ const personSchema = {
 			align-items: flex-start;
 		}
 	}
+
+	@media (max-width: 640px) {
+		.lang-menu {
+			position: fixed;
+			top: 72px; /* justo debajo de la cabecera fija */
+			left: 1rem;
+			right: 1rem;
+			width: auto;
+			max-width: none;
+			max-height: min(70dvh, 360px);
+		}
+	}
 </style>
