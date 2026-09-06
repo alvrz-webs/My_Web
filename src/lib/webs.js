@@ -1,6 +1,34 @@
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import path from 'node:path';
+
 const GITHUB_ORG = 'alvrz-webs';
 const TOPIC_WEBS = 'portfolio-web';
 const TOPIC_EN_DESARROLLO = 'en-desarrollo';
+
+// Última lista de webs obtenida con éxito, persistida en el repo. Si un build falla al
+// contactar con GitHub (403/rate-limit desde la IP compartida de Cloudflare, como ya nos ha
+// pasado), se sirve esta caché en vez de vaciar la pestaña hasta el próximo build que sí
+// funcione. Solo sirve si el archivo está commiteado: cada build de Cloudflare Pages corre en
+// un contenedor limpio, así que un writeFileSync durante ESE build no persiste por sí solo.
+const CACHE_DISCO_PATH = path.join(process.cwd(), 'src', 'data', 'webs-cache.json');
+
+function leerCacheDisco() {
+	if (!existsSync(CACHE_DISCO_PATH)) return null;
+	try {
+		return JSON.parse(readFileSync(CACHE_DISCO_PATH, 'utf-8'));
+	} catch (error) {
+		console.error('No se pudo leer la caché en disco de webs:', error);
+		return null;
+	}
+}
+
+function guardarCacheDisco(resultado) {
+	try {
+		writeFileSync(CACHE_DISCO_PATH, `${JSON.stringify(resultado, null, 2)}\n`, 'utf-8');
+	} catch (error) {
+		console.error('No se pudo escribir la caché en disco de webs:', error);
+	}
+}
 
 // Cache a nivel de módulo con TTL: en `astro dev` esta función se llama en cada render de una
 // página con proyectos, y sin caché eso agota enseguida el límite de la API de GitHub sin
@@ -63,10 +91,20 @@ export async function obtenerWebs() {
 	}
 
 	if (!repos) {
-		repos = (await pedirReposOrg({ Accept: 'application/vnd.github+json' })) ?? [];
+		repos = await pedirReposOrg({ Accept: 'application/vnd.github+json' });
 	}
 
-	const resultado = repos
+	if (!repos) {
+		const deDisco = leerCacheDisco();
+		if (deDisco) {
+			console.error('GitHub no respondió tras los dos intentos; usando la última caché en disco.');
+			cache = deDisco;
+			cacheExpira = Date.now() + CACHE_TTL_MS;
+			return deDisco;
+		}
+	}
+
+	const resultado = (repos ?? [])
 		.filter((repo) => Array.isArray(repo.topics) && repo.topics.includes(TOPIC_WEBS))
 		.map((repo) => ({
 			name: repo.name,
@@ -77,6 +115,8 @@ export async function obtenerWebs() {
 			stack: repo.topics.filter((topic) => topic !== TOPIC_WEBS && topic !== TOPIC_EN_DESARROLLO),
 			enDesarrollo: repo.topics.includes(TOPIC_EN_DESARROLLO),
 		}));
+
+	if (repos) guardarCacheDisco(resultado);
 
 	cache = resultado;
 	cacheExpira = Date.now() + CACHE_TTL_MS;

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CATALOGO_ROPA-_CICLISTA",
+    "description": " Catalog of Héctor Álvarez's first clothing collection",
+    "homepage": "https://catalog-hector-alvarez.netlify.app/",
+    "htmlUrl": "https://github.com/alvrz-webs/CATALOGO_ROPA-_CICLISTA",
+    "previewUrl": "https://raw.githubusercontent.com/alvrz-webs/CATALOGO_ROPA-_CICLISTA/main/preview.png",
+    "stack": [],
+    "enDesarrollo": false
+  },
+  {
+    "name": "My_first_website",
+    "description": " self-directed learning and results",
+    "homepage": "https://marioalvarez-frirst.malvmar5.workers.dev/",
+    "htmlUrl": "https://github.com/alvrz-webs/My_first_website",
+    "previewUrl": "https://raw.githubusercontent.com/alvrz-webs/My_first_website/main/preview.png",
+    "stack": [],
+    "enDesarrollo": false
+  },
+  {
+    "name": "My_Web",
+    "description": "Data Scientist Portfolio Website",
+    "homepage": "https://marioalvarez.me/",
+    "htmlUrl": "https://github.com/alvrz-webs/My_Web",
+    "previewUrl": "https://raw.githubusercontent.com/alvrz-webs/My_Web/main/preview.png",
+    "stack": [],
+    "enDesarrollo": false
+  },
+  {
+    "name": "Tax-advisor-website",
+    "description": "Tailored tax advice",
+    "homepage": "https://pili-web.malvmar5.workers.dev/",
+    "htmlUrl": "https://github.com/alvrz-webs/Tax-advisor-website",
+    "previewUrl": "https://raw.githubusercontent.com/alvrz-webs/Tax-advisor-website/main/preview.png",
+    "stack": [],
+    "enDesarrollo": false
+  }
+]
