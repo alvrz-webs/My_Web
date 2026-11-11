@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Hasiera",
 		"sobreMi": "Nire berri",
 		"proyectos": "Proiektuak",
 		"experiencia": "Esperientzia",
@@ -7,10 +8,22 @@
 		"ariaMain": "Nabigazio nagusia",
 		"openMenu": "Ireki menua"
 	},
+	"saltar": "Joan edukira",
+	"tema": "Aldatu modu argia eta iluna artean",
+	"telefono": "Telefonoa",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Espainiako madison txapelduna. Datu zientzialaria.",
+		"disponible": "Datu eta kirol-errendimenduko proiektuetarako eskuragarri.",
+		"escribeme": "Idatzi nazazu",
+		"navLabel": "Atalak",
+		"legalLabel": "Legezkoa",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sare sozialak"
+	},
+	"cierre": {
+		"title": "Hitz egingo al dugu?",
+		"text": "Errendimendu-datuak eta erantzun gabeko galderak badituzu, idatzi eta elkarrekin aztertuko dugu.",
+		"cta": "Idatzi nazazu"
 	},
 	"langSwitch": {
 		"label": "Aldatu hizkuntza",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Cookie baimena"
 	},
 	"legal": {
+		"terminos": "Baldintzak eta baldintzak",
 		"privacidad": "Pribatutasun politika",
-		"cookies": "Cookie politika"
+		"cookies": "Cookie politika",
+		"reembolso": "Itzulketa-politika",
+		"actualizado": "Azken eguneratzea",
+		"indice": "Orri honetan",
+		"otros": "Beste dokumentu batzuk"
 	},
 	"person": {
 		"jobTitle": "Datu zientzialaria",
 		"description": "Kirol analistikan espezializatutako datu zientzialaria, ziklistismo profesionalean esperientzia duena."
+	},
+	"pizarra": {
+		"vueltas": "itzuli",
+		"campana": "azkena"
 	}
 }

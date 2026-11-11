@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Tagastamispoliitika — Mario Álvarez",
+		"description": "Kuidas toimuvad Mario Álvareze teenuste tühistamised, taganemisõigus ja tagastused.",
+		"heading": "Tagastamispoliitika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. See veebisait ei võta makseid",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saidil marioalvarez.me ei müüda tooteid ega võeta vastu veebimakseid. Teenused (tulemusanalüüs, kohandatud tööriistad, andmebaasid ja aruanded ning karjääritugi) lepitakse kokku eraldi kirjaliku ettepaneku teel."
+				}
+			]
+		},
+		{
+			"titulo": "2. Mida ütleb teie ettepanek",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Igas ettepanekus on märgitud hind, maksmise viis ja aeg ning tühistamistingimused. Kui ettepanek ütleb midagi muud kui see poliitika, kehtib ettepanek, välja arvatud juhul, kui see poliitika annab teile tarbijana rohkem õigusi."
+				}
+			]
+		},
+		{
+			"titulo": "3. Tühistamise korral",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kui kirjalikult ei ole kokku lepitud teisiti:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kui tühistate enne töö algust, tagastan teile mis tahes ettemakse täies ulatuses.",
+						"Kui tühistate pärast töö algust, võetakse tasu ainult juba tehtud osa eest ja ülejäänud ettemakstud summast tagastan.",
+						"Juba üle antud ja aktsepteeritud tööd ei tagastata, välja arvatud juhul, kus sellel on defekte, mida ei parandata."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Taganemisõigus (kui olete tarbija)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kui sõlmite lepingu tarbijana (isikuna, kes tegutseb väljaspool oma kutsetegevust) ja leping sõlmitakse sidevahendi abil, e-posti või telefoni teel, on teil 14 kalendripäeva alates lepingu sõlmimisest õigus taganeda ilma põhjendusi esitamata vastavalt tarbijate ja kasutajate kaitse üldseaduse tekstikoondise artiklitele 102–108 (kuninglik seadusandlik dekreet 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kui palute mul selgesõnaliselt alustada tööd selle 14 päeva jooksul ja seejärel taganete, maksate ainult proportsionaalse osa teenusest, mis selleks hetkeks osutati. Kui teenus on tähtaja jooksul täielikult lõpule viidud teie eelneval ja selgesõnalisel nõusolekul ning teadmisega, et sellega kaotate selle õiguse, ei saa te enam taganeda (artikkel 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kuidas seda taotleda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kirjutage mulle aadressil {email} oma nime, teenuse ja tellimise kuupäevaga. Võite kasutada seda taganemisavalduse vormi mudelit (ei ole kohustuslik):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kellele: {nombre}, {domicilio}, {email}:",
+						"Teatan käesolevaga, et taganen järgmise teenuse osutamise lepingust: [teenus].",
+						"Tellitud: [kuupäev].",
+						"Tarbija nimi: [nombre].",
+						"Tarbija elukoht: [domicilio].",
+						"Kuupäev: [kuupäev]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Tagastamise tähtaeg ja viis",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tagastan teile vastava summa hiljemalt 14 kalendripäeva jooksul alates päevast, mil te mulle oma otsusest teatasite, kasutades sama makseviisi, mida kasutasite, välja arvatud juhul, kui lepime kokku teisiti. Tagastamine ei maksa teile midagi."
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Avaleht",
 		"sobreMi": "Minust",
 		"proyectos": "Projektid",
 		"experiencia": "Kogemus",
@@ -7,10 +8,22 @@
 		"ariaMain": "Põhinavigatsioon",
 		"openMenu": "Ava menüü"
 	},
+	"saltar": "Liigu sisu juurde",
+	"tema": "Vaheta heleda ja tumeda režiimi vahel",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Hispaania meister madisonis. Andmeteadlane.",
+		"disponible": "Saadaval spordiandmete ja -soorituse projektide jaoks.",
+		"escribeme": "Kirjuta mulle",
+		"navLabel": "Jaotised",
+		"legalLabel": "Õiguslik teave",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sotsiaalvõrgustikud"
+	},
+	"cierre": {
+		"title": "Räägime?",
+		"text": "Kui sul on sooritusandmeid ja vastuseta küsimusi, kirjuta mulle ja vaatame neid koos.",
+		"cta": "Kirjuta mulle"
 	},
 	"langSwitch": {
 		"label": "Muuda keelt",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Küpsiste nõusolek"
 	},
 	"legal": {
+		"terminos": "Tingimused",
 		"privacidad": "Privaatsuspoliitika",
-		"cookies": "Küpsiste poliitika"
+		"cookies": "Küpsiste poliitika",
+		"reembolso": "Tagasimaksepoliitika",
+		"actualizado": "Viimati uuendatud",
+		"indice": "Sellel lehel",
+		"otros": "Muud dokumendid"
 	},
 	"person": {
 		"jobTitle": "Andmeteadlane",
 		"description": "Spordianalüütikale spetsialiseerunud andmeteadlane, kellel on kogemused professionaalses rattaspordis."
+	},
+	"pizarra": {
+		"vueltas": "ringi",
+		"campana": "viimane"
 	}
 }

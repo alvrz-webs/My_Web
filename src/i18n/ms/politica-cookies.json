@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Dasar Kuki — Mario Álvarez",
-		"description": "Kuki yang digunakan oleh laman web ini, tujuannya dan cara untuk menukar persetujuan anda pada bila-bila masa.",
-		"eyebrow": "Undang-undang",
-		"heading": "Dasar Kuki"
+		"version": "2026-11-10",
+		"title": "Dasar kuki — Mario Álvarez",
+		"description": "Apakah kuki yang digunakan oleh marioalvarez.me, yang mana memerlukan kebenaran anda, dan cara menukar pilihan anda pada bila-bila masa.",
+		"heading": "Dasar kuki",
+		"eleccionTitulo": "Pilihan anda",
+		"eleccionTexto": "Anda boleh menukar atau memadam data anda pada bila-bila masa, semudah anda memberikannya."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Laman web ini menggunakan kuki dan teknologi yang serupa (seperti storan tempatan pelayar) untuk pengoperasian yang betul dan, jika anda memberikan persetujuan, untuk menganalisis secara anonim cara kandungan digunakan."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Kuki yang digunakan:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nama",
-				"Tujuan",
-				"Jenis",
-				"Tempoh"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Mengingati pilihan anda mengenai dasar kuki ini",
-					"Sendiri, teknikal (dikecualikan daripada persetujuan)",
-					"12 bulan"
-				],
-				[
-					"visitante_id",
-					"Pengecam anonim untuk mengaitkan lawatan anda dan mengetahui kandungan yang berguna",
-					"Sendiri, analitikal (memerlukan persetujuan anda)",
-					"12 bulan"
-				]
+			"titulo": "1. Apakah itu dan adakah saya memerlukan kebenaran anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kuki dan teknologi yang serupa (seperti storan tempatan pelayar) menyimpan data kecil pada peranti anda. Mengikut peraturan yang berkenaan dan garis panduan perlindungan data, kuki yang benar-benar diperlukan untuk sesuatu yang anda minta tidak memerlukan kebenaran; kuki analisis pula memerlukannya."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Sebab itulah laman web ini hanya menyimpan kuki analisis jika anda menerimanya, dan membolehkan anda menerima atau menolak dengan dua butang yang sama, pada skrin yang sama dan tanpa petak yang ditanda terlebih dahulu. Menolaknya tidak menghalang anda daripada menggunakan apa-apa sahaja di laman web ini."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Tiada satu pun kuki ini daripada pihak ketiga, tiada yang digunakan untuk tujuan pengiklanan, dan tiada yang dikongsi dengan sesiapa di luar laman web ini."
+			"titulo": "2. Kuki yang digunakan oleh laman web ini",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nama",
+						"Untuk apa",
+						"Jenis",
+						"Adakah ia memerlukan kebenaran anda?",
+						"Tempoh"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Menyimpan pilihan anda, versi dasar ini dan pengecam pseudonim bagi rekod persetujuan anda",
+							"Sendiri, teknikal",
+							"Tidak",
+							"12 bulan"
+						],
+						[
+							"visitante_id",
+							"Pengecam pseudonim untuk mengetahui kandungan yang berguna",
+							"Sendiri, analisis",
+							"Ya",
+							"12 bulan"
+						],
+						[
+							"tema (almanak tempatan)",
+							"Mengingat sama ada anda lebih suka tema cerah atau gelap; ia hanya disimpan jika anda mengubahnya",
+							"Sendiri, penyesuaian yang diminta oleh anda",
+							"Tidak",
+							"Sehingga anda memadamkannya"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Anda boleh menukar keputusan anda atau menarik balik persetujuan anda pada bila-bila masa dari pautan \"Konfigurasikan kuki\" di footer, dan memadamkan semua data anda dengan serta-merta dengan butang \"Padam data saya\" di panel yang sama."
+			"titulo": "3. Perkara yang tiada",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tiada kuki pihak ketiga, tiada pengiklanan, tiada kandungan media sosial yang dibenamkan, dan tiada Google Analytics. Fon dan imej disajikan dari laman web ini sendiri."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Untuk maklumat lanjut tentang cara data anda diproses, sila rujuk Dasar Privasi."
+			"titulo": "4. Cara mengubah fikiran",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Anda boleh menukar pilihan anda atau menarik balik persetujuan pada bila-bila masa dari «Konfigurasikan kuki», di kaki setiap halaman, atau dengan butang pada halaman ini. Dari situ anda juga boleh memadam serta-merta data analisis yang dikaitkan dengan pelayar anda. Dan anda boleh memadam kuki dari tetapan pelayar anda."
+				}
+			]
+		},
+		{
+			"titulo": "5. Rekod pilihan anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Setiap kali anda menerima, menolak atau menarik balik persetujuan, rekod disimpan (pengecam pseudonim, keputusan, versi dasar ini, tarikh dan masa, halaman, bahasa, asal dan pelayar), tanpa alamat IP anda, untuk dapat membuktikan bahawa persetujuan itu sah. Ia disimpan selama 3 tahun. Butiran lanjut dalam dasar privasi."
+				}
+			]
+		},
+		{
+			"titulo": "6. Perubahan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jika dasar ini berubah dengan ketara, pemberitahuan kuki akan muncul semula supaya anda boleh membuat keputusan sekali lagi."
+				}
+			]
 		}
 	]
 }

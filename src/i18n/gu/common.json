@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "শুরু",
 		"sobreMi": "મારા વિશે",
 		"proyectos": "پروজেક્ટ્સ",
 		"experiencia": "અનુભવ",
@@ -7,10 +8,22 @@
 		"ariaMain": "મુખ્ય નેવિગેશન",
 		"openMenu": "મેનુ ખોલો"
 	},
+	"saltar": "सामग्री पर जाएं",
+	"tema": "लाइट और डार्क मोड के बीच स्विच करें",
+	"telefono": "ഫോൺ",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Campeón de España de madison. Científico de datos.",
+		"disponible": "डेटा और खेल प्रदर्शन परियोजनाओं के लिए उपलब्ध।",
+		"escribeme": "मुझे लिखें",
+		"navLabel": "विभागों",
+		"legalLabel": "कानूनी",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "સોશિયલ મીડિયા"
+	},
+	"cierre": {
+		"title": "¿Hablamos?",
+		"text": "Si tienes datos de rendimiento y preguntas sin responder, escríbeme y lo miramos juntos.",
+		"cta": "मुझे लिखें"
 	},
 	"langSwitch": {
 		"label": "ભાષા બદલો",
@@ -27,11 +40,20 @@
 		"ariaBanner": "કૂકી સંમતિ"
 	},
 	"legal": {
+		"terminos": "नियम और शर्तें",
 		"privacidad": "ગોપનીયતા નીતિ",
-		"cookies": "કૂકીઝ નીતિ"
+		"cookies": "કૂકીઝ નીતિ",
+		"reembolso": "रिंड फंड पॉलिसी",
+		"actualizado": "अंतिम अपडेट",
+		"indice": "इस पृष्ठ पर",
+		"otros": "अन्य दस्तावेज़"
 	},
 	"person": {
 		"jobTitle": "ડેટા સાયન્ટિસ્ટ",
 		"description": "વ્યાવસાયિક સાઇકલિંગમાં અનુભવ સાથે, સ્પોર્ટ્સ એનાલિટિક્સમાં વિશેષતા ધરાવતા ડેટા સાયન્ટિસ્ટ."
+	},
+	"pizarra": {
+		"vueltas": "vueltas",
+		"campana": "अंतिम"
 	}
 }

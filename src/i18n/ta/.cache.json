@@ -46,10 +46,6 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "மெனுவைத் திற"
 		},
-		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
-		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
 			"value": "Mario Álvarez. Valencia."
@@ -113,6 +109,82 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "தொழில்முறை சைக்கிள் ஓட்டுதலில் அனுபவமுள்ள, விளையாட்டு பகுப்பாய்வில் நிபுணத்துவம் பெற்ற தரவு விஞ்ஞானி."
+		},
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "முகப்பு"
+		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "உள்ளடக்கத்திற்குச் செல்லவும்"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "வெளிச்ச மற்றும் இருண்ட பயன்முறைக்கு மாறுக"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "தொலைபேசி"
+		},
+		"footer/tagline": {
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "மேடிசன் ஸ்பெயின் சாம்பியன். தரவு அறிவியல் நிபுணர்."
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "தரவு மற்றும் விளையாட்டுத் செயல்திறன் திட்டங்களுக்குக் கிடைக்கிறேன்."
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": " எனக்கு எழுதுங்கள்"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "பிரிவுகள்"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "சட்டப்பூர்வமானது"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "பேசலாமா?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "உங்களிடம் செயல்திறன் தரவுகளும் பதிலளிக்கப்படாத கேள்விகளும் இருந்தால், எனக்கு எழுதுங்கள், நாம் சேர்ந்து பார்க்கலாம்."
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "என்னைத் தொடர்பு கொள்ளுங்கள்"
+		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "விதிமுறைகளும் நிபந்தனைகளும்"
+		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "பணத்தைத் திரும்பப் பெறும் கொள்கை"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "கடைசியாகப் புதுப்பிக்கப்பட்டது"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "இந்தப் பக்கத்தில்"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "பிற ஆவணங்கள்"
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "சுற்றுகள்"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "கடைசி"
 		}
 	},
 	"inicio": {
@@ -120,137 +192,265 @@
 			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
 			"value": "மரியோ அஸ்வவரெஸ் — விளையாட்டுத் துறையில் நிபுணத்துவம் பெற்ற தரவு அறிவியல் நிபுணர்"
 		},
-		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "வலென்சியாவில் விளையாட்டுப் பகுப்பாய்வில் நிபுணத்துவம் பெற்ற தரவு அறிவியல் நிபுணர் மரியோ அஸ்வவரெஸ். Data · Sport · Progress."
-		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "திட்டங்களைக் காண்க"
-		},
-		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "தொடர்பு கொள்க"
-		},
-		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "மேலும் காண்க"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "அனைத்துத் திட்டங்களையும் காண்க"
 		},
-		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "தொடர்புக்குச் செல்லவும்"
-		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "முக்கிய கருவிகள்"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "தரவு அறிவியல் · விளையாட்டுப் பகுப்பாய்வு · வலென்சியா"
+		"meta/description": {
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "வலэнசியாவில் விளையாட்டு பகுப்பாய்வில் நிபுணத்துவம் பெற்ற தரவு அறிவியல் வல்லுநர் மரியோ அல்வாரெஸ். ஸ்பெயின் மேடிசன் சாம்பியன் மற்றும் RFEC விளையாட்டு இயக்குநர்."
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "நான் தரவுகளை மாற்றுவது "
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "நான் உங்களுக்கு எப்படி உதவுவது என்பதைப் பார்க்கவும்"
 		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "தெளிவான முடிவுகளாக"
+		"meta/contacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": " எனக்கு எழுதவும்"
+		},
+		"meta/verMas": {
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "மேலும் படிக்கவும்"
+		},
+		"meta/irAContacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "எனக்கு எழுதவும்"
+		},
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "மரியோ அல்வாரெஸ், தரவு அறிவியல் வல்லுநர்"
+		},
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "நான் ஸ்பெயின் மேடிசன் சாம்பியனாக இருந்தேன்."
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "நான் தரவு பகுப்பாய்வு மற்றும் உயர்மட்ட விளையாட்டுக்கும் இடையேயான பாலமாக இருக்கிறேன்: செயல்திறன் அளவீடுகளை களத்தில் மாற்றத்தை ஏற்படுத்தும் உத்திகளாக மாற்றுகிறேன்."
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "இப்போது நான் UPV-ல் தரவு அறிவியல் படிக்கிறேன் மற்றும் செயல்திறனின் பின்னணியில் உள்ளவற்றை பகுப்பாய்வு செய்கிறேன்: ஆற்றல், சுமை மற்றும் முடிவுகள். ஒரு பந்தய வீரருக்கு ஒரு எண் என்ன அர்த்தம் என்பதை நான் அறிவேன், ஏனென்றால் நான் அந்த பந்தய வீரராக இருந்திருக்கிறேன்."
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "பதக்கப் பட்டியல்"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "1º"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "ஸ்பெயின் மேடிசன் சாம்பியன்ஷிப்"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "டிராக், 18 வயதில்"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "என்னைப் பற்றி"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "உலக டிராக் சாம்பியன்ஷிப்"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "ஸ்பெயின் தேசிய அணி"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "ஐரோப்பிய டிராக் சாம்பியன்ஷிப்"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "ஸ்பெயின் தேசிய அணி"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "மரியோ அல்வாரெஸின் உருவப்படம்"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "நான் உங்களுக்கு எதில் உதவ முடியும்"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "என்னிடம் தரவுகள் இருந்து அவற்றை பயன்படுத்த விரும்பும் அணிகள், பயிற்சியாளர்கள் மற்றும் பந்தய வீரர்களுடன் நான் வேலை செய்கிறேன். மேலும் தங்களுடைய தரவுகளை ஒழுங்குபடுத்த வேண்டிய நிறுவனங்களுடன்."
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "உங்கள் வழக்கைப் பற்றி என்னிடம் கூறுங்கள்"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "செயல்திறன் பகுப்பாய்வு"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "ஒரு பந்தய வீரரின் கண்களுடன் ஆற்றல், சுமை மற்றும் முடிவுகளைப் படிக்கிறேன். என்ன நடக்கிறது மற்றும் எதை மாற்ற வேண்டும் என்பதை நான் விளக்குகிறேன்."
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "எலைட் பந்தய வீரர் மற்றும் RFEC விளையாட்டு இயக்குநர், நிலை I மற்றும் II."
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "தனிப்பயனாக்கப்பட்ட கருவிகள்"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "உங்கள் அணியின் ஒரு குறிப்பிட்ட கேள்விக்கு பதிலளிக்கும் ஸ்கிராப்பிங், மாதிரிகள் மற்றும் பைத்தானில் உள்ள சிறிய பயன்பாடுகள்."
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "கோஃபிடிஸ் அணிக்கான இரண்டு கருவிகள்: UCI சிரமம் மற்றும் பந்தய சுயவிவரம்."
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "தரவுத்தளங்கள் மற்றும் அறிக்கைகள்"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "விரைவான வினவல்கள், ஒருங்கிணைக்கப்பட்ட தரவுத்தளங்கள் மற்றும் முதல் பார்வையில் புரியும் Power BI டாஷ்போர்டுகள்."
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "SIME டெலிகாமில் நான் மேம்படுத்தும் தரவுத்தளத்தில் 580 க்கும் மேற்பட்ட அட்டவணைகள் மற்றும் 100 மில்லியன் பதிவுகள்."
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "பந்தய ஆதரவு"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "பந்தய தயாரிப்பு, பந்தய வீரர்களை கண்காணித்தல் மற்றும் போட்டியில் கைமருத்துவம் (quiromasaje)."
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "வலென்சியன் சமூக தேசிய அணியின் ஊழியர்கள்."
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "தடம், சாலை மற்றும் போட்டிச் சூழலுடன் கூடிய தரவு"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "வெல்ட்ரோமிலிருந்து தரவுகளுக்கு"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "நான் மரியோ அஸ்வவரெஸ், UPV இல் தரவு அறிவியல் மாணவர் மற்றும் தொழில்முறை சைக்கிள் ஓட்டுதலில் உண்மையான அனுபவம் உள்ளவர். ஒவ்வொரு அளவீட்டையும் முடிவுகளை மேம்படுத்தும் முடிவாக மாற்ற, தரவு பகுப்பாய்வை உயர்மட்ட விளையாட்டு செயல்திறனுடன் இணைக்கிறேன்."
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "நான் UPV-ல் தரவு அறிவியலில் 3 ஆம் ஆண்டு படிக்கிறேன் மற்றும் விளையாட்டிற்கு பயன்படுத்தப்படும் டிஜிட்டயலாக்கம் மற்றும் தொழில்நுட்பத்தில் முதுகலைப் பட்டத்தை முடித்துள்ளேன். நான் சைக்கிள் ஓட்டுதலில் இருந்து வெளியேறவில்லை: நான் தொடர்ந்து டிராக்கில் ஓடுகிறேன், அடிப்படை பந்தய வீரர்களை வழிநடத்துகிறேன் மற்றும் தொழில்முனைவோருடன் கைமருத்துவ நிபுணராக வேலை செய்கிறேன்."
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "அடிப்படை"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "பெனிடோர்ம் மற்றும் வலென்சியா"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "கல்வி"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "தரவு அறிவியலில் இளங்கலை பட்டம், வலென்சியா பாலிடெக்னிக் பல்கலைக்கழகம்."
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "தரவு அறிவியலில் இளங்கலை பட்டம் (UPV) மற்றும் விளையாட்டில் டிஜிட்டயலாக்கம், புதுமை மற்றும் தொழில்நுட்பத்தில் முதுகலை பட்டம்"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "உயர்மட்டம்"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "பட்டங்கள்"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "அனுபவம்"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "RFEC விளையாட்டு இயக்குநர், நிலை I மற்றும் II"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "ஒரு தொழில்முறை சைக்கிள் ஓட்டுதல் அணியில் உண்மையான வேலை."
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "இப்போது"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "दृष्टि"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "விளையாட்டு செயல்திறனை மேம்படுத்துவதற்காக প্রয়োগকৃত பகுப்பாய்வு."
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "அனுபவம்"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "தரவு மற்றும் செயல்திறன் திட்டங்களுக்கு கிடைக்கும்"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "இரண்டு உலகங்கள், ஒரே மொழி: செயல்திறன்"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "இரண்டு தடங்கள், ஒரே வேலை"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "நான் உச்ச மட்டத்தில் போட்டியிட்டுள்ளேன், இன்று அதே அளவுகோலை தரவுகளுக்குப் பயன்படுத்துகிறேன்: ஒரு எண் விளையாட்டு வீரருக்கு என்ன அர்த்தம் என்பதை நான் புரிந்துகொள்ள1 காரணம் நானும் அந்த விளையாட்டு வீரராக இருந்திருக்கிறேன்."
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "ஒன்றில் நான் தரவுத்தளங்களை மேம்படுத்துகிறேன் மற்றும் மாதிரிகளை எழுதுகிறேன். மற்றொன்றில் நான் பந்தயங்களை தயார்படுத்தி பந்தய வீரர்களை பின்தொடர்கிறேன். இரண்டும் ஒரே விசயத்தைப் பற்றியது: சிறந்த முடிவெடுக்க நன்றாக அளவிடுவது."
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "தரவு"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "வன்பொருளை விரிவுபடுத்தாமல் பல தரவுத்தளங்களை ஒன்றாக இணைக்க SIME டெலிகாமில் பகுப்பாய்வு செய்யப்பட்ட அட்டவணைகள்"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "நான் மேம்படுத்தி வரும் தரவுத்தளத்தில் உள்ள பதிவுகள்"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "கோஃபிடிஸ் அணிக்கான பைத்தானில் உள்ள கருவிகள்: UCI சிரமம் மற்றும் பந்தய சுயவிவரம்"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "டிராக் மற்றும் சாலை"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I மற்றும் II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "ஸ்பெயின் அரச சைக்கிள் ஓட்டுதல் கூட்டமைப்பின் விளையாட்டு இயக்குநர் நிலைகள்"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "என் தந்தையுடன் சேர்ந்து நான் பயிற்சி அளித்து பின்தொடரும் அடிப்படை பந்தய வீரர்களின் வயது"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "போட்டியில் வலென்சியன் சமூக தேசிய அணியுடன் உதவியாளர்"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "தரவு பற்றி பேசலாமா?"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "கடைது சுற்று"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "உங்கள் திட்டத்தைப் பற்றி என்னிடம் கூறுங்கள், செயல்திறனை மேம்படுத்தும் முடிவுகள் எங்கே உள்ளன என்பதை நாம் ஒன்றாகத் தேடுவோம்."
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "உங்களிடம் செயல்திறன் தரவுகளும் பதிலளிக்கப்படாத கேள்விகளும் இருந்தால், எனக்கு எழுதுங்கள், நாம் அதை ஒன்றாகப் பார்ப்போம்."
 		}
 	},
 	"sobre-mi": {
@@ -290,10 +490,6 @@
 			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
 			"value": "அடிப்படை"
 		},
-		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
-		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
 			"value": "நிலை"
@@ -306,25 +502,53 @@
 			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
 			"value": "கவனம்"
 		},
-		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "தரவு + விளையாட்டு செயல்திறன்"
-		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "மொழிகள்"
-		},
-		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "தாய்மொழி ஸ்பானிஷ் · வலென்சியன் · ஆங்கிலம் B1"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "கல்வி"
 		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "நான் இன்னும் சைக்கிளிங்கில் இருக்கிறேன், தடத்திலும் அணி காரிலும். மாறியது என்னவென்றால் நான் அதை எப்படிப் பார்க்கிறேன் என்பதுதான்: இப்போது தரவுகளுடனும்."
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "வீரர், இயக்குனர் மற்றும் தரவு விஞ்ஞானி"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "சுருக்கமாக"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "அத்தியாவசியமானவை, உங்களுக்கு அவசரம் என்றால்."
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Mario Álvarez இன் உருவப்படம்"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "முதலில், கால்கள். இப்போது, தரவு."
+		},
+		"facts/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm மற்றும் Valencia"
+		},
+		"facts/2/value": {
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "தரவு மற்றும் விளையாட்டு செயல்திறன்"
+		},
+		"facts/3/value": {
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "ஸ்பானிஷ் (தாய்மொழி), வாலென்சியன் மற்றும் ஆங்கிலம் (B1)"
+		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "தரவு அறிவியல் பட்டம் (UPV) · விளையாட்டில் டிஜிட்டல்மயமாக்கல், கண்டுபிடிப்பு மற்றும் தொழில்நுட்பத்தில் முதுகலை"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "தரவு அறிவியலில் பட்டம் (UPV) மற்றும் விளையாட்டுத் துறையில் டிஜிட்டல் மயமாக்கல், புதுமை மற்றும் தொழில்நுட்பத்தில் முதுகலை"
 		}
 	},
 	"experiencia": {
@@ -344,10 +568,6 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "இரண்டு உலகங்கள், ஒரே மொழி: செயல்திறன்"
 		},
-		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "தரவு & தொழில்நுட்பம்"
-		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
 			"value": "உயரடுக்கு விளையாட்டு"
@@ -355,10 +575,6 @@
 		"datos/0/title": {
 			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
 			"value": "SIME TELECOM — தரவு அறிவியல் பயிற்சி"
-		},
-		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "தரவு பொறியியல் · பெனிഡോர்ம் · 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -371,10 +587,6 @@
 		"datos/1/title": {
 			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
 			"value": "Cofidis அணியுடன் திட்டங்கள் (World Tour)"
-		},
-		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · கோடை 2025"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -435,6 +647,54 @@
 		"deporte/2/paragraphs/0": {
 			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
 			"value": "சான்றிதழ் பெற்ற கியரோமசாஜர்; தொழில்முறை சைக்கிள் ஓட்டுநர்களின் மசாஜர்; வலென்சிய சமூக தேசிய அணி, ஒரு பிலிப்பைன்ஸ் கான்டினென்டல் அணி மற்றும் பெனிடோர்மில் தனிப்பட்ட முறையில் சைக்கிள் ஓட்டுநர்களுடன் தொழில்நுட்பக் குழு."
+		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "தரவுத்தளத்தിലോ அல்லது அணி காரிலோ, வேலை ஒன்றுதான்: சிறப்பாக முடிவெடுக்க சரியாக அளவிடுவது."
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "SIME Telecom-ൽ நான் மேம்படுத்தும் தரவுத்தள பதிவுகள்"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "Cofidis அணிக்கான Python கருவிகள்"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "உலக மற்றும் ஐரோப்பிய டிராக் சாம்பியன்ஷிப்பில்"
+		},
+		"meta/colDatos": {
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "தரவு மற்றும் தொழில்நுட்பம்"
+		},
+		"datos/0/meta": {
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "தரவு பொறியியல், பெனிடோர்ம், 2026"
+		},
+		"datos/1/meta": {
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, கோடை 2025"
+		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "டிராக் சைக்கிள் ஓட்டுதல், ஸ்பானிய தேசிய அணி"
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, I மற்றும் II நிலைகள்"
 		}
 	},
 	"proyectos": {
@@ -521,6 +781,18 @@
 		"list/vacioWebs": {
 			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
 			"value": "இந்தப் பிரிவில் இன்னும் வலைத்தளங்கள் வெளியிடப்படவில்லை."
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "GitHub-ல் பொதுவான களஞ்சியங்கள்"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "வெளியிடப்பட்ட வலைத்தளங்கள்"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "மொழிகள் மற்றும் கருவிகள்"
 		}
 	},
 	"contacto": {
@@ -535,14 +807,6 @@
 		"meta/eyebrow": {
 			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
 			"value": "தொடர்பு"
-		},
-		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "உங்களிடம் தரவுகளும் தீர்க்க வேண்டிய கேள்வியும் உள்ளதா?"
-		},
-		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "பேசலாம். இது ஒரு விளையாட்டுப் பகுப்பாய்வுத் திட்டமாக இருந்தாலும் சரி, தரவு ஒத்துழைப்பாக இருந்தாலும் சரி, அல்லது நீங்கள் விவாதிக்க விரும்பும் யோசனையாக இருந்தாலும் சரி, நான் மகிழ்ச்சியுடன் பதிலளிக்கிறேன்."
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,92 +823,260 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "சமூக வலைப்பின்னல்கள்"
+		},
+		"meta/heading": {
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "உningகளிடம் தரவுகளும் ஒரு கேள்வியும் உள்ளதா?"
+		},
+		"meta/intro": {
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "பேசுவோம். இது விளையாட்டுப் பகுப்பாய்வுத் திட்டம், தரவு ஒத்துழைப்பு அல்லது நீங்கள் பரிசீலிக்க விரும்பும் யோசனையாக இருந்தாலும், நான் உங்களுக்குப் பதிலளிக்கிறேன்."
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "நீங்கள் எதைப் பற்றி பேச விரும்புகிறீர்கள்?"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "ஒரு தலைப்பைத் தேர்ந்தெடுத்து, உங்களுக்காக மின்னஞ்சலைத் தயார் செய்து விடுகிறேன். உங்கள் வழக்கைத் தெரிவிக்க வேண்டியது மட்டுமே உங்கள் வேலை."
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "செயல்திறன் பகுப்பாய்வு"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "தனிப்பயனாக்கப்பட்ட ஒரு கருவி"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "தரவுத்தளங்கள் மற்றும் அறிக்கைகள்"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "தொழில் வாழ்க்கை ஆதரவு"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "வேறு ஏதாவது"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "மின்னஞ்சல் எழுது"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "மின்னஞ்சலை நகலெடு"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "மின்னஞ்சல் நகலெடுக்கப்பட்டது"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "marioalvarez.me தளத்திலிருந்து விசாரணை"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "வணக்கம் Mario:\n\nஇதற்காக உங்களுக்கு எழுதுகிறேன்: {tema}.\n\nஎன்னிடம் இருப்பது:\n\nநான் தெரிந்து கொள்ள விரும்புவது:\n\nநன்றி."
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "மற்ற சேனல்கள்"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "அடிப்படை"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm மற்றும் Valencia"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "மொழிகள்"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "ஸ்பானிஷ், வாலென்சியன் மற்றும் ஆங்கிலம்"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "எனக்கு எழுதுவதற்கு முன்"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "நான் {enlace}-ஐப் படித்து ஏற்றுக்கொள்கிறேன்."
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "{enlace}-ல் விவரிக்கப்பட்டுள்ள பகுப்பாய்வு கூக்கிகளை ஏற்றுக்கொள்கிறேன் (விரும்பினால்)."
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "கூக்கி கொள்கை"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "எனக்கு எழுத, விதிமுறைகள் மற்றும் நிபந்தனைகள் பெட்டியை முதலில் குறிக்கவும்."
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "பொறுப்பாளர்: Mario Álvarez Martínez. நோக்கம்: உங்கள் விசாரணைக்கு பதிலளிப்பது மற்றும் நீங்கள் கேட்டால், உங்களுக்கான முன்மொழிவைத் தயாரிப்பது. நியாயப்படுத்தல்: உங்கள் கோரிக்கை. பெறுநர்கள்: யாரும் இல்லை, சட்டப்பூர்வ கடமை தவிர. உரிமைகள்: அணுகல், திருத்தம், நீக்கல் மற்றும் {enlace}-ல் விவரிக்கப்பட்டுள்ள பிற உரிமைகள்."
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "தனியுரிமைக் கொள்கை"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "விதிமுறைகளை ஏற்றுக் கொண்டதற்கான குறிப்பு: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
-			"value": "கuki கொள்கை — Mario Álvarez"
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
+			"value": "கூக்கies கொள்கை — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "இந்தத் தளம் எந்தக் kuki-களைப் பயன்படுத்துகிறது, என்ன நோக்கத்திற்காக, எந்த நேரத்திலும் உங்கள் ஒப்புதலை எவ்வாறு மாற்றுவது."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "சட்டம்"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "marioalvarez.me என்ன கூக்கies ஐப் பயன்படுத்துகிறது, எவற்றுக்கு உங்கள் அனுமதி தேவை மற்றும் எந்த நேரத்திலும் உங்கள் தேர்வை எவ்வாறு மாற்றுவது."
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
-			"value": "கuki கொள்கை"
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "கூக்கies கொள்கை"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "இந்த வலைத்தளம் அதன் முறையான செயல்பாட்டிற்காகவும், நீங்கள் ஒப்புதல் அளித்தால், உள்ளடக்கம் எவ்வாறு பயன்படுத்தப்படுகிறது என்பதை அநாமதேயமாகப் பகுப்பாய்வு செய்வதற்காகவும் kuki-கள் மற்றும் ஒத்த தொழில்நுட்பங்களைப் (உலாவி உள்ளூர் சேமிப்பகம் போன்றவை) பயன்படுத்துகிறது."
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "உங்கள் தேர்வு"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "பயன்படுத்தப்படும் kuki-கள்:"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "நீங்கள் எப்போது வேண்டுமானாலும் உங்கள் தரவை மாற்றலாம் அல்லது நீக்கலாம், நீங்கள் கொடுத்தது போலவே எளிது."
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "1. கூக்கies என்றால் என்ன மற்றும் எனக்கு உங்கள் அனுமதி தேவையா"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "கூக்கies மற்றும் ஒத்த தொழில்நுட்பங்கள் (உலாவி உள்ளூர் சேமிப்பகம் போன்றவை) உங்கள் சாதனத்தில் சிறிய தரவைச் சேமிக்கின்றன. LSSI-CE இன் பிரிவு 22.2 மற்றும் ஸ்பானிஷ் தரவு பாதுகாப்பு முகமையின் கூக்கies பயன்பாடு குறித்த வழிகாட்டுதலின்படி, நீங்கள் கோரும் ஒன்றுக்கு கண்டிப்பாக அவசியமானவற்றுக்கு அனுமதி தேவையில்லை; பகுப்பாய்விற்கானவற்றுக்குத் தேவை."
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "அதனால்தான் இந்த இணையதளம் நீங்கள் ஒப்புக்கொண்டால் மட்டுமே பகுப்பாய்வுக் கூக்கியைச் சேமிக்கிறது, மேலும் அதே திரையில், முன்பே குறிக்கப்பட்ட பெட்டிகள் இல்லாமல், இரண்டு சமமான பொத்தான்களுடன் ஏற்கவோ அல்லது நிராகரிக்கவோ உங்களை அனுமதிக்கிறது. அதை நிராகரிப்பது இணையதளத்தின் எதையும் பயன்படுத்துவதைத் தடுக்காது."
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "2. இந்த இணையதளம் பயன்படுத்தும் கூக்கies"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "பெயர்"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "நோக்கம்"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "எதற்காக"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "வகை"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "உங்கள் அனுமதி தேவையா?"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "கால அளவு"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "consentimiento_cookies"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "உங்கள் தேர்வு, இந்தக் கொள்கையின் பதி மற்றும் உங்கள் ஒப்புதல் பதிவின் புனைப்பெயர் அடையாளங்காட்டி ஆகியவற்றைச் சேமிக்க"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "இந்தக் kuki கொள்கை குறித்த உங்கள் தேர்வை நினைவில் கொள்ள"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "சொந்தமானது, தொழில்நுட்பமானது"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "சொந்தமானது, தொழில்நுட்பமானது (ஒப்புதலிலிருந்து விலக்கு அளிக்கப்பட்டது)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "இல்லை"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 மாதங்கள்"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "visitante_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "எந்தக் கூறுகள் பயனுள்ளதாக இருக்கின்றன என்பதை அறிய புனைப்பெயர் அடையாளங்காட்டி"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "உங்கள் வருகைகளைத் தொடர்புபடுத்தவும், எந்த உள்ளடக்கம் பயனுள்ளது என்பதை அறியவும் அநாமதேய அடையாளங்காட்டி"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "சொந்தமானது, பகுப்பாய்வு"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "சொந்தமானது, பகுப்பாய்வு சார்ந்தது (உங்கள் ஒப்புதல் தேவை)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "ஆம்"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 மாதங்கள்"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "இந்தக் kuki-களில் எதுவும் மூன்றாம் தரப்பு kuki அல்ல, விளம்பர நோக்கங்களுக்காக எவையும் பயன்படுத்தப்படுவதில்லை, மேலும் இந்தத் தளத்திற்கு வெளியே யாருடனும் எவையும் பகிரப்படுவதில்லை."
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "அடிக்குறிப்பில் உள்ள \"kuki-களை உள்ளமை\" என்ற இணைப்பிலிருந்து எந்த நேரத்திலும் உங்கள் முடிவை மாற்றலாம் அல்லது உங்கள் ஒப்புதலைத் திரும்பப் பெறலாம், மேலும் அதே பலகத்தில் உள்ள \"எனது தரவை நீக்கு\" பொத்தான் மூலம் உங்கள் எல்லா தரவையும் உடனடியாக நீக்கலாம்."
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "நீங்கள் ஒளி அல்லது இருண்ட கருப்பொருளை விரும்புகிறீர்களா என்பதை நினைவில் கொள்ள; நீங்கள் மாற்றினால் மட்டுமே சேமிக்கப்படும்"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "உங்கள் தரவு எவ்வாறு处理ப்படுகிறது என்பது பற்றிய கூடுதல் தகவலுக்கு, தனியுரிமைக் கொள்கையைப் பார்க்கவும்."
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "சொந்தமானது, உங்களால் கோரப்பட்ட தனிப்பயனாக்கம்"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "இல்லை"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "நீங்கள் அதை நீக்கும் வரை"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "3. இல்லாதவை"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "மூன்றாம் தரப்பு கூக்கies, விளம்பரங்கள், பதிக்கப்பட்ட சமூக வலைப்பின்னல் உள்ளடக்கம் அல்லது Google Analytics எதுவும் இல்லை. எழுத்துருக்கள் மற்றும் படங்கள் இந்த இணையதளத்திலிருந்தே வழங்கப்படுகின்றன."
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "4. எவ்வாறு மனம் மாற்றுவது"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "ஒவ்வொரு பக்கத்தின் அடிப்பகுதியிலும் உள்ள «கூக்கies ஐ உள்ளமை» என்பதிலிருந்தோ அல்லது இந்தப் பக்கத்தில் உள்ள பொத்தானைக் கொண்டோ எ 때 வேண்டுமானாலும் உங்கள் தேர்வை மாற்றலாம் அல்லது ஒப்புதலைத் திரும்பப் பெறலாம். அங்கிருந்து உங்கள் உலாவியுடன் தொடர்புடைய பகுப்பாய்வு தரவையும் உடனடியாக நீக்கலாம். மேலும் உங்கள் உலாவியின் அமைப்புகளிலிருந்து கூக்கies ஐ நீக்கலாம்."
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "5. உங்கள் தேர்வின் பதிவு"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "நீங்கள் ஒப்புக்கொள்ளும், நிராகரிக்கும் அல்லது ஒப்புதலைத் திரும்பப் பெறும் ஒவ்வொரு முறையும் ஒரு பதிவு சேமிக்கப்படும் (புனைப்பெயர் அடையாளங்காட்டி, முடிவு, இந்தக் கொள்கையின் பதிப்பு, தேதி மற்றும் நேரம், பக்கம், மொழி, தோற்றம் மற்றும் உலாவி), உங்கள் ஐபி முகவரி இல்லாமல், ஒப்புதல் செல்லுபடியாகும் என்பதை நிரூபிக்க முடியும். இது 3 ஆண்டுகள் சேமிக்கப்படுகிறது. தனியுரிமைக் கொள்கையில் கூடுதல் விவரங்கள்."
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "6. மாற்றங்கள்"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "இந்தக் கொள்கை கணிசமாக மாறினால், நீங்கள் மீண்டும் முடிவு செய்ய கூக்கies எச்சரிக்கை மீண்டும் தோன்றும்."
 		}
 	},
 	"politica-privacidad": {
@@ -759,6 +1191,262 @@
 		"secciones/7/bloques/0/texto": {
 			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
 			"value": "சட்ட மாற்றங்கள் அல்லது தளத்திற்கேற்ப இந்தக் கொள்கை புதுப்பிக்கப்படலாம்."
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "விதிமுறைகள் மற்றும் நிபந்தனைகள் — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "marioalvarez.me இன் சட்ட அறிவிப்பு மற்றும் பயன்பாட்டு நிபந்தனைகள்: உரிமையாளர் யார், தளத்தை எவ்வாறு பயன்படுத்தலாம் மற்றும் எந்த சட்டம் பொருந்தும்."
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "1. இந்த இணையதளத்திற்கு பின்னால் யார் இருக்கிறார்கள்"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "தகவல் சமூகம் மற்றும் மின்னணு வணிக சேவைகள் குறித்த (LSSI-CE) சட்டத்தின் 34/2002 இன் பிரிவு 10 இன் படி, marioalvarez.me இன் உரிமையாளரின் விவரங்கள் பின்வருமாறு:"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "உரிமையாளர்: {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "முகவரி: {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "மின்னஞ்சல்: {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "செயல்பாடு: தொழில்முறை போர்ட்ஃபோலியோ மற்றும் தரவு பகுப்பாய்வு சேவைகள், தனிப்பயன் கருவிகள், தரவுத்தளங்கள் மற்றும் அறிக்கைகள் மற்றும் தொழில் ஆதரவு."
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "2. இந்த விதிமுறைகள் எதை ஒழுங்குபடுத்துகின்றன"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "இந்த விதிமுறைகள் marioalvarez.me (இணையதளம்) இன் அணுகல் மற்றும் பயன்பாட்டை அதன் மொழிகளில் ஏதேனும் ஒன்றில் ஒழுங்குபடுத்துகின்றன. இதில் கூறப்பட்டுள்ளதன் படி இதைப் பயன்படுத்த ஒப்புக்கொள்கிறீர்கள். தொடர்பு படிவத்திலிருந்து நீங்கள் எனக்கு எழுதினால், ஒரு பெட்டியைத் தேர்ந்தெடுப்பதன் மூலம் அவற்றை வெளிப்படையாக ஏற்றுக்கொள்ளுமாறு கேட்டுக்கொள்கிறேன்."
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "3. இணையதளத்தை எவ்வாறு பயன்படுத்தலாம்"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "அதன் தோற்றத்தைக் குறிப்பிட்டு உள்ளடக்கங்களை நீங்கள் பார்த்து பகிரலாம். அனுமதிக்கப்படாதவை:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "இணையதளத்தை சட்டவிரோதமான நோக்கங்களுக்காகப் பயன்படுத்துவது அல்லது மூன்றாம் தரப்பினருக்கு தீங்கு விளைவிப்பது;"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "கட்டுப்படுத்தப்பட்ட பகுதிகளை (தனியார் குழு போன்றது) அல்லது அதை வழங்கும் அமைப்புகளை அணுக முயற்சிப்பது;"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "வைரஸ்கள் அல்லது தீங்கிழைக்கும் குறியீட்டை அறிமுகப்படுத்துவது, அல்லது வேண்டுமென்றே அதை ஓவர்லோட் செய்வது;"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "உள்ளடக்கங்களை உங்களுடையதாகக் காட்ட நகலெடுப்பது."
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "4. சேவைகள் மற்றும் ஒப்பந்தம்"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "இணையதளம் தயாரிப்புகளை விற்கவோ அல்லது ஆன்லைனில் கட்டணம் வசூலிக்கவோ இல்லை. உங்களுக்கு ஒரு சேவையில் ஆர்வம் இருந்தால், அதை மின்னஞ்சல் அல்லது தொலைபேசி மூலம் பேசுவோம், மேலும் நோக்கம், விலை, காலக்கெடு மற்றும் கட்டணம் மற்றும் ரத்து செய்யும் நிபந்தനைகளுடன் எழுத்துப்பூர்வ முன்மொழிவை உங்களுக்கு அனுப்புவேன். அந்த முன்மொழிவு, இருவராலும் ஏற்றுக்கொள்ளப்பட்டதும், சேவையை நிர்வகிக்கிறது மற்றும் இந்த விதிமுறைகளை விட மேலோங்கியது."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "ரத்துசெய்தல், திரும்பப் பெறும் உரிமை மற்றும் பணத்தைத் திரும்பப் பெறுதல் ஆகியவை எவ்வாறு செயல்படுகின்றன என்பது பணத்தைத் திரும்பப் பெறும் கொள்கையில் விளக்கப்பட்டுள்ளது."
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "5. அறிவுசார் மற்றும் தொழில்துறை சொத்து"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "Mario Álvarez இன் நூல்கள், வடிவமைப்பு, சொந்தக் குறியீடு, லோகோ மற்றும் புகைப்படங்கள் அவருடைய சொந்தமானவை அல்லது அவற்றின் ஆசிரியர்களின் அனுமதியுடன் பயன்படுத்தப்படுகின்றன. எழுத்துப்பூர்வ அனுமதியின்றி வணிக நோக்கங்களுக்காக அவற்றை மறுஉற்பத்தி செய்ய அனுமதிக்கப்படாது."
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "மூன்றாம் தரப்பினரின் பெயர்கள் மற்றும் லோகோக்கள் (LinkedIn, GitHub, Instagram அல்லது அனுபவத்தில் குறிப்பிடப்பட்டுள்ள குழுக்கள் மற்றும் நிறுவனங்கள் போன்றவை) அவற்றின் உரிமையாளர்களுக்கு சொந்தமானவை. அவற்றைக் குறிப்பிடுவது எந்தவொரு வணிக உறவையும் அல்லது ஸ்பான்சர்ஷிப்பையும் குறிக்காது, வெளிப்படையாகக் கூறப்பட்டால் தவிர."
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "இணையதளம் அனுமதிக்கும் உரிமைகளுடன் மூன்றாம் தரப்பு வளங்களைப் பயன்படுத்துகிறது: Fira Sans Extra Condensed மற்றும் Source Serif 4 (SIL Open Font License 1.1) எழுத்துருக்கள், Lucide (ISC உரிமம்) மற்றும் Simple Icons (CC0 1.0) சின்னங்கள் மற்றும் GSAP அனிமேஷன் நூலகம் (வெப்ஃப்ளோவின் நிலையான இலவச கிரீன்சாக் உரிமம்). GitHub இல் இணைக்கப்பட்ட ஒவ்வொரு திட்டத்திற்கும் அதன் சொந்த உரிமம் உள்ளது."
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "6. பொறுப்பு"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "தகவல் சரியாக இருக்கவும், இணையதளம் கிடைக்கப்பெறவும் நான் உழைக்கிறேன், ஆனால் பிழைகள் அல்லது குறுக்கீடுகள் இல்லை என்று என்னால் உத்தரவாதம் அளிக்க முடியாது. உள்ளடக்கங்கள் தகவல் நோக்கத்திற்கானது மற்றும் உங்கள் குறிப்பிட்ட வழக்கு குறித்த தொழில்முறை ஆலோசனைக்கு மாற்றாகாது."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "இணையதளம் மூன்றாம் தரப்பு தளங்களுடன் (சமூக வலைப்பின்னல்கள், களஞ்சியங்கள், திட்ட வலைப்பின்னல்கள்) இணைக்கப்பட்டுள்ளது. அவற்றின் உள்ளடக்கம் அல்லது கொள்கைகளை நான் கட்டுப்படுத்தவில்லை மற்றும் அவற்றுக்கு நான் பதிலளிக்க மாட்டேன்."
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "7. தனியுரிமை மற்றும் குக்கீகள்"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "உங்கள் தரவு எவ்வாறு处理 செய்யப்படுகிறது மற்றும் என்ன குக்கீகள் பயன்படுத்தப்படுகின்றன என்பது தனியுரிமைக் கொள்கை மற்றும் குக்கீ கொள்கையில் விளக்கப்பட்டுள்ளது. இதைப் பயன்படுத்த இணையதளத்தின் எந்தப் பகுதியும் உங்களை குக்கீகளை ஏற்றுக்கொள்ள கட்டாயப்படுத்துவதில்லை."
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "8. ஏற்றுக்கொள்ளும் பதிவு"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "தேவைப்படும் போது (RGPD இன் பிரிவு 7.1) ஒப்புதலை நிரூபிக்க, தொடர்பு படிவத்தில் இந்த விதிமுறைகளை ஏற்கும் போது அல்லது நீங்கள் அனுமதிக்கும் குக்கீகளைத் தேர்ந்தெடுக்கும் போது, ஒரு பதிவகம் சேமிக்கப்படுகிறது: ஒரு புனைப்பெயர் அடையாளங்காட்டி, நீங்கள் எதை ஏற்றுக் கொண்டீர்கள் அல்லது மறுத்தீர்கள், ஒவ்வொரு ஆவணத்தின் பதிப்பு, தேதி மற்றும் நேரம், நீங்கள் அதைச் செய்த பக்கம் மற்றும் மொழி, தோற்றம் (பேனர், உள்ளமைவு அல்லது படிவம்), உலாவி மற்றும், படிவத்தில், உங்கள் மின்னஞ்சலில் பயணிக்கும் குறிப்பு குறியீடு. உங்கள் ஐபி முகவரி சேமிக்கப்படவில்லை. விவரங்கள் தனியுரிமைக் கொள்கையில் உள்ளன."
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "9. மொழிகள்"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "இந்த நூல்களின் ஸ்பானிஷ் பதிப்பு அசல் பதிப்பாகும் மற்றும் சந்தேகம் ஏற்பட்டால் மேலோங்கும். மற்றவை வசதிக்காக வழங்கப்படும் தானியங்கி மொழிபெயர்ப்புகள்."
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "10. மாற்றங்கள்"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "சட்ட அல்லது இணையதள மாற்றங்களுக்கு ஏற்ப இந்த விதிமுறைகளைப் புதுப்பிக்கலாம். தற்போதைய பதிப்பின் தேதி இந்தப் பக்கத்தின் தொடக்கத்தில் தோன்றும். மாற்றம் பொருத்தமானதாக இருந்தால், அவற்றை மீண்டும் ஏற்றுக்கொள்ளும்படி கேட்பேன்."
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "11. பொருந்தக்கூடிய சட்டம் மற்றும் அதிகார வரம்பு"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "இந்த விதிமுறைகள் ஸ்பானிஷ் சட்டத்தால் நிர்வகிக்கப்படுகின்றன. நீங்கள் நுகர்வோராகச் செயல்பட்டால், உங்கள் முகவரியின் நீதிமன்றங்களுக்கும், உங்கள் தன்னாட்சிப் பகுதியின் நுகர்வோர் தகராறு தீர்க்கும் மற்றும் மத்தியஸ்த அமைப்புகளுக்கும் செல்லலாம். மற்ற சந்தர்ப்பங்களில், இரு தரப்பினரும் பெனிகாற்றம் (அலிகாண்டே) நீதிமன்றங்களை நாடுகிறார்கள்."
+		}
+	},
+	"politica-reembolso": {
+		"meta/title": {
+			"hash": "bdcfda545addeea0886ff82b66b64f5f56f91e39aa6afa93ede2e498fc231c44",
+			"value": "பணத்தைத் திரும்பப்பெறுதல் கொள்கை — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "5b9e6941811b24b85c7ab3f7fc2f74a6a41fe53d808ff533e8fca8d66fbbc4da",
+			"value": "Mario Álvarez இன் சேவைகளுக்கான ரத்துசெய்தல், விலகுவதற்கான உரிமை மற்றும் திரும்பப்பெறுதல் முறைகள் எவ்வாறு செயல்படுகின்றன."
+		},
+		"meta/heading": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "பணத்தைத் திரும்பப்பெறுதல் கொள்கை"
+		},
+		"secciones/0/titulo": {
+			"hash": "ff143d312f054ce7182b3caf2913fadf9053edbe7bbc5126c0500dbf9924dcde",
+			"value": "1. இந்தத் தளம் கட்டணங்களை வசூலிக்காது"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "14d92dd27a30ce3225cc0c90b70e3ebf5c3a8b786edbc2a8282dfefe97f97e3c",
+			"value": "marioalvarez.me இல் தயாரிப்புகள் எதுவும் விற்கப்படுவதில்லை மற்றும் ஆன்லைன் கட்டணங்களும் வசூலிக்கப்படுவதில்லை. சேவைகள் (செயல்திறன் பகுப்பாய்வு, தனிப்பயன் கருவிகள், தரவுத்தளங்கள் மற்றும் அறிக்கைகள் மற்றும் தொழில் ஆதரவு) தனித்தனியாக, எழுத்துப்பூர்வ முன்மொழிவுடன் ஒப்பந்தம் செய்யப்படுகின்றன."
+		},
+		"secciones/1/titulo": {
+			"hash": "50402d539cae16eba5d0c0bd8ed574497c5bedd07c9f76a6c54b995228b9d194",
+			"value": "2. உங்கள் முன்மொழிவு என்ன சொல்கிறதோ அது"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "dba3b38c35565ddc44e04919f2b2ca0f8953108a319093cee6475d431c6c77fa",
+			"value": "ஒவ்வொரு முன்மொழிவும் விலை, எப்போது மற்றும் எவ்வாறு செலுத்தப்படுகிறது மற்றும் ரத்துசெய்யும் நிபந்தனைகளைக் குறிக்கிறது. இந்தக் கொள்கையிலிருந்து முன்மொழிவு வேறுபட்டதைக் கூறினால், நுகர்வோர் என்ற முறையில் இந்தக் கொள்கை உங்களுக்கு அதிக உரிமைகளை வழங்கினால் தவிர, முன்மொழிவுதான் பொருந்தும்."
+		},
+		"secciones/2/titulo": {
+			"hash": "4da83f4f1afe5790834f743bdc1ca5eaabe6d4a85865798796e14a32c2912fae",
+			"value": "3. நீங்கள் ரத்துசெய்தால்"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "e9dd1fcdc7020f5821d857b0db902ad60b806b130178587e00206cc2379bcdc4",
+			"value": "எழுத்துப்பூர்வமாக வேறுவிதமாக ஒப்புக் கொள்ளப்பட்டால் தவிர:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "3d2e21613adc4a86859e877cf39529e9de64cfaecebc6ee4ac24c9b268fec07b",
+			"value": "வேலை தொடங்குவதற்கு முன்பு நீங்கள் ரத்துசெய்தால், முன்பணமாகச் செலுத்தப்பட்ட எந்தவொரு தொகையும் முழுமையாகத் திருப்பித் தரப்படும்."
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "f9b70232e9bfc004f82934930816cccba917692c2ed1ba56637d5a85f27eed9c",
+			"value": "வேலை தொடங்கிய நிலையில் நீங்கள் ரத்துசெய்தால், ஏற்கனவே செய்யப்பட்ட பகுதிக்கு மட்டுமே கட்டணம் வசூலிக்கப்படும் மற்றும் மீதமுள்ள முன்பணம் உங்களுக்குத் திருப்பித் தரப்படும்."
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "367ad099f56f6a5ddd4c394d2e66479d6a7421c518e28ede6dc88e5229f6bed8",
+			"value": "ஏற்கனவே வழங்கப்பட்ட மற்றும் ஏற்றுக்கொள்ளப்பட்ட வேலைக்கு பணத்தைத் திரும்பப்பெற முடியாது, அதில் திருத்தப்படாத குறைபாடுகள் இருந்தால் தவிர."
+		},
+		"secciones/3/titulo": {
+			"hash": "d7e3fed395f638f5604782dab666b621dd5f132a48b827e2fe042194881148cf",
+			"value": "4. விலகுவதற்கான உரிமை (நீங்கள் ஒரு நுகர்வோர் எனில்)"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "5e178abe0b325218fe10f437c89f7da3090cd74714a8a5c2adc1c35739b1804b",
+			"value": "நீங்கள் ஒரு நுகர்வோராக ஒப்பந்தம் செய்தால் (உங்கள் தொழில்முறை செயல்பாட்டிற்கு வெளியே செயல்படும் நபர்) மற்றும் ஒப்பந்தம் தொலைதூரத்தில், email அல்லது தொலைபேசி மூலம் மூடப்பட்டால், நுகர்வோர் மற்றும் பயனர்களின் பாதுகாப்பிற்கான பொதுச் சட்டத்தின் ஒருங்கிணைக்கப்பட்ட உரையின் 102 முதல் 108 வரையிலான கட்டுரைகளின்படி (Real Decreto Legislativo 1/2007), விளக்கங்கள் எதையும் தராமல் விலகுவதற்கு ஒப்பந்தம் மூடப்பட்ட நாளிலிருந்து 14 காலண்டர் நாட்கள் உங்களுக்கு உண்டு."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "f6ccce5a6cdfe56e4eb204d74e1064cfaaf14b0a6401d34d54943282934f4faa",
+			"value": "அந்த 14 நாட்களுக்குள் வேலையைத் தொடங்கும்படி நீங்கள் என்னிடம் வெளிப்படையாகக் கேட்டுவிட்டு பின்னர் விலகிக் கொண்டால், அந்த நேரத்தில் வழங்கப்பட்ட சேவைக்கான விகித விகிதாச்சாரப் பகுதியை மட்டுமே நீங்கள் செலுத்துவீர்கள். உங்கள் முந்தைய மற்றும் வெளிப்படையான ஒப்புதலுடன் மற்றும் இந்த உரிமையை நீங்கள் இழக்கிறீர்கள் என்பதைத் தெரிந்து கொண்டு, குறிப்பிட்ட காலக்கெடுவுக்குள் சேவை முழுமையாக நிறைவு செய்யப்பட்டிருந்தால், உங்களால் இனி விலக முடியாது (பிரிவு 103.a)."
+		},
+		"secciones/4/titulo": {
+			"hash": "a6b6f5e3070a156219fd0eb8a8485c11404e66c1db10f2be65a78ccea7dadb43",
+			"value": "5. அதைக் கேட்பது எப்படி"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "faffb4c0f6bdf1648e409afaf168c981f036d78cdc26c1f190944b92d95326c9",
+			"value": "உங்கள் பெயர், சேவை மற்றும் நீங்கள் அதை ஒப்பந்தம் செய்த தேதியுடன் {email} என்ற முகவரிக்கு எனக்கு எழுதவும். விலகுவதற்கான இந்த மாதிரி படிவத்தைப் நீங்கள் பயன்படுத்தலாம் (இது கட்டாயமில்லை):"
+		},
+		"secciones/4/bloques/1/items/0": {
+			"hash": "02f390f8ef61e6f8180ebd55d94bf24cd7742af44ba37433395550e7a2f7082f",
+			"value": "{nombre}, {domicilio}, {email} இன் கவனத்திற்கு:"
+		},
+		"secciones/4/bloques/1/items/1": {
+			"hash": "6705d14225a84c97d190c86895abdd4ae2b7b92e03befbd46052e9ac22718df4",
+			"value": "பின்வரும் சேவையை வழங்குவதற்கான எனது ஒப்பந்தத்திலிருந்து நான் விலகிக் கொள்கிறேன் என்பதை இதன் மூலம் உங்களுக்குத் தெரிவிக்கிறேன்: [servicio]."
+		},
+		"secciones/4/bloques/1/items/2": {
+			"hash": "b756f3bd6d0bb6e148c0d59d09dae258a0f664174766530bdc6f938f5592e68a",
+			"value": "ஒப்பந்தம் செய்யப்பட்ட தேதி: [fecha]."
+		},
+		"secciones/4/bloques/1/items/3": {
+			"hash": "a1e157dce89e05f90d3590bcbac310ee77465b68928d5123598551e40aea2db8",
+			"value": "நுகர்வோர் பெயர்: [nombre]."
+		},
+		"secciones/4/bloques/1/items/4": {
+			"hash": "6da3fe45c69b15e52be050ff970ab79ea26ee9b6bf0a7205d117978a159fdaff",
+			"value": "நுகர்வோர் முகவரி: [domicilio]."
+		},
+		"secciones/4/bloques/1/items/5": {
+			"hash": "7fc0956f32767e8a77ad2f5755c8e13cf040d910c328534129ef063dc106acf4",
+			"value": "தேதி: [fecha]."
+		},
+		"secciones/5/titulo": {
+			"hash": "4f7a4409f1709a01b1af2b1edf6e71d467f7e5a5f4e0ed8c74717a33964f5b40",
+			"value": "6. பணத்தைத் திரும்பப்பெறுவதற்கான காலக்கெடு மற்றும் முறை"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "e842a6745c96e277d063610a98f358f325d922b561595105917cc4d9b5c2c97c",
+			"value": "உங்கள் முடிவை நீங்கள் எனக்குத் தெரிவித்த நாளிலிருந்து அதிகபட்சம் 14 காலண்டர் நாட்களுக்குள் பொருந்தக்கூடிய தொகையை நான் உங்களுக்குத் திருப்பித் தருகிறேன், நாம் வேறுவிதமாக ஒப்புக்கொண்டால் தவிர, நீங்கள் பயன்படுத்திய அதே கட்டண முறையின் மூலம் திருப்பித் தரப்படும். பணத்தைத் திரும்பப்பெறுவதற்கு உங்களுக்கு எந்தக் செலவும் இல்லை."
 		}
 	}
 }

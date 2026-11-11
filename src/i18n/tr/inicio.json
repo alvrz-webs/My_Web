@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Spor alanında uzmanlaşmış Veri Bilimci",
-		"description": "Valensiya'da spor analitiği konusunda uzmanlaşmış veri bilimci Mario Álvarez. Data · Sport · Progress.",
+		"description": "Valencia'da spor analitiğinde uzmanlaşmış veri bilimci Mario Álvarez. İspanya madison şampiyonu ve RFEC sportif direktörü.",
 		"verProyectos": "Projeleri gör",
-		"contacto": "İletişim",
-		"verMas": "Daha fazla gör",
+		"verServicios": "Nasıl yardımcı olabileceğimi gör",
+		"contacto": "Bana yaz",
+		"verMas": "Devamını oku",
 		"verTodosProyectos": "Tüm projeleri gör",
-		"irAContacto": "İletişime geç",
+		"irAContacto": "Bana yaz",
 		"herramientas": "Ana araçlar"
 	},
 	"hero": {
-		"eyebrow": "Veri Bilimci · Spor Analitiği · Valensiya",
-		"titlePre": "Verileri ",
-		"titleHighlight": "net kararlara dönüştürüyorum",
-		"subtitle": "Veri analizi ile elit spor arasındaki köprüyüm: performans metriklerini sahada fark yaratan stratejilere dönüştürüyorum.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, veri bilimci",
+		"title": "Madison dalında İspanya şampiyonu oldum.",
+		"subtitle": "Şimdi UPV'de Veri Bilimi okuyorum ve performansın arkasındakileri analiz ediyorum: güç, yük ve sonuçlar. Bir sayının bir bisikletçi için ne ifade ettiğini biliyorum, çünkü o bisikletçi ben oldum.",
+		"palmaresLabel": "Başarılar",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "İspanya Madison Şampiyonası",
+				"nota": "Pist, 18 yaşında"
+			},
+			{
+				"pos": "6.",
+				"texto": "Dünya Pist Şampiyonası",
+				"nota": "İspanyol Millî Takımı"
+			},
+			{
+				"pos": "6.",
+				"texto": "Avrupa Pist Şampiyonası",
+				"nota": "İspanyol Millî Takımı"
+			}
+		],
+		"retratoAlt": "Mario Álvarez'in portresi"
+	},
+	"servicios": {
+		"title": "Sana nasıl yardımcı olabilirim",
+		"text": "Verileri olan ve bunlardan en iyi şekilde yararlanmak isteyen takımlar, antrenörler ve bisikletçilerle çalışıyorum. Ve kendi verilerini düzenlemesi gereken şirketlerle.",
+		"cta": "Durumunu anlat bana",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Performans analizi",
+				"texto": "Gücü, yükü ve sonuçları bir bisikletçinin gözleriyle okuyorum. Sana ne olduğunu ve neyin değişmesi gerektiğini açıklıyorum.",
+				"prueba": "Elit bisikletçi ve RFEC sportif direktörü, seviye I ve II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Özel araçlar",
+				"texto": "Takımının somut bir sorusunu yanıtlayan Python'da veri kazıma, modeller ve küçük uygulamalar.",
+				"prueba": "Cofidis takımı için iki araç: UCI zorluk derecesi ve yarış profili."
+			},
+			{
+				"id": "datos",
+				"nombre": "Veritabanları ve raporlar",
+				"texto": "Daha hızlı sorgular, birleştirilmiş veritabanları ve ilk bakışta anlaşılan Power BI kontrol panelleri.",
+				"prueba": "SIME Telecom'da optimize ettiğim veritabanında 580'den fazla tablo ve 100 milyon kayıt."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Yarış desteği",
+				"texto": "Yarış hazırlığı, bisikletçi takibi ve yarışmada spor masajı.",
+				"prueba": "Valensiya Topluluğu Millî Takımı teknik ekibi."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Hakkımda",
-		"title": "Pist, yol ve yarış bağlamında veriler",
-		"text": "Ben Mario Álvarez, UPV'de Veri Bilimi öğrencisiyim ve profesyonel bisiklet dünyasında gerçek deneyime sahibim. Her metriği sonucu iyileştiren bir karara dönüştürmek için veri analizini elit spor performansı ile birleştiriyorum."
+		"title": "Velodromdan verilere",
+		"text": "UPV'de Veri Bilimi Lisans 3. sınıf öğrencisiyim ve spora uygulanan dijitalleşme ve teknoloji alanında yüksek lisans tamamladım. Bisikletten kopmadım: pistte yarışmaya devam ediyorum, altyapıdaki bisikletçileri çalıştırıyorum ve profesyonellerle masör olarak çalışıyorum."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Üs",
+			"value": "Benidorm ve Valencia"
+		},
+		{
 			"label": "Eğitim",
-			"detail": "Veri Bilimi Lisans Derecesi, Universitat Politècnica de València."
+			"value": "Veri Bilimi Lisans (UPV) ve Sporda Dijitalleşme, İnovasyon ve Teknoloji Yüksek Lisansı"
 		},
 		{
-			"value": "Elit",
-			"label": "Deneyim",
-			"detail": "Profesyonel bir bisiklet takımında gerçek çalışma."
+			"label": "Unvanlar",
+			"value": "Sportif direktör RFEC, seviye I ve II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Yaklaşım",
-			"detail": "Spor performansının iyileştirilmesine uygulanan analitik."
+			"label": "Şimdi",
+			"value": "Veri ve performans projeleri için müsaitim"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Deneyim",
-		"title": "İki dünya, tek dil: performans",
-		"text": "En üst düzeyde yarıştıktan sonra bugün aynı kriteri verilere uyguluyorum: bir sayının bir sporcu için ne ifade ettiğini anlıyorum çünkü o sporcu ben oldum."
+		"title": "İki kulvar, tek iş",
+		"text": "Birinde veritabanlarını optimize ediyor ve modeller yazıyorum. Diğerinde yarışlar hazırlıyor ve bisikletçileri takip ediyorum. İkisi de aynı amaca hizmet ediyor: daha iyi karar vermek için doğru ölçüm yapmak.",
+		"carriles": [
+			{
+				"nombre": "Veriler",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "donanımı artırmadan birden fazla veritabanını tek bir veritabanında birleştirmek için SIME Telecom'da analiz edilen tablo"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "optimize ettiğim veritabanındaki kayıt"
+					},
+					{
+						"cifra": "2",
+						"texto": "Cofidis takımı için Python'daki araçlar: UCI zorluk derecesi ve yarış profili"
+					}
+				]
+			},
+			{
+				"nombre": "Pist ve yol",
+				"items": [
+					{
+						"cifra": "I ve II",
+						"texto": "İspanyol Bisiklet Federasyonu sportif direktörlük seviyeleri"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "babamla birlikte çalıştırdığım ve takip ettiğim altyapı bisikletçilerinin yaşı"
+					},
+					{
+						"cifra": "2026",
+						"texto": "müsabakada Valensiya Topluluğu Millî Takımı ile yardımcı personel"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Veriler hakkında konuşalım mı?",
-		"text": "Projenden bahset ve performansı iyileştiren kararların nerede olduğunu birlikte arayalım."
+		"title": "Son tur",
+		"text": "Performans verileriniz ve yanıtlanmamış sorularınız varsa bana yazın, birlikte inceleyelim."
 	}
 }

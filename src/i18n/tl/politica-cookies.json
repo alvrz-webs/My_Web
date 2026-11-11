@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Patakaran sa Cookies — Mario Álvarez",
-		"description": "Anong mga cookie ang ginagamit ng site na ito, para sa aling layunin at paano baguhin ang iyong pahintulot sa anumang oras.",
-		"eyebrow": "Legal",
-		"heading": "Patakaran sa Cookies"
+		"version": "2026-11-10",
+		"title": "Patakaran sa cookies — Mario Álvarez",
+		"description": "Ang mga cookies na ginagamit ng marioalvarez.me, kung alin ang nangangailangan ng iyong pahintulot, at kung paano baguhin ang iyong pinili anumang oras.",
+		"heading": "Patakaran sa cookies",
+		"eleccionTitulo": "Ang iyong pinili",
+		"eleccionTexto": "Maaari mong baguhin o tanggalin ang iyong data kailan mo gusto, kasingdali ng pagbibigay mo nito."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Ang website na ito ay gumagamit ng mga cookie at katulad na teknolohiya (tulad ng local storage ng browser) para sa wastong paggana nito at, kung ibibigay mo ang iyong pahintulot, upang suriin nang hindi nagpapakilala kung paano ginagamit ang nilalaman."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Mga ginamit na cookie:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Pangalan",
-				"Layunin",
-				"Uri",
-				"Tagal"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Tandaan ang iyong pinili tungkol sa patakaran ng cookie na ito",
-					"Sarili, teknikal (exempt sa pahintulot)",
-					"12 buwan"
-				],
-				[
-					"visitante_id",
-					"Hindi nagpapakilalang identifier upang maiugnay ang iyong mga pagbisita at malaman kung aling nilalaman ang kapaki-pakinabang",
-					"Sarili, analytika (nangangailangan ng iyong pahintulot)",
-					"12 buwan"
-				]
+			"titulo": "1. Ano ang mga ito at kung kailangan ko ang iyong pahintulot",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang mga cookies at katulad na teknolohiya (tulad ng local storage ng browser) ay nag-iimbak ng maliliit na data sa iyong aparato. Ayon sa artikulo 22.2 ng LSSI-CE at sa Gabay sa paggamit ng mga cookies ng Ahensya ng Espanya para sa Proteksyon ng Datos, ang mga mahigpit na kinakailangan para sa isang bagay na iyong hiniling ay hindi nangangailangan ng pahintulot; ang para sa pagsusuri, oo."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kaya naman ang web na ito ay nag-iimbak lamang ng cookie para sa pagsusuri kung tatanggapin mo ito, at hinahayaan kang tanggaping o tanggihan gamit ang dalawang magkatulad na pindutan, sa parehong screen at walang mga markang kahon nang maaga. Ang pagtanggi dito ay hindi nagiging hadlang sa paggamit ng anuman sa web."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Wala sa mga cookie na ito ang mula sa third-party, wala sa mga ito ang ginagamit para sa mga layunin ng advertising, at wala sa mga ito ang ibinabahagi sa sinuman sa labas ng site na ito."
+			"titulo": "2. Mga cookies na ginagamit ng web na ito",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Pangalan",
+						"Para saan",
+						"Uri",
+						"Kailangan ba ang iyong pahintulot?",
+						"Tagal"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"I-save ang iyong pinili, ang bersyon ng patakarang ito, at ang pseudonymous identifier ng iyong talaan ng pahintulot",
+							"Sarili, teknikal",
+							"Hindi",
+							"12 buwan"
+						],
+						[
+							"visitante_id",
+							"Pseudonymous identifier upang malaman kung aling mga nilalaman ang kapaki-pakinabang",
+							"Sarili, para sa pagsusuri",
+							"Oo",
+							"12 buwan"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Tandaan kung mas gusto mo ang maliwanag o madilim na tema; nakaimbak lamang ito kung babaguhin mo ito",
+							"Sarili, para sa pagpapasadya na hiniling mo",
+							"Hindi",
+							"Hanggang sa tanggalin mo ito"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Maaari mong baguhin ang iyong desisyon o bawiin ang iyong pahintulot sa anumang oras mula sa link na \"I-configure ang mga cookie\" sa footer, at agad na burahin ang lahat ng iyong data gamit ang button na \"Burahin ang aking data\" sa parehong panel."
+			"titulo": "3. Ang mga walangroon",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Walang mga cookie ng third-party, walang advertising, walang naka-embed na nilalaman mula sa social media, at walang Google Analytics. Ang mga font at larawan ay inihahatid mula sa mismong web na ito."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Para sa karagdagang impormasyon tungkol sa kung paano pinoproseso ang iyong data, tingnan ang Patakaran sa Pagkapribado."
+			"titulo": "4. Paano magbago ng isip",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Maaari mong baguhin ang iyong pinili o bawiin ang pahintulot kailan mo gusto mula sa «I-configure ang cookies», sa ibaba ng bawat pahina, o gamit ang pindutan sa pahinang ito. Mula doon maaari mo ring agad na tanggalin ang data ng pagsusuri na nauugnay sa iyong browser. At maaari mong tanggalin ang mga cookies mula sa mga setting ng iyong browser."
+				}
+			]
+		},
+		{
+			"titulo": "5. Talaan ng iyong pinili",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sa tuwing tinatanggap, tinatanggihan, o binabawi mo ang pahintulot, isang talaan ang iniimbak (pseudonymous identifier, desisyon, bersyon ng patakarang ito, petsa at oras, pahina, wika, pinagmulan, at browser), nang walang iyong IP address, upang mapatunayan na ang pahintulot ay may bisa. Ito ay itinatago sa loob ng 3 taon. Ang iba pang mga detalye ay nasa patakaran sa privacy."
+				}
+			]
+		},
+		{
+			"titulo": "6. Mga pagbabago",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kung ang patakarang ito ay magbabago nang malaki, ang abiso sa cookies ay lilitaw muli upang makapagpasya kang muli."
+				}
+			]
 		}
 	]
 }

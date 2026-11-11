@@ -3,7 +3,13 @@
 		"title": "Giới thiệu — Mario Álvarez",
 		"description": "Từ nhà vô địch madison Tây Ban Nha đến sinh viên Khoa học Dữ liệu: hành trình của Mario Álvarez giữa xe đạp đỉnh cao và phân tích thể thao.",
 		"eyebrow": "Giới thiệu",
-		"heading": "Từ velodrome đến dữ liệu"
+		"heading": "Từ velodrome đến dữ liệu",
+		"lead": "Tôi vẫn gắn bó với môn đua xe đạp, trên đường đua và trong xe của đội ngũ huấn luyện. Điều đã thay đổi là cách tôi nhìn nhận: giờ đây là cả với dữ liệu.",
+		"historiaTitulo": "Vận động viên, giám đốc thể thao và nhà khoa học dữ liệu",
+		"fichaTitulo": "Tóm tắt",
+		"fichaTexto": "Những điều cốt lõi, trong trường hợp bạn vội.",
+		"retratoAlt": "Chân dung Mario Álvarez",
+		"escenaFrase": "Đầu tiên là đôi chân. Bây giờ là dữ liệu."
 	},
 	"bio": [
 		"Tôi bắt đầu sự nghiệp thi đấu của mình. Năm 18 tuổi, tôi đăng quang vô địch giải madison trên đường đua Tây Ban Nha và đội tuyển xe đạp quốc gia Tây Ban Nha đã triệu tập tôi tham dự Giải vô địch thế giới và châu Âu, nơi tôi xếp thứ sáu ở cả hai giải, mang lại cho tôi trạng thái vận động viên ưu tú.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Cơ sở",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm và Valencia"
 		},
 		{
 			"label": "Trạng thái",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Trọng tâm",
-			"value": "Dữ liệu + hiệu suất thể thao"
+			"value": "Dữ liệu và hiệu suất thể thao"
 		},
 		{
 			"label": "Ngôn ngữ",
-			"value": "Tiếng Tây Ban Nha bản ngữ · Tiếng Valencia · Tiếng Anh B1"
+			"value": "Tiếng Tây Ban Nha (bản ngữ), tiếng Valencia và tiếng Anh (B1)"
 		},
 		{
 			"label": "Học vấn",
-			"value": "Cử nhân Khoa học Dữ liệu (UPV) · Thạc sĩ Số hóa, Đổi mới và Công nghệ trong Thể thao"
+			"value": "Cử nhân Khoa học Dữ liệu (UPV) và Thạc sĩ Số hóa, Đổi mới và Công nghệ trong Thể thao"
 		}
 	]
 }

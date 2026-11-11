@@ -3,7 +3,13 @@
 		"title": "Mengenai saya — Mario Álvarez",
 		"description": "Dari juara Sepanyol madison kepada pelajar Sains Data: perjalanan Mario Álvarez antara berbasikal elit dan analitik sukan.",
 		"eyebrow": "Mengenai saya",
-		"heading": "Dari velodrom kepada data"
+		"heading": "Dari velodrom kepada data",
+		"lead": "Saya masih terlibat dalam dunia berbasikal, di gelanggang dan dalam kereta pasukan. Apa yang telah berubah ialah cara saya melihatnya: kini juga dengan data.",
+		"historiaTitulo": "Pelumba, pengarah dan saintis data",
+		"fichaTitulo": "Secara ringkas",
+		"fichaTexto": "Perkara penting, sekiranya anda tergesa-gesa.",
+		"retratoAlt": "Potret Mario Álvarez",
+		"escenaFrase": "Pertama, kaki. Kini, data."
 	},
 	"bio": [
 		"Saya mula bersaing. Pada usia 18 tahun, saya dinobatkan sebagai juara Sepanyol untuk acara madison trek dan Pasukan Berbasikal Kebangsaan Sepanyol memanggil saya untuk Kejohanan Dunia dan Eropah, di mana saya menduduki tempat keenam dalam kedua-duanya, yang melayakkan saya mendapat status atlet elit.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Asas",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm dan Valencia"
 		},
 		{
 			"label": "Status",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fokus",
-			"value": "Data + prestasi sukan"
+			"value": "Data dan prestasi sukan"
 		},
 		{
 			"label": "Bahasa",
-			"value": "Sepanyol asli · Valencia · Bahasa Inggeris B1"
+			"value": "Bahasa Sepanyol (asli), Valencia dan Inggeris (B1)"
 		},
 		{
 			"label": "Pendidikan",
-			"value": "Ijazah Sarjana Muda Sains Data (UPV) · Sarjana dalam Pendigitalan, Inovasi dan Teknologi dalam Sukan"
+			"value": "Ijazah Sarjana Muda Sains Data (UPV) dan Sarjana Pendigitalan, Inovasi dan Teknologi dalam Sukan"
 		}
 	]
 }

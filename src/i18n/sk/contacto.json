@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Spojte sa s Mariom Álvarezom a porozprávajte sa o údajoch, športovom výkone a projektoch.",
 		"eyebrow": "Kontakt",
-		"heading": "Máte dáta a otázku, ktorú treba vyriešiť?",
-		"intro": "Poďme sa porozprávať. Či už ide o projekt športovej analitiky, dátovú spoluprácu alebo len nápad, ktorý si chcete overiť, rád vám odpoviem.",
+		"heading": "Máš dáta a otázku?",
+		"intro": "Poďme sa porozprávať. Či už ide o projekt športovej analytiky, dátovú spoluprácu alebo nápad, ktorý chceš prediskutovať, odpoviem ti ja.",
 		"email": "Email",
 		"telefono": "Telefón",
 		"verTelefono": "Zobraziť telefón",
-		"redesSociales": "Sociálne siete"
+		"redesSociales": "Sociálne siete",
+		"temaTitulo": "O čom sa chceš porozprávať?",
+		"temaAyuda": "Vyber si tému a pripravím ti e-mail. Stačí mi opísať tvoj prípad.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analýza výkonu"
+			},
+			{
+				"id": "herramientas",
+				"label": "Nástroj na mieru"
+			},
+			{
+				"id": "datos",
+				"label": "Databázy a reporty"
+			},
+			{
+				"id": "carrera",
+				"label": "Podpora v kariére"
+			},
+			{
+				"id": "otro",
+				"label": "Niečo iné"
+			}
+		],
+		"escribir": "Napísať e-mail",
+		"copiar": "Kopírovať e-mail",
+		"copiado": "E-mail skopírovaný",
+		"asunto": "Dopyt z marioalvarez.me",
+		"cuerpo": "Ahoj Mario:\n\nPíšem ti ohľadom: {tema}.\n\nTo, čo mám:\n\nTo, čo by som chcel vedieť:\n\nĎakujem.",
+		"otrosCanales": "Iné kanály",
+		"base": "Základňa",
+		"baseValor": "Benidorm a Valencia",
+		"idiomas": "Jazyky",
+		"idiomasValor": "Španielčina, valencijčina a angličtina",
+		"aceptacionesTitulo": "Predtým, ako mi napíšeš",
+		"aceptoTerminos": "Prečítal/-a som si a súhlasím s {enlace}.",
+		"enlaceTerminos": "obchodnými podmienkami",
+		"aceptoCookies": "Súhlasím s analytickými cookies, ktoré opisuje {enlace} (voliteľné).",
+		"enlaceCookies": "zásadami používania cookies",
+		"faltaTerminos": "Ak mi chceš napísať, najskôr zaškrtni políčko obchodných podmienok.",
+		"primeraCapa": "Prevádzkovateľ: Mario Álvarez Martínez. Účel: odpovedať na tvoj dopyt a, ak ma o to požiadaš, pripraviť ti ponuku. Právny základ: tvoja žiadosť. Príjemcovia: nikto, okrem zákonnej povinnosti. Práva: prístup, oprava, vymazanie a ďalšie, ktoré vysvetľuje {enlace}.",
+		"enlacePrivacidad": "zásadami ochrany osobných údajov",
+		"refEmail": "Referencia prijatia podmienok: {ref}"
 	}
 }

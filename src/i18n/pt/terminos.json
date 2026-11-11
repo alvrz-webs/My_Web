@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Termos e condições — Mario Álvarez",
+		"description": "Aviso legal e condições de uso de marioalvarez.me: quem é o titular, como a web pode ser usada e qual lei se aplica.",
+		"heading": "Termos e condições"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Quem está por trás desta web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Em cumprimento do artigo 10 da Lei 34/2002, de serviços da sociedade da informação e de comércio eletrónico (LSSI-CE), estes são os dados do titular de marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Titular: {nombre}",
+						"NIF: {nif}",
+						"Domicílio: {domicilio}",
+						"Email: {email}",
+						"Atividade: portfólio profissional e prestação de serviços de análise de dados, ferramentas à medida, bases de dados e relatórios e apoio de carreira."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. O que regulam estes termos",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Estes termos regulam o acesso e o uso de marioalvarez.me (a «web») em qualquer um dos seus idiomas. Ao navegar pela mesma, aceita usá-la em conformidade com o aqui disposto. Se me escrever a partir do formulário de contacto, peço-lhe que os aceite expressamente marcando uma caixa."
+				}
+			]
+		},
+		{
+			"titulo": "3. Como a web pode ser usada",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pode consultar e partilhar os conteúdos citando a sua origem. Não é permitido:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"usar a web para fins ilícitos ou que prejudiquem terceiros;",
+						"tentar aceder a zonas restritas (como o painel privado) ou aos sistemas que a alojam;",
+						"introduzir vírus ou qualquer código prejudicial, ou sobrecarregá-la de forma deliberada;",
+						"copiar os conteúdos para os apresentar como próprios."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Serviços e contratação",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A web não vende produtos nem cobra pagamentos online. Se estiver interessado num serviço, falamos por email ou por telefone e envio-lhe uma proposta por escrito com o âmbito, o preço, os prazos e as condições de pagamento e de cancelamento. Essa proposta, uma vez aceite por ambos, é a que rege o serviço e prevalece sobre estes termos."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Como funcionam os cancelamentos, o direito de livre resolução e as devoluções é explicado na política de reembolso."
+				}
+			]
+		},
+		{
+			"titulo": "5. Propriedade intelectual e industrial",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Os textos, o design, o código próprio, o logótipo e as fotografias de Mario Álvarez são da sua titularidade ou são usados com autorização dos seus autores. Não é permitido reproduzi-los para fins comerciais sem permissão por escrito."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Os nomes e logótipos de terceiros (como LinkedIn, GitHub, Instagram ou as equipas e entidades citadas na experiência) pertencem aos seus respetivos donos. Mencionar os mesmos não implica nenhuma relação comercial nem patrocínio, salvo indicação expressa em contrário."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "A web usa recursos de terceiros com licenças que o permitem: as tipografias Fira Sans Extra Condensed e Source Serif 4 (SIL Open Font License 1.1), os ícones de Lucide (licença ISC) e de Simple Icons (CC0 1.0) e a biblioteca de animação GSAP (licença standard gratuita de GreenSock, de Webflow). Cada projeto ligado no GitHub tem a sua própria licença."
+				}
+			]
+		},
+		{
+			"titulo": "6. Responsabilidade",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Trabalho para que a informação esteja correta e a web esteja disponível, mas não posso garantir que não existam erros ou interrupções. Os conteúdos são informativos e não substituem o aconselhamento profissional sobre o seu caso concreto."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "A web inclui links para sites de terceiros (redes sociais, repositórios, sites de projetos). Não controlo o seu conteúdo nem as suas políticas e não me responsabilizo pelos mesmos."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privacidade e cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A forma como os seus dados são tratados e que cookies são usados é explicada na política de privacidade e na política de cookies. Nenhuma parte da web o obriga a aceitar cookies para poder usá-la."
+				}
+			]
+		},
+		{
+			"titulo": "8. Registo de aceitações",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Para poder comprovar o consentimento quando necessário (artigo 7.1 do RGPD), quando aceita estes termos no formulário de contacto ou escolhe que cookies permite, é guardado um registo com: um identificador pseudónimo, o que aceitou ou recusou, a versão de cada documento, a data e a hora, a página e o idioma a partir dos quais o fez, a origem (banner, configuração ou formulário), o navegador e, no formulário, um código de referência que viaja no seu email. A sua morada IP não é guardada. Os detalhes encontram-se na política de privacidade."
+				}
+			]
+		},
+		{
+			"titulo": "9. Idiomas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A versão em espanhol destes textos é a original e prevalece em caso de dúvida. As restantes são traduções automáticas oferecidas por conveniência."
+				}
+			]
+		},
+		{
+			"titulo": "10. Alterações",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Posso atualizar estes termos para os adaptar a alterações legais ou da web. A data da versão em vigor aparece no início desta página. Se a alteração for relevante, voltarei a pedir-lhe que os aceite."
+				}
+			]
+		},
+		{
+			"titulo": "11. Lei aplicável e jurisdição",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Estes termos regem-se pela lei espanhola. Se agir como consumidor, pode recorrer aos tribunais do seu domicílio e aos sistemas de arbitragem e resolução de conflitos de consumo da sua comunidade autónoma. Nos restantes casos, ambas as partes submetem-se aos julgados e tribunais de Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

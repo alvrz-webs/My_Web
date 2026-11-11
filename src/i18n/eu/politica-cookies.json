@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Cookie Politika — Mario Álvarez",
-		"description": "Zein cookie erabiltzen dituen webgune honek, zer helbururekin eta nola aldatu dezakezun zure baimena edonoiz.",
-		"eyebrow": "Legezkoa",
-		"heading": "Cookie Politika"
+		"version": "2026-11-10",
+		"title": "Cookie politika — Mario Álvarez",
+		"description": "Zer cookie erabiltzen dituen marioalvarez.me-k, zeinek behar duten zure baimena eta nola aldatu dezakezun zure aukera edonoiz.",
+		"heading": "Cookie politika",
+		"eleccionTitulo": "Zure aukera",
+		"eleccionTexto": "Nahi duzunean aldatu edo ezaba ditzakezu zure datuak, eman zenuen bezain erraz."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Webgune honek cookieak eta antzeko teknologiak erabiltzen ditu (nabigatzailearen tokiko biltegiratzea, esaterako) behar bezala funtzionatzeko eta, baimena ematen baduzu, edukiak nola erabiltzen diren modu anonimoan aztertzeko."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Erabilitako cookieak:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Izena",
-				"Helburua",
-				"Mota",
-				"Iraupena"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Cookie politika honi buruzko zure aukeraketa gogoratzea",
-					"Berezkoa, teknikoa (baimenik gabekoa)",
-					"12 hilabete"
-				],
-				[
-					"visitante_id",
-					"Identifikatzaile anonimoa, zure bisitak erlazionatzeko eta zein eduki den erabilgarria jakiteko",
-					"Berezkoa, analitikoa (zure baimena behar du)",
-					"12 hilabete"
-				]
+			"titulo": "1. Zer diren eta nire baimena behar dudan ala ez",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookieek eta antzeko teknologiek (nabigatzailearen tokiko biltegiratzea kasu) datu txikiak gordetzen dituzte zure gailuan. LSSI-CEren 22.2 artikuluaren eta Espainiako Datu Babeserako Agentziaren Cookie-en erabilerari buruzko Gidaren arabera, zuk eskatutako zerbaitetarako zorrozki beharrezkoak direnek ez dute baimenik behar; analisikoek, berriz, bai."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Horregatik, webgune honek analisiko cookiea soilik gordetzen du onartzen baduzu, eta bi botoi berdinetan onartzea edo baztertzea uzten dizu, pantaila berean eta aldez aurretik markatutako koadrorik gabe. Hura baztertzeak ez dizu galarazten webguneko ezer erabiltzea."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Cookie horietako bat bera ere ez da hirugarrenenarena, ez da publizitate-helburuekin erabiltzen, eta ez zaio inori partekatzen gune honetatik kanpo."
+			"titulo": "2. Webgune honek erabiltzen dituen cookieak",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Izena",
+						"Zertarako",
+						"Mota",
+						"Zure baimena behar al du?",
+						"Iraupena"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Zure aukera, politika honen bertsioa eta zure baimen-erregistroaren identifikatzaile pseudonimoa gordetzea",
+							"Berezkoa, teknikoa",
+							"Ez",
+							"12 hilabete"
+						],
+						[
+							"visitante_id",
+							"Zer eduki diren erabilgarriak jakiteko identifikatzaile pseudonimoa",
+							"Berezkoa, analisikoa",
+							"Bai",
+							"12 hilabete"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Gai argia edo iluna nahiago duzun gogoratzea; aldatzen baduzu soilik gordetzen da",
+							"Berezkoa, zuk eskatutako pertsonalizaziokoa",
+							"Ez",
+							"Ezabatzen duzun arte"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Zure erabakia aldatu edo baimena edonoiz ken dezakezu orriaren oineko \"Konfiguratu cookieak\" estekaren bidez, eta zure datu guztiak berehala ezabatu panel bereko \"Ezabatu nire datuak\" botoiarekin."
+			"titulo": "3. Ez dagoena",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ez dago hirugarrenen cookierik, ez publizitaterik, ez txertatutako sare sozialetako edukirik, ezta Google Analytics ere. Tipografiak eta irudiak webgune honetatik bertatik zerbitzatzen dira."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Zure datuak nola tratatzen diren jakiteko informazio gehiago lortzeko, ikusi Pribatutasun Politika."
+			"titulo": "4. Iritzia nola aldatu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Zure aukera aldatu edo baimena edonoiz ken dezakezu orri bakoitzaren oinean dagoen «Konfiguratu cookieak» ataletik, edo orrialde honetako botoiarekin. Hortik aurrera, zure nabigatzaileari lotutako analisi-datuak ere berehala ezaba ditzakezu. Eta cookieak zure nabigatzailearen konfiguraziotik ezaba ditzakezu."
+				}
+			]
+		},
+		{
+			"titulo": "5. Zure aukeraren erregistroa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Baimena onartzen, baztertzen edo atzera botatzen duzun bakoitzean erregistro bat gordetzen da (identifikatzaile pseudonimoa, erabakia, politika honen bertsioa, data eta ordua, orria, hizkuntza, jatorria eta nabigatzailea), zure IP helbiderik gabe, baimena baliozkoa izan zela frogatu ahal izateko. 3 urtez gordetzen da. Xehetasun gehiago pribatutasun-politikan."
+				}
+			]
+		},
+		{
+			"titulo": "6. Aldaketak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Politika hau modu garrantzitsuan aldatzen bada, cookie-en oharra berriro agertuko da berriro erabaki dezazun."
+				}
+			]
 		}
 	]
 }

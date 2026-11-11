@@ -3,11 +3,54 @@
 		"title": "እውቂያ — Mario Álvarez",
 		"description": "ለዳታ፣ ለስፖርት አፈጻጸም እና ለፕሮጀክቶች ከMario Álvarez ጋር ይነጋገሩ።",
 		"eyebrow": "እውቂያ",
-		"heading": "ዳታ አለዎት እና ሊፈቱት የሚፈልጉት ጥያቄ?",
-		"intro": "እንነጋገር። የስፖርት analítica ፕሮጀክትም ይሁን፣ የዳታ ትብብር ወይም በቀላሉ ሊያነጻጽሩት የሚፈልጉት ሃሳብ፣ በደስታ እመልሳለሁ።",
+		"heading": "መረጃ እና ጥያቄ አለህ?",
+		"intro": "እንነጋገር። የስፖርት ትንታኔ ፕሮጀክት ይሁን፣ የመረጃ ትብብር ወይም ማስተካከል የሚፈልጉት ሃሳብ፣ እኔው እመልስልዎታለሁ።",
 		"email": "ኢሜይል",
 		"telefono": "ስልክ",
 		"verTelefono": "ስልክ ቁጥር አሳይ",
-		"redesSociales": "ማህበራዊ ሚዲያዎች"
+		"redesSociales": "ማህበራዊ ሚዲያዎች",
+		"temaTitulo": "ስለ ምን ማውራት ይፈልጋሉ?",
+		"temaAyuda": "አንድ ርዕስ ይምረጡ እና ኢሜል እዘጋጅልዎታለሁ። የእርስዎን ጉዳይ መንገር ብቻ ነው።",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "የአፈጻጸም ትንተና"
+			},
+			{
+				"id": "herramientas",
+				"label": "ብጁ መሣሪያ"
+			},
+			{
+				"id": "datos",
+				"label": "የውሂብ ጎታዎች እና ሪፖርቶች"
+			},
+			{
+				"id": "carrera",
+				"label": "የሙያ ድጋፍ"
+			},
+			{
+				"id": "otro",
+				"label": "ሌላ ነገር"
+			}
+		],
+		"escribir": "ኢሜል ጻፍ",
+		"copiar": "ኢሜል ቅዳ",
+		"copiado": "ኢሜል ተገልብጧል",
+		"asunto": "Consulta desde marioalvarez.me",
+		"cuerpo": "ሰላም ማሪዮ፡\n\nእጽፍልዎታለሁ ስለ፡ {tema}።\n\n ያለኝ ነገር፡\n\n ማወቅ የምፈልገው፡\n\n አመሰግናለሁ።",
+		"otrosCanales": "ሌሎች ቻናሎች",
+		"base": "መሠረት",
+		"baseValor": "Benidorm y Valencia",
+		"idiomas": "ቋንቋዎች",
+		"idiomasValor": "Español, valenciano e inglés",
+		"aceptacionesTitulo": "ከመጻፍዎ በፊት",
+		"aceptoTerminos": "አንብቤዋለሁ እና ተስማምቻለሁ {enlace}።",
+		"enlaceTerminos": "ውሎች እና ሁኔታዎች",
+		"aceptoCookies": "በ {enlace} ውስጥ የተገለጹትን የትንታኔ ኩኪዎች ተቀብያለሁ (አማራጭ)።",
+		"enlaceCookies": "የኩኪዎች ፖሊሲ",
+		"faltaTerminos": "ለእኔ ለመጻፍ፣ እባክዎ መጀመሪያ የውሎችን እና ሁኔታዎችን ሳጥን ምልክት ያድርጉበት።",
+		"primeraCapa": "ኃላፊ፡ Mario Álvarez Martínez. ዓላማ፡ ጥያቄዎን ለመመለስ እና፣ ከጠየቁኝ፣ ሀሳብ ለማዘጋጀት። ህጋዊነት፡ ጥያቄዎ። ተቀባዮች፡ ማንም የለም፣ በህጋዊ ግዴታ ካልሆነ በስተቀር። መብቶች፡ መዳረሻ፣ ማስተካከያ፣ መሰረዝ እና በ {enlace} ውስጥ የተገለጹት ሌሎች።",
+		"enlacePrivacidad": "የግላዊነት ፖሊሲ",
+		"refEmail": "የውሎች ተቀባይነት ማጣቀሻ፡ {ref}"
 	}
 }

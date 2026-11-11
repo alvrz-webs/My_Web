@@ -4,13 +4,28 @@
 		"description": "Dois mundos, a mesma linguagem: o desempenho. Experiência de Mario Álvarez em dados e engenharia, e no ciclismo de elite.",
 		"eyebrow": "Experiência",
 		"heading": "Dois mundos, a mesma linguagem: o desempenho",
-		"colDatos": "Dados & Tecnologia",
+		"lead": "Numa base de dados ou no carro da equipa, o trabalho é o mesmo: medir bem para decidir melhor.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "registos na base que otimizo na SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "ferramentas em Python para a equipa Cofidis"
+			},
+			{
+				"cifra": "6º",
+				"texto": "no Mundial e no Europeu de pista"
+			}
+		],
+		"colDatos": "Dados e tecnologia",
 		"colDeporte": "Desporto de elite"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Estágio de Ciência de Dados",
-			"meta": "Engenharia de Dados · Benidorm · 2026",
+			"meta": "Engenharia de dados, Benidorm, 2026",
 			"paragraphs": [
 				"A SIME desenvolve software de gestão (reservas, faturação, relatórios, pedidos de restauração) que serve centenas de clientes a partir de um sistema central, sobre uma base de dados de +580 tabelas interconectadas e +100 milhões de registos. O crescimento tinha obrigado a repartir clientes em várias bases para aliviar a carga e as queixas de lentidão.",
 				"O meu trabalho: analisar essas bases e, através da otimização de consultas e índices, desenhar a unificação de todos os dados numa única base eficiente sem quase escalar o hardware (RAM/CPU). Melhoria já desenvolvida, em fase de validação num servidor de testes."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projetos com a equipa Cofidis (World Tour)",
-			"meta": "Python · Verão 2025",
+			"meta": "Python, verão 2025",
 			"paragraphs": [
 				"Projeto próprio que realizei como teste para aceder à análise de dados no ciclismo profissional:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Competição",
 			"paragraphs": [
 				"Campeão de Espanha de madison (18 anos); Mundial e Europeu de pista com a Seleção Espanhola (6º em ambos); desportista de elite; ciclista de pista federado, no ativo."
-			]
+			],
+			"meta": "Ciclismo de pista, Seleção Espanhola"
 		},
 		{
 			"title": "Direção desportiva",
 			"paragraphs": [
 				"Diretor Desportivo Nível I e II (RFEC); formação e acompanhamento de ciclistas de base (14–18) juntamente com o meu pai; auxiliar com a Seleção da Comunidade Valenciana em competições (2026)."
-			]
+			],
+			"meta": "RFEC, níveis I e II"
 		},
 		{
 			"title": "Quiromassagem e staff técnico",

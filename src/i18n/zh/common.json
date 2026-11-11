@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "首页",
 		"sobreMi": "关于我",
 		"proyectos": "项目",
 		"experiencia": "工作经验",
@@ -7,10 +8,22 @@
 		"ariaMain": "主导航",
 		"openMenu": "打开菜单"
 	},
+	"saltar": "跳转到内容",
+	"tema": "切换亮色和暗色模式",
+	"telefono": "电话",
 	"footer": {
-		"tagline": "数据 · 体育 · 进阶",
+		"tagline": "西班牙麦迪逊赛冠军。数据科学家。",
+		"disponible": "可承接数据与运动表现项目。",
+		"escribeme": "写信给我",
+		"navLabel": "部分",
+		"legalLabel": "法律",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "社交媒体"
+	},
+	"cierre": {
+		"title": "聊聊？",
+		"text": "如果您有运动表现数据和未解答的问题，请写信给我，我们一起来看看。",
+		"cta": "写信给我"
 	},
 	"langSwitch": {
 		"label": "更改语言",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Cookie 同意"
 	},
 	"legal": {
+		"terminos": "条款与条件",
 		"privacidad": "隐私政策",
-		"cookies": "Cookie 政策"
+		"cookies": "Cookie 政策",
+		"reembolso": "退款政策",
+		"actualizado": "最后更新",
+		"indice": "在本页中",
+		"otros": "其他文档"
 	},
 	"person": {
 		"jobTitle": "数据科学家",
 		"description": "专注于体育分析的数据科学家，拥有职业自行车领域的经验。"
+	},
+	"pizarra": {
+		"vueltas": "圈",
+		"campana": "最后"
 	}
 }

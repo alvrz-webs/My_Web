@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Política de Privacidade — Mario Álvarez",
-		"description": "Política de privacidade do site de Mario Álvarez: que dados são recolhidos, com que finalidade e como exercer os seus direitos.",
-		"eyebrow": "Legal",
-		"heading": "Política de Privacidade"
+		"version": "2026-11-10",
+		"title": "Política de privacidade — Mario Álvarez",
+		"description": "Que dados a marioalvarez.me trata, para quê, com que base legal, durante quanto tempo e como exercer os seus direitos.",
+		"heading": "Política de privacidade"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Responsável pelo tratamento",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, com domicílio em Benidorm (Alicante), Espanha. Contato: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Finalidade do tratamento",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Este site analisa de forma interna e para fins exclusivamente estatísticos quais conteúdos (seções, projetos) são mais úteis para quem o visita, com o objetivo de melhorar o seu conteúdo. Não é utilizado para fins publicitários, não é partilhado com terceiros e não é vendido sob nenhuma circunstância."
-				}
-			]
-		},
-		{
-			"titulo": "3. Dados que são recolhidos (apenas se aceitar os cookies analíticos)",
+			"titulo": "1. Responsável",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Um identificador anónimo aleatório, não associado ao seu nome, email nem a nenhuma outra informação que o identifique diretamente.",
-						"Páginas e projetos que visita, e o tempo de atenção em cada um (enquanto o separador está ativo).",
-						"Interações (cliques em projetos, links ou botões).",
-						"Data e hora da visita.",
-						"Idioma do site consultado.",
-						"Tipo de dispositivo (telemóvel ou computador).",
-						"País aproximado, obtido através da infraestrutura de Cloudflare, sem armazenar o seu endereço IP.",
-						"Página de origem (por exemplo, LinkedIn ou um motor de busca)."
+						"Responsável: {nombre}",
+						"NIF: {nif}",
+						"Morada: {domicilio}",
+						"Email para qualquer questão de privacidade: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Não é recolhido o seu endereço IP, não são utilizadas técnicas de identificação do navegador (fingerprinting), nem ferramentas de terceiros como Google Analytics ou semelhantes."
+					"texto": "Devido ao tamanho e ao tipo de atividade, não é obrigatório nomear um encarregado de proteção de dados, por isso não existe: escreva-me diretamente a mim."
 				}
 			]
 		},
 		{
-			"titulo": "4. Base legal",
+			"titulo": "2. Que dados trato, para quê e porquê",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "O tratamento baseia-se no seu consentimento explícito (artigo 6.1.a do RGPD), que pode retirar a qualquer momento a partir do gestor de cookies do próprio site."
+					"tipo": "tabla",
+					"columnas": [
+						"Para quê",
+						"Que dados",
+						"Base legal",
+						"Quanto tempo"
+					],
+					"filas": [
+						[
+							"Análise de utilização, apenas se aceitar os cookies de análise",
+							"Um identificador pseudónimo aleatório (cookie visitante_id), as secções e projetos que vê e o tempo em cada um, os cliques em ligações e botões, o idioma, o tipo de dispositivo (telemóvel ou computador), o país aproximado e a página da web onde ocorre cada evento.",
+							"O seu consentimento (art. 6.1.a RGPD e art. 22.2 LSSI-CE).",
+							"12 meses; depois, cada evento é eliminado automaticamente."
+						],
+						[
+							"Registo de consentimentos",
+							"O identificador pseudónimo, o que aceitou, recusou ou retirou, a versão de cada documento, a data e a hora, a página, o idioma, a origem (banner, configuração ou formulário), o navegador (agente de utilizador) e o país aproximado; no formulário, além disso, o código de referência do seu email.",
+							"Cumprir a obrigação de poder demonstrar o consentimento (arts. 6.1.c e 7.1 RGPD).",
+							"3 anos a contar de cada registo (o prazo máximo de prescrição das infrações da LOPDGDD); depois, é eliminado automaticamente."
+						],
+						[
+							"Responder à sua consulta por email ou telefone",
+							"Os dados que decidir enviar-me: normalmente o seu nome, o seu email ou telefone e o conteúdo da mensagem.",
+							"Aplicar medidas pré-contratuais a seu pedido (art. 6.1.b RGPD) ou o meu interesse legítimo em responder-lhe (art. 6.1.f).",
+							"Enquanto durar a conversa e até 1 ano depois, a menos que venhamos a celebrar um contrato."
+						],
+						[
+							"Gerir um serviço contratado",
+							"Dados de identificação, contacto e faturação.",
+							"Execução do contrato (art. 6.1.b RGPD) e obrigações fiscais e contabilísticas (art. 6.1.c).",
+							"O que as leis fiscais e comerciais exigirem (em geral, entre 4 e 6 anos)."
+						],
+						[
+							"Lembrar se prefere o tema claro ou escuro",
+							"A preferência «tema», guardada apenas no seu navegador (armazenamento local). Não chega até mim.",
+							"Uma função que pede ao premir o botão (isenta de consentimento de acordo com o art. 22.2 LSSI-CE).",
+							"Até que a elimine do seu navegador."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Prazo de conservação",
+			"titulo": "3. O que não peço nem recolho",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Os dados são conservados por um máximo de 12 meses desde a sua última visita, após os quais são eliminados automaticamente."
+					"texto": "Trato apenas o imprescindível para cada finalidade. Em concreto:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"O formulário de contacto não pede o seu nome, o seu email nem o seu telefone: abre o seu programa de correio e é você que decide o que me envia.",
+						"Não guardo o seu endereço IP nem na análise nem no registo de consentimentos.",
+						"Não uso técnicas de identificação do navegador (fingerprinting), Google Analytics, píxeis publicitários nem cookies de terceiros.",
+						"As tipografias e as imagens são servidas a partir desta mesma web: ao visitá-la, o seu navegador não se liga ao Google Fonts, ao GitHub nem a outros serviços externos."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Destinatários e transferências internacionais",
+			"titulo": "4. Quem mais intervém",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Os dados não são cedidos nem vendidos a terceiros. São armazenados em Cloudflare D1, um serviço de base de dados fornecido por Cloudflare, Inc., que atua como encarregado do tratamento. Cloudflare pode processar dados fora do Espaço Económico Europeu; nesse caso, essa transferência baseia-se nas Cláusulas Contratuais Tipo aprovadas pela Comissão Europeia. Mais informação na política de privacidade de Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Não vendo nem cedo os seus dados a ninguém, salvo obrigação legal. Para que a web funcione e para lhe responder, uso estes fornecedores:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: aloja a web e a base de dados (Cloudflare Pages e D1) e atua como subcontratante. Para servir a web, processa dados técnicos de ligação, como o seu IP, aos quais não tenho acesso. A sua política: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): o serviço de correio onde recebo e respondo aos emails; trata essas mensagens de acordo com a sua própria política: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Os seus direitos",
+			"titulo": "5. Transferências internacionais",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Pode exercer a qualquer momento os seus direitos de acesso, retificação, eliminação, oposição, limitação do tratamento e portabilidade escrevendo para malvmar5@hotmail.com. Além disso, pode apagar os dados de forma imediata, sem necessidade de escrever a ninguém, a partir do botão \"Apagar os meus dados\" disponível nas definições de cookies do site. Também tem o direito de apresentar uma reclamação perante a autoridade de proteção de dados competente se considerar que os seus direitos não foram atendidos corretamente."
+					"texto": "A Cloudflare e a Microsoft podem tratar dados nos Estados Unidos. Ambas aderiram ao Quadro de Privacidade de Dados UE-EUA (decisão de adequação da Comissão Europeia de 10 de julho de 2023) e oferecem também as cláusulas contratuais-tipo aprovadas pela Comissão."
 				}
 			]
 		},
 		{
-			"titulo": "8. Alterações nesta política",
+			"titulo": "6. Os seus direitos",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Esta política pode ser atualizada para se adaptar a alterações legais ou do próprio site."
+					"texto": "Pode pedir-me a qualquer momento para aceder aos seus dados, retificá-los, eliminá-los, opor-se ao seu tratamento, limitá-lo ou recebê-los para os levar para outro sítio (portabilidade), e retirar o seu consentimento sem que isso afete o que foi tratado anteriormente. Escreva-me para {email}; responder-lhe-ei num prazo máximo de um mês."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Os dados de análise pode eliminá-los você mesmo instantaneamente com o botão «Apagar os meus dados» nas definições de cookies. O registo de consentimentos é conservado mesmo que retire o consentimento, porque serve precisamente para comprovar quando o deu e quando o retirou."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Se acha que não atendi devidamente os seus direitos, pode reclamar junto da Agência Espanhola de Proteção de Dados: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Menores",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A web não se dirige a menores de 14 anos. Se tiver menos de 14 anos, não me envie dados pessoais sem a autorização dos seus pais ou tutores (art. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Segurança",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Os dados viajam encriptados (HTTPS) e são guardados numa base de dados a que só se acede a partir do painel privado, protegido com utilizador e palavra-passe."
+				}
+			]
+		},
+		{
+			"titulo": "9. Alterações a esta política",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Se algo relevante mudar, atualizarei esta página e a respetiva data de versão. Se a alteração afetar os cookies, ser-lhe-á colocado novamente a questão."
 				}
 			]
 		}

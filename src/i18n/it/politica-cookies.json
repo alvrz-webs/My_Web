@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Informativa sui Cookie — Mario Álvarez",
-		"description": "Quali cookie utilizza questo sito, con quale scopo e come modificare il tuo consenso in qualsiasi momento.",
-		"eyebrow": "Legale",
-		"heading": "Informativa sui Cookie"
+		"version": "2026-11-10",
+		"title": "Informativa sui cookie — Mario Álvarez",
+		"description": "Quali cookie utilizza marioalvarez.me, quali richiedono il tuo permesso e come modificare la tua scelta in qualsiasi momento.",
+		"heading": "Informativa sui cookie",
+		"eleccionTitulo": "La tua scelta",
+		"eleccionTexto": "Puoi modificarla o cancellare i tuoi dati quando vuoi, con la stessa facilità con cui li hai concessi."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Questo sito Web utilizza cookie e tecnologie simili (come la memorizzazione locale del browser) per il suo corretto funzionamento e, se dai il tuo consenso, per analizzare in modo anonimo come viene utilizzato il contenuto."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Cookie utilizzati:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nome",
-				"Scopo",
-				"Tipo",
-				"Durata"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Memorizzare la tua scelta relativa a questa informativa sui cookie",
-					"Proprio, tecnico (esente da consenso)",
-					"12 mesi"
-				],
-				[
-					"visitante_id",
-					"Identificatore anonimo per mettere in relazione le tue visite e sapere quale contenuto risulta utile",
-					"Proprio, analitico (richiede il tuo consenso)",
-					"12 mesi"
-				]
+			"titulo": "1. Cosa sono e se ho bisogno del tuo permesso",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I cookie e tecnologie simili (come la memorizzazione locale del browser) salvano piccoli dati sul tuo dispositivo. Ai sensi dell'articolo 22.2 della LSSI-CE e della Guida sull'uso dei cookie dell'Agenzia Spagnola per la Protezione dei Dati, quelli strettamente necessari per qualcosa che richiedi tu non richiedono consenso; quelli di analisi, sì."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Per questo motivo questo sito web salva il cookie di analisi solo se lo accetti, e ti permette di accettare o rifiutare con due pulsanti uguali, nella stessa schermata e senza caselle predefinite. Rifiutarlo non ti impedisce di utilizzare alcuna parte del sito web."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Nessuno di questi cookie è di terze parti, nessuno viene utilizzato per scopi pubblicitari e nessuno viene condiviso con nessuno al di fuori di questo sito."
+			"titulo": "2. Cookie utilizzati da questo sito web",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nome",
+						"A cosa serve",
+						"Tipo",
+						"Richiede il tuo permesso?",
+						"Durata"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Salvare la tua scelta, la versione di questa informativa e l'identificativo pseudonimo del tuo registro di consenso",
+							"Proprio, tecnico",
+							"No",
+							"12 mesi"
+						],
+						[
+							"visitante_id",
+							"Identificativo pseudonimo per sapere quali contenuti risultano utili",
+							"Proprio, di analisi",
+							"Sì",
+							"12 mesi"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Ricordare se preferisci il tema chiaro o scuro; viene salvato solo se lo modifichi",
+							"Proprio, di personalizzazione richiesta da te",
+							"No",
+							"Fino a quando non lo cancelli"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Puoi cambiare la tua decisione o revocare il tuo consenso in qualsiasi momento dal link \"Configura cookie\" nel piè di pagina, ed eliminare immediatamente tutti i tuoi dati con il pulsante \"Elimina i miei dati\" nello stesso pannello."
+			"titulo": "3. Ciò che non c'è",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Non ci sono cookie di terze parti, né pubblicità, né contenuti di social network incorporati, né Google Analytics. I font e le immagini sono serviti direttamente da questo sito web."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Per ulteriori informazioni su come vengono trattati i tuoi dati, consulta l'Informativa sulla Privacy."
+			"titulo": "4. Come cambiare idea",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Puoi cambiare la tua scelta o revocare il consenso quando vuoi da «Configura i cookie», nel footer di ogni pagina, o con il pulsante di questa pagina. Da lì puoi anche cancellare immediatamente i dati di analisi associati al tuo browser. E puoi cancellare i cookie dalle impostazioni del tuo browser."
+				}
+			]
+		},
+		{
+			"titulo": "5. Registro della tua scelta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ogni volta che accetti, rifiuti o revochi il consenso, viene salvato un registro (identificativo pseudonimo, decisione, versione di questa informativa, data e ora, pagina, lingua, origine e browser), senza il tuo indirizzo IP, per poter dimostrare che il consenso era valido. Viene conservato per 3 anni. Maggiori dettagli nell'informativa sulla privacy."
+				}
+			]
+		},
+		{
+			"titulo": "6. Modifiche",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Se questa informativa cambia in modo rilevante, l'avviso sui cookie comparirà nuovamente affinché tu possa decidere di nuovo."
+				}
+			]
 		}
 	]
 }

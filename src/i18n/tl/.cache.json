@@ -46,10 +46,6 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "Buksan ang menu"
 		},
-		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
-		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
 			"value": "Mario Álvarez. Valencia."
@@ -113,6 +109,82 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "Data Scientist na dalubhasa sa sports analytics, na may karanasan sa loob ng propesyonal na pagbibisikleta."
+		},
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "Simula"
+		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "Laktaw patungo sa nilalaman"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "Lumipat sa pagitan ng maliwanag at madilim na mode"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "Telepono"
+		},
+		"footer/tagline": {
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "Kampeon ng Espanya sa madison. Data Scientist."
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "Available para sa mga proyekto sa data at pagganap sa palakasan."
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Sumulat sa akin"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "Mga Seksyon"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "Legal"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "Mag-usap tayo?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Kung mayroon kang data ng pagganap at mga tanong na walang sagot, sumulat sa akin at susuriin natin ito nang magkasama."
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Sumulat sa akin"
+		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Mga Tuntunin at Kondisyon"
+		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Patakaran sa refund"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "Huling na-update"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "Sa pahinang ito"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "Iba pang mga dokumento"
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "mga lap"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "huli"
 		}
 	},
 	"inicio": {
@@ -120,137 +192,265 @@
 			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
 			"value": "Mario Álvarez — Data Scientist na dalubhasa sa palakasan"
 		},
-		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "Mario Álvarez, data scientist sa Valencia na dalubhasa sa sports analytics. Data · Sport · Progress."
-		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "Tingnan ang mga proyekto"
-		},
-		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "Makipag-ugnayan"
-		},
-		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "Tingnan pa"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "Tingnan ang lahat ng proyekto"
 		},
-		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "Pumunta sa pakikipag-ugnayan"
-		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "Mga pangunahing tool"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "Data Scientist · Sports Analytics · Valencia"
+		"meta/description": {
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "Si Mario Álvarez, siyentipiko ng datos sa Valencia na dalubhasa sa analytics sa palakasan. Kampeon ng Espanya sa madison at direktor sa palakasan ng RFEC."
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "Ginagawa ko ang data bilang "
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "Tingnan kung paano kita matutulungan"
 		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "malinaw na mga desisyon"
+		"meta/contacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Sumulat sa akin"
+		},
+		"meta/verMas": {
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "Magbasa pa"
+		},
+		"meta/irAContacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Sumulat sa akin"
+		},
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "Si Mario Álvarez, siyentipiko ng datos"
+		},
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "Ako ay naging kampeon ng Espanya sa madison."
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "Ako ang tulay sa pagitan ng pagsusuri ng data at ng elite na palakasan: isinasalin ko ang mga sukatan ng pagganap sa mga estratehiya na gumagawa ng pagkakaiba sa larangan."
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "Ngayon ay nag-aaral ako ng Agham ng Datos sa UPV at sinusuri ko ang nasa likod ng pagganap: lakas, karga at mga resulta. Alam ko kung ano ang kahulugan ng isang numero para sa isang manlakbay dahil naging manlakbay na rin ako."
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "Mga nakamit"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "1º"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "Kampeonato ng Espanya sa madison"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "Pista, sa edad na 18"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "Tungkol sa akin"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "Kampeonato sa Mundo sa pista"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Pambansang Koponan ng Espanya"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "Kampeonato sa Europa sa pista"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Pambansang Koponan ng Espanya"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Larawan ni Mario Álvarez"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "Kung paano kita matutulungan"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "Nakikipagtulungan ako sa mga koponan, tagapagsanay at manlakbay na may mga datos at gustong makinabang mula rito. At sa mga kumpanya na kailangang isaayos ang kanila."
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "Ikuwento sa akin ang iyong kaso"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Pagsusuri ng pagganap"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "Binabasa ko ang lakas, karga at mga resulta sa mata ng isang manlakbay. Ipinaliliwanag ko sa iyo kung ano ang nangyayari at kung ano ang babaguhin."
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "Elitong manlakbay at direktor sa palakasan ng RFEC, mga antas I at II."
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "Mga pasadyang kasangkapan"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "Scraping, mga modelo at maliliit na aplikasyon sa Python na sumasagot sa isang tiyak na tanong ng iyong koponan."
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Dalawang kasangkapan para sa koponan ng Cofidis: kahirapan sa UCI at profile ng karera."
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Mga database at ulat"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "Mas mabilis na mga tanong, pinag-isang database at mga dashboard sa Power BI na madaling maunawaan sa unang tingin."
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "Mahigit sa 580 mga talahanayan at 100 milyong mga rekord sa database na inosona ko sa SIME Telecom."
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Suporta sa karera"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "Paghahanda sa karera, pagsubaybay sa mga manlakbay at quiromasaje sa kumpetisyon."
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "Staff ng Pambansang Koponan ng Komunidad ng Valencia."
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "Data na may konteksto ng track, kalsada at kumpetisyon"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "Mula sa velodrome hanggang sa datos"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "Ako si Mario Álvarez, mag-aaral ng Data Science sa UPV na may tunay na karanasan sa loob ng propesyonal na pagbibisikleta. Pinagsasama ko ang pagsusuri ng data sa elite na pagganap sa palakasan, upang gawing bawat sukatan ang isang desisyon na nagpapabuti ng mga resulta."
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "Nag-aaral ako ng ika-3 taon ng degree sa Agham ng Datos sa UPV at natapos ko ang isang master sa digitalization at teknolohiya na inilapat sa palakasan. Hindi ako umalis sa pagbibisikleta: patuloy akong tumatakbo sa pista, pinangungunahan ko ang mga batang manlakbay at nagtatrabaho ako bilang quiromasajista sa mga propesyonal."
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Base"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm at Valencia"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
-			"value": "Edukasyon"
+			"value": "Pagsasanay"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "Bachelor sa Data Science, Universitat Politècnica de València."
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Degree sa Agham ng Datos (UPV) at Master sa Digitalization, Innovation at Teknolohiya sa Palakasan"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "Elite"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "Mga Titulo"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Karanasan"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "Direktor sa palakasan ng RFEC, mga antas I at II"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "Tunay na trabaho sa loob ng isang propesyonal na koponan ng pagbibisikleta."
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "Ngayon"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "Pokus"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "Analytics na inilapat sa pagpapabuti ng pagganap sa palakasan."
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Karanasan"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "Handa para sa mga proyekto ng datos at pagganap"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "Dalawang mundo, iisang wika: ang pagganap"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "Dalawang landas, iisang trabaho"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "Nakipagkumpitensya ako sa pinakamataas na antas at ngayon ay inilalapat ko ang parehong pamantayan na iyon sa data: naiintindihan ko kung ano ang ibig sabihin ng isang numero para sa isang atleta dahil ako ang atletang iyon."
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "Sa isa ay inosona ko ang mga database at nagsusulat ako ng mga modelo. Sa kabila naman ay naghahanda ako ng mga karera at sinusubaybayan ko ang mga manlakbay. Ang dalawa ay tungkol sa iisang bagay: masukat nang mabuti upang makapagpasya nang mas mahusay."
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "Mga Datos"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "mga talahanayan na sinuri sa SIME Telecom upang pag-isahin ang ilang database sa isa, nang hindi pinalalaki ang hardware"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "mga rekord sa database na aking inosona"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "mga kasangkapan sa Python para sa koponan ng Cofidis: kahirapan sa UCI at profile ng karera"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "Pista at daan"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I at II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "mga antas ng direktor sa palakasan ng Real Federación Española de Ciclismo"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "mga taong gulang ng mga batang manlakbay na sinasanay ko at sinusubaybayan kasama ang aking ama"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "katulong sa Pambansang Koponan ng Komunidad ng Valencia sa kumpetisyon"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "Pag-usapan natin ang tungkol sa data?"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "Huling lap"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "Ikwento sa akin ang iyong proyekto at magkasama naming hahanapin kung nasaan ang mga desisyon na nagpapabuti sa pagganap."
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Kung mayroon kang data sa pagganap at mga tanong na walang sagot, isulat sa akin at titingnan natin ito nang magkasama."
 		}
 	},
 	"sobre-mi": {
@@ -290,10 +490,6 @@
 			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
 			"value": "Base"
 		},
-		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
-		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
 			"value": "Katayuan"
@@ -306,25 +502,53 @@
 			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
 			"value": "Pokus"
 		},
-		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "Data + pagganap sa palakasan"
-		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "Mga Wika"
-		},
-		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "Katutubong Espanyol · Valencian · Ingles B1"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Edukasyon"
 		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "Nananatili ako sa loob ng pagbibisikleta, sa oval at sa sasakyan ng koponan. Ang nagbago ay kung paano ko ito tinitingnan: ngayon ay mayroon na ring mga datos."
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "Manlakbay, direktor at siyentipiko ng datos"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "Sa maikling salita"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "Ang pinakamahalaga, sakaling nagmamadali ka."
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Larawan ni Mario Álvarez"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "Una, ang mga binti. Ngayon, ang mga datos."
+		},
+		"facts/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm at Valencia"
+		},
+		"facts/2/value": {
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "Datos at pagganap sa isports"
+		},
+		"facts/3/value": {
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "Espanyol (katutubo), Valenciano at Ingles (B1)"
+		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "Degree sa Data Science (UPV) · Master sa Digitalization, Innovation at Technology sa Sports"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Batsilyer sa Agham ng Datos (UPV) at Master sa Digitalisasyon, Inobasyon at Teknolohiya sa Isports"
 		}
 	},
 	"experiencia": {
@@ -344,10 +568,6 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "Dalawang mundo, iisang wika: ang pagganap"
 		},
-		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "Data at Teknolohiya"
-		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
 			"value": "Elite na Paligsahan"
@@ -355,10 +575,6 @@
 		"datos/0/title": {
 			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
 			"value": "SIME TELECOM — Internship sa Data Science"
-		},
-		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "Data Engineering · Benidorm · 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -371,10 +587,6 @@
 		"datos/1/title": {
 			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
 			"value": "Mga proyekto kasama ang Cofidis team (World Tour)"
-		},
-		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · Tag-init 2025"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -435,6 +647,54 @@
 		"deporte/2/paragraphs/0": {
 			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
 			"value": "Lisensyadong quiromassage therapist; masahista para sa mga propesyonal na siklista; staff kasama ang Pambansang Koponan ng Komunidad ng Valencia, sa isang kontinental na koponan mula sa Pilipinas, at sa mga indibidwal na siklista sa Benidorm."
+		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "Sa isang database o sa sasakyan ng koponan, pareho lamang ang trabaho: sukatin nang mabuti upang magdesisyon nang mas mahusay."
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "mga talaan sa database na pinapaganda ko sa SIME Telecom"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "mga kagamitan sa Python para sa koponan ng Cofidis"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6th"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "sa World Championship at European Track Championship"
+		},
+		"meta/colDatos": {
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "Mga Datos at Teknolohiya"
+		},
+		"datos/0/meta": {
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "Inhenyeriya ng datos, Benidorm, 2026"
+		},
+		"datos/1/meta": {
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, tag-init 2025"
+		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "Cycling sa track, Pambansang Koponan ng Espanya"
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, mga antas I at II"
 		}
 	},
 	"proyectos": {
@@ -521,6 +781,18 @@
 		"list/vacioWebs": {
 			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
 			"value": "Wala pang na-publish na web sa seksyong ito."
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "mga pampublikong repository sa GitHub"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "mga nai-publish na website"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "mga wika at tool"
 		}
 	},
 	"contacto": {
@@ -535,14 +807,6 @@
 		"meta/eyebrow": {
 			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
 			"value": "Makipag-ugnayan"
-		},
-		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "Mayroon ka bang data at isang tanong na kailangang lutasin?"
-		},
-		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "Mag-usap tayo. Maging ito man ay isang proyekto sa sports analytics, pakikipagtulungan sa data, o isang ideya lamang na nais mong talakayin, masaya akong tumugon."
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,206 +823,742 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Mga social network"
+		},
+		"meta/heading": {
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "Mayroon ka bang data at isang katanungan?"
+		},
+		"meta/intro": {
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "Mag-usap tayo. Maging ito ay isang proyekto sa analytics sa palakasan, pakikipagtulungan sa data, o isang ideya na gusto mong talakayin, ako ang sasagot sa iyo."
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "Tungkol saan mo gustong mag-usap?"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "Pumili ng paksa at ihahanda ko ang email para sa iyo. Kailangan mo lamang ikwento sa akin ang iyong sitwasyon."
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Pagsusuri ng pagganap"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "Isang pasadyang kasangkapan"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Mga database at ulat"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Suporta sa karera"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "Iba pa"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "Isulat ang email"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "Kopyahin ang email"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "Kopya na ang email"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "Tanong mula sa marioalvarez.me"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "Kumusta Mario:\n\nSumusulat ako tungkol sa: {tema}.\n\nAng mayroon ako:\n\nAng gusto kong malaman:\n\nSalamat."
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "Iba pang mga channel"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Base"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm at Valencia"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "Mga wika"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "Espanyol, Valenciano at Ingles"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "Bago ako sulatan"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "Nabasa ko na at tinatanggap ko ang {enlace}."
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "mga tuntunin at kundisyon"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "Tinatanggap ko ang mga cookies sa pagsusuri na inilalarawan sa {enlace} (opsyonal)."
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "patakaran sa cookies"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "Para sulatan ako, markahan muna ang kahon ng mga tuntunin at kundisyon."
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "Responsable: Mario Álvarez Martínez. Layunin: sagutin ang iyong katanungan at, kung hihilingin mo, maghanda ng panukala para sa iyo. Pagpapatunay: ang iyong kahilingan. Mga tatanggap: wala, maliban kung may legal na obligasyon. Mga Karapatan: pag-access, pagwawasto, pagtanggal at iba pa na ipinaliwanag sa {enlace}."
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "patakaran sa pagkapribado"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "Sanggunian ng pagtanggap sa mga tuntunin: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
-			"value": "Patakaran sa Cookies — Mario Álvarez"
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
+			"value": "Patakaran sa cookies — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "Anong mga cookie ang ginagamit ng site na ito, para sa aling layunin at paano baguhin ang iyong pahintulot sa anumang oras."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Legal"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "Ang mga cookies na ginagamit ng marioalvarez.me, kung alin ang nangangailangan ng iyong pahintulot, at kung paano baguhin ang iyong pinili anumang oras."
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
-			"value": "Patakaran sa Cookies"
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "Patakaran sa cookies"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "Ang website na ito ay gumagamit ng mga cookie at katulad na teknolohiya (tulad ng local storage ng browser) para sa wastong paggana nito at, kung ibibigay mo ang iyong pahintulot, upang suriin nang hindi nagpapakilala kung paano ginagamit ang nilalaman."
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "Ang iyong pinili"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "Mga ginamit na cookie:"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "Maaari mong baguhin o tanggalin ang iyong data kailan mo gusto, kasingdali ng pagbibigay mo nito."
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "1. Ano ang mga ito at kung kailangan ko ang iyong pahintulot"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "Ang mga cookies at katulad na teknolohiya (tulad ng local storage ng browser) ay nag-iimbak ng maliliit na data sa iyong aparato. Ayon sa artikulo 22.2 ng LSSI-CE at sa Gabay sa paggamit ng mga cookies ng Ahensya ng Espanya para sa Proteksyon ng Datos, ang mga mahigpit na kinakailangan para sa isang bagay na iyong hiniling ay hindi nangangailangan ng pahintulot; ang para sa pagsusuri, oo."
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "Kaya naman ang web na ito ay nag-iimbak lamang ng cookie para sa pagsusuri kung tatanggapin mo ito, at hinahayaan kang tanggaping o tanggihan gamit ang dalawang magkatulad na pindutan, sa parehong screen at walang mga markang kahon nang maaga. Ang pagtanggi dito ay hindi nagiging hadlang sa paggamit ng anuman sa web."
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "2. Mga cookies na ginagamit ng web na ito"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "Pangalan"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "Layunin"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Para saan"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "Uri"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "Kailangan ba ang iyong pahintulot?"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "Tagal"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "consentimiento_cookies"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "I-save ang iyong pinili, ang bersyon ng patakarang ito, at ang pseudonymous identifier ng iyong talaan ng pahintulot"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "Tandaan ang iyong pinili tungkol sa patakaran ng cookie na ito"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "Sarili, teknikal"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "Sarili, teknikal (exempt sa pahintulot)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "Hindi"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 buwan"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "visitante_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "Pseudonymous identifier upang malaman kung aling mga nilalaman ang kapaki-pakinabang"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "Hindi nagpapakilalang identifier upang maiugnay ang iyong mga pagbisita at malaman kung aling nilalaman ang kapaki-pakinabang"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "Sarili, para sa pagsusuri"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "Sarili, analytika (nangangailangan ng iyong pahintulot)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "Oo"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 buwan"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "Wala sa mga cookie na ito ang mula sa third-party, wala sa mga ito ang ginagamit para sa mga layunin ng advertising, at wala sa mga ito ang ibinabahagi sa sinuman sa labas ng site na ito."
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "Maaari mong baguhin ang iyong desisyon o bawiin ang iyong pahintulot sa anumang oras mula sa link na \"I-configure ang mga cookie\" sa footer, at agad na burahin ang lahat ng iyong data gamit ang button na \"Burahin ang aking data\" sa parehong panel."
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "Tandaan kung mas gusto mo ang maliwanag o madilim na tema; nakaimbak lamang ito kung babaguhin mo ito"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "Para sa karagdagang impormasyon tungkol sa kung paano pinoproseso ang iyong data, tingnan ang Patakaran sa Pagkapribado."
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "Sarili, para sa pagpapasadya na hiniling mo"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "Hindi"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "Hanggang sa tanggalin mo ito"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "3. Ang mga walangroon"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "Walang mga cookie ng third-party, walang advertising, walang naka-embed na nilalaman mula sa social media, at walang Google Analytics. Ang mga font at larawan ay inihahatid mula sa mismong web na ito."
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "4. Paano magbago ng isip"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "Maaari mong baguhin ang iyong pinili o bawiin ang pahintulot kailan mo gusto mula sa «I-configure ang cookies», sa ibaba ng bawat pahina, o gamit ang pindutan sa pahinang ito. Mula doon maaari mo ring agad na tanggalin ang data ng pagsusuri na nauugnay sa iyong browser. At maaari mong tanggalin ang mga cookies mula sa mga setting ng iyong browser."
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "5. Talaan ng iyong pinili"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "Sa tuwing tinatanggap, tinatanggihan, o binabawi mo ang pahintulot, isang talaan ang iniimbak (pseudonymous identifier, desisyon, bersyon ng patakarang ito, petsa at oras, pahina, wika, pinagmulan, at browser), nang walang iyong IP address, upang mapatunayan na ang pahintulot ay may bisa. Ito ay itinatago sa loob ng 3 taon. Ang iba pang mga detalye ay nasa patakaran sa privacy."
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "6. Mga pagbabago"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "Kung ang patakarang ito ay magbabago nang malaki, ang abiso sa cookies ay lilitaw muli upang makapagpasya kang muli."
 		}
 	},
 	"politica-privacidad": {
 		"meta/title": {
-			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
-			"value": "Patakaran sa Pagkapribado — Mario Álvarez"
+			"hash": "42071aae1686801e5e4d10f528b7ea46c5763923ea327ea82dd99d7216c615cc",
+			"value": "Patakaran sa privacy — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
-			"value": "Patakaran sa pagkapribado ng site ni Mario Álvarez: anong mga datos ang kinokolekta, para sa anong layunin at paano gamitin ang iyong mga karapatan."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Legal"
+			"hash": "835ff2101ffc889e493af11033230e7e7c68e148b166dfda511fa4dc11cf8f23",
+			"value": "Anong data ang pinoproseso ng marioalvarez.me, para saan, sa anong legal na batayan, gaano katagal at paano gamitin ang iyong mga karapatan."
 		},
 		"meta/heading": {
-			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
-			"value": "Patakaran sa Pagkapribado"
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
+			"value": "Patakaran sa privacy"
 		},
 		"secciones/0/titulo": {
-			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
-			"value": "1. May-ari ng pagproseso"
+			"hash": "f26db73f9b3e3b1ff6e9079253f37e391e699fc0a2d4f1d75cc4ad5e736e95a0",
+			"value": "1. Responsableng partido"
 		},
-		"secciones/0/bloques/0/texto": {
-			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
-			"value": "Mario Álvarez Martínez, na may tirahan sa Benidorm (Alicante), Espanya. Makipag-ugnayan sa: malvmar5@hotmail.com"
+		"secciones/0/bloques/0/items/0": {
+			"hash": "30b867430b07e1173b004c27dbfa003df6e989a4730e364af948572908bd1d7b",
+			"value": "Responsable: {nombre}"
+		},
+		"secciones/0/bloques/0/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/0/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Tirahan: {domicilio}"
+		},
+		"secciones/0/bloques/0/items/3": {
+			"hash": "dc9414558e3d4d2f18d1a3674b75de6fadddac371f9d47a3b552090af8eb521e",
+			"value": "Email para sa anumang usapin sa privacy: {email}"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "4ded33c4f911f981554d9312d284fb6c54397059545a170e4cc7fe589462e16d",
+			"value": "Dahil sa laki at uri ng aktibidad, hindi sapilitang mag-italaga ng opisyal ng proteksyon ng data, kaya wala nito: sumulat nang direkta sa akin."
 		},
 		"secciones/1/titulo": {
-			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
-			"value": "2. Layunin ng pagproseso"
+			"hash": "7945e3b3ea085d4541900f91dd5ee53aa546f0101caa5a0e3e02151f2787a1d8",
+			"value": "2. Anong data ang pinoproseso ko, para saan at bakit"
 		},
-		"secciones/1/bloques/0/texto": {
-			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
-			"value": "Ang web na ito ay nagsusuri sa loob at para sa mga layuning estadistika lamang kung aling mga nilalaman (mga seksyon, proyekto) ang pinaka-kapaki-pakinabang sa mga bumibisita dito, na may layuning mapabuti ang nilalaman nito. Hindi ito ginagamit para sa mga layuning pang-ad, hindi ito ibinabahagi sa mga ikatlong partido at hindi ito ipinagbibili sa anumang sitwasyon."
+		"secciones/1/bloques/0/columnas/0": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Para saan"
+		},
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "972848ecab8712f1568b40ae2e85d79982921d9fb636715f12c3ee77922e3552",
+			"value": "Anong data"
+		},
+		"secciones/1/bloques/0/columnas/2": {
+			"hash": "0e2ca19b51a48180494077bf03cdc3954e09bdee2636072ad50078371e62a9a5",
+			"value": "Legal na batayan"
+		},
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "37f1242360cae04ca75412a4e8cb1f99084336707371d837bfc22cb6e7f5573f",
+			"value": "Gaano katagal"
+		},
+		"secciones/1/bloques/0/filas/0/0": {
+			"hash": "66f19c829749fd1569fc7654b5c44b3cfab1a9f5435c0500d82c758b69eba6f8",
+			"value": "Analytics sa paggamit, kung tatanggapin mo lamang ang mga cookie sa analytics"
+		},
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "2316c78abc893aa7ee9c70d0d8941a2f1773cb0072467c8339cd9fe754f34ffd",
+			"value": "Isang random na pseudonymized identifier (cookie visitante_id), ang mga seksyon at proyektong nakikita mo at ang oras sa bawat isa, ang mga pag-click sa mga link at button, ang wika, ang uri ng aparato (mobile o desktop), ang tinatayang bansa at ang pahina sa web kung saan nagaganap ang bawat kaganapan."
+		},
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "48f423d1cad8999cc02a95461334fb67708564a718aae008e8e3d4bd6f1abe5c",
+			"value": "Ang iyong pahintulot (art. 6.1.a GDPR at art. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "7793be198aa2fa735865c4d0184ca23264562c7145f55c2181325fac495c2008",
+			"value": "12 buwan; pagkatapos ay awtomatikong binubura ang bawat kaganapan."
+		},
+		"secciones/1/bloques/0/filas/1/0": {
+			"hash": "c9085a6241675f43631bb0acc7db73240979340e52f215e12bac23565cfb2c26",
+			"value": "Talaan ng mga pahintulot"
+		},
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "4a6cae5ac5e5e2b02740d4fd1afb185091db19db70cf3c1532949b5a71f6d025",
+			"value": "Ang pseudonymized identifier, kung ano ang iyong tinanggihan, tinanggap o binawi, ang bersyon ng bawat dokumento, ang petsa at oras, ang pahina, ang wika, ang pinagmulan (banner, configuration o form), ang browser (user agent) at ang tinatayang bansa; sa form, bukod dito, ang reference code ng iyong email."
+		},
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "f49d2c07e64734bea73e86a5f913788d7fbef6b7ba587c45d3e43a2fe892e954",
+			"value": "Upang tuparin ang obligasyon na mapatunayan ang pahintulot (mga art. 6.1.c at 7.1 GDPR)."
+		},
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "a2ecf36d6bf6235f3dcca3b1c5fde18943f1cf05d1520617dc789b7a4217b98d",
+			"value": "3 taon mula sa bawat pagpaparehistro (ang pinakamataas na takdang panahon para sa pagtatapos ng mga paglabag sa LOPDGDD); pagkatapos ay awtomatikong binubura."
+		},
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "a0b02e5aea3ce82e5aeb02b12c9a190e7b4b8161dadce962d7469d0a4e5c5427",
+			"value": "Tumugon sa iyong katanungan sa pamamagitan ng email o telepono"
+		},
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "6fed1a34cd293c983716f8c74612d9b18e8869913be6cbfb6dda6384e8613438",
+			"value": "Ang data na napagpasyahan mong ipadala sa akin: karaniwang ang iyong pangalan, ang iyong email o telepono at ang nilalaman ng mensahe."
+		},
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "89d10b2cde2d06df634b68d50f4bc73acd354488c981db6412af30a4f424f360",
+			"value": "Mag-apply ng mga hakbang bago ang kontrata sa iyong kahilingan (art. 6.1.b GDPR) o ang aking lehitimong interes na sagutin ka (art. 6.1.f)."
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "74f9dde75113c5650697044fdbc4c3a3a97598af5331ce0ef428bbf822cc0c21",
+			"value": "Hangga't tumatagal ang pag-uusap at hanggang 1 taon pagkatapos, maliban kung magkasundo kaming pumasok sa isang kontrata."
+		},
+		"secciones/1/bloques/0/filas/3/0": {
+			"hash": "f9c4c0ee00650b320f51840cabbb7e6e642e3b61c8837a74d8d996e267df1b24",
+			"value": "Pamahalaan ang isang kinontratang serbisyo"
+		},
+		"secciones/1/bloques/0/filas/3/1": {
+			"hash": "63ec8a60b26e57f8d39da6ce54f8230cb8530bcf816369573da70e9e591e2822",
+			"value": "Data ng pagkakakilanlan, pakikipag-ugnayan at pagsingil."
+		},
+		"secciones/1/bloques/0/filas/3/2": {
+			"hash": "d802d684897cfb64dab5dfb2b82d148f56cec2c89e6f825d0e1bc61ac73971a3",
+			"value": "Pagpapatupad ng kontrata (art. 6.1.b GDPR) at mga obligasyon sa buwis at pagpapautang (art. 6.1.c)."
+		},
+		"secciones/1/bloques/0/filas/3/3": {
+			"hash": "11f2d939b6159a847bc51d24414c4b9e793bf6825f7c1398abd8db2c71593d92",
+			"value": "Kung ano ang hinihingi ng mga batas sa buwis at komersyo (sa pangkalahatan, sa pagitan ng 4 at 6 na taon)."
+		},
+		"secciones/1/bloques/0/filas/4/0": {
+			"hash": "063288f4f5c95e4a853b475581be68a6fe1a5d2f897f910b64cf1e112b6ad45c",
+			"value": "Tandaan kung mas gusto mo ang maliwanag o madilim na tema"
+		},
+		"secciones/1/bloques/0/filas/4/1": {
+			"hash": "dc01e55b7f3a74f530144f1343bf45325fd1f19a6506d36f1a840187ea7c2ce1",
+			"value": "Ang kagustuhan «tema», na nakaimbak lamang sa iyong browser (lokal na imbakan). Hindi ito dumarating sa akin."
+		},
+		"secciones/1/bloques/0/filas/4/2": {
+			"hash": "b040ff84d8f2d571755a6a5e7ef2c402852e9dec6a680b046a8840b517f0258f",
+			"value": "Isang function na hiniling mo sa pamamagitan ng pagpindot sa button (malaya sa pahintulot ayon sa art. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/4/3": {
+			"hash": "8fb068d79a6505e39426755b0e06217d53afb0432147bf3814d2980ab9e64f5a",
+			"value": "Hanggang sa burahin mo ito sa iyong browser."
 		},
 		"secciones/2/titulo": {
-			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
-			"value": "3. Mga datos na kinokolekta (kung tatanggapin mo lamang ang mga analitikal na cookies)"
+			"hash": "7feaf44c775a941b92da3e422a3dfbbf1af6d00c97a112d765f00b6c6e69145c",
+			"value": "3. Ang hindi ko hinihingi o kinokolekta"
 		},
-		"secciones/2/bloques/0/items/0": {
-			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
-			"value": "Isang random na hindi nagpapakilalang identifier, na hindi nakakonekta sa iyong pangalan, email o anumang iba pang impormasyon na direktang nagpapakilala sa iyo."
+		"secciones/2/bloques/0/texto": {
+			"hash": "2e532d9922da0772b96e789b3bc6716e06e430392ef62cdbafbf5a64a8b602a0",
+			"value": "Pinoproseso ko lamang ang kailangan para sa bawat layunin. Sa partikular:"
 		},
-		"secciones/2/bloques/0/items/1": {
-			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
-			"value": "Mga pahina at proyektong binibisita mo, at ang oras ng atensyon sa bawat isa (habang aktibo ang tab)."
+		"secciones/2/bloques/1/items/0": {
+			"hash": "162d4749f1b4ecef620defa8cc4315c9cdeb14495be2b079d86990bab9921fcc",
+			"value": "Ang form ng pakikipag-ugnayan ay hindi humihingi ng iyong pangalan, email o telepono: binubuksan nito ang iyong programa sa email at ikaw ang nagpapasya kung ano ang ipapadala sa akin."
 		},
-		"secciones/2/bloques/0/items/2": {
-			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
-			"value": "Mga pakikipag-ugnayan (mga click sa mga proyekto, link o pindutan)."
+		"secciones/2/bloques/1/items/1": {
+			"hash": "ff397d4902c0ffd1189f8e1e35e2bcb687831fb514a3f9e543d45b5097cd02cf",
+			"value": "Hindi ko iniimbak ang iyong IP address maging sa analytics o sa talaan ng mga pahintulot."
 		},
-		"secciones/2/bloques/0/items/3": {
-			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
-			"value": "Petsa at oras ng pagbisita."
+		"secciones/2/bloques/1/items/2": {
+			"hash": "f56194a61aec7b27015853b20033d553cbb9ac044fe9f04346b24415eb7adbcb",
+			"value": "Hindi ako gumagamit ng mga teknik sa pagkakakilanlan ng browser (fingerprinting), Google Analytics, mga pixel sa advertising o mga cookie ng third-party."
 		},
-		"secciones/2/bloques/0/items/4": {
-			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
-			"value": "Wika ng site na kinonsulta."
-		},
-		"secciones/2/bloques/0/items/5": {
-			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
-			"value": "Uri ng aparato (mobile o desktop)."
-		},
-		"secciones/2/bloques/0/items/6": {
-			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
-			"value": "Tinatayang bansa, na nakuha sa pamamagitan ng imprastruktura ng Cloudflare, nang hindi iniimbak ang iyong IP address."
-		},
-		"secciones/2/bloques/0/items/7": {
-			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
-			"value": "Pahina ng pinanggalingan (halimbawa, LinkedIn o isang search engine)."
-		},
-		"secciones/2/bloques/1/texto": {
-			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
-			"value": "Hindi kinokolekta ang iyong IP address, walang ginagamit na mga pamamaraan ng pagkakakilanlan ng browser (fingerprinting), o mga tool ng mga ikatlong partido tulad ng Google Analytics o mga katulad nito."
+		"secciones/2/bloques/1/items/3": {
+			"hash": "0ba62a40c9ed5bff67053ea0f359fcdfe831ea6223962396ea3e25270f49b79e",
+			"value": "Ang mga font at larawan ay inihahatid mula sa mismong web na ito: kapag binisita mo ito, ang iyong browser ay hindi kumokonekta sa Google Fonts, GitHub o iba pang mga panlabas na serbisyo."
 		},
 		"secciones/3/titulo": {
-			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
-			"value": "4. Legal na batayan"
+			"hash": "e97f09119206a0bb54b91a4d0525a1611a86cd2a1ffb1ce68ecee7e407f5b4b2",
+			"value": "4. Sino pa ang kasangkot"
 		},
 		"secciones/3/bloques/0/texto": {
-			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
-			"value": "Ang pagproseso ay batay sa iyong malinaw na pahintulot (artikulo 6.1.a ng RGPD at artikulo 22.2 ng LSSI-CE), na maaari mong bawiin anumang oras mula sa tag Pamahalaan ng cookies ng mismong site."
+			"hash": "9379c1c29056fb76c9aaac14eec204ccc80f1839470f1fa57d869d5ede4e8554",
+			"value": "Hindi ko ipinagbibili o ibinibigay ang iyong data sa sinuman, maliban kung may legal na obligasyon. Upang gumana ang web at masagot ka, ginagamit ko ang mga tagapagbigay na ito:"
+		},
+		"secciones/3/bloques/1/items/0": {
+			"hash": "ba8d5055f95f76f5d5f213f9ea6abd0d2e73614739ee762b8e003da614270e78",
+			"value": "Cloudflare, Inc.: nagho-host ng web at database (Cloudflare Pages at D1) at kumikilos bilang processor. Upang maihatid ang web, pinoproseso nito ang teknikal na data ng koneksyon, tulad ng iyong IP, na hindi ko ma-access. Ang kanilang patakaran: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/3/bloques/1/items/1": {
+			"hash": "e5466224dac0fab3f83206452f2e1dce4d397ed8821b014e24422d4c03931809",
+			"value": "Microsoft Corporation (Outlook.com): ang serbisyo ng email kung saan natatanggap at sinasagot ko ang mga email; pinoproseso nito ang mga mensaheng iyon ayon sa kanilang sariling patakaran: https://privacy.microsoft.com/es-es/privacystatement"
 		},
 		"secciones/4/titulo": {
-			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
-			"value": "5. Panahon ng pagpapanatili"
+			"hash": "0f1733989dcc9d3e7da935c30da90d6d47f7e418e0623ece20bdddea5480e10d",
+			"value": "5. Mga internasyonal na paglilipat"
 		},
 		"secciones/4/bloques/0/texto": {
-			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
-			"value": "Ang mga datos ay iniimbak nang maximum na 12 buwan mula sa iyong huling pagbisita, pagkatapos nito ay awtomatikong tinatanggal."
+			"hash": "730d0cdbf2408bcb369456290dbb1557289c98b1c1ad50e6c7738990068ee833",
+			"value": "Ang Cloudflare at Microsoft ay maaaring magproseso ng data sa Estados Unidos. Pareho silang sumusunod sa EU-US Data Privacy Framework (desisyon ng pagiging angkop ng European Commission noong Hulyo 10, 2023) at nag-aalok din ng mga karaniwang sugnay na kontraktwal na inaprubahan ng Komisyon."
 		},
 		"secciones/5/titulo": {
-			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
-			"value": "6. Mga tatanggap at internasyonal na paglilipat"
+			"hash": "4ec1c1d4af17035281741f9ce83569b18261968bce5f1398635042c17d1ea5aa",
+			"value": "6. Ang iyong mga karapatan"
 		},
 		"secciones/5/bloques/0/texto": {
-			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
-			"value": "Ang mga datos ay hindi ibinibigay o ipinagbibili sa mga ikatlong partido. Ang mga ito ay nakaimbak sa Cloudflare D1, isang serbisyo ng database na ibinigay ng Cloudflare, Inc., na kumikilos bilang tagapamahala ng pagproseso. Ang Cloudflare ay maaaring magproseso ng mga datos sa labas ng European Economic Area; sa kasong iyon, ang naturang paglilipat ay sinusuportahan ng Standard Contractual Clauses na inaprubahan ng European Commission. Higit pang impormasyon sa patakaran sa pagkapribado ng Cloudflare: https://www.cloudflare.com/privacypolicy/"
+			"hash": "6315177b90b21cdfbed7fbfaec8577e8da3be3f21abc4b0aa4ee3768d05d5730",
+			"value": "Maaari mong hilingin sa akin anumang oras na i-access ang iyong data, iwasto ito, tanggalin ito, tutulan ang pagproseso nito, limitahan ito o tanggapin ito upang dalhin sa ibang lugar (paglilipat), at bawiin ang iyong pahintulot nang hindi naaapektuhan ang naproseso na dati. Sumulat sa akin sa {email}; sasagutin kita sa loob ng maximum na isang buwan."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "861c3a71db2dc302875ad844414aa75c76842e60449a723c31645d069833fcce",
+			"value": "Ang data ng analytics ay maaari mong burahin nang mag-isa sa pamamagitan ng button na «Burahin ang aking data» sa configuration ng cookies. Ang talaan ng mga pahintulot ay pinapanatili kahit na bawiin mo ang pahintulot, dahil nagsisilbi ito nang eksakto upang patunayan kung kailan mo ito ibinigay at kailan mo ito binawi."
+		},
+		"secciones/5/bloques/2/texto": {
+			"hash": "893606189520d2e9c25fbc294f12b208763cd9a34b5e2e9260c64d938f8c636c",
+			"value": "Kung naniniwala ka na hindi ko natugunan nang maayos ang iyong mga karapatan, maaari kang magreklamo sa Spanish Data Protection Agency: https://www.aepd.es"
 		},
 		"secciones/6/titulo": {
-			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
-			"value": "7. Ang iyong mga karapatan"
+			"hash": "003ddb2514982633893943d31d98d557414a83f3a0566ffe931a21885a10d93c",
+			"value": "7. Mga menor de edad"
 		},
 		"secciones/6/bloques/0/texto": {
-			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
-			"value": "Maaari mong gamitin anumang oras ang iyong mga karapatan sa pag-access, pagwawasto, pagtanggal, pagsalungat, paghigpit ng pagproseso at paglilipat sa pamamagitan ng pagsulat sa malvmar5@hotmail.com. Bilang karagdagan, maaari mong tanggalin ang iyong datos kaagad, nang hindi kinakailangang magsulat sa sinuman, mula sa pindutang \"Burahin ang aking mga datos\" na magagamit sa mga setting ng cookies ng site. May karapatan ka ring maghain ng reklamo sa Spanish Data Protection Agency (www.aepd.es) kung naniniwala kang ang iyong mga karapatan ay hindi natugunan nang maayos."
+			"hash": "a5bc9a70e47befee36963581af0ce2875c63d35566435cb7078f36ee013a0da5",
+			"value": "Ang web ay hindi nakadirekta sa mga menor de edad na wala pang 14 taong gulang. Kung ikaw ay wala pang 14 taong gulang, huwag magpadala sa akin ng personal na data nang walang pahintulot ng iyong mga magulang o tagapag-alaga (art. 7 LOPDGDD)."
 		},
 		"secciones/7/titulo": {
-			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
-			"value": "8. Mga pagbabago sa patakarang ito"
+			"hash": "89bad5840c8dee67d2a6178a78cebda20b28cbe970a49fd79a807b44b36df8c4",
+			"value": "8. Seguridad"
 		},
 		"secciones/7/bloques/0/texto": {
-			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
-			"value": "Ang patakarang ito ay maaaring i-update upang umangkop sa mga pagbabago sa batas o sa mismong site."
+			"hash": "42a5a107a1cdae9c58164e80236ff37ee90982816a2bc13cca85a541687e78ce",
+			"value": "Ang data ay naglalakbay na naka-encrypt (HTTPS) at nakaimbak sa isang database na maa-access lamang mula sa pribadong panel, na protektado ng username at password."
+		},
+		"secciones/8/titulo": {
+			"hash": "281d85edd7253d4dfcfac85764031516f590f798423fec77375a13cd6628419b",
+			"value": "9. Mga pagbabago sa patakarang ito"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "c02f8e64ffd3e30fd572c5e4ffa814fa674bc2ce1bc1ae97cbda29bc426a0641",
+			"value": "Kung may magbago na mahalaga, ia-update ko ang pahinang ito at ang petsa ng bersyon nito. Kung ang pagbabago ay nakakaapekto sa mga cookie, tatanungin kang muli."
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "Mga Tuntunin at Kundisyon — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "Legal na paunawa at mga kundisyon sa paggamit ng marioalvarez.me: sino ang nagmamay-ari, paano magagamit ang web, at anong batas ang naaangkop."
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Mga Tuntunin at Kundisyon"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "1. Sino ang nasa likod ng web na ito"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "Bilang pagsunod sa Artikulo 10 ng Batas 34/2002, hinggil sa mga serbisyo ng lipunan ng impormasyon at elektronikong komersyo (LSSI-CE), narito ang mga detalye ng nagmamay-ari ng marioalvarez.me:"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "May-ari: {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Tirahan: {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "Email: {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "Aktibidad: propesyonal na portfolio at pag-aalok ng mga serbisyo sa pagsusuri ng datos, mga pasadyang kagamitan, mga database at ulat, at suporta sa karera."
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "2. Ano ang kinokontrol ng mga tuntuning ito"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "Kinokontrol ng mga tuntuning ito ang pag-access at paggamit ng marioalvarez.me (ang «web») sa alinman sa mga wika nito. Sa pag-browse dito, sumasang-ayon kang gamitin ito ayon sa sinasabi rito. Kung sumulat ka sa akin mula sa contact form, hinihiling ko sa iyong tanggapin ito nang hayagan sa pamamagitan ng pag-tsek sa isang kahon."
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "3. Paano magagamit ang web"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "Maaari mong konsultahin at ibahagi ang mga nilalaman sa pamamagitan ng pagbanggit sa pinagmulan nito. Hindi pinapayagan ang:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "gamitin ang web para sa mga iligal na layunin o makapinsala sa mga ikatlong partido;"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "subukang i-access ang mga pinaghihigpitang lugar (tulad ng pribadong panel) o ang mga sistemang nagho-host nito;"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "magpasok ng mga virus o anumang nakakapinsalang code, o sadyang i-overload ito;"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "kopyahin ang mga nilalaman upang ipakita ang mga ito bilang sarili mo."
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "4. Mga Serbisyo at Kontrata"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "Ang web ay hindi nagbebenta ng mga produkto o nangongolekta ng mga online na bayad. Kung interesado ka sa isang serbisyo, pinag-uusapan natin ito sa pamamagitan ng email o telepono at ipinapadala ko sa iyo ang isang nakasulat na panukala na may saklaw, presyo, mga deadline, at mga kundisyon ng pagbabayad at pagkansela. Ang panukalang iyon, kapag tinanggap ng dalawa, ay ang namamahala sa serbisyo at mangingibabaw sa mga tuntuning ito."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "Kung paano gumagana ang mga pagkansela, ang karapatan sa pag-atras, at ang mga pagbabalik ay ipinaliwanag sa patakaran sa pag-refund."
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "5. Intelektwal at pang-industriya na pagmamay-ari"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "Ang mga teksto, disenyo, sariling code, logo, at mga litrato ni Mario Álvarez ay pagmamay-ari niya o ginagamit nang may pahintulot ng kanilang mga may-akda. Hindi pinapayagan na kopyahin ang mga ito para sa mga layuning pangkomersyo nang walang nakasulat na pahintulot."
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "Ang mga pangalan at logo ng mga ikatlong partido (tulad ng LinkedIn, GitHub, Instagram o ang mga koponan at entidad na nabanggit sa karanasan) ay pagmamay-ari ng kanilang mga may-ari. Ang pagbanggit sa kanila ay hindi nagpapahiwatig ng anumang komersyal na relasyon o pag-sponsor, maliban kung hayagang sinabi."
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "Gumagamit ang web ng mga mapagkukunan ng ikatlong partido na may mga lisensya na nagbibigay-daan dito: ang Fira Sans Extra Condensed at Source Serif 4 na mga font (SIL Open Font License 1.1), ang mga icon ng Lucide (lisensya ng ISC) at Simple Icons (CC0 1.0) at ang GSAP animation library (libreng karaniwang lisensya ng GreenSock, mula sa Webflow). Ang bawat proyekto na naka-link sa GitHub ay may sariling lisensya."
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "6. Pananagutan"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "Nagtatrabaho ako upang matiyak na tama ang impormasyon at magagamit ang web, ngunit hindi ko masisiguro na walang mga error o pagkaantala. Ang mga nilalaman ay nagbibigay-kaalaman at hindi pinapalitan ang propesyonal na payo sa iyong partikular na kaso."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "Ang web ay nag-a-link sa mga site ng ikatlong partido (mga social network, repository, mga web ng proyekto). Hindi ko kinokontrol ang kanilang nilalaman o mga patakaran at hindi ako mananagot para sa kanila."
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "7. Pagkapribado at cookies"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "Kung paano pinoproseso ang iyong mga datos at kung anong mga cookies ang ginagamit ay ipinaliwanag sa patakaran sa pagkapribado at sa patakaran sa cookies. Walang bahagi ng web ang nag-aatas sa iyong tanggapin ang mga cookies upang magamit ito."
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "8. Rehistro ng mga pagtanggap"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "Upang mapatunayan ang pahintulot kapag kinakailangan (Artikulo 7.1 ng RGPD), kapag tinanggap mo ang mga tuntuning ito sa contact form o pinili kung aling mga cookies ang pinapayagan, isang rehistro ang nai-save na may: isang pseudonymized identifier, kung ano ang tinanggihan o tinanggap mo, ang bersyon ng bawat dokumento, ang petsa at oras, ang pahina at ang wika kung saan mo ginawa ito, ang pinagmulan (banner, configuration o form), ang browser at, sa form, isang reference code na naglalakbay sa iyong email. Hindi nai-save ang iyong IP address. Ang mga detalye ay nasa patakaran sa pagkapribado."
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "9. Mga Wika"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "Ang bersyon sa Espanyol ng mga tekstong ito ang orihinal at mangingibabaw sakaling may pagdududa. Ang iba ay mga awtomatikong pagsasalin na inaalok para sa kaginhawaan."
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "10. Mga Pagbabago"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "Maaari kong i-update ang mga tuntuning ito upang i-adapt ang mga ito sa mga pagbabago sa batas o sa web. Ang petsa ng kasalukuyang bersyon ay lumalabas sa simula ng pahinang ito. Kung ang pagbabago ay mahalaga, hihilingin kong muli sa iyong tanggapin ang mga ito."
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "11. Naaangkop na batas at hurisdiksyon"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "Ang mga tuntuning ito ay pinamamahalaan ng batas ng Espanya. Kung kumikilos ka bilang isang mamimili, maaari kang pumunta sa mga korte ng iyong tirahan at sa mga sistema ng arbitrasyon at paglutas ng alitan ng mamimili ng iyong autonomous community. Sa iba pang mga kaso, ang parehong partido ay nagpapasakop sa mga hukuman at tribunal ng Benidorm (Alicante)."
+		}
+	},
+	"politica-reembolso": {
+		"meta/title": {
+			"hash": "bdcfda545addeea0886ff82b66b64f5f56f91e39aa6afa93ede2e498fc231c44",
+			"value": "Patakaran sa pagbabalik ng bayad — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "5b9e6941811b24b85c7ab3f7fc2f74a6a41fe53d808ff533e8fca8d66fbbc4da",
+			"value": "Paano gumagana ang mga pagkansela, ang karapatan sa pag-atras, at ang mga pagbabalik ng serbisyo ni Mario Álvarez."
+		},
+		"meta/heading": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Patakaran sa pagbabalik ng bayad"
+		},
+		"secciones/0/titulo": {
+			"hash": "ff143d312f054ce7182b3caf2913fadf9053edbe7bbc5126c0500dbf9924dcde",
+			"value": "1. Ang website na ito ay hindi naniningil ng mga bayad"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "14d92dd27a30ce3225cc0c90b70e3ebf5c3a8b786edbc2a8282dfefe97f97e3c",
+			"value": "Sa marioalvarez.me ay walang ibinebentang produkto o sinisingil na bayad online. Ang mga serbisyo (pagsusuri ng pagganap, pasadyang mga kasangkapan, mga database at ulat, at suporta sa karera) ay kinukuha nang hiwalay, na may nakasulat na panukala."
+		},
+		"secciones/1/titulo": {
+			"hash": "50402d539cae16eba5d0c0bd8ed574497c5bedd07c9f76a6c54b995228b9d194",
+			"value": "2. Kung ano ang sinasabi ng iyong panukala"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "dba3b38c35565ddc44e04919f2b2ca0f8953108a319093cee6475d431c6c77fa",
+			"value": "Ang bawat panukala ay nagpapahiwatig ng presyo, kung paano at kailan ito babayaran, at ang mga kundisyon ng pagkansela. Kung ang panukala ay nagsasabi ng iba kaysa sa patakarang ito, ang panukala ang masusunod, maliban na lamang kung ang patakarang ito ay nagbibigay sa iyo ng higit pang mga karapatan bilang isang mamimili."
+		},
+		"secciones/2/titulo": {
+			"hash": "4da83f4f1afe5790834f743bdc1ca5eaabe6d4a85865798796e14a32c2912fae",
+			"value": "3. Kung ikaw ay kakansela"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "e9dd1fcdc7020f5821d857b0db902ad60b806b130178587e00206cc2379bcdc4",
+			"value": "Maliban na lamang kung iba ang napagkasunduan sa pagsulat:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "3d2e21613adc4a86859e877cf39529e9de64cfaecebc6ee4ac24c9b268fec07b",
+			"value": "Kung kakanselahin mo bago magsimula ang trabaho, ibabalik ko nang buo ang anumang paunang bayad."
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "f9b70232e9bfc004f82934930816cccba917692c2ed1ba56637d5a85f27eed9c",
+			"value": "Kung kakanselahin mo habang nagsimula na ang trabaho, sisingilin lamang ang bahaging nagawa na at ibabalik ko ang natitira sa iyong inilaang bayad."
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "367ad099f56f6a5ddd4c394d2e66479d6a7421c518e28ede6dc88e5229f6bed8",
+			"value": "Ang trabahong naihatid na at tinanggap ay hindi ibabalik, maliban na lamang kung ito ay may mga depekto na hindi naitama."
+		},
+		"secciones/3/titulo": {
+			"hash": "d7e3fed395f638f5604782dab666b621dd5f132a48b827e2fe042194881148cf",
+			"value": "4. Karapatan sa pag-atras (kung ikaw ay isang mamimili)"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "5e178abe0b325218fe10f437c89f7da3090cd74714a8a5c2adc1c35739b1804b",
+			"value": "Kung ikaw ay nakipagkontrata bilang isang mamimili (isang taong kumikilos sa labas ng kanyang propesyonal na aktibidad) at ang kontrata ay sarado sa malayo, sa pamamagitan ng email o sa telepono, ikaw ay may 14 na araw ng kalendaryo mula sa pagsasara nito upang umatras nang walang pagbibigay ng mga paliwanag, ayon sa mga artikulo 102 hanggang 108 ng pinagsama-samang teksto ng Pangkalahatang Batas para sa Depensa ng mga Mamimili at Gumagamit (Real Decreto Legislativo 1/2007)."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "f6ccce5a6cdfe56e4eb204d74e1064cfaaf14b0a6401d34d54943282934f4faa",
+			"value": "Kung hihilingin mo nang hayagan na simulan ko ang pagtatrabaho sa loob ng mga 14 na araw na iyon at pagkatapos ay umatras ka, babayaran mo lamang ang proporsyonal na bahagi ng serbisyong ibinigay hanggang sa sandaling iyon. Kung ang serbisyo ay nakumpleto nang buo sa loob ng takdang panahon, sa iyong nauna at hayagang pagsang-ayon at alam na sa gayon ay mawawala sa iyo ang karapatang ito, hindi ka na maaaring umatras (artikulo 103.a)."
+		},
+		"secciones/4/titulo": {
+			"hash": "a6b6f5e3070a156219fd0eb8a8485c11404e66c1db10f2be65a78ccea7dadb43",
+			"value": "5. Paano ito hilingin"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "faffb4c0f6bdf1648e409afaf168c981f036d78cdc26c1f190944b92d95326c9",
+			"value": "Sumulat sa akin sa {email} kasama ang iyong pangalan, ang serbisyo, at ang petsa kung kailan mo ito kinuha. Maaari mong gamitin ang modelong ito ng form ng pag-atras (hindi sapilitan):"
+		},
+		"secciones/4/bloques/1/items/0": {
+			"hash": "02f390f8ef61e6f8180ebd55d94bf24cd7742af44ba37433395550e7a2f7082f",
+			"value": "Para sa atensyon ni {nombre}, {domicilio}, {email}:"
+		},
+		"secciones/4/bloques/1/items/1": {
+			"hash": "6705d14225a84c97d190c86895abdd4ae2b7b92e03befbd46052e9ac22718df4",
+			"value": "Sa pamamagitan nito ay ipinapaalam ko sa iyo na umaatras ako sa aking kontrata sa pagbibigay ng sumusunod na serbisyo: [servicio]."
+		},
+		"secciones/4/bloques/1/items/2": {
+			"hash": "b756f3bd6d0bb6e148c0d59d09dae258a0f664174766530bdc6f938f5592e68a",
+			"value": "Kinontrata noong: [fecha]."
+		},
+		"secciones/4/bloques/1/items/3": {
+			"hash": "a1e157dce89e05f90d3590bcbac310ee77465b68928d5123598551e40aea2db8",
+			"value": "Pangalan ng mamimili: [nombre]."
+		},
+		"secciones/4/bloques/1/items/4": {
+			"hash": "6da3fe45c69b15e52be050ff970ab79ea26ee9b6bf0a7205d117978a159fdaff",
+			"value": "Tirahan ng mamimili: [domicilio]."
+		},
+		"secciones/4/bloques/1/items/5": {
+			"hash": "7fc0956f32767e8a77ad2f5755c8e13cf040d910c328534129ef063dc106acf4",
+			"value": "Petsa: [fecha]."
+		},
+		"secciones/5/titulo": {
+			"hash": "4f7a4409f1709a01b1af2b1edf6e71d467f7e5a5f4e0ed8c74717a33964f5b40",
+			"value": "6. Panahon at paraan ng pagbabalik"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "e842a6745c96e277d063610a98f358f325d922b561595105917cc4d9b5c2c97c",
+			"value": "Ibabalik ko ang nararapat sa loob ng maximum na 14 na araw ng kalendaryo mula sa iyong pakikipag-ugnayan sa iyong desisyon, sa pamamagitan ng parehong paraan ng pagbabayad na iyong ginamit, maliban na lamang kung magkasundo kami sa iba. Ang pagbabalik ay walang anumang gastos para sa iyo."
 		}
 	}
 }

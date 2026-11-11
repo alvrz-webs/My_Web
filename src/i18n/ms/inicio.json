@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Saintis data pakar dalam sukan",
-		"description": "Mario Álvarez, saintis data di Valencia yang pakar dalam analitik sukan. Data · Sport · Progress.",
+		"description": "Mario Álvarez, saintifik data di Valencia yang pakar dalam analitis sukan. Juara Sepanyol dalam acara madison dan pengarah sukan RFEC.",
 		"verProyectos": "Lihat projek",
-		"contacto": "Hubungi",
-		"verMas": "Lihat lagi",
+		"verServicios": "Lihat cara saya membantu anda",
+		"contacto": "Tulis kepada saya",
+		"verMas": "Baca lagi",
 		"verTodosProyectos": "Lihat semua projek",
-		"irAContacto": "Pergi ke kenalan",
+		"irAContacto": "Tulis kepada saya",
 		"herramientas": "Alat utama"
 	},
 	"hero": {
-		"eyebrow": "Saintis data · Analitik sukan · Valencia",
-		"titlePre": "Saya menukarkan data kepada ",
-		"titleHighlight": "keputusan yang jelas",
-		"subtitle": "Saya adalah jambatan antara analisis data dan sukan elit: saya mengubah metrik prestasi kepada strategi yang membawa perubahan ketara di atas padang.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, saintifik data",
+		"title": "Saya pernah menjadi juara Sepanyol dalam acara madison.",
+		"subtitle": "Kini saya sedang mempelajari Sains Data di UPV dan menganalisis perkara di sebalik prestasi: kuasa, beban dan keputusan. Saya tahu makna nombor bagi seorang pelumba kerana saya pernah menjadi pelumba itu.",
+		"palmaresLabel": "Pencapaian",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Kejuaraan Sepanyol madison",
+				"nota": "Velodrom, pada usia 18 tahun"
+			},
+			{
+				"pos": "6º",
+				"texto": "Kejuaraan Dunia velodrom",
+				"nota": "Pasukan Sepanyol"
+			},
+			{
+				"pos": "6º",
+				"texto": "Kejuaraan Eropah velodrom",
+				"nota": "Pasukan Sepanyol"
+			}
+		],
+		"retratoAlt": "Potret Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Bagaimana saya boleh membantu anda",
+		"text": "Saya bekerja dengan pasukan, jurulatih dan pelumba yang mempunyai data dan ingin memanfaatkannya. Serta dengan syarikat yang perlu menguruskan data mereka.",
+		"cta": "Ceritakan kes anda",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analisis prestasi",
+				"texto": "Saya membaca kuasa, beban dan keputusan dengan pandangan seorang pelumba. Saya menerangkan kepada anda apa yang sedang berlaku dan apa yang perlu diubah.",
+				"prueba": "Pelumba elit dan pengarah sukan RFEC, peringkat I dan II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Alat tersuai",
+				"texto": "Scraping, model dan aplikasi kecil dalam Python yang menjawab soalan khusus pasukan anda.",
+				"prueba": "Dua alat untuk pasukan Cofidis: kesukaran UCI dan profil perlumbaan."
+			},
+			{
+				"id": "datos",
+				"nombre": "Pangkalan data dan laporan",
+				"texto": "Pertanyaan yang lebih pantas, pangkalan data bersatu dan papan pemuka dalam Power BI yang mudah difahami pada pandangan pertama.",
+				"prueba": "Lebih daripada 580 jadual dan 100 juta rekod dalam pangkalan data yang saya optimumkan di SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Sokongan semasa perlumbaan",
+				"texto": "Persediaan perlumbaan, pemantauan pelumba dan kiromasaž semasa pertandingan.",
+				"prueba": "Staf Pasukan Komuniti Valencia."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Tentang saya",
-		"title": "Data dengan konteks trek, jalan raya dan pertandingan",
-		"text": "Saya Mario Álvarez, pelajar Sains Data di UPV dengan pengalaman sebenar dalam berbasikal profesional. Saya menggabungkan analisis data dengan prestasi sukan elit, untuk menukar setiap metrik kepada keputusan yang meningkatkan hasil."
+		"title": "Dari velodrom kepada data",
+		"text": "Saya sedang menuntut tahun ke-3 Ijazah Sarjana Muda dalam Sains Data di UPV dan telah menyelesaikan sarjana dalam pendigitalan dan teknologi yang diaplikasikan dalam sukan. Saya tidak pernah meninggalkan dunia berbasikal: saya masih berlumba di velodrom, melatih pelumba akar umbi dan bekerja sebagai kiromasaž dengan golongan profesional."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Pangkalan",
+			"value": "Benidorm dan Valencia"
+		},
+		{
 			"label": "Pendidikan",
-			"detail": "Ijazah Sarjana Muda Sains Data, Universitat Politècnica de València."
+			"value": "Ijazah Sarjana Muda Sains Data (UPV) dan Sarjana dalam Pendigitalan, Inovasi dan Teknologi dalam Sukan"
 		},
 		{
-			"value": "Elit",
-			"label": "Pengalaman",
-			"detail": "Kerja sebenar dalam pasukan berbasikal profesional."
+			"label": "Kelayakan",
+			"value": "Pengarah sukan RFEC, peringkat I dan II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pendekatan",
-			"detail": "Analitik yang diaplikasikan untuk penambahbaikan prestasi sukan."
+			"label": "Kini",
+			"value": "Tersedia untuk projek data dan prestasi"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Pengalaman",
-		"title": "Dua dunia, satu bahasa yang sama: prestasi",
-		"text": "Saya telah bersaing di peringkat tertinggi dan hari ini saya mengaplikasikan kriteria yang sama pada data: saya faham maksud nombor kepada seorang atlet kerana saya pernah menjadi atlet tersebut."
+		"title": "Dua laluan, satu kerja yang sama",
+		"text": "Dalam satu laluan, saya mengoptimumkan pangkalan data dan menulis model. Dalam satu lagi, saya menyediakan perlumbaan dan memantau pelumba. Kedua-duanya adalah mengenai perkara yang sama: mengukur dengan betul untuk membuat keputusan yang lebih baik.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "jadual dianalisis di SIME Telecom untuk menyatukan beberapa pangkalan data menjadi satu, tanpa menambah saiz perkakasan"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "rekod dalam pangkalan data yang sedang saya optimumkan"
+					},
+					{
+						"cifra": "2",
+						"texto": "alat dalam Python untuk pasukan Cofidis: kesukaran UCI dan profil perlumbaan"
+					}
+				]
+			},
+			{
+				"nombre": "Velodrom dan jalan raya",
+				"items": [
+					{
+						"cifra": "I dan II",
+						"texto": "peringkat pengarah sukan Persekutuan Berbasikal Diraja Sepanyol"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "usia pelumba akar umbi yang saya latih dan pantau bersama bapa saya"
+					},
+					{
+						"cifra": "2026",
+						"texto": "pembantu dengan Pasukan Komuniti Valencia dalam pertandingan"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Bercakap tentang data?",
-		"text": "Beritahu saya tentang projek anda dan kita cari bersama di mana terletaknya keputusan yang meningkatkan prestasi."
+		"title": "Pusingan terakhir",
+		"text": "Jika anda mempunyai data prestasi dan soalan yang belum dijawab, tulis kepada saya dan kita akan lihat bersama-sama."
 	}
 }

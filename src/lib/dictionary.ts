@@ -10,6 +10,8 @@ export type Page =
 	| 'contacto'
 	| 'politica-cookies'
 	| 'politica-privacidad'
+	| 'terminos'
+	| 'politica-reembolso'
 	| '404';
 
 // inicio/sobre-mi/experiencia en es/en siguen viviendo en src/data/ (y src/data/en/) porque el
@@ -32,7 +34,45 @@ function leer(lang: string, page: Page): Record<string, unknown> | undefined {
 	return modulosI18n[`../i18n/${lang}/${page}.json`]?.default;
 }
 
-/** Diccionario de una página para un locale, con fallback a ES si ese locale aún no está traducido. */
-export function getDict(lang: Locale, page: Page): Record<string, unknown> {
-	return leer(lang, page) ?? leer(DEFAULT_LOCALE, page) ?? {};
+type Dict = Record<string, unknown>;
+
+const esObjeto = (v: unknown): v is Dict => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+// Mezcla clave a clave: lo que falte en `encima` se toma de `base`. Así, cuando se añade una clave
+// nueva en es/en y aún no se ha ejecutado `npm run translate`, los demás idiomas no se rompen.
+// Las listas con la misma longitud que la de base se mezclan elemento a elemento, de modo que un
+// elemento traducido a medias (por ejemplo, un resultado del palmarés sin su texto) también se
+// completa con la base en vez de quedar vacío.
+function mezclarValor(base: unknown, encima: unknown): unknown {
+	if (encima === undefined || encima === null) return base;
+	if (esObjeto(encima) && esObjeto(base)) return mezclar(base, encima);
+	if (Array.isArray(encima) && Array.isArray(base) && encima.length === base.length) {
+		return encima.map((valor, i) => mezclarValor(base[i], valor));
+	}
+	return encima;
+}
+
+function mezclar(base: Dict, encima: Dict): Dict {
+	const resultado: Dict = { ...base };
+	for (const [clave, valor] of Object.entries(encima)) {
+		resultado[clave] = mezclarValor(base[clave], valor);
+	}
+	return resultado;
+}
+
+/**
+ * Diccionario de una página para un locale. Las claves que falten se rellenan con el inglés
+ * (o con el español, si tampoco hay inglés), para que una clave nueva sin traducir nunca deje
+ * un hueco en la página.
+ */
+export function getDict(lang: Locale, page: Page): Dict {
+	const es = leer(DEFAULT_LOCALE, page) ?? {};
+	if (lang === DEFAULT_LOCALE) return es;
+	const en = lang === 'en' ? {} : (leer('en' as Locale, page) ?? {});
+	return mezclar(mezclar(es, en), leer(lang, page) ?? {});
+}
+
+/** El diccionario de un idioma tal cual está en su archivo, sin rellenar con es/en (o undefined). */
+export function getDictCrudo(lang: Locale, page: Page): Dict | undefined {
+	return leer(lang, page);
 }

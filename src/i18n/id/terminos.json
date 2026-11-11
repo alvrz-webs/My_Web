@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Syarat dan Ketentuan — Mario Álvarez",
+		"description": "Pemberitahuan hukum dan ketentuan penggunaan marioalvarez.me: siapa pemiliknya, bagaimana situs web ini dapat digunakan, dan hukum apa yang berlaku.",
+		"heading": "Syarat dan Ketentuan"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Siapa di balik situs web ini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Untuk mematuhi Pasal 10 Undang-Undang 34/2002, tentang layanan masyarakat informasi dan perdagangan elektronik (LSSI-CE), berikut adalah rincian pemilik marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Pemilik: {nombre}",
+						"NIF: {nif}",
+						"Alamat: {domicilio}",
+						"Email: {email}",
+						"Aktivitas: portofolio profesional dan penawaran layanan analisis data, alat khusus, basis data dan laporan, serta dukungan karier."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Apa yang diatur oleh ketentuan ini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ketentuan ini mengatur akses dan penggunaan marioalvarez.me (\"situs web\") dalam bahasa apa pun. Dengan menjelajahinya, Anda setuju untuk menggunakannya sesuai dengan apa yang dinyatakan di sini. Jika Anda menulis kepada saya melalui formulir kontak, saya meminta Anda untuk menyetujuinya secara tegas dengan mencentang kotak."
+				}
+			]
+		},
+		{
+			"titulo": "3. Bagaimana situs web dapat digunakan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Anda dapat berkonsultasi dan membagikan konten dengan mencantumkan sumbernya. Tidak diizinkan untuk:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"menggunakan situs web untuk tujuan yang melanggar hukum atau yang merugikan pihak ketiga;",
+						"mencoba mengakses area terbatas (seperti panel pribadi) atau sistem yang menghostingnya;",
+						"memperkenalkan virus atau kode berbahaya apa pun, atau sengaja membebani situs web secara berlebihan;",
+						"menyalin konten untuk disajikan sebagai milik sendiri."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Layanan dan kontrak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Situs web ini tidak menjual produk atau menerima pembayaran online. Jika Anda tertarik dengan layanan, kita dapat mendiskusikannya melalui email atau telepon dan saya akan mengirimkan proposal tertulis yang berisi cakupan, harga, tenggat waktu, serta ketentuan pembayaran dan pembatalan. Proposal tersebut, setelah disetujui oleh kedua belah pihak, adalah yang mengatur layanan dan lebih diutamakan daripada ketentuan ini."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Cara kerja pembatalan, hak penarikan diri, dan pengembalian dana dijelaskan dalam kebijakan pengembalian dana."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kekayaan intelektual dan industri",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Teks, desain, kode asli, logo, dan foto Mario Álvarez adalah milik pribadinya atau digunakan dengan izin dari penulisnya. Dilarang mereproduksinya untuk tujuan komersial tanpa izin tertulis."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nama dan logo pihak ketiga (seperti LinkedIn, GitHub, Instagram, atau tim dan entitas yang disebutkan dalam pengalaman) adalah milik pemiliknya masing-masing. Menyebutkannya tidak menyiratkan hubungan komersial atau sponsor apa pun, kecuali dinyatakan secara tegas."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Situs web ini menggunakan sumber daya pihak ketiga dengan lisensi yang mengizinkannya: huruf Fira Sans Extra Condensed dan Source Serif 4 (SIL Open Font License 1.1), ikon Lucide (lisensi ISC) dan Simple Icons (CC0 1.0), serta pustaka animasi GSAP (lisensi standar gratis GreenSock, dari Webflow). Setiap proyek yang ditautkan di GitHub memiliki lisensinya sendiri."
+				}
+			]
+		},
+		{
+			"titulo": "6. Tanggung jawab",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saya bekerja untuk memastikan informasi sudah benar dan situs web tersedia, tetapi saya tidak dapat menjamin bahwa tidak ada kesalahan atau gangguan. Konten bersifat informatif dan bukan pengganti nasihat profesional untuk kasus spesifik Anda."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Situs web ini menautkan ke situs pihak ketiga (jejaring sosial, repositori, situs web proyek). Saya tidak mengontrol konten atau kebijakan mereka dan tidak bertanggung jawab atasnya."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privasi dan cookie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bagaimana data Anda diperlakukan dan cookie apa yang digunakan dijelaskan dalam kebijakan privasi dan kebijakan cookie. Tidak ada bagian dari situs web yang mengharuskan Anda menerima cookie agar dapat menggunakannya."
+				}
+			]
+		},
+		{
+			"titulo": "8. Catatan persetujuan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Untuk dapat membuktikan persetujuan bila diperlukan (Pasal 7.1 GDPR), ketika Anda menyetujui ketentuan ini dalam formulir kontak atau memilih cookie apa yang diizinkan, catatan disimpan dengan: pengidentifikasi samaran, apa yang Anda setujui atau tolak, versi setiap dokumen, tanggal dan waktu, halaman dan bahasa tempat Anda melakukannya, asal (banner, konfigurasi, atau formulir), peramban, dan, dalam formulir, kode referensi yang disertakan dalam email Anda. Alamat IP Anda tidak disimpan. Detailnya ada di kebijakan privasi."
+				}
+			]
+		},
+		{
+			"titulo": "9. Bahasa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Versi Spanyol dari teks-teks ini adalah versi asli dan berlaku jika ada keraguan. Versi lainnya adalah terjemahan otomatis yang disediakan untuk kenyamanan."
+				}
+			]
+		},
+		{
+			"titulo": "10. Perubahan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saya dapat memperbarui ketentuan ini agar sesuai dengan perubahan hukum atau situs web. Tanggal versi saat ini muncul di bagian atas halaman ini. Jika perubahannya signifikan, saya akan meminta Anda untuk menyetujuinya kembali."
+				}
+			]
+		},
+		{
+			"titulo": "11. Hukum yang berlaku dan yurisdiksi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ketentuan ini diatur oleh hukum Spanyol. Jika Anda bertindak sebagai konsumen, Anda dapat pergi ke pengadilan di tempat tinggal Anda dan ke sistem arbitrase dan penyelesaian sengketa konsumen di komunitas otonom Anda. Dalam kasus lain, kedua belah pihak tunduk pada pengadilan dan tribunal Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

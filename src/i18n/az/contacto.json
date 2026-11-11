@@ -3,11 +3,54 @@
 		"title": "Əlaqə — Mario Álvarez",
 		"description": "Məlumatlar, idman göstəriciləri və layihələr haqqında danışmaq üçün Mario Álvarez ilə əlaqə saxlayın.",
 		"eyebrow": "Əlaqə",
-		"heading": "Məlumatlarınız və həll edilməli bir sualınız varmı?",
-		"intro": "Gəlin danışaq. İstər idman analitikası layihəsi, istər məlumat əməkdaşlığı, istərsə də müzakirə etmək istədiyiniz bir fikir olsun, məmnuniyyətlə cavab verirəm.",
+		"heading": "Məlumatlarınız və bir sualınız var?",
+		"intro": "Gəlin danışaq. İstər idman analitikası layihəsi, istər məlumat əməkdaşlığı, istərsə də müzakirə etmək istədiyiniz bir fikir olsun, mən özüm cavab verirəm.",
 		"email": "Email",
 		"telefono": "Telefon",
 		"verTelefono": "Telefon nömrəsinə bax",
-		"redesSociales": "Sosial şəbəkələr"
+		"redesSociales": "Sosial şəbəkələr",
+		"temaTitulo": "Nə haqqında danışmaq istəyirsiniz?",
+		"temaAyuda": "Bir mövzu seçin və mən sizə hazırcavab e-poçt buraxım. Sadəcə, vəziyyətinizi mənə danışmalısınız.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Performans analizi"
+			},
+			{
+				"id": "herramientas",
+				"label": "Xüsusi hazırlanmış alət"
+			},
+			{
+				"id": "datos",
+				"label": "Məlumat bazaları və hesabatlar"
+			},
+			{
+				"id": "carrera",
+				"label": "Karyera dəstəyi"
+			},
+			{
+				"id": "otro",
+				"label": "Başqa bir şey"
+			}
+		],
+		"escribir": "E-poçt yazmaq",
+		"copiar": "E-poçtu kopyala",
+		"copiado": "E-poçt kopyalandı",
+		"asunto": "marioalvarez.me saytından sorğu",
+		"cuerpo": "Salam Mario:\n\nSizə bununla bağlı yazıram: {tema}.\n\nMəndə olanlar:\n\nBilmək istədiklərim:\n\nTəşəkkürlər.",
+		"otrosCanales": "Digər kanallar",
+		"base": "Baza",
+		"baseValor": "Benidorm və Valensiya",
+		"idiomas": "Dillər",
+		"idiomasValor": "İspan, valensiyalı və ingilis dilləri",
+		"aceptacionesTitulo": "Mənə yazmazdan əvvəl",
+		"aceptoTerminos": "{enlace} oxudum və qəbul edirəm.",
+		"enlaceTerminos": "şərtlər və qaydalar",
+		"aceptoCookies": "{enlace} təsvir olunan analitika kukilərini qəbul edirəm (könüllü).",
+		"enlaceCookies": "kuki siyasəti",
+		"faltaTerminos": "Mənə yazmaq üçün əvvəlcə şərtlər və qaydalar qutusunu işarələyin.",
+		"primeraCapa": "Məsul şəxs: Mario Álvarez Martínez. Məqsəd: sorğunuza cavab vermək və əgər istəsəniz, sizə təklif hazırlamaq. Legitimasiya: sizin müraciətiniz. Alıcılar: heç kim, qanuni öhdəlik istisna olmaqla. Hüquqlar: giriş, düzəliş, silinmə və {enlace} izah olunan digər hüquqlar.",
+		"enlacePrivacidad": "məxfilik siyasəti",
+		"refEmail": "Şərtlərin qəbul edilməsi istinadı: {ref}"
 	}
 }

@@ -3,11 +3,54 @@
 		"title": "Contact — Mario Álvarez",
 		"description": "Ia legătura cu Mario Álvarez pentru a discuta despre date, performanță sportivă și proiecte.",
 		"eyebrow": "Contact",
-		"heading": "Ai date și o întrebare de rezolvat?",
-		"intro": "Hai să vorbim. Fie că este vorba despre un proiect de analiză sportivă, o colaborare legată de date sau pur și simplu o idee pe care vrei să o dezbați, îți răspund cu plăcere.",
+		"heading": "Ai date și o întrebare?",
+		"intro": "Hai să vorbim. Fie că este vorba despre un proiect de analitică sportivă, o colaborare în domeniul datelor sau o idee pe care vrei să o discuți, îți răspund eu.",
 		"email": "Email",
 		"telefono": "Telefon",
 		"verTelefono": "Vezi telefonul",
-		"redesSociales": "Rețele sociale"
+		"redesSociales": "Rețele sociale",
+		"temaTitulo": "Despre ce vrei să vorbim?",
+		"temaAyuda": "Alege un subiect și îți pregătesc e-mailul. Trebuie doar să îmi povestești cazul tău.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analiza performanței"
+			},
+			{
+				"id": "herramientas",
+				"label": "Un instrument personalizat"
+			},
+			{
+				"id": "datos",
+				"label": "Baze de date și rapoarte"
+			},
+			{
+				"id": "carrera",
+				"label": "Sprijin în carieră"
+			},
+			{
+				"id": "otro",
+				"label": "Altceva"
+			}
+		],
+		"escribir": "Scrie e-mailul",
+		"copiar": "Copiază e-mailul",
+		"copiado": "E-mail copiat",
+		"asunto": "Întrebare de pe marioalvarez.me",
+		"cuerpo": "Salut Mario:\n\nÎți scriu referitor la: {tema}.\n\nCe am:\n\nCe aș vrea să știu:\n\nMulțumesc.",
+		"otrosCanales": "Alte canale",
+		"base": "Bază",
+		"baseValor": "Benidorm și Valencia",
+		"idiomas": "Limbi vorbite",
+		"idiomasValor": "Spaniolă, valenciană și engleză",
+		"aceptacionesTitulo": "Înainte de a man scrie",
+		"aceptoTerminos": "Am citit și accept {enlace}.",
+		"enlaceTerminos": "termenii și condițiile",
+		"aceptoCookies": "Accept cookie-urile de analiză descrise în {enlace} (opțional).",
+		"enlaceCookies": "politica de cookie-uri",
+		"faltaTerminos": "Pentru a îmi scrie, bifează mai întâi căsuța pentru termeni și condiții.",
+		"primeraCapa": "Responsabil: Mario Álvarez Martínez. Scop: să răspund solicitării tale și, dacă îmi ceri, să îți pregătesc o propunere. Legitimare: solicitarea ta. Destinatari: nimeni, cu excepția obligațiilor legale. Drepturi: acces, rectificare, ștergere și celelalte explicate în {enlace}.",
+		"enlacePrivacidad": "politica de confidențialitate",
+		"refEmail": "Referință de acceptare a termenilor: {ref}"
 	}
 }

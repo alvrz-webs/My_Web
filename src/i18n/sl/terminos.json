@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Pogoji uporabe — Mario Álvarez",
+		"description": "Pravno obvestilo in pogoji uporabe spletnega mesta marioalvarez.me: kdo je lastnik, kako se lahko spletno mesto uporablja in veljavna zakonodaja.",
+		"heading": "Pogoji uporabe"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kdo stoji za tem spletnim mestom",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "V skladu s členom 10 zakona 34/2002 o storitvah družbe informacijske tehnologije in elektronskem poslovanju (LSSI-CE) so tukaj navedeni podatki o lastniku spletnega mesta marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Lastnik: {nombre}",
+						"NIF: {nif}",
+						"Naslov: {domicilio}",
+						"Email: {email}",
+						"Dejavnost: strokovni portfelj in ponudba storitev s področja analize podatkov, izdelave orodij po meri, baz podatkov, poročil ter podpore pri karieri."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Kaj urejajo ti pogoji",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ti pogoji urejajo dostop do spletnega mesta marioalvarez.me in njegovo uporabo (v nadaljevanju: »spletno mesto«) v katerem koli od njegovih jezikov. Z brskanjem po njem se strinjate, da ga boste uporabljali v skladu s tem, kar je navedeno tukaj. Če mi pišete prek kontaktnega obrazca, vas prosim, da jih izrecno sprejmete z označitvijo polja."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kako se lahko spletno mesto uporablja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vsebine si lahko ogledate in jih delite, če navedete njihov vir. Ni dovoljeno:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"uporabljati spletnega mesta v nezakonite namene ali v škodo tretjih oseb;",
+						"poskušati dostopati do omejenih območij (kot je zasebna plošča) ali do sistemov, ki gostijo spletno mesto;",
+						"vnašati virusov ali kakršne koli škodljive kodo oziroma namerno preobremenjevati spletnega mesta;",
+						"kopirati vsebin z namenom, da jih predstavite kot lastne."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Storitve in naročanje",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Spletno mesto ne prodaja izdelkov in ne prejema spletnih plačil. Če vas storitev zanima, se o tem pogovoriva preko e-pošte ali telefona, jaz pa vam pošljem pisno ponudbo, ki vključuje obseg, ceno, roke ter pogoje plačila in odpovedi. Ko bosta obe strani sprejeli to ponudbo, le-ta ureja storitev in ima prednost pred temi pogoji."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Delovanje odpovedi, pravice do odstopa od pogodbe in vračil je razloženo v politiki vračil."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intelektualna in industrijska lastnina",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Besedila, oblikovanje, lastna koda, logotip in fotografije Maria Álvareza so njegova last ali pa se uporabljajo z dovoljenjem njihovih avtorjev. Reproduciranje v komercialne namene brez pisnega dovoljenja ni dovoljeno."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Imena in logotipi tretjih oseb (kot so LinkedIn, GitHub, Instagram ali ekipe in subjekti, omenjeni v izkušnjah) pripadajo njihovim lastnikom. Njihova omemba ne pomeni nobene poslovne zveze ali sponzorstva, razen če je to izrecno navedeno."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Spletno mesto uporablja vire tretjih oseb z ustreznimi dovoljenji: pisave Fira Sans Extra Condensed in Source Serif 4 (SIL Open Font License 1.1), ikone Lucide (licenca ISC) in Simple Icons (CC0 1.0) ter knjižnico za animacijo GSAP (brezplačna standardna licenca GreenSock podjetja Webflow). Vsak projekt, povezan na GitHub, ima svojo lastno licenco."
+				}
+			]
+		},
+		{
+			"titulo": "6. Odgovornost",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Prizadevam si, da so informacije točne in spletno mesto dostopno, vendar ne morem jamčiti, da ni napak ali prekinitev. Vsebine so informativne narave in ne nadomeščajo strokovnega svetovanja za vaš konkretni primer."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Spletno mesto vsebuje povezave do spletnih mest tretjih oseb (omrežij, repozitorijev, spletnih mest projektov). Njihove vsebine ali politik ne nadzorujem in zanje ne odgovarjam."
+				}
+			]
+		},
+		{
+			"titulo": "7. Zasebnost in piškotki",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Obravnava vaših podatkov in vrsti uporabljenih piškotkov sta razloženi v politiki zasebnosti in politiki piškotkov. Noben del spletnega mesta vas ne sili k sprejemu piškotkov za njegovo uporabo."
+				}
+			]
+		},
+		{
+			"titulo": "8. Evidenca privolitev",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Da bi lahko dokazal privolitev, kadar je to potrebno (člen 7.1 Splošne uredbe o varstvu podatkov – GDPR), se ob sprejemu teh pogojev v kontaktnem obrazcu ali izbiri dovoljenih piškotkov shrani zapis, ki vsebuje: psevdonimni identifikator, kaj ste sprejeli ali zavrnili, različico posameznega dokumenta, datum in uro, stran in jezik, s katerih ste to storili, vir (pasica, nastavitve ali obrazec), brskalnik in v obrazcu referenčno kodo, ki se prenaša v vaši e-pošti. Vaš naslov IP se ne shrani. Podrobnosti so na voljo v politiki zasebnosti."
+				}
+			]
+		},
+		{
+			"titulo": "9. Jeziki",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Španska različica teh besedil je izvirna in ima prednost v primeru dvoma. Vse druge so samodejni prevodi, ponujeni za večje udobje."
+				}
+			]
+		},
+		{
+			"titulo": "10. Spremembe",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Te pogoje lahko posodobim, da jih prilagodim zakonskim spremembam ali spremembam na spletnem mestu. Datum veljavne različice je naveden na začetku te strani. Če bo sprememba pomembna, vas bom ponovno prosil za njihovo sprejetje."
+				}
+			]
+		},
+		{
+			"titulo": "11. Veljavna zakonodaja in pristojnost",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Za te pogoje velja španska zakonodaja. Če nastopate kot potrošnik, se lahko obrnete na sodišča v kraju vašega stalnega prebivalstva ter na sisteme za arbitražo in reševanje potrošniških sporov vaše avtonomne skupnosti. V vseh drugih primerih se obe stranki podvržeta sodiščem v Benidormu (Alicante)."
+				}
+			]
+		}
+	]
+}

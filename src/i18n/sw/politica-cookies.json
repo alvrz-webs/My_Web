@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Sera ya Vidhibiti — Mario Álvarez",
-		"description": "Vidhibiti ambavyo tovuti hii inatumia, kwa lengo gani na jinsi ya kubadilisha idhini yako wakati wowote.",
-		"eyebrow": "Kisheria",
-		"heading": "Sera ya Vidhibiti"
+		"version": "2026-11-10",
+		"title": "Sera ya vidakuku — Mario Álvarez",
+		"description": "Vidakuku ambavyo marioalvarez.me inatumia, ambavyo vinahitaji idhini yako, na jinsi ya kubadilisha chaguo lako wakati wowote.",
+		"heading": "Sera ya vidakuku",
+		"eleccionTitulo": "Chaguo lako",
+		"eleccionTexto": "Unaweza kubadilisha au kufuta data yako wakati wowote unapotaka, kwa urahisi ule ule uliyoitoa."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Tovuti hii inatumia vidhibiti na teknolojia zinazofanana (kama vile hifadhi ya ndani ya kivinjari) kwa ajili ya uendeshaji wake sahihi na, ukitoa idhini yako, kuchambua kwa njia isiyojulikana jinsi maudhui yanavyotumika."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Vidhibiti vinavyotumika:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Jina",
-				"Lengo",
-				"Aina",
-				"Muda"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Kukumbuka chaguo lako kuhusu sera hii ya vidhibiti",
-					"Ya kwake mwenyewe, ya kiufundi (haihitaji idhini)",
-					"miezi 12"
-				],
-				[
-					"visitante_id",
-					"Kitambulisho kisichojulikana cha kuhusisha ziara zako na kujua ni maudhui gani yanayofaa",
-					"Ya kwake mwenyewe, ya kiuchambuzi (inahitaji idhini yako)",
-					"miezi 12"
-				]
+			"titulo": "1. Ni nini na kama ninahitaji idhini yako",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vidakuku na teknolojia zinazofanana (kama vile hifadhi ya ndani ya kivinjari) huhifadhi data ndogo kwenye kifaa chako. Kulingana na sheria na miongozo husika, zile ambazo ni muhimu kabisa kwa jambo unaloliomba hazihitaji idhini; zile za uchambuzi, zinahitaji."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ndiyo maana tovuti hii huhifadhi tu kidakuku cha uchambuzi ikiwa unakikubali, na inakuacha ukubali au ukatae kwa vifungo viwili sawa, kwenye skrini ile ile na bila visanduku vilivyotiwa alama mapema. Kukataa hakukuzuii kutumia chochote kwenye tovuti."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Hakuna hata moja ya vidhibiti hivi iliyo ya watu wengine, hakuna inayotumika kwa malengo ya utangazaji, na hakuna inayoshirikiwa na mtu yeyote nje ya tovuti hii."
+			"titulo": "2. Vidakuku ambavyo tovuti hii inatumia",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Jina",
+						"Kwa nini",
+						"Aina",
+						"Je, inahitaji idhini yako?",
+						"Muda"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Kuhifadhi chaguo lako, toleo la sera hii na kitambulisho cha jina bandia cha rekodi yako ya idhini",
+							"Ya kwake, ya kiufundi",
+							"Hapana",
+							"Miezi 12"
+						],
+						[
+							"visitante_id",
+							"Kitambulisho cha jina bandia ili kujua ni maudhui gani yanayofaa",
+							"Ya kwake, ya uchambuzi",
+							"Ndiyo",
+							"Miezi 12"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Kukumbuka kama unapendelea mandhari mepesi au meusi; inahifadhiwa tu ikiwa utaibadilisha",
+							"Ya kwake, ya ubinafsishaji ulioombwa na wewe",
+							"Hapana",
+							"Hadi utakapoi<span>futa</span>"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Unaweza kubadilisha uamuzi wako au kuondoa idhini yako wakati wowote kutoka kwa kiungo \"Sanidi vidhibiti\" chini ya ukurasa, na kufuta mara moja data yako yote kwa kitufe \"Futa data yangu\" katika paneli hiyo hiyo."
+			"titulo": "3. Kile ambacho hakipo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hakuna vidakuku vya watu wengine, wala utangazaji, wala maudhui ya mitandao ya kijamii yaliyopachikwa, wala Google Analytics. Aina za herufi na picha zinatolewa kutoka kwenye tovuti hii hii."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Kwa habari zaidi kuhusu jinsi data yako inavyoshughulikiwa, angalia Sera ya Faragha."
+			"titulo": "4. Jinsi ya kubadilisha mawazo yako",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Unaweza kubadilisha chaguo lako au kuondoa idhini wakati wowote kutoka «Configurar cookies», chini ya kila ukurasa, au kwa kitufe kilicho kwenye ukurasa huu. Kutoka huko pia unaweza kufuta mara moja data ya uchambuzi inayohusishwa na kivinjari chako. Na unaweza kufuta vidakuku kutoka kwa mipangilio ya kivinjari chako."
+				}
+			]
+		},
+		{
+			"titulo": "5. Rekodi ya chaguo lako",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kila wakati unapokubali, kukataa au kuondoa idhini, rekodi inahifadhiwa (kitambulisho cha jina bandia, uamuzi, toleo la sera hii, tarehe na saa, ukurasa, lugha, chanzo na kivinjari), bila anwani yako ya IP, ili kuweza kuonyesha kwamba idhini ilikuwa halali. Inahifadhiwa kwa miaka 3. Maelezo zaidi katika sera ya faragha."
+				}
+			]
+		},
+		{
+			"titulo": "6. Mabadiliko",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ikiwa sera hii itabadilika kwa njia muhimu, arifa ya vidakuku itatokea tena ili uweze kuamua tena."
+				}
+			]
 		}
 	]
 }

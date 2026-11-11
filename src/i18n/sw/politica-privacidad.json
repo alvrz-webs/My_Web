@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Sera ya Faragha — Mario Álvarez",
-		"description": "Sera ya faragha ya tovuti ya Mario Álvarez: data gani inayokusukusanywa, kwa lengo gani na jinsi ya kutumia haki zako.",
-		"eyebrow": "Kisheria",
-		"heading": "Sera ya Faragha"
+		"version": "2026-11-10",
+		"title": "Sera ya faragha — Mario Álvarez",
+		"description": "Ni data gani ambazo marioalvarez.me inazichakata, kwa nini, kwa msingi gani wa kisheria, kwa muda gani na jinsi ya kutumia haki zako.",
+		"heading": "Sera ya faragha"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Msimamizi wa usindikaji",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, na anwani huko Benidorm (Alicante), Hispania. Mawasiliano: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Lango la usindikaji",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Tovuti hii inachambua ndani na kwa madhumuni ya takwimu pekee ni maudhui gani (sehemu, miradi) yanayoonekana kuwa muhimu zaidi kwa wale wanaotembelea, kwa lengo la kuboresha maudhui yake. Haitumiki kwa madhumuni ya utangazaji, haishirikiwi na wahusika wengine na haiuzwi chini ya hali yoyote."
-				}
-			]
-		},
-		{
-			"titulo": "3. Data inayokusanywa (tu ikiwa unakubali kuki za uchambuzi)",
+			"titulo": "1. Msimamizi",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Kitambulisho kisichojulikana cha nasibu, ambacho hakijaunganishwa na jina lako, barua pepe au habari nyingine yoyote inayokutambulisha moja kwa moja.",
-						"Kurasa na miradi unayotembelea, na wakati wa tahadhari kwa kila mmoja (wakati kichupo kikiwa hai).",
-						"Mwingiliano (kubofya miradi, viungo au vifungo).",
-						"Tarehe na wakati wa ziara.",
-						"Lugha ya tovuti iliyoshauriwa.",
-						"Aina ya kifaa (simu au eneo-kazi).",
-						"Nchi ya karibu, iliyopatikana kupitia miundombinu ya Cloudflare, bila kuhifadhi anwani yako ya IP.",
-						"Ukurasa wa asili (kwa mfano, LinkedIn au injini ya utafutaji)."
+						"Msimamizi: {nombre}",
+						"NIF: {nif}",
+						"Anwani: {domicilio}",
+						"Barua pepe kwa swali lolote la faragha: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Anwani yako ya IP haikusanywi, mbinu za utambulisho wa kivinjari (fingerprinting) hazitumiki, wala zana za wahusika wengine kama Google Analytics au zinazofanana."
+					"texto": "Kulingana na ukubwa na aina ya shughuli, sio lazima kuteua afisa wa ulinzi wa data, kwa hivyo hakuna: niandikie moja kwa moja."
 				}
 			]
 		},
 		{
-			"titulo": "4. Msingi wa kisheria",
+			"titulo": "2. Ni data gani ninayochakata, kwa nini na kwa sababu gani",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Usindikaji unategemea idhini yako ya wazi (kifungu cha 6.1.a cha GDPR na kifungu cha 22.2 cha LSSI-CE), ambayo unaweza kuiondoa wakati wowote kutoka kwa meneja wa kuki wa tovuti yenyewe."
+					"tipo": "tabla",
+					"columnas": [
+						"Kwa nini",
+						"Data gani",
+						"Msingi wa kisheria",
+						"Kwa muda gani"
+					],
+					"filas": [
+						[
+							"Uchanganuzi wa matumizi, tu ikiwa unakubali vidakuzi vya uchanganuzi",
+							"Kitambulisho cha siri cha mpangilio nasibu (kidakuzi visitante_id), sehemu na miradi unayotazama na muda kwenye kila moja, mibonyezo kwenye viungo na vitufe, lugha, aina ya kifaa (simu ya mkononi au kompyuta ya mezani), nchi ya takriban na ukurasa wa tovuti ambapo kila tukio hutokea.",
+							"Idhini yako (kifungu cha 6.1.a GDPR na kifungu cha 22.2 LSSI-CE).",
+							"Miezi 12; baada ya hapo kila tukio hufutwa kiotomatiki."
+						],
+						[
+							"Rekodi ya idhini",
+							"Kitambulisho cha siri, ulichokubali, ulichokataa au ulichokiondoa, toleo la kila hati, tarehe na saa, ukurasa, lugha, chanzo (bendera, mipangilio au fomu), kivinjari (wakala wa mtumiaji) na nchi ya takriban; katika fomu, kwa kuongezea, nambari ya marejeleo ya barua pepe yako.",
+							"Kutimiza wajibu wa kuweza kuonyesha idhini (vifungu vya 6.1.c na 7.1 GDPR).",
+							"Miaka 3 tangu kila rekodi (muda wa juu wa ukomo wa ukiukaji wa LOPDGDD); baada ya hapo hufutwa kiotomatiki."
+						],
+						[
+							"Kujibu swali lako kupitia barua pepe au simu",
+							"Data unayoamua kunitumia: kwa kawaida jina lako, barua pepe yako au simu na maudhui ya ujumbe.",
+							"Kutumia hatua za kabla ya mkataba kwa ombi lako (kifungu cha 6.1.b GDPR) au maslahi yangu halali ya kukujibu (kifungu cha 6.1.f).",
+							"Wakati wote wa mazungumzo na hadi mwaka 1 baadaye, isipokuwa tufikie mkataba."
+						],
+						[
+							"Kusimamia huduma iliyowekwa mkataba",
+							"Data ya utambulisho, mawasiliano na utozaji.",
+							"Utekelezaji wa mkataba (kifungu cha 6.1.b GDPR) na wajibu wa kodi na uhasibu (kifungu cha 6.1.c).",
+							"Kile kinachotakiwa na sheria za kodi na biashara (kwa ujumla, kati ya miaka 4 na 6)."
+						],
+						[
+							"Kukumbuka ikiwa unapendelea mada nyepesi au nyeusi",
+							"Upendeleo wa «tema», uliohifadhiwa tu kwenye kivinjari chako (uhifadhi wa ndani). Sijanifikia.",
+							"Kitendo unachokiomba kwa kubonyeza kitufe (kilichosamehewa kutoka kwa idhini kulingana na kifungu cha 22.2 LSSI-CE).",
+							"Hadi ukiifuta kutoka kwenye kivinjari chako."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Kipindi cha uhifadhi",
+			"titulo": "3. Ambayo siombi wala sikusanyi",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Data huhifadhiwa kwa upeo wa miezi 12 tangu ziara yako ya mwisho, baada ya hapo hufutwa kiotomatiki."
+					"texto": "Ninachakata tu kile kinachohitajika kwa kila lengo. Hasa:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Fomu ya mawasiliano haiombi jina lako, barua pepe yako wala simu yako: fungua programu yako ya barua pepe na wewe ndiye unayeamua nini cha kunitumia.",
+						"Sihifadhi anwani yako ya IP wala katika uchanganuzi wala katika rekodi ya idhini.",
+						"Situmii mbinu za utambulisho wa kivinjari (fingerprinting), Google Analytics, saizi za utangazaji au vidakuzi vya wengine.",
+						"Fonti na picha zinatolewa kutoka kwenye tovuti hii hii: unapoitembelea, kivinjari chako hakiunganishi na Google Fonts, GitHub au huduma zingine za nje."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Wanaopokea na uhamisho wa kimataifa",
+			"titulo": "4. Nani mwingine anayehusika",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Data haitolewi au kuuzwa kwa wahusika wengine. Imesitawishwa katika Cloudflare D1, huduma ya hifadhidata inayotolewa na Cloudflare, Inc., inayofanya kazi kama msimamizi wa usindikaji. Cloudflare inaweza kuchakata data nje ya Eneo la Kiuchumi la Ulaya; katika kesi hiyo, uhamisho huo unalindwa na Vifungu vya Kawaida vya Mkataba vilivyoidhinishwa na Tume ya Ulaya. Maelezo zaidi katika sera ya faragha ya Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Siuza wala sikabidhi data yako kwa mtu yeyote, isipokuwa wajibu wa kisheria. Ili tovuti ifanye kazi na kukujibu natumia watoa huduma hawa:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: inakaribisha tovuti na hifadhidata (Cloudflare Pages na D1) na hufanya kazi kama msimamizi wa uchakataji. Ili kutumikia tovuti inachakata data ya kiufundi ya muunganisho, kama vile IP yako, ambayo sina ufikiaji wake. Sera yake: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): huduma ya barua pepe ambapo ninapokea na kujibu barua pepe; inachakata ujumbe huo kulingana na sera yake yenyewe: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Haki zako",
+			"titulo": "5. Uhamisho wa kimataifa",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Unaweza kutumia wakati wowote haki zako za ufikiaji, marekebisho, kufuta, upinzani, upunguzaji wa usindikaji na uhamishaji kwa kuandika kwa malvmar5@hotmail.com. Kwa kuongeza, unaweza kufuta data yako mara moja, bila haja ya kuandika kwa mtu yeyote, kutoka kwa kifungo \"Borrar mis datos\" kinachopatikana katika mipangilio ya kuki ya tovuti. Pia una haki ya kuwasilisha malalamiko kwa Shirika la Ulinzi wa Data la Uhispania (www.aepd.es) ikiwa unaona kuwa haki zako hazijashughulikiwa vizuri."
+					"texto": "Cloudflare na Microsoft zinaweza kuchakata data nchini Marekani. Zote mbili zimeambatana na Mfumo wa Faragha ya Data wa EU-US (uamuzi wa kutosheleza wa Tume ya Ulaya wa tarehe 10 Julai 2023) na pia zinatoa vifungu vya kawaida vya mkataba vilivyoidhinishwa na Tume."
 				}
 			]
 		},
 		{
-			"titulo": "8. Mabadiliko katika sera hii",
+			"titulo": "6. Haki zako",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Sera hii inaweza kusasishwa ili kukabiliana na mabadiliko ya kisheria au ya tovuti yenyewe."
+					"texto": "Unaweza kuniomba wakati wowote kupata data yako, kuirekebisha, kuifuta, kupinga uchakataji wake, kuiwekea kikomo au kuipokea ili kuihamisha mahali pengine (kuhamishika), na kuondoa idhini yako bila hiyo kuathiri yaliyochakatwa hapo awali. Niandikie kwa {email}; nitakujibu ndani ya upeo wa mwezi mmoja."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Data ya uchanganuzi unaweza kuifuta mwenyewe mara moja kwa kitufe cha «Borrar mis datos» cha mipangilio ya vidakuzi. Rekodi ya idhini inahifadhiwa hata kama utaondoa idhini, kwa sababu inatumika hasa kuthibitisha ulipoitoa na ulipoiondoa."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ikiwa unaamini kuwa sijashughulikia haki zako vizuri, unaweza kulalamika mbele ya Wakala wa Ulinzi wa Data wa Uhispania: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Watoto wadogo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tovuti haielekezwi kwa watoto walio chini ya miaka 14. Ikiwa una chini ya miaka 14, usinitumie data ya kibinafsi bila ruhusa ya wazazi au walezi wako (kifungu cha 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Usalama",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data inasafiri ikiwa imesimbwa kwa njia fiche (HTTPS) na inahifadhiwa katika hifadhidata ambayo inafikiwa tu kutoka kwa paneli ya kibinafsi, iliyolindwa na jina la mtumiaji na nenosiri."
+				}
+			]
+		},
+		{
+			"titulo": "9. Mabadiliko katika sera hii",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ikiwa kitu muhimu kitabadilika, nitasasisha ukurasa huu na tarehe yake ya toleo. Ikiwa mabadiliko yataathiri vidakuzi, utaulizwa tena."
 				}
 			]
 		}

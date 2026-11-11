@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Etusivu",
 		"sobreMi": "Minusta",
 		"proyectos": "Projektit",
 		"experiencia": "Kokemus",
@@ -7,10 +8,22 @@
 		"ariaMain": "Päänavigaatio",
 		"openMenu": "Avaa valikko"
 	},
+	"saltar": "Siirry sisältöön",
+	"tema": "Vaihda vaalean ja tumman tilan välillä",
+	"telefono": "Puhelin",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Madisonin Espanjan mestari. Datatieteilijä.",
+		"disponible": "Käytettävissä data- ja urheilusuorituskykyprojekteihin.",
+		"escribeme": "Kirjoita minulle",
+		"navLabel": "Osiot",
+		"legalLabel": "Oikeudelliset tiedot",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sosiaalinen media"
+	},
+	"cierre": {
+		"title": "Jutellaanko?",
+		"text": "Jos sinulla on suorituskykydataa ja vastaamattomia kysymyksiä, kirjoita minulle, niin katsotaan sitä yhdessä.",
+		"cta": "Kirjoita minulle"
 	},
 	"langSwitch": {
 		"label": "Vaihda kieltä",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Evästesuostumus"
 	},
 	"legal": {
+		"terminos": "Käyttöehdot",
 		"privacidad": "Tietosuojakäytäntö",
-		"cookies": "Evästekäytäntö"
+		"cookies": "Evästekäytäntö",
+		"reembolso": "Hyvityskäytäntö",
+		"actualizado": "Viimeisin päivitys",
+		"indice": "Tällä sivulla",
+		"otros": "Muut asiakirjat"
 	},
 	"person": {
 		"jobTitle": "Datatieteilijä",
 		"description": "Urheiluanalytiikkaan erikoistunut datatieteilijä, jolla on kokemusta ammattilaispyöräilystä."
+	},
+	"pizarra": {
+		"vueltas": "kierrokset",
+		"campana": "viimeisin"
 	}
 }

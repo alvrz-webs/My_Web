@@ -3,7 +3,13 @@
 		"title": "Apie mane — Mario Álvarez",
 		"description": "Nuo Ispanijos madison čempiono iki Duomenų mokslo studento: Mario Álvarez kelionė tarp elito dviračių sporto ir sporto analitikos.",
 		"eyebrow": "Apie mane",
-		"heading": "Nuo velodromo iki duomenų"
+		"heading": "Nuo velodromo iki duomenų",
+		"lead": "Vis dar tebėraU dviračių sporte, treke ir komandos mašinoje. Pasikeitė tik tai, į jį žiūriu: dabar ir per duomenų prizmę.",
+		"historiaTitulo": "Lenktynininkas, direktorius ir duomenų mokslininkas",
+		"fichaTitulo": "Trumpai",
+		"fichaTexto": "Esminiai dalykai, jei skubate.",
+		"retratoAlt": "Mario Álvarez portretas",
+		"escenaFrase": "Pirma – kojos. Dabar – duomenys."
 	},
 	"bio": [
 		"Pradėjau nuo varžybų. Būdamas 18-os tapau Ispanijos madison velodromo čempionu, o Ispanijos dviračių sporto rinktinė mane pakvietė į pasaulio ir Europos čempionatus, kuriuose užėmiau šeštąją vietą, o tai man suteikė elito sportininko statusą.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Bazė",
-			"value": "Benidorm · Valencia"
+			"value": "Benidormas ir Valensija"
 		},
 		{
 			"label": "Būsena",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fokusas",
-			"value": "Duomenys + sportiniai rezultatai"
+			"value": "Duomenys ir sportiniai rezultatai"
 		},
 		{
 			"label": "Kalbos",
-			"value": "Gimtoji Ispanų · Valonų · Anglų B1"
+			"value": "Ispanų (gimtoji), valencianų ir anglų (B1)"
 		},
 		{
 			"label": "Išsilavinimas",
-			"value": "Duomenų mokslo laipsnis (UPV) · Skaitmeninimo, inovacijų ir technologijų sporte magistras"
+			"value": "Duomenų mokslo bakalauras (UPV) ir Skaitmenizacijos, inovacijų ir technologijų sporte magistras"
 		}
 	]
 }

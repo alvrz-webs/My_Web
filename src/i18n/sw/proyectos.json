@@ -4,7 +4,10 @@
 		"description": "Hazina na miradi ya uchambuzi wa data, uonyeshaji na kujifunza kwa mashine ya Mario Álvarez.",
 		"eyebrow": "Miradi",
 		"heading": "Miradi",
-		"intro": "Mtazamo wa kazi yangu: kuanzia zana za baiskeli ya kitaalamu hadi miradi ya kitaaluma ya uchambuzi na kujifunza kwa mashine."
+		"intro": "Mtazamo wa kazi yangu: kuanzia zana za baiskeli ya kitaalamu hadi miradi ya kitaaluma ya uchambuzi na kujifunza kwa mashine.",
+		"cifraRepos": "hazina za umma katika GitHub",
+		"cifraWebs": "tovuti zilizochapishwa",
+		"cifraHerramientas": "lugha na zana"
 	},
 	"list": {
 		"eyebrow": "Kazi",

@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Điều khoản và điều kiện — Mario Álvarez",
+		"description": "Thông báo pháp lý và điều kiện sử dụng của marioalvarez.me: ai là chủ sở hữu, cách sử dụng trang web và luật pháp nào được áp dụng.",
+		"heading": "Điều khoản và điều kiện"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ai đứng sau trang web này",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Để tuân thủ Điều 10 của Đạo luật 34/2002 về dịch vụ xã hội thông tin và thương mại điện tử (LSSI-CE), đây là thông tin về chủ sở hữu của marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Chủ sở hữu: {nombre}",
+						"NIF: {nif}",
+						"Địa chỉ: {domicilio}",
+						"Email: {email}",
+						"Hoạt động: hồ sơ năng lực chuyên nghiệp và cung cấp các dịch vụ phân tích dữ liệu, công cụ tùy chỉnh, cơ sở dữ liệu, báo cáo và hỗ trợ nghề nghiệp."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Các điều khoản này quy định những gì",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Các điều khoản này quy định việc truy cập và sử dụng marioalvarez.me («trang web») bằng bất kỳ ngôn ngữ nào của trang. Bằng cách duyệt web, bạn đồng ý sử dụng trang web theo những gì được nêu ở đây. Nếu bạn liên hệ với tôi qua biểu mẫu liên hệ, tôi yêu cầu bạn chấp nhận rõ ràng các điều khoản này bằng cách đánh dấu vào ô trống."
+				}
+			]
+		},
+		{
+			"titulo": "3. Cách sử dụng trang web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bạn có thể tham khảo và chia sẻ nội dung bằng cách trích dẫn nguồn gốc. Không được phép:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"sử dụng trang web cho các mục đích bất hợp pháp hoặc gây tổn hại cho bên thứ ba;",
+						"cố gắng truy cập các khu vực bị hạn chế (như bảng điều khiển riêng tư) hoặc các hệ thống lưu trữ trang web;",
+						"đưa virus hoặc bất kỳ mã độc hại nào, hoặc cố tình làm quá tải trang web;",
+						"sao chép nội dung để trình bày là của riêng bạn."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Dịch vụ và ký kết hợp đồng",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Trang web không bán sản phẩm hoặc thu thanh toán trực tuyến. Nếu bạn quan tâm đến một dịch vụ, chúng ta sẽ thảo luận qua email hoặc điện thoại và tôi sẽ gửi cho bạn một đề xuất bằng văn bản bao gồm phạm vi, giá cả, thời hạn, điều kiện thanh toán và hủy bỏ. Đề xuất đó, một khi được cả hai bên chấp nhận, sẽ chi phối dịch vụ và có ưu thế hơn các điều khoản này."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Cách thức hoạt động của việc hủy bỏ, quyền rút lui và đổi trả được giải thích trong chính sách hoàn tiền."
+				}
+			]
+		},
+		{
+			"titulo": "5. Sở hữu trí tuệ và công nghiệp",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Văn bản, thiết kế, mã nguồn riêng, logo và ảnh của Mario Álvarez thuộc quyền sở hữu của ông hoặc được sử dụng với sự cho phép của tác giả. Không được phép sao chép chúng cho mục đích thương mại mà không có sự cho phép bằng văn bản."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Tên và logo của bên thứ ba (như LinkedIn, GitHub, Instagram hoặc các đội ngũ và tổ chức được đề cập trong phần kinh nghiệm) thuộc về chủ sở hữu của họ. Việc đề cập đến họ không hàm ý bất kỳ mối quan hệ thương mại hay sự tài trợ nào, trừ khi được nêu rõ ràng."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Trang web sử dụng tài nguyên của bên thứ ba với giấy phép cho phép: phông chữ Fira Sans Extra Condensed và Source Serif 4 (Giấy phép SIL Open Font License 1.1), biểu tượng từ Lucide (giấy phép ISC) và Simple Icons (CC0 1.0) cùng thư viện hoạt ảnh GSAP (giấy phép chuẩn miễn phí của GreenSock, từ Webflow). Mỗi dự án được liên kết trên GitHub đều có giấy phép riêng của mình."
+				}
+			]
+		},
+		{
+			"titulo": "6. Trách nhiệm",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tôi nỗ lực để đảm bảo thông tin chính xác và trang web luôn hoạt động, nhưng tôi không thể đảm bảo không có lỗi hoặc sự gián đoạn. Nội dung chỉ mang tính chất thông tin và không thay thế cho lời khuyên chuyên nghiệp về trường hợp cụ thể của bạn."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Trang web liên kết đến các trang web của bên thứ ba (mạng xã hội, kho lưu trữ, trang web dự án). Tôi không kiểm soát nội dung hoặc chính sách của họ và không chịu trách nhiệm về những trang web đó."
+				}
+			]
+		},
+		{
+			"titulo": "7. Quyền riêng tư và cookie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cách thức xử lý dữ liệu của bạn và các cookie được sử dụng được giải thích trong chính sách quyền riêng tư và chính sách cookie. Không phần nào của trang web buộc bạn phải chấp nhận cookie để có thể sử dụng."
+				}
+			]
+		},
+		{
+			"titulo": "8. Ghi nhận sự chấp nhận",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Để có thể chứng minh sự đồng thuận khi cần thiết (Điều 7.1 của GDPR), khi bạn chấp nhận các điều khoản này trong biểu mẫu liên hệ hoặc chọn cho phép những cookie nào, một bản ghi sẽ được lưu lại bao gồm: định danh ẩn danh, bạn đã chấp nhận hay từ chối điều gì, phiên bản của từng tài liệu, ngày giờ, trang và ngôn ngữ bạn đã thực hiện, nguồn gốc (banner, cấu hình hoặc biểu mẫu), trình duyệt và, trong biểu mẫu, một mã tham chiếu đi kèm trong email của bạn. Địa chỉ IP của bạn không được lưu lại. Chi tiết có trong chính sách quyền riêng tư."
+				}
+			]
+		},
+		{
+			"titulo": "9. Ngôn ngữ",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Phiên bản tiếng Tây Ban Nha của các văn bản này là bản gốc và có hiệu lực ưu tiên trong trường hợp có nghi ngờ. Các phiên bản khác là bản dịch tự động được cung cấp nhằm sự tiện lợi."
+				}
+			]
+		},
+		{
+			"titulo": "10. Thay đổi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tôi có thể cập nhật các điều khoản này để thích ứng với các thay đổi về pháp lý hoặc của trang web. Ngày của phiên bản hiện hành xuất hiện ở đầu trang này. Nếu thay đổi có tính chất quan trọng, tôi sẽ yêu cầu bạn chấp nhận lại."
+				}
+			]
+		},
+		{
+			"titulo": "11. Luật áp dụng và thẩm quyền xét xử",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Các điều khoản này được điều chỉnh bởi luật pháp Tây Ban Nha. Nếu bạn hành động với tư cách là người tiêu dùng, bạn có thể đến các tòa án nơi cư trú của mình và các hệ thống trọng tài, giải quyết tranh chấp tiêu dùng của cộng đồng tự trị của bạn. Trong các trường hợp khác, cả hai bên đều tuân theo các tòa án của Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

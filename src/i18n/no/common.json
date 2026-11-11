@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Hjem",
 		"sobreMi": "Om meg",
 		"proyectos": "Prosjekter",
 		"experiencia": "Erfaring",
@@ -7,10 +8,22 @@
 		"ariaMain": "Hovednavigasjon",
 		"openMenu": "Åpne meny"
 	},
+	"saltar": "Hopp til innhold",
+	"tema": "Bytt mellom lys og mørk modus",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spansk mester i madison. Dataforsker.",
+		"disponible": "Tilgjengelig for data- og prestasjonsprosjekter innen sport.",
+		"escribeme": "Skriv til meg",
+		"navLabel": "Seksjoner",
+		"legalLabel": "Juridisk",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sosiale medier"
+	},
+	"cierre": {
+		"title": "Skal vi snakke?",
+		"text": "Hvis du har prestasjonsdata og ubesvarte spørsmål, skriv til meg så ser vi på det sammen.",
+		"cta": "Skriv til meg"
 	},
 	"langSwitch": {
 		"label": "Endre språk",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Samtykke til informasjonskapsler"
 	},
 	"legal": {
+		"terminos": "Vilkår og betingelser",
 		"privacidad": "Personvernerklæring",
-		"cookies": "Retningslinjer for informasjonskapsler"
+		"cookies": "Retningslinjer for informasjonskapsler",
+		"reembolso": "Retningslinjer for refusjon",
+		"actualizado": "Sist oppdatert",
+		"indice": "På denne siden",
+		"otros": "Andre dokumenter"
 	},
 	"person": {
 		"jobTitle": "Datavitenskapelig",
 		"description": "Datavitenskapelig med spesialisering i sportsanalytikk, med erfaring innen profesjonell sykling."
+	},
+	"pizarra": {
+		"vueltas": "runder",
+		"campana": "siste"
 	}
 }

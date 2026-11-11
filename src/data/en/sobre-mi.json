@@ -3,7 +3,13 @@
 		"title": "About me — Mario Álvarez",
 		"description": "From Spanish madison champion to Data Science student: Mario Álvarez’s journey between elite cycling and sports analytics.",
 		"eyebrow": "About me",
-		"heading": "From the velodrome to data"
+		"heading": "From the velodrome to data",
+		"lead": "I'm still in cycling, on the track and in the team car. What has changed is how I look at it: now with data too.",
+		"historiaTitulo": "Rider, sports director and data scientist",
+		"fichaTitulo": "In short",
+		"fichaTexto": "The essentials, in case you're in a hurry.",
+		"retratoAlt": "Portrait of Mario Álvarez",
+		"escenaFrase": "First, the legs. Now, the data."
 	},
 	"bio": [
 		"I started out competing. At 18 I became Spanish madison champion on the track, and the Spanish Cycling Federation called me up for the World and European Championships, where I finished sixth in both — which earned me elite athlete status.",
@@ -12,13 +18,25 @@
 		"On top of that, thanks to my elite athlete status I was awarded a scholarship for a Master's in Digitalization, Innovation and Technology in Sport, which I've now completed and which broadens my focus to the whole sports ecosystem, beyond cycling."
 	],
 	"facts": [
-		{ "label": "Based in", "value": "Benidorm · Valencia" },
-		{ "label": "Status", "value": "Available for projects" },
-		{ "label": "Focus", "value": "Data + sports performance" },
-		{ "label": "Languages", "value": "Native Spanish · Valencian · English B1" },
+		{
+			"label": "Based in",
+			"value": "Benidorm and Valencia"
+		},
+		{
+			"label": "Status",
+			"value": "Available for projects"
+		},
+		{
+			"label": "Focus",
+			"value": "Data and sports performance"
+		},
+		{
+			"label": "Languages",
+			"value": "Spanish (native), Valencian and English (B1)"
+		},
 		{
 			"label": "Education",
-			"value": "Data Science degree (UPV) · Master's in Digitalization, Innovation and Technology in Sport"
+			"value": "Data Science degree (UPV) and Master's in Digitalization, Innovation and Technology in Sport"
 		}
 	]
 }

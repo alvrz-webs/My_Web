@@ -1,0 +1,12 @@
+---
+import PaginaLegal from '../PaginaLegal.astro';
+import { type Locale } from '../../lib/i18n';
+
+interface Props {
+	lang?: Locale;
+}
+
+const { lang = 'es' } = Astro.props;
+---
+
+<PaginaLegal lang={lang} pagina="politica-reembolso" version="reembolso" />

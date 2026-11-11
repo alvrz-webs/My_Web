@@ -4,7 +4,10 @@
 		"description": "Repozitoriji i projekti analize podataka, vizualizacije i strojna učenja Maria Álvareza.",
 		"eyebrow": "Projekti",
 		"heading": "Projekti",
-		"intro": "Pogled na moj rad: od alata za profesionalni biciklizam do akademskih projekata analize i strojnog učenja."
+		"intro": "Pogled na moj rad: od alata za profesionalni biciklizam do akademskih projekata analize i strojnog učenja.",
+		"cifraRepos": "javni repozitoriji na GitHubu",
+		"cifraWebs": "objavljene web stranice",
+		"cifraHerramientas": "jezik i alati"
 	},
 	"list": {
 		"eyebrow": "Rad",

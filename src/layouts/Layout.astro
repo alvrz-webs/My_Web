@@ -1,10 +1,19 @@
 ---
+import '@fontsource/fira-sans-extra-condensed/600.css';
+import '@fontsource/fira-sans-extra-condensed/700.css';
+import '@fontsource/fira-sans-extra-condensed/800.css';
+import '@fontsource-variable/source-serif-4/opsz.css';
+import '@fontsource-variable/source-serif-4/opsz-italic.css';
 import '../styles/global.css';
-import SocialLinks from '../components/SocialLinks.astro';
+import fuenteRotulo from '@fontsource/fira-sans-extra-condensed/files/fira-sans-extra-condensed-latin-800-normal.woff2?url';
+import fuenteTexto from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-opsz-normal.woff2?url';
 import CookieBanner from '../components/CookieBanner.astro';
+import LineasPista from '../components/LineasPista.astro';
 import { type Locale, LOCALES, localizedPath, basePath, isRtl } from '../lib/i18n';
 import { getDict } from '../lib/dictionary';
 import { IDIOMAS } from '../data/idiomas.js';
+import { REDES } from '../data/redes.js';
+import { VERSIONES } from '../data/legal.js';
 import sunIcon from 'lucide-static/icons/sun.svg?raw';
 import moonIcon from 'lucide-static/icons/moon.svg?raw';
 import globeIcon from 'lucide-static/icons/globe.svg?raw';
@@ -19,7 +28,7 @@ interface Props {
 
 const {
 	title = 'Mario Álvarez — Científico de datos especializado en deporte',
-	description = 'Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.',
+	description = 'Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Campeón de España de madison y director deportivo RFEC.',
 	noindex = false,
 	lang = 'es',
 	panelPrivado = false,
@@ -37,22 +46,18 @@ const rutaBase = basePath(currentPath);
 const hreflangs = LOCALES.map((locale) => ({ locale, href: new URL(localizedPath(rutaBase, locale), Astro.site) }));
 const pathES = localizedPath(rutaBase, 'es');
 const pathEN = localizedPath(rutaBase, 'en');
+const inicioHref = localizedPath('/', lang);
+const contactoHref = localizedPath('/contacto', lang);
 
 const navLinks = [
 	{ href: localizedPath('/sobre-mi', lang), label: t.nav.sobreMi },
 	{ href: localizedPath('/proyectos', lang), label: t.nav.proyectos },
 	{ href: localizedPath('/experiencia', lang), label: t.nav.experiencia },
-	{ href: localizedPath('/contacto', lang), label: t.nav.contacto },
+	{ href: contactoHref, label: t.nav.contacto },
 ];
 
 const isActive = (href: string) => currentPath === href;
 
-const socialLinks = [
-	{ href: 'https://www.linkedin.com/in/mario-álvarez-martínez-58a569390/', label: 'LinkedIn' },
-	{ href: 'https://github.com/Marioam200', label: 'GitHub' },
-	{ href: 'https://www.instagram.com/mario.a.m_200/', label: 'Instagram' },
-	{ href: 'tel:+34656867231', label: lang === 'en' ? 'Phone' : 'Teléfono' },
-];
 
 const personSchema = {
 	'@context': 'https://schema.org',
@@ -67,28 +72,37 @@ const personSchema = {
 		name: 'Universitat Politècnica de València',
 	},
 	knowsAbout: ['Ciencia de datos', 'Analítica deportiva', 'Ciclismo', 'Machine Learning', 'Python', 'SQL', 'R', 'Power BI'],
-	sameAs: [
-		'https://www.linkedin.com/in/mario-álvarez-martínez-58a569390/',
-		'https://github.com/Marioam200',
-		'https://www.instagram.com/mario.a.m_200/',
-	],
+	sameAs: REDES.map((red) => red.href),
 };
 ---
 
 <!doctype html>
-<html lang={lang} dir={dir}>
+<html lang={lang} dir={dir} data-versiones={JSON.stringify(VERSIONES)}>
 	<head>
 		<meta charset="utf-8" />
-		{!panelPrivado && (
-			<script is:inline>
-				(function () {
-					const guardado = localStorage.getItem('tema');
-					const tema = guardado || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-					document.documentElement.setAttribute('data-theme', tema);
-				})();
-			</script>
-		)}
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script is:inline>
+			(function () {
+				var raiz = document.documentElement;
+				raiz.classList.add('js');
+				var guardado = null;
+				try {
+					guardado = localStorage.getItem('tema');
+				} catch (e) {}
+				var tema = guardado || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+				raiz.setAttribute('data-theme', tema);
+			})();
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+		<meta name="theme-color" content="#111214" id="meta-theme-color" />
+		<script is:inline>
+			(function () {
+				var claro = document.documentElement.getAttribute('data-theme') === 'light';
+				var meta = document.getElementById('meta-theme-color');
+				if (meta) meta.setAttribute('content', claro ? '#f3f3f0' : '#111214');
+			})();
+		</script>
+		<link rel="preload" href={fuenteRotulo} as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href={fuenteTexto} as="font" type="font/woff2" crossorigin />
 		<link rel="icon" href="/favicon.ico" sizes="any" />
 		<link rel="icon" type="image/png" href="/favicon.png?v=3" sizes="512x512" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3" />
@@ -119,64 +133,58 @@ const personSchema = {
 		<meta name="twitter:image:alt" content={socialImageAlt} />
 
 		<script type="application/ld+json" set:html={JSON.stringify(personSchema)} is:inline />
-
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
-			rel="stylesheet"
-		/>
 	</head>
 	<body>
-		{!panelPrivado && (
-			<header id="site-header">
-				<div class="container nav-inner">
-					<a href={localizedPath('/', lang)} class="brand">
-						<img src="/mark-blanco.png" alt="" width="36" height="36" class="brand-mark" />
-						<span class="brand-name">Mario Álvarez</span>
-					</a>
+		{!panelPrivado && <a class="saltar" href="#contenido">{t.saltar ?? 'Saltar al contenido'}</a>}
 
-					<nav id="site-nav" aria-label={t.nav.ariaMain}>
-						<ul>
-							{
-								navLinks.map((link) => (
-									<li>
+		{
+			!panelPrivado && (
+				<header id="site-header">
+					<div class="container nav-inner">
+						<a href={inicioHref} class="brand" aria-label={`Mario Álvarez, ${t.nav.inicio ?? 'Inicio'}`}>
+							<img src="/mark-blanco.png" alt="" width="61" height="26" class="brand-mark" />
+							<span class="brand-name">Mario Álvarez</span>
+						</a>
+
+						<nav id="site-nav" aria-label={t.nav.ariaMain}>
+							<ul>
+								{navLinks.map((link, i) => (
+									<li style={`--i:${i}`}>
 										<a href={link.href} aria-current={isActive(link.href) ? 'page' : undefined}>
 											{link.label}
 										</a>
 									</li>
-								))
-							}
-						</ul>
-					</nav>
+								))}
+							</ul>
+						</nav>
 
-					<div class="nav-actions">
-						<div class="lang-switch" aria-label={t.langSwitch.label}>
-							<div class="lang-selector">
-								<button
-									type="button"
-									id="lang-globe-btn"
-									class="lang-globe-btn"
-									aria-haspopup="listbox"
-									aria-expanded="false"
-									aria-controls="lang-menu"
-									aria-label={t.langSwitch.traducir}
-								>
-									<span class="lang-globe-icon" set:html={globeIcon} />
-								</button>
+						<div class="nav-actions">
+							<div class="lang-switch" aria-label={t.langSwitch.label}>
+								<div class="lang-selector">
+									<button
+										type="button"
+										id="lang-globe-btn"
+										class="lang-globe-btn"
+										aria-haspopup="listbox"
+										aria-expanded="false"
+										aria-controls="lang-menu"
+										aria-label={t.langSwitch.traducir}
+									>
+										<span class="lang-globe-icon" set:html={globeIcon} />
+									</button>
 
-								<div id="lang-menu" class="lang-menu" role="listbox" aria-label={t.langSwitch.traducir} hidden>
-									<div class="lang-menu-buscador-wrap">
-										<input
-											type="text"
-											class="lang-menu-buscador"
-											placeholder={t.langSwitch.buscar}
-											autocomplete="off"
-										/>
-									</div>
-									<ul class="lang-menu-lista">
-										{
-											IDIOMAS.map((idioma) => (
+									<div id="lang-menu" class="lang-menu" role="listbox" aria-label={t.langSwitch.traducir} hidden>
+										<div class="lang-menu-buscador-wrap">
+											<input
+												type="text"
+												class="lang-menu-buscador"
+												placeholder={t.langSwitch.buscar}
+												aria-label={t.langSwitch.buscar}
+												autocomplete="off"
+											/>
+										</div>
+										<ul class="lang-menu-lista">
+											{IDIOMAS.map((idioma) => (
 												<li>
 													<a
 														role="option"
@@ -189,128 +197,293 @@ const personSchema = {
 														<span class="lang-menu-codigo">{idioma.codigo.toUpperCase()}</span>
 													</a>
 												</li>
-											))
-										}
-									</ul>
+											))}
+										</ul>
+									</div>
 								</div>
+
+								<span class="lang-switch-divisor" aria-hidden="true" />
+
+								<a href={pathES} hreflang="es" aria-current={lang === 'es' ? 'true' : undefined}>
+									ES
+								</a>
+								<span class="lang-switch-divisor" aria-hidden="true" />
+								<a href={pathEN} hreflang="en" aria-current={lang === 'en' ? 'true' : undefined}>
+									EN
+								</a>
 							</div>
-
-							<span class="lang-switch-divisor" aria-hidden="true"></span>
-
-							<a href={pathES} aria-current={lang === 'es' ? 'true' : undefined}>
-								ES
+							<button type="button" id="btn-tema" class="btn-tema" aria-label={t.tema ?? 'Cambiar entre modo claro y oscuro'}>
+								<span class="icono-tema icono-luna" set:html={moonIcon} />
+								<span class="icono-tema icono-sol" set:html={sunIcon} hidden />
+							</button>
+							<a href={contactoHref} class="btn btn-primary nav-cta">
+								{t.nav.contacto}
 							</a>
-							<span aria-hidden="true">·</span>
-							<a href={pathEN} aria-current={lang === 'en' ? 'true' : undefined}>
-								EN
-							</a>
+							<button id="nav-toggle" aria-label={t.nav.openMenu} aria-expanded="false" aria-controls="site-nav">
+								<span />
+								<span />
+								<span />
+							</button>
 						</div>
-						<button type="button" id="btn-tema" class="btn-tema" aria-label="Cambiar entre modo claro y oscuro">
-							<span class="icono-tema icono-luna" set:html={moonIcon} />
-							<span class="icono-tema icono-sol" set:html={sunIcon} hidden />
-						</button>
-						<a href={localizedPath('/contacto', lang)} class="btn btn-primary">
-							{t.nav.contacto}
-						</a>
-						<button id="nav-toggle" aria-label={t.nav.openMenu} aria-expanded="false" aria-controls="site-nav">
-							<span></span>
-							<span></span>
-							<span></span>
-						</button>
 					</div>
-				</div>
-			</header>
-		)}
+				</header>
+			)
+		}
 
-		<main class={panelPrivado ? 'main-sin-cabecera' : undefined}>
+		<main id="contenido" class={panelPrivado ? 'main-sin-cabecera' : undefined} tabindex="-1">
 			<slot />
 		</main>
 
-		{!panelPrivado && (
-			<footer id="contacto">
-				<div class="container footer-inner">
-					<div class="footer-brand">
-						<img src="/mark-blanco.png" alt="" width="30" height="30" class="footer-mark" />
-						<div>
-							<p class="footer-name">Mario Álvarez</p>
-							<p class="text-dim">{t.footer.tagline}</p>
+		{
+			!panelPrivado && (
+				<div id="pizarra" class="pizarra" aria-hidden="true" data-vueltas={t.pizarra.vueltas} data-campana={t.pizarra.campana} hidden>
+					<span class="pizarra-num">
+						<span class="pizarra-digito" />
+					</span>
+					<span class="pizarra-label">{t.pizarra.vueltas}</span>
+				</div>
+			)
+		}
+
+		{
+			!panelPrivado && (
+				<footer id="pie" class="pie">
+					<LineasPista alEntrar meta fin={86} class="pie-lineas" />
+
+					<div class="container">
+						<div class="pie-cols">
+							<div class="pie-presentacion">
+								<a href={inicioHref} class="pie-logo" aria-label={`Mario Álvarez, ${t.nav.inicio ?? 'Inicio'}`}>
+									<img src="/mark-blanco.png" alt="" width="728" height="311" class="pie-logo-img" loading="lazy" decoding="async" />
+								</a>
+								<a href={contactoHref} class="link-arrow pie-escribeme">
+									{t.footer.escribeme}
+								</a>
+							</div>
+
+							<nav class="pie-col" aria-label={t.footer.navLabel ?? t.nav.ariaMain}>
+								<ul>
+									<li>
+										<a href={inicioHref}>{t.nav.inicio ?? 'Inicio'}</a>
+									</li>
+									{navLinks.map((link) => (
+										<li>
+											<a href={link.href}>{link.label}</a>
+										</li>
+									))}
+								</ul>
+							</nav>
+
+							<ul class="pie-col" aria-label={t.footer.legalLabel ?? 'Legal'}>
+								<li>
+									<a href={localizedPath('/terminos-y-condiciones', lang)}>{t.legal.terminos ?? 'Términos y condiciones'}</a>
+								</li>
+								<li>
+									<a href={localizedPath('/politica-de-privacidad', lang)}>{t.legal.privacidad}</a>
+								</li>
+								<li>
+									<a href={localizedPath('/politica-de-cookies', lang)}>{t.legal.cookies}</a>
+								</li>
+								<li>
+									<a href={localizedPath('/politica-de-reembolso', lang)}>{t.legal.reembolso ?? 'Política de reembolso'}</a>
+								</li>
+								<li>
+									<button type="button" id="cookie-config-btn" class="pie-boton">
+										{t.cookies.configurar}
+									</button>
+								</li>
+							</ul>
+						</div>
+
+						<!-- El cierre: las redes, grandes, con su logo -->
+						<ul class="pie-redes" aria-label={t.footer.ariaSocial}>
+							{REDES.map((red, i) => (
+								<li data-entra style={`--i:${i}; --marca:${red.color}`}>
+									<a
+										href={red.href}
+										target="_blank"
+										rel="noopener noreferrer me"
+										class="pie-red"
+										aria-label={`${red.label}: ${red.usuario}`}
+										data-tracking-clic={red.label}
+									>
+										<svg class="pie-red-logo" viewBox={red.viewBox} fill="currentColor" fill-rule={red.relleno ?? 'nonzero'} aria-hidden="true" focusable="false">
+											<path d={red.path} />
+										</svg>
+										<span class="pie-red-texto">
+											<span class="pie-red-nombre">{red.label}</span>
+											<span class="pie-red-usuario">{red.usuario}</span>
+										</span>
+									</a>
+								</li>
+							))}
+						</ul>
+
+						<div class="pie-base">
+							<p>
+								© {new Date().getFullYear()} {t.footer.copySufijo}
+							</p>
 						</div>
 					</div>
-
-					<div class="footer-legal-links">
-						<a href={localizedPath('/politica-de-privacidad', lang)} class="footer-cookie-btn">{t.legal.privacidad}</a>
-						<a href={localizedPath('/politica-de-cookies', lang)} class="footer-cookie-btn">{t.legal.cookies}</a>
-						<button type="button" id="cookie-config-btn" class="footer-cookie-btn">{t.cookies.configurar}</button>
-					</div>
-
-					<div class="footer-social">
-						<SocialLinks links={socialLinks} ariaLabel={t.footer.ariaSocial} />
-					</div>
-				</div>
-				<div class="container">
-					<p class="footer-copy text-dim">© {new Date().getFullYear()} {t.footer.copySufijo}</p>
-				</div>
-			</footer>
-		)}
+				</footer>
+			)
+		}
 
 		{!panelPrivado && <CookieBanner lang={lang} />}
 
 		<script>
+			const raiz = document.documentElement;
 			const toggle = document.getElementById('nav-toggle');
 			const nav = document.getElementById('site-nav');
 
+			const cerrarMenu = () => {
+				nav?.classList.remove('is-open');
+				toggle?.setAttribute('aria-expanded', 'false');
+				raiz.classList.remove('menu-abierto');
+			};
+
 			toggle?.addEventListener('click', () => {
-				const isOpen = nav?.classList.toggle('is-open');
-				toggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
+				const isOpen = Boolean(nav?.classList.toggle('is-open'));
+				toggle.setAttribute('aria-expanded', String(isOpen));
+				raiz.classList.toggle('menu-abierto', isOpen);
 			});
 
+			nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', cerrarMenu));
+			document.addEventListener('keydown', (e) => {
+				if (e.key === 'Escape' && nav?.classList.contains('is-open')) {
+					cerrarMenu();
+					toggle?.focus();
+				}
+			});
+			window.matchMedia('(min-width: 821px)').addEventListener('change', (e) => {
+				if (e.matches) cerrarMenu();
+			});
+
+			// Tema claro/oscuro: también cambia el color de la barra del navegador en el móvil.
 			const btnTema = document.getElementById('btn-tema');
 			const iconoLuna = btnTema?.querySelector('.icono-luna');
 			const iconoSol = btnTema?.querySelector('.icono-sol');
+			const metaTema = document.getElementById('meta-theme-color');
 
 			const pintarIconoTema = (tema: string | null) => {
 				const esClaro = tema === 'light';
 				iconoLuna?.toggleAttribute('hidden', esClaro);
 				iconoSol?.toggleAttribute('hidden', !esClaro);
+				metaTema?.setAttribute('content', esClaro ? '#f3f3f0' : '#111214');
 			};
 
-			pintarIconoTema(document.documentElement.getAttribute('data-theme'));
+			pintarIconoTema(raiz.getAttribute('data-theme'));
 
 			btnTema?.addEventListener('click', () => {
-				const temaActual = document.documentElement.getAttribute('data-theme');
-				const nuevoTema = temaActual === 'light' ? 'dark' : 'light';
-				document.documentElement.setAttribute('data-theme', nuevoTema);
-				localStorage.setItem('tema', nuevoTema);
+				const nuevoTema = raiz.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+				raiz.setAttribute('data-theme', nuevoTema);
+				try {
+					localStorage.setItem('tema', nuevoTema);
+				} catch {}
 				pintarIconoTema(nuevoTema);
 			});
 
-			nav?.querySelectorAll('a').forEach((link) => {
-				link.addEventListener('click', () => {
-					nav.classList.remove('is-open');
-					toggle?.setAttribute('aria-expanded', 'false');
-				});
-			});
-
 			const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-			const revealEls = document.querySelectorAll('.reveal');
 
-			if (prefersReducedMotion || !('IntersectionObserver' in window)) {
-				revealEls.forEach((el) => el.classList.add('is-visible'));
-			} else {
-				const observer = new IntersectionObserver(
-					(entries) => {
-						entries.forEach((entry) => {
-							if (entry.isIntersecting) {
-								entry.target.classList.add('is-visible');
-								observer.unobserve(entry.target);
-							}
+			// Las páginas antiguas aún marcan bloques con .reveal; ya no se animan, solo se muestran.
+			document.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible'));
+
+			/*
+			 * Pizarra de vueltas: en una madison, la pizarra de meta cuenta las vueltas que faltan.
+			 * Cada sección con data-vuelta="N" pone el marcador en N al cruzar el centro de la
+			 * pantalla; en la 1 suena la campana (última vuelta).
+			 */
+			const pizarra = document.getElementById('pizarra');
+			const tramos = document.querySelectorAll<HTMLElement>('[data-vuelta]');
+
+			if (pizarra && tramos.length > 0) {
+				const digito = pizarra.querySelector<HTMLElement>('.pizarra-digito')!;
+				const etiqueta = pizarra.querySelector<HTMLElement>('.pizarra-label')!;
+				let actual = '';
+
+				const pintar = (valor: string) => {
+					if (valor === actual) return;
+					const anterior = actual;
+					actual = valor;
+					const esCampana = valor === '1';
+					pizarra.classList.toggle('is-campana', esCampana);
+					etiqueta.textContent = esCampana ? pizarra.dataset.campana! : pizarra.dataset.vueltas!;
+
+					if (!anterior || prefersReducedMotion) {
+						digito.textContent = valor;
+						return;
+					}
+
+					// Bajamos por la página = quedan menos vueltas: el número nuevo entra desde abajo.
+					const bajando = Number(valor) < Number(anterior);
+					const salida = bajando ? '-100%' : '100%';
+					const entrada = bajando ? '100%' : '-100%';
+
+					digito
+						.animate([{ transform: 'translateY(0)' }, { transform: `translateY(${salida})` }], {
+							duration: 140,
+							easing: 'cubic-bezier(0.55, 0, 1, 0.45)',
+						})
+						.finished.then(() => {
+							digito.textContent = valor;
+							digito.animate([{ transform: `translateY(${entrada})` }, { transform: 'translateY(0)' }], {
+								duration: 260,
+								easing: 'cubic-bezier(0.23, 1, 0.32, 1)',
+							});
+						})
+						.catch(() => {
+							digito.textContent = valor;
+						});
+
+					if (esCampana) {
+						pizarra.animate(
+							[
+								{ transform: 'rotate(0deg)' },
+								{ transform: 'rotate(-7deg)' },
+								{ transform: 'rotate(6deg)' },
+								{ transform: 'rotate(-4deg)' },
+								{ transform: 'rotate(2deg)' },
+								{ transform: 'rotate(0deg)' },
+							],
+							{ duration: 620, easing: 'ease-out', delay: 120 },
+						);
+					}
+				};
+
+				const observador = new IntersectionObserver(
+					(lista) => {
+						lista.forEach((entrada) => {
+							if (entrada.isIntersecting) pintar((entrada.target as HTMLElement).dataset.vuelta!);
 						});
 					},
-					{ threshold: 0.15, rootMargin: '0px 0px -40px 0px' },
+					{ rootMargin: '-50% 0px -50% 0px' },
 				);
 
-				revealEls.forEach((el) => observer.observe(el));
+				tramos.forEach((tramo) => observador.observe(tramo));
+
+				// La última vuelta puede no llegar al centro de la pantalla en móviles con footer alto.
+				const ultimo = tramos[tramos.length - 1];
+				new IntersectionObserver(
+					([entrada]) => {
+						if (entrada.isIntersecting) pintar(ultimo.dataset.vuelta!);
+					},
+					{ threshold: 0.6 },
+				).observe(ultimo);
+				pintar(tramos[0].dataset.vuelta!);
+				pizarra.hidden = false;
+
+				// En el pie ya se ha cruzado la meta: la pizarra se retira para no tapar nada.
+				const pie = document.getElementById('pie');
+				if (pie) {
+					new IntersectionObserver(([entrada]) => pizarra.classList.toggle('is-fuera', entrada.isIntersecting), {
+						rootMargin: '0px 0px -10% 0px',
+					}).observe(pie);
+				}
 			}
+		</script>
+
+		<script>
+			import '../scripts/cinematica.ts';
 		</script>
 
 		<script>
@@ -324,15 +497,64 @@ const personSchema = {
 </html>
 
 <style>
+	/* ---------- Saltar al contenido ---------- */
+	.saltar {
+		position: fixed;
+		inset-block-start: 0.75rem;
+		inset-inline-start: 0.75rem;
+		z-index: 300;
+		padding: 0.6rem 1rem;
+		background: var(--color-text);
+		color: var(--color-bg);
+		font-family: var(--font-display);
+		font-weight: 600;
+		text-decoration: none;
+		border-radius: 4px;
+		transform: translateY(-160%);
+		transition: transform 0.2s var(--ease-out);
+	}
+
+	.saltar:focus-visible {
+		transform: none;
+	}
+
+	main:focus {
+		outline: none;
+	}
+
+	/* ---------- Cabecera ---------- */
 	#site-header {
 		position: fixed;
 		inset-block-start: 0;
 		inset-inline: 0;
 		z-index: 100;
-		background: color-mix(in srgb, var(--color-bg) 60%, transparent);
-		backdrop-filter: blur(14px);
-		-webkit-backdrop-filter: blur(14px);
-		border-bottom: 1px solid var(--color-border);
+		background: var(--color-bg);
+		border-block-end: 1px solid transparent;
+		view-transition-name: cabecera;
+		transition:
+			background-color 0.35s ease,
+			border-color 0.35s ease;
+	}
+
+	/* El filo inferior aparece cuando el contenido empieza a pasar por debajo (sin JS) */
+	@supports (animation-timeline: scroll()) {
+		#site-header {
+			animation: cabecera-filo linear both;
+			animation-timeline: scroll(root);
+			animation-range: 0 96px;
+		}
+	}
+
+	@supports not (animation-timeline: scroll()) {
+		#site-header {
+			border-block-end-color: var(--color-border);
+		}
+	}
+
+	@keyframes cabecera-filo {
+		to {
+			border-block-end-color: var(--color-border);
+		}
 	}
 
 	.nav-inner {
@@ -340,61 +562,89 @@ const personSchema = {
 		align-items: center;
 		justify-content: space-between;
 		gap: 1.5rem;
-		padding-block: 0.85rem;
+		min-height: var(--header-h);
 	}
 
 	.brand {
 		display: flex;
 		align-items: center;
-		gap: 0.6rem;
+		gap: 0.7rem;
+		min-height: 44px;
 		text-decoration: none;
-		font-family: var(--font-heading);
-		font-weight: 600;
-		font-size: 1.05rem;
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 1.25rem;
+		letter-spacing: 0.005em;
 		color: var(--color-text);
 	}
 
 	.brand-mark {
-		border-radius: 8px;
+		width: auto;
+		height: 26px;
+		flex-shrink: 0;
+	}
+
+	.brand-name {
+		white-space: nowrap;
 	}
 
 	[data-theme='light'] .brand-mark,
-	[data-theme='light'] .footer-mark {
+	[data-theme='light'] .pie-logo-img {
 		filter: invert(1);
 	}
 
 	#site-nav ul {
 		display: flex;
 		align-items: center;
-		gap: 1.75rem;
+		gap: 1.9rem;
 		list-style: none;
 	}
 
 	#site-nav a {
+		position: relative;
+		display: inline-block;
+		padding-block: 0.4rem;
 		text-decoration: none;
+		font-family: var(--font-display);
+		font-size: 1.12rem;
+		font-weight: 600;
 		color: var(--color-text-dim);
-		font-size: 0.92rem;
-		font-weight: 500;
 		transition: color var(--transition-fast);
 	}
 
-	#site-nav a:hover {
-		color: var(--color-text);
+	/* La línea de la sección activa es la sprinter; al pasar por encima se insinúa */
+	#site-nav a::after {
+		content: '';
+		position: absolute;
+		inset-inline: 0;
+		inset-block-end: 0;
+		block-size: 3px;
+		background: var(--color-accent);
+		transform: scaleX(0);
+		transform-origin: var(--origen-inline, left) center;
+		transition: transform 0.24s var(--ease-out);
+	}
+
+	[dir='rtl'] #site-nav a::after {
+		--origen-inline: right;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		#site-nav a:hover {
+			color: var(--color-text);
+		}
+
+		#site-nav a:hover::after {
+			transform: scaleX(0.35);
+		}
 	}
 
 	#site-nav a[aria-current='page'] {
 		color: var(--color-text);
-		position: relative;
 	}
 
 	#site-nav a[aria-current='page']::after {
-		content: '';
-		position: absolute;
-		inset-inline: 0;
-		inset-block-end: -6px;
-		height: 2px;
-		border-radius: 2px;
-		background: linear-gradient(90deg, var(--color-blue), var(--color-green));
+		transform: scaleX(1);
 	}
 
 	#site-nav ul li:last-child {
@@ -404,20 +654,24 @@ const personSchema = {
 	.nav-actions {
 		display: flex;
 		align-items: center;
-		gap: 1rem;
+		gap: 0.75rem;
+	}
+
+	.nav-actions .btn {
+		min-height: 40px;
+		padding-block: 0.4rem;
+		font-size: 1.1rem;
 	}
 
 	.lang-switch {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
-		font-family: var(--font-mono);
-		font-size: 0.8rem;
+		gap: 0.6rem;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 600;
 		color: var(--color-text-dim);
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 999px;
-		padding: 0.4rem 0.75rem;
+		padding: 0.3rem 0.4rem;
 	}
 
 	.lang-switch a {
@@ -427,8 +681,11 @@ const personSchema = {
 	}
 
 	.lang-switch a[aria-current='true'] {
-		color: var(--color-blue);
-		font-weight: 600;
+		color: var(--color-text);
+		text-decoration: underline;
+		text-decoration-color: var(--color-accent);
+		text-decoration-thickness: 2px;
+		text-underline-offset: 0.3em;
 	}
 
 	.lang-switch a:hover {
@@ -438,7 +695,7 @@ const personSchema = {
 	.lang-switch-divisor {
 		width: 1px;
 		height: 16px;
-		background: var(--color-border);
+		background: var(--color-rule);
 	}
 
 	.lang-selector {
@@ -449,7 +706,9 @@ const personSchema = {
 	.lang-globe-btn {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.3rem;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
 		background: transparent;
 		border: none;
 		padding: 0;
@@ -458,35 +717,48 @@ const personSchema = {
 		transition: color var(--transition-fast);
 	}
 
-	.lang-globe-btn:hover {
-		color: var(--color-blue);
+	.lang-globe-btn:hover,
+	.lang-globe-btn[aria-expanded='true'] {
+		color: var(--color-text);
 	}
 
-	.lang-globe-btn .lang-globe-icon svg {
-		width: 16px;
-		height: 16px;
+	.lang-globe-btn .lang-globe-icon :global(svg) {
+		width: 18px;
+		height: 18px;
 		stroke: currentColor;
 		display: block;
 	}
 
+	/* El menú crece desde el botón que lo abre, no desde el centro */
 	.lang-menu {
 		position: absolute;
-		top: calc(100% + 10px);
-		right: 0;
-		width: 240px;
-		max-height: 320px;
+		inset-block-start: calc(100% + 12px);
+		inset-inline-end: 0;
+		width: 260px;
+		max-height: 360px;
 		display: flex;
 		flex-direction: column;
 		background: var(--color-bg-elevated);
 		border: 1px solid var(--color-border);
-		border-radius: 12px;
-		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+		border-radius: 6px;
+		box-shadow:
+			0 1px 2px rgba(0, 0, 0, 0.12),
+			0 18px 44px rgba(0, 0, 0, 0.3);
 		overflow: hidden;
 		z-index: 200;
+		transform-origin: var(--origen-menu, top right);
+		animation: abrir-menu 0.2s var(--ease-out);
 	}
 
-	.lang-menu[hidden] {
-		display: none;
+	[dir='rtl'] .lang-menu {
+		--origen-menu: top left;
+	}
+
+	@keyframes abrir-menu {
+		from {
+			opacity: 0;
+			transform: scale(0.96) translateY(-4px);
+		}
 	}
 
 	.lang-menu-buscador-wrap {
@@ -498,8 +770,8 @@ const personSchema = {
 		width: 100%;
 		background: var(--color-bg);
 		border: 1px solid var(--color-border);
-		border-radius: 8px;
-		padding: 0.45rem 0.65rem;
+		border-radius: 4px;
+		padding: 0.5rem 0.7rem;
 		font-family: var(--font-body);
 		font-size: 16px; /* <16px hace que Safari en iOS haga zoom automático al enfocar */
 		color: var(--color-text);
@@ -507,13 +779,14 @@ const personSchema = {
 
 	.lang-menu-buscador:focus {
 		outline: none;
-		border-color: var(--color-blue);
+		border-color: var(--color-link);
 	}
 
 	.lang-menu-lista {
 		list-style: none;
 		overflow-y: auto;
-		padding: 0.4rem;
+		overscroll-behavior: contain;
+		padding: 0.35rem;
 	}
 
 	.lang-menu-opcion {
@@ -522,60 +795,67 @@ const personSchema = {
 		justify-content: space-between;
 		gap: 0.75rem;
 		width: 100%;
-		background: transparent;
-		border: none;
-		border-radius: 8px;
-		padding: 0.5rem 0.65rem;
+		border-radius: 4px;
+		padding: 0.55rem 0.7rem;
 		font-family: var(--font-body);
-		font-size: 0.85rem;
+		font-size: 0.98rem;
 		color: var(--color-text);
-		text-align: left;
+		text-align: start;
 		text-decoration: none;
 		cursor: pointer;
-		transition: background var(--transition-fast);
+		transition: background-color var(--transition-fast);
 	}
 
 	.lang-menu-opcion:hover {
-		background: rgba(56, 189, 248, 0.1);
+		background: color-mix(in srgb, var(--color-text) 7%, transparent);
 	}
 
 	.lang-menu-codigo {
 		flex-shrink: 0;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
+		font-family: var(--font-display);
+		font-size: 0.9rem;
+		font-weight: 600;
 		color: var(--color-text-dim);
 	}
 
 	.lang-menu-opcion.is-selected {
-		background: rgba(56, 189, 248, 0.14);
-		color: var(--color-blue);
+		background: color-mix(in srgb, var(--color-accent) 14%, transparent);
 	}
 
 	.lang-menu-opcion.is-selected .lang-menu-codigo {
-		color: var(--color-blue);
+		color: var(--color-accent);
 	}
 
 	.btn-tema {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 38px;
-		height: 38px;
+		width: 40px;
+		height: 40px;
 		background: transparent;
 		border: 1px solid var(--color-border);
-		border-radius: 8px;
+		border-radius: 4px;
 		color: var(--color-text);
-		font-size: 1rem;
-		line-height: 1;
 		cursor: pointer;
 		transition: border-color var(--transition-fast);
 	}
 
-	.btn-tema:hover {
-		border-color: var(--color-blue);
+	@media (hover: hover) and (pointer: fine) {
+		.btn-tema:hover {
+			border-color: var(--color-rule);
+		}
 	}
 
-	.icono-tema svg {
+	.btn-tema:active .icono-tema {
+		transform: rotate(-30deg) scale(0.9);
+	}
+
+	.icono-tema {
+		display: inline-flex;
+		transition: transform 0.2s var(--ease-out);
+	}
+
+	.icono-tema :global(svg) {
 		width: 18px;
 		height: 18px;
 		stroke: currentColor;
@@ -586,130 +866,317 @@ const personSchema = {
 		flex-direction: column;
 		justify-content: center;
 		gap: 5px;
-		width: 38px;
-		height: 38px;
+		width: 44px;
+		height: 44px;
 		background: transparent;
 		border: 1px solid var(--color-border);
-		border-radius: 8px;
+		border-radius: 4px;
 		cursor: pointer;
 	}
 
 	#nav-toggle span {
 		display: block;
 		height: 2px;
-		margin-inline: 8px;
+		margin-inline: 11px;
 		background: var(--color-text);
-		border-radius: 2px;
-		transition: transform var(--transition-fast), opacity var(--transition-fast);
+		transition:
+			transform 0.24s var(--ease-out),
+			opacity 0.16s var(--ease-out);
+	}
+
+	#nav-toggle[aria-expanded='true'] span:nth-child(1) {
+		transform: translateY(7px) rotate(45deg);
+	}
+
+	#nav-toggle[aria-expanded='true'] span:nth-child(2) {
+		opacity: 0;
+	}
+
+	#nav-toggle[aria-expanded='true'] span:nth-child(3) {
+		transform: translateY(-7px) rotate(-45deg);
 	}
 
 	main {
-		padding-block-start: 68px;
+		padding-block-start: var(--header-h);
 	}
 
 	.main-sin-cabecera {
 		padding-block-start: 0;
 	}
 
-	footer {
-		border-top: 1px solid var(--color-border);
-		padding-block: 2.5rem 1.5rem;
-		margin-block-start: 4rem;
-	}
-
-	.footer-inner {
+	/* ---------- Pizarra de vueltas ---------- */
+	.pizarra {
+		position: fixed;
+		inset-block-end: 1.25rem;
+		inset-inline-end: 1.25rem;
+		z-index: 90;
 		display: grid;
-		grid-template-columns: auto 1fr auto;
-		align-items: center;
+		justify-items: center;
+		min-inline-size: 4.25rem;
+		padding: 0.45rem 0.6rem 0.4rem;
+		background: var(--color-text);
+		color: var(--color-bg);
+		border-radius: 3px;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+		transform-origin: top center;
+		pointer-events: none;
+		user-select: none;
+		view-transition-name: pizarra;
+		transition:
+			background-color 0.3s var(--ease-out),
+			color 0.3s var(--ease-out),
+			opacity 0.3s var(--ease-out),
+			transform 0.4s var(--ease-out);
+	}
+
+	.pizarra.is-fuera {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+
+	/* Solo donde cabe en el margen, fuera de la columna de contenido: nunca tapa texto */
+	@media (max-width: 1279px) {
+		.pizarra {
+			display: none;
+		}
+	}
+
+	.pizarra-num {
+		display: block;
+		overflow: hidden;
+		block-size: 2.6rem;
+		line-height: 2.6rem;
+	}
+
+	.pizarra-digito {
+		display: block;
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: 2.6rem;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.pizarra-label {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 0.85rem;
+		line-height: 1.1;
+		opacity: 0.75;
+	}
+
+	.pizarra.is-campana {
+		background: var(--pista-sprinter);
+		color: #fff;
+	}
+
+	.pizarra.is-campana .pizarra-label {
+		opacity: 1;
+	}
+
+	/* ---------- Pie: la recta de meta ---------- */
+	.pie {
+		padding-block: clamp(3.5rem, 7vw, 5.5rem) 1.5rem;
+		overflow: clip;
+	}
+
+	.pie-cols {
+		display: grid;
+		grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, 1fr));
+		gap: 2.5rem var(--gutter);
+		padding-block: clamp(3rem, 6vw, 4.5rem) clamp(2.5rem, 5vw, 4rem);
+	}
+
+	/* Tu logo, grande, encabezando el pie; debajo, la invitación a escribir */
+	.pie-presentacion {
+		display: grid;
+		justify-items: start;
+		align-content: start;
 		gap: 1.5rem;
-		padding-block-end: 1.5rem;
 	}
 
-	.footer-brand {
-		display: flex;
+	.pie-logo {
+		display: inline-block;
+		border-radius: 4px;
+	}
+
+	.pie-logo-img {
+		inline-size: clamp(9.5rem, 15vw, 13.5rem);
+		block-size: auto;
+		transition:
+			transform 0.45s var(--ease-out),
+			opacity var(--transition-fast);
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.pie-logo:hover .pie-logo-img {
+			transform: translateY(-2px);
+			opacity: 0.85;
+		}
+	}
+
+	.pie-logo:active .pie-logo-img {
+		transform: scale(0.97);
+	}
+
+	.pie-escribeme {
+		font-size: 1.3rem;
+	}
+
+	.pie-col {
+		list-style: none;
+	}
+
+	.pie-col ul {
+		list-style: none;
+	}
+
+	.pie-col li + li {
+		margin-block-start: 0.15rem;
+	}
+
+	.pie-col a,
+	.pie-boton {
+		display: inline-flex;
 		align-items: center;
-		gap: 0.85rem;
-	}
-
-	.footer-mark {
-		flex-shrink: 0;
-	}
-
-	.footer-legal-links {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 1.5rem;
-	}
-
-	.footer-social {
-		justify-self: end;
-	}
-
-	.footer-cookie-btn {
+		min-height: 40px;
+		padding: 0;
 		background: none;
 		border: none;
-		padding: 0;
-		font: inherit;
-		font-size: 0.9rem;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.1rem;
 		color: var(--color-text-dim);
+		text-decoration: none;
 		cursor: pointer;
-		text-decoration: underline;
-		text-underline-offset: 3px;
 		transition: color var(--transition-fast);
 	}
 
-	.footer-cookie-btn:hover {
-		color: var(--color-blue);
+	@media (hover: hover) and (pointer: fine) {
+		.pie-col a:hover,
+		.pie-boton:hover {
+			color: var(--color-text);
+		}
 	}
 
-	.footer-name {
-		font-family: var(--font-heading);
-		font-weight: 600;
-		margin-block-end: 0.2rem;
+	/* El cierre: las tres redes, grandes y con su logo, como tres calles de la recta final */
+	.pie-redes {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		border-block: 3px solid var(--color-text);
 	}
 
-	.footer-copy {
-		font-size: 0.82rem;
-		border-top: 1px solid var(--color-border);
-		padding-block-start: 1.25rem;
+	.pie-redes li + li {
+		border-inline-start: 1px solid var(--color-border);
 	}
 
+	.pie-red {
+		display: flex;
+		align-items: center;
+		gap: clamp(0.9rem, 1.6vw, 1.4rem);
+		min-height: 44px;
+		padding: clamp(1.5rem, 3vw, 2.4rem) clamp(1rem, 2vw, 1.75rem);
+		color: var(--color-text);
+		text-decoration: none;
+		transition: background-color var(--transition-fast);
+	}
+
+	.pie-redes li:first-child .pie-red {
+		padding-inline-start: 0;
+	}
+
+	.pie-red-logo {
+		flex-shrink: 0;
+		inline-size: clamp(2.4rem, 4vw, 3.5rem);
+		block-size: clamp(2.4rem, 4vw, 3.5rem);
+		transition:
+			color 0.25s ease,
+			transform 0.45s var(--ease-out);
+	}
+
+	.pie-red-texto {
+		display: grid;
+		gap: 0.2rem;
+		min-width: 0;
+	}
+
+	.pie-red-nombre {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: clamp(1.6rem, 3vw, 2.5rem);
+		line-height: 1;
+		letter-spacing: -0.01em;
+	}
+
+	.pie-red-usuario {
+		font-size: var(--fs-small);
+		color: var(--color-text-dim);
+		overflow-wrap: anywhere;
+	}
+
+	/* Al pasar por encima, el logo toma el color de su marca y se inclina un poco hacia el enlace */
+	@media (hover: hover) and (pointer: fine) {
+		.pie-red:hover .pie-red-logo {
+			color: var(--marca, currentColor);
+			transform: translateY(-3px) rotate(-6deg);
+		}
+	}
+
+	.pie-red:active .pie-red-logo {
+		transform: scale(0.94);
+	}
+
+	.pie-base {
+		display: flex;
+		align-items: center;
+		gap: 0.85rem;
+		margin-block-start: clamp(1.75rem, 4vw, 2.75rem);
+		font-size: var(--fs-small);
+		color: var(--color-text-dim);
+	}
+
+	/* ---------- Móvil ---------- */
 	@media (max-width: 820px) {
 		#site-nav {
 			position: fixed;
-			inset-block-start: 68px;
+			inset-block: var(--header-h) 0;
 			inset-inline: 0;
-			background: color-mix(in srgb, var(--color-bg) 97%, transparent);
-			backdrop-filter: blur(14px);
-			border-bottom: 1px solid var(--color-border);
-			transform: translateY(-8px);
+			background: var(--color-bg);
+			overflow-y: auto;
 			opacity: 0;
 			visibility: hidden;
 			pointer-events: none;
 			transition:
-				opacity var(--transition-fast),
-				transform var(--transition-fast),
-				visibility var(--transition-fast);
+				opacity 0.22s var(--ease-out),
+				visibility 0.22s;
 		}
 
 		#site-nav.is-open {
 			opacity: 1;
-			transform: translateY(0);
 			visibility: visible;
 			pointer-events: auto;
 		}
 
 		#site-nav ul {
 			flex-direction: column;
-			align-items: flex-start;
+			align-items: stretch;
 			gap: 0;
-			padding: 1rem 1.5rem 1.5rem;
+			padding: 1.5rem 1.25rem 2rem;
 		}
 
 		#site-nav ul li {
-			width: 100%;
 			border-bottom: 1px solid var(--color-border);
+			transform: translateY(10px);
+			opacity: 0;
+			transition:
+				transform 0.42s var(--ease-expo),
+				opacity 0.3s var(--ease-out);
+			transition-delay: calc(var(--i, 0) * 45ms);
+		}
+
+		#site-nav.is-open ul li {
+			transform: none;
+			opacity: 1;
 		}
 
 		#site-nav ul li:last-child {
@@ -718,35 +1185,90 @@ const personSchema = {
 
 		#site-nav a {
 			display: block;
-			padding: 0.9rem 0;
+			padding-block: 1rem;
+			font-size: 2rem;
+			font-weight: 700;
+			color: var(--color-text);
 		}
 
-		.nav-actions .btn-primary {
+		#site-nav a::after {
+			inset-inline-end: auto;
+			inline-size: 2.5rem;
+			inset-block-end: 0.6rem;
+		}
+
+		.nav-actions .nav-cta {
 			display: none;
 		}
 
 		#nav-toggle {
 			display: flex;
 		}
+
+		.nav-inner,
+		.nav-actions {
+			gap: 0.5rem;
+		}
+
+		.pie-cols {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.pie-redes {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.pie-redes li + li {
+			border-inline-start: 0;
+			border-block-start: 1px solid var(--color-border);
+		}
+
+		.pie-red {
+			padding-inline: 0;
+		}
+
+		.pie-presentacion {
+			grid-column: 1 / -1;
+		}
 	}
 
-	@media (max-width: 520px) {
-		.footer-inner {
-			grid-template-columns: 1fr;
-			flex-direction: column;
-			align-items: flex-start;
+	:global(html.menu-abierto) {
+		overflow: hidden;
+	}
+
+	@media (max-width: 400px) {
+		.brand-name {
+			font-size: 1.1rem;
+		}
+
+		.brand-mark {
+			height: 22px;
+		}
+
+		.lang-switch {
+			gap: 0.45rem;
+			padding-inline: 0;
+		}
+	}
+
+	@media (max-width: 370px) {
+		.brand-name {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			clip-path: inset(50%);
 		}
 	}
 
 	@media (max-width: 640px) {
 		.lang-menu {
 			position: fixed;
-			top: 72px; /* justo debajo de la cabecera fija */
-			left: 1rem;
-			right: 1rem;
+			inset-block-start: calc(var(--header-h) + 8px);
+			inset-inline: 1rem;
 			width: auto;
 			max-width: none;
-			max-height: min(70dvh, 360px);
+			max-height: min(70dvh, 380px);
 		}
 	}
 </style>

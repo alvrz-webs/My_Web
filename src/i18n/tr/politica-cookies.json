@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Çerez Politikası — Mario Álvarez",
-		"description": "Bu sitenin hangi çerezleri kullandığı, hangi amaçla kullandığı ve onayınızı istediğiniz zaman nasıl değiştirebileceğiniz.",
-		"eyebrow": "Yasal",
-		"heading": "Çerez Politikası"
+		"description": "marioalvarez.me sitesinin hangi çerezleri kullandığı, hangilerinin izninizi gerektirdiği ve seçiminizi istीडiğiniz zaman nasıl değiştirebileceğiniz.",
+		"heading": "Çerez Politikası",
+		"eleccionTitulo": "Seçiminiz",
+		"eleccionTexto": "Verilerinizi, onları verdiğiniz anktaki kadar kolay bir şekilde dilediğiniz zaman değiştirebilir veya silebilirsiniz."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Bu web sitesi, düzgün çalışması için çerezler ve benzeri teknolojiler (tarayıcı yerel depolaması gibi) kullanır ve onay vermeniz halinde içeriğin nasıl kullanıldığını anonim olarak analiz eder."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Kullanılan çerezler:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"İsim",
-				"Amaç",
-				"Tür",
-				"Süre"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Bu çerez politikasıyla ilgili seçiminizi hatırlar",
-					"Birincil, teknik (onay gerektirmez)",
-					"12 ay"
-				],
-				[
-					"visitante_id",
-					"Ziyaretlerinizi ilişkilendirmek ve hangi içeriğin yararlı olduğunu görmek için anonim tanımlayıcı",
-					"Birincil, analitik (onayınızı gerektirir)",
-					"12 ay"
-				]
+			"titulo": "1. Çerezlerin ne olduğu ve izninize ihtiyacım olup olmadığı",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Çerezler ve benzeri teknolojiler (tarayıcı yerel depolaması gibi) cihazınızda küçük veriler saklar. LSSI-CE'nin 22.2 maddesine ve İspanyol Veri Koruma Ajansı'nın Çerez Kullanımı Rehberi'ne göre, talep ettiğiniz bir şey için kesinlikle gerekli olanlar onay gerektirmez; ancak analitik çerezler gerektirir."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Bu nedenle bu web sitesi, yalnızca kabul etmeniz durumunda analitik çerezini saklar ve aynı ekranda, önceden işaretlenmiş kutular olmaksızın iki eşit düğmeyle kabul etmenize veya reddetmenize izin verir. Çerezi reddetmek web sitesinin herhangi bir özelliğini kullanmanızı engellemez."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Bu çerezlerin hiçbiri üçüncü taraf çerezi değildir, hiçbiri reklam amaçlı kullanılmaz ve bu sitenin dışındaki hiç kimseyle paylaşılmaz."
+			"titulo": "2. Bu web sitesinin kullandığı çerezler",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Adı",
+						"Kullanım amacı",
+						"Tür",
+						"İzniniz gerekiyor mu?",
+						"Süre"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Seçiminizi, bu politikanın versiyonunu ve onay kaydınızın takma ad tanımlayıcısını kaydetmek için",
+							"Birincil, teknik",
+							"Hayır",
+							"12 ay"
+						],
+						[
+							"visitante_id",
+							"Hangi içeriklerin yararlı olduğunu görmek için takma ad tanımlayıcısı",
+							"Birincil, analitik",
+							"Evet",
+							"12 ay"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Açık veya koyu temayı tercih edip etmediğinizi hatırlamak; yalnızca değiştirdiğinizde kaydedilir",
+							"Birincil, sizin tarafınızdan istenen kişiselleştirme",
+							"Hayır",
+							"Silene kadar"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Alt bilgideki \"Çerezleri yapılandır\" bağlantısından kararınızı değiştirebilir veya onayınızı istediğiniz zaman geri çekebilir ve aynı paneldeki \"Verilerimi sil\" düğmesiyle tüm verilerinizi hemen silebilirsiniz."
+			"titulo": "3. Olmayanlar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Üçüncü taraf çerezleri, reklamlar, gömülü sosyal medya içerikleri veya Google Analytics bulunmamaktadır. Yazı tipleri ve görseller doğrudan bu web sitesinden sunulmaktadır."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Verilerinizin nasıl işlendiği hakkında daha fazla bilgi için Gizlilik Politikası'na bakın."
+			"titulo": "4. Fikrinizi nasıl değiştirirsiniz",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Seçiminizi her zaman her sayfanın alt bilgisinde yer alan «Configurar cookies» (Çerezleri yapılandır) seçeneğinden ya da bu sayfadaki düğmeden değiştirebilir veya onayınızı geri çekebilirsiniz. Buradan ayrıca tarayıcınızla ilişkili analitik verilerini anında silebilirsiniz. Ve çerezleri tarayıcınızın ayarlarından silebilirsiniz."
+				}
+			]
+		},
+		{
+			"titulo": "5. Seçiminizin kaydedilmesi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Onayınızı her kabul ettiğinizde, reddettiğinizde veya geri çektiğinizde, onayınızın geçerli olduğunu kanıtlamak amacıyla IP adresiniz olmaksızın bir kayıt (takma ad tanımlayıcısı, karar, bu politikanın versiyonu, tarih ve saat, sayfa, dil, kaynak ve tarayıcı) saklanır. 3 yıl boyunca saklanır. Daha fazla ayrıntı gizlilik politikasındadır."
+				}
+			]
+		},
+		{
+			"titulo": "6. Değişiklikler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu politika önemli ölçüde değişirse, yeniden karar verebilmeniz için çerez bildirimi tekrar görünecektir."
+				}
+			]
 		}
 	]
 }

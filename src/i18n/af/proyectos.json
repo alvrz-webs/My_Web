@@ -4,7 +4,10 @@
 		"description": "Bewaarplekke en projekte vir data-analise, visualisering en masjienleer deur Mario Álvarez.",
 		"eyebrow": "Projekte",
 		"heading": "Projekte",
-		"intro": "‘n Kykie na my werk: van gereedskap vir professionele fietsry tot akademiese analise- en masjienleerprojekte."
+		"intro": "‘n Kykie na my werk: van gereedskap vir professionele fietsry tot akademiese analise- en masjienleerprojekte.",
+		"cifraRepos": "openbare bewaarplekke op GitHub",
+		"cifraWebs": "gepubliseerde webwerwe",
+		"cifraHerramientas": "tale en gereedskap"
 	},
 	"list": {
 		"eyebrow": "Werk",

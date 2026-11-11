@@ -4,13 +4,28 @@
 		"description": "Dua dunia, satu bahasa yang sama: prestasi. Pengalaman Mario Álvarez dalam bidang data dan kejuruteraan, serta dalam sukan berbasikal elit.",
 		"eyebrow": "Pengalaman",
 		"heading": "Dua dunia, satu bahasa yang sama: prestasi",
-		"colDatos": "Data & Teknologi",
+		"lead": "Dalam pangkalan data atau di dalam kereta pasukan, kerja tetap sama: mengukur dengan baik untuk membuat keputusan yang lebih baik.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "rekod dalam pangkalan data yang saya optimumkan di SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "alat dalam Python untuk pasukan Cofidis"
+			},
+			{
+				"cifra": "6º",
+				"texto": "dalam Kejohanan Dunia dan Eropah trek"
+			}
+		],
+		"colDatos": "Data dan teknologi",
 		"colDeporte": "Sukan elit"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Latihan Amali Sains Data",
-			"meta": "Kejuruteraan Data · Benidorm · 2026",
+			"meta": "Kejuruteraan data, Benidorm, 2026",
 			"paragraphs": [
 				"SIME membangunkan perisian pengurusan (tempahan, pengebilan, laporan, pesanan restoran) yang memberi perkhidmatan kepada ratusan pelanggan dari sistem pusat, berdasarkan pangkalan data yang mempunyai +580 jadual bersambung dan +100 juta rekod. Pertumbuhan telah memaksa pembahagian pelanggan ke dalam beberapa pangkalan untuk mengurangkan beban dan aduan kelambatan.",
 				"Kerja saya: menganalisis pangkalan data tersebut dan, melalui pengoptimuman pertanyaan dan indeks, merangka penyatuan semua data ke dalam satu pangkalan yang cekap tanpa hampir menaik taraf perkakasan (RAM/CPU). Penambahbaikan telah dibangunkan, dalam fasa pengesahan pada pelayan ujian."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projek dengan pasukan Cofidis (World Tour)",
-			"meta": "Python · Musim Panas 2025",
+			"meta": "Python, musim panas 2025",
 			"paragraphs": [
 				"Projek sendiri yang saya laksanakan sebagai ujian untuk menceburi bidang analisis data dalam sukan berbasikal profesional:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Perlumbaan",
 			"paragraphs": [
 				"Juara Sepanyol madison (18 tahun); Kejohanan Dunia dan Eropah trek bersama Pasukan Sepanyol (ke-6 dalam kedua-duanya); atlet elit; pelumba trek berdaftar dan aktif."
-			]
+			],
+			"meta": "Berbasikal trek, Pasukan Kebangsaan Sepanyol"
 		},
 		{
 			"title": "Pengarahan sukan",
 			"paragraphs": [
 				"Pengarah Sukan Tahap I dan II (RFEC); latihan dan pemantauan pelumba akar umbi (14–18) bersama bapa saya; pembantu dengan Pasukan Komuniti Valencia dalam kejohanan (2026)."
-			]
+			],
+			"meta": "RFEC, tahap I dan II"
 		},
 		{
 			"title": "Quiromasaj dan staf teknikal",

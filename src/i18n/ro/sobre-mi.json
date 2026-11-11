@@ -3,7 +3,13 @@
 		"title": "Despre mine — Mario Álvarez",
 		"description": "De la campion al Spaniei la madison la student la Știința Datelor: parcursul lui Mario Álvarez între ciclismul de elită și analitica sportivă.",
 		"eyebrow": "Despre mine",
-		"heading": "De pe velodrom la date"
+		"heading": "De pe velodrom la date",
+		"lead": "Rămân în continuare în ciclism, pe pistă și în mașina echipei. Ceea ce s-a schimbat este modul în care îl privesc: acum și prin prisma datelor.",
+		"historiaTitulo": "Ciclist, director și om de știință a datelor",
+		"fichaTitulo": "Pe scurt",
+		"fichaTexto": "Esențialul, în caz că te grăbești.",
+		"retratoAlt": "Portretul lui Mario Álvarez",
+		"escenaFrase": "Mai întâi, picioarele. Acum, datele."
 	},
 	"bio": [
 		"Am început prin a concura. La 18 ani am fost proclamat campion al Spaniei la madison pe pistă, iar Echipa Națională de Ciclism a Spaniei m-a convocat pentru Campionatele Mondiale și Europene, unde am ieșit al patrulea (n.red. - al șaselea), ceea ce mi-a adus statutul de sportiv de elită.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Bază",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm și Valencia"
 		},
 		{
 			"label": "Stare",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Abordare",
-			"value": "Date + performanță sportivă"
+			"value": "Date și performanță sportivă"
 		},
 		{
 			"label": "Limbi",
-			"value": "Spaniolă nativă · Valenciană · Engleză B1"
+			"value": "Spaniolă (nativ), valenciană și engleză (B1)"
 		},
 		{
 			"label": "Educație",
-			"value": "Licență în Știința Datelor (UPV) · Master în Digitalizare, Inovare și Tehnologie în Sport"
+			"value": "Licență în Știința Datelor (UPV) și Master în Digitalizare, Inovare și Tehnologie în Sport"
 		}
 	]
 }

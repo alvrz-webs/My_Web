@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Política de reemborsament — Mario Álvarez",
+		"description": "Com funcionen les cancel·lacions, el dret de desistiment i les devolucions dels serveis de Mario Álvarez.",
+		"heading": "Política de reemborsament"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Aquest web no cobra pagaments",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "En marioalvarez.me no es venen productes ni es cobren pagaments en línia. Els serveis (anàlisi de rendiment, eines a mida, bases de dades i informes i suport en carrera) es contracten a part, amb una proposta per escrit."
+				}
+			]
+		},
+		{
+			"titulo": "2. El que digui la teva proposta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cada proposta indica el preu, com i quan es paga i les condicions de cancel·lació. Si la proposta diu una cosa diferent d'aquesta política, mana la proposta, tret que aquesta política et doni més drets com a consumidor."
+				}
+			]
+		},
+		{
+			"titulo": "3. Si cancel·les",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tret que es pacti una altra cosa per escrit:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Si cancel·les abans que comenci la feina, et retorno íntegrament qualsevol pagament avançat.",
+						"Si cancel·les amb la feina començada, es cobra només la part ja feta i et retorno la resta del que hagis avançat.",
+						"La feina ja lliurada i acceptada no es reembossa, tret que tingui defectes que no es corregeixin."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Dret de desistiment (si ets consumidor)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Si contractes com a consumidor (una persona que actua fora de la seva activitat professional) i el contracte es tanca a distància, per email o per telèfon, tens 14 dies naturals des que es tanca per desistir sense donar explicacions, segons els articles 102 a 108 del text refós de la Llei General per a la Defensa dels Consumidors i Usuaris (Reial Decret Legislatiu 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Si em demanes expressament que comenci a treballar dins d'aquests 14 dies i després desisteixes, pagaràs només la part proporcional del servei prestat fins a aquell moment. Si el servei s'ha completat del tot dins del termini, amb el teu consentiment previ i expresse i sabent que així perds aquest dret, ja no podràs desistir (article 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Com demanar-ho",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Escriu-me a {email} amb el teu nom, el servei i la data en què el vas contractar. Pots utilitzar aquest model de formulari de desistiment (no és obligatori):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"A l'atenció de {nombre}, {domicilio}, {email}:",
+						"Per la present li comunico que desisteixo del meu contracte de prestació del servei següent: [servicio].",
+						"Contractat el: [fecha].",
+						"Nom del consumidor: [nombre].",
+						"Domicili del consumidor: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Termini i forma de la devolució",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Et retorno el que correspongui en un màxim de 14 dies naturals des que em comuniquis la teva decisió, pel mateix mitjà de pagament que vas utilitzar, tret que acordem un altre. La devolució no té cap cost per a tu."
+				}
+			]
+		}
+	]
+}

@@ -4,7 +4,10 @@
 		"description": "Mario Álvarezen datu-analisiko, bistaratze eta ikasketa automatikoko biltegi eta proiektuak.",
 		"eyebrow": "Proiektuak",
 		"heading": "Proiektuak",
-		"intro": "Nire lanaren ikuspegi bat: txirrindularitza profesionalerako tresnetatik hasi eta analisi eta ikasketa automatikoko lan akademikoetaraino."
+		"intro": "Nire lanaren ikuspegi bat: txirrindularitza profesionalerako tresnetatik hasi eta analisi eta ikasketa automatikoko lan akademikoetaraino.",
+		"cifraRepos": "GitHub-ko biltegi publikoak",
+		"cifraWebs": "argitaratutako webguneak",
+		"cifraHerramientas": "lengoaiak eta tresnak"
 	},
 	"list": {
 		"eyebrow": "Lana",

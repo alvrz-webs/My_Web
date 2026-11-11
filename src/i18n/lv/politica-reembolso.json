@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Atlīdzināšanas politika — Mario Álvarez",
+		"description": "Kā darbojas atcelšana, atteikuma tiesības un Mario Álvarez pakalpojumu atgriešana.",
+		"heading": "Atlīdzināšanas politika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Šī vietne neiekasē maksājumus",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vietnē marioalvarez.me netiek pārdoti produkti vai iekasēti tiešsaistes maksājumi. Pakalpojumi (veiktspējas analīze, pielāgoti rīki, datu bāzes un atskaites, kā arī karjeras atbalsts) tiek nolīgti atsevišķi, izmantojot rakstisku piedāvājumu."
+				}
+			]
+		},
+		{
+			"titulo": "2. Ko nosaka tavs piedāvājums",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Katrā piedāvājumā ir norādīta cena, kā un kad tiek veikts maksājums, kā arī atcelšanas noteikumi. Ja piedāvājumā ir teikts kaut kas cits nekā šajā politikā, spēkā ir piedāvājums, ja vien šī politika nepiešķir tev vairāk patērētāja tiesību."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ja tu veic atcelšanu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ja vien rakstiski nav panākta cita vienošanās:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ja tu atceļ darbu pirms tā sākuma, es tev pilnībā atmaksāju jebkuru iepriekš veikto maksājumu.",
+						"Ja tu atceļ darbu, kad tas jau ir sācies, tiek iekasēta tikai jau paveiktā daļa, un es tev atmaksāju pārējo iepriekš samaksāto summu.",
+						"Jau piegādāts un pieņemts darbs netiek atmaksāts, ja vien tam nav nepilnību, kas netiek novērstas."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Atteikuma tiesības (ja esi patērētājs)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ja tu slēdz līgumu kā patērētājs (persona, kas rīkojas ārpus savas profesionālās darbības) un līgums tiek noslēgts attālināti, pa e-pastu vai pa tālruni, tev ir 14 kalendārās dienas no tā noslēgšanas brīža, lai atteiktos, nesniedzot nekādus paskaidrojumus, saskaņā ar Patērētāju un lietotāju aizsardzības vispārējā likuma konsolidētā teksta 102. līdz 108. pantu."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ja tu nepārprotami lūdz mani sākt darbu šo 14 dienu laikā un pēc tam atsaki, tu maksāsi tikai par proporcionālo līdz tam brīdim sniegtā pakalpojuma daļu. Ja pakalpojums ir pilnībā pabeigts noteiktajā termiņā, saņemot iepriekšēju un nepārprotamu tavu piekrišanu un apzinoties, ka tādējādi tu zaudē šīs tiesības, tu vairs nevarēsi atteikties (103. panta a) punkts)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kā to pieprasīt",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Raksti man uz {email}, norādot savu vārdu, pakalpojumu un datumu, kad to pasūtīji. Tu vari izmantot šo atteikuma veidlapas paraugu (tas nav obligāti):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Uzņēmumam {nombre}, {domicilio}, {email}:",
+						"Ar šo es paziņoju, ka atsaku no sava līguma par šāda pakalpojumu sniegšanu: [servicio].",
+						"Pasūtīts: [fecha].",
+						"Patērētāja vārds: [nombre].",
+						"Patērētāja adrese: [domicilio].",
+						"Datums: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Atmaksas termiņš un veids",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Es tev atgriezīšu attiecīgo summu ne vēlāk kā 14 kalendāro dienu laikā no brīža, kad paziņosi man savu lēmumu, izmantojot to pašu maksājuma līdzekli, ko tu izmantoji, ja vien mēs nevienojamies citādi. Atgriešana tev neizmaksās neko."
+				}
+			]
+		}
+	]
+}

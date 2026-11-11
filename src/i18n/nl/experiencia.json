@@ -4,13 +4,28 @@
 		"description": "Twee werelden, dezelfde taal: prestatie. De ervaring van Mario Álvarez in data en engineering, en in elite wielrennen.",
 		"eyebrow": "Ervaring",
 		"heading": "Twee werelden, dezelfde taal: prestatie",
-		"colDatos": "Data & Technologie",
+		"lead": "In een database of in de ploegleiderswagen is het werk hetzelfde: goed meten om beter te beslissen.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "records in de database die ik optimaliseer bij SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "tools in Python voor het team Cofidis"
+			},
+			{
+				"cifra": "6e",
+				"texto": "op het WK en EK baanwielrennen"
+			}
+		],
+		"colDatos": "Data en technologie",
 		"colDeporte": "Elitesport"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Stage Data Science",
-			"meta": "Data Engineering · Benidorm · 2026",
+			"meta": "Data-engineering, Benidorm, 2026",
 			"paragraphs": [
 				"SIME ontwikkelt beheersoftware (reserveringen, facturatie, rapporten, horecabestellingen) die honderden klanten bedient vanuit een centraal systeem, op basis van een database met +580 onderlinge tabellen en +100 miljoen records. De groei had gedwongen om klanten te verdelen over meerdere databases om de belasting en klachten over traagheid te verlichten.",
 				"Mijn werk: die databases analyseren en, door middel van query-optimalisatie en indexen, het samenvoegen van alle data ontwerpen tot één enkele efficiënte database zonder de hardware (RAM/CPU) nagenoeg te schalen. Verbetering reeds ontwikkeld, in validatiefase op testschema."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projecten met het Cofidis-team (World Tour)",
-			"meta": "Python · Zomer 2025",
+			"meta": "Python, zomer 2025",
 			"paragraphs": [
 				"Eigen project dat ik uitvoerde als test om toegang te krijgen tot data-analyse in het professionele wielrennen:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Competitie",
 			"paragraphs": [
 				"Spaans kampioen madison (18 jaar); WK en EK baanwielrennen met de Spaanse selectie (6e bij beide); elitesporter; actieve, gefedereerde baanwielrenner."
-			]
+			],
+			"meta": "Baanwielrennen, Spaanse nationale ploeg"
 		},
 		{
 			"title": "Sportdirectie",
 			"paragraphs": [
 				"Sportdirecteur Niveau I en II (RFEC); training en begeleiding van jeugdrenners (14–18) samen met mijn vader; assistent bij de selectie van de Valenciaanse Gemeenschap tijdens wedstrijden (2026)."
-			]
+			],
+			"meta": "RFEC, niveau I en II"
 		},
 		{
 			"title": "Sportmassage en technische staf",

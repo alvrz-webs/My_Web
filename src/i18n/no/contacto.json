@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Ta kontakt med Mario Álvarez for å diskutere data, sportsprestasjoner og prosjekter.",
 		"eyebrow": "Kontakt",
-		"heading": "Har du data og et spørsmål som må løses?",
-		"intro": "La oss snakke sammen. Enten det gjelder et sportsanalytkeprosjekt, et datasamarbeid eller bare en idé du ønsker å drøfte, svarer jeg gjerne.",
+		"heading": "Har du data og et spørsmål?",
+		"intro": "La oss prate. Enten det dreier seg om et sportsanalytisk prosjekt, et datasamarbeid eller en idé du vil sjekke ut, er det meg du snakker med.",
 		"email": "E-post",
 		"telefono": "Telefon",
 		"verTelefono": "Vis telefon",
-		"redesSociales": "Sosiale medier"
+		"redesSociales": "Sosiale medier",
+		"temaTitulo": "Hva vil du snakke om?",
+		"temaAyuda": "Velg et tema, så klargjør jeg e-posten for deg. Du trenger bare å fortelle meg om saken din.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Ytelsesanalyse"
+			},
+			{
+				"id": "herramientas",
+				"label": "Et skreddersydd verktøy"
+			},
+			{
+				"id": "datos",
+				"label": "Databaser og rapporter"
+			},
+			{
+				"id": "carrera",
+				"label": "Karrierestøtte"
+			},
+			{
+				"id": "otro",
+				"label": "Noe annet"
+			}
+		],
+		"escribir": "Skriv e-posten",
+		"copiar": "Kopier e-post",
+		"copiado": "E-post kopiert",
+		"asunto": "Henvendelse fra marioalvarez.me",
+		"cuerpo": "Hei Mario:\n\nJeg skriver til deg angående: {tema}.\n\nDet jeg har:\n\nDet jeg lurer på:\n\nTakk.",
+		"otrosCanales": "Andre kanaler",
+		"base": "Base",
+		"baseValor": "Benidorm og Valencia",
+		"idiomas": "Språk",
+		"idiomasValor": "Spansk, valenciansk og engelsk",
+		"aceptacionesTitulo": "Før du skriver til meg",
+		"aceptoTerminos": "Jeg har lest og godtar {enlace}.",
+		"enlaceTerminos": "vilkår og betingelser",
+		"aceptoCookies": "Jeg godtar analysekapslene som er beskrevet i {enlace} (valgfritt).",
+		"enlaceCookies": "retningslinjer for informasjonskapsler",
+		"faltaTerminos": "For å skrive til meg må du krysse av i boksen for vilkår og betingelser først.",
+		"primeraCapa": "Ansvarlig: Mario Álvarez Martínez. Formål: å svare på henvendelsen din og, hvis du ber om det, utarbeide et tilbud til deg. Behandlingsgrunnlag: din forespørsel. Mottakere: ingen, med mindre det foreligger rettslig forpliktelse. Rettigheter: innsyn, retting, sletting og andre rettigheter som forklares i {enlace}.",
+		"enlacePrivacidad": "personvernerklæring",
+		"refEmail": "Referanse for aksept av vilkårene: {ref}"
 	}
 }

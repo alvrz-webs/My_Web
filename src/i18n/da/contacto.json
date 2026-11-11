@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Kom i kontakt med Mario Álvarez for at tale om data, sportspræstationer og projekter.",
 		"eyebrow": "Kontakt",
-		"heading": "Har du data og et spørgsmål, der skal løses?",
-		"intro": "Lad os tale sammen. Uanset om det drejer sig om et sportsanalytisk projekt, et datasamarbejde eller blot en idé, du gerne vil vende, svarer jeg med glæde.",
+		"heading": "Har du data og et spørgsmål?",
+		"intro": "Lad os tale sammen. Uanset om det drejer sig om et sportsanalytisk projekt, et datasamarbejde eller en idé, du gerne vil vende, så svarer jeg dig.",
 		"email": "E-mail",
 		"telefono": "Telefon",
 		"verTelefono": "Vis telefon",
-		"redesSociales": "Sociale medier"
+		"redesSociales": "Sociale medier",
+		"temaTitulo": "Hvad vil du tale om?",
+		"temaAyuda": "Vælg et emne, og jeg gør e-mailen klar til dig. Du skal bare fortælle mig om din sag.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Præstationsanalyse"
+			},
+			{
+				"id": "herramientas",
+				"label": "Et skræddersyet værktøj"
+			},
+			{
+				"id": "datos",
+				"label": "Databaser og rapporter"
+			},
+			{
+				"id": "carrera",
+				"label": "Støtte til en løbende karriere"
+			},
+			{
+				"id": "otro",
+				"label": "Noget andet"
+			}
+		],
+		"escribir": "Skriv e-mailen",
+		"copiar": "Kopier e-mail",
+		"copiado": "E-mail kopieret",
+		"asunto": "Henvendelse fra marioalvarez.me",
+		"cuerpo": "Hej Mario:\n\nJeg skriver til dig angående: {tema}.\n\nDet, jeg har:\n\nDet, jeg gerne vil vide:\n\nTak.",
+		"otrosCanales": "Andre kanaler",
+		"base": "Base",
+		"baseValor": "Benidorm og Valencia",
+		"idiomas": "Sprog",
+		"idiomasValor": "Spansk, valenciansk og engelsk",
+		"aceptacionesTitulo": "Før du skriver til mig",
+		"aceptoTerminos": "Jeg har læst og accepterer {enlace}.",
+		"enlaceTerminos": "vilkår og betingelser",
+		"aceptoCookies": "Jeg accepterer de analysecookies, der er beskrevet i {enlace} (valgfrit).",
+		"enlaceCookies": "cookiepolitik",
+		"faltaTerminos": "For at skrive til mig skal du først markere feltet for vilkår og betingelser.",
+		"primeraCapa": "Ansvarlig: Mario Álvarez Martínez. Formål: At besvare din henvendelse og, hvis du beder om det, udarbejde et tilbud til dig. Hjemmel: Din anmodning. Modtagere: Ingen, medmindre der er en retlig forpligtelse. Rettigheder: Indsigtsret, berigtigelse, sletning og de øvrige rettigheder, der forklares i {enlace}.",
+		"enlacePrivacidad": "privatlivspolitik",
+		"refEmail": "Reference for accept af vilkår: {ref}"
 	}
 }

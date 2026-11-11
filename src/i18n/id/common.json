@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Beranda",
 		"sobreMi": "Tentang Saya",
 		"proyectos": "Proyek",
 		"experiencia": "Pengalaman",
@@ -7,10 +8,22 @@
 		"ariaMain": "Navigasi utama",
 		"openMenu": "Buka menu"
 	},
+	"saltar": "Lewati ke konten",
+	"tema": "Beralih antara mode terang dan gelap",
+	"telefono": "Telepon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Juara Spanyol madison. Ilmuwan data.",
+		"disponible": "Tersedia untuk proyek data dan performa olahraga.",
+		"escribeme": "Hubungi saya",
+		"navLabel": "Bagian",
+		"legalLabel": "Legal",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Media sosial"
+	},
+	"cierre": {
+		"title": "Mari mengobrol?",
+		"text": "Jika Anda memiliki data performa dan pertanyaan yang belum terjawab, hubungi saya dan kita lihat bersama.",
+		"cta": "Hubungi saya"
 	},
 	"langSwitch": {
 		"label": "Ubah bahasa",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Persetujuan cookie"
 	},
 	"legal": {
+		"terminos": "Syarat dan ketentuan",
 		"privacidad": "Kebijakan privasi",
-		"cookies": "Kebijakan cookie"
+		"cookies": "Kebijakan cookie",
+		"reembolso": "Kebijakan pengembalian dana",
+		"actualizado": "Pembaruan terakhir",
+		"indice": "Di halaman ini",
+		"otros": "Dokumen lainnya"
 	},
 	"person": {
 		"jobTitle": "Ilmuwan data",
 		"description": "Ilmuwan data yang berspesialisasi dalam analitik olahraga, dengan pengalaman di bidang balap sepeda profesional."
+	},
+	"pizarra": {
+		"vueltas": "putaran",
+		"campana": "terakhir"
 	}
 }

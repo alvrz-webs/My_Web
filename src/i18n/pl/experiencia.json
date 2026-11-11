@@ -4,13 +4,28 @@
 		"description": "Dwa światy, ten sam język: wydajność. Doświadczenie Mario Álvareza w dziedzinie danych i inżynierii oraz elitarnego kolarstwa.",
 		"eyebrow": "Doświadczenie",
 		"heading": "Dwa światy, ten sam język: wydajność",
+		"lead": "W bazie danych lub w samochodzie drużynowym praca jest taka sama: mierzyć dobrze, aby podejmować lepsze decyzje.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "rekordów w bazie danych, którą optymalizuję w SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "narzędzia w Pythonie dla zespołu Cofidis"
+			},
+			{
+				"cifra": "6.",
+				"texto": "na Mistrzostwach Świata i Europy w kolarstwie torowym"
+			}
+		],
 		"colDatos": "Dane i technologia",
 		"colDeporte": "Sport elity"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Staż w dziedzinie nauki o danych",
-			"meta": "Inżynieria danych · Benidorm · 2026",
+			"meta": "Inżynieria danych, Benidorm, 2026",
 			"paragraphs": [
 				"SIME tworzy oprogramowanie do zarządzania (rezerwacje, fakturowanie, raporty, zamówienia gastronomiczne), z którego korzystają setki klientów z poziomu systemu centralnego, opartego na bazie danych zawierającej ponad 580 powiązanych tabel i ponad 100 milionów rekordów. Wzrost zmusił firmę do rozdzielenia klientów na kilka baz danych w celu odciążenia systemu i zmniejszenia liczby skarg dotyczących powolnego działania.",
 				"Moja praca: analiza tych baz danych i, poprzez optymalizację zapytań oraz indeksów, zaprojektowanie unifikacji wszystkich danych w jedną wydajną bazę bez niemal żadnego skalowania sprzętu (RAM/CPU). Ulepszenie zostało już opracowane i znajduje się w fazie walidacji na serwerze testowym."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekty z zespołem Cofidis (World Tour)",
-			"meta": "Python · Lato 2025",
+			"meta": "Python, lato 2025",
 			"paragraphs": [
 				"Własny projekt wykonany jako test rekrutacyjny do pracy przy analizie danych w kolarstwie zawodowym:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Rywalizacja",
 			"paragraphs": [
 				"Mistrz Hiszpanii w madisonie (18 lat); Mistrzostwa Świata i Europy na torze z reprezentacją Hiszpanii (6. miejsce w obu); sportowiec elity; licencjonowany, aktywny kolarz torowy."
-			]
+			],
+			"meta": "Kolarstwo torowe, Hiszpańska Reprezentacja Narodowa"
 		},
 		{
 			"title": "Dyrektor sportowy",
 			"paragraphs": [
 				"Dyrektor sportowy I i II stopnia (RFEC); szkolenie i monitorowanie kolarzy młodzieżowych (14–18 lat) wspólnie z moim ojcem; asystent w reprezentacji Wspólnoty Walenckiej podczas zawodów (2026)."
-			]
+			],
+			"meta": "RFEC, poziomy I i II"
 		},
 		{
 			"title": "Masaż klasyczny i sztab techniczny",

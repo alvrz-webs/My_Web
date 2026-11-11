@@ -22,6 +22,10 @@
 		}
 	},
 	"common": {
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "Inizio"
+		},
 		"nav/sobreMi": {
 			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
 			"value": "Su di me"
@@ -46,9 +50,37 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "Apri menu"
 		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "Salta al contenuto"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "Passa dalla modalità chiara a quella scura"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "Telefono"
+		},
 		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "Campione spagnolo di madison. Data scientist."
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "Disponibile per progetti di dati e prestazioni sportive."
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Scrivimi"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "Sezioni"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "Note legali"
 		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
@@ -57,6 +89,18 @@
 		"footer/ariaSocial": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Social media"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "Parliamo?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Se hai dati sulle prestazioni e domande senza risposta, scrivimi e diamoci un'occhiata insieme."
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Scrivimi"
 		},
 		"langSwitch/label": {
 			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
@@ -98,6 +142,10 @@
 			"hash": "8a27f245f419cf27e1055c0004349e13d64579b79a7c51e2d9d91f35e85874dd",
 			"value": "Consenso sui cookie"
 		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Termini e condizioni"
+		},
 		"legal/privacidad": {
 			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
 			"value": "Informativa sulla privacy"
@@ -106,6 +154,22 @@
 			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
 			"value": "Informativa sui cookie"
 		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Politica di rimborso"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "Ultimo aggiornamento"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "In questa pagina"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "Altri documenti"
+		},
 		"person/jobTitle": {
 			"hash": "d4eb464156ca87b9fafede59deacd1c0ddc7bcd6971cc2c82d2355c2d38e0c58",
 			"value": "Data scientist"
@@ -113,6 +177,14 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "Data scientist specializzato in analisi sportiva, con esperienza nel ciclismo professionistico."
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "giri"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "ultimo"
 		}
 	},
 	"inicio": {
@@ -121,136 +193,264 @@
 			"value": "Mario Álvarez — Cientifico de dati specializzato nello sport"
 		},
 		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "Mario Álvarez, cientifico de dati a Valencia specializzato in analisi sportiva. Data · Sport · Progress."
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "Mario Álvarez, data scientist a Valencia specializzato in analisi sportiva. Campione di Spagna di madison e direttore sportivo RFEC."
 		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "Vedi progetti"
 		},
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "Scopri come posso aiutarti"
+		},
 		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "Contatto"
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Scrivimi"
 		},
 		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "Vedi di più"
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "Leggi di più"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "Vedi tutti i progetti"
 		},
 		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "Vai al contatto"
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Scrivimi"
 		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "Strumenti principali"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "Cientifico de dati · Analisi sportiva · Valencia"
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "Mario Álvarez, data scientist"
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "Trasformo i dati in "
-		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "decisioni chiare"
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "Sono stato campione di Spagna di madison."
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "Sono il ponte tra l'analisi dei dati e lo sport d'élite: trasformo le metriche di prestazione in strategie che fanno la differenza sul campo."
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "Ora studio Scienza dei Dati alla UPV e analizzo ciò che c'è dietro la prestazione: potenza, carico e risultati. So cosa significa un numero per un corridore perché sono stato quel corridore."
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "Palmarès"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "1º"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "Campionato di Spagna di madison"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "Pista, a 18 anni"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "Su di me"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "Campionato del Mondo su pista"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Nazionale Spagnola"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "Campionato Europeo su pista"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Nazionale Spagnola"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Ritratto di Mario Álvarez"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "In cosa posso aiutarti"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "Lavoro con squadre, allenatori e corridori che hanno dati e vogliono sfruttarli. E con aziende che hanno bisogno di organizzare i propri."
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "Raccontami il tuo caso"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Analisi delle prestazioni"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "Leggo potenza, carico e risultati con gli occhi di un corridore. Ti spiego cosa sta succedendo e cosa cambierei."
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "Corridore d'élite e direttore sportivo RFEC, livelli I e II."
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "Strumenti su misura"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "Scraping, modelli e piccole applicazioni in Python che rispondono a una domanda specifica della tua squadra."
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Due strumenti per la squadra Cofidis: difficoltà UCI e profilo di corsa."
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Database e report"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "Query più veloci, database unificati e dashboard in Power BI che si capiscono al volo."
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "Più di 580 tabelle e 100 milioni di record nel database che ottimizzo in SIME Telecom."
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Supporto in corsa"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "Preparazione delle gare, monitoraggio dei corridori e massofisioterapia in competizione."
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "Staff della Nazionale della Comunità Valenciana."
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "Dati con contesto di pista, strada e competizione"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "Dal velodromo ai dati"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "Sono Mario Álvarez, studente di Scienza dei Dati alla UPV con esperienza reale nel ciclismo professionistico. Combino l'analisi dei dati con le prestazioni sportive d'élite, per trasformare ogni metrica in una decisione che migliora i risultati."
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "Frequento il 3º anno del Corso di Laurea in Scienza dei Dati alla UPV e ho completato un master in digitalizzazione e tecnologia applicata allo sport. Non ho lasciato il ciclismo: continuo a correre su pista, allevo corridori di base e lavoro come massofisioterapista con i professionisti."
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Base"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm e Valencia"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Formazione"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "Laurea in Scienza dei Dati, Universitat Politècnica de València."
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Laurea in Scienza dei Dati (UPV) e Master in Digitalizzazione, Innovazione e Tecnologia nello Sport"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "Élite"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "Titoli"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Esperienza"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "Direttore sportivo RFEC, livelli I e II"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "Lavoro reale all'interno di una squadra di ciclismo professionistico."
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "Ora"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "Approccio"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "Analisi applicata al miglioramento delle prestazioni sportive."
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Esperienza"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "Disponibile per progetti di dati e performance"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "Due mondi, un'unica lingua: la prestazione"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "Due corsie, un unico lavoro"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "Ho gareggiato al massimo livello e oggi applico lo stesso criterio ai dati: capisco cosa significa un numero per uno sportivo perché sono stato quello sportivo."
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "Da un lato ottimizzo database e scrivo modelli. Dall'altro preparo gare e seguo corridori. Entrambi fanno la stessa cosa: misurare bene per decidere meglio."
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "Dati"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "tabelle analizzate in SIME Telecom per unificare più database in uno solo, senza espandere l'hardware"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "record nel database che sto ottimizzando"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "strumenti in Python per la squadra Cofidis: difficoltà UCI e profilo di corsa"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "Pista e strada"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I e II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "livelli di direttore sportivo della Reale Federazione Spagnola di Ciclismo"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "anni hanno i corridori di base che alleno e seguo insieme a mio padre"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "ausiliario con la Nazionale della Comunità Valenciana in competizione"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "Parliamo di dati?"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "Ultimo giro"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "Raccontami il tuo progetto e cerchiamo insieme dove sono le decisioni che migliorano le prestazioni."
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Se hai dati sulle prestazioni e domande senza risposta, scrivimi e lo vediamo insieme."
 		}
 	},
 	"sobre-mi": {
@@ -269,6 +469,30 @@
 		"meta/heading": {
 			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
 			"value": "Dal velodromo ai dati"
+		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "Sono ancora nel ciclismo, in pista e sull'ammiraglia. Quella che è cambiata è la mia prospettiva: ora guardo le cose anche attraverso i dati."
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "Corridore, direttore sportivo e data scientist"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "In breve"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "L'essenziale, se hai fretta."
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Ritratto di Mario Álvarez"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "Prima le gambe. Ora i dati."
 		},
 		"bio/0": {
 			"hash": "d7d611e5e1b9b9834eb8052dd8edd5c1e1986ee032a232146858b8bcedcbb7b0",
@@ -291,8 +515,8 @@
 			"value": "Base"
 		},
 		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm e Valencia"
 		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
@@ -307,24 +531,24 @@
 			"value": "Approccio"
 		},
 		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "Dati + rendimento sportivo"
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "Dati e rendimento sportivo"
 		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "Lingue"
 		},
 		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "Spagnolo madrelingua · Valenciano · Inglese B1"
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "Spagnolo (nativo), valenciano e inglese (B1)"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Formazione"
 		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "Laurea in Scienza dei dati (UPV) · Master in Digitalizzazione, Innovazione e Tecnologia nello Sport"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Laurea in Scienza dei Dati (UPV) e Master in Digitalizzazione, Innovazione e Tecnologia nello Sport"
 		}
 	},
 	"experiencia": {
@@ -344,9 +568,37 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "Due mondi, un'unica lingua: la prestazione"
 		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "In un database o nell'ammiraglia, il lavoro è lo stesso: misurare bene per decidere meglio."
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "record nel database che ottimizzo in SIME Telecom"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "strumenti in Python per il team Cofidis"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "ai Mondiali e agli Europei su pista"
+		},
 		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "Dati & Tecnologia"
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "Dati e tecnologia"
 		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
@@ -357,8 +609,8 @@
 			"value": "SIME TELECOM — Tirocinio in Scienza dei Dati"
 		},
 		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "Ingegneria dei Dati · Benidorm · 2026"
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "Ingegneria dei dati, Benidorm, 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -373,8 +625,8 @@
 			"value": "Progetti con la squadra Cofidis (World Tour)"
 		},
 		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · Estate 2025"
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, estate 2025"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -416,6 +668,10 @@
 			"hash": "431d7654ad9c17cfef188c6dd216d77877c67074b5a70fccc26b28faecb96342",
 			"value": "Campione di Spagna di madison (18 anni); Mondiale ed Europeo su pista con la Nazionale Spagnola (6º in entrambi); atleta d'élite; ciclista su pista tesserato, in attività."
 		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "Ciclismo su pista, Nazionale Spagnola"
+		},
 		"deporte/1/title": {
 			"hash": "84790bf295460a6481da8ad76c8e18d330f20f20baefb8c4d37a1818f065b8a5",
 			"value": "Direzione sportiva"
@@ -423,6 +679,10 @@
 		"deporte/1/paragraphs/0": {
 			"hash": "5dc31dcec5b8544c3fc67da4aedaf52f4da758ba225c9b41297dbeb77730d51b",
 			"value": "Direttore Sportivo Livello I e II (RFEC); formazione e monitoraggio di ciclisti di base (14–18) insieme a mio padre; assistente con la Nazionale della Comunità Valenciana nelle competizioni (2026)."
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, livelli I e II"
 		},
 		"deporte/2/title": {
 			"hash": "0cfe14a47563f418eb121ade7cad7186d2ee23873832ee8f81b43b56f8c18212",
@@ -457,6 +717,18 @@
 		"page/intro": {
 			"hash": "1fd2e8bddd12d8068f8b276948c38027993b3b9bdfceddc4b731d6f8d8cf0050",
 			"value": "Uno sguardo al mio lavoro: dagli strumenti per il ciclismo professionistico a progetti accademici di analisi e machine learning."
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "repository pubblici su GitHub"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "siti web pubblicati"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "linguaggi e strumenti"
 		},
 		"list/eyebrow": {
 			"hash": "e1ddc0cbc9891e79be8a4e469ca4f1acdeb9c42cf5a43ae2fa45c189e422cdae",
@@ -537,12 +809,12 @@
 			"value": "Contatto"
 		},
 		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "Hai dati e una domanda da risolvere?"
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "Hai dati e una domanda?"
 		},
 		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "Parliamone. Che si tratti di un progetto di analisi sportiva, di una collaborazione sui dati o semplicemente di un'idea che vuoi confrontare, rispondo volentieri."
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "Parliamone. Che si tratti di un progetto di analisi sportiva, di una collaborazione sui dati o di un'idea che vuoi confrontare, ti rispondo io."
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,206 +831,734 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Social media"
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "Di cosa vuoi parlare?"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "Scegli un tema e ti preparo l'email. Devi solo raccontarmi il tuo caso."
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Analisi delle prestazioni"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "Uno strumento su misura"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Database e report"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Supporto di carriera"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "Altro"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "Scrivi l'email"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "Copia email"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "Email copiata"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "Richiesta da marioalvarez.me"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "Ciao Mario:\n\nTi scrivo per: {tema}.\n\nQuello che ho:\n\nQuello che vorrei sapere:\n\nGrazie."
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "Altri canali"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Base"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm e Valencia"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "Lingue"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "Spagnolo, valenciano e inglese"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "Prima di scrivermi"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "Ho letto e accetto i {enlace}."
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "termini e condizioni"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "Accetto i cookie di analisi descritti nella {enlace} (facoltativo)."
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "politica sui cookie"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "Per scrivermi, spunta prima la casella dei termini e condizioni."
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "Titolare: Mario Álvarez Martínez. Finalità: rispondere alla tua richiesta e, se me lo chiedi, prepararti una proposta. Base giuridica: la tua richiesta. Destinatari: nessuno, salvo obblighi di legge. Diritti: accesso, rettifica, cancellazione e gli altri spiegati nella {enlace}."
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "informativa sulla privacy"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "Riferimento di accettazione dei termini: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
-			"value": "Informativa sui Cookie — Mario Álvarez"
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
+			"value": "Informativa sui cookie — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "Quali cookie utilizza questo sito, con quale scopo e come modificare il tuo consenso in qualsiasi momento."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Legale"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "Quali cookie utilizza marioalvarez.me, quali richiedono il tuo permesso e come modificare la tua scelta in qualsiasi momento."
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
-			"value": "Informativa sui Cookie"
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "Informativa sui cookie"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "Questo sito Web utilizza cookie e tecnologie simili (come la memorizzazione locale del browser) per il suo corretto funzionamento e, se dai il tuo consenso, per analizzare in modo anonimo come viene utilizzato il contenuto."
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "La tua scelta"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "Cookie utilizzati:"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "Puoi modificarla o cancellare i tuoi dati quando vuoi, con la stessa facilità con cui li hai concessi."
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "1. Cosa sono e se ho bisogno del tuo permesso"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "I cookie e tecnologie simili (come la memorizzazione locale del browser) salvano piccoli dati sul tuo dispositivo. Ai sensi dell'articolo 22.2 della LSSI-CE e della Guida sull'uso dei cookie dell'Agenzia Spagnola per la Protezione dei Dati, quelli strettamente necessari per qualcosa che richiedi tu non richiedono consenso; quelli di analisi, sì."
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "Per questo motivo questo sito web salva il cookie di analisi solo se lo accetti, e ti permette di accettare o rifiutare con due pulsanti uguali, nella stessa schermata e senza caselle predefinite. Rifiutarlo non ti impedisce di utilizzare alcuna parte del sito web."
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "2. Cookie utilizzati da questo sito web"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "Nome"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "Scopo"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "A cosa serve"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "Tipo"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "Richiede il tuo permesso?"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "Durata"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "consentimiento_cookies"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "Salvare la tua scelta, la versione di questa informativa e l'identificativo pseudonimo del tuo registro di consenso"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "Memorizzare la tua scelta relativa a questa informativa sui cookie"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "Proprio, tecnico"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "Proprio, tecnico (esente da consenso)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "No"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 mesi"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "visitante_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "Identificativo pseudonimo per sapere quali contenuti risultano utili"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "Identificatore anonimo per mettere in relazione le tue visite e sapere quale contenuto risulta utile"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "Proprio, di analisi"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "Proprio, analitico (richiede il tuo consenso)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "Sì"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 mesi"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "Nessuno di questi cookie è di terze parti, nessuno viene utilizzato per scopi pubblicitari e nessuno viene condiviso con nessuno al di fuori di questo sito."
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "Puoi cambiare la tua decisione o revocare il tuo consenso in qualsiasi momento dal link \"Configura cookie\" nel piè di pagina, ed eliminare immediatamente tutti i tuoi dati con il pulsante \"Elimina i miei dati\" nello stesso pannello."
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "Ricordare se preferisci il tema chiaro o scuro; viene salvato solo se lo modifichi"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "Per ulteriori informazioni su come vengono trattati i tuoi dati, consulta l'Informativa sulla Privacy."
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "Proprio, di personalizzazione richiesta da te"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "No"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "Fino a quando non lo cancelli"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "3. Ciò che non c'è"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "Non ci sono cookie di terze parti, né pubblicità, né contenuti di social network incorporati, né Google Analytics. I font e le immagini sono serviti direttamente da questo sito web."
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "4. Come cambiare idea"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "Puoi cambiare la tua scelta o revocare il consenso quando vuoi da «Configura i cookie», nel footer di ogni pagina, o con il pulsante di questa pagina. Da lì puoi anche cancellare immediatamente i dati di analisi associati al tuo browser. E puoi cancellare i cookie dalle impostazioni del tuo browser."
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "5. Registro della tua scelta"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "Ogni volta che accetti, rifiuti o revochi il consenso, viene salvato un registro (identificativo pseudonimo, decisione, versione di questa informativa, data e ora, pagina, lingua, origine e browser), senza il tuo indirizzo IP, per poter dimostrare che il consenso era valido. Viene conservato per 3 anni. Maggiori dettagli nell'informativa sulla privacy."
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "6. Modifiche"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "Se questa informativa cambia in modo rilevante, l'avviso sui cookie comparirà nuovamente affinché tu possa decidere di nuovo."
 		}
 	},
 	"politica-privacidad": {
 		"meta/title": {
-			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
+			"hash": "42071aae1686801e5e4d10f528b7ea46c5763923ea327ea82dd99d7216c615cc",
 			"value": "Informativa sulla privacy — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
-			"value": "Informativa sulla privacy del sito di Mario Álvarez: quali dati vengono raccolti, con quale finalità e come esercitare i tuoi diritti."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Legale"
+			"hash": "835ff2101ffc889e493af11033230e7e7c68e148b166dfda511fa4dc11cf8f23",
+			"value": "Quali dati tratta marioalvarez.me, per quale scopo, su quale base giuridica, per quanto tempo e come esercitare i tuoi diritti."
 		},
 		"meta/heading": {
-			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
 			"value": "Informativa sulla privacy"
 		},
 		"secciones/0/titulo": {
-			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
+			"hash": "f26db73f9b3e3b1ff6e9079253f37e391e699fc0a2d4f1d75cc4ad5e736e95a0",
 			"value": "1. Titolare del trattamento"
 		},
-		"secciones/0/bloques/0/texto": {
-			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
-			"value": "Mario Álvarez Martínez, con domicilio in Benidorm (Alicante), Spagna. Contatto: malvmar5@hotmail.com"
+		"secciones/0/bloques/0/items/0": {
+			"hash": "30b867430b07e1173b004c27dbfa003df6e989a4730e364af948572908bd1d7b",
+			"value": "Titolare del trattamento: {nombre}"
+		},
+		"secciones/0/bloques/0/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/0/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Domicilio: {domicilio}"
+		},
+		"secciones/0/bloques/0/items/3": {
+			"hash": "dc9414558e3d4d2f18d1a3674b75de6fadddac371f9d47a3b552090af8eb521e",
+			"value": "Email per qualsiasi questione relativa alla privacy: {email}"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "4ded33c4f911f981554d9312d284fb6c54397059545a170e4cc7fe589462e16d",
+			"value": "Date le dimensioni e il tipo di attività, non è obbligatorio nominare un responsabile della protezione dei dati, quindi non è presente: scrivimi direttamente."
 		},
 		"secciones/1/titulo": {
-			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
-			"value": "2. Finalità del trattamento"
+			"hash": "7945e3b3ea085d4541900f91dd5ee53aa546f0101caa5a0e3e02151f2787a1d8",
+			"value": "2. Quali dati tratto, per quale scopo e perché"
 		},
-		"secciones/1/bloques/0/texto": {
-			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
-			"value": "Questo sito web analizza internamente e per fini esclusivamente statistici quali contenuti (sezioni, progetti) risultano più utili a chi lo visita, con l'obiettivo di migliorarne il contenuto. Non viene utilizzato per fini pubblicitari, non viene condiviso con terzi e non viene venduto in nessuna circostanza."
+		"secciones/1/bloques/0/columnas/0": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Per quale scopo"
+		},
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "972848ecab8712f1568b40ae2e85d79982921d9fb636715f12c3ee77922e3552",
+			"value": "Quali dati"
+		},
+		"secciones/1/bloques/0/columnas/2": {
+			"hash": "0e2ca19b51a48180494077bf03cdc3954e09bdee2636072ad50078371e62a9a5",
+			"value": "Base giuridica"
+		},
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "37f1242360cae04ca75412a4e8cb1f99084336707371d837bfc22cb6e7f5573f",
+			"value": "Quanto tempo"
+		},
+		"secciones/1/bloques/0/filas/0/0": {
+			"hash": "66f19c829749fd1569fc7654b5c44b3cfab1a9f5435c0500d82c758b69eba6f8",
+			"value": "Analitica d'uso, solo se accetti i cookie di analisi"
+		},
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "2316c78abc893aa7ee9c70d0d8941a2f1773cb0072467c8339cd9fe754f34ffd",
+			"value": "Un identificatore pseudonimo casuale (cookie visitante_id), le sezioni e i progetti che visualizzi e il tempo trascorso su ciascuno di essi, i clic su link e pulsanti, la lingua, il tipo di dispositivo (cellulare o desktop), il paese approssimativo e la pagina del sito web in cui si verifica ciascun evento."
+		},
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "48f423d1cad8999cc02a95461334fb67708564a718aae008e8e3d4bd6f1abe5c",
+			"value": "Il tuo consenso (art. 6.1.a GDPR e art. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "7793be198aa2fa735865c4d0184ca23264562c7145f55c2181325fac495c2008",
+			"value": "12 mesi; successivamente ogni evento viene eliminato automaticamente."
+		},
+		"secciones/1/bloques/0/filas/1/0": {
+			"hash": "c9085a6241675f43631bb0acc7db73240979340e52f215e12bac23565cfb2c26",
+			"value": "Registro dei consensi"
+		},
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "4a6cae5ac5e5e2b02740d4fd1afb185091db19db70cf3c1532949b5a71f6d025",
+			"value": "L'identificatore pseudonimo, ciò che hai accettato, rifiutato o revocato, la versione di ciascun documento, la data e l'ora, la pagina, la lingua, l'origine (banner, configurazione o modulo), il browser (agente utente) e il paese approssimativo; nel modulo, inoltre, il codice di riferimento della tua email."
+		},
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "f49d2c07e64734bea73e86a5f913788d7fbef6b7ba587c45d3e43a2fe892e954",
+			"value": "Adempiere all'obbligo di poter dimostrare il consenso (artt. 6.1.c e 7.1 GDPR)."
+		},
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "a2ecf36d6bf6235f3dcca3b1c5fde18943f1cf05d1520617dc789b7a4217b98d",
+			"value": "3 anni da ciascuna registrazione (il termine massimo di prescrizione per le violazioni della LOPDGDD); successivamente viene eliminato automaticamente."
+		},
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "a0b02e5aea3ce82e5aeb02b12c9a190e7b4b8161dadce962d7469d0a4e5c5427",
+			"value": "Rispondere alla tua richiesta via email o telefono"
+		},
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "6fed1a34cd293c983716f8c74612d9b18e8869913be6cbfb6dda6384e8613438",
+			"value": "I dati che decidi di inviarmi: normalmente il tuo nome, la tua email o il tuo telefono e il contenuto del messaggio."
+		},
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "89d10b2cde2d06df634b68d50f4bc73acd354488c981db6412af30a4f424f360",
+			"value": "Applicare misure precontrattuali su tua richiesta (art. 6.1.b GDPR) o il mio legittimo interesse a risponderti (art. 6.1.f)."
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "74f9dde75113c5650697044fdbc4c3a3a97598af5331ce0ef428bbf822cc0c21",
+			"value": "Per tutta la durata della conversazione e fino a 1 anno dopo, a meno che non si arrivi a un contratto."
+		},
+		"secciones/1/bloques/0/filas/3/0": {
+			"hash": "f9c4c0ee00650b320f51840cabbb7e6e642e3b61c8837a74d8d996e267df1b24",
+			"value": "Gestire un servizio contrattualizzato"
+		},
+		"secciones/1/bloques/0/filas/3/1": {
+			"hash": "63ec8a60b26e57f8d39da6ce54f8230cb8530bcf816369573da70e9e591e2822",
+			"value": "Dati di identificazione, contatto e fatturazione."
+		},
+		"secciones/1/bloques/0/filas/3/2": {
+			"hash": "d802d684897cfb64dab5dfb2b82d148f56cec2c89e6f825d0e1bc61ac73971a3",
+			"value": "Esecuzione del contratto (art. 6.1.b GDPR) e obblighi fiscali e contabili (art. 6.1.c)."
+		},
+		"secciones/1/bloques/0/filas/3/3": {
+			"hash": "11f2d939b6159a847bc51d24414c4b9e793bf6825f7c1398abd8db2c71593d92",
+			"value": "Quanto richiesto dalle leggi fiscali e commerciali (in generale, tra 4 e 6 anni)."
+		},
+		"secciones/1/bloques/0/filas/4/0": {
+			"hash": "063288f4f5c95e4a853b475581be68a6fe1a5d2f897f910b64cf1e112b6ad45c",
+			"value": "Ricordare se preferisci il tema chiaro o scuro"
+		},
+		"secciones/1/bloques/0/filas/4/1": {
+			"hash": "dc01e55b7f3a74f530144f1343bf45325fd1f19a6506d36f1a840187ea7c2ce1",
+			"value": "La preferenza «tema», salvata solo nel tuo browser (archiviazione locale). Non arriva a me."
+		},
+		"secciones/1/bloques/0/filas/4/2": {
+			"hash": "b040ff84d8f2d571755a6a5e7ef2c402852e9dec6a680b046a8840b517f0258f",
+			"value": "Una funzione che richiedi premendo il pulsante (esente da consenso ai sensi dell'art. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/4/3": {
+			"hash": "8fb068d79a6505e39426755b0e06217d53afb0432147bf3814d2980ab9e64f5a",
+			"value": "Fino a quando non la elimini dal tuo browser."
 		},
 		"secciones/2/titulo": {
-			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
-			"value": "3. Dati raccolti (solo se accetti i cookie analitici)"
+			"hash": "7feaf44c775a941b92da3e422a3dfbbf1af6d00c97a112d765f00b6c6e69145c",
+			"value": "3. Ciò che non chiedo né raccolgo"
 		},
-		"secciones/2/bloques/0/items/0": {
-			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
-			"value": "Un identificatore anonimo casuale, non collegato al tuo nome, email o a qualsiasi altra informazione che ti identifichi direttamente."
+		"secciones/2/bloques/0/texto": {
+			"hash": "2e532d9922da0772b96e789b3bc6716e06e430392ef62cdbafbf5a64a8b602a0",
+			"value": "Tratto solo lo stretto necessario per ogni scopo. Nello specifico:"
 		},
-		"secciones/2/bloques/0/items/1": {
-			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
-			"value": "Pagine e progetti che visiti e il tempo di attenzione su ciascuno (mentre la scheda è attiva)."
+		"secciones/2/bloques/1/items/0": {
+			"hash": "162d4749f1b4ecef620defa8cc4315c9cdeb14495be2b079d86990bab9921fcc",
+			"value": "Il modulo di contatto non richiede il tuo nome, la tua email o il tuo telefono: apri il tuo programma di posta elettronica e sei tu a decidere cosa inviarmi."
 		},
-		"secciones/2/bloques/0/items/2": {
-			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
-			"value": "Interazioni (clic su progetti, link o pulsanti)."
+		"secciones/2/bloques/1/items/1": {
+			"hash": "ff397d4902c0ffd1189f8e1e35e2bcb687831fb514a3f9e543d45b5097cd02cf",
+			"value": "Non memorizzo il tuo indirizzo IP né nell'analitica né nel registro dei consensi."
 		},
-		"secciones/2/bloques/0/items/3": {
-			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
-			"value": "Data e ora della visita."
+		"secciones/2/bloques/1/items/2": {
+			"hash": "f56194a61aec7b27015853b20033d553cbb9ac044fe9f04346b24415eb7adbcb",
+			"value": "Non utilizzo tecniche di identificazione del browser (fingerprinting), Google Analytics, pixel pubblicitari o cookie di terze parti."
 		},
-		"secciones/2/bloques/0/items/4": {
-			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
-			"value": "Lingua del sito consultato."
-		},
-		"secciones/2/bloques/0/items/5": {
-			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
-			"value": "Tipo di dispositivo (dispositivo mobile o desktop)."
-		},
-		"secciones/2/bloques/0/items/6": {
-			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
-			"value": "Paese approssimativo, ottenuto tramite l'infrastruttura di Cloudflare, senza memorizzare il tuo indirizzo IP."
-		},
-		"secciones/2/bloques/0/items/7": {
-			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
-			"value": "Pagina di provenienza (ad esempio, LinkedIn o un motore di ricerca)."
-		},
-		"secciones/2/bloques/1/texto": {
-			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
-			"value": "Non viene raccolto il tuo indirizzo IP, non vengono utilizzate tecniche di identificazione del browser (fingerprinting) né strumenti di terze parti come Google Analytics o simili."
+		"secciones/2/bloques/1/items/3": {
+			"hash": "0ba62a40c9ed5bff67053ea0f359fcdfe831ea6223962396ea3e25270f49b79e",
+			"value": "I caratteri tipografici e le immagini sono serviti da questo stesso sito web: durante la visita, il tuo browser non si collega a Google Fonts, GitHub o altri servizi esterni."
 		},
 		"secciones/3/titulo": {
-			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
-			"value": "4. Base giuridica"
+			"hash": "e97f09119206a0bb54b91a4d0525a1611a86cd2a1ffb1ce68ecee7e407f5b4b2",
+			"value": "4. Chi altro interviene"
 		},
 		"secciones/3/bloques/0/texto": {
-			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
-			"value": "Il trattamento si basa sul tuo consenso esplicito (articolo 6.1.a del GDPR e articolo 22.2 della LSSI-CE), che puoi revocare in qualsiasi momento dal gestore dei cookie del sito stesso."
+			"hash": "9379c1c29056fb76c9aaac14eec204ccc80f1839470f1fa57d869d5ede4e8554",
+			"value": "Non vendo né cedo i tuoi dati a nessuno, salvo obbligo di legge. Per far funzionare il sito web e per risponderti utilizzo i seguenti fornitori:"
+		},
+		"secciones/3/bloques/1/items/0": {
+			"hash": "ba8d5055f95f76f5d5f213f9ea6abd0d2e73614739ee762b8e003da614270e78",
+			"value": "Cloudflare, Inc.: ospita il sito web e il database (Cloudflare Pages e D1) e agisce come responsabile del trattamento. Per servire il sito web elabora dati di connessione tecnici, come il tuo IP, a cui non ho accesso. La loro informativa: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/3/bloques/1/items/1": {
+			"hash": "e5466224dac0fab3f83206452f2e1dce4d397ed8821b014e24422d4c03931809",
+			"value": "Microsoft Corporation (Outlook.com): il servizio di posta elettronica in cui ricevo e rispondo alle email; tratta tali messaggi secondo la propria informativa: https://privacy.microsoft.com/es-es/privacystatement"
 		},
 		"secciones/4/titulo": {
-			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
-			"value": "5. Periodo di conservazione"
+			"hash": "0f1733989dcc9d3e7da935c30da90d6d47f7e418e0623ece20bdddea5480e10d",
+			"value": "5. Trasferimenti internazionali"
 		},
 		"secciones/4/bloques/0/texto": {
-			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
-			"value": "I dati vengono conservati per un massimo di 12 mesi dalla tua ultima visita, trascorsi i quali vengono cancellati automaticamente."
+			"hash": "730d0cdbf2408bcb369456290dbb1557289c98b1c1ad50e6c7738990068ee833",
+			"value": "Cloudflare e Microsoft possono trattare dati negli Stati Uniti. Entrambe aderiscono al Quadro sulla privacy dei dati UE-USA (decisione di adeguatezza della Commissione Europea del 10 luglio 2023) e offrono inoltre le clausole contrattuali tipo approvate dalla Commissione."
 		},
 		"secciones/5/titulo": {
-			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
-			"value": "6. Destinatari e trasferimenti internazionali"
+			"hash": "4ec1c1d4af17035281741f9ce83569b18261968bce5f1398635042c17d1ea5aa",
+			"value": "6. I tuoi diritti"
 		},
 		"secciones/5/bloques/0/texto": {
-			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
-			"value": "I dati non vengono ceduti né venduti a terzi. Sono memorizzati in Cloudflare D1, un servizio di database fornito da Cloudflare, Inc., che agisce in qualità di responsabile del trattamento. Cloudflare può elaborare dati al di fuori dello Spazio Economico Europeo; in tal caso, tale trasferimento si basa sulle Clausole Contrattuali Standard approvate dalla Commissione Europea. Maggiori informazioni nell'informativa sulla privacy di Cloudflare: https://www.cloudflare.com/privacypolicy/"
+			"hash": "6315177b90b21cdfbed7fbfaec8577e8da3be3f21abc4b0aa4ee3768d05d5730",
+			"value": "Puoi chiedermi in qualsiasi momento di accedere ai tuoi dati, rettificarli, cancellarli, opporti al loro trattamento, limitarlo o riceverli per portarli altrove (portabilità), e revocare il tuo consenso senza che ciò pregiudichi quanto trattato in precedenza. Scrivimi a {email}; ti risponderò entro un mese al massimo."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "861c3a71db2dc302875ad844414aa75c76842e60449a723c31645d069833fcce",
+			"value": "I dati di analitica puoi cancellarli tu stesso all'istante con il pulsante «Cancella i miei dati» nelle impostazioni dei cookie. Il registro dei consensi viene conservato anche se revochi il consenso, perché serve proprio a dimostrare quando lo hai dato e quando lo hai revocato."
+		},
+		"secciones/5/bloques/2/texto": {
+			"hash": "893606189520d2e9c25fbc294f12b208763cd9a34b5e2e9260c64d938f8c636c",
+			"value": "Se ritieni che io non abbia gestito correttamente i tuoi diritti, puoi presentare un reclamo presso l'Agenzia Spagnola per la Protezione dei Dati: https://www.aepd.es"
 		},
 		"secciones/6/titulo": {
-			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
-			"value": "7. I tuoi diritti"
+			"hash": "003ddb2514982633893943d31d98d557414a83f3a0566ffe931a21885a10d93c",
+			"value": "7. Minori"
 		},
 		"secciones/6/bloques/0/texto": {
-			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
-			"value": "Puoi esercitare in qualsiasi momento i tuoi diritti di accesso, rettifica, cancellazione, opposizione, limitazione del trattamento e portabilità scrivendo a malvmar5@hotmail.com. Inoltre, puoi cancellare i tuoi dati immediatamente, senza bisogno di scrivere a nessuno, dal pulsante \"Cancella i miei dati\" disponibile nelle impostazioni dei cookie del sito. Hai anche il diritto di presentare un reclamo all'Agenzia Spagnola per la Protezione dei Dati (www.aepd.es) se ritieni che i tuoi diritti non siano stati gestiti correttamente."
+			"hash": "a5bc9a70e47befee36963581af0ce2875c63d35566435cb7078f36ee013a0da5",
+			"value": "Il sito web non è rivolto a minori di 14 anni. Se hai meno di 14 anni, non inviarmi dati personali senza il permesso dei tuoi genitori o tutori (art. 7 LOPDGDD)."
 		},
 		"secciones/7/titulo": {
-			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
-			"value": "8. Modifiche a questa informativa"
+			"hash": "89bad5840c8dee67d2a6178a78cebda20b28cbe970a49fd79a807b44b36df8c4",
+			"value": "8. Sicurezza"
 		},
 		"secciones/7/bloques/0/texto": {
-			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
-			"value": "Questa informativa può essere aggiornata per adattarsi a modifiche legali o del sito stesso."
+			"hash": "42a5a107a1cdae9c58164e80236ff37ee90982816a2bc13cca85a541687e78ce",
+			"value": "I dati viaggiano cifrati (HTTPS) e sono memorizzati in un database accessibile esclusivamente dal pannello privato, protetto da nome utente e password."
+		},
+		"secciones/8/titulo": {
+			"hash": "281d85edd7253d4dfcfac85764031516f590f798423fec77375a13cd6628419b",
+			"value": "9. Modifiche a questa informativa"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "c02f8e64ffd3e30fd572c5e4ffa814fa674bc2ce1bc1ae97cbda29bc426a0641",
+			"value": "Se qualcosa di rilevante cambia, aggiornerò questa pagina e la sua data di versione. Se la modifica riguarda i cookie, ti verrà chiesto nuovamente."
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "Termini e condizioni — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "Avviso legale e condizioni d'uso di marioalvarez.me: chi è il titolare, come si può usare il sito web e quale legge si applica."
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Termini e condizioni"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "1. Chi c'è dietro questo sito web"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "In conformità con l'articolo 10 della Legge 34/2002, sui servizi della società dell'informazione e del commercio elettronico (LSSI-CE), questi sono i dati del titolare di marioalvarez.me:"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "Titolare: {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Domicilio: {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "Email: {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "Attività: portfolio professionale e offerta di servizi di analisi dati, strumenti su misura, database e report e supporto alla carriera."
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "2. Cosa regolano questi termini"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "Questi termini regolano l'accesso e l'uso di marioalvarez.me (il «sito web») in qualsiasi sua lingua. Navigando su di esso accetti di usarlo in conformità con quanto qui dichiarato. Se mi scrivi dal modulo di contatto, ti chiedo di accettarli espressamente spuntando una casella."
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "3. Come si può usare il sito web"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "Puoi consultare e condividere i contenuti citandone la fonte. Non è consentito:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "usare il sito web per fini illeciti o che rechino danno a terzi;"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "tentare di accedere ad aree riservate (come il pannello privato) o ai sistemi che lo ospitano;"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "introdurre virus o qualsiasi codice dannoso, o sovraccaricarlo deliberatamente;"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "copiare i contenuti per presentarli come propri."
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "4. Servizi e contratti"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "Il sito web non vende prodotti né riscuote pagamenti online. Se ti interessa un servizio, ne parliamo via email o per telefono e ti invio una proposta scritta con l'ambito, il prezzo, le tempistiche e le condizioni di pagamento e di cancellazione. Tale proposta, una volta accettata da entrambi, è quella che regola il servizio e prevale su questi termini."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "Il funzionamento delle cancellazioni, del diritto di recesso e dei rimborsi è spiegato nell'informativa sui rimborsi."
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "5. Proprietà intellettuale e industriale"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "I testi, il design, il codice proprietario, il logo e le fotografie di Mario Álvarez sono di sua proprietà o utilizzati con l'autorizzazione dei rispettivi autori. Non è consentito riprodurli per fini commerciali senza autorizzazione scritta."
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "I nomi e i loghi di terze parti (come LinkedIn, GitHub, Instagram o le squadre e le entità citate nell'esperienza) appartengono ai rispettivi proprietari. Menzionarli non implica alcuna relazione commerciale né sponsorizzazione, salvo espressa indicazione contraria."
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "Il sito web utilizza risorse di terze parti con licenze che lo consentono: i font Fira Sans Extra Condensed e Source Serif 4 (SIL Open Font License 1.1), le icone di Lucide (licenza ISC) e di Simple Icons (CC0 1.0) e la libreria di animazione GSAP (licenza standard gratuita di GreenSock, di Webflow). Ogni progetto collegato su GitHub ha la sua propria licenza."
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "6. Responsabilità"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "Lavoro affinché le informazioni siano corrette e il sito web sia disponibile, ma non posso garantire che non vi siano errori o interruzioni. I contenuti sono informativi e non sostituiscono una consulenza professionale sul tuo caso specifico."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "Il sito web contiene link a siti di terze parti (social network, repository, siti web di progetti). Non controllo il loro contenuto né le loro politiche e non ne rispondo."
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "7. Privacy e cookie"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "Come vengono trattati i tuoi dati e quali cookie vengono utilizzati è spiegato nell'informativa sulla privacy e nell'informativa sui cookie. Nessuna parte del sito web ti obbliga ad accettare i cookie per poterlo utilizzare."
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "8. Registro delle accettazioni"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "Per poter dimostrare il consenso quando necessario (articolo 7.1 del GDPR), quando accetti questi termini nel modulo di contatto o scegli quali cookie consentire, viene salvato un registro contenente: un identificatore pseudonimo, cosa hai accettato o rifiutato, la versione di ciascun documento, la data e l'ora, la pagina e la lingua da cui lo hai fatto, l'origine (banner, configurazione o modulo), il browser e, nel modulo, un codice di riferimento che viaggia nella tua email. Non viene salvato il tuo indirizzo IP. I dettagli sono nell'informativa sulla privacy."
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "9. Lingue"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "La versione in spagnolo di questi testi è quella originale e prevale in caso di dubbio. Le altre sono traduzioni automatiche offerte per comodità."
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "10. Modifiche"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "Posso aggiornare questi termini per adattarli a modifiche legali o del sito web. La data della versione in vigore appare all'inizio di questa pagina. Se la modifica è rilevante, ti chiederò nuovamente di accettarli."
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "11. Legge applicabile e giurisdizione"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "Questi termini sono regolati dalla legge spagnola. Se agisci come consumatore, puoi rivolgerti ai tribunali del tuo domicilio e ai sistemi di arbitrato e risoluzione delle controversie di consumo della tua comunità autonoma. In tutti gli altri casi, entrambe le parti si sottomettono ai tribunali di Benidorm (Alicante)."
+		}
+	},
+	"politica-reembolso": {
+		"meta/title": {
+			"hash": "bdcfda545addeea0886ff82b66b64f5f56f91e39aa6afa93ede2e498fc231c44",
+			"value": "Politica di rimborso — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "5b9e6941811b24b85c7ab3f7fc2f74a6a41fe53d808ff533e8fca8d66fbbc4da",
+			"value": "Come funzionano le cancellazioni, il diritto di recesso e i resi dei servizi di Mario Álvarez."
+		},
+		"meta/heading": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Politica di rimborso"
+		},
+		"secciones/0/titulo": {
+			"hash": "ff143d312f054ce7182b3caf2913fadf9053edbe7bbc5126c0500dbf9924dcde",
+			"value": "1. Questo sito web non riscuote pagamenti"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "14d92dd27a30ce3225cc0c90b70e3ebf5c3a8b786edbc2a8282dfefe97f97e3c",
+			"value": "Su marioalvarez.me non si vendono prodotti né si riscuotono pagamenti online. I servizi (analisi delle prestazioni, strumenti su misura, database e report e supporto alla carriera) vengono contrattati separatamente, tramite una proposta scritta."
+		},
+		"secciones/1/titulo": {
+			"hash": "50402d539cae16eba5d0c0bd8ed574497c5bedd07c9f76a6c54b995228b9d194",
+			"value": "2. Ciò che dice la tua proposta"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "dba3b38c35565ddc44e04919f2b2ca0f8953108a319093cee6475d431c6c77fa",
+			"value": "Ciascuna proposta indica il prezzo, come e quando si paga e le condizioni di cancellazione. Se la proposta dice qualcosa di diverso rispetto a questa politica, vale la proposta, a meno che questa politica non ti offra maggiori diritti come consumatore."
+		},
+		"secciones/2/titulo": {
+			"hash": "4da83f4f1afe5790834f743bdc1ca5eaabe6d4a85865798796e14a32c2912fae",
+			"value": "3. Se cancelli"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "e9dd1fcdc7020f5821d857b0db902ad60b806b130178587e00206cc2379bcdc4",
+			"value": "Salvo diverso accordo scritto:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "3d2e21613adc4a86859e877cf39529e9de64cfaecebc6ee4ac24c9b268fec07b",
+			"value": "Se cancelli prima che inizi il lavoro, ti restituisco integralmente qualsiasi pagamento anticipato."
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "f9b70232e9bfc004f82934930816cccba917692c2ed1ba56637d5a85f27eed9c",
+			"value": "Se cancelli a lavoro iniziato, viene addebitata solo la parte già svolta e ti restituisco il resto di quanto hai anticipato."
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "367ad099f56f6a5ddd4c394d2e66479d6a7421c518e28ede6dc88e5229f6bed8",
+			"value": "Il lavoro già consegnato e accettato non viene rimborsato, a meno che non presenti difetti che non vengono corretti."
+		},
+		"secciones/3/titulo": {
+			"hash": "d7e3fed395f638f5604782dab666b621dd5f132a48b827e2fe042194881148cf",
+			"value": "4. Diritto di recesso (se sei un consumatore)"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "5e178abe0b325218fe10f437c89f7da3090cd74714a8a5c2adc1c35739b1804b",
+			"value": "Se stipuli un contratto come consumatore (una persona che agisce al di fuori della propria attività professionale) e il contratto viene concluso a distanza, via email o per telefono, hai 14 giorni di calendario dalla conclusione per recedere senza fornire spiegazioni, ai sensi degli articoli da 102 a 108 del testo unico della Legge Generale per la Difesa dei Consumatori e degli Utenti (Reale Decreto Legislativo 1/2007)."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "f6ccce5a6cdfe56e4eb204d74e1064cfaaf14b0a6401d34d54943282934f4faa",
+			"value": "Se mi chiedi espressamente di iniziare a lavorare entro quei 14 giorni e poi recedi, pagherai solo la parte proporzionale del servizio prestato fino a quel momento. Se il servizio è stato completamente ultimato entro i termini, con il tuo consenso previo ed espresso e sapendo che in tal modo perdi questo diritto, non potrai più recedere (articolo 103.a)."
+		},
+		"secciones/4/titulo": {
+			"hash": "a6b6f5e3070a156219fd0eb8a8485c11404e66c1db10f2be65a78ccea7dadb43",
+			"value": "5. Come richiederlo"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "faffb4c0f6bdf1648e409afaf168c981f036d78cdc26c1f190944b92d95326c9",
+			"value": "Scrivimi a {email} con il tuo nome, il servizio e la data in cui lo hai acquistato. Puoi utilizzare questo modello di modulo di recesso (non è obbligatorio):"
+		},
+		"secciones/4/bloques/1/items/0": {
+			"hash": "02f390f8ef61e6f8180ebd55d94bf24cd7742af44ba37433395550e7a2f7082f",
+			"value": "All'attenzione di {nombre}, {domicilio}, {email}:"
+		},
+		"secciones/4/bloques/1/items/1": {
+			"hash": "6705d14225a84c97d190c86895abdd4ae2b7b92e03befbd46052e9ac22718df4",
+			"value": "Con la presente comunico il recesso dal mio contratto di fornitura del seguente servizio: [servicio]."
+		},
+		"secciones/4/bloques/1/items/2": {
+			"hash": "b756f3bd6d0bb6e148c0d59d09dae258a0f664174766530bdc6f938f5592e68a",
+			"value": "Ordinato il: [fecha]."
+		},
+		"secciones/4/bloques/1/items/3": {
+			"hash": "a1e157dce89e05f90d3590bcbac310ee77465b68928d5123598551e40aea2db8",
+			"value": "Nome del consumatore: [nombre]."
+		},
+		"secciones/4/bloques/1/items/4": {
+			"hash": "6da3fe45c69b15e52be050ff970ab79ea26ee9b6bf0a7205d117978a159fdaff",
+			"value": "Indirizzo del consumatore: [domicilio]."
+		},
+		"secciones/4/bloques/1/items/5": {
+			"hash": "7fc0956f32767e8a77ad2f5755c8e13cf040d910c328534129ef063dc106acf4",
+			"value": "Data: [fecha]."
+		},
+		"secciones/5/titulo": {
+			"hash": "4f7a4409f1709a01b1af2b1edf6e71d467f7e5a5f4e0ed8c74717a33964f5b40",
+			"value": "6. Termini e modalità del rimborso"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "e842a6745c96e277d063610a98f358f325d922b561595105917cc4d9b5c2c97c",
+			"value": "Ti restituisco quanto dovuto entro un massimo di 14 giorni di calendario da quando mi comunichi la tua decisione, tramite lo stesso mezzo di pagamento che hai utilizzato, salvo diverso accordo. Il rimborso non comporta alcun costo per te."
 		}
 	}
 }

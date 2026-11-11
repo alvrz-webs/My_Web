@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Teruggavebeleid — Mario Álvarez",
+		"description": "Hoe annuleringen, het herroepingsrecht en teruggaven van de diensten van Mario Álvarez werken.",
+		"heading": "Teruggavebeleid"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Deze website brengt geen betalingen in rekening",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Op marioalvarez.me worden geen producten verkocht en worden er geen online betalingen geïnd. Diensten (prestatie-analyse, maatwerktools, databases en rapporten en carrièrebegeleiding) worden apart ingehuurd, met een schriftelijk voorstel."
+				}
+			]
+		},
+		{
+			"titulo": "2. Wat je voorstel zegt",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Elk voorstel vermeldt de prijs, hoe en wanneer er wordt betaald en de annuleringsvoorwaarden. Als het voorstel iets anders zegt dan dit beleid, is het voorstel van kracht, tenzij dit beleid je meer rechten als consument geeft."
+				}
+			]
+		},
+		{
+			"titulo": "3. Als je annuleert",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tenzij schriftelijk anders is overeengekomen:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Als je annuleert voordat het werk begint, krijg je elke vooruitbetaling volledig terug.",
+						"Als je annuleert nadat het werk is begonnen, wordt alleen het reeds uitgevoerde deel in rekening gebracht en krijg ik de rest van je vooruitbetaling terug.",
+						"Reeds geleverd en geaccepteerd werk wordt niet terugbetaald, tenzij het gebreken vertoont die niet worden verholpen."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Herroepingsrecht (als je een consument bent)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Als je als consument inhuurt (een persoon die handelt buiten zijn/haar professionele activiteit) en de overeenkomst op afstand, via e-mail of per telefoon wordt gesloten, heb je 14 kalenderdagen vanaf de sluiting de tijd om af te zien van de overeenkomst zonder opgaaf van redenen, overeenkomstig artikelen 102 tot 108 van de geconsolideerde tekst van de Algemene Wet voor de Bescherming van Consumenten en Gebruikers (Koninklijk Wetsbesluit 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Als je mij uitdrukkelijk vraagt om binnen die 14 dagen te beginnen met werken en je vervolgens afziet van de overeenkomst, betaal je alleen het evenredige deel van de dienst die tot dat moment is verleend. Als de dienst volledig is voltooid binnen de termijn, met jouw voorafgaande en uitdrukkelijke toestemming en wetende dat je daardoor dit recht verliest, kun je niet meer afzien van de overeenkomst (artikel 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Hoe aan te vragen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Schrijf mij op {email} met je naam, de dienst en de datum waarop je deze hebt ingehuurd. Je kunt dit model voor een herroepingsformulier gebruiken (dit is niet verplicht):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ter attentie van {nombre}, {domicilio}, {email}:",
+						"Hierbij deel ik u mede dat ik afzie van mijn overeenkomst tot levering van de volgende dienst: [servicio].",
+						"Ingehuurd op: [fecha].",
+						"Naam van de consument: [nombre].",
+						"Adres van de consument: [domicilio].",
+						"Datum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Termijn en wijze van de teruggave",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ik betaal het verschuldigde bedrag binnen maximaal 14 kalenderdagen nadat je mij je beslissing hebt meegedeeld terug, via dezelfde betaalmethode die je hebt gebruikt, tenzij we anders overeenkomen. De teruggave kost je niets."
+				}
+			]
+		}
+	]
+}

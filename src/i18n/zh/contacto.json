@@ -3,11 +3,54 @@
 		"title": "联系方式 — Mario Álvarez",
 		"description": "与 Mario Álvarez 联系，探讨数据、运动表现和项目。",
 		"eyebrow": "联系方式",
-		"heading": "您有数据并有待解决的问题吗？",
-		"intro": "我们聊聊吧。无论是体育分析项目、数据合作，还是仅仅是一个想要探讨的想法，我都会乐意回复。",
+		"heading": "你有数据和一个问题吗？",
+		"intro": "我们聊聊吧。无论是体育分析项目、数据合作，还是你想探讨的想法，我都亲自回复你。",
 		"email": "电子邮件",
 		"telefono": "电话",
 		"verTelefono": "查看电话",
-		"redesSociales": "社交媒体"
+		"redesSociales": "社交媒体",
+		"temaTitulo": "你想聊点什么？",
+		"temaAyuda": "选择一个主题，我来帮你准备好电子邮件。你只需要告诉我你的具体情况。",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "表现分析"
+			},
+			{
+				"id": "herramientas",
+				"label": "定制工具"
+			},
+			{
+				"id": "datos",
+				"label": "数据库与报告"
+			},
+			{
+				"id": "carrera",
+				"label": "职业生涯支持"
+			},
+			{
+				"id": "otro",
+				"label": "其他事情"
+			}
+		],
+		"escribir": "写邮件",
+		"copiar": "复制电子邮件",
+		"copiado": "电子邮件已复制",
+		"asunto": "来自 marioalvarez.me 的咨询",
+		"cuerpo": "你好，Mario：\n\n我写信是因为：{tema}。\n\n我拥有的：\n\n我想知道的：\n\n谢谢。",
+		"otrosCanales": "其他渠道",
+		"base": "基地",
+		"baseValor": "贝尼多姆和瓦伦西亚",
+		"idiomas": "语言",
+		"idiomasValor": "西班牙语、瓦伦西亚语和英语",
+		"aceptacionesTitulo": "在给我写信之前",
+		"aceptoTerminos": "我已阅读并接受{enlace}。",
+		"enlaceTerminos": "条款与条件",
+		"aceptoCookies": "我接受{enlace}中所述的分析 Cookie（可选）。",
+		"enlaceCookies": "Cookie 政策",
+		"faltaTerminos": "如需给我写信，请先勾选条款与条件复选框。",
+		"primeraCapa": "责任人：Mario Álvarez Martínez。目的：回复您的咨询，并在您要求时为您准备提案。合法性：您的请求。收件人：无，除非有法律义务。权利：访问、更正、删除及{enlace}中解释的其他权利。",
+		"enlacePrivacidad": "隐私政策",
+		"refEmail": "条款接受参考编号：{ref}"
 	}
 }

@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Inizio",
 		"sobreMi": "Su di me",
 		"proyectos": "Progetti",
 		"experiencia": "Esperienza",
@@ -7,10 +8,22 @@
 		"ariaMain": "Navigazione principale",
 		"openMenu": "Apri menu"
 	},
+	"saltar": "Salta al contenuto",
+	"tema": "Passa dalla modalità chiara a quella scura",
+	"telefono": "Telefono",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Campione spagnolo di madison. Data scientist.",
+		"disponible": "Disponibile per progetti di dati e prestazioni sportive.",
+		"escribeme": "Scrivimi",
+		"navLabel": "Sezioni",
+		"legalLabel": "Note legali",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Social media"
+	},
+	"cierre": {
+		"title": "Parliamo?",
+		"text": "Se hai dati sulle prestazioni e domande senza risposta, scrivimi e diamoci un'occhiata insieme.",
+		"cta": "Scrivimi"
 	},
 	"langSwitch": {
 		"label": "Cambia lingua",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Consenso sui cookie"
 	},
 	"legal": {
+		"terminos": "Termini e condizioni",
 		"privacidad": "Informativa sulla privacy",
-		"cookies": "Informativa sui cookie"
+		"cookies": "Informativa sui cookie",
+		"reembolso": "Politica di rimborso",
+		"actualizado": "Ultimo aggiornamento",
+		"indice": "In questa pagina",
+		"otros": "Altri documenti"
 	},
 	"person": {
 		"jobTitle": "Data scientist",
 		"description": "Data scientist specializzato in analisi sportiva, con esperienza nel ciclismo professionistico."
+	},
+	"pizarra": {
+		"vueltas": "giri",
+		"campana": "ultimo"
 	}
 }

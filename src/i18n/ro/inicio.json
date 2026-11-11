@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Oamen de știință a datelor specializat în sport",
-		"description": "Mario Álvarez, om de știință a datelor în Valencia specializat în analitică sportivă. Data · Sport · Progress.",
+		"description": "Mario Álvarez, om de știință a datelor în Valencia, specializat în analitica sportivă. Campion al Spaniei la madison și director sportiv RFEC.",
 		"verProyectos": "Vezi proiecte",
-		"contacto": "Contact",
-		"verMas": "Vezi mai mult",
+		"verServicios": "Vezi cum te pot ajuta",
+		"contacto": "Scrie-mi",
+		"verMas": "Citește mai mult",
 		"verTodosProyectos": "Vezi toate proiectele",
-		"irAContacto": "Mergi la contact",
+		"irAContacto": "Scrie-mi",
 		"herramientas": "Instrumente principale"
 	},
 	"hero": {
-		"eyebrow": "Om de știință a datelor · Analitică sportivă · Valencia",
-		"titlePre": "Transform datele în ",
-		"titleHighlight": "decizii clare",
-		"subtitle": "Sunt puntea dintre analiza datelor și sportul de elită: transform valorile de performanță în strategii care fac diferența pe teren.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, om de știință a datelor",
+		"title": "Am fost campion al Spaniei la madison.",
+		"subtitle": "Acum studiez Știința Datelor la UPV și analizez ceea ce se află în spatele performanței: putere, sarcină și rezultate. Știu ce înseamnă un număr pentru un alergător, deoarece am fost acel alergător.",
+		"palmaresLabel": "Palmares",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Campionatul Spaniei la madison",
+				"nota": "Pistă, la 18 ani"
+			},
+			{
+				"pos": "6º",
+				"texto": "Campionatul Mondial de pistă",
+				"nota": "Selecția Spaniei"
+			},
+			{
+				"pos": "6º",
+				"texto": "Campionatul European de pistă",
+				"nota": "Selecția Spaniei"
+			}
+		],
+		"retratoAlt": "Portretul lui Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Cu ce te pot ajuta",
+		"text": "Lucrez cu echipe, antrenori și alergători care au date și vor să profite de ele. Și cu companii care au nevoie să și le organizeze pe ale lor.",
+		"cta": "Povestește-mi cazul tău",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analiza performanței",
+				"texto": "Citesc puterea, sarcina și rezultatele prin ochii unui alergător. Îți explic ce se întâmplă și ce s-ar schimba.",
+				"prueba": "Ciclist de elită și director sportiv RFEC, nivelurile I și II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Instrumente personalizate",
+				"texto": "Scraping, modele și aplicații mici în Python care răspund la o întrebare concretă a echipei tale.",
+				"prueba": "Două instrumente pentru echipa Cofidis: dificultate UCI și profil de cursă."
+			},
+			{
+				"id": "datos",
+				"nombre": "Baze de date și rapoarte",
+				"texto": "Interogări mai rapide, baze unificate și panouri de control în Power BI care sunt înțelese din prima.",
+				"prueba": "Peste 580 de tabele și 100 de milioane de înregistrări în baza pe care o optimizez la SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Sprijin în cursă",
+				"texto": "Pregătirea curselor, urmărirea alergătorilor și masaj terapeutic în competiție.",
+				"prueba": "Staff-ul Selecției Comunității Valenciene."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Despre mine",
-		"title": "Date cu context de pistă, șosea și competiție",
-		"text": "Sunt Mario Álvarez, student în Știința Datelor la UPV cu experiență reală în ciclismul profesionist. Combin analiza datelor cu performanța sportivă de elită, pentru a transforma fiecare metrice într-o decizie care îmbunătățește rezultatele."
+		"title": "De la velodrom la date",
+		"text": "Studiez în anul 3 Licența în Știința Datelor la UPV și am terminat un master în digitalizare și tehnologie aplicate sportului. Nu am ieșit din ciclism: continui să alerg pe pistă, antrenez alergători de juniori și lucrez ca maseur cu profesioniști."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Formare",
-			"detail": "Licență în Știința Datelor, Universitat Politècnica de València."
+			"label": "Bază",
+			"value": "Benidorm și Valencia"
 		},
 		{
-			"value": "Elită",
-			"label": "Experiență",
-			"detail": "Muncă reală în cadrul unei echipe de ciclism profesionist."
+			"label": "Educație",
+			"value": "Licența în Știința Datelor (UPV) și Master în Digitalizare, Inovare și Tehnologie în Sport"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Abordare",
-			"detail": "Analitică aplicată la îmbunătățirea performanței sportive."
+			"label": "Titluri",
+			"value": "Director sportiv RFEC, nivelurile I și II"
+		},
+		{
+			"label": "Acum",
+			"value": "Disponibil pentru proiecte de date și performanță"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiență",
-		"title": "Două lumi, aceeași limbă: performanța",
-		"text": "Am concurat la cel mai înalt nivel și astăzi aplic același criteriu datelor: înțeleg ce înseamnă un număr pentru un sportiv deoarece am fost acel sportiv."
+		"title": "Două benzi, aceeași muncă",
+		"text": "Într-una optimizez baze de date și scriu modele. În cealaltă pregătesc curse și urmăresc alergători. Ambele fac același lucru: să măsori bine pentru a decide mai bine.",
+		"carriles": [
+			{
+				"nombre": "Date",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tabele analizate la SIME Telecom pentru a unifica mai multe baze într-una singură, fără a extinde hardware-ul"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "înregistrări în baza de date pe care o optimizez"
+					},
+					{
+						"cifra": "2",
+						"texto": "instrumente în Python pentru echipa Cofidis: dificultate UCI și profil de cursă"
+					}
+				]
+			},
+			{
+				"nombre": "Pistă și șosea",
+				"items": [
+					{
+						"cifra": "I și II",
+						"texto": "niveluri de director sportiv ale Federației Regale Spaniole de Ciclism"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "ani au alergătorii de juniori pe care îi antrenez și îi urmăresc împreună cu tatăl meu"
+					},
+					{
+						"cifra": "2026",
+						"texto": "asistent cu Selecția Comunității Valenciene în competiție"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Vorbim despre date?",
-		"text": "Povestește-mi despre proiectul tău și căutăm împreună unde sunt deciziile care îmbunătățesc performanța."
+		"title": "Ultima tură",
+		"text": "Dacă ai date de performanță și întrebări fără răspuns, scrie-mi și le analizăm împreună."
 	}
 }

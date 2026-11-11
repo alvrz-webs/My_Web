@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Laman utama",
 		"sobreMi": "Tentang saya",
 		"proyectos": "Projek",
 		"experiencia": "Pengalaman",
@@ -7,10 +8,22 @@
 		"ariaMain": "Navigasi utama",
 		"openMenu": "Buka menu"
 	},
+	"saltar": "Langkau ke kandungan",
+	"tema": "Tukar antara mod cerah dan gelap",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Juara Sepanyol dalam acara madison. Saintis data.",
+		"disponible": "Tersedia untuk projek data dan prestasi sukan.",
+		"escribeme": "Hubungi saya",
+		"navLabel": "Bahagian",
+		"legalLabel": "Perundangan",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Rangkaian sosial"
+	},
+	"cierre": {
+		"title": "Boleh kita berbual?",
+		"text": "Jika anda mempunyai data prestasi dan soalan yang belum dijawab, hubungi saya dan kita akan lihat bersama.",
+		"cta": "Hubungi saya"
 	},
 	"langSwitch": {
 		"label": "Tukar bahasa",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Persetujuan kuki"
 	},
 	"legal": {
+		"terminos": "Terma dan syarat",
 		"privacidad": "Dasar privasi",
-		"cookies": "Dasar kuki"
+		"cookies": "Dasar kuki",
+		"reembolso": "Dasar bayaran balik",
+		"actualizado": "Kemas kini terakhir",
+		"indice": "Halaman ini",
+		"otros": "Dokumen lain"
 	},
 	"person": {
 		"jobTitle": "Saintis data",
 		"description": "Saintis data pakar dalam analitis sukan, dengan pengalaman dalam berbasikal profesional."
+	},
+	"pizarra": {
+		"vueltas": "pusingan",
+		"campana": "terakhir"
 	}
 }

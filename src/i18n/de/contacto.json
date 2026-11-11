@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Setzen Sie sich mit Mario Álvarez in Verbindung, um über Daten, sportliche Leistung und Projekte zu sprechen.",
 		"eyebrow": "Kontakt",
-		"heading": "Haben Sie Daten und eine Frage, die es zu lösen gilt?",
-		"intro": "Lass uns reden. Ob ein sportanalytisches Projekt, eine Datenkooperation oder einfach eine Idee, die Sie besprechen möchten, ich antworte gerne.",
+		"heading": "Hast du Daten und eine Frage?",
+		"intro": "Lass uns sprechen. Ob ein Sportanalytik-Projekt, eine Datenkooperation oder eine Idee, die du besprechen möchtest, ich antworte dir persönlich.",
 		"email": "E-Mail",
 		"telefono": "Telefon",
 		"verTelefono": "Telefon anzeigen",
-		"redesSociales": "Soziale Netzwerke"
+		"redesSociales": "Soziale Netzwerke",
+		"temaTitulo": "Worüber möchtest du sprechen?",
+		"temaAyuda": "Wähle ein Thema und ich bereite die E-Mail für dich vor. Du musst mir nur deinen Fall schildern.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Leistungsanalyse"
+			},
+			{
+				"id": "herramientas",
+				"label": "Ein maßgeschneidertes Tool"
+			},
+			{
+				"id": "datos",
+				"label": "Datenbanken und Berichte"
+			},
+			{
+				"id": "carrera",
+				"label": "Karriereunterstützung"
+			},
+			{
+				"id": "otro",
+				"label": "Etwas anderes"
+			}
+		],
+		"escribir": "E-Mail schreiben",
+		"copiar": "E-Mail kopieren",
+		"copiado": "E-Mail kopiert",
+		"asunto": "Anfrage von marioalvarez.me",
+		"cuerpo": "Hallo Mario:\n\nIch schreibe dir bezüglich: {tema}.\n\nWas ich habe:\n\nWas ich gerne wissen möchte:\n\nDanke.",
+		"otrosCanales": "Andere Kanäle",
+		"base": "Standort",
+		"baseValor": "Benidorm und Valencia",
+		"idiomas": "Sprachen",
+		"idiomasValor": "Spanisch, Valencianisch und Englisch",
+		"aceptacionesTitulo": "Bevor du mir schreibst",
+		"aceptoTerminos": "Ich habe die {enlace} gelesen und akzeptiere sie.",
+		"enlaceTerminos": "Geschäftsbedingungen",
+		"aceptoCookies": "Ich akzeptiere die Analyse-Cookies, die in der {enlace} beschrieben sind (optional).",
+		"enlaceCookies": "Cookie-Richtlinie",
+		"faltaTerminos": "Um mir zu schreiben, aktiviere bitte zuerst das Kontrollkästchen für die Geschäftsbedingungen.",
+		"primeraCapa": "Verantwortlicher: Mario Álvarez Martínez. Zweck: Beantwortung deiner Anfrage und, auf Wunsch, Erstellung eines Angebots. Legitimierung: Deine Anfrage. Empfänger: Niemand, außer bei gesetzlicher Verpflichtung. Rechte: Auskunft, Berichtigung, Löschung und die weiteren in der {enlace} erläuterten Rechte.",
+		"enlacePrivacidad": "Datenschutzrichtlinie",
+		"refEmail": "Referenz zur Annahme der Bedingungen: {ref}"
 	}
 }

@@ -3,7 +3,13 @@
 		"title": "Oor my — Mario Álvarez",
 		"description": "Van Spaanse Madison-kampioen tot Datawetenskap-student: Mario Álvarez se reis tussen elite-fietsry en sportanalise.",
 		"eyebrow": "Oor my",
-		"heading": "Van die velodroom tot data"
+		"heading": "Van die velodroom tot data",
+		"lead": "Ek is steedsby die fietsry betrokke, op die baan en in die spanmotor. Wat verander het, is hoe ek daarna kyk: nou ook met data.",
+		"historiaTitulo": "Ryder, direkteur en datwetenskaplike",
+		"fichaTitulo": "Kort en kragtig",
+		"fichaTexto": "Die noodsaaklikhede, ingeval jy haastig is.",
+		"retratoAlt": "Portret van Mario Álvarez",
+		"escenaFrase": "Eerstens, die bene. Nou, die data."
 	},
 	"bio": [
 		"Ek het begin kompeteer. Op 18 is ek as Spaanse Madison-baanfietsrykampioen gekroon en die Spaanse Fietsry Nasionale Span het my opgeroep vir die Wêreld- en Europese Kampioenskappe, waar ek sesde in beide geëindig het, wat my die status van elite-atleet besorg het.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Basis",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm en Valencia"
 		},
 		{
 			"label": "Status",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fokus",
-			"value": "Data + sportprestasie"
+			"value": "Data en sportprestasie"
 		},
 		{
 			"label": "Tale",
-			"value": "Spaans (moedertaal) · Valenciaans · Engels B1"
+			"value": "Spaans (moedertaal), Valenciaans en Engels (B1)"
 		},
 		{
 			"label": "Opleiding",
-			"value": "Graad in Datawetenskap (UPV) · Meestersgraad in Digitalisering, Innovasie en Tegnologie in Sport"
+			"value": "Graad in Databewustheid (UPV) en Meestersgraad in Digitalisering, Innovasie en Tegnologie in Sport"
 		}
 	]
 }

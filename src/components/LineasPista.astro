@@ -1,0 +1,36 @@
+---
+/**
+ * Las cuatro líneas de la recta de un velódromo (côte d'azur, medición, sprinter, stayer): el mismo
+ * sistema que dibuja el óvalo del hero de inicio, estirado como una recta de lado a lado. Remata la
+ * cabecera de cada página y, con `meta`, cierra el pie con la línea de llegada.
+ *
+ * - `trazar`: las líneas se dibujan al cargar y un corredor recorre la sprinter.
+ * - `alEntrar`: lo mismo, pero cuando el bloque entra en pantalla (para el pie).
+ * - `fin`: dónde se para el corredor, en % del ancho (por defecto, al final de la recta).
+ */
+interface Props {
+	trazar?: boolean;
+	alEntrar?: boolean;
+	retraso?: number;
+	meta?: boolean;
+	fin?: number;
+	class?: string;
+}
+
+const { trazar = true, alEntrar = false, retraso = 0, meta = false, fin = 100, class: clase } = Astro.props;
+const animada = trazar || alEntrar;
+---
+
+<div
+	class:list={['lineas-pista', { 'se-traza': trazar && !alEntrar }, clase]}
+	data-traza-al-entrar={alEntrar ? '' : undefined}
+	style={`--d:${retraso}ms; --fin:${fin}cqi; --meta:${fin}%`}
+	aria-hidden="true"
+>
+	<span class="lp-azur" style="--i:0"></span>
+	<span class="lp-medicion" style="--i:1"></span>
+	<span class="lp-sprinter" style="--i:2"></span>
+	<span class="lp-stayer" style="--i:3"></span>
+	{meta && <span class="lp-meta"></span>}
+	{animada && <span class="lp-corredor"></span>}
+</div>

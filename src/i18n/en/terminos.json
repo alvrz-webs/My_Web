@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Terms and conditions — Mario Álvarez",
+		"description": "Legal notice and terms of use of marioalvarez.me: who owns the site, how it can be used and which law applies.",
+		"heading": "Terms and conditions"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Who is behind this website",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "In accordance with article 10 of Spanish Law 34/2002 on information society services and e-commerce (LSSI-CE), these are the details of the owner of marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Owner: {nombre}",
+						"Tax ID (NIF): {nif}",
+						"Address: {domicilio}",
+						"Email: {email}",
+						"Activity: professional portfolio and offer of data analysis, custom tools, databases and reporting, and race support services."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. What these terms cover",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "These terms govern access to and use of marioalvarez.me (the \"website\") in any of its languages. By browsing it you agree to use it as described here. If you write to me through the contact form, I ask you to accept them expressly by ticking a box."
+				}
+			]
+		},
+		{
+			"titulo": "3. How the website may be used",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "You may read and share the content as long as you credit the source. You may not:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"use the website for unlawful purposes or to harm others;",
+						"try to access restricted areas (such as the private panel) or the systems that host it;",
+						"introduce viruses or any harmful code, or deliberately overload it;",
+						"copy the content and present it as your own."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Services and hiring",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "The website does not sell products or take online payments. If you are interested in a service, we discuss it by email or phone and I send you a written proposal with the scope, price, deadlines, and payment and cancellation terms. Once both of us accept it, that proposal governs the service and prevails over these terms."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Cancellations, the right of withdrawal and refunds are explained in the refund policy."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intellectual and industrial property",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "The texts, design, original code, logo and photographs of Mario Álvarez belong to him or are used with their authors' permission. They may not be reproduced for commercial purposes without written permission."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Third-party names and logos (such as LinkedIn, GitHub, Instagram or the teams and organisations mentioned in the experience section) belong to their owners. Mentioning them does not imply any commercial relationship or sponsorship unless expressly stated."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "The website uses third-party resources under licences that allow it: the Fira Sans Extra Condensed and Source Serif 4 typefaces (SIL Open Font License 1.1), the Lucide icons (ISC licence) and Simple Icons (CC0 1.0), and the GSAP animation library (GreenSock's free standard licence, by Webflow). Each project linked on GitHub has its own licence."
+				}
+			]
+		},
+		{
+			"titulo": "6. Liability",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I work to keep the information accurate and the website available, but I cannot guarantee that there will be no errors or interruptions. The content is for information only and is not a substitute for professional advice on your specific case."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "The website links to third-party sites (social networks, repositories, project websites). I do not control their content or policies and am not responsible for them."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privacy and cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "How your data is processed and which cookies are used is explained in the privacy policy and the cookie policy. No part of the website requires you to accept cookies in order to use it."
+				}
+			]
+		},
+		{
+			"titulo": "8. Record of acceptances",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "To be able to demonstrate consent when needed (article 7.1 GDPR), when you accept these terms in the contact form or choose which cookies you allow, a record is kept with: a pseudonymous identifier, what you accepted or rejected, the version of each document, the date and time, the page and language you did it from, the source (banner, settings or form), the browser and, in the form, a reference code that travels in your email. Your IP address is not stored. Details are in the privacy policy."
+				}
+			]
+		},
+		{
+			"titulo": "9. Languages",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "The Spanish version of these texts is the original and prevails in case of doubt. The others are automatic translations provided for convenience."
+				}
+			]
+		},
+		{
+			"titulo": "10. Changes",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I may update these terms to reflect legal changes or changes to the website. The date of the current version appears at the top of this page. If the change is significant, I will ask you to accept them again."
+				}
+			]
+		},
+		{
+			"titulo": "11. Applicable law and jurisdiction",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "These terms are governed by Spanish law. If you act as a consumer, you may go to the courts of your place of residence and to the consumer arbitration and dispute resolution systems of your region. In all other cases, both parties submit to the courts of Benidorm (Alicante, Spain)."
+				}
+			]
+		}
+	]
+}

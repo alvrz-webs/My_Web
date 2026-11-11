@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Skontaktuj się z Mario Álvarezem, aby porozmawiać o danych, wydajności sportowej i projektach.",
 		"eyebrow": "Kontakt",
-		"heading": "Masz dane i pytanie do rozwiązania?",
-		"intro": "Porozmawiajmy. Niezależnie od tego, czy chodzi o projekt z zakresu analityki sportowej, współpracę dotyczącą danych, czy po prostu pomysł, który chcesz skonsultować, chętnie odpowiem.",
+		"heading": "Masz dane i pytanie?",
+		"intro": "Porozmawiajmy. Niezależnie od tego, czy chodzi o projekt analityki sportowej, współpracę w zakresie danych, czy pomysł, który chcesz omówić, odpowiem Ci osobiście.",
 		"email": "Email",
 		"telefono": "Telefon",
 		"verTelefono": "Pokaż telefon",
-		"redesSociales": "Sieci społecznościowe"
+		"redesSociales": "Sieci społecznościowe",
+		"temaTitulo": "O czym chcesz porozmawiać?",
+		"temaAyuda": "Wybierz temat, a przygotuję dla Ciebie wiadomość e-mail. Wystarczy, że opowiesz mi o swojej sprawie.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analiza wydajności"
+			},
+			{
+				"id": "herramientas",
+				"label": "Narzędzie na miarę"
+			},
+			{
+				"id": "datos",
+				"label": "Bazy danych i raporty"
+			},
+			{
+				"id": "carrera",
+				"label": "Wsparcie w karierze"
+			},
+			{
+				"id": "otro",
+				"label": "Inna sprawa"
+			}
+		],
+		"escribir": "Napisz e-mail",
+		"copiar": "Kopiuj e-mail",
+		"copiado": "E-mail skopiowany",
+		"asunto": "Zapytanie z marioalvarez.me",
+		"cuerpo": "Cześć Mario:\n\nPiszę w sprawie: {tema}.\n\nCo mam:\n\nCo chciał(a)bym wiedzieć:\n\nDziękuję.",
+		"otrosCanales": "Inne kanały",
+		"base": "Baza",
+		"baseValor": "Benidorm i Walencja",
+		"idiomas": "Języki",
+		"idiomasValor": "Hiszpański, walencki i angielski",
+		"aceptacionesTitulo": "Zanim do mnie napiszesz",
+		"aceptoTerminos": "Przeczytałem/am i akceptuję {enlace}.",
+		"enlaceTerminos": "regulamin",
+		"aceptoCookies": "Akceptuję analityczne pliki cookie opisane w {enlace} (opcjonalnie).",
+		"enlaceCookies": "polityka cookies",
+		"faltaTerminos": "Aby do mnie napisać, zaznacz najpierw pole wyboru regulaminu.",
+		"primeraCapa": "Administrator: Mario Álvarez Martínez. Cel: odpowiedź na Twoje zapytanie oraz, jeśli o to poprosisz, przygotowanie dla Ciebie oferty. Podstawa prawna: Twoje zgłoszenie. Odbiorcy: nikt, z wyjątkiem obowiązków prawnych. Prawa: dostępu, sprostowania, usunięcia oraz inne wyjaśnione w {enlace}.",
+		"enlacePrivacidad": "polityka prywatności",
+		"refEmail": "Identyfikator akceptacji regulaminu: {ref}"
 	}
 }

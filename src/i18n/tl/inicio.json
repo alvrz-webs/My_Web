@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Data Scientist na dalubhasa sa palakasan",
-		"description": "Mario Álvarez, data scientist sa Valencia na dalubhasa sa sports analytics. Data · Sport · Progress.",
+		"description": "Si Mario Álvarez, siyentipiko ng datos sa Valencia na dalubhasa sa analytics sa palakasan. Kampeon ng Espanya sa madison at direktor sa palakasan ng RFEC.",
 		"verProyectos": "Tingnan ang mga proyekto",
-		"contacto": "Makipag-ugnayan",
-		"verMas": "Tingnan pa",
+		"verServicios": "Tingnan kung paano kita matutulungan",
+		"contacto": "Sumulat sa akin",
+		"verMas": "Magbasa pa",
 		"verTodosProyectos": "Tingnan ang lahat ng proyekto",
-		"irAContacto": "Pumunta sa pakikipag-ugnayan",
+		"irAContacto": "Sumulat sa akin",
 		"herramientas": "Mga pangunahing tool"
 	},
 	"hero": {
-		"eyebrow": "Data Scientist · Sports Analytics · Valencia",
-		"titlePre": "Ginagawa ko ang data bilang ",
-		"titleHighlight": "malinaw na mga desisyon",
-		"subtitle": "Ako ang tulay sa pagitan ng pagsusuri ng data at ng elite na palakasan: isinasalin ko ang mga sukatan ng pagganap sa mga estratehiya na gumagawa ng pagkakaiba sa larangan.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Si Mario Álvarez, siyentipiko ng datos",
+		"title": "Ako ay naging kampeon ng Espanya sa madison.",
+		"subtitle": "Ngayon ay nag-aaral ako ng Agham ng Datos sa UPV at sinusuri ko ang nasa likod ng pagganap: lakas, karga at mga resulta. Alam ko kung ano ang kahulugan ng isang numero para sa isang manlakbay dahil naging manlakbay na rin ako.",
+		"palmaresLabel": "Mga nakamit",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Kampeonato ng Espanya sa madison",
+				"nota": "Pista, sa edad na 18"
+			},
+			{
+				"pos": "6º",
+				"texto": "Kampeonato sa Mundo sa pista",
+				"nota": "Pambansang Koponan ng Espanya"
+			},
+			{
+				"pos": "6º",
+				"texto": "Kampeonato sa Europa sa pista",
+				"nota": "Pambansang Koponan ng Espanya"
+			}
+		],
+		"retratoAlt": "Larawan ni Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Kung paano kita matutulungan",
+		"text": "Nakikipagtulungan ako sa mga koponan, tagapagsanay at manlakbay na may mga datos at gustong makinabang mula rito. At sa mga kumpanya na kailangang isaayos ang kanila.",
+		"cta": "Ikuwento sa akin ang iyong kaso",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Pagsusuri ng pagganap",
+				"texto": "Binabasa ko ang lakas, karga at mga resulta sa mata ng isang manlakbay. Ipinaliliwanag ko sa iyo kung ano ang nangyayari at kung ano ang babaguhin.",
+				"prueba": "Elitong manlakbay at direktor sa palakasan ng RFEC, mga antas I at II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Mga pasadyang kasangkapan",
+				"texto": "Scraping, mga modelo at maliliit na aplikasyon sa Python na sumasagot sa isang tiyak na tanong ng iyong koponan.",
+				"prueba": "Dalawang kasangkapan para sa koponan ng Cofidis: kahirapan sa UCI at profile ng karera."
+			},
+			{
+				"id": "datos",
+				"nombre": "Mga database at ulat",
+				"texto": "Mas mabilis na mga tanong, pinag-isang database at mga dashboard sa Power BI na madaling maunawaan sa unang tingin.",
+				"prueba": "Mahigit sa 580 mga talahanayan at 100 milyong mga rekord sa database na inosona ko sa SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Suporta sa karera",
+				"texto": "Paghahanda sa karera, pagsubaybay sa mga manlakbay at quiromasaje sa kumpetisyon.",
+				"prueba": "Staff ng Pambansang Koponan ng Komunidad ng Valencia."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Tungkol sa akin",
-		"title": "Data na may konteksto ng track, kalsada at kumpetisyon",
-		"text": "Ako si Mario Álvarez, mag-aaral ng Data Science sa UPV na may tunay na karanasan sa loob ng propesyonal na pagbibisikleta. Pinagsasama ko ang pagsusuri ng data sa elite na pagganap sa palakasan, upang gawing bawat sukatan ang isang desisyon na nagpapabuti ng mga resulta."
+		"title": "Mula sa velodrome hanggang sa datos",
+		"text": "Nag-aaral ako ng ika-3 taon ng degree sa Agham ng Datos sa UPV at natapos ko ang isang master sa digitalization at teknolohiya na inilapat sa palakasan. Hindi ako umalis sa pagbibisikleta: patuloy akong tumatakbo sa pista, pinangungunahan ko ang mga batang manlakbay at nagtatrabaho ako bilang quiromasajista sa mga propesyonal."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Edukasyon",
-			"detail": "Bachelor sa Data Science, Universitat Politècnica de València."
+			"label": "Base",
+			"value": "Benidorm at Valencia"
 		},
 		{
-			"value": "Elite",
-			"label": "Karanasan",
-			"detail": "Tunay na trabaho sa loob ng isang propesyonal na koponan ng pagbibisikleta."
+			"label": "Pagsasanay",
+			"value": "Degree sa Agham ng Datos (UPV) at Master sa Digitalization, Innovation at Teknolohiya sa Palakasan"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pokus",
-			"detail": "Analytics na inilapat sa pagpapabuti ng pagganap sa palakasan."
+			"label": "Mga Titulo",
+			"value": "Direktor sa palakasan ng RFEC, mga antas I at II"
+		},
+		{
+			"label": "Ngayon",
+			"value": "Handa para sa mga proyekto ng datos at pagganap"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Karanasan",
-		"title": "Dalawang mundo, iisang wika: ang pagganap",
-		"text": "Nakipagkumpitensya ako sa pinakamataas na antas at ngayon ay inilalapat ko ang parehong pamantayan na iyon sa data: naiintindihan ko kung ano ang ibig sabihin ng isang numero para sa isang atleta dahil ako ang atletang iyon."
+		"title": "Dalawang landas, iisang trabaho",
+		"text": "Sa isa ay inosona ko ang mga database at nagsusulat ako ng mga modelo. Sa kabila naman ay naghahanda ako ng mga karera at sinusubaybayan ko ang mga manlakbay. Ang dalawa ay tungkol sa iisang bagay: masukat nang mabuti upang makapagpasya nang mas mahusay.",
+		"carriles": [
+			{
+				"nombre": "Mga Datos",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "mga talahanayan na sinuri sa SIME Telecom upang pag-isahin ang ilang database sa isa, nang hindi pinalalaki ang hardware"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "mga rekord sa database na aking inosona"
+					},
+					{
+						"cifra": "2",
+						"texto": "mga kasangkapan sa Python para sa koponan ng Cofidis: kahirapan sa UCI at profile ng karera"
+					}
+				]
+			},
+			{
+				"nombre": "Pista at daan",
+				"items": [
+					{
+						"cifra": "I at II",
+						"texto": "mga antas ng direktor sa palakasan ng Real Federación Española de Ciclismo"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "mga taong gulang ng mga batang manlakbay na sinasanay ko at sinusubaybayan kasama ang aking ama"
+					},
+					{
+						"cifra": "2026",
+						"texto": "katulong sa Pambansang Koponan ng Komunidad ng Valencia sa kumpetisyon"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Pag-usapan natin ang tungkol sa data?",
-		"text": "Ikwento sa akin ang iyong proyekto at magkasama naming hahanapin kung nasaan ang mga desisyon na nagpapabuti sa pagganap."
+		"title": "Huling lap",
+		"text": "Kung mayroon kang data sa pagganap at mga tanong na walang sagot, isulat sa akin at titingnan natin ito nang magkasama."
 	}
 }

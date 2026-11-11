@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "صفحه اصلی",
 		"sobreMi": "درباره من",
 		"proyectos": "پروژه‌ها",
 		"experiencia": "تجربیات",
@@ -7,10 +8,22 @@
 		"ariaMain": "ناوبری اصلی",
 		"openMenu": "باز کردن منو"
 	},
+	"saltar": "پرش به محتوا",
+	"tema": "تغییر حالت روشن و تاریک",
+	"telefono": "تلفن",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "قهرمان مدیسون اسپانیا. دانشمند داده.",
+		"disponible": "موجود برای پروژه‌های داده و عملکرد ورزشی.",
+		"escribeme": "به من پیام دهید",
+		"navLabel": "بخش‌ها",
+		"legalLabel": "حقوقی",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "شبکه‌های اجتماعی"
+	},
+	"cierre": {
+		"title": "صحبت کنیم؟",
+		"text": "اگر داده‌های عملکرد و سوالات بی‌پاسخی دارید، به من پیام دهید تا با هم بررسی کنیم.",
+		"cta": "به من پیام دهید"
 	},
 	"langSwitch": {
 		"label": "تغییر زبان",
@@ -27,11 +40,20 @@
 		"ariaBanner": "رضایت کوکی‌ها"
 	},
 	"legal": {
+		"terminos": "شرایط و ضوابط",
 		"privacidad": "سیاست حفظ حریم خصوصی",
-		"cookies": "سیاست کوکی‌ها"
+		"cookies": "سیاست کوکی‌ها",
+		"reembolso": "سیاست بازپرداخت",
+		"actualizado": "آخرین به‌روزرسانی",
+		"indice": "در این صفحه",
+		"otros": "سایر اسناد"
 	},
 	"person": {
 		"jobTitle": "دانشمند داده",
 		"description": "دانشمند داده متخصص در تحلیل ورزشی، با تجربه در دوچرخه‌سواری حرفه‌ای."
+	},
+	"pizarra": {
+		"vueltas": "دورها",
+		"campana": "آخرین"
 	}
 }

@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Käyttöehdot — Mario Álvarez",
+		"description": "Oikeudellinen huomautus ja käyttöehdot osoitteessa marioalvarez.me: kuka on omistaja, miten sivustoa voi käyttää ja mitä lakia sovelletaan.",
+		"heading": "Käyttöehdot"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kuka tämän sivuston takana on",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tietoyhteiskunnan palvelujen ja sähköisen kaupännän palveluista annetun lain (LSSI-CE) 10 pykälän mukaisesti tässä ovat osoitteen marioalvarez.me omistajan tiedot:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Omistaja: {nombre}",
+						"NIF: {nif}",
+						"Osoite: {domicilio}",
+						"Email: {email}",
+						"Toiminta: ammatillinen portfolio ja datatieteen palvelujen, räätälöityjen työkalujen, tietokantojen ja raporttien sekä uratuen tarjoaminen."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Mitä nämä ehdot säätelevät",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nämä ehdot säätelevät pääsyä sivustolle marioalvarez.me (jäljempänä \"verkkosivusto\") millä tahansa sen kielellä ja sen käyttöä. Selaamalla sivustoa sitoudut käyttämään sitä tässä esitettyjen ehtojen mukaisesti. Jos otat minuun yhteyttä yhteydenottolomakkeen kautta, pyydän sinua hyväksymään nämä ehdot nimenomaisesti valitsemalla ruudun."
+				}
+			]
+		},
+		{
+			"titulo": "3. Miten verkkosivustoa voi käyttää",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Voit tarkastella ja jakaa sisältöjä mainitsemalla niiden lähteen. Seuraava on kiellettyä:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"verkkosivuston käyttäminen laittomiin tarkoituksiin tai kolmansille osapuolille vahinkoa aiheuttavalla tavalla;",
+						"pääsyn yrittäminen rajoitetuille alueille (kuten yksityiseen paneeliin) tai sitä ylläpitäviin järjestelmiin;",
+						"virusten tai muun haitallisen koodin tuominen sivustolle tai sen tahallinen ylikuormittaminen;",
+						"sisältöjen kopioiminen omina esittämistä varten."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Palvelut ja sopimusten tekeminen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Verkkosivusto ei myy tuotteita eikä peri maksuja verkossa. Jos olet kiinnostunut palvelusta, keskustelemme siitä sähköpostitse tai puhelimitse, ja lähetän sinulle kirjallisen ehdotuksen, joka sisältää laajuuden, hinnan, aikataulut sekä maksu- ja peruutusehdot. Kun molemmat osapuolet ovat hyväksyneet tämän ehdotuksen, se ohjaa palvelua ja on ensisijainen näihin ehtoihin nähden."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Peruutusten, peruuttamisoikeuden ja palautusten toimintatavat selitetään palautuskäytännössä."
+				}
+			]
+		},
+		{
+			"titulo": "5. Immateriaalioikeudet",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarezin tekstit, suunnittelu, oma koodi, logo ja valokuvat ovat hänen omaisuuttaan tai niitä käytetään tekijöiden luvalla. Niiden jäljentäminen kaupallisiin tarkoituksiin ilman kirjallista lupaa on kiellettyä."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kolmansien osapuolten nimet ja logot (kuten LinkedIn, GitHub, Instagram tai kokemuksessa mainitut tiimit ja yhteisöt) kuuluvat niiden omistajille. Niiden mainitseminen ei tarkoita kaupallista suhdetta tai sponsorointia, ellei toisin nimenomaisesti mainita."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Verkkosivusto käyttää kolmansien osapuksien resursseja sallituilla lisensseillä: Fira Sans Extra Condensed- ja Source Serif 4 -fontit (SIL Open Font License 1.1), Lucide-kuvakkeet (ISC-lisenssi) ja Simple Icons (CC0 1.0) sekä GSAP-animaatiokirjasto (GreenSockin ilmainen vakiolisenssi, Webflow). Jokaisella GitHubissa linkitetyllä projektilla on oma lisenssinsä."
+				}
+			]
+		},
+		{
+			"titulo": "6. Vastuu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Työskentelen sen eteen, että tiedot ovat oikein ja verkkosivusto on saatavilla, mutta en voi taata, että virheitä tai keskeytyksiä ei esiinny. Sisällöt ovat luonteeltaan informatiivisia eivätkä ne korvaa ammatillista neuvontaa tietyssä tilanteessasi."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Verkkosivustolta on linkkejä kolmansien osapuolten sivustoille (sosiaalinen media, arkistot, projektisivustot). En hallitse niiden sisältöä tai käytäntöjä enkä vastaa niistä."
+				}
+			]
+		},
+		{
+			"titulo": "7. Yksityisyys ja evästeet",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tietojesi käsittely ja käytettävät evästeet selitetään tietosuojakäytännössä ja evästekäytännössä. Mikään verkkosivuston osa ei pakota sinua hyväksymään evästeitä voidaksesi käyttää sitä."
+				}
+			]
+		},
+		{
+			"titulo": "8. Hyväksyntöjen rekisteröinti",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jotta suostumus voidaan tarvittaessa todistaa (GDPR:n artikla 7.1), kun hyväksyt nämä ehdot yhteydenottolomakkeessa tai valitset sallimasi evästeet, tallennetaan lokitieto, joka sisältää: pseudonymisoidun tunnisteen, sen mitä hyväksyit tai hylkäsit, kunkin asiakirjan version, päivämäärän ja kellonajan, sivun ja kielen, jolta teit sen, alkuperän (banneri, asetukset tai lomake), selaimen ja lomakkeen tapauksessa viitekoodin, joka kulkee sähköpostissasi. IP-osoitettasi ei tallenneta. Tiedot ovat luettavissa tietosuojakäytännössä."
+				}
+			]
+		},
+		{
+			"titulo": "9. Kielet",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Näiden tekstien espanjankielinen versio on alkuperäinen ja ensisijainen epäselvissä tilanteissa. Muut ovat automaattisia käännöksiä, joita tarjotaan mukavuussyistä."
+				}
+			]
+		},
+		{
+			"titulo": "10. Muutokset",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Voin päivittää näitä ehtoja vastaamaan lainsäädännön tai verkkosivuston muutoksia. Voimassa olevan version päivämäärä näkyy tämän sivun alussa. Jos muutos on merkittävä, pyydän sinua hyväksymään ne uudelleen."
+				}
+			]
+		},
+		{
+			"titulo": "11. Sovellettava laki ja tuomiovalta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Näihin ehtoihin sovelletaan Espanjan lakia. Jos toimit kuluttajana, voit kääntyä kotipaikkakuntasi tuomioistuinten sekä oman itsehallintoalueesi kuluttajariitojen ratkaisu- ja sovittelujärjestelmien puoleen. Muissa tapauksissa molemmat osapuolet alistuvat Benidormin (Alicante) tuomioistuimille."
+				}
+			]
+		}
+	]
+}

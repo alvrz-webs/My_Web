@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Şərtlər və Qaydalar — Mario Álvarez",
+		"description": "marioalvarez.me saytının hüquqi bildirişi və istifadə şərtləri: sahibinin kim olduğu, veb-saytdan necə istifadə oluna biləcəyi və hansı qanunun tətbiq olunduğu.",
+		"heading": "Şərtlər və Qaydalar"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Bu saytın arxasında kim dayanır",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "İnformasiya cəmiyyəti xidmətləri və elektron ticarət haqqında 34/2002 saylı Qanunun (LSSI-CE) 10-cu maddəsinə uyğun olaraq, marioalvarez.me saytının sahibinin məlumatları bunlardır:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Sahibi: {nombre}",
+						"NIF: {nif}",
+						"Ünvan: {domicilio}",
+						"Email: {email}",
+						"Fəaliyyət: peşəkar portfolio və məlumat analizi xidmətləri, xüsusi hazırlanmış alətlər, verilənlər bazaları və hesabatlar, həmçinin karyera dəstəyi təklifi."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Bu şərtlər nəyi tənzimləyir",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu şərtlər istənilən dildə marioalvarez.me saytına (\"sayt\") daxil olmağı və ondan istifadəni tənzimləyir. Saytda vərəqləməklə siz burada göstərilənlərə uyğun olaraq ondan istifadə etməyə razılaşırsınız. Əgər mənə əlaqə formasından yazırsınızsa, xahiş edirəm ki, xananı işarələməklə bunları açıq şəkildə qəbul edəsiniz."
+				}
+			]
+		},
+		{
+			"titulo": "3. Saytdan necə istifadə etmək olar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mənbəyini qeyd etməklə məzmunu nəzərdən keçirə və paylaşa bilərsiniz. Aşağıdakılara icazə verilmir:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"saytdan qeyri-qanuni məqsədlər üçün və ya üçüncü tərəflərə zərər vuracaq şəkildə istifadə etmək;",
+						"məhdudlaşdırılmış zonalara (məsələn, şəxsi panelə) və ya onu ev sahibliyi edən sistemlərə daxil olmağa cəhd etmək;",
+						"viruslar və ya hər hansı zərərli kod daxil etmək və ya onu qəsdən həddindən artıq yükləmək;",
+						"məzmunu özünüzünkü kimi təqdim etmək üçün kopyalamaq."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Xidmətlər və müqavilə",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sayt heç bir məhsul satmır və onlayn ödənişlər qəbul etmir. Əgər hər hansı xidmətlə maraqlanırsınızsa, bunu e-poçt və ya telefon vasitəsilə müzakirə edirik və mən sizə həcmi, qiyməti, müddətləri, ödəniş və ləğvetmə şərtləri olan yazılı təklif göndərirəm. Həmin təklif hər iki tərəfdən qəbul edildikdən sonra xidməti tənzimləyir və bu şərtlərdən üstün tutulur."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ləğvetmələrin, imtina hüququnun və geri qaytarmaların necə işlədiyi geri qaytarılma siyasətində izah olunur."
+				}
+			]
+		},
+		{
+			"titulo": "5. Əqli və sənaye mülkiyyəti",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez-in mətnləri, dizaynı, şəxsi kodu, loqosu və fotoşəkilləri ona məxsusdur və ya müəlliflərin icazəsi ilə istifadə olunur. Yazılı icazə olmadan onları kommersiya məqsədləri ilə çoxaltmağa icazə verilmir."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Üçüncü tərəflərin adları və loqotipləri (məsələn, LinkedIn, GitHub, Instagram və ya təcrübədə qeyd olunan komandalar və qurumlar) onların sahiblərinə məxsusdur. Onların xatırladılması açıq şəkildə bildirilmədiyi təqdirdə heç bir kommersiya münasibəti və ya sponsorluq demək deyil."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Sayt buna icazə verən lisenziyaları olan üçüncü tərəf resurslarından istifadə edir: Fira Sans Extra Condensed və Source Serif 4 şriftləri (SIL Open Font License 1.1), Lucide ikonları (ISC lisenziyası) və Simple Icons (CC0 1.0) və GSAP animasiya kitabxanası (Webflow tərəfindən GreenSock-un standart pulsuz lisenziyası). GitHub-da əlaqələndirilmiş hər bir layihənin öz lisenziyası var."
+				}
+			]
+		},
+		{
+			"titulo": "6. Məsuliyyət",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Məlumatın düzgün olması və saytın əlçatan olması üçün çalışıram, lakin səhvlərin və ya fasilələrin olmayacağına zəmanət verə bilmərəm. Məzmun məlumat xarakterlidir və sizin konkret vəziyyətinizlə bağlı peşəkar məsləhəti əvəz etmir."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Sayt üçüncü tərəflərin saytlarına (sosial şəbəkələr, repozitorlar, layihə saytları) keçidlər verir. Mən onların məzmununa və siyasətlərinə nəzarət etmirəm və onlara görə cavabdeh deyiləm."
+				}
+			]
+		},
+		{
+			"titulo": "7. Məxfilik və kukilər",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Məlumatlarınızın necə işlənməsi və hansı kukilərdən istifadə olunduğu məxfilik siyasətində və kukilər siyasətində izah olunur. Saytın heç bir hissəsi ondan istifadə etmək üçün sizdən kukiləri qəbul etməyi tələb etmir."
+				}
+			]
+		},
+		{
+			"titulo": "8. Qəbulların qeydiyyatı",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Lazım gəldikdə razılığı sübut etmək üçün (GDPR-ın 7.1-ci maddəsi), əlaqə formasında bu şərtləri qəbul etdiyiniz və ya hansı kukilərə icazə verdiyinizi seçdiyiniz zaman aşağıdakılarla bir qeydiyyat saxlanılır: təxəllüslü identifikator, nəyi qəbul etdiyiniz və ya rədd etdiyiniz, hər sənədin versiyası, tarixi və vaxtı, bunu etdiyiniz səhifə və dil, mənşə (banner, konfiqurasiya və ya forma), brauzer və sənəd formasında e-poçtunuzda səyahət edən istinad kodu. IP ünvanınız saxlanılmır. Ətraflı məlumat məxfilik siyasətindədir."
+				}
+			]
+		},
+		{
+			"titulo": "9. Dillər",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu mətnlərin İspan dilindəki versiyası orijinaldır və şübhə yarandıqda üstünlük təşkil edir. Qalanları rahatlıq üçün təklif olunan avtomatik tərcümələrdir."
+				}
+			]
+		},
+		{
+			"titulo": "10. Dəyişikliklər",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hüquqi dəyişikliklərə və ya saytdakı dəyişikliklərə uyğunlaşmaq üçün bu şərtləri yeniləyə bilərəm. Qüvvədə olan versiyanın tarixi bu səhifənin əvvəlində görünür. Əgər dəyişiklik əhəmiyyətlidirsə, sizdən onları yenidən qəbul etməyinizi xahiş edəcəyəm."
+				}
+			]
+		},
+		{
+			"titulo": "11. Tətbiq olunan qanun və yurisdiksiya",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu şərtlər İspaniya qanunvericiliyi ilə tənzimlənir. Əgər istehlakçı kimi hərəkət edirsinizsə, yaşayış yerinizin məhkəmələrinə və muxtar icmanızın istehlakçı mübahisələrinin arbitrajı və həlli sistemlərinə müraciət edə bilərsiniz. Digər hallarda hər iki tərəf Benidorm (Alikante) məhkəmələrinə tabedir."
+				}
+			]
+		}
+	]
+}

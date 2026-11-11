@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Patakaran sa pagbabalik ng bayad — Mario Álvarez",
+		"description": "Paano gumagana ang mga pagkansela, ang karapatan sa pag-atras, at ang mga pagbabalik ng serbisyo ni Mario Álvarez.",
+		"heading": "Patakaran sa pagbabalik ng bayad"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ang website na ito ay hindi naniningil ng mga bayad",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sa marioalvarez.me ay walang ibinebentang produkto o sinisingil na bayad online. Ang mga serbisyo (pagsusuri ng pagganap, pasadyang mga kasangkapan, mga database at ulat, at suporta sa karera) ay kinukuha nang hiwalay, na may nakasulat na panukala."
+				}
+			]
+		},
+		{
+			"titulo": "2. Kung ano ang sinasabi ng iyong panukala",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang bawat panukala ay nagpapahiwatig ng presyo, kung paano at kailan ito babayaran, at ang mga kundisyon ng pagkansela. Kung ang panukala ay nagsasabi ng iba kaysa sa patakarang ito, ang panukala ang masusunod, maliban na lamang kung ang patakarang ito ay nagbibigay sa iyo ng higit pang mga karapatan bilang isang mamimili."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kung ikaw ay kakansela",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Maliban na lamang kung iba ang napagkasunduan sa pagsulat:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kung kakanselahin mo bago magsimula ang trabaho, ibabalik ko nang buo ang anumang paunang bayad.",
+						"Kung kakanselahin mo habang nagsimula na ang trabaho, sisingilin lamang ang bahaging nagawa na at ibabalik ko ang natitira sa iyong inilaang bayad.",
+						"Ang trabahong naihatid na at tinanggap ay hindi ibabalik, maliban na lamang kung ito ay may mga depekto na hindi naitama."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Karapatan sa pag-atras (kung ikaw ay isang mamimili)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kung ikaw ay nakipagkontrata bilang isang mamimili (isang taong kumikilos sa labas ng kanyang propesyonal na aktibidad) at ang kontrata ay sarado sa malayo, sa pamamagitan ng email o sa telepono, ikaw ay may 14 na araw ng kalendaryo mula sa pagsasara nito upang umatras nang walang pagbibigay ng mga paliwanag, ayon sa mga artikulo 102 hanggang 108 ng pinagsama-samang teksto ng Pangkalahatang Batas para sa Depensa ng mga Mamimili at Gumagamit (Real Decreto Legislativo 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kung hihilingin mo nang hayagan na simulan ko ang pagtatrabaho sa loob ng mga 14 na araw na iyon at pagkatapos ay umatras ka, babayaran mo lamang ang proporsyonal na bahagi ng serbisyong ibinigay hanggang sa sandaling iyon. Kung ang serbisyo ay nakumpleto nang buo sa loob ng takdang panahon, sa iyong nauna at hayagang pagsang-ayon at alam na sa gayon ay mawawala sa iyo ang karapatang ito, hindi ka na maaaring umatras (artikulo 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Paano ito hilingin",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sumulat sa akin sa {email} kasama ang iyong pangalan, ang serbisyo, at ang petsa kung kailan mo ito kinuha. Maaari mong gamitin ang modelong ito ng form ng pag-atras (hindi sapilitan):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Para sa atensyon ni {nombre}, {domicilio}, {email}:",
+						"Sa pamamagitan nito ay ipinapaalam ko sa iyo na umaatras ako sa aking kontrata sa pagbibigay ng sumusunod na serbisyo: [servicio].",
+						"Kinontrata noong: [fecha].",
+						"Pangalan ng mamimili: [nombre].",
+						"Tirahan ng mamimili: [domicilio].",
+						"Petsa: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Panahon at paraan ng pagbabalik",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ibabalik ko ang nararapat sa loob ng maximum na 14 na araw ng kalendaryo mula sa iyong pakikipag-ugnayan sa iyong desisyon, sa pamamagitan ng parehong paraan ng pagbabayad na iyong ginamit, maliban na lamang kung magkasundo kami sa iba. Ang pagbabalik ay walang anumang gastos para sa iyo."
+				}
+			]
+		}
+	]
+}

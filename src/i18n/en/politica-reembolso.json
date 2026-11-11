@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Refund policy — Mario Álvarez",
+		"description": "How cancellations, the right of withdrawal and refunds work for Mario Álvarez's services.",
+		"heading": "Refund policy"
+	},
+	"secciones": [
+		{
+			"titulo": "1. This website takes no payments",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "marioalvarez.me does not sell products or take online payments. Services (performance analysis, custom tools, databases and reporting, and race support) are hired separately, through a written proposal."
+				}
+			]
+		},
+		{
+			"titulo": "2. What your proposal says",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Each proposal states the price, how and when it is paid and the cancellation terms. If the proposal says something different from this policy, the proposal applies, unless this policy gives you more rights as a consumer."
+				}
+			]
+		},
+		{
+			"titulo": "3. If you cancel",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Unless otherwise agreed in writing:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"If you cancel before work starts, any advance payment is refunded in full.",
+						"If you cancel after work has started, only the part already done is charged and the rest of any advance is refunded.",
+						"Work already delivered and accepted is not refunded, unless it has defects that are not fixed."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Right of withdrawal (if you are a consumer)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "If you hire as a consumer (a person acting outside their professional activity) and the contract is concluded at a distance, by email or phone, you have 14 calendar days from its conclusion to withdraw without giving any reason, under articles 102 to 108 of the Spanish consolidated General Law for the Defence of Consumers and Users (Royal Legislative Decree 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "If you expressly ask me to start work within those 14 days and then withdraw, you will only pay the proportional part of the service provided up to that point. If the service has been fully performed within that period, with your prior express consent and knowing that you thereby lose this right, you can no longer withdraw (article 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. How to request it",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Write to me at {email} with your name, the service and the date you hired it. You may use this model withdrawal form (it is not mandatory):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"To {nombre}, {domicilio}, {email}:",
+						"I hereby give notice that I withdraw from my contract for the provision of the following service: [service].",
+						"Hired on: [date].",
+						"Name of consumer: [name].",
+						"Address of consumer: [address].",
+						"Date: [date]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Refund timing and method",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I will refund the amount due within 14 calendar days of you telling me your decision, using the same payment method you used, unless we agree otherwise. The refund costs you nothing."
+				}
+			]
+		}
+	]
+}

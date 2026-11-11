@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Dasar Privasi — Mario Álvarez",
-		"description": "Dasar privasi tapak web Mario Álvarez: data apa yang dikumpul, untuk tujuan apa dan cara melaksanakan hak anda.",
-		"eyebrow": "Undang-undang",
-		"heading": "Dasar Privasi"
+		"version": "2026-11-10",
+		"title": "Dasar privasi — Mario Álvarez",
+		"description": "Data apa yang diproses oleh marioalvarez.me, untuk apa, atas dasar undang-undang apa, berapa lama, dan cara melaksanakan hak anda.",
+		"heading": "Dasar privasi"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Pengawal data",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, dengan alamat di Benidorm (Alicante), Sepanyol. Hubungi: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Tujuan pemprosesan",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Laman web ini menganalisis secara dalaman dan untuk tujuan statistik semata-mata kandungan (seksyen, projek) yang paling berguna kepada mereka yang melawatinya, dengan matlamat untuk menambah baik kandungannya. Ia tidak digunakan untuk tujuan pengiklanan, tidak dikongsi dengan pihak ketiga dan tidak dijual dalam apa jua keadaan."
-				}
-			]
-		},
-		{
-			"titulo": "3. Data yang dikumpul (hanya jika anda menerima kuki analitikal)",
+			"titulo": "1. Pengawal",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Pengenal pasti awanama rawak, tidak dipautkan kepada nama anda, e-mel atau sebarang maklumat lain yang mengenal pasti anda secara langsung.",
-						"Halaman dan projek yang anda lawati, dan masa perhatian pada setiap satu (semasa tab aktif).",
-						"Interaksi (klik pada projek, pautan atau butang).",
-						"Tarikh dan masa lawatan.",
-						"Bahasa tapak yang dirujuk.",
-						"Jenis peranti (mudah alih atau desktop).",
-						"Negara anggaran, diperoleh melalui infrastruktur Cloudflare, tanpa menyimpan alamat IP anda.",
-						"Halaman asal (contohnya, LinkedIn atau enjin carian)."
+						"Pengawal: {nombre}",
+						"NIF: {nif}",
+						"Alamat: {domicilio}",
+						"E-mel untuk sebarang isu privasi: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Alamat IP anda tidak dikumpul, tiada teknik pengenalan pelayar (fingerprinting) digunakan, begitu juga alat pihak ketiga seperti Google Analytics atau yang serupa."
+					"texto": "Kerana saiz dan jenis aktiviti, adalah tidak wajib untuk melantik pegawai perlindungan data, jadi ia tidak ada: tulis terus kepada saya."
 				}
 			]
 		},
 		{
-			"titulo": "4. Asas undang-undang",
+			"titulo": "2. Data apa yang saya proses, untuk apa dan mengapa",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Pemprosesan adalah berdasarkan persetujuan eksplisit anda (perkara 6.1.a GDPR dan artikel 22.2 LSSI-CE), yang boleh anda tarik balik pada bila-bila masa daripada pengurus kuki tapak itu sendiri."
+					"tipo": "tabla",
+					"columnas": [
+						"Untuk apa",
+						"Data apa",
+						"Dasar undang-undang",
+						"Berapa lama"
+					],
+					"filas": [
+						[
+							"Analitis penggunaan, hanya jika anda menerima kuki analisis",
+							"Pengenal pasti pseudonim rawak (kuki visitante_id), bahagian dan projek yang anda lihat dan masa pada setiap satu, klik pada pautan dan butang, bahasa, jenis peranti (mudah alih atau desktop), negara anggaran dan halaman web tempat setiap peristiwa berlaku.",
+							"Persetujuan anda (art. 6.1.a GDPR dan art. 22.2 LSSI-CE).",
+							"12 bulan; selepas itu setiap peristiwa dipadamkan secara automatik."
+						],
+						[
+							"Rekod persetujuan",
+							"Pengenal pasti pseudonim, apa yang anda terima, tolak atau tarik balik, versi setiap dokumen, tarikh dan masa, halaman, bahasa, asal (sepanduk, konfigurasi atau borang), pelayar (ejen pengguna) dan negara anggaran; dalam borang, selain itu, kod rujukan e-mel anda.",
+							"Mematuhi kewajipan untuk dapat membuktikan persetujuan (art. 6.1.c dan 7.1 GDPR).",
+							"3 tahun dari setiap rekod (tempoh pengehadan maksimum untuk pelanggaran LOPDGDD); selepas itu ia dipadamkan secara automatik."
+						],
+						[
+							"Menjawab pertanyaan anda melalui e-mel atau telefon",
+							"Data yang andautuskan untuk hantar kepada saya: biasanya nama anda, e-mel atau telefon anda dan kandungan mesej.",
+							"Menerapkan langkah pra-kontrak atas permintaan anda (art. 6.1.b GDPR) atau kepentingan sah saya untuk menjawab anda (art. 6.1.f).",
+							"Selagi perbualan berlangsung dan sehingga 1 tahun kemudian, melainkan kita membuat kontrak."
+						],
+						[
+							"Menguruskan perkhidmatan yang dikontrak",
+							"Data pengenalan, kenalan dan pengebilan.",
+							"Pelaksanaan kontrak (art. 6.1.b GDPR) dan kewajipan cukai dan perakaunan (art. 6.1.c).",
+							"Apa yang dikehendaki oleh undang-undang cukai dan perdagangan (secara amnya, antara 4 dan 6 tahun)."
+						],
+						[
+							"Mengingati sama ada anda lebih suka tema cerah atau gelap",
+							"Keutamaan «tema», disimpan hanya dalam pelayar anda (storan tempatan). Ia tidak sampai kepada saya.",
+							"Fungsi yang anda minta apabila menekan butang (dikecualikan daripada persetujuan mengikut art. 22.2 LSSI-CE).",
+							"Sehingga anda memadamkannya daripada pelayar anda."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Tempoh pemeliharaan",
+			"titulo": "3. Apa yang saya tidak minta atau kumpul",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Data disimpan selama maksimum 12 bulan dari lawatan terakhir anda, selepas itu ia dipadamkan secara automatik."
+					"texto": "Saya hanya memproses apa yang penting untuk setiap tujuan. Khususnya:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Borang kenalan tidak meminta nama, e-mel atau telefon anda: buka program e-mel anda dan Andalah yang memutuskan apa yang hendak dihantar kepada saya.",
+						"Saya tidak menyimpan alamat IP anda sama ada dalam analitis mahupun dalam rekod persetujuan.",
+						"Saya tidak menggunakan teknik pengenalan pelayar (fingerprinting), Google Analytics, piksel pengiklanan mahupun kuki pihak ketiga.",
+						"Fon dan imej disajikan dari web ini sendiri: apabila melawatinya, pelayar anda tidak menyambung ke Google Fonts, GitHub mahupun perkhidmatan luaran yang lain."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Penerima dan pemindahan antarabangsa",
+			"titulo": "4. Siapa lagi yang terlibat",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Data tidak diserah atau dijual kepada pihak ketiga. Ia disimpan dalam Cloudflare D1, perkhidmatan pangkalan data yang disediakan oleh Cloudflare, Inc., yang bertindak sebagai pemproses data. Cloudflare boleh memproses data di luar Kawasan Ekonomi Eropah; dalam kes sedemikian, pemindahan tersebut dilindungi oleh Klausul Kontrak Standard yang diluluskan oleh Suruhanjaya Eropah. Maklumat lanjut dalam dasar privasi Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Saya tidak menjual atau menyerahkan data anda kepada sesiapa, kecuali kewajipan undang-undang. Untuk memastikan web berfungsi dan untuk menjawab anda, saya menggunakan pembekal ini:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: mengehoskan web dan pangkalan data (Cloudflare Pages dan D1) dan bertindak sebagai pemproses data. Untuk menyajikan web, ia memproses data sambungan teknikal, seperti IP anda, yang saya tidak mempunyai akses dasarnya. Dasarnya: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): perkhidmatan e-mel tempat saya menerima dan menjawab e-mel; ia memproses mesej tersebut mengikut dasarnya sendiri: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Hak anda",
+			"titulo": "5. Pemindahan antarabangsa",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Anda boleh melaksanakan hak anda untuk akses, pembetulan, pemadaman, tentangan, pengehadan pemprosesan dan mudah alih pada bila-bila masa dengan menulis kepada malvmar5@hotmail.com. Di samping itu, anda boleh memadamkan data anda serta-merta, tanpa perlu menulis kepada sesiapa, daripada butang \"Padam data saya\" yang tersedia dalam tetapan kuki tapak. Anda juga mempunyai hak untuk memfailkan aduan dengan Agensi Perlindungan Data Sepanyol (www.aepd.es) jika anda percaya bahawa hak anda belum ditangani dengan betul."
+					"texto": "Cloudflare dan Microsoft boleh memproses data di Amerika Syarikat. Kedua-duanya mematuhi Rangka Kerja Privasi Data EU-AS (keputusan kecukupan Suruhanjaya Eropah pada 10 Julai 2023) dan juga menawarkan klausa kontrak standard yang diluluskan oleh Suruhanjaya."
 				}
 			]
 		},
 		{
-			"titulo": "8. Perubahan kepada dasar ini",
+			"titulo": "6. Hak anda",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dasar ini boleh dikemas kini untuk menyesuaikan diri dengan perubahan undang-undang atau tapak itu sendiri."
+					"texto": "Anda boleh meminta saya pada bila-bila masa untuk mengakses data anda, membetulkannya, memadamkannya, membantah pemrosesannya, mengehadkannya atau menerimanya untuk dibawa ke tempat lain (kebolehpindahan), dan menarik balik persetujuan anda tanpa menjejaskan apa yang diproses sebelum ini. Tulis kepada saya di {email}; saya akan menjawab anda dalam masa maksimum satu bulan."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Data analitis boleh dipadamkan oleh anda sendiri serta-merta dengan butang «Padamkan data saya» dalam konfigurasi kuki. Rekod persetujuan disimpan walaupun anda menarik balik persetujuan, kerana ia tepat untuk membuktikan bila anda memberikannya dan bila anda menarik baliknya."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jika anda fikir saya tidak menjaga hak anda dengan baik, anda boleh membuat aduan kepada Agensi Perlindungan Data Sepanyol: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Kanak-kanak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web ini tidak ditujukan kepada kanak-kanak bawah umur 14 tahun. Jika anda berumur di bawah 14 tahun, jangan hantar data peribadi kepada saya tanpa kebenaran ibu bapa atau penjaga anda (art. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Keselamatan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data bergerak disulitkan (HTTPS) dan disimpan dalam pangkalan data yang hanya diakses dari panel peribadi, dilindungi dengan nama pengguna dan kata laluan."
+				}
+			]
+		},
+		{
+			"titulo": "9. Perubahan pada dasar ini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jika ada perkara penting yang berubah, saya akan mengemas kini halaman ini dan tarikh versinya. Jika perubahan itu menjejaskan kuki, anda akan ditanya semula."
 				}
 			]
 		}

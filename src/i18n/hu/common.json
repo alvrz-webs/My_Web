@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Kezdőlap",
 		"sobreMi": "Rólam",
 		"proyectos": "Projektek",
 		"experiencia": "Tapasztalat",
@@ -7,10 +8,22 @@
 		"ariaMain": "Fő navigáció",
 		"openMenu": "Menü megnyitása"
 	},
+	"saltar": "Ugrás tartalomra",
+	"tema": "Váltás világos és sötét mód között",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spanyol madison bajnok. Adattudós.",
+		"disponible": "Elérhető adatelemzési és sportteljesítmény-projektekre.",
+		"escribeme": "Írjon nekem",
+		"navLabel": "Szakaszok",
+		"legalLabel": "Jogi",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Közösségi média"
+	},
+	"cierre": {
+		"title": "Beszéljünk?",
+		"text": "Ha teljesítményadatai vannak és megválaszolatlan kérdései, írjon nekem, és együtt megnézzük.",
+		"cta": "Írjon nekem"
 	},
 	"langSwitch": {
 		"label": "Nyelv váltása",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Sütihozzájárulás"
 	},
 	"legal": {
+		"terminos": "Felhasználási feltételek",
 		"privacidad": "Adatvédelmi irányelvek",
-		"cookies": "Sütiszabályzat"
+		"cookies": "Sütiszabályzat",
+		"reembolso": "Visszatérítési irányelvek",
+		"actualizado": "Utolsó frissítés",
+		"indice": "Ezen az oldalon",
+		"otros": "Egyéb dokumentumok"
 	},
 	"person": {
 		"jobTitle": "Adattudós",
 		"description": "Sportanalitikára szakosodott adattudós, profi kerékpározásban szerzett tapasztalattal."
+	},
+	"pizarra": {
+		"vueltas": "körök",
+		"campana": "utolsó"
 	}
 }

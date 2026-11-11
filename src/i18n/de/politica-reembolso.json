@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Rückgaberecht — Mario Álvarez",
+		"description": "Wie Stornierungen, das Widerrufsrecht und Rückerstattungen für die Dienstleistungen von Mario Álvarez funktionieren.",
+		"heading": "Rückgaberecht"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Diese Website erhebt keine Zahlungen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Auf marioalvarez.me werden keine Produkte verkauft und keine Online-Zahlungen eingezogen. Die Dienstleistungen (Leistungsanalysen, maßgeschneiderte Tools, Datenbanken und Berichte sowie Karriereunterstützung) werden separat durch ein schriftliches Angebot vereinbart."
+				}
+			]
+		},
+		{
+			"titulo": "2. Was in deinem Angebot steht",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jedes Angebot nennt den Preis, wie und wann bezahlt wird sowie die Stornierungsbedingungen. Wenn das Angebot etwas anderes besagt als diese Richtlinie, gilt das Angebot, es sei denn, diese Richtlinie gewährt dir als Verbraucher mehr Rechte."
+				}
+			]
+		},
+		{
+			"titulo": "3. Wenn du stornierst",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sofern nicht schriftlich etwas anderes vereinbart wird:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Wenn du stornierst, bevor die Arbeit beginnt, erstatte ich dir jede Vorauszahlung in voller Höhe zurück.",
+						"Wenn du nach Beginn der Arbeit stornierst, wird nur der bereits geleistete Teil berechnet und ich erstatte dir den Rest deines Vorschusses zurück.",
+						"Bereits gelieferte und abgenommene Arbeit wird nicht erstattet, es sei denn, sie weist Mängel auf, die nicht behoben werden."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Widerrufsrecht (wenn du Verbraucher bist)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Wenn du als Verbraucher handelst (eine Person, die außerhalb ihrer beruflichen Tätigkeit handelt) und der Vertrag im Fernabsatz, per E-Mail oder per Telefon geschlossen wird, hast du ab dem Tag des Vertragsabschlusses 14 Kalendertage Zeit, diesen ohne Angabe von Gründen gemäß den Artikeln 102 bis 108 des konsolidierten Textes des Allgemeinen Gesetzes zum Schutz der Verbraucher und Nutzer (Königlicher Gesetzesdekret 1/2007) zu widerrufen."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Wenn du mich ausdrücklich darum bittest, innerhalb dieser 14 Tage mit der Arbeit zu beginnen, und dann widerrufst, zahlst du nur den anteiligen Betrag für die bis zu diesem Zeitpunkt erbrachte Dienstleistung. Wenn die Dienstleistung innerhalb der Frist mit deiner vorherigen und ausdrücklichen Zustimmung und in dem Wissen, dass du dadurch dieses Recht verlierst, vollständig erbracht wurde, kannst du nicht mehr widerrufen (Artikel 103 Buchstabe a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Wie man es beantragt",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Schreibe mir an {email} mit deinem Namen, der Dienstleistung und dem Datum, an dem du sie gebucht hast. Du kannst dieses Muster-Widerrufsformular verwenden (es ist nicht verpflichtend):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"An {nombre}, {domicilio}, {email}:",
+						"Hiermit widerrufe ich den von mir abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung: [servicio].",
+						"Bestellt am: [fecha].",
+						"Name des Verbrauchers: [nombre].",
+						"Anschrift des Verbrauchers: [domicilio].",
+						"Datum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Frist und Art der Rückzahlung",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ich erstatte dir den entsprechenden Betrag innerhalb von maximal 14 Kalendertagen ab dem Tag, an dem du mir deine Entscheidung mitteilst, über dasselbe Zahlungsmittel, das du verwendet hast, es sei denn, wir vereinbaren etwas anderes. Die Rückzahlung ist für dich kostenlos."
+				}
+			]
+		}
+	]
+}

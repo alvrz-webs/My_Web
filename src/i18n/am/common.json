@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "መነሻ",
 		"sobreMi": "ስs o l e  mí",
 		"proyectos": "ፕሮጀክቶች",
 		"experiencia": "ልምድ",
@@ -7,10 +8,22 @@
 		"ariaMain": "ዋና ዳሰሳ",
 		"openMenu": "ምናሌ ክፈት"
 	},
+	"saltar": "ወደ ይዘቱ ዝለል",
+	"tema": "በብርሃን እና በጨለማ ሁኔታ መካከል ቀይር",
+	"telefono": "ስልክ",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "የማዲሰን የስፔን ቻምፒዮና። የዳታ ሳይንቲስት።",
+		"disponible": "ለዳታ እና የስፖርት አፈጻጸም ፕሮጀክቶች ዝግጁ ነኝ።",
+		"escribeme": "ፃፉልኝ",
+		"navLabel": "ክፍሎች",
+		"legalLabel": "ህጋዊ",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "ማህበራዊ ሚዲያ"
+	},
+	"cierre": {
+		"title": "እንነጋገር?",
+		"text": "የአፈጻጸም መረጃዎች እና ያልተመለሱ ጥያቄዎች ካሉዎት፣ ይጻፉልን እና በጋራ እንየው።",
+		"cta": "ፃፉልኝ"
 	},
 	"langSwitch": {
 		"label": "ቋንቋ ቀይር",
@@ -27,11 +40,20 @@
 		"ariaBanner": "የኩኪ ፈቃድ"
 	},
 	"legal": {
+		"terminos": "ውሎች እና ሁኔታዎች",
 		"privacidad": "የግላዊነት ፖሊሲ",
-		"cookies": "የኩኪዎች ፖሊሲ"
+		"cookies": "የኩኪዎች ፖሊሲ",
+		"reembolso": "የገንዘብ ተመላሽ ፖሊሲ",
+		"actualizado": "የመጨረሻ ማሻሻያ",
+		"indice": "በዚህ ገጽ ላይ",
+		"otros": "ሌሎች ሰነዶች"
 	},
 	"person": {
 		"jobTitle": "የውሂብ ሳይንቲስት",
 		"description": "በስፖርት ትንተና ላይ የተ специализиረ የውሂብ ሳይንቲስት፣ በሙያዊ ብስክሌት ስፖርት ውስጥ ልምድ ያለው።"
+	},
+	"pizarra": {
+		"vueltas": "መዞሪያዎች",
+		"campana": "የመጨረሻው"
 	}
 }

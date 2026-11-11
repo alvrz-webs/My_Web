@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Data-wetenschapper gespecialiseerd in sport",
-		"description": "Mario Álvarez, data-wetenschapper in Valencia gespecialiseerd in sportanalyse. Data · Sport · Progress.",
+		"description": "Mario Álvarez, data scientist in Valencia gespecialiseerd in sportanalyse. Spaans kampioen madison en sportdirekteur RFEC.",
 		"verProyectos": "Bekijk projecten",
-		"contacto": "Contact",
-		"verMas": "Bekijk meer",
+		"verServicios": "Bekijk hoe ik kan helpen",
+		"contacto": "Schrijf me",
+		"verMas": "Lees meer",
 		"verTodosProyectos": "Bekijk alle projecten",
-		"irAContacto": "Ga naar contact",
+		"irAContacto": "Schrijf me",
 		"herramientas": "Belangrijkste tools"
 	},
 	"hero": {
-		"eyebrow": "Data-wetenschapper · Sportanalyse · Valencia",
-		"titlePre": "Ik zet data om in ",
-		"titleHighlight": "duidelijke beslissingen",
-		"subtitle": "Ik ben de brug tussen data-analyse en topsport: ik transformeer prestatiemetrics in strategieën die het verschil maken op het veld.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, data scientist",
+		"title": "Ik was Spaans kampioen madison.",
+		"subtitle": "Nu studeer ik Data Science aan de UPV en analyseer ik wat er achter de prestaties schuilt: vermogen, belasting en resultaten. Ik weet wat een getal betekent voor een renner, omdat ik die renner ben geweest.",
+		"palmaresLabel": "Erelijst",
+		"palmares": [
+			{
+				"pos": "1e",
+				"texto": "Spaans kampioenschap madison",
+				"nota": "Baan, op 18-jarige leeftijd"
+			},
+			{
+				"pos": "6e",
+				"texto": "Wereldkampioenschap baan",
+				"nota": "Spaanse selectie"
+			},
+			{
+				"pos": "6e",
+				"texto": "Europees kampioenschap baan",
+				"nota": "Spaanse selectie"
+			}
+		],
+		"retratoAlt": "Portret van Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Waar ik je mee kan helpen",
+		"text": "Ik werk met ploegen, trainers en renners die data hebben en daar het maximale uit willen halen. En met bedrijven die hun data op orde moeten krijgen.",
+		"cta": "Vertel me over je situatie",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Prestatieanalyse",
+				"texto": "Ik lees vermogen, belasting en resultaten met de ogen van een renner. Ik leg je uit wat er gebeurt en wat er anders moet.",
+				"prueba": "Eliterenner en RFEC-sportdirekteur, niveaus I en II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Gemaakte tools",
+				"texto": "Scraping, modellen en kleine Python-applicaties die een specifiek vraagstuk van je ploeg beantwoorden.",
+				"prueba": "Twee tools voor de ploeg Cofidis: UCI-moeilijkheidsgraad en koersprofiel."
+			},
+			{
+				"id": "datos",
+				"nombre": "Databases en rapporten",
+				"texto": "Snellere queries, verenigde databases en Power BI-dashboards die meteen duidelijk zijn.",
+				"prueba": "Meer dan 580 tabellen en 100 miljoen records in de database die ik optimaliseer bij SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Ondersteuning in de koers",
+				"texto": "Koersvoorbereiding, rennersvolgorde en sportmassage in competitie.",
+				"prueba": "Staf van de selectie van de Regio Valencia."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Over mij",
-		"title": "Data met context van baan, weg en competitie",
-		"text": "Ik ben Mario Álvarez, student Data Science aan de UPV met echte ervaring in het professionele wielrennen. Ik combineer data-analyse met topsportprestaties om elke metric om te zetten in een beslissing die de resultaten verbetert."
+		"title": "Van de velodroom naar data",
+		"text": "Ik zit in het 3e jaar van de Bachelor Data Science aan de UPV en heb een master afgerond in digitalisering en toegepaste technologie in de sport. Ik heb het wielrennen niet verlaten: ik rij nog steeds op de baan, ik begeleid jeugdrenners en ik werk als sportmasseur met professionals."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Basis",
+			"value": "Benidorm en Valencia"
+		},
+		{
 			"label": "Opleiding",
-			"detail": "Bachelor in Data Science, Universitat Politècnica de València."
+			"value": "Bachelor Data Science (UPV) en Master Digitalisering, Innovatie en Technologie in de Sport"
 		},
 		{
-			"value": "Elite",
-			"label": "Ervaring",
-			"detail": "Echte werkervaring binnen een professioneel wielerteam."
+			"label": "Diploma's",
+			"value": "Sportdirekteur RFEC, niveaus I en II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Aanpak",
-			"detail": "Analyse toegepast op de verbetering van sportprestaties."
+			"label": "Nu",
+			"value": "Beschikbaar voor data- en prestatieprojecten"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Ervaring",
-		"title": "Twee werelden, dezelfde taal: prestatie",
-		"text": "Ik heb op het hoogste niveau geëxpresteerd en pas vandaag dezelfde criteria toe op data: ik begrijp wat een cijfer betekent voor een sporter omdat ik die sporter ben geweest."
+		"title": "Twee sporen, dezelfde taak",
+		"text": "Op het ene spoor optimaliseer ik databases en schrijf ik modellen. Op het andere spoor bereid ik koersen voor en volg ik renners. Beide gaan over hetzelfde: goed meten om beter te beslissen.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "geanalyseerde tabellen bij SIME Telecom om meerdere databases te verenigen tot één, zonder uitbreiding van de hardware"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "records in de database die ik aan het optimaliseren ben"
+					},
+					{
+						"cifra": "2",
+						"texto": "Python-tools voor de ploeg Cofidis: UCI-moeilijkheidsgraad en koersprofiel"
+					}
+				]
+			},
+			{
+				"nombre": "Baan en weg",
+				"items": [
+					{
+						"cifra": "I en II",
+						"texto": "niveaus van sportdirekteur van de Spaanse Wielerfederatie"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "jaar oud zijn de jeugdrenners die ik train en begeleid samen met mijn vader"
+					},
+					{
+						"cifra": "2026",
+						"texto": "assistent bij de selectie van de Regio Valencia in competitie"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Zullen we over data praten?",
-		"text": "Vertel me over je project en we zoeken samen naar de beslissingen die de prestaties verbeteren."
+		"title": "Laatste ronde",
+		"text": "Als je prestatiegegevens en onbeantwoorde vragen hebt, schrijf me dan en we bekijken het samen."
 	}
 }

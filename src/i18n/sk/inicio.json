@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Dátový vedec špecializovaný na šport",
-		"description": "Mario Álvarez, dátový vedec vo Valencii špecializovaný na športovú analytiku. Data · Sport · Progress.",
+		"description": "Mario Álvarez, dáta vedec vo Valencii špecializovaný na športovú analytiku. Španielsky šampión v madisonu a športový riaditeľ RFEC.",
 		"verProyectos": "Zobraziť projekty",
-		"contacto": "Kontakt",
-		"verMas": "Zobraziť viac",
+		"verServicios": "Pozri, ako ti pomôžem",
+		"contacto": "Napíš mi",
+		"verMas": "Čítať viac",
 		"verTodosProyectos": "Zobraziť všetky projekty",
-		"irAContacto": "Prejsť na kontakt",
+		"irAContacto": "Napíš mi",
 		"herramientas": "Hlavné nástroje"
 	},
 	"hero": {
-		"eyebrow": "Dátový vedec · Športová analytika · Valencia",
-		"titlePre": "Premieňam dáta na ",
-		"titleHighlight": "jasné rozhodnutia",
-		"subtitle": "Som mostom medzi analýzou dát a elitným športom: transformujem metriky výkonnosti na stratégie, ktoré robia rozdiel na ihrisku.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, dáta vedec",
+		"title": "Bol som španielskym šampiónom v madisonu.",
+		"subtitle": "Teraz študujem Dátovú vedu na UPV a analyzujem to, čo je za výkonom: výkon, záťaž a výsledky. Viem, čo číslo znamená pre pretekára, pretože som tým pretekárom bol.",
+		"palmaresLabel": "Palmarés",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Španielsky šampionát v madisonu",
+				"nota": "Dráha, vo veku 18 rokov"
+			},
+			{
+				"pos": "6.",
+				"texto": "Majstrovstvá sveta na dráhe",
+				"nota": "Španielska reprezentácia"
+			},
+			{
+				"pos": "6.",
+				"texto": "Majstrovstvá Európy na dráhe",
+				"nota": "Španielska reprezentácia"
+			}
+		],
+		"retratoAlt": "Portrét Maria Álvareza"
+	},
+	"servicios": {
+		"title": "S čím ti viem pomôcť",
+		"text": "Pracujem s tímami, trénermi a pretekármi, ktorí majú dáta a chcú ich využiť. A s firmami, ktoré potrebujú usporiadať tie svoje.",
+		"cta": "Povedz mi svoj prípad",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analýza výkonu",
+				"texto": "Čítam výkon, záťaž a výsledky očami pretekára. Vysvetlím ti, čo sa deje a čo by sa zmenilo.",
+				"prueba": "Elitný pretekár a športový riaditeľ RFEC, úroveň I a II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Nástroje na mieru",
+				"texto": "Scraping, modely a malé aplikácie v Pythone, ktoré odpovedajú na konkrétnu otázku tvojho tímu.",
+				"prueba": "Dva nástroje pre tím Cofidis: obtiažnosť UCI a profil pretekov."
+			},
+			{
+				"id": "datos",
+				"nombre": "Databázy a správy",
+				"texto": "Rýchlejšie dopyty, zjednotené databázy and dashboardy v Power BI, ktoré sú zrozumiteľné na prvý pohľad.",
+				"prueba": "Viac ako 580 tabuliek a 100 miliónov záznamov v databáze, ktorú optimalizujem v SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Podpora na pretekoch",
+				"texto": "Príprava na preteky, sledovanie pretekárov a športová masáž počas súťaže.",
+				"prueba": "Realizačný tím reprezentácie Valencijského spoločenstva."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "O mne",
-		"title": "Dáta s kontextom trate, cesty a súťaže",
-		"text": "Som Mario Álvarez, študent dátovej vedy na UPV so skúsenosťami z profesionálnej cyklistiky. Kombinujem analýzu dát s elitným športovým výkonom, aby som premenil každú metriku na rozhodnutie, ktoré zlepšuje výsledky."
+		"title": "Od velodrómu k dátam",
+		"text": "Študujem 3. ročník odboru Dátová veda na UPV a dokončil som magisterské štúdium v oblasti digitalizácie a technológií aplikovaných v športe. Cyklistiku som neopustil: stále jazdím na dráhe, trénujem mládežníckych pretekárov and pracujem ako masér s profesionálmi."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Základňa",
+			"value": "Benidorm a Valencia"
+		},
+		{
 			"label": "Vzdelanie",
-			"detail": "Bakalársky titul v odbore Dátová veda, Universitat Politècnica de València."
+			"value": "Bakalársky titul v odbore Dátová veda (UPV) a magisterský titul v oblasti digitalizácie, inovácií a technológií v športe"
 		},
 		{
-			"value": "Elita",
-			"label": "Skúsenosti",
-			"detail": "Reálna práca v profesionálnom cyklistickom tíme."
+			"label": "Tituly",
+			"value": "Športový riaditeľ RFEC, úroveň I a II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Prístup",
-			"detail": "Analytika aplikovaná na zlepšenie športového výkonu."
+			"label": "Teraz",
+			"value": "K dispozícii pre dátové projekty a projekty zamerané na výkon"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Skúsenosti",
-		"title": "Dva sveta, rovnaký jazyk: výkon",
-		"text": "Súťažil som na najvyššej úrovni a dnes aplikujem rovnaké kritériá na dáta: chápem, čo číslo znamená pre športovca, pretože som tým športovcom bol."
+		"title": "Dva smery, jedna práca",
+		"text": "V jednom optimalizujem databázy a píšem modely. V druhom pripravujem preteky a sledujem pretekárov. Oboje je o tom istom: dobre merať, aby sme sa lepšie rozhodovali.",
+		"carriles": [
+			{
+				"nombre": "Dáta",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tabuliek analyzovaných v SIME Telecom na zjednotenie viacerých databáz do jednej bez rozšírenia hardvéru"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "záznamov v databáze, ktorú optimalizujem"
+					},
+					{
+						"cifra": "2",
+						"texto": "nástroje v Pythone pre tím Cofidis: obtiažność UCI a profil pretekov"
+					}
+				]
+			},
+			{
+				"nombre": "Dráha a cesta",
+				"items": [
+					{
+						"cifra": "I a II",
+						"texto": "úrovne športového riaditeľa Španielskej cyklistickej federácie"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "rokov majú mládežnícki pretekári, ktorých trénujem a sledujem spolu s otcom"
+					},
+					{
+						"cifra": "2026",
+						"texto": "asistent reprezentácie Valencijského spoločenstva na súťaži"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Porozprávame sa o dátach?",
-		"text": "Povedzte mi o svojom projekte a spolu nájdeme miesta pre rozhodnutia, ktoré zlepšujú výkon."
+		"title": "Posledné kolo",
+		"text": "Ak máte údaje o výkone a nezodpovedané otázky, napíšte mi a pozrieme sa na to spolu."
 	}
 }

@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Sportspecifikus adattudós",
-		"description": "Mario Álvarez, valenciai adattudós, aki a sportanalitikára szakosodott. Data · Sport · Progress.",
+		"description": "Mario Álvarez, adatelemző Valenciában, a sportanalitikára specializálódva. Spanyol madison bajnok és RFEC sportszakmai igazgató.",
 		"verProyectos": "Projektek megtekintése",
-		"contacto": "Kapcsolat",
-		"verMas": "Tovább",
+		"verServicios": "Nézd meg, hogyan segíthetek",
+		"contacto": "Írj nekem",
+		"verMas": "Olvass tovább",
 		"verTodosProyectos": "Összes projekt megtekintése",
-		"irAContacto": "Ugrás a kapcsolathoz",
+		"irAContacto": "Írj nekem",
 		"herramientas": "Fő eszközök"
 	},
 	"hero": {
-		"eyebrow": "Adattudós · Sportanalitika · Valencia",
-		"titlePre": "Az adatokat ",
-		"titleHighlight": "világos döntésekké",
-		"subtitle": "alakítom. Én vagyok a híd az adatelemzés és az élvonalbeli sport között: a teljesítménymutatókat olyan stratégiákká alakítom, amelyek számítanak a pályán.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, adatelemző",
+		"title": "Spanyol madison bajnok voltam.",
+		"subtitle": "Most adattudományt tanulok az UPV-n, és elemzem a teljesítmény mögött rejlő tényezőket: teljesítményt, terhelést és eredményeket. Tudom, mit jelent egy szám egy kerékpáros számára, mert én magam is az a kerékpáros voltam.",
+		"palmaresLabel": "Eredménylista",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Spanyol madison bajnokság",
+				"nota": "Pálya, 18 évesen"
+			},
+			{
+				"pos": "6.",
+				"texto": "Pályakerékpáros Világbajnokság",
+				"nota": "Spanyol Válogatott"
+			},
+			{
+				"pos": "6.",
+				"texto": "Pályakerékpáros Európa-bajnokság",
+				"nota": "Spanyol Válogatott"
+			}
+		],
+		"retratoAlt": "Mario Álvarez portréja"
+	},
+	"servicios": {
+		"title": "Miben tudok segíteni neked?",
+		"text": "Olyan csapatokkal, edzőkkel és kerékpárosokkal dolgozom, akiknek vannak adataik, és ki akarják hozni belőlük a maximumot. Valamint olyan cégekkel, amelyeknek rendezniük kell a sajátjaikat.",
+		"cta": "Meséld el az esetedet",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Teljesítményelemzés",
+				"texto": "Egy kerékpáros szemével olvasom a teljesítményt, a terhelést és az eredményeket. Elmagyarázom, mi történik, és mit változtatnék meg.",
+				"prueba": "Elit kerékpáros és I. és II. szintű RFEC sportszakmai igazgató."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Egyedi eszközök",
+				"texto": "Webes adatszedés (scraping), modellek és kis Python-alkalmazások, amelyek válaszolnak a csapatod egy konkrét kérdésére.",
+				"prueba": "Két eszköz a Cofidis csapat számára: UCI nehézség és versenyprofil."
+			},
+			{
+				"id": "datos",
+				"nombre": "Adatbázisok és jelentések",
+				"texto": "Gyorsabb lekérdezések, egységesített adatbázisok és első ránézésre érthető Power BI műszerfalak.",
+				"prueba": "Több mint 580 tábla és 100 millió rekord abban az adatbázisban, amelyet a SIME Telecomnál optimalizálok."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Versenybeli támogatás",
+				"texto": "Versenyek előkészítése, kerékpárosok követése és sportmasszázs a versenyeken.",
+				"prueba": "A Valenciai Közösség Válogatottjának stábja."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Rólam",
-		"title": "Adatok pályás, úti és versenykontextusban",
-		"text": "Mario Álvarez vagyok, az UPV adattudományi hallgatója, valós tapasztalattal a profi kerékpározás világában. Ötvözöm az adatelemzést az elit sportteljesítménnyel, hogy minden egyes mutatót olyan döntéssé formáljak, amely javítja az eredményeket."
+		"title": "A velodrómtól az adatokig",
+		"text": "Harmadéves vagyok az Adattudomány alapképzésen az UPV-n, és elvégeztem egy mesterképzést a sportban alkalmazott digitalizáció és technológia területén. Nem léptem ki a kerékpározásból: továbbra is pályán versenyzem, utánpótláskorú kerékpárosokat irányítok, és sportmasszőrként dolgozom profikkal."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Képzés",
-			"detail": "Adattudomány alapképzés, Universitat Politècnica de València."
+			"label": "Bázis",
+			"value": "Benidorm és Valencia"
 		},
 		{
-			"value": "Elit",
-			"label": "Tapasztalat",
-			"detail": "Valós munka egy profi kerékpárcsapaton belül."
+			"label": "Képzettség",
+			"value": "Adattudomány alapképzés (UPV) és Mesterképzés a Sport Digitalizációjáról, Innovációjáról és Technológiájáról"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Megközelítés",
-			"detail": "A sportteljesítmény javítására alkalmazott analitika."
+			"label": "Címek",
+			"value": "I. és II. szintű RFEC sportszakmai igazgató"
+		},
+		{
+			"label": "Most",
+			"value": "Elérhető adatelemzési és teljesítményprojektekhez"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Tapasztalat",
-		"title": "Két világ, ugyanaz a nyelv: a teljesítmény",
-		"text": "Versenyzettem a legmagasabb szinten, és ma ugyanezt a szemléletet alkalmazom az adatokra: értem, mit jelent egy szám egy sportoló számára, mert én magam is az voltam."
+		"title": "Két sáv, ugyanaz a munka",
+		"text": "Az egyikben adatbázisokat optimalizálok és modelleket írok. A másikban versenyeket készítek elő és kerékpárosokat kísérek. Mindkettő ugyanarról szól: jól mérni, hogy jobban dönthessünk.",
+		"carriles": [
+			{
+				"nombre": "Adatok",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "elemezett tábla a SIME Telecomnál több adatbázis egységesítésére egyetlenbe, a hardver bővítése nélkül"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "rekord az optimalizálás alatt álló adatbázisban"
+					},
+					{
+						"cifra": "2",
+						"texto": "Python-eszköz a Cofidis csapat számára: UCI nehézség és versenyprofil"
+					}
+				]
+			},
+			{
+				"nombre": "Pálya és országút",
+				"items": [
+					{
+						"cifra": "I. és II.",
+						"texto": "a Spanyol Kerékpáros Szövetség sportszakmai igazgatói szintjei"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "évesek azok az utánpótláskorú kerékpárosok, akiket edzek és apámmal együtt kísérek"
+					},
+					{
+						"cifra": "2026",
+						"texto": "segéd a Valenciai Közösség Válogatottjánál versenyen"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Beszéljünk az adatokról?",
-		"text": "Mesélj a projektedről, és keressük meg együtt, hol vannak azok a döntések, amelyek javítják a teljesítményt."
+		"title": "Utolsó kör",
+		"text": "Ha vannak teljesítményadataid és megválaszolatlan kérdéseid, írj nekem, és megnézzük együtt."
 	}
 }

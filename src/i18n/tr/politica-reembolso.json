@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "İade Politikası — Mario Álvarez",
+		"description": "Mario Álvarez hizmetlerinin iptalleri, cayma hakkı ve iadeleri nasıl işler.",
+		"heading": "İade Politikası"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Bu web sitesi ödeme almaz",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "marioalvarez.me adresinde ürün satışı yapılmaz ve çevrim içi ödeme alınmaz. Hizmetler (performans analizi, özel araçlar, veri tabanları ve raporlar ile kariyer desteği) yazılı bir teklifle ayrı olarak sözleşmeye bağlanır."
+				}
+			]
+		},
+		{
+			"titulo": "2. Teklifinizin belirttiği hususlar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Her teklif fiyatı, nasıl ve ne zaman ödeneceğini ve iptal koşullarını belirtir. Teklif bu politika dışında bir şey söylüyorsa, bu politika size bir tüketici olarak daha fazla hak tanımadığı sürece teklif geçerlidir."
+				}
+			]
+		},
+		{
+			"titulo": "3. İptal etmeniz durumunda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aksi yazılı olarak kararlaştırılmadığı sürece:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"İş başlamadan önce iptal ederseniz, yapılan herhangi bir peşin ödemeyi tamamen iade ederim.",
+						"İş başladıktan sonra iptal ederseniz, yalnızca halihazırda yapılmış olan kısım tahsil edilir ve avans olarak ödediğiniz tutarın geri kalanı size iade edilir.",
+						"Teslim edilen ve kabul edilen iş, düzeltilmeyen kusurları olmadığı sürece iade edilmez."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Cayma hakkı (tüketiciyseniz)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bir tüketici olarak (profesyonel faaliyetinizin dışındakileri kapsayan bir kişi olarak) sözleşme yapıyorsanız ve sözleşme uzaktan, e-posta yoluyla veya telefonla yapıldıysa, Tüketicilerin ve Kullanıcıların Korunması Hakkında Kanun'un birleştirilmiş metninin (1/2007 sayılı Kraliyet Kanun Hükmünde Kararnamesi) 102 ila 108. maddelerine göre, herhangi bir açıklama yapmaksızın sözleşmeden caymak için sözleşmenin yapıldığı andan itibaren 14 takvim gününüz vardır."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Benden açıkça bu 14 gün içinde çalışmaya başlamamı ister ve ardından cayarsanız, o ana kadar sunulan hizmetin yalnızca orantılı kısmını ödersiniz. Önceden ve açık onayınızla ve bu hakkı kaybettiğinizi bilerek hizmet süre içinde tamamen tamamlandıysa, artık cayamazsınız (103.a maddesi)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Nasıl talep edilir",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "{email} adresine adınızı, hizmeti ve sözleşme imzaladığınız tarihi belirterek yazın. Bu cayma formu şablonunu kullanabilirsiniz (zorunlu değildir):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Dikkatine: {nombre}, {domicilio}, {email}:",
+						"İş bu vesileyle aşağıdaki hizmetin sunulmasına ilişkin sözleşmeden caydığımı bildiririm: [servicio].",
+						"Sözleşme tarihi: [fecha].",
+						"Tüketicinin adı: [nombre].",
+						"Tüketicinin adresi: [domicilio].",
+						"Tarih: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. İade süresi ve yöntemi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kararınızı bana bildirdiğiniz andan itibaren en geç 14 takvim günü içinde, aksi kararlaştırılmadığı sürece, kullandığınız aynı ödeme yöntemiyle gereken tutarı iade edeceğim. İade sizin için hiçbir maliyet içermez."
+				}
+			]
+		}
+	]
+}

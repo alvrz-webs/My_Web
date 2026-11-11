@@ -3,11 +3,54 @@
 		"title": "Hafðu samband — Mario Álvarez",
 		"description": "Hafðu samband við Mario Álvarez til að ræða gögn, íþróttaárangur og verkefni.",
 		"eyebrow": "Hafðu samband",
-		"heading": "Ertu með gögn og spurningu sem þarf að leysa?",
-		"intro": "Tölum saman. Hvort sem um er að ræða íþróttagreiningarverkefni, gagnasamstarf eða bara hugmynd sem þig langar aðra skoðun á, þá svara ég fúslega.",
+		"heading": "Ert þú með gögn og spurningu?",
+		"intro": "Við skulum tala saman. Hvort sem um er að ræða íþróttagreiningarverkefni, gagnasamstarf eða hugmynd sem þú vilt ræða, þá svara ég sjálfur.",
 		"email": "Netfang",
 		"telefono": "Sími",
 		"verTelefono": "Sjá símanúmer",
-		"redesSociales": "Samfélagsmiðlar"
+		"redesSociales": "Samfélagsmiðlar",
+		"temaTitulo": "Um hvað viltu tala?",
+		"temaAyuda": "Veldu efni og ég bý til tölvupóstinn fyrir þig. Þú þarft bara að segja mér frá þínu máli.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Frammistöðugreining"
+			},
+			{
+				"id": "herramientas",
+				"label": "Sérsniðið tól"
+			},
+			{
+				"id": "datos",
+				"label": "Gagnagrunnar og skýrslur"
+			},
+			{
+				"id": "carrera",
+				"label": "Ferilsstuðningur"
+			},
+			{
+				"id": "otro",
+				"label": "Annað"
+			}
+		],
+		"escribir": "Skrifa tölvupóst",
+		"copiar": "Afrita tölvupóst",
+		"copiado": "Tölvupóstur afritaður",
+		"asunto": "Fyrirspurn af marioalvarez.me",
+		"cuerpo": "Halló Mario:\n\nÉg skrifa þér vegna: {tema}.\n\nÞað sem ég er með:\n\nÞað sem mig langar að vita:\n\nTakk.",
+		"otrosCanales": "Aðrar leiðir",
+		"base": "Grunnur",
+		"baseValor": "Benidorm og Valencia",
+		"idiomas": "Tungumál",
+		"idiomasValor": "Spænska, valensíska og enska",
+		"aceptacionesTitulo": "Áður en þú skrifar mér",
+		"aceptoTerminos": "Ég hef lesið og samþykki {enlace}.",
+		"enlaceTerminos": "skilmála og skilyrði",
+		"aceptoCookies": "Ég samþykki greiningarfótspor (cookies) sem lýst er í {enlace} (valfrjálst).",
+		"enlaceCookies": "stefnu um fótspor (cookies)",
+		"faltaTerminos": "Til að skrifa mér skaltu haka við reitinn fyrir skilmála og skilyrði á undan.",
+		"primeraCapa": "Ábyrgðaraðili: Mario Álvarez Martínez. Tilgangur: Að svara fyrirspurn þinni og, ef þ þess óskar, útbúa tillögu fyrir þig. Heimild: Beiðni þín. Viðtakendur: Enginn, nema að lögum sé skylt. Réttindi: Aðgangur, leiðrétting, eyðing og önnur sem útskýrð eru í {enlace}.",
+		"enlacePrivacidad": "persónuverndarstefnu",
+		"refEmail": "Tilvísun um samþykki skilmála: {ref}"
 	}
 }

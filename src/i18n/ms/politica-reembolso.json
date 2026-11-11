@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Dasar Bayaran Balik — Mario Álvarez",
+		"description": "Bagaimana pembatalan, hak pembatalan dan pemulangan perkhidmatan Mario Álvarez berfungsi.",
+		"heading": "Dasar bayaran balik"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Laman web ini tidak mengenakan bayaran",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Di marioalvarez.me tiada produk dijual atau bayaran dalam talian dikutip. Perkhidmatan (analisis prestasi, alat tersuai, pangkalan data dan laporan serta sokongan kerjaya) dilanggan secara berasingan, melalui cadangan bertulis."
+				}
+			]
+		},
+		{
+			"titulo": "2. Apa yang dinyatakan dalam cadangan anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Setiap cadangan menyatakan harga, cara dan masa bayaran dibuat serta syarat pembatalan. Jika cadangan menyatakan sesuatu yang berbeza daripada dasar ini, cadangan tersebut diguna pakai, melainkan dasar ini memberi anda lebih banyak hak sebagai pengguna."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jika anda membatalkan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kecuali jika dipersetujui sebaliknya secara bertulis:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Jika anda membatalkan sebelum kerja bermula, saya akan memulangkan sepenuhnya sebarang bayaran pendahuluan.",
+						"Jika anda membatalkan setelah kerja bermula, hanya bahagian yang telah siap akan dicaj dan saya akan memulangkan baki bayaran pendahuluan anda.",
+						"Kerja yang telah diserahkan dan diterima tidak akan dibayar balik, kecuali jika terdapat kecacatan yang tidak diperbetulkan."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Hak pembatalan (jika anda seorang pengguna)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jika anda melanggan sebagai pengguna (seseorang yang bertindak di luar aktiviti profesional mereka) dan kontrak ditutup dari jauh, melalui e-mel atau telefon, anda mempunyai 14 hari kalendar dari tarikh ia ditutup untuk menarik diri tanpa memberikan sebarang penjelasan, mengikut artikel 102 hingga 108 teks disatukan Undang-undang Am untuk Perlindungan Pengguna dan Pengguna (Dekri Diraja Perundangan 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jika anda meminta saya secara jelas untuk mula bekerja dalam tempoh 14 hari tersebut dan kemudian anda menarik diri, anda hanya akan membayar bahagian berkadar bagi perkhidmatan yang diberikan sehingga ketika itu. Jika perkhidmatan telah disiapkan sepenuhnya dalam tempoh tersebut, dengan persetujuan awal dan jelas daripada anda serta mengetahui bahawa anda dengan ini kehilangan hak ini, anda tidak lagi boleh menarik diri (artikel 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Cara memohon",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tulis kepada saya di {email} dengan menyertakan nama anda, perkhidmatan dan tarikh anda melanggannya. Anda boleh menggunakan model borang pembatalan ini (tidak wajib):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kepada perhatian {nombre}, {domicilio}, {email}:",
+						"Dengan ini saya memaklumkan bahawa saya menarik diri daripada kontrak perkhidmatan berikut: [servicio].",
+						"Dilanggan pada: [fecha].",
+						"Nama pengguna: [nombre].",
+						"Alamat pengguna: [domicilio].",
+						"Tarikh: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Tempoh dan cara bayaran balik",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saya akan memulangkan jumlah yang sewajarnya dalam tempoh maksimum 14 hari kalendar dari tarikh anda memaklumkan keputusan anda, melalui kaedah pembayaran yang sama seperti yang anda gunakan, kecuali jika kita bersetuju dengan cara lain. Pemulangan ini tidak mengenakan sebarang kos kepada anda."
+				}
+			]
+		}
+	]
+}

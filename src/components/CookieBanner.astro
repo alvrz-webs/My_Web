@@ -27,33 +27,21 @@ const politicaHref = localizedPath('/politica-de-cookies', lang);
 </div>
 
 <script>
-	const COOKIE_CONSENTIMIENTO = 'consentimiento_cookies';
-	const COOKIE_VISITANTE = 'visitante_id';
-	const DOCE_MESES_SEGUNDOS = 60 * 60 * 24 * 365;
-
-	function leerCookie(nombre) {
-		const match = document.cookie.match(new RegExp(`(?:^|;\\s*)${nombre}=([^;]*)`));
-		return match ? decodeURIComponent(match[1]) : null;
-	}
-
-	function escribirCookie(nombre, valor) {
-		document.cookie = `${nombre}=${encodeURIComponent(valor)}; Max-Age=${DOCE_MESES_SEGUNDOS}; Path=/; SameSite=Lax; Secure`;
-	}
+	import { guardarDecision, hayQuePreguntar, leerConsentimiento, registrar } from '../scripts/consentimiento';
 
 	const banner = document.getElementById('cookie-banner');
 	const panel = document.getElementById('cookie-banner-panel');
 	const btnAceptar = document.getElementById('cookie-btn-aceptar');
 	const btnRechazar = document.getElementById('cookie-btn-rechazar');
 	const btnBorrar = document.getElementById('cookie-btn-borrar');
-	const btnConfigurar = document.getElementById('cookie-config-btn');
 
-	function mostrarBanner(conPanel) {
+	// "banner" la primera vez; "configuracion" cuando se abre desde el pie o desde la política de cookies
+	let origenActual: 'banner' | 'configuracion' | 'politica_cookies' = 'banner';
+
+	function mostrarBanner(conPanel: boolean) {
 		banner?.removeAttribute('hidden');
-		if (conPanel) {
-			panel?.removeAttribute('hidden');
-		} else {
-			panel?.setAttribute('hidden', '');
-		}
+		if (conPanel) panel?.removeAttribute('hidden');
+		else panel?.setAttribute('hidden', '');
 	}
 
 	function ocultarBanner() {
@@ -61,28 +49,35 @@ const politicaHref = localizedPath('/politica-de-cookies', lang);
 		panel?.setAttribute('hidden', '');
 	}
 
-	if (!leerCookie(COOKIE_CONSENTIMIENTO)) {
-		mostrarBanner(false);
-	}
+	// Se pregunta si no hay decisión o si la política de cookies ha cambiado desde la última
+	if (hayQuePreguntar()) mostrarBanner(false);
 
 	btnAceptar?.addEventListener('click', () => {
-		escribirCookie(COOKIE_CONSENTIMIENTO, 'aceptado');
-		escribirCookie(COOKIE_VISITANTE, crypto.randomUUID());
+		guardarDecision('aceptado', origenActual);
 		ocultarBanner();
-		window.dispatchEvent(new CustomEvent('cookies-aceptadas'));
 	});
 
 	btnRechazar?.addEventListener('click', () => {
-		escribirCookie(COOKIE_CONSENTIMIENTO, 'rechazado');
+		guardarDecision('rechazado', origenActual);
 		ocultarBanner();
 	});
 
-	btnConfigurar?.addEventListener('click', () => {
-		mostrarBanner(true);
+	// Cualquier botón con data-configurar-cookies (el del pie, el de la política) abre la configuración
+	document.querySelectorAll<HTMLElement>('#cookie-config-btn, [data-configurar-cookies]').forEach((boton) => {
+		boton.addEventListener('click', () => {
+			origenActual = boton.closest('main') ? 'politica_cookies' : 'configuracion';
+			mostrarBanner(true);
+		});
 	});
 
+	// Si la decisión cambia desde otro sitio (la casilla del formulario de contacto), el banner sobra
+	window.addEventListener('consentimiento-cambiado', ocultarBanner);
+
+	// Borrar mis datos = retirar el consentimiento (queda registrado) + borrar la analítica del servidor
 	btnBorrar?.addEventListener('click', async () => {
 		if (btnBorrar instanceof HTMLButtonElement) btnBorrar.disabled = true;
+		const habiaAceptado = leerConsentimiento()?.decision === 'aceptado';
+		registrar({ accion: habiaAceptado ? 'retirar' : 'rechazar', origen: origenActual === 'banner' ? 'configuracion' : origenActual, cookiesAnalitica: false });
 		try {
 			await fetch('/api/borrar-datos', { method: 'POST' });
 		} finally {
@@ -92,14 +87,22 @@ const politicaHref = localizedPath('/politica-de-cookies', lang);
 </script>
 
 <style>
+	/* Barra sólida, sin sombra ni desenfoque: separada del contenido solo por el filo superior */
 	.cookie-banner {
 		position: fixed;
 		inset-inline: 0;
 		inset-block-end: 0;
 		z-index: 200;
 		background: var(--color-bg-elevated);
-		border-top: 1px solid var(--color-border);
-		box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.35);
+		border-top: 1px solid var(--color-rule);
+		padding-block-end: env(safe-area-inset-bottom);
+		animation: banner-entrar 0.5s var(--ease-expo) 0.6s both;
+	}
+
+	@keyframes banner-entrar {
+		from {
+			transform: translateY(100%);
+		}
 	}
 
 	.cookie-banner[hidden] {
@@ -111,50 +114,58 @@ const politicaHref = localizedPath('/politica-de-cookies', lang);
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		gap: 1.25rem;
-		padding-block: 1.25rem;
+		gap: 1rem 1.5rem;
+		padding-block: 1rem;
 	}
 
 	.cookie-banner-text {
 		flex: 1 1 340px;
-		font-size: 0.92rem;
-		line-height: 1.55;
-		color: var(--color-text-dim);
+		font-size: var(--fs-small);
+		line-height: 1.5;
+		color: var(--color-text);
 	}
 
 	.cookie-banner-link {
-		color: var(--color-blue);
+		color: inherit;
 		text-decoration: underline;
+		text-decoration-color: var(--color-rule);
 		text-underline-offset: 3px;
 	}
 
 	.cookie-banner-actions {
 		display: flex;
-		gap: 0.85rem;
+		gap: 0.6rem;
 		flex-shrink: 0;
 	}
 
 	/* Mismo tamaño, mismo estilo base y mismo hover para "Aceptar" y "Rechazar":
 	   ninguno de los dos debe parecer visualmente más prominente que el otro. */
 	.cookie-btn {
-		min-width: 130px;
-		padding: 0.7rem 1.4rem;
-		border-radius: 10px;
-		border: 1px solid var(--color-border);
+		min-width: 120px;
+		min-height: 44px;
+		padding: 0.55rem 1.2rem;
+		border-radius: 4px;
+		border: 1px solid var(--color-rule);
 		background: transparent;
 		color: var(--color-text);
-		font-family: inherit;
+		font-family: var(--font-display);
 		font-weight: 600;
-		font-size: 0.92rem;
+		font-size: 1.05rem;
 		cursor: pointer;
 		transition:
 			border-color var(--transition-fast),
-			background var(--transition-fast);
+			background-color var(--transition-fast),
+			transform 0.12s var(--ease-out);
 	}
 
-	.cookie-btn:hover {
-		border-color: var(--color-blue);
-		background: rgba(56, 189, 248, 0.08);
+	.cookie-btn:active {
+		transform: scale(0.97);
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.cookie-btn:hover {
+			border-color: var(--color-text);
+		}
 	}
 
 	.cookie-banner-panel {
@@ -172,7 +183,7 @@ const politicaHref = localizedPath('/politica-de-cookies', lang);
 		border: none;
 		padding: 0;
 		font: inherit;
-		font-size: 0.85rem;
+		font-size: var(--fs-small);
 		color: var(--color-text-dim);
 		text-decoration: underline;
 		text-underline-offset: 3px;
@@ -181,7 +192,7 @@ const politicaHref = localizedPath('/politica-de-cookies', lang);
 	}
 
 	.cookie-panel-link:hover {
-		color: var(--color-green);
+		color: var(--color-text);
 	}
 
 	.cookie-panel-link:disabled {

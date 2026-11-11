@@ -3,11 +3,54 @@
 		"title": "Kontak — Mario Álvarez",
 		"description": "Hubungi Mario Álvarez untuk membahas data, performa olahraga, dan proyek.",
 		"eyebrow": "Kontak",
-		"heading": "Punya data dan pertanyaan yang perlu dipecahkan?",
-		"intro": "Mari kita bicara. Baik itu proyek analitik olahraga, kolaborasi data, maupun sekadar ide yang ingin Anda diskusikan, saya dengan senang hati akan merespons.",
+		"heading": "Punya data dan sebuah pertanyaan?",
+		"intro": "Mari kita bicara. Baik itu proyek analisis olahraga, kolaborasi data, atau ide yang ingin Anda diskusikan, saya sendiri yang akan membalas.",
 		"email": "Email",
 		"telefono": "Telepon",
 		"verTelefono": "Lihat telepon",
-		"redesSociales": "Media sosial"
+		"redesSociales": "Media sosial",
+		"temaTitulo": "Apa yang ingin Anda bicarakan?",
+		"temaAyuda": "Pilih topik dan saya akan menyiapkan emailnya untuk Anda. Anda hanya perlu menceritakan kasus Anda kepada saya.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analisis performa"
+			},
+			{
+				"id": "herramientas",
+				"label": "Alat yang disesuaikan"
+			},
+			{
+				"id": "datos",
+				"label": "Basis data dan laporan"
+			},
+			{
+				"id": "carrera",
+				"label": "Dukungan karier"
+			},
+			{
+				"id": "otro",
+				"label": "Hal lainnya"
+			}
+		],
+		"escribir": "Tulis email",
+		"copiar": "Salin email",
+		"copiado": "Email disalin",
+		"asunto": "Pertanyaan dari marioalvarez.me",
+		"cuerpo": "Halo Mario:\n\nSaya menulis kepada Anda mengenai: {tema}.\n\nApa yang saya miliki:\n\nApa yang ingin saya ketahui:\n\nTerima kasih.",
+		"otrosCanales": "Saluran lainnya",
+		"base": "Basis",
+		"baseValor": "Benidorm dan Valencia",
+		"idiomas": "Bahasa",
+		"idiomasValor": "Spanyol, Valencia, dan Inggris",
+		"aceptacionesTitulo": "Sebelum menulis kepada saya",
+		"aceptoTerminos": "Saya telah membaca dan menyetujui {enlace}.",
+		"enlaceTerminos": "syarat dan ketentuan",
+		"aceptoCookies": "Saya menyetujui cookie analisis yang dijelaskan dalam {enlace} (opsional).",
+		"enlaceCookies": "kebijakan cookie",
+		"faltaTerminos": "Untuk menulis kepada saya, centang terlebih dahulu kotak syarat dan ketentuan.",
+		"primeraCapa": "Penanggung jawab: Mario Álvarez Martínez. Tujuan: menanggapi pertanyaan Anda dan, jika Anda memintanya, menyiapkan proposal untuk Anda. Legitimasi: permintaan Anda. Penerima: tidak ada, kecuali kewajiban hukum. Hak: akses, pembetulan, penghapusan, dan hak lainnya yang dijelaskan dalam {enlace}.",
+		"enlacePrivacidad": "kebijakan privasi",
+		"refEmail": "Referensi penerimaan ketentuan: {ref}"
 	}
 }

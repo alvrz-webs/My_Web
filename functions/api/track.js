@@ -7,6 +7,9 @@ import { IDIOMAS } from '../../src/data/idiomas.js';
 // tocar este archivo.
 const IDIOMAS_VALIDOS = new Set(['es', 'en', ...IDIOMAS.map((idioma) => idioma.codigo)]);
 const DISPOSITIVOS_VALIDOS = new Set(['movil', 'escritorio']);
+// Conservación (política de privacidad): cada evento se borra a los 12 meses. Pages Functions no
+// tiene tareas programadas, así que la limpieza se lanza de vez en cuando al recibir eventos.
+const PROBABILIDAD_LIMPIEZA = 0.02;
 
 function esEventoValido(evento) {
 	return (
@@ -34,7 +37,7 @@ function esBodyValido(body) {
 	);
 }
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost({ request, env, waitUntil }) {
 	if (!env.DB) {
 		return json({ ok: false, error: 'Falta el binding DB' }, 500);
 	}

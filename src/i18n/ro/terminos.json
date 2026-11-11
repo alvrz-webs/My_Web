@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Termeni și condiții — Mario Álvarez",
+		"description": "Aviz legal și condiții de utilizare pentru marioalvarez.me: cine este titularul, cum poate fi utilizat site-ul web și ce lege se aplică.",
+		"heading": "Termeni și condiții"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Cine se află în spatele acestui site web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "În conformitate cu articolul 10 din Legea 34/2002 privind serviciile societății informaționale și comerțul electronic (LSSI-CE), acestea sunt datele titularului marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Titular: {nombre}",
+						"NIF: {nif}",
+						"Domiciliu: {domicilio}",
+						"Email: {email}",
+						"Activitate: portofoliu profesional și oferire de servicii de analiză de date, instrumente personalizate, baze de date și rapoarte, precum și sprijin în carieră."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Ce reglementează acești termeni",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Acești termeni reglementează accesul și utilizarea marioalvarez.me („site-ul web”) în oricare dintre limbile sale. Navigând pe acesta, accepti să îl utilizezi în conformitate cu cele menționate aici. Dacă îți scrii prin intermediul formularului de contact, îți cer să îi accepți în mod expres bifând o căsuță."
+				}
+			]
+		},
+		{
+			"titulo": "3. Cum poate fi utilizat site-ul web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Poți consulta și distribui conținutul menționând originea acestuia. Nu este permis:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"să utilizezi site-ul web în scopuri ilicite sau care aduc prejudicii terților;",
+						"să încerci să accesezi zone restricționate (cum ar fi panoul privat) sau sistemele care îl găzduiesc;",
+						"să introduci viruși sau orice cod rău intenționat ori să îl suprasoliciți în mod deliberat;",
+						"să copiezi conținutul pentru a-l prezenta ca fiind propriu."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Servicii și contractare",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Site-ul web nu vinde produse și nu percepe plăți online. Dacă ești interesat de un serviciu, discutăm prin email sau telefon și îți trimit o propunere scrisă cu sfera de aplicare, prețul, termenele și condițiile de plată și anulare. Această propunere, odată acceptată de ambele părți, este cea care reglementează serviciul și prevalează asupra acestor termeni."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Modul în care funcționează anulările, dreptul de retragere și retururile este explicat în politica de rambursare."
+				}
+			]
+		},
+		{
+			"titulo": "5. Proprietate intelectuală și industrială",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Textele, designul, codul propriu, sigla și fotografiile lui Mario Álvarez sunt proprietatea sa sau sunt utilizate cu autorizația autorilor lor. Nu este permisă reproducerea acestora în scopuri comerciale fără permisiune scrisă."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Numele și siglele terților (cum ar fi LinkedIn, GitHub, Instagram sau echipele și entitățile menționate în experiență) aparțin proprietarilor lor. Menționarea acestora nu implică nicio relație comercială sau sponsorizare, cu excepția cazului în care se menționează în mod expres."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Site-ul web utilizează resurse ale terților cu licențe care permit acest lucru: fonturile Fira Sans Extra Condensed și Source Serif 4 (SIL Open Font License 1.1), pictogramele Lucide (licență ISC) și Simple Icons (CC0 1.0), precum și biblioteca de animație GSAP (licență standard gratuită de la GreenSock, de la Webflow). Fiecare proiect conectat pe GitHub are propria sa licență."
+				}
+			]
+		},
+		{
+			"titulo": "6. Responsabilitate",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Lucrez pentru ca informațiile să fie corecte și site-ul web să fie disponibil, dar nu pot garanta că nu vor exista erori sau întreruperi. Conținutul are caracter informativ și nu înlocuiește sfaturile profesionale pentru cazul tău specific."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Site-ul web conține linkuri către site-uri terțe (rețele sociale, depozite, site-uri web de proiecte). Nu controlez conținutul sau politicile acestora și nu sunt responsabil pentru ele."
+				}
+			]
+		},
+		{
+			"titulo": "7. Confidențialitate și module cookie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Modul în care sunt prelucrate datele tale și ce module cookie sunt utilizate este explicat în politica de confidențialitate și în politica privind modulele cookie. Nicio parte a site-ului web nu te obligă să accepți module cookie pentru a putea fi utilizat."
+				}
+			]
+		},
+		{
+			"titulo": "8. Jurnalul de acceptări",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pentru a putea demonstra consimțământul atunci când este necesar (articolul 7.1 din RGPD), atunci când accepți acești termeni în formularul de contact sau alegi ce module cookie permiți, se salvează un jurnal cu: un identificator pseudonim, ce ai acceptat sau respins, versiunea fiecărui document, data și ora, pagina și limba de la care ai făcut-o, originea (banner, configurare sau formular), browserul și, în formular, un cod de referință care călătorește în emailul tău. Adresa ta IP nu este salvată. Detaliile se regăsesc în politica de confidențialitate."
+				}
+			]
+		},
+		{
+			"titulo": "9. Limbi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Versiunea în spaniolă a acestor texte este cea originală și prevalează în caz de îndoială. Celelalte sunt traduceri automate oferite pentru comoditate."
+				}
+			]
+		},
+		{
+			"titulo": "10. Modificări",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pot actualiza acești termeni pentru ai adapta la modificările legale sau ale site-ului web. Data versiunii curente apare la începutul acestei pagini. Dacă modificarea este relevantă, îți voi cere din nou să îi accepți."
+				}
+			]
+		},
+		{
+			"titulo": "11. Legea aplicabilă și jurisdicția",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Acești termeni sunt guvernați de legea spaniolă. Dacă acționezi în calitate de consumator, te poți adresa instanțelor din domiciliul tău și sistemelor de arbitraj și soluționare a litigiilor de consum din comunitatea ta autonomă. În celelalte cazuri, ambele părți se supun instanțelor și tribunalelor din Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

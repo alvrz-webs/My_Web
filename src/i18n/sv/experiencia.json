@@ -4,13 +4,28 @@
 		"description": "Två världar, samma språk: prestanda. Mario Álvarez erfarenhet inom data och teknik, och inom elitskidåkning.",
 		"eyebrow": "Erfarenhet",
 		"heading": "Två världar, samma språk: prestanda",
-		"colDatos": "Data & Teknik",
+		"lead": "I en databas eller i lagbilen är arbetet detsamma: att mäta väl för att besluta bättre.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "poster i databasen som jag optimerar på SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "verktyg i Python för Cofidis-laget"
+			},
+			{
+				"cifra": "6:a",
+				"texto": "i VM och EM på bana"
+			}
+		],
+		"colDatos": "Data och teknologi",
 		"colDeporte": "Elitidrott"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Praktik i Datavetenskap",
-			"meta": "Dataingenjörskap · Benidorm · 2026",
+			"meta": "Dataingenjörskonst, Benidorm, 2026",
 			"paragraphs": [
 				"SIME utvecklar mjukvara för administration (bokningar, fakturering, rapporter, restaurangbeställningar) som betjänar hundratals kunder från ett centralt system, baserat på en databas med +580 sammankopplade tabeller och +100 miljoner poster. Tillväxten hade tvingat fram en uppdelning av kunder i flera databaser för att minska belastningen och klagomål på långsamhet.",
 				"Mitt arbete: att analysera dessa databaser och, genom optimering av frågor och index, utforma en sammanslagning av all data till en enda effektiv databas utan att nämnvärt skala hårdvaran (RAM/CPU). Förbättringen är redan utvecklad och befinner sig i valideringsfasen på en testserver."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekt med laget Cofidis (World Tour)",
-			"meta": "Python · Sommar 2025",
+			"meta": "Python, sommaren 2025",
 			"paragraphs": [
 				"Eget projekt som jag utförde som ett test för att komma in på dataanalys inom professionell cykelsport:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Tävling",
 			"paragraphs": [
 				"Spansk mästare i madison (18 år); VM och EM i bana med det spanska landslaget (6:a i båda); elitidrottare; aktiv, licensierad bancyklist."
-			]
+			],
+			"meta": "Bancykling, Spanska landslaget"
 		},
 		{
 			"title": "Sportchef",
 			"paragraphs": [
 				"Sportchef Nivå I och II (RFEC); träning och uppföljning av ungdomscyklister (14–18) tillsammans med min far; funktionär med Valencian Community-landslaget vid tävlingar (2026)."
-			]
+			],
+			"meta": "RFEC, nivå I och II"
 		},
 		{
 			"title": "Idrottsmassage och teknisk personal",

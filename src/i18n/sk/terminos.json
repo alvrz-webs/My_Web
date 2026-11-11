@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Podmienky — Mario Álvarez",
+		"description": "Právne upozornenie a podmienky používania stránky marioalvarez.me: kto je prevádzkovateľom, ako je možné web používať a aké právo sa uplatňuje.",
+		"heading": "Podmienky"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kto stojí za týmto webom",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "V súlade s článkom 10 zákona 34/2002 o službách informačnej spoločnosti a elektronického obchodu (LSSI-CE) sú tu uvedené údaje o prevádzkovateľovi stránky marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Prevádzkovateľ: {nombre}",
+						"NIF: {nif}",
+						"Bydlisko: {domicilio}",
+						"Email: {email}",
+						"Činnosť: profesionálne portfólio a poskytovanie služieb analýzy dát, nástrojov na mieru, databáz a reportov a kariérna podpora."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Čo tieto podmienky upravujú",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tieto podmienky upravujú prístup a používanie stránky marioalvarez.me («web») v akomkoľvek jej jazyku. Prehliadaním webu vyjadrujete súhlas s jeho používaním v súlade s týmto textom. Ak ma kontaktujete prostredníctvom kontaktného formulára, žiadam vás o výslovný súhlas zaškrtnutím políčka."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ako je možné web používať",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Obsah môžete prezdieľať a zdieľať s uvedením jeho pôvodu. Nie je dovolené:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"používať web na nezákonné účely alebo na poškodzovanie tretích strán;",
+						"pokúšat sa získať prístup do obmedzených zón (ako je súkromný panel) alebo do systémov, ktoré web hostujú;",
+						"vnášať vírusy alebo akýkoľvek škodlivý kód, prípadne web úmyselne preťažovať;",
+						"kopírovať obsah a prezentovať ho ako vlastný."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Služby a zákazky",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web nepredáva produkty ani neprijíma online platby. Ak máte záujem o službu, prediskutujeme to emailom alebo telefonicky a pošlem vám písomnú ponuku s rozsahom, cenou, termínmi a podmienkami platby a zrušenia. Táto ponuka, ak ju obe strany akceptujú, upravuje danú službu a má prednosť pred týmito podmienkami."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Spôsob fungovania zrušení, práva na odstúpenie od zmluvy a vrátenia peňazí je vysvetlený v zásadách vrátenia peňazí."
+				}
+			]
+		},
+		{
+			"titulo": "5. Duševné a priemyselné vlastníctvo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Texty, dizajn, vlastný kód, logo a fotografie Maria Álvareza sú jeho majetkom alebo sú použité s povolením ich autorov. Nie je dovolené ich reprodukovať na komerčné účely bez písomného povolenia."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Názvy a logá tretích strán (ako sú LinkedIn, GitHub, Instagram alebo tímy a subjekty uvedené v skúsenostiach) patria ich vlastníkom. Ich spomenutie neznamená žiadny obchodný vzťah ani sponzorstvo, pokiaľ to nie je výslovne uvedené."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web používa zdroje tretích strán s povolenými licenciami: písma Fira Sans Extra Condensed a Source Serif 4 (SIL Open Font License 1.1), ikony Lucide (licencia ISC) a Simple Icons (CC0 1.0) a animačnú knižnicu GSAP (bezplatná štandardná licencia od GreenSock z Webflow). Každý projekt prepojený na GitHube má svoju vlastnú licenciu."
+				}
+			]
+		},
+		{
+			"titulo": "6. Zodpovednosť",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pracujem na tom, aby boli informácie správne a web dostupný, ale nemôžem zaručiť, že neobsahuje chyby alebo výpadky. Obsah má informatívny charakter a nenahrádza odborné poradenstvo pre váš konkrétny prípad."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web obsahuje odkazy na stránky tretích strán (sociálne siete, úložiská, webové stránky projektov). Nemám pod kontrolou ich obsah ani zásady a nezodpovedám za ne."
+				}
+			]
+		},
+		{
+			"titulo": "7. Súkromie a súbory cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Spôsob spracovania vašich údajov a používané súbory cookies sú vysvetlené v zásadách ochrany osobných údajov a zásadách používania súborov cookies. Žiadna časť webu nevyžaduje súhlas so súbormi cookies na jeho používanie."
+				}
+			]
+		},
+		{
+			"titulo": "8. Záznam o súhlasoch",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aby bolo možné preukázať súhlas v prípade potreby (článok 7.1 GDPR), pri vyjadrení súhlasu s týmito podmienkami v kontaktnom formulári alebo pri výbere povolených súborov cookies sa uloží záznam obsahujúci: pseudonymný identifikátor, čo ste prijali alebo odmietli, verziu každého dokumentu, dátum a čas, stránku a jazyk, z ktorých ste tak urobili, pôvod (banner, nastavenia alebo formulár), prehliadač a vo formulári aj referenčný kód, ktorý sa prenáša vo vašom emaili. Vaša IP adresa sa neukladá. Podrobnosti sú uvedené v zásadách ochrany osobných údajov."
+				}
+			]
+		},
+		{
+			"titulo": "9. Jazyky",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Španielska verzia týchto textov je pôvodná a má prednosť v prípade pochybností. Ostatné verzie sú automatické preklady poskytované pre pohodlie."
+				}
+			]
+		},
+		{
+			"titulo": "10. Zmeny",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tieto podmienky môžem aktualizovať, aby odrážali právne zmeny alebo zmeny na webe. Dátum platnej verzie sa zobrazuje na začiatku tejto stránky. Ak ide o významnú zmenu, opätovne vás požiadam o súhlas."
+				}
+			]
+		},
+		{
+			"titulo": "11. Rozhodné právo a súdna príslušnosť",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tieto podmienky sa riadia španielskym právom. Ak konáte ako spotrebiteľ, môžete sa obrátiť na súdy v mieste svojho bydliska a na systémy rozhodcovského konania a riešenia spotrebiteľských sporov vo vašom autonómnom spoločenstve. V ostatných prípadoch sa obe strany podriaďujú súdom a tribunálom v Benidorme (Alicante)."
+				}
+			]
+		}
+	]
+}

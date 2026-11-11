@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Sera ya kurejesha pesa — Mario Álvarez",
+		"description": "Jinsi kughairi, haki ya kujiondoa na kurejeshwa kwa huduma za Mario Álvarez zinavyofanya kazi.",
+		"heading": "Sera ya kurejesha pesa"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Tovuti hii haitoz malipo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Katika marioalvarez.me hakuna bidhaa zinazouzwa wala malipo yanayokusanywa mtandaoni. Huduma (uchambuzi wa utendaji kazi, zana maalum, hifadhidata na ripoti na usaidizi katika kazi) huajiriwa kando, kwa pendekezo la maandishi."
+				}
+			]
+		},
+		{
+			"titulo": "2. Kile ambacho pendekezo lako linasema",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kila pendekezo linaonyesha bei, jinsi na lini inalipwa na masharti ya kughairi. Ikiwa pendekezo linasema kitu tofauti na sera hii, pendekezo ndilo linalotumika, isipokuwa kama sera hii inakupa haki zaidi kama mtumiaji."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ukighairi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Isipokuwa kama imekubaliwa vinginevyo kwa maandishi:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ukighairi kabla kazi haijaanza, ninakurudishia malipo yote ya awali kikamilifu.",
+						"Ukighairi kazi ikiwa imeanza, sehemu tu iliyofanyika ndiyo inayotozwa na ninakurudishia kiasi kilichobaki cha ulichokitoa mapema.",
+						"Kazi iliyokabidhiwa na kukubaliwa hairejesheki, isipokuwa ikiwa na kasoro ambazo hazijasahihishwa."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Haki ya kujiondoa (ikiwa wewe ni mtumiaji)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ikiwa utaajiri kama mtumiaji (mtu anayetenda nje ya shughuli zake za kitaalamu) na mkataba unafungwa kwa mbali, kupitia barua pepe au simu, una siku 14 za kalenda tangu ulipofungwa ili kujiondoa bila kutoa maelezo, kulingana na vifungu 102 hadi 108 vya maandishi yaliyounganishwa ya Sheria ya Jumla ya Ulinzi wa Watumiaji na Watumiaji (Amri ya Kifalme ya Kutunga Sheria 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ukinisomea waziwazi nianze kufanya kazi ndani ya siku hizo 14 na baadaye ukajiondoa, utalipa tu sehemu inayolingana na huduma iliyotolewa hadi wakati huo. Ikiwa huduma imekamilika kabisa ndani ya muda uliowekwa, kwa idhini yako ya awali na ya wazi na ukijua kwamba kwa kufanya hivyo unapoteza haki hii, hutaweza tena kujiondoa (kifungu 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Jinsi ya kuiomba",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Niniandikie kupitia {email} ukiwa na jina lako, huduma na tarehe uliyoiweka. Unaweza kutumia fomu hii ya kielelezo cha kujiondoa (si lazima):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kwa uangalifu wa {nombre}, {domicilio}, {email}:",
+						"Kupitia hili ninakujulisha kuwa najiondoa kwenye mkataba wangu wa utoaji wa huduma ifuatayo: [servicio].",
+						"Imeajiriwa mnamo: [fecha].",
+						"Jina la mtumiaji: [nombre].",
+						"Makazi ya mtumiaji: [domicilio].",
+						"Tarehe: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Muda na njia ya kurejesha pesa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ninakurudishia kile kinachostahili kwa upeo wa siku 14 za kalenda tangu unaponijulisha uamuzi wako, kwa njia ile ile ya malipo uliyotumia, isipokuwa tukubaliane nyingine. Kurejesha pesa hakuna gharama yoyote kwako."
+				}
+			]
+		}
+	]
+}

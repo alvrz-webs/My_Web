@@ -3,11 +3,54 @@
 		"title": "お問合せ — Mario Álvarez",
 		"description": "データ、スポーツパフォーマンス、プロジェクトについてMario Álvarezにお気軽にご連絡ください。",
 		"eyebrow": "お問合せ",
-		"heading": "データと解決したい疑問をお持ちですか？",
-		"intro": "お話ししましょう。スポーツ分析のプロジェクト、データの共同作業、または意見を交わしたいアイデアなど、喜んでお返事いたします。",
+		"heading": "データをお持ちですか？",
+		"intro": "お気軽にご相談ください。スポーツ分析のプロジェクト、データに関するコラボレーション、または検討中のアイデアなど、私本人称がお答えします。",
 		"email": "メール",
 		"telefono": "電話番号",
 		"verTelefono": "電話番号を表示",
-		"redesSociales": "ソーシャルメディア"
+		"redesSociales": "ソーシャルメディア",
+		"temaTitulo": "どのようなお話をしましょうか？",
+		"temaAyuda": "トピックを選択すると、メールの下書きが作成されます。内容をご記入いただくだけです。",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "パフォーマンス分析"
+			},
+			{
+				"id": "herramientas",
+				"label": "カスタムツール"
+			},
+			{
+				"id": "datos",
+				"label": "データベースとレポート"
+			},
+			{
+				"id": "carrera",
+				"label": "キャリアサポート"
+			},
+			{
+				"id": "otro",
+				"label": "その他"
+			}
+		],
+		"escribir": "メールを作成する",
+		"copiar": "メールをコピー",
+		"copiado": "メールをコピーしました",
+		"asunto": "marioalvarez.meからの問い合わせ",
+		"cuerpo": "Marioさん、こんにちは。\n\n連絡の理由：{tema}。\n\n現在持っているデータ/状況：\n\n知りたいこと：\n\nよろしくお願いします。",
+		"otrosCanales": "その他の連絡手段",
+		"base": "拠点",
+		"baseValor": "BenidormとValencia",
+		"idiomas": "言語",
+		"idiomasValor": "スペイン語、バレンシア語、英語",
+		"aceptacionesTitulo": "お問い合わせの前に",
+		"aceptoTerminos": "{enlace}を読み、同意します。",
+		"enlaceTerminos": "利用規約",
+		"aceptoCookies": "（任意）{enlace}に記載されている分析用クッキーに同意します。",
+		"enlaceCookies": "クッキーポリシー",
+		"faltaTerminos": "ご連絡いただく前に、利用規約のチェックボックスにチェックを入れてください。",
+		"primeraCapa": "管理者：Mario Álvarez Martínez。目的：お問い合わせへの対応、およびご要望に応じた提案書の作成。正当化事由：お客様からのご依頼。宛先：法的義務を除きなし。権利：アクセス権、訂正権、削除権、および{enlace}に記載されているその他の権利。",
+		"enlacePrivacidad": "プライバシーポリシー",
+		"refEmail": "規約同意の参照：{ref}"
 	}
 }

@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Terugbetalingsbeleid — Mario Álvarez",
+		"description": "Hoe kansellasies, die reg van onttrekking en terugbetalings vir dienste van Mario Álvarez werk.",
+		"heading": "Terugbetalingsbeleid"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Hierdie webwerf hef geen betalings nie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Op marioalvarez.me word geen produkte verkoop of aanlyn betalings gehef nie. Dienste (prestasie-analise, pasgemaakte gereedskap, databasisse en verslae, en loopbaanondersteuning) word apart gekontrakteer, met 'n skriftelike voorstel."
+				}
+			]
+		},
+		{
+			"titulo": "2. Wat jou voorstel sê",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Elke voorstel dui die prys aan, hoe en wanneer dit betaal word, en die kansellasievoorwaardes. As die voorstel iets anders sê as hierdie beleid, geld die voorstel, tensy hierdie beleid jou meer regte as verbruiker gee."
+				}
+			]
+		},
+		{
+			"titulo": "3. As jy kanselleer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tensy anders skriftelik ooreengekom:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"As jy kanselleer voordat die werk begin, betaal ek enige vooruitbetaling ten volle terug.",
+						"As jy kanselleer nadat die werk begin het, word slegs die reeds gedane deel gehef en betaal ek die res van wat jy vooruitbetaal het terug.",
+						"Reeds gelewerde en aanvaarde werk word nie terugbetaal nie, tensy dit defekte het wat nie reggemaak word nie."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Reg van onttrekking (as jy 'n verbruiker is)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "As jy as 'n verbruiker kontrakteer (n persoon wat buite hul professionele aktiwiteit optree) en die kontrak word op 'n afstand, per e-pos of per telefoon gesluit, het jy 14 kalenderdae vanaf die sluiting daarvan om te onttrek sonder om verduidelikings te gee, ingevolge artikels 102 tot 108 van die hersiene teks van die Algemene Wet vir die Verdediging van Verbruikers en Gebruikers (Koninklike Wetsdecreet 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "As jy my uitdruklik vra om binne daardie 14 dae te begin werk en jy onttrek dan, sal jy slegs die proporsionele deel betaal van die diens wat tot daardie oomblik gelewer is. As die diens binne die termyn volledig voltooi is, met jou voorafgaande en uitdruklike toestemming en met die wete dat jy sodoende hierdie reg verloor, sal jy nie meer kan onttrek nie (artikel 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Hoe om dit aan te vra",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Skryf aan my by {email} met jou naam, die diens en die datum waarop jy dit gekontrakteer het. Jy kan hierdie onttrekkingsvormmodel gebruik (dit is nie verpligtend nie):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Aandag aan {nombre}, {domicilio}, {email}:",
+						"Hiermee deel ek u mee dat ek onttrek aan my kontrak vir die lewering van die volgende diens: [servicio].",
+						"Gekontrakteer op: [fecha].",
+						"Naam van die verbruiker: [nombre].",
+						"Adres van die verbruiker: [domicilio].",
+						"Datum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Termyn en wyse van die terugbetaling",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ek betaal jou die bedrag wat van toepassing is terug binne 'n maksimum van 14 kalenderdae vanaf die datum waarop jy my van jou besluit in kennis stel, via dieselfde betaalmiddel wat jy gebruik het, tensy ons anders ooreenkom. Die terugbetaling kos jou niks nie."
+				}
+			]
+		}
+	]
+}

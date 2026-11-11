@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Stupite u kontakt sa Mariom Alvarezom da razgovarate o podacima, sportskim performansama i projektima.",
 		"eyebrow": "Kontakt",
-		"heading": "Imate podatke i pitanje koje treba rešiti?",
-		"intro": "Hajde da razgovaramo. Bilo da je u pitanju projekat sportske analitike, saradnja u oblasti podataka ili jednostavno ideja koju želite da razmotrite, rado ću odgovoriti.",
+		"heading": "Imate podatke i pitanje?",
+		"intro": "Hajde da razgovaramo. Bilo da je u pitanju projekat sportske analitike, saradnja u oblasti podataka ili ideja koju želite da razmotrite, ja vam odgovaram.",
 		"email": "Email",
 		"telefono": "Telefon",
 		"verTelefono": "Prikaži telefon",
-		"redesSociales": "Društvene mreže"
+		"redesSociales": "Društvene mreže",
+		"temaTitulo": "O čemu želite da razgovaramo?",
+		"temaAyuda": "Izaberite temu i pripremiću vam imejl. Samo treba da mi iznesete svoj slučaj.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analiza performansi"
+			},
+			{
+				"id": "herramientas",
+				"label": "Alat po meri"
+			},
+			{
+				"id": "datos",
+				"label": "Baze podataka i izveštaji"
+			},
+			{
+				"id": "carrera",
+				"label": "Podrška u karijeri"
+			},
+			{
+				"id": "otro",
+				"label": "Nešto drugo"
+			}
+		],
+		"escribir": "Napiši imejl",
+		"copiar": "Kopiraj imejl",
+		"copiado": "Imejl je kopiran",
+		"asunto": "Upit sa marioalvarez.me",
+		"cuerpo": "Zdravo Mario:\n\nPišem ti povodom: {tema}.\n\nOno što imam:\n\nOno što bih želeo/la da znam:\n\nHvala.",
+		"otrosCanales": "Drugi kanali",
+		"base": "Baza",
+		"baseValor": "Benidorm i Valensija",
+		"idiomas": "Jezici",
+		"idiomasValor": "Španski, valencijanski i engleski",
+		"aceptacionesTitulo": "Pre nego što mi pišete",
+		"aceptoTerminos": "Pročitao/la sam i prihvatam {enlace}.",
+		"enlaceTerminos": "uslove i odredbe",
+		"aceptoCookies": "Prihvatam analitičke kolačiće opisane u {enlace} (opcionalno).",
+		"enlaceCookies": "politiku kolačića",
+		"faltaTerminos": "Da biste mi pisali, prvo označite polje za uslove i odredbe.",
+		"primeraCapa": "Odgovorno lice: Mario Álvarez Martínez. Svrha: odgovaranje na vaš upit i, ako to zatražite, priprema ponude. Pravni osnov: vaš zahtev. Primaoci: niko, osim u slučaju zakonske obaveze. Prava: pristup, ispravka, brisanje i druga prava objašnjena u {enlace}.",
+		"enlacePrivacidad": "politiku privatnosti",
+		"refEmail": "Referenca prihvatanja uslova: {ref}"
 	}
 }

@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Baldintzak eta baldintzak — Mario Álvarez",
+		"description": "marioalvarez.me-ren lege-oharra eta erabilera-baldintzak: nor den titularra, nola erabili daitekeen webgunea eta zein lege aplikatzen den.",
+		"heading": "Baldintzak eta baldintzak"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Nor dago webgune honen atzean",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Informazio-gizartearen eta merkataritza elektronikoaren zerbitzuei buruzko azaroaren 11ko 34/2002 Legearen (LSSI-CE) 10. artikulua betez, hauek dira marioalvarez.me-ren titularraren datuak:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Titularra: {nombre}",
+						"IFZ: {nif}",
+						"Egoitza: {domicilio}",
+						"Posta elektronikoa: {email}",
+						"Jarduera: portfolio profesionala eta datu-analisiaren, neurrira egindako tresnen, datu-baseen eta txostenen zerbitzuen eskaintza, baita karreran laguntzea ere."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Zer arautzen duten baldintza hauek",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Baldintza hauek marioalvarez.me-ren («webgunea») sarbidea eta erabilera arautzen dituzte bere hizkuntza guztietan. Bertan nabigatzean, hemen esaten denaren arabera erabiltzea onartzen duzu. Harremanetarako formularioaren bidez idazten badidazu, lauki bat markatuz espresuki onartzea eskatzen dizut."
+				}
+			]
+		},
+		{
+			"titulo": "3. Nola erabili daitekeen webgunea",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Edukiak kontsultatu eta parteka ditzakezu bere jatorria aipatuz. Ez dago baimenduta:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"webgunea legez kontrako helburuekin edo hirugarrenei kalte eginez erabiltzea;",
+						"sarbide mugatuko guneetara (panel pribatua bezalakoak) edo hura ostatatzen duten sistemetara sartzen saiatzea;",
+						"birusak edo edozein kode kaltegarri sartzea, edo nahita gainkargatzea;",
+						"edukiak kopiatzea horiek norberaren gisa aurkezteko."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Zerbitzuak eta kontratazioa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Webguneak ez du produkturik saltzen ezta lineako ordainketarik kobratzen ere. Zerbitzu batean interesa baduzu, posta elektronikoz edo telefonoz hitz egiten dugu eta idatzizko proposamen bat bidaltzen dizut irismenarekin, prezioarekin, epeekin eta ordainketa- zein ezeztapen-baldintzekin. Proposamen hori, biek onartu ondoren, zerbitzua arautzen duena da eta baldintza hauen gainetik gailentzen da."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ezeztapenak, atzera egiteko eskubidea eta itzulketak nola funtzionatzen duten itzulketa-politikan azaltzen da."
+				}
+			]
+		},
+		{
+			"titulo": "5. Jabetza intelektuala eta industriala",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarezen testuak, diseinua, berezko kodea, logotipoa eta argazkiak bere jabetzakoak dira edo egileen baimenarekin erabiltzen dira. Ez da baimenduta horiek helburu komertzialekin erreproduzitzea idatzizko baimenik gabe."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hirugarrenen izenak eta logotipoak (LinkedIn, GitHub, Instagram edo esperientzian aipatutako talde eta erakundeak bezalakoak) beraien jabeenak dira. Hauek aipatzeak ez du esan nahi inolako merkataritza-harremanik edo babespenik dagoenik, espresuki esaten ez den behintzat."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Webguneak baimena ematen duten lizentziak dituzten hirugarrenen baliabideak erabiltzen ditu: Fira Sans Extra Condensed eta Source Serif 4 tipografiak (SIL Open Font License 1.1), Lucide ikonoak (ISC lizentzia) eta Simple Icons (CC0 1.0) eta GSAP animazio-liburutegia (GreenSock-en doako estandar lizentzia, Webflow-rena). GitHub-ean estekatutako proiektu bakoitzak bere lizentzia propioa du."
+				}
+			]
+		},
+		{
+			"titulo": "6. Erantzukizuna",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Informazioa zuzena izan dadin eta webgunea erabilgarri egon dadin lan egiten dut, baina ezin dut bermatu akatsik edo etenaldirik ez egongo denik. Edukiak informaziokoak dira eta ez dute ordezkatzen zure kasu zehatzerako aholkularitza profesionala."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Webguneak hirugarrenen guneetara estekatzen du (sare sozialak, biltegiak, proiektuen webguneak). Ez ditut kontrolatzen bere edukia ezta bere politikak ere eta ez naiz horien arduraduna."
+				}
+			]
+		},
+		{
+			"titulo": "7. Pribatutasuna eta cookieak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Zure datuak nola tratatzen diren eta zer cookie erabiltzen diren pribatutasun-politikan eta cookie-politikan azaltzen dira. Webgunearen inongo zatik ez zaitu behartzen cookieak onartzera bera erabili ahal izateko."
+				}
+			]
+		},
+		{
+			"titulo": "8. Onarpen-erregistroa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Baimena behar denean frogatu ahal izateko (DBEOren 7.1 artikulua), baldintza hauek harremanetarako formularioan onartzen dituzunean edo zer cookie onartzen dituzun aukeratzen duzunean, erregistro bat gordetzen da honekin: identifikatzaile pseudonimo bat, zer onartu edo baztertu duzun, dokumentu bakoitzaren bertsioa, data eta ordua, egin duzun orria eta hizkuntza, jatorria (bannerra, konfigurazioa edo formularioa), nabigatzailea eta, formularioan, zure posta elektronikoan bidaiatzen duen erreferentzia-kode bat. Zure IP helbidea ez da gordetzen. Xehetasunak pribatutasun-politikan daude."
+				}
+			]
+		},
+		{
+			"titulo": "9. Hizkuntzak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Testu hauen gaztelaniazko bertsioa jatorrizkoa da eta zalantzak egonez gero gailentzen da. Gainerakoak erosotasunagatik eskaintzen diren itzulpen automatikoak dira."
+				}
+			]
+		},
+		{
+			"titulo": "10. Aldaketak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Baldintza hauek egunera ditzaket lege-aldaketetara edo webgunearen aldaketetara egokitzeko. Bertsio indarrekoaren data orri honen hasieran agertzen da. Aldaketa garrantzitsua bada, berriro onartzea eskatuko dizut."
+				}
+			]
+		},
+		{
+			"titulo": "11. Lege aplikagarria eta jurisdikzioa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Baldintza hauek Espainiako legearen arabera arautzen dira. Kontsumitzaile gisa jokatzen baduzu, zure egoitzako epaitegietara jo dezakezu eta baita zure autonomia erkidegoko kontsumoko gatazkak ebazteko eta arbitrajerako sistemetara ere. Gainerako kasuetan, bi aldeak Benidormeko (Alacant) epaitegi eta auzitegien mende jartzen dira."
+				}
+			]
+		}
+	]
+}

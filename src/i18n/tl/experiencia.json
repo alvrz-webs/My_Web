@@ -4,13 +4,28 @@
 		"description": "Dalawang mundo, iisang wika: ang pagganap. Karanasan ni Mario Álvarez sa data at inhenyeriya, at sa elite na pagbibisikleta.",
 		"eyebrow": "Karanasan",
 		"heading": "Dalawang mundo, iisang wika: ang pagganap",
-		"colDatos": "Data at Teknolohiya",
+		"lead": "Sa isang database o sa sasakyan ng koponan, pareho lamang ang trabaho: sukatin nang mabuti upang magdesisyon nang mas mahusay.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "mga talaan sa database na pinapaganda ko sa SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "mga kagamitan sa Python para sa koponan ng Cofidis"
+			},
+			{
+				"cifra": "6th",
+				"texto": "sa World Championship at European Track Championship"
+			}
+		],
+		"colDatos": "Mga Datos at Teknolohiya",
 		"colDeporte": "Elite na Paligsahan"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Internship sa Data Science",
-			"meta": "Data Engineering · Benidorm · 2026",
+			"meta": "Inhenyeriya ng datos, Benidorm, 2026",
 			"paragraphs": [
 				"Ang SIME ay gumagawa ng management software (mga reservation, billing, ulat, order sa restawran) na nagilingkod sa daan-daang kliyente mula sa isang sentral na sistema, sa ibabaw ng database na may +580 magkakaugnay na talahanayan at +100 milyong rekord. Ang paglago ay nagtulak sa kanila na hatiin ang mga kliyente sa iba't ibang database upang maibsan ang load at ang mga reklamo tungkol sa kabagalan.",
 				"Ang aking trabaho: suriin ang mga database na ito at, sa pamamagitan ng pag-optimize ng mga query at index, idisenyo ang pag-iisa ng lahat ng data sa iisang mahusay na database nang halos hindi pinapalaki ang hardware (RAM/CPU). Ang pagpapabuti ay binuo na, at nasa yugto ng pagpapatunay sa test server."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Mga proyekto kasama ang Cofidis team (World Tour)",
-			"meta": "Python · Tag-init 2025",
+			"meta": "Python, tag-init 2025",
 			"paragraphs": [
 				"Sariling proyekto na ginawa ko bilang pagsubok para makapasok sa data analysis sa propesyonal na pagbibisikleta:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Paligsahan",
 			"paragraphs": [
 				"Kampeon ng Espanya sa madison (18 taong gulang); World at European track championships kasama ang Pambansang Koponan ng Espanya (ika-6 sa pareho); elite na atleta; aktibong pederadong track cyclist."
-			]
+			],
+			"meta": "Cycling sa track, Pambansang Koponan ng Espanya"
 		},
 		{
 			"title": "Direksyon ng Isports",
 			"paragraphs": [
 				"Sports Director Antas I at II (RFEC); pagsasanay at pagsubaybay sa mga batang siklista (14–18) kasama ang aking ama; assistant kasama ang Pambansang Koponan ng Komunidad ng Valencia sa mga kumpetisyon (2026)."
-			]
+			],
+			"meta": "RFEC, mga antas I at II"
 		},
 		{
 			"title": "Quiromassage at technical staff",

@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — ਖel ਕਾਰj vigānik jo ki khel vich maharath rakhda hai",
-		"description": "Mario Álvarez, Valencia vich khel vishleshan vich maharath rakhda data vigānik. Data · Sport · Progress.",
+		"description": "ਮਾਰوا ਆਲਵਾਰੇਜ਼, ਵੈਲੇਂਸੀਆ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਟਿਸਟ ਜੋ ਸਪੋਰਟਸ ਐਨਾਲਿਟਿਕਸ ਵਿੱਚ ਮਾਹਰ ਹੈ। ਮੈਡੀਸਨ ਵਿੱਚ ਸਪेन ਦਾ ਚੈਂป์ียน ਅਤੇ RFEC ਖੇਡ ਨਿਰਦੇਸ਼ਕ।",
 		"verProyectos": "Project dekho",
-		"contacto": "Sampark",
-		"verMas": "Hor dekho",
+		"verServicios": "ਦੇਖੋ ਮੈਂ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰਦਾ ਹਾਂ",
+		"contacto": "ਮੈਨੂੰ ਲਿਖੋ",
+		"verMas": "ਹੋਰ ਪੜ੍ਹੋ",
 		"verTodosProyectos": "Sare project dekho",
-		"irAContacto": "Sampark val jao",
+		"irAContacto": "ਮੈਨੂੰ ਲਿਖੋ",
 		"herramientas": "Mukhya saundhan"
 	},
 	"hero": {
-		"eyebrow": "Khel vigānik · Khel vishleshan · Valencia",
-		"titlePre": "Main data nu badalda han ",
-		"titleHighlight": "saf aehmyate vich",
-		"subtitle": "Main data vishleshan te elit khel vichkar ek pul han: main karkardgi mitar nu aisi rananiti vich badalda han jo maidan te farak paudiyan han.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "ਮਾਰਵਾ ਆਲਵਾਰੇਜ਼, ਡਾਟਾ ਸਾਇੰਟਿਸਟ",
+		"title": "ਮੈਂ ਮੈਡੀਸਨ ਵਿੱਚ ਸਪੇਨ ਦਾ ਚੈਂป์ੀਅਨ ਰਿਹਾ ਹਾਂ।",
+		"subtitle": "ਹੁਣ ਮੈਂ UPV ਵਿਖੇ ਡਾਟਾ ਸਾਇੰਸ ਦੀ ਪੜ੍ਹਾਈ ਕਰ ਰਿਹਾ ਹਾਂ ਅਤੇ ਪ੍ਰਦਰਸ਼ਨ ਦੇ ਪਿੱਛੇ ਦੀ ਹਕੀਕਤ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦਾ ਹਾਂ: ਪਾਵਰ, ਲੋਡ ਅਤੇ ਨਤੀਜੇ। ਮੈਂ ਜਾਣਦਾ ਹਾਂ ਕਿ ਇੱਕ ਰੇਸਰ ਲਈ ਇੱਕ ਨੰਬਰ ਦਾ ਕੀ ਮਤਲਬ ਹੁੰਦਾ ਹੈ ਕਿਉਂਕਿ ਮੈਂ ਉਹ ਰੇਸਰ ਰਿਹਾ ਹਾਂ।",
+		"palmaresLabel": "ਪੁਰਸਕਾਰ",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "ਮੈਡੀਸਨ ਦੀ ਸਪੇਨ ਚੈਂป์ੀਅਨਸ਼ਿਪ",
+				"nota": "ਟਰੈਕ, 18 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ"
+			},
+			{
+				"pos": "6º",
+				"texto": "ਟਰੈਕ ਵਿਸ਼ਵ ਚੈਂป์ੀਅਨਸ਼ਿਪ",
+				"nota": "ਸਪੈਨਿਸ਼ ਟੀਮ"
+			},
+			{
+				"pos": "6º",
+				"texto": "ਟਰੈਕ ਯੂਰਪੀਅਨ ਚੈਂป์ੀਅਨਸ਼ਿਪ",
+				"nota": "ਸਪੈਨਿਸ਼ ਟੀਮ"
+			}
+		],
+		"retratoAlt": "ਮਾਰਵਾ ਆਲਵਾਰੇਜ਼ ਦਾ ਪੋਰਟਰੇਟ"
+	},
+	"servicios": {
+		"title": "ਮੈਂ ਤੁਹਾਡੀ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ",
+		"text": "ਮੈਂ ਟੀਮਾਂ, ਕੋਚਾਂ ਅਤੇ ਰੇਸਰਾਂ ਨਾਲ ਕੰਮ ਕਰਦਾ ਹਾਂ ਜਿਨ੍ਹਾਂ ਕੋਲ ਡਾਟਾ ਹੈ ਅਤੇ ਉਹ ਇਸਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਭ ਉਠਾਉਣਾ ਚਾਹੁੰਦੇ ਹਨ। ਅਤੇ ਉਨ੍ਹਾਂ ਕੰਪਨੀਆਂ ਨਾਲ ਜਿਨ੍ਹਾਂ ਨੂੰ ਆਪਣਾ ਡਾਟਾ ਸੰਗਠਿਤ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।",
+		"cta": "ਮੈਨੂੰ ਆਪਣਾ ਕੇਸ ਦੱਸੋ",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "ਪ੍ਰਦਰਸ਼ਨ ਵਿਸ਼ਲੇਸ਼ਣ",
+				"texto": "ਮੈਂ ਇੱਕ ਰੇਸਰ ਦੀਆਂ ਅੱਖਾਂ ਨਾਲ ਪਾਵਰ, ਲੋਡ ਅਤੇ ਨਤੀਜੇ ਪੜ੍ਹਦਾ ਹਾਂ। ਮੈਂ ਤੁਹਾਨੂੰ ਸਮਝਾਉਂਦਾ ਹਾਂ ਕਿ ਕੀ ਹੋ ਰਿਹਾ ਹੈ ਅਤੇ ਕੀ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।",
+				"prueba": "ਕੁਲੀਨ ਰੇਸਰ ਅਤੇ RFEC ਖੇਡ ਨਿਰਦੇਸ਼ਕ, ਪੱਧਰ I ਅਤੇ II।"
+			},
+			{
+				"id": "herramientas",
+				"nombre": "ਕਸਟਮ ਟੂਲਸ",
+				"texto": "ਸਕ੍ਰੈਪਿੰਗ, ਮਾਡਲ ਅਤੇ Python ਵਿੱਚ ਛੋਟੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਜੋ ਤੁਹਾਡੀ ਟੀਮ ਦੇ ਕਿਸੇ ਖਾਸ ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿੰਦੀਆਂ ਹਨ।",
+				"prueba": "Cofidis ਟੀਮ ਲਈ ਦੋ ਟੂਲ: UCI ਮੁਸ਼ਕਲ ਅਤੇ ਰੇਸ ਪ੍ਰੋਫਾਈਲ।"
+			},
+			{
+				"id": "datos",
+				"nombre": "ਡਾਟਾਬੇਸ ਅਤੇ ਰਿਪੋਰਟਾਂ",
+				"texto": "ਤੇਜ਼ ਸਵਾਲ, ਏਕੀਕ੍ਰਿਤ ਬੇਸ ਅਤੇ Power BI ਵਿੱਚ ਡੈਸ਼ਬੋਰਡ ਜੋ ਪਹਿਲੀ ਨਜ਼ਰ ਵਿੱਚ ਸਮਝ ਆ ਜਾਂਦੇ ਹਨ।",
+				"prueba": "SIME Telecom ਵਿੱਚ ਜਿਸ ਬੇਸ ਨੂੰ ਮੈਂ ਅਨੁਕੂਲ ਬਣਾ ਰਿਹਾ ਹਾਂ, ਉਸ ਵਿੱਚ 580 ਤੋਂ ਵੱਧ ਟੇਬਲ ਅਤੇ 100 ਮਿਲੀਅਨ ਰਿਕਾਰਡ ਹਨ।"
+			},
+			{
+				"id": "carrera",
+				"nombre": "ਰੇਸ ਸਹਾਇਤਾ",
+				"texto": "ਰੇਸ ਦੀ ਤਿਆਰੀ, ਰੇਸਰਾਂ ਦੀ ਨਿਗਰਾਨੀ ਅਤੇ ਮੁਕਾਬਲੇ ਵਿੱਚ ਕਾਇਰੋਪ੍ਰੈਕਟਿਕ ਮਸਾਜ।",
+				"prueba": "ਵੈਲੇਂਸੀਅਨ ਕਮਿਊਨਿਟੀ ਦੀ ਟੀਮ ਦਾ ਸਟਾਫ।"
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Mere bare",
-		"title": "Track, sarak te mukabale de sandarbh nal data",
-		"text": "Main Mario Álvarez han, UPV vich Data Science da vidyarthi han te peshevar cycling andar vastavik tajruba rakhda han. Main data vishleshan nu elit khel karkardgi nal ralauna han, taan jo har mitar nu nateejeyan nu sudharun vali aehmyat vich badal sakeya jave."
+		"title": "ਵੇਲੋਡ੍ਰੋਮ ਤੋਂ ਡਾਟਾ ਤੱਕ",
+		"text": "ਮੈਂ UPV ਵਿਖੇ ਡਾਟਾ ਸਾਇੰਸ ਵਿੱਚ ਡਿਗਰੀ ਦਾ ਤੀਜਾ ਸਾਲ ਪੜ੍ਹ ਰਿਹਾ ਹਾਂ ਅਤੇ ਖੇਡਾਂ 'ਤੇ ਲਾਗੂ ਡਿਜੀਟਾਈਜ਼ੇਸ਼ਨ ਅਤੇ ਤਕਨਾਲੋਜੀ ਵਿੱਚ ਮਾਸਟਰ ਡਿਗਰੀ ਪੂਰੀ ਕੀਤੀ ਹੈ। ਮੈਂ ਸਾਈਕਲਿੰਗ ਤੋਂ ਦੂਰ ਨਹੀਂ ਗਿਆ: ਮੈਂ ਟਰੈਕ 'ਤੇ ਦੌੜਨਾ ਜਾਰੀ ਰੱਖਦਾ ਹਾਂ, ਬੇਸ ਰੇਸਰਾਂ ਨੂੰ ਨਿਰਦੇਸ਼ਿਤ ਕਰਦਾ ਹਾਂ ਅਤੇ ਪੇਸ਼ੇਵਰਾਂ ਨਾਲ ਕਾਇਰੋਪ੍ਰੈਕਟਰ ਵਜੋਂ ਕੰਮ ਕਰਦਾ ਹਾਂ।"
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Sikhlayi",
-			"detail": "Data Science vich Degree, Universitat Politècnica de València."
+			"label": "ਬੇਸ",
+			"value": "ਬੇਨਿਡੋਰਮ ਅਤੇ ਵੈਲੇਂਸੀਆ"
 		},
 		{
-			"value": "Elit",
-			"label": "Tajruba",
-			"detail": "Ik peshevar cycling team andar vastavik kamm."
+			"label": "ਸਿੱਖਿਆ",
+			"value": "ਡਾਟਾ ਸਾਇੰਸ ਵਿੱਚ ਡਿਗਰੀ (UPV) ਅਤੇ ਖੇਡਾਂ ਵਿੱਚ ਡਿਜੀਟਾਈਜ਼ੇਸ਼ਨ, ਇਨੋਵੇਸ਼ਨ ਅਤੇ ਤਕਨਾਲੋਜੀ ਵਿੱਚ ਮਾਸਟਰ"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pahunch",
-			"detail": "Khel karkardgi de sudhar lai lagu kita vishleshan."
+			"label": "ਟਾਈਟਲ",
+			"value": "RFEC ਖੇਡ ਨਿਰਦੇਸ਼ਕ, ਪੱਧਰ I ਅਤੇ II"
+		},
+		{
+			"label": "ਹੁਣ",
+			"value": "ਡਾਟਾ ਅਤੇ ਪ੍ਰਦਰਸ਼ਨ ਪ੍ਰੋਜੈਕਟਾਂ ਲਈ ਉਪਲਬਧ"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Tajruba",
-		"title": "Do duniyaan, ikko bhasha: karkardgi",
-		"text": "Main sab ton uche padar te mukabala kita hai te aj ohi mapdand data te lagu karda han: main samajhda han ki ik khidari lai number da ki matlab hunda hai kiunki main ohi khidari reha han."
+		"title": "ਦੋ ਲੇਨਾਂ, ਇੱਕੋ ਕੰਮ",
+		"text": "ਇੱਕ ਵਿੱਚ ਮੈਂ ਡਾਟਾਬੇਸ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਂਦਾ ਹਾਂ ਅਤੇ ਮਾਡਲ ਲਿਖਦਾ ਹਾਂ। ਦੂਜੇ ਵਿੱਚ ਮੈਂ ਰੇਸ ਤਿਆਰ ਕਰਦਾ ਹਾਂ ਅਤੇ ਰੇਸਰਾਂ ਦਾ ਪਿੱਛਾ ਕਰਦਾ ਹਾਂ। ਦੋਵਾਂ ਦਾ ਇੱਕੋ ਮਤਲਬ ਹੈ: ਬਿਹਤਰ ਫ਼ੈਸਲੇ ਲੈਣ ਲਈ ਚੰਗੀ ਤਰ੍ਹਾਂ ਮਾਪਣਾ।",
+		"carriles": [
+			{
+				"nombre": "ਡਾਟਾ",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "ਹਾਰਡਵੇਅਰ ਨੂੰ ਵਧਾਏ ਬਿਨਾਂ ਕਈ ਬੇਸਾਂ ਨੂੰ ਇੱਕ ਵਿੱਚ ਏਕੀਕ੍ਰਿਤ ਕਰਨ ਲਈ SIME Telecom ਵਿੱਚ ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤੇ ਗਏ ਟੇਬਲ"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "ਡਾਟਾਬੇਸ ਵਿੱਚ ਰਿਕਾਰਡ ਜਿਨ੍ਹਾਂ ਨੂੰ ਮੈਂ ਅਨੁਕੂਲ ਬਣਾ ਰਿਹਾ ਹਾਂ"
+					},
+					{
+						"cifra": "2",
+						"texto": "Cofidis ਟੀਮ ਲਈ Python ਵਿੱਚ ਟੂਲ: UCI ਮੁਸ਼ਕਲ ਅਤੇ ਰੇਸ ਪ੍ਰੋਫਾਈਲ"
+					}
+				]
+			},
+			{
+				"nombre": "ਟਰੈਕ ਅਤੇ ਰੋਡ",
+				"items": [
+					{
+						"cifra": "I ਅਤੇ II",
+						"texto": "ਸਪੈਨਿਸ਼ ਸਾਈਕਲਿੰਗ ਫੈਡਰੇਸ਼ਨ ਦੇ ਖੇਡ ਨਿਰਦੇਸ਼ਕ ਦੇ ਪੱਧਰ"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "ਉਨ੍ਹਾਂ ਬੇਸ ਰੇਸਰਾਂ ਦੀ ਉਮਰ ਹੈ ਜਿਨ੍ਹਾਂ ਨੂੰ ਮੈਂ ਆਪਣੇ ਪਿਤਾ ਦੇ ਨਾਲ ਸਿਖਲਾਈ ਦਿੰਦਾ ਹਾਂ ਅਤੇ ਟਰੈਕ ਕਰਦਾ ਹਾਂ"
+					},
+					{
+						"cifra": "2026",
+						"texto": "ਮੁਕਾਬਲੇ ਵਿੱਚ ਵੈਲੇਂਸੀਅਨ ਕਮਿਊਨਿਟੀ ਦੀ ਟੀਮ ਨਾਲ ਸਹਾਇਕ"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Ki asi data bare gall kariye?",
-		"text": "Mainu apne project bare dasso te asi ikathe labhde han ki karkardgi sudharun vale faisle kithe han."
+		"title": "ਆਖਰੀ ਗੇੜ",
+		"text": "ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਪ੍ਰਦਰਸ਼ਨ ਦਾ ਡੇਟਾ ਅਤੇ ਅਨਉੱਤਰਿਤ ਸਵਾਲ ਹਨ, ਤਾਂ ਮੈਨੂੰ ਲਿਖੋ ਅਤੇ ਅਸੀਂ ਇਸਨੂੰ ਇਕੱਠੇ ਦੇਖਾਂਗੇ।"
 	}
 }

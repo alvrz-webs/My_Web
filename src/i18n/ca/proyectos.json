@@ -4,7 +4,10 @@
 		"description": "Repositoris i projectes d'anàlisi de dades, visualització i machine learning de Mario Álvarez.",
 		"eyebrow": "Projectes",
 		"heading": "Projectes",
-		"intro": "Una ullada al meu treball: des d'eines per a ciclisme professional fins a projectes acadèmics d'anàlisi i machine learning."
+		"intro": "Una ullada al meu treball: des d'eines per a ciclisme professional fins a projectes acadèmics d'anàlisi i machine learning.",
+		"cifraRepos": "repositoris públics a GitHub",
+		"cifraWebs": "llocs web publicats",
+		"cifraHerramientas": "llenguatges i eines"
 	},
 	"list": {
 		"eyebrow": "Treball",

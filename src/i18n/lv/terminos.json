@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Noteikumi un nosacījumi — Mario Álvarez",
+		"description": "Vietnes marioalvarez.me juridiskais paziņojums un lietošanas noteikumi: kas ir īpašnieks, kā vietni var izmantot un kāds likums tiek piemērots.",
+		"heading": "Noteikumi un nosacījumi"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kas ir aiz šīs vietnes",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saskaņā ar Informācijas sabiedrības pakalpojumu un elektroniskās komercijas likuma (LSSI-CE) 34/2002 10. pantu, šeit ir norādīti marioalvarez.me īpašnieka dati:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Īpašnieks: {nombre}",
+						"NIF: {nif}",
+						"Adrese: {domicilio}",
+						"E-pasts: {email}",
+						"Darbība: profesionāls portfolio un datu analīzes pakalpojumu, pielāgotu rīku, datubāzu, pārskatu un karjeras atbalsta piedāvājums."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Ko šie noteikumi regulē",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šie noteikumi regulē piekļuvi marioalvarez.me (\"vietne\") un tās lietošanu jebkurā tās valodā. Pārlūkojot to, jūs piekrītat to izmantot saskaņā ar šeit minēto. Ja rakstāt man no saziņas formas, es lūdzu jūs tos skaidri apstiprināt, atzīmējot izvēles rūtiņu."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kā vietni var izmantot",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jūs varat skatīt un kopīgot saturu, norādot tā izcelsmi. Nav atļauts:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"izmantot vietni nelikumīgiem mērķiem vai lai nodarītu kaitējumu trešajām personām;",
+						"mēģināt piekļūt ierobežotām zonām (piemēram, privātajam panelim) vai sistēmām, kurās tā tiek mitināta;",
+						"ievietot vīrusus vai jebkādu ļaunprātīgu kodu vai apzināti to pārslogot;",
+						"kopīgot saturu, lai uzdotu to par savējo."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Pakalpojumi un līgumu slēgšana",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vietne nepārdod produktus un neiekasē tiešsaistes maksājumus. Ja jūs interesē pakalpojums, mēs to apspriežam pa e-pastu vai tālruni, un es nosūtu jums rakstisku piedāvājumu ar apjomu, cenu, termiņiem, maksājuma un atcelšanas nosacījumiem. Kad abas puses šo piedāvājumu ir pieņēmušas, tas nosaka pakalpojumu un ir svarīgāks par šiem noteikumiem."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kā darbojas atcelšana, atteikuma tiesības un atgriešana, ir izskaidrots atmaksas politikā."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intelektuālais un rūpnieciskais īpašums",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez teksti, dizains, pašu kods, logotips un fotogrāfijas ir viņa īpašums vai tiek izmantoti ar to autoru atļauju. Tos nav atļauts reproducēt komercnolūkos bez rakstiskas atļaujas."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Trešo pušu nosaukumi un logotipi (piemēram, LinkedIn, GitHub, Instagram vai pieredzē minētās komandas un vienības) pieder to īpašniekiem. To pieminēšana nenozīmē nekādas komercattiecības vai sponsorēšanu, ja vien tas nav skaidri norādīts."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Vietne izmanto trešo pušu resursus ar licencēm, kas to atļauj: fonti Fira Sans Extra Condensed un Source Serif 4 (SIL Open Font License 1.1), Lucide ikonas (ISC licence) un Simple Icons (CC0 1.0) un animācijas bibliotēka GSAP (GreenSock bezmaksas standarta licence no Webflow). Katram projektam, kam ir saite uz GitHub, ir sava licence."
+				}
+			]
+		},
+		{
+			"titulo": "6. Atbildība",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Es strādāju pie tā, lai informācija būtu pareiza un vietne būtu pieejama, taču es nevaru garantēt, ka nebūs kļūdu vai pārtraukumu. Saturs ir informatīvs un neaizstāj profesionālu konsultāciju jūsu konkrētajā gadījumā."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Vietnē ir saites uz trešo pušu vietnēm (sociālajiem tīkliem, krātuvēm, projektu vietnēm). Es nekontrolēju to saturu vai politiku un neuzņemos par tiem atbildību."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privātums un sīkfaili",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kā tiek apstrādāti jūsu dati un kādi sīkfaili tiek izmantoti, ir paskaidrots privātuma politikā un sīkfailu politikā. Neviena vietnes daļa neliek jums pieņemt sīkfailus, lai to varētu izmantot."
+				}
+			]
+		},
+		{
+			"titulo": "8. Apstiprinājumu reģistrācija",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Lai vajadzības gadījumā varētu pierādīt piekrišanu (VDAR 7.1. pants), kad jūs pieņemat šos noteikumus saziņas formā vai izvēlaties, kurus sīkfailus atļaujat, tiek saglabāts ieraksts, kurā ietilpst: pseidonīma identifikators, tas, ko jūs pieņēmāt vai noraidījāt, katra dokumenta versija, datums un laiks, lapa un valoda, no kuras to izdarījāt, izcelsme (reklāmkarogs, konfigurācija vai veidlapa), pārlūkprogramma un veidlapā — atsauces kods, kas ceļo jūsu e-pastā. Jūsu IP adrese netiek saglabāta. Sīkāka informācija ir sniegta privātuma politikā."
+				}
+			]
+		},
+		{
+			"titulo": "9. Valodas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šo tekstu spāņu valodas versija ir oriģināls un ir noteicošā šaubu gadījumā. Pārējās ir automātiskie tulkojumi, kas tiek piedāvāti ērtības labad."
+				}
+			]
+		},
+		{
+			"titulo": "10. Izmaiņas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Es varu atjaunināt šos noteikumus, lai pielāgotu tos juridiskām vai vietnes izmaiņām. Spēkā esošās versijas datums ir parādīts šīs lapas sākumā. Ja izmaiņas ir būtiskas, es lūdzu jūs tās pieņemt vēlreiz."
+				}
+			]
+		},
+		{
+			"titulo": "11. Piemērojamais likums un jurisdikcija",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šos noteikumus reglamentē Spānijas likumdošana. Ja rīkojaties kā patērētājs, varat vērsties savas dzīvesvietas tiesās un savas autonomās kopienas patērētāju strīdu arbitrāžas un risināšanas sistēmās. Visos pārējos gadījumos abas puses pakļaujas Benidormas (Alikante) tiesām un tribunāliem."
+				}
+			]
+		}
+	]
+}

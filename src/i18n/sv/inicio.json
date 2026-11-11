@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Data scientist med specialisering inom sport",
-		"description": "Mario Álvarez, data scientist i Valencia med specialisering inriktad på sportanalys. Data · Sport · Progress.",
+		"description": "Mario Álvarez, data scientist i Valencia med specialisering inom sportanalys. Spansk mästare i madison och sportdirektör för RFEC.",
 		"verProyectos": "Visa projekt",
-		"contacto": "Kontakt",
-		"verMas": "Visa mer",
+		"verServicios": "Se hur jag kan hjälpa dig",
+		"contacto": "Skriv till mig",
+		"verMas": "Läs mer",
 		"verTodosProyectos": "Visa alla projekt",
-		"irAContacto": "Gå till kontakt",
+		"irAContacto": "Skriv till mig",
 		"herramientas": "Huvudverktyg"
 	},
 	"hero": {
-		"eyebrow": "Data scientist · Sportanalys · Valencia",
-		"titlePre": "Jag förvandlar data till ",
-		"titleHighlight": "tydliga beslut",
-		"subtitle": "Jag är bryggan mellan dataanalys och elitsport: jag förvandlar prestationsmått till strategier som gör skillnad på planen.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, data scientist",
+		"title": "Jag var spansk mästare i madison.",
+		"subtitle": "Nu studerar jag datavetenskap vid UPV och analyserar det som ligger bakom prestationen: effekt, belastning och resultat. Jag vet vad en siffra betyder för en cyklist eftersom jag har varit den cyklisten.",
+		"palmaresLabel": "Meriter",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Spanska mästerskapet i madison",
+				"nota": "Bana, vid 18 års ålder"
+			},
+			{
+				"pos": "6º",
+				"texto": "Världsmästerskapet i bancykling",
+				"nota": "Spanska landslaget"
+			},
+			{
+				"pos": "6º",
+				"texto": "Europamästerskapet i bancykling",
+				"nota": "Spanska landslaget"
+			}
+		],
+		"retratoAlt": "Porträtt av Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Vad jag kan hjälpa dig med",
+		"text": "Jag arbetar med lag, tränare och cyklister som har data och vill få ut det mesta av dem. Och med företag som behöver organisera sina egna.",
+		"cta": "Berätta om ditt fall",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Prestationsanalys",
+				"texto": "Jag läser effekt, belastning och resultat med en cyklists ögon. Jag förklarar vad som händer och vad som skulle förändras.",
+				"prueba": "Elitcyklist och sportdirektör för RFEC, nivå I och II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Skräddarsydda verktyg",
+				"texto": "Scraping, modeller och små applikationer i Python som svarar på en specifik fråga från ditt lag.",
+				"prueba": "Två verktyg för laget Cofidis: UCI-svårighetsgrad och loppprofil."
+			},
+			{
+				"id": "datos",
+				"nombre": "Databaser och rapporter",
+				"texto": "Snabbare förfrågningar, enhetliga databaser och Power BI-dashboards som förstås vid första anblicken.",
+				"prueba": "Mer än 580 tabeller och 100 miljoner poster i den databas som jag optimerar hos SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Stöd under lopp",
+				"texto": "Loppförberedelser, uppföljning av cyklister och idrottsmassage under tävling.",
+				"prueba": "Personal i det Valencianska gemenskapens landslag."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Om mig",
-		"title": "Data med kontext från bana, väg och tävling",
-		"text": "Jag är Mario Álvarez, student i datavetenskap vid UPV med verklig erfarenhet inom professionell cykelsport. Jag kombinerar dataanalys med elitprestationer för att omvandla varje mätvärde till ett beslut som förbättrar resultaten."
+		"title": "Från velodromen till datan",
+		"text": "Jag läser årskurs 3 i datavetenskap vid UPV och har slutfört en masterexamen i digitalisering och teknik tillämpad på sport. Jag har inte lämnat cyklingen: jag tävlar fortfarande på bana, tränar ungdomscyklister och arbetar som massör med professionella."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Bas",
+			"value": "Benidorm och Valencia"
+		},
+		{
 			"label": "Utbildning",
-			"detail": "Kandidatexamen i datavetenskap, Universitat Politècnica de València."
+			"value": "Kandidatexamen i datavetenskap (UPV) och masterexamen i digitalisering, innovation och teknik inom idrott"
 		},
 		{
-			"value": "Elit",
-			"label": "Erfarenhet",
-			"detail": "Verkligt arbete inom ett professionellt cykelstall."
+			"label": "Titlar",
+			"value": "Sportdirektör för RFEC, nivå I och II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Fokus",
-			"detail": "Analys tillämpad på förbättring av idrottsprestationer."
+			"label": "Nu",
+			"value": "Tillgänglig för data- och prestationsprojekt"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Erfarenhet",
-		"title": "Två världar, samma språk: prestationen",
-		"text": "Jag har tävlat på högsta nivå och tillämpar idag samma synsätt på data: jag förstår vad en siffra betyder för en idrottare eftersom jag har varit den idrottaren."
+		"title": "Två spår, samma arbete",
+		"text": "I det ena optimerar jag databaser och skriver modeller. I det andra förbereder jag lopp och följer cyklister. Båda handlar om samma sak: att mäta rätt för att besluta bättre.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tabeller analyserade hos SIME Telecom för att ena flera databaser till en enda, utan att utöka hårdvaran"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "poster i den databas som jag optimerar"
+					},
+					{
+						"cifra": "2",
+						"texto": "verktyg i Python för laget Cofidis: UCI-svårighetsgrad och loppprofil"
+					}
+				]
+			},
+			{
+				"nombre": "Bana och landsväg",
+				"items": [
+					{
+						"cifra": "I och II",
+						"texto": "nivåer för sportdirektör för det spanska cykelförbundet"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "år gamla är de ungdomscyklister som jag tränar och följer tillsammans med min far"
+					},
+					{
+						"cifra": "2026",
+						"texto": "assistent med det Valencianska gemenskapens landslag under tävling"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Ska vi snacka data?",
-		"text": "Berätta om ditt projekt så letar vi tillsammans upp var besluten som förbättrar prestationen finns."
+		"title": "Sista varvet",
+		"text": "Om du har prestandadata och obevisade frågor, skriv till mig så tittar vi på det tillsammans."
 	}
 }

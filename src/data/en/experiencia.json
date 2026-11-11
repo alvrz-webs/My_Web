@@ -4,13 +4,28 @@
 		"description": "Two worlds, one language: performance. Mario Álvarez’s experience in data and engineering, and in elite cycling.",
 		"eyebrow": "Experience",
 		"heading": "Two worlds, one language: performance",
-		"colDatos": "Data & Technology",
+		"lead": "In a database or in the team car, the job is the same: measure well to decide better.",
+		"cifras": [
+			{
+				"cifra": "100 M+",
+				"texto": "records in the database I'm optimising at SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "Python tools for Team Cofidis"
+			},
+			{
+				"cifra": "6th",
+				"texto": "at the Track World and European Championships"
+			}
+		],
+		"colDatos": "Data and technology",
 		"colDeporte": "Elite sport"
 	},
 	"datos": [
 		{
 			"title": "SIME Telecom — Data Science Internship",
-			"meta": "Data Engineering · Benidorm · 2026",
+			"meta": "Data engineering, Benidorm, 2026",
 			"paragraphs": [
 				"SIME builds management software (bookings, billing, reporting, restaurant orders) serving hundreds of clients from a central system, on a database of 580+ interconnected tables and 100+ million records. Growth had forced clients to be split across several databases to ease the load and complaints about slowness.",
 				"My job: analyze those databases and, through query and index optimization, design the unification of all the data into a single efficient database without scaling the hardware (RAM/CPU) much at all. The improvement is already built and in validation on a test server."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projects with Team Cofidis (World Tour)",
-			"meta": "Python · Summer 2025",
+			"meta": "Python, summer 2025",
 			"paragraphs": [
 				"A personal project I built as a test to break into data analysis in professional cycling:"
 			],
@@ -30,8 +45,13 @@
 		{
 			"title": "Academic and personal projects",
 			"meta": "Analysis, visualization and machine learning",
-			"paragraphs": ["Personal work in data analysis, visualization and machine learning."],
-			"link": { "href": "/proyectos", "label": "View projects" }
+			"paragraphs": [
+				"Personal work in data analysis, visualization and machine learning."
+			],
+			"link": {
+				"href": "/proyectos",
+				"label": "View projects"
+			}
 		}
 	],
 	"deporte": [
@@ -39,13 +59,15 @@
 			"title": "Competition",
 			"paragraphs": [
 				"Spanish madison champion (age 18); World and European track championships with the Spanish national team (6th in both); elite athlete status; active federated track cyclist."
-			]
+			],
+			"meta": "Track cycling, Spanish national team"
 		},
 		{
 			"title": "Sporting direction",
 			"paragraphs": [
 				"Sporting Director Level I and II (RFEC, Spanish Cycling Federation); coaching and mentoring grassroots riders (ages 14–18) alongside my father; assistant with the Valencian Community team at competitions (2026)."
-			]
+			],
+			"meta": "RFEC, levels I and II"
 		},
 		{
 			"title": "Massage therapy and technical staff",

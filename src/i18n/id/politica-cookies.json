@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Kebijakan Cookie — Mario Álvarez",
-		"description": "Cookie apa saja yang digunakan situs ini, apa tujuannya, dan cara mengubah persetujuan Anda kapan saja.",
-		"eyebrow": "Legal",
-		"heading": "Kebijakan Cookie"
+		"version": "2026-11-10",
+		"title": "Kebijakan cookie — Mario Álvarez",
+		"description": "Cookie apa yang digunakan oleh marioalvarez.me, mana yang memerlukan izin Anda, dan cara mengubah pilihan Anda kapan saja.",
+		"heading": "Kebijakan cookie",
+		"eleccionTitulo": "Pilihan Anda",
+		"eleccionTexto": "Anda dapat mengubah atau menghapus data Anda kapan pun Anda mau, semudah saat Anda memberikannya."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Situs web ini menggunakan cookie dan teknologi serupa (seperti penyimpanan lokal peramban) agar dapat berfungsi dengan baik dan, jika Anda memberikan persetujuan, untuk menganalisis secara anonim bagaimana konten digunakan."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Cookie yang digunakan:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nama",
-				"Tujuan",
-				"Jenis",
-				"Durasi"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Mengingat pilihan Anda tentang kebijakan cookie ini",
-					"Pihak pertama, teknis (dikecualikan dari persetujuan)",
-					"12 bulan"
-				],
-				[
-					"visitante_id",
-					"Pengidentifikasi anonim untuk menghubungkan kunjungan Anda dan mengetahui konten mana yang berguna",
-					"Pihak pertama, analitik (membutuhkan persetujuan Anda)",
-					"12 bulan"
-				]
+			"titulo": "1. Apa itu dan apakah saya memerlukan izin Anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookie dan teknologi serupa (seperti penyimpanan lokal browser) menyimpan data kecil di perangkat Anda. Berdasarkan peraturan yang berlaku, cookie yang sangat diperlukan untuk sesuatu yang Anda minta tidak memerlukan persetujuan; sedangkan cookie analisis memerlukannya."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Oleh karena itu, situs web ini hanya menyimpan cookie analisis jika Anda menerimanya, dan memungkinkan Anda menerima atau menolak dengan dua tombol yang sama, di layar yang sama, dan tanpa kotak yang dicentang sebelumnya. Menolaknya tidak akan menghalangi Anda menggunakan bagian mana pun dari situs web ini."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Tidak ada satu pun cookie ini yang berasal dari pihak ketiga, tidak ada yang digunakan untuk tujuan periklanan, dan tidak ada yang dibagikan kepada siapa pun di luar situs ini."
+			"titulo": "2. Cookie yang digunakan oleh situs web ini",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nama",
+						"Untuk apa",
+						"Jenis",
+						"Apakah memerlukan izin Anda?",
+						"Durasi"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Menyimpan pilihan Anda, versi kebijakan ini, dan pengidentifikasi samaran dari catatan persetujuan Anda",
+							"Internal, teknis",
+							"Tidak",
+							"12 bulan"
+						],
+						[
+							"visitante_id",
+							"Pengidentifikasi samaran untuk mengetahui konten mana yang berguna",
+							"Internal, analitik",
+							"Ya",
+							"12 bulan"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Mengingat apakah Anda lebih menyukai tema terang atau gelap; hanya disimpan jika Anda mengubahnya",
+							"Internal, untuk personalisasi yang Anda minta",
+							"Tidak",
+							"Sampai Anda menghapusnya"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Anda dapat mengubah keputusan atau menarik persetujuan Anda kapan saja dari tautan \"Konfigurasi cookie\" di bagian footer, dan menghapus semua data Anda secara langsung dengan tombol \"Hapus data saya\" di panel yang sama."
+			"titulo": "3. Hal yang tidak ada",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tidak ada cookie pihak ketiga, tidak ada iklan, tidak ada konten media sosial yang disematkan, dan tidak ada Google Analytics. Huruf dan gambar disajikan langsung dari situs web ini."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Untuk informasi lebih lanjut tentang bagaimana data Anda diproses, lihat Kebijakan Privasi."
+			"titulo": "4. Cara mengubah pikiran",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Anda dapat mengubah pilihan atau menarik persetujuan Anda kapan saja dari «Konfigurasi cookie», di bagian bawah setiap halaman, atau dengan tombol di halaman ini. Dari sana Anda juga dapat langsung menghapus data analisis yang terkait dengan browser Anda. Dan Anda dapat menghapus cookie dari pengaturan browser Anda."
+				}
+			]
+		},
+		{
+			"titulo": "5. Catatan pilihan Anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Setiap kali Anda menerima, menolak, atau menarik persetujuan, sebuah catatan disimpan (pengidentifikasi samaran, keputusan, versi kebijakan ini, tanggal dan waktu, halaman, bahasa, asal, dan browser), tanpa alamat IP Anda, untuk dapat membuktikan bahwa persetujuan tersebut sah. Disimpan selama 3 tahun. Detail lebih lanjut dalam kebijakan privasi."
+				}
+			]
+		},
+		{
+			"titulo": "6. Perubahan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jika kebijakan ini berubah secara signifikan, pemberitahuan cookie akan muncul kembali agar Anda dapat memutuskan lagi."
+				}
+			]
 		}
 	]
 }

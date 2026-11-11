@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Conditions générales — Mario Álvarez",
+		"description": "Mentions légales et conditions d'utilisation de marioalvarez.me : qui en est le propriétaire, comment le site peut être utilisé et quelle loi s'applique.",
+		"heading": "Conditions générales"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Qui se cache derrière ce site",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Conformément à l'article 10 de la Loi 34/2002, sur les services de la société de l'information et du commerce électronique (LSSI-CE), voici les informations concernant le propriétaire de marioalvarez.me :"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Titulaire : {nombre}",
+						"NIF : {nif}",
+						"Adresse : {domicilio}",
+						"Email : {email}",
+						"Activité : portfolio professionnel et offre de services en analyse de données, outils sur mesure, bases de données et rapports, ainsi qu'en soutien de carrière."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Que régissent ces conditions",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ces conditions régissent l'accès et l'utilisation de marioalvarez.me (le « site ») dans toutes ses langues. En y naviguant, vous acceptez de l'utiliser conformément aux dispositions des présentes. Si vous m'écrivez depuis le formulaire de contact, je vous demande de les accepter expressément en cochant une case."
+				}
+			]
+		},
+		{
+			"titulo": "3. Comment le site peut être utilisé",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vous pouvez consulter et partager les contenus en citant leur origine. Il n'est pas permis de :"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"utiliser le site à des fins illicites ou préjudiciables pour des tiers ;",
+						"tenter d'accéder à des zones restreintes (comme le panneau privé) ou aux systèmes qui l'hébergent ;",
+						"introduire des virus ou tout code malveillant, ou le surcharger de manière délibérée ;",
+						"copier les contenus pour les présenter comme siens."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Services et contractualisation",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Le site ne vend pas de produits et ne perçoit pas de paiements en ligne. Si un service vous intéresse, nous en discutons par email ou par téléphone et je vous envoie une proposition écrite comprenant la portée, le prix, les délais ainsi que les conditions de paiement et d'annulation. Cette proposition, une fois acceptée par les deux parties, régit le service et prévaut sur ces conditions."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Le fonctionnement des annulations, du droit de rétractation et des remboursements est expliqué dans la politique de remboursement."
+				}
+			]
+		},
+		{
+			"titulo": "5. Propriété intellectuelle et industrielle",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les textes, le design, le code propriétaire, le logo et les photographies de Mario Álvarez sont sa propriété ou sont utilisés avec l'autorisation de leurs auteurs. Il est interdit de les reproduire à des fins commerciales sans autorisation écrite."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Les noms et logos de tiers (tels que LinkedIn, GitHub, Instagram ou les équipes et entités mentionnées dans l'expérience) appartiennent à leurs propriétaires respectifs. Leur mention n'implique aucune relation commerciale ni aucun parrainage, sauf indication expresse contraire."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Le site utilise des ressources de tiers bénéficiant de licences qui l'autorisent : les polices Fira Sans Extra Condensed et Source Serif 4 (SIL Open Font License 1.1), les icônes Lucide (licence ISC) et Simple Icons (CC0 1.0) ainsi que la bibliothèque d'animation GSAP (licence standard gratuite de GreenSock, de Webflow). Chaque projet lié sur GitHub possède sa propre licence."
+				}
+			]
+		},
+		{
+			"titulo": "6. Responsabilité",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Je m'efforce de garantir l'exactitude des informations et la disponibilité du site, mais je ne peux pas garantir l'absence d'erreurs ou d'interruptions. Les contenus sont fournis à titre informatif et ne remplacent pas un conseil professionnel concernant votre situation spécifique."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Le site contient des liens vers des sites tiers (réseaux sociaux, dépôts, sites de projets). Je ne contrôle ni leur contenu ni leurs politiques et décline toute responsabilité à leur égard."
+				}
+			]
+		},
+		{
+			"titulo": "7. Confidentialité et cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "La manière dont vos données sont traitées et les cookies utilisés sont expliqués dans la politique de confidentialité et la politique de cookies. Aucune partie du site ne vous oblige à accepter les cookies pour pouvoir l'utiliser."
+				}
+			]
+		},
+		{
+			"titulo": "8. Registre des acceptations",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Afin de pouvoir prouver le consentement en cas de besoin (article 7.1 du RGPD), lorsque vous acceptez ces conditions dans le formulaire de contact ou que vous choisissez les cookies que vous autorisez, un enregistrement est sauvegardé comprenant : un identifiant pseudonyme, ce que vous avez accepté ou refusé, la version de chaque document, la date et l'heure, la page et la langue depuis lesquelles vous l'avez fait, l'origine (bannière, configuration ou formulaire), le navigateur et, dans le formulaire, un code de référence qui transite dans votre email. Votre adresse IP n'est pas enregistrée. Les détails se trouvent dans la politique de confidentialité."
+				}
+			]
+		},
+		{
+			"titulo": "9. Langues",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "La version espagnole de ces textes est la version originale et prévaut en cas de doute. Les autres sont des traductions automatiques fournies par commodité."
+				}
+			]
+		},
+		{
+			"titulo": "10. Modifications",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Je peux mettre à jour ces conditions afin de les adapter aux évolutions légales ou du site. La date de la version en vigueur figure au début de cette page. Si la modification est importante, je vous demanderai de les accepter à nouveau."
+				}
+			]
+		},
+		{
+			"titulo": "11. Loi applicable et juridiction",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ces conditions sont régies par la loi espagnole. Si vous agissez en tant que consommateur, vous pouvez saisir les tribunaux de votre domicile ainsi que les systèmes d'arbitrage et de résolution des litiges de consommation de votre communauté autonome. Dans tous les autres cas, les deux parties se soumettent aux tribunaux de Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

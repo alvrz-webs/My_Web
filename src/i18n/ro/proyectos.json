@@ -4,7 +4,10 @@
 		"description": "Depozite și proiecte de analiză a datelor, vizualizare și machine learning de Mario Álvarez.",
 		"eyebrow": "Proiecte",
 		"heading": "Proiecte",
-		"intro": "O privire asupra muncii mele: de la instrumente pentru ciclism profesional până la proiecte academice de analiză și machine learning."
+		"intro": "O privire asupra muncii mele: de la instrumente pentru ciclism profesional până la proiecte academice de analiză și machine learning.",
+		"cifraRepos": "depozite publice pe GitHub",
+		"cifraWebs": "site-uri web publicate",
+		"cifraHerramientas": "limbaje și instrumente"
 	},
 	"list": {
 		"eyebrow": "Muncă",

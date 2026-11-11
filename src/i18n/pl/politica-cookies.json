@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Polityka plików cookie — Mario Álvarez",
-		"description": "Jakie pliki cookie wykorzystuje ta witryna, w jakim celu oraz jak w każdej chwili zmienić swoją zgodę.",
-		"eyebrow": "Informacje prawne",
-		"heading": "Polityka plików cookie"
+		"description": "Jakie pliki cookie wykorzystuje serwis marioalvarez.me, które z nich wymagają Twojej zgody i w jaki sposób możesz w dowolnym momencie zmienić swój wybór.",
+		"heading": "Polityka plików cookie",
+		"eleccionTitulo": "Twój wybór",
+		"eleccionTexto": "Możesz w każdej chwili zmienić lub usunąć swoje dane tak samo łatwo, jak je wyraziłeś(-aś)."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Ta strona internetowa używa plików cookie i podobnych technologii (takich jak lokalna pamięć przeglądarki) w celu zapewnienia jej prawidłowego działania oraz, jeśli wyrażisz na to zgodę, w celu anonimowej analizy sposobu korzystania z treści."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Używane pliki cookie:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nazwa",
-				"Cel",
-				"Typ",
-				"Czas trwania"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Zapamiętanie Twojego wyboru dotyczącego niniejszej polityki plików cookie",
-					"Własne, techniczne (zwolnione z obowiązku wyrażenia zgody)",
-					"12 miesięcy"
-				],
-				[
-					"visitante_id",
-					"Anonimowy identyfikator służący do powiązania Twoich wizyt i sprawdzenia, które treści są przydatne",
-					"Własne, analityczne (wymagają Twojej zgody)",
-					"12 miesięcy"
-				]
+			"titulo": "1. Czym są pliki cookie i czy potrzebuję Twojej zgody",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pliki cookie i podobne technologie (takie jak pamięć lokalna przeglądarki) przechowują niewielkie ilości danych na Twoim urządzeniu. Zgodnie z hiszpańskimi przepisami oraz wytycznymi dotyczącymi korzystania z plików cookie, te z nich, które są ściśle niezbędne do realizacji usługi, o którą poprosiłeś(-aś), nie wymagają zgody; natomiast pliki cookie służące do analizy już jej wymagają."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Dlatego ta strona internetowa zapisuje plik cookie służący do analizy tylko wtedy, gdy go zaakceptujesz, i pozwala Ci na akceptację lub odrzucenie za pomocą dwóch takich samych przycisków, na tym samym ekranie i bez domyślnie zaznaczonych pól. Odmowa nie uniemożliwia korzystania z żadnej funkcji serwisu."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Żaden z tych plików cookie nie pochodzi od stron trzecich, żaden nie jest używany do celów reklamowych ani nie jest udostępniany nikomu poza tą witryną."
+			"titulo": "2. Pliki cookie wykorzystywane przez tę stronę",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nazwa",
+						"Do czego służy",
+						"Typ",
+						"Czy wymaga Twojej zgody?",
+						"Czas trwania"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Zapisanie Twojego wyboru, wersji niniejszej polityki oraz pseudonimizowanego identyfikatora Twojego rejestru zgody",
+							"Własny, techniczny",
+							"Nie",
+							"12 miesięcy"
+						],
+						[
+							"visitante_id",
+							"Pseudonimizowany identyfikator pozwalający dowiedzieć się, które treści są użyteczne",
+							"Własny, analityczny",
+							"Tak",
+							"12 miesięcy"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Zapamiętywanie preferencji jasnego lub ciemnego motywu; jest zapisywany tylko wtedy, gdy go zmienisz",
+							"Własny, dotyczący personalizacji żądanej przez użytkownika",
+							"Nie",
+							"Do momentu usunięcia"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Możesz zmienić swoją decyzję lub wycofać zgodę w dowolnym momencie, korzystając z linku „Konfiguruj pliki cookie” w stopce strony, oraz natychmiast usunąć wszystkie swoje dane za pomocą przycisku „Usuń moje dane” w tym samym panelu."
+			"titulo": "3. Czego tutaj nie ma",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nie ma tu plików cookie stron trzecich, reklam, osadzonych treści z mediów społecznościowych ani Google Analytics. Czcionki i obrazi są serwowane bezpośrednio z tej strony internetowej."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Więcej informacji na temat przetwarzania Twoich danych można znaleźć w Polityce prywatności."
+			"titulo": "4. Jak zmienić zdanie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Możesz zmienić swój wybór lub wycofać zgodę w dowolnym momencie za pomocą opcji „Konfiguruj pliki cookie” w stopce każdej strony lub za pomocą przycisku na tej stronie. Stamtąd możesz również w każdej chwili usunąć dane analityczne powiązane z Twoją przeglądarką. Możesz również usunąć pliki cookie w ustawieniach swojej przeglądarki."
+				}
+			]
+		},
+		{
+			"titulo": "5. Rejestr Twojego wyboru",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Za każdym razem, gdy akceptujesz, odrzucasz lub wycofujesz zgodę, zapisywany jest rejestr (identyfikator pseudonimizowany, decyzja, wersja niniejszej polityki, data i godzina, strona, język, źródło i przeglądarka), bez Twojego adresu IP, aby móc wykazać, że zgoda była ważna. Jest on przechowywany przez 3 lata. Więcej szczegółów znajduje się w polityce prywatności."
+				}
+			]
+		},
+		{
+			"titulo": "6. Zmiany",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jeśli niniejsza polityka ulegnie istotnej zmianie, powiadomienie o plikach cookie pojawi się ponownie, abyś mógł/mogła podjąć decyzję na nowo."
+				}
+			]
 		}
 	]
 }

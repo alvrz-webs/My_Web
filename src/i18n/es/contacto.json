@@ -3,11 +3,54 @@
 		"title": "Contacto — Mario Álvarez",
 		"description": "Ponte en contacto con Mario Álvarez para hablar de datos, rendimiento deportivo y proyectos.",
 		"eyebrow": "Contacto",
-		"heading": "¿Tienes datos y una pregunta que resolver?",
-		"intro": "Hablemos. Ya sea un proyecto de analítica deportiva, una colaboración de datos o simplemente una idea que quieras contrastar, respondo con gusto.",
+		"heading": "¿Tienes datos y una pregunta?",
+		"intro": "Hablemos. Ya sea un proyecto de analítica deportiva, una colaboración de datos o una idea que quieras contrastar, te respondo yo.",
 		"email": "Email",
 		"telefono": "Teléfono",
 		"verTelefono": "Ver teléfono",
-		"redesSociales": "Redes sociales"
+		"redesSociales": "Redes sociales",
+		"temaTitulo": "¿De qué quieres hablar?",
+		"temaAyuda": "Elige un tema y te dejo el email preparado. Solo tienes que contarme tu caso.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Análisis de rendimiento"
+			},
+			{
+				"id": "herramientas",
+				"label": "Una herramienta a medida"
+			},
+			{
+				"id": "datos",
+				"label": "Bases de datos e informes"
+			},
+			{
+				"id": "carrera",
+				"label": "Apoyo en carrera"
+			},
+			{
+				"id": "otro",
+				"label": "Otra cosa"
+			}
+		],
+		"escribir": "Escribir el email",
+		"copiar": "Copiar email",
+		"copiado": "Email copiado",
+		"asunto": "Consulta desde marioalvarez.me",
+		"cuerpo": "Hola Mario:\n\nTe escribo por: {tema}.\n\nLo que tengo:\n\nLo que me gustaría saber:\n\nGracias.",
+		"otrosCanales": "Otros canales",
+		"base": "Base",
+		"baseValor": "Benidorm y Valencia",
+		"idiomas": "Idiomas",
+		"idiomasValor": "Español, valenciano e inglés",
+		"aceptacionesTitulo": "Antes de escribirme",
+		"aceptoTerminos": "He leído y acepto los {enlace}.",
+		"enlaceTerminos": "términos y condiciones",
+		"aceptoCookies": "Acepto las cookies de análisis que describe la {enlace} (opcional).",
+		"enlaceCookies": "política de cookies",
+		"faltaTerminos": "Para escribirme, marca antes la casilla de los términos y condiciones.",
+		"primeraCapa": "Responsable: Mario Álvarez Martínez. Finalidad: responder a tu consulta y, si me lo pides, prepararte una propuesta. Legitimación: tu solicitud. Destinatarios: nadie, salvo obligación legal. Derechos: acceso, rectificación, supresión y los demás que explica la {enlace}.",
+		"enlacePrivacidad": "política de privacidad",
+		"refEmail": "Referencia de aceptación de los términos: {ref}"
 	}
 }

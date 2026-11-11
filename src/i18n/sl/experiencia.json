@@ -4,13 +4,28 @@
 		"description": "Dva svetova, isti jezik: zmogljivost. Izkušnje Maria Álvareza na področju podatkov in inženiringa ter v elitnem kolesarstvu.",
 		"eyebrow": "Izkušnje",
 		"heading": "Dva svetova, isti jezik: zmogljivost",
-		"colDatos": "Podatki & tehnologija",
+		"lead": "V bazi podatkov ali v ekipnem avtomobilu je delo enako: dobro meriti, da se bolje odločaš.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "zapisov v bazi, ki jo optimiziram pri SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "orodja v jeziku Python za ekipo Cofidis"
+			},
+			{
+				"cifra": "6.",
+				"texto": "na svetovnem in evropskem prvenstvu v velodromskem kolesarstvu"
+			}
+		],
+		"colDatos": "Podatki in tehnologija",
 		"colDeporte": "Elitni šport"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Praksa s področja podatkovne znanosti",
-			"meta": "Podatkovni inženiring · Benidorm · 2026",
+			"meta": "Podatkovni inženiring, Benidorm, 2026",
 			"paragraphs": [
 				"SIME razvija programsko opremo za upravljanje (rezervacije, obračunavanje, poročila, naročila v gostinstvu), ki služi stotim strankam iz centralnega sistema, na bazi podatkov z več kot 580 med seboj povezanimi tabelami in več kot 100 milijoni zapisov. Rast je prisilila v porazdelitev strank v več baz za razbremenitev in pritožbe glede počasnosti.",
 				"Moje delo: analiza teh baz in z optimizacijo poizvedb ter indeksov načrtovanje združitve vseh podatkov v eno samo učinkovito bazo brez skoraj nikakršnega povečanja strojne opreme (RAM/CPU). Izboljšatve so že razvite, trenutno v fazi preverjanja na testnem strežniku."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekti z ekipo Cofidis (World Tour)",
-			"meta": "Python · Poletje 2025",
+			"meta": "Python, poletje 2025",
 			"paragraphs": [
 				"Lasten projekt, ki sem ga izvedel kot preizkus za vstop v analizo podatkov v profesionalnem kolesarstvu:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Tekmovanje",
 			"paragraphs": [
 				"Španski prvak v madisonu (18 let); svetovno in evropsko prvenstvo na stezi s špansko reprezentanco (6. mesto na obeh); elitni športnik; registrirani tekmovalni kolesar na stezi."
-			]
+			],
+			"meta": "Velodromsko kolesarstvo, španska reprezentanca"
 		},
 		{
 			"title": "Športno vodenje",
 			"paragraphs": [
 				"Športni direktor I. in II. stopnje (RFEC); usposabljanje in spremljanje mlajših kolesarjev (14–18) skupaj z očetom; pomočnik v reprezentanci Valencie na tekmovanjih (2026)."
-			]
+			],
+			"meta": "RFEC, ravni I in II"
 		},
 		{
 			"title": "Kiromasaža in tehnično osebje",

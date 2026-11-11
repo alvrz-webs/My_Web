@@ -1,50 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Científico de datos especializado en deporte",
-		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Data · Sport · Progress.",
+		"description": "Mario Álvarez, científico de datos en Valencia especializado en analítica deportiva. Campeón de España de madison y director deportivo RFEC.",
 		"verProyectos": "Ver proyectos",
-		"contacto": "Contacto",
-		"verMas": "Ver más",
+		"verServicios": "Ver cómo te ayudo",
+		"contacto": "Escríbeme",
+		"verMas": "Leer más",
 		"verTodosProyectos": "Ver todos los proyectos",
-		"irAContacto": "Ir a contacto",
+		"irAContacto": "Escríbeme",
 		"herramientas": "Herramientas principales"
 	},
 	"hero": {
-		"eyebrow": "Científico de datos · Analítica deportiva · Valencia",
-		"titlePre": "Convierto datos en ",
-		"titleHighlight": "decisiones claras",
-		"subtitle": "Soy el puente entre el análisis de datos y el deporte de élite: transformo métricas de rendimiento en estrategias que marcan la diferencia sobre el terreno.",
-		"tools": ["Python", "R", "SQL", "Power BI", "Machine Learning"]
+		"kicker": "Mario Álvarez, científico de datos",
+		"title": "Fui campeón de España de madison.",
+		"subtitle": "Ahora estudio Ciencia de Datos en la UPV y analizo lo que hay detrás del rendimiento: potencia, carga y resultados. Sé lo que significa un número para un corredor porque he sido ese corredor.",
+		"palmaresLabel": "Palmarés",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Campeonato de España de madison",
+				"nota": "Pista, con 18 años"
+			},
+			{
+				"pos": "6º",
+				"texto": "Campeonato del Mundo de pista",
+				"nota": "Selección Española"
+			},
+			{
+				"pos": "6º",
+				"texto": "Campeonato de Europa de pista",
+				"nota": "Selección Española"
+			}
+		],
+		"retratoAlt": "Retrato de Mario Álvarez"
+	},
+	"servicios": {
+		"title": "En qué te puedo ayudar",
+		"text": "Trabajo con equipos, entrenadores y corredores que tienen datos y quieren sacarles partido. Y con empresas que necesitan ordenar los suyos.",
+		"cta": "Cuéntame tu caso",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Análisis de rendimiento",
+				"texto": "Leo potencia, carga y resultados con ojos de corredor. Te explico qué está pasando y qué cambiaría.",
+				"prueba": "Corredor de élite y director deportivo RFEC, niveles I y II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Herramientas a medida",
+				"texto": "Scraping, modelos y pequeñas aplicaciones en Python que responden a una pregunta concreta de tu equipo.",
+				"prueba": "Dos herramientas para el equipo Cofidis: dificultad UCI y perfil de carrera."
+			},
+			{
+				"id": "datos",
+				"nombre": "Bases de datos e informes",
+				"texto": "Consultas más rápidas, bases unificadas y cuadros de mando en Power BI que se entienden a la primera.",
+				"prueba": "Más de 580 tablas y 100 millones de registros en la base que optimizo en SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Apoyo en carrera",
+				"texto": "Preparación de carreras, seguimiento de corredores y quiromasaje en competición.",
+				"prueba": "Staff de la Selección de la Comunidad Valenciana."
+			}
+		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Sobre mí",
-		"title": "Datos con contexto de pista, carretera y competición",
-		"text": "Soy Mario Álvarez, estudiante de Ciencia de Datos en la UPV con experiencia real dentro del ciclismo profesional. Combino el análisis de datos con el rendimiento deportivo de élite, para convertir cada métrica en una decisión que mejora resultados."
+		"title": "Del velódromo a los datos",
+		"text": "Estudio 3º del Grado en Ciencia de Datos en la UPV y he terminado un máster en digitalización y tecnología aplicadas al deporte. No he salido del ciclismo: sigo corriendo en pista, dirijo a corredores de base y trabajo como quiromasajista con profesionales."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Base",
+			"value": "Benidorm y Valencia"
+		},
+		{
 			"label": "Formación",
-			"detail": "Grado en Ciencia de Datos, Universitat Politècnica de València."
+			"value": "Grado en Ciencia de Datos (UPV) y Máster en Digitalización, Innovación y Tecnología en el Deporte"
 		},
 		{
-			"value": "Élite",
-			"label": "Experiencia",
-			"detail": "Trabajo real dentro de un equipo de ciclismo profesional."
+			"label": "Títulos",
+			"value": "Director deportivo RFEC, niveles I y II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Enfoque",
-			"detail": "Analítica aplicada a la mejora del rendimiento deportivo."
+			"label": "Ahora",
+			"value": "Disponible para proyectos de datos y rendimiento"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Experiencia",
-		"title": "Dos mundos, un mismo lenguaje: el rendimiento",
-		"text": "He competido al máximo nivel y hoy aplico ese mismo criterio a los datos: entiendo lo que un número significa para un deportista porque he sido ese deportista."
+		"title": "Dos carriles, un mismo trabajo",
+		"text": "En uno optimizo bases de datos y escribo modelos. En el otro preparo carreras y sigo a corredores. Los dos van de lo mismo: medir bien para decidir mejor.",
+		"carriles": [
+			{
+				"nombre": "Datos",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tablas analizadas en SIME Telecom para unificar varias bases en una sola, sin ampliar el hardware"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "registros en la base de datos que estoy optimizando"
+					},
+					{
+						"cifra": "2",
+						"texto": "herramientas en Python para el equipo Cofidis: dificultad UCI y perfil de carrera"
+					}
+				]
+			},
+			{
+				"nombre": "Pista y carretera",
+				"items": [
+					{
+						"cifra": "I y II",
+						"texto": "niveles de director deportivo de la Real Federación Española de Ciclismo"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "años tienen los corredores de base que entreno y sigo junto a mi padre"
+					},
+					{
+						"cifra": "2026",
+						"texto": "auxiliar con la Selección de la Comunidad Valenciana en competición"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "¿Hablamos de datos?",
-		"text": "Cuéntame tu proyecto y buscamos juntos dónde están las decisiones que mejoran el rendimiento."
+		"title": "Última vuelta",
+		"text": "Si tienes datos de rendimiento y preguntas sin responder, escríbeme y lo miramos juntos."
 	}
 }

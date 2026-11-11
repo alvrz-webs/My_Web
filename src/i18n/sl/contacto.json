@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Stopite v stik z Mariom Álvarezom za pogovor o podatkih, športni uspešnosti in projektih.",
 		"eyebrow": "Kontakt",
-		"heading": "Imate podatke in vprašanje, na katerega je treba odgovoriti?",
-		"intro": "Pogovorimo se. Ne glede na to, ali gre za projekt športne analitike, podatkovno sodelovanje ali preprosto idejo, ki jo želite preveriti, vam z veseljem odgovorim.",
+		"heading": "Imate podatke in vprašanje?",
+		"intro": "Pogovoriva se. Ne glede na to, ali gre za projekt športne analitike, podatkovno sodelovanje ali idejo, ki jo želite preveriti, vam odgovarjam osebno.",
 		"email": "E-pošta",
 		"telefono": "Telefon",
 		"verTelefono": "Prikaži telefon",
-		"redesSociales": "Družbena omrežja"
+		"redesSociales": "Družbena omrežja",
+		"temaTitulo": "O čem se želite pogovoriti?",
+		"temaAyuda": "Izberite temo in pripravil vam bom e-sporočilo. Vse, kar morate storiti, je, da mi predstavite svoj primer.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analiza uspešnosti"
+			},
+			{
+				"id": "herramientas",
+				"label": "Orodje po meri"
+			},
+			{
+				"id": "datos",
+				"label": "Podatkovne baze in poročila"
+			},
+			{
+				"id": "carrera",
+				"label": "Podpora pri karieri"
+			},
+			{
+				"id": "otro",
+				"label": "Nekaj drugega"
+			}
+		],
+		"escribir": "Napiši e-sporočilo",
+		"copiar": "Kopiraj e-pošto",
+		"copiado": "E-pošta kopirana",
+		"asunto": "Poizvedba z marioalvarez.me",
+		"cuerpo": "Pozdravljeni, Mario:\n\nPišem vam glede: {tema}.\n\nKar imam:\n\nKar bi rad vedel:\n\nHvala.",
+		"otrosCanales": "Drugi kanali",
+		"base": "Osnova",
+		"baseValor": "Benidorm in Valencia",
+		"idiomas": "Jeziki",
+		"idiomasValor": "Španščina, valencijščina in angleščina",
+		"aceptacionesTitulo": "Preden mi pišete",
+		"aceptoTerminos": "Prebral/a sem in sprejemam {enlace}.",
+		"enlaceTerminos": "pogoji poslovanja",
+		"aceptoCookies": "Sprejemam analitične piškotke, ki jih opisuje {enlace} (izbirno).",
+		"enlaceCookies": "politika piškotkov",
+		"faltaTerminos": "Če mi želite pisati, najprej označite polje s pogoji poslovanja.",
+		"primeraCapa": "Upravljavec: Mario Álvarez Martínez. Namen: odgovor na vaše vprašanje in, če tako zahtevate, priprava ponudbe. Pravna podlaga: vaša zahteva. Prejemniki: nihče, razen v primeru zakonske obveznosti. Pravice: dostop, popravek, izbris in druge, kot jih pojasnjuje {enlace}.",
+		"enlacePrivacidad": "politika zasebnosti",
+		"refEmail": "Referenca sprejema pogojev: {ref}"
 	}
 }

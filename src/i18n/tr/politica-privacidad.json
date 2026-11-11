@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Gizlilik Politikası — Mario Álvarez",
-		"description": "Mario Álvarez'in web sitesinin gizlilik politikası: hangi verilerin toplandığı, hangi amaçla toplandığı ve haklarınızı nasıl kullanabileceğiniz.",
-		"eyebrow": "Yasal",
+		"description": "marioalvarez.me hangi verileri işler, ne amaçla, hangi yasal dayanakla, ne kadar süreyle ve haklarınızı nasıl kullanabilirsiniz.",
 		"heading": "Gizlilik Politikası"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Veri sorumlusu",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, Benidorm (Alicante), İspanya ikametgahlı. İletişim: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. İşleme amacı",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Bu web sitesi, içeriğini iyileştirmek amacıyla hangi içeriklerin (bölümler, projeler) ziyaretçiler için daha yararlı olduğunu dahili olarak ve yalnızca istatistiksel amaçlarla analiz eder. Reklam amaçlı kullanılmaz, üçüncü taraflarla paylaşılmaz ve hiçbir koşulda satılmaz."
-				}
-			]
-		},
-		{
-			"titulo": "3. Toplanan veriler (yalnızca analitik çerezleri kabul ederseniz)",
+			"titulo": "1. Veri Sorumlusu",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Adınız, e-postanız veya sizi doğrudan tanımlayan diğer bilgilerin hiçbirine bağlı olmayan rastgele, anonim bir tanımlayıcı.",
-						"Ziyaret ettiğiniz sayfalar ve projeler ile her birinde harcanan süre (sekme aktifken).",
-						"Etkileşimler (projelere, bağlantılara veya düğmelere tıklamalar).",
-						"Ziyaretin tarihi ve saati.",
-						"Danışılan site dili.",
-						"Cihaz türü (mobil veya masaüstü).",
-						"IP adresiniz depolanmadan, Cloudflare altyapısı aracılığıyla elde edilen yaklaşık ülke.",
-						"Gelinen sayfa (örneğin LinkedIn veya bir arama motoru)."
+						"Veri Sorumlusu: {nombre}",
+						"NIF: {nif}",
+						"Adres: {domicilio}",
+						"Gizlilikle ilgili her türlü soru için e-posta: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "IP adresiniz toplanmaz, tarayıcı tanımlama teknikleri (parmak izi) veya Google Analytics veya benzeri üçüncü taraf araçlar kullanılmaz."
+					"texto": "Boyutum ve faaliyet türüm nedeniyle bir veri koruma görevlisi atamam zorunlu değildir, dolayısıyla böyle bir görevli bulunmamaktadır: bana doğrudan yazabilirsiniz."
 				}
 			]
 		},
 		{
-			"titulo": "4. Yasal dayanak",
+			"titulo": "2. Hangi verileri işliyorum, ne amaçla ve neden",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "İşleme, sitenin kendi çerez yöneticisinden istediğiniz zaman geri çekebileceğiniz açık rızanıza dayanmaktadır (GDPR Madde 6.1.a ve LSSI-CE Madde 22.2)."
+					"tipo": "tabla",
+					"columnas": [
+						"Ne amaçla",
+						"Hangi veriler",
+						"Yasal dayanak",
+						"Ne kadar süreyle"
+					],
+					"filas": [
+						[
+							"Kullanım analitiği, yalnızca analiz çerezlerini kabul ederseniz",
+							"Rastgele takma ad içeren bir tanımlayıcı (ziyaretçi_id çerezi), görüntülediğiniz bölümler ve projeler ile her birinde geçirdiğiniz süre, bağlantılara ve düğmelere tıklamalar, dil, cihaz türü (mobil veya masaüstü), yaklaşık ülke ve her olayın gerçekleştiği web sitesi sayfası.",
+							"Rızanız (GDPR m. 6.1.a ve LSSI-CE m. 22.2).",
+							"12 ay; sonrasında her olay otomatik olarak silinir."
+						],
+						[
+							"Rıza kayıtları",
+							"Takma ad içeren tanımlayıcı, neyi kabul ettiğiniz, reddettiğiniz veya geri çektiğiniz, her belgenin versiyonu, tarih ve saat, sayfa, dil, kaynak (başlık, yapılandırma veya form), tarayıcı (kullanıcı aracısı) ve yaklaşık ülke; ayrıca formda e-postanızın referans kodu.",
+							"Rızayı kanıtlama yükümlülüğünü yerine getirme (GDPR m. 6.1.c ve 7.1).",
+							"Her kayıttan itibaren 3 yıl (LOPDGDD ihlalleri için maksimum zamanaşımı süresi); sonrasında otomatik olarak silinir."
+						],
+						[
+							"E-posta veya telefon yoluyla sorgunuza yanıt verme",
+							"Bana göndermeye karar verdiğiniz veriler: genellikle adınız, e-postanız veya telefonunuz ve mesajın içeriği.",
+							"Sizin talebiniz üzerine sözleşme öncesi önlemlerin uygulanması (GDPR m. 6.1.b) veya size yanıt vermedeki meşru menfaatim (m. 6.1.f).",
+							"Sözleşme imzalamadığımız sürece görüşme süresince ve sonrasına kadar 1 yıl."
+						],
+						[
+							"Sözleşmeli bir hizmeti yönetme",
+							"Kimlik, iletişim ve fatura bilgileri.",
+							"Sözleşmenin ifası (GDPR m. 6.1.b) ile vergi ve muhasebe yükümlülükleri (m. 6.1.c).",
+							"Vergi ve ticaret yasalarının gerektirdiği süreler (genellikle 4 ila 6 yıl arası)."
+						],
+						[
+							"Açık veya koyu temayı tercih edip etmediğinizi hatırlama",
+							"Yalnızca tarayıcınızda (yerel depolama) saklanan «tema» tercihi. Bana ulaşmaz.",
+							"Düğmeye basarak talep ettiğiniz bir işlev (LSSI-CE m. 22.2 uyarınca rızadan muaftır).",
+							"Tarayıcınızdan silene kadar."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Saklama süresi",
+			"titulo": "3. Talep etmediğim ve toplamadığım şeyler",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Veriler, son ziyaretinizden itibaren en fazla 12 ay süreyle saklanır ve bu sürenin sonunda otomatik olarak silinir."
+					"texto": "Yalnızca her amaç için kesinlikle gerekli olanları işlerim. Özellikle:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"İletişim formu adınızı, e-postanızı veya telefonunuzu istemez: e-posta programınızı açar ve bana ne göndereceğinize siz karar verirsiniz.",
+						"IP adresinizi ne analitikte ne de rıza kayıtlarında saklarım.",
+						"Tarayıcı parmak izi alma (fingerprinting) teknikleri, Google Analytics, reklam pikselleri veya üçüncü taraf çerezleri kullanmam.",
+						"Tipografiler ve görseller doğrudan bu web sitesinden sunulur: siteyi ziyaret ettiğinizde tarayıcınız Google Fonts, GitHub veya diğer harici hizmetlere bağlanmaz."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Alıcılar ve uluslararası aktarımlar",
+			"titulo": "4. Sürece dahil olan diğer taraflar",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Veriler üçüncü taraflara aktarılmaz veya satılmaz. Veri işleyici olarak hareket eden Cloudflare, Inc. tarafından sağlanan bir veritabanı hizmeti olan Cloudflare D1'de saklanır. Cloudflare, verileri Avrupa Ekonomik Alanı dışında işleyebilir; bu durumda bu aktarım, Avrupa Komisyonu tarafından onaylanan Standart Sözleşme Maddelerine dayanmaktadır. Daha fazla bilgi Cloudflare gizlilik politikasında: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Yasal bir zorunluluk olmadıkça verilerinizi kimseye satmam veya devretmem. Web sitesinin çalışması ve size yanıt verebilmem için şu sağlayıcıları kullanıyorum:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: web sitesini ve veritabanını barındırır (Cloudflare Pages ve D1) ve veri işleyen olarak hareket eder. Web sitesine hizmet vermek için erişimimin olmadığı IP'niz gibi teknik bağlantı verilerini işler. Politikası: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): e-postaları alıp yanıtladığım e-posta hizmeti; bu mesajları kendi politikasına göre işler: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Haklarınız",
+			"titulo": "5. Uluslararası veri aktarımları",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "malvmar5@hotmail.com adresine yazarak erişim, düzeltme, silme, itiraz etme, işlemeyi kısıtlama ve taşınabilirlik haklarınızı istediğiniz zaman kullanabilirsiniz. Ayrıca, sitenin çerez ayarlarında bulunan \"Verilerimi sil\" düğmesinden kimseye yazmanıza gerek kalmadan verilerinizi hemen silebilirsiniz. Haklarınızın düzgün bir şekilde ele alınmadığını düşünüyorsanız, İspanyol Veri Koruma Ajansına (www.aepd.es) şikayette bulunma hakkına da sahipsiniz."
+					"texto": "Cloudflare ve Microsoft verileri Amerika Birleşik Devletleri'nde işleyebilir. Her ikisi de AB-ABD Veri Gizliliği Çerçevesine (Avrupa Komisyonu'nun 10 Temmuz 2023 tarihli yeterlilik kararı) uygundur ve ayrıca Komisyon tarafından onaylanan standart sözleşme maddelerini sunmaktadır."
 				}
 			]
 		},
 		{
-			"titulo": "8. Bu politikadaki değişiklikler",
+			"titulo": "6. Haklarınız",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Bu politika, yasal değişikliklere veya sitenin kendisine uyum sağlamak için güncellenebilir."
+					"texto": "Benden her zaman verilerinize erişmemi, bunları düzeltmemi, silmemi, işlenmesine itiraz etmemi, işlemini kısıtlamamı veya başka bir yere taşımak için almanızı (taşınabilirlik) talep edebilir ve daha önce işlenenleri etkilemeden rızanızı geri çekebilirsiniz. {email} adresine yazın; en geç bir ay içinde size yanıt vereceğim."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analitik verilerini, çerez ayarlarındaki «Verilerimi sil» düğmesini kullanarak anında kendiniz silebilirsiniz. Rıza kaydı, rızanızı geri çekseniz bile saklanır, çünkü tam olarak ne zaman rıza verdiğinizi ve ne zaman geri çektiğinizi kanıtlamaya yarar."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Haklarınızın usulüne uygun olarak karşılanmadığını düşünüyorsanız, İspanyol Veri Koruma Ajansı'na şikayette bulunabilirsiniz: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Küçükler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web sitesi 14 yaşın altındaki çocuklara yönelik değildir. 14 yaşından küçükseniz, ebeveynlerinizin veya yasal vasilerinizin izni olmadan bana kişisel veri göndermeyin (LOPDGDD m. 7)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Güvenlik",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veriler şifrelenmiş olarak (HTTPS) taşınır ve yalnızca kullanıcı adı ve şifre ile korunan özel panelden erişilebilen bir veritabanında saklanır."
+				}
+			]
+		},
+		{
+			"titulo": "9. Bu politikadaki değişiklikler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Önemli bir şey değişirse, bu sayfayı ve sürüm tarihini güncelleyeceğim. Değişiklik çerezleri etkilerse, size tekrar sorulacaktır."
 				}
 			]
 		}

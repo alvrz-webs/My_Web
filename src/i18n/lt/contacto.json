@@ -3,11 +3,54 @@
 		"title": "Kontaktai — Mario Álvarez",
 		"description": "Susisiekite su Mario Álvarez, jei norite pasikalbėti apie duomenis, sportinįs rezultatus ir projektus.",
 		"eyebrow": "Kontaktai",
-		"heading": "Turite duomenų ir klausimą, kurį reikia išspręsti?",
-		"intro": "Pasikalbėkime. Nesvarbu, ar tai sporto analitikos projektas, duomenų bendradarbiavimas, ar tiesiog idėja, kuria norite pasidalinti – su malonumu atsakysiu.",
+		"heading": "Ar turi duomenų ir klausimą?",
+		"intro": "Pasikalbėkime. Nesvarbu, ar tai sporto analitikos projektas, duomenų bendradarbiavimas, ar idėja, kurią norite aptarti, aš jums atsakysiu pats.",
 		"email": "El. paštas",
 		"telefono": "Telefonas",
 		"verTelefono": "Rodyti telefoną",
-		"redesSociales": "Socialiniai tinklai"
+		"redesSociales": "Socialiniai tinklai",
+		"temaTitulo": "Apie ką norite pasikalbėti?",
+		"temaAyuda": "Pasirinkite temą ir aš paruošiu jums el. laišką. Tereikia papasakoti man apie savo situaciją.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Našumo analizė"
+			},
+			{
+				"id": "herramientas",
+				"label": "Individualus įrankis"
+			},
+			{
+				"id": "datos",
+				"label": "Duomenų bazės ir ataskaitos"
+			},
+			{
+				"id": "carrera",
+				"label": "Karjeros palaikymas"
+			},
+			{
+				"id": "otro",
+				"label": "Kitas dalykas"
+			}
+		],
+		"escribir": "Rašyti el. laišką",
+		"copiar": "Kopijuoti el. paštą",
+		"copiado": "El. paštas nukopijuotas",
+		"asunto": "Užklausa iš marioalvarez.me",
+		"cuerpo": "Sveiki, Mario:\n\nRašau jums dėl: {tema}.\n\nKą turiu:\n\nKo norėčiau sužinoti:\n\nAčiū.",
+		"otrosCanales": "Kiti kanalai",
+		"base": "Bazė",
+		"baseValor": "Benidormas ir Valensija",
+		"idiomas": "Kalbos",
+		"idiomasValor": "Ispanų, valonų ir anglų",
+		"aceptacionesTitulo": "Prieš parašant man",
+		"aceptoTerminos": "Perskaičiau ir sutinku su {enlace}.",
+		"enlaceTerminos": "sąlygos ir taisyklės",
+		"aceptoCookies": "Sutinku su analitiniais slapukais, aprašytais {enlace} (pasirinktinai).",
+		"enlaceCookies": "slapukų politika",
+		"faltaTerminos": "Norėdami parašyti man, pirmiausia pažymėkite sąlygų ir taisyklių langelį.",
+		"primeraCapa": "Atsakingas asmuo: Mario Álvarez Martínez. Tikslas: atsakyti į jūsų užklausą ir, jei paprašysite, paruošti jums pasiūlymą. Teisinis pagrindas: jūsų prašymas. Gavėjai: niekas, išskyrus teisinę prievolę. Teisės: prieiga, ištaisymas, ištrynimas ir kitos, kurios paaiškintos {enlace}.",
+		"enlacePrivacidad": "privatumo politika",
+		"refEmail": "Sąlygų sutikimo nuoroda: {ref}"
 	}
 }

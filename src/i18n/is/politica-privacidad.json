@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Persónuverndarstefna — Mario Álvarez",
-		"description": "Persónuverndarstefna vefsvæðis Mario Álvarez: hvaða gögnum er safnað, í hvaða tilgangi og hvernig þú nýtir réttindi þín.",
-		"eyebrow": "Lagalegt",
+		"description": "Hvaða gögn marioalvarez.me vinnur úr, í hvaða tilgangi, á hvaða laga- eða heimildargrundvelli, í hve langan tíma og hvernig þú getur nýtt þér réttindi þín.",
 		"heading": "Persónuverndarstefna"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Ábyrgðaraðili vinnslunnar",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, til heimilis í Benidorm (Alicante), Spáni. Tengiliður: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Tilgangur vinnslunnar",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Þessi vefur greinir með innri hætti og í eingöngu tölfræðilegum tilgangi hvaða efni (hlutar, verkefni) nýtast gestum best, með það að markmiði að bæta efni hans. Hann er ekki notaður í auglýsingaskyni, er ekki deilt með þriðju aðilum og er ekki seldur undir neinum kringumstæðum."
-				}
-			]
-		},
-		{
-			"titulo": "3. Gögnum sem safnað er (að því tilskildu að þ tú samþykki greiningarkökur)",
+			"titulo": "1. Ábyrgðaraðili",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Tilviljanakennt nafnlaust auðkenni, sem ekki er tengt nafni þínu, tölvupósti eða öðrum upplýsingum sem auðkenna þig beint.",
-						"Síður og verkefni sem þú heimsækir, og dvalartími á hverri síðu (á meðan flipinn er virkur).",
-						"Samskipti (smellir á verkefni, tengla eða hnappa).",
-						"Dagsetning og tími heimsóknar.",
-						"Tungumál vefsvæðisins sem skoðað er.",
-						"Tegund tækis (fartæki eða borðtölva).",
-						"Áætlað land, fengið í gegnum innviði Cloudflare, án þess að vista IP-töluna þína.",
-						"Upprunasíða (til dæmis LinkedIn eða leitarvél)."
+						"Ábyrgðaraðili: {nombre}",
+						"NIF: {nif}",
+						"Heimilisfang: {domicilio}",
+						"Tölvupóstfang fyrir allar spurningar varðandi persónuvernd: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Ekki er safnað IP-tölu þinni, engum vafraauðkenningaraðferðum (fingerprinting) er beitt, né tækjum frá þriðju aðilum eins og Google Analytics eða álíka."
+					"texto": "Vegna stærðar og eðlis starfseminnar er ekki skylt að skipa persónuverndarfulltrúa, þannig að enginn er til staðar: skrifaðu mér beint."
 				}
 			]
 		},
 		{
-			"titulo": "4. Lagalegur grundvöllur",
+			"titulo": "2. Hvaða gögn ég vinn úr, í hvaða tilgangi og hvers vegna",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Vinnslan byggir á afdráttarlausu samþykki þínu (grein 6.1.a í almennu gagnaverndarreglugerðinni og grein 22.2 í LSSI-CE), sem þú getur afturkallað hvenær sem er í kökustjórnun tól vefsvæðisins sjálfs."
+					"tipo": "tabla",
+					"columnas": [
+						"Í hvaða tilgangi",
+						"Hvaða gögn",
+						"Lagagrundvöllur",
+						"Hve lengi"
+					],
+					"filas": [
+						[
+							"Notkunargreining, aðeins ef þú samþykkir greiningarfótspor (cookies)",
+							"Tilviljunarkennt gagnaauðkenni (fótsporið visitante_id), hlutarnir og verkefnin sem þú skoðar og tíminn sem þú eyðir í hverjum þeirra, smellir á tengla og hnappa, tungumál, tækjagerð (fartölva eða borðtölva), áætlað land og vefsíðan þar sem hver atburður á sér stað.",
+							"Samþykki þitt (gr. 6.1.a GDPR og lög).",
+							"12 mánuðir; eftir það er hver atburður eytt sjálfkrafa."
+						],
+						[
+							"Skrá yfir samþykki",
+							"Gagnaauðkennið, hverju þú samþykktir, hafnaðir eða dróst til baka, útgáfa hvers skjals, dagsetning og tími, síðan, tungumálið, uppruninn (borði, Stillingar eða eyðublað), vafrinn (notendaforrit) og áætlað land; í eyðublaðinu einnig tilvísunarkóði tölvupóstsins þíns.",
+							"Að uppfylla skylduna til að geta sannað samþykki (gr. 6.1.c og 7.1 GDPR).",
+							"3 ár frá hverri skráningu (hámarksfrestur til fyrningar brota); eftir það er gögnunum eytt sjálfkrafa."
+						],
+						[
+							"Að svara fyrirspurn þinni í tölvupósti eða síma",
+							"Gögnin sem þú ákveður að senda mér: venjulega nafn þitt, tölvupóstfang eða símanúmer og innihald skilaboðanna.",
+							"Að beita ráðstöfunum fyrir samningsgerð að þinni beiðni (gr. 6.1.b GDPR) eða lögmætum hagsmunum mínum af því að svara þér (gr. 6.1.f).",
+							"Á meðan samtalið stendur yfir og í allt að 1 ár eftir það, nema við gerum samning."
+						],
+						[
+							"Að sýsla með samningsbundna þjónustu",
+							"Auðkenningar-, tengiliða- og innheimtugögn.",
+							"Framkvæmd samnings (gr. 6.1.b GDPR) og skattalegar og bókhaldslegar skyldur (gr. 6.1.c).",
+							"Það sem skatta- og viðskiptalög krefjast (almennt á milli 4 og 6 ára)."
+						],
+						[
+							"Að muna hvort þú vilt ljóst eða dökkt þema",
+							"Stillingin «tema», sem er aðeins vistuð í vfranum þínum (staðbundin geymsla). Hún berst ekki til mín.",
+							"Aðgerð sem þú biður um með því að ýta á hnappinn (undanþegin samþykki samkvæmt lögum).",
+							"Þar til þú eyðir henni úr vfranum þínum."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Varðveislutími",
+			"titulo": "3. Það sem ég bið ekki um né safna",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Gögnin eru geymd í mesta lagi í 12 mánuði frá síðustu heimsókn þinni, en að þeim tíma liðnum er þeim eytt sjálfkrafa."
+					"texto": "Ég vinn eingöngu úr því nauðsynlega í hverjum tilgangi. Nánar tiltekið:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Tengiliðablaðið biður ekki um nafn þitt, tölvupóstfang né símanúmer: það opnar tölvupóstforritið þitt og þú ákveður sjálf/ur hvað þú sendir mér.",
+						"Ég vista ekki IP-töluna þína hvorki í greiningu né í samþykkisskránni.",
+						"Ég nota ekki tækni til að bera kennsl á vafra (fingerprinting), Google Analytics, auglýsingapíxla né fótspor þriðja aðila.",
+						"Leturgerðir og myndir eru þjónaðar frá þessari sömu vefsíðu: þegar þú heimsækir hana tengist vafri þinn ekki Google Fonts, GitHub né annarri utanaðkomandi þjónustu."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Viðtakendur og alþjóðleg miðlun",
+			"titulo": "4. Hverjir aðrir koma að málum",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Gögnin eru hvorki afhent né seld þriðju aðilum. Þau eru geymd í Cloudflare D1, sem er gagnagrunnsþjónusta sem Cloudflare, Inc. veitir, sem kemur fram sem vinnsluaðili. Cloudflare getur unnið gögn utan Evrópska efnahagssvæðisins; í þeim tilvikum styðst slík miðlun við staðlaða samningsskilmála sem Evrópuframkvæmdastjórnin hefur samþykkt. Nánari upplýsingar í persónuverndarstefnu Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ég sel eða læt engum gögnin þín í té, nema samkvæmt lagaskyldu. Til þess að vefsíðan virki og til að svara þér nota ég þessa þjónustuaðila:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: hýsir vefsíðuna og gagnagrunninn (Cloudflare Pages og D1) og starfar sem vinnsluaðili. Til að þjóna vefsíðunni vinnur hún úr tæknilegum tengigögnum, svo sem IP-tölu þinni, sem ég hef ekki aðgang að. Stefna þeirra: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): tölvupóstþjónustan þar sem ég tek við og svara tölvupóstum; hún meðhöndlar þessi skilaboð samkvæmt eigin stefnu: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Réttindi þín",
+			"titulo": "5. Alþjóðlegir miðlanir",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Þú getur hvenær sem er nýtt þér réttindi þín til að fá aðgang að gögnum, leiðrétta þau, eyða þeim, mótmæla vinnslu, takmarka vinnslu og flytja gögn með því að senda tölvupóst á malvmar5@hotmail.com. Að auki geturðu eytt gögnum þínum tafarlaust, án þess að þurfa að hafa samband við neinn, með því að smella á hnappinn \"Eyða gögnunum mínum\" sem er að finna í kökustillingum vefsvæðisins. Þú átt einnig rétt á að leggja fram kvörtun hjá Spænsku persónuverndarstofnuninni (www.aepd.es) ef þ tú telur að réttindum þínum hafi ekki verið sinnt á réttan hátt."
+					"texto": "Cloudflare og Microsoft kunna að vinna úr gögnum í Bandaríkjunum. Báðir aðilar eru aðilar að persónuverndarrammanum milli ESB og Bandaríkjanna (ákvörðun framkvæmdastjórnar ESB um aðgengi frá 10. júlí 2023) og bjóða einnig upp á staðlaða samningsskilmála sem framkvæmdastjórnin hefur samþykkt."
 				}
 			]
 		},
 		{
-			"titulo": "8. Breytingar á þessari stefnu",
+			"titulo": "6. Réttindi þín",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Þessi stefna gæti verið uppfærð til að laga sig að lagabreytingum eða breytingum á vefsvæðinu sjálfu."
+					"texto": "Þú getur farið fram á það hvenær sem er að fá aðgang að gögnunum þínum, leiðrétta þau, eyða þeirra, mótmæla vinnslu þeirra, takmarka hana eða fá þau afhent til að flytja þau annað (gagnaflutningur), og draga samþykki þitt til baka án þess að það hafi áhrif á það sem þegar hefur verið unnið úr. Skrifaðu mér á {email}; ég mun svara þér innan eins mánaðar hið mesta."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Þú getur eytt greiningargögnum sjálf/ur samstundis með því að smella á hnappinn „Eyða gögnunum mínum“ í fótsporsstillingunum. Samþykkisskráin er geymd jafnvel þótt þú dróst samþykkið til baka, þar sem hún þjónar einmitt til að sanna hvenær þú veittir það og hvenær þú dróst það til baka."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ef þú telur að réttindi þín hafi ekki verið virt getur þú kært til Persónuverndar."
+				}
+			]
+		},
+		{
+			"titulo": "7. Börn",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vefsíðan er ekki ætluð börnum yngri en 14 ára. Ef þú ert yngri en 14 ára skaltu ekki senda mér persónuverndargögn án leyfis foreldra eða forsjáraðila."
+				}
+			]
+		},
+		{
+			"titulo": "8. Öryggi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gögnin ferðast dulkóðuð (HTTPS) og eru vistuð í gagnagrunni sem aðeins er hægt að nálgast úr einkaborðinu, verndað með notendanafni og lykilorði."
+				}
+			]
+		},
+		{
+			"titulo": "9. Breytingar á þessari stefnu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ef eitthvað mikilvægt breytist mun ég uppfæra þessa síðu og útgáfudag hennar. Ef breytingin hefur áhrif á fótspor verður það spurt aftur."
 				}
 			]
 		}

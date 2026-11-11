@@ -3,7 +3,13 @@
 		"title": "O meni — Mario Álvarez",
 		"description": "Od španjolskog prvaka u madisonu do studenta znanosti o podacima: putanja Marija Álvareza između vrhunskog biciklizma i sportske analitike.",
 		"eyebrow": "O meni",
-		"heading": "Od velodroma do podataka"
+		"heading": "Od velodroma do podataka",
+		"lead": "Još uvijek sam u biciklizmu, na stazi i u momčadskom automobilu. Ono što se promijenilo jest način na koji to gledam: sada također s podacima.",
+		"historiaTitulo": "Biciklist, sportski direktor i znanstven员 za podatke",
+		"fichaTitulo": "Ukratko",
+		"fichaTexto": "Najvažnije, u slučaju da se žuriš.",
+		"retratoAlt": "Portret Marija Álvareza",
+		"escenaFrase": "Prvo, noge. Sada, podaci."
 	},
 	"bio": [
 		"Počeo sam se natjecati. S 18 godina proglašen sam španjolskim prvakom u madisonu na stazi, a Španjolska biciklistička reprezentacija pozvala me na svjetska i europska prvenstva, gdje sam bio šesti na oba, što mi je donijelo status vrhunskog sportaša.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Baza",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm i Valencia"
 		},
 		{
 			"label": "Status",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fokus",
-			"value": "Podaci + sportska izvedba"
+			"value": "Podaci i sportska izvedba"
 		},
 		{
 			"label": "Jezici",
-			"value": "Španjolski materinski · Valencijski · Engleski B1"
+			"value": "španjolski (maternji), valencijski i engleski (B1)"
 		},
 		{
 			"label": "Obrazovanje",
-			"value": "Preddiplomski studij znanosti o podacima (UPV) · Magistarski studij digitalizacije, inovacija i tehnologije u sportu"
+			"value": "Prvostupnik znanosti o podacima (UPV) i magistar digitalizacije, inovacija i tehnologije u sportu"
 		}
 	]
 }

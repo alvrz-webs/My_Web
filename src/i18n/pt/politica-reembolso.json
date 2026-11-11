@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Política de reembolso — Mario Álvarez",
+		"description": "Como funcionam os cancelamentos, o direito de arrependimento e as devoluções dos serviços de Mario Álvarez.",
+		"heading": "Política de reembolso"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Este site não cobra pagamentos",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Em marioalvarez.me não se vendem produtos nem se cobram pagamentos online. Os serviços (análise de desempenho, ferramentas sob medida, bases de dados e relatórios e apoio de carreira) são contratados à parte, com uma proposta por escrito."
+				}
+			]
+		},
+		{
+			"titulo": "2. O que diz a sua proposta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cada proposta indica o preço, como e quando se paga e as condições de cancelamento. Se a proposta disser algo diferente desta política, vale a proposta, a menos que esta política lhe dê mais direitos como consumidor."
+				}
+			]
+		},
+		{
+			"titulo": "3. Se cancelar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Salvo acordo em contrário por escrito:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Se cancelar antes de o trabalho começar, devolvo integralmente qualquer pagamento adiantado.",
+						"Se cancelar com o trabalho iniciado, cobra-se apenas a parte já feita e devolvo o resto do que tiver adiantado.",
+						"O trabalho já entregue e aceite não é reembolsado, a menos que tenha defeitos que não sejam corrigidos."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Direito de desistência (se for consumidor)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Se contratar como consumidor (uma pessoa que atua fora da sua atividade profissional) e o contrato for fechado à distância, por email ou por telefone, tem 14 dias corridos desde que é fechado para desistir sem dar explicações, de acordo com os artigos 102 a 108 do texto consolidado da Lei Geral para a Defesa dos Consumidores e Utilizadores (Real Decreto Legislativo 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Se me pedir expressamente para começar a trabalhar dentro desses 14 dias e depois desistir, pagará apenas a parte proporcional do serviço prestado até esse momento. Se o serviço tiver sido totalmente concluído dentro do prazo, com o seu consentimento prévio e expresso e sabendo que assim perde este direito, já não poderá desistir (artigo 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Como pedir",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Escreva-me para {email} com o seu nome, o serviço e a data em que o contratou. Pode usar este modelo de formulário de desistência (não é obrigatório):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"À atenção de {nombre}, {domicilio}, {email}:",
+						"Por meio desta comunico que desisto do meu contrato de prestação do seguinte serviço: [servicio].",
+						"Contratado em: [fecha].",
+						"Nome do consumidor: [nombre].",
+						"Morada do consumidor: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Prazo e forma da devolução",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Devolvo o que corresponder num máximo de 14 dias corridos desde que me comunique a sua decisão, pelo mesmo meio de pagamento que usou, a menos que acordemos outro. A devolução não tem qualquer custo para si."
+				}
+			]
+		}
+	]
+}

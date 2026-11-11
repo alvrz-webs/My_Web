@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez adatelemzési, vizualizációs és gépi tanulási repozitóriumai és projektjei.",
 		"eyebrow": "Projektek",
 		"heading": "Projektek",
-		"intro": "Betekintés a munkámba: a profi kerékpározáshoz készült eszközöktől az akadémiai elemzési és gépi tanulási projektekig."
+		"intro": "Betekintés a munkámba: a profi kerékpározáshoz készült eszközöktől az akadémiai elemzési és gépi tanulási projektekig.",
+		"cifraRepos": "nyilvános GitHub-adattárak",
+		"cifraWebs": "közzétett weboldalak",
+		"cifraHerramientas": "nyelvek és eszközök"
 	},
 	"list": {
 		"eyebrow": "Munka",

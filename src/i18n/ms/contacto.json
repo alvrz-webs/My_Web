@@ -3,11 +3,54 @@
 		"title": "Hubungi — Mario Álvarez",
 		"description": "Hubungi Mario Álvarez untuk membincangkan data, prestasi sukan dan projek.",
 		"eyebrow": "Hubungi",
-		"heading": "Adakah anda mempunyai data dan soalan yang perlu diselesaikan?",
-		"intro": "Mari berbincang. Sama ada projek analitis sukan, kolaborasi data atau sekadar idea yang ingin anda bincangkan, saya dengan senang hati akan membalasnya.",
+		"heading": "Adakah anda mempunyai data dan soalan?",
+		"intro": "Mari kita berbincang. Sama ada projek analitis sukan, kolaborasi data atau idea yang ingin anda bincangkan, saya sendiri akan membalasnya.",
 		"email": "E-mel",
 		"telefono": "Telefon",
 		"verTelefono": "Lihat telefon",
-		"redesSociales": "Media sosial"
+		"redesSociales": "Media sosial",
+		"temaTitulo": "Apakah yang anda ingin bincangkan?",
+		"temaAyuda": "Pilih topik dan saya akan sediakan e-mel untuk anda. Anda hanya perlu ceritakan kes anda.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analisis prestasi"
+			},
+			{
+				"id": "herramientas",
+				"label": "Alat khas"
+			},
+			{
+				"id": "datos",
+				"label": "Pangkalan data dan laporan"
+			},
+			{
+				"id": "carrera",
+				"label": "Sokongan kerjaya"
+			},
+			{
+				"id": "otro",
+				"label": "Lain-lain"
+			}
+		],
+		"escribir": "Tulis e-mel",
+		"copiar": "Salin e-mel",
+		"copiado": "E-mel disalin",
+		"asunto": "Pertanyaan dari marioalvarez.me",
+		"cuerpo": "Helo Mario:\n\nSaya menulis mengenai: {tema}.\n\nApa yang saya ada:\n\nApa yang saya ingin tahu:\n\nTerima kasih.",
+		"otrosCanales": "Saluran lain",
+		"base": "Pangkalan",
+		"baseValor": "Benidorm dan Valencia",
+		"idiomas": "Bahasa",
+		"idiomasValor": "Sepanyol, Valencia dan Inggeris",
+		"aceptacionesTitulo": "Sebelum anda menulis kepada saya",
+		"aceptoTerminos": "Saya telah membaca dan menerima {enlace}.",
+		"enlaceTerminos": "terma dan syarat",
+		"aceptoCookies": "Saya menerima kuki analisis yang diterangkan dalam {enlace} (pilihan).",
+		"enlaceCookies": "dasar kuki",
+		"faltaTerminos": "Untuk menulis kepada saya, sila tandakan kotak terma dan syarat terlebih dahulu.",
+		"primeraCapa": "Pihak yang bertanggungjawab: Mario Álvarez Martínez. Tujuan: membalas pertanyaan anda dan, jika anda memintanya, menyediakan cadangan untuk anda. Pengesahan: permintaan anda. Penerima: tiada siapa, melainkan diwajibkan oleh undang-undang. Hak: akses, pembetulan, pemadaman dan lain-lain seperti yang dijelaskan dalam {enlace}.",
+		"enlacePrivacidad": "dasar privasi",
+		"refEmail": "Rujukan penerimaan terma: {ref}"
 	}
 }

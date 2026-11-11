@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Cookie Siyasəti — Mario Álvarez",
-		"description": "Bu saytın hansı kukilərdən istifadə etdiyi, hansı məqsədlərlə və razılığınızı istənilən vaxt necə dəyişə biləcəyiniz.",
-		"eyebrow": "Hüquqi",
-		"heading": "Cookie Siyasəti"
+		"version": "2026-11-10",
+		"title": "Kuki siyasəti — Mario Álvarez",
+		"description": "marioalvarez.me saytının hansı kukilərdən istifadə etdiyi, hansıların sizin icazənizə ehtiyac duyduğu və seçiminizi istənilən vaxt necə dəyişdirə biləcəyiniz.",
+		"heading": "Kuki siyasəti",
+		"eleccionTitulo": "Sizin seçiminiz",
+		"eleccionTexto": "İstədiyiniz zaman məlumatlarınızı dəyişə və ya silə bilərsiniz, bunu vermək nə qədər asan idisə, silmək də o qədər asandır."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Bu veb sayt düzgün işləməsi üçün kukilərdən və oxşar texnologiyalardan (brauzerin yerli yaddaşı kimi) və əgər razılıq versəniz, məzmunun necə istifadə olunduğunu anonim şəkildə təhlil etmək üçün istifadə edir."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "İstifadə olunan kukilər:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Ad",
-				"Məqsəd",
-				"Növ",
-				"Müddət"
-			],
-			"filas": [
-				[
-					"cookie_raziligi",
-					"Bu kuki siyasəti ilə bağlı seçiminizi xatırlamaq",
-					"Şəxsi, texniki (razılıq tələb olunmur)",
-					"12 ay"
-				],
-				[
-					"ziyaretci_id",
-					"Ziyarətlərinizi əlaqələndirmək və hansı məzmunun faydalı olduğunu bilmək üçün anonim identifikator",
-					"Şəxsi, analitik (razılığınızı tələb edir)",
-					"12 ay"
-				]
+			"titulo": "1. Kukilərin nə olduğu və icazənizə ehtiyac olub-olmadığı",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kukilər və oxşar texnologiyalar (məsələn, brauzerin lokal yaddaşı) cihazınızda kiçik məlumatlar saxlayır. AEPD-nin kuki istifadəsi üzrə təlimatına əsasən, birbaşa tələb etdiyiniz hər hansı bir şey üçün qəti şəkildə zəruri olanlar razılıq tələb etmir, lakin analitik kukilər tələb edir."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Məhz buna görə də bu veb-sayt yalnız siz qəbul etdiyiniz təqdirdə analitik kuki saxlayır və sizə eyni ekranda, əvvəlcədən işarələnmiş xanalar olmadan iki bərabər düymə ilə qəbul etmək və ya rədd etmək imkanı verir. Onu rədd etmək saytın heç bir funksiyasından istifadə etməyinizə mane olmur."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Bu kukilərin heç biri üçüncü tərəfə məxsus deyil, heç biri reklam məqsədləri üçün istifadə olunmur və bu saytdan kənarda heç kimlə paylaşılmır."
+			"titulo": "2. Bu saytın istifadə etdiyi kukilər",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Ad",
+						"Nə üçün istifadə olunur",
+						"Növ",
+						"İcazəniz lazımdırmı?",
+						"Müddət"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Seçiminizi, bu siyasətin versiyasını və razılıq qeydinizin təxəllüslü identifikatorunu yadda saxlamaq",
+							"Şəxsi, texniki",
+							"Xeyr",
+							"12 ay"
+						],
+						[
+							"visitante_id",
+							"Hansı məzmunun faydalı olduğunu bilmək üçün təxəllüslü identifikator",
+							"Şəxsi, analitik",
+							"Bəli",
+							"12 ay"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Açıq və ya təmli mövzuya üstünlük verdiyinizi xatırlamaq; yalnız onu dəyişdirdiyiniz zaman yadda saxlanılır",
+							"Şəxsi, sizin tələb etdiyiniz fərdiləşdirmə",
+							"Xeyr",
+							"Onu silənə qədər"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Siz səhifənin aşağı hissəsindəki \"Kukiləri konfiqurasiya et\" keçidindən istifadə edərək istənilən vaxt qərarınızı dəyişə və ya razılığınızı geri götürə bilərsiniz və həmin paneldəki \"Məlumatlarımı sil\" düyməsi ilə bütün məlumatlarınızı dərhal silə bilərsiniz."
+			"titulo": "3. Burada olmayanlar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Üçüncü tərəf kukiləri, reklam, yerləşdirilmiş sosial media məzmunu və ya Google Analytics yoxdur. Şriftlər və şəkillər birbaşa bu veb-saytdan təqdim olunur."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Məlumatlarınızın necə emal olunduğu haqqında ətraflı məlumat üçün Məxfilik Siyasətinə baxın."
+			"titulo": "4. Fikrinizi necə dəyişmək olar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hər səhifənin altbilgisindəki «Kukiləri tənzimləmək» bölməsindən və ya bu səhifədəki düymə vasitəsilə istədiyiniz zaman seçiminizi dəyişə və ya razılığınızı geri götürə bilərsiniz. Oradan həmçinin brauzerinizlə əlaqəli analitik məlumatları dərhal silə bilərsiniz. Həmçinin brauzerinizin ayarlarından kukiləri silə bilərsiniz."
+				}
+			]
+		},
+		{
+			"titulo": "5. Seçiminizin qeydiyyatı",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Razılığı qəbul etdiyiniz, rədd etdiyiniz və ya geri götürdüyünüz hər dəfə razılığın etibarlı olduğunu sübut etmək üçün IP ünvanınız olmadan bir qeyd (təxəllüslü identifikator, qərar, bu siyasətin versiyası, tarix və saat, səhifə, dil, mənbə və brauzer) saxlanılır. 3 il müddətində saxlanılır. Ətraflı məlumat məxfilik siyasətində."
+				}
+			]
+		},
+		{
+			"titulo": "6. Dəyişikliklər",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Əgər bu siyasət əsaslı şəkildə dəyişərsə, yenidən qərar verməyiniz üçün kuki bildirişi yenidən görünəcək."
+				}
+			]
 		}
 	]
 }

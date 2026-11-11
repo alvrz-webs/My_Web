@@ -4,7 +4,10 @@
 		"description": "Repositories en projecten voor gegevensanalyse, visualisatie en machine learning van Mario Álvarez.",
 		"eyebrow": "Projecten",
 		"heading": "Projecten",
-		"intro": "Een blik op mijn werk: van tools voor professioneel wielrennen tot academische analyse- en machine-learningprojecten."
+		"intro": "Een blik op mijn werk: van tools voor professioneel wielrennen tot academische analyse- en machine-learningprojecten.",
+		"cifraRepos": "openbare repositories op GitHub",
+		"cifraWebs": "gepubliceerde websites",
+		"cifraHerramientas": "talen en tools"
 	},
 	"list": {
 		"eyebrow": "Werk",

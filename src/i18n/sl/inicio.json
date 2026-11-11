@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Podatkovni znanstvenik, specializiran za šport",
-		"description": "Mario Álvarez, podatkovni znanstvenik iz Valencie, specializiran za športno analitiko. Data · Sport · Progress.",
+		"description": "Mario Álvarez, podatkovni znanstvenik iz Valencie, specializiran za športno analitiko. Španski prvak v madisonu in športni direktor RFEC.",
 		"verProyectos": "Oglejte si projekte",
-		"contacto": "Kontakt",
-		"verMas": "Poglej več",
+		"verServicios": "Preverite, kako vam lahko pomagam",
+		"contacto": "Pišite mi",
+		"verMas": "Preberi več",
 		"verTodosProyectos": "Poglej vse projekte",
-		"irAContacto": "Pojdi na kontakt",
+		"irAContacto": "Pišite mi",
 		"herramientas": "Glavna orodja"
 	},
 	"hero": {
-		"eyebrow": "Podatkovni znanstvenik · Športna analitika · Valencia",
-		"titlePre": "Podatke spreminjam v ",
-		"titleHighlight": "jasne odločitve",
-		"subtitle": "Sem most med analizo podatkov in vrhunskim športom: metrike zmogljivosti spreminjam v strategije, ki naredijo razliko na terenu.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, podatkovni znanstvenik",
+		"title": "Bil sem španski prvak v madisonu.",
+		"subtitle": "Zdaj študiram podatkovno znanost na univerzi UPV (Universitat Politècnica de València) in analiziram to, kar se skriva za zmogljivostjo: moč, obremenitev in rezultate. Vem, kaj številka pomeni za kolesarja, ker sem bil sam tisti kolesar.",
+		"palmaresLabel": "Dosežki",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Špansko prvenstvo v madisonu",
+				"nota": "Pista, pri 18 letih"
+			},
+			{
+				"pos": "6.",
+				"texto": "Svetovno prvenstvo na stezi",
+				"nota": "Španska reprezentanca"
+			},
+			{
+				"pos": "6.",
+				"texto": "Evropsko prvenstvo na stezi",
+				"nota": "Španska reprezentanca"
+			}
+		],
+		"retratoAlt": "Portret Maria Álvareza"
+	},
+	"servicios": {
+		"title": "Pri čem vam lahko pomagam",
+		"text": "Sodelujem z ekipami, trenerji in kolesarji, ki imajo podatke in jih želijo bolje izkoristiti. Ter s podjetji, ki morajo urediti svoje.",
+		"cta": "Predstavite mi svoj primer",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analiza zmogljivosti",
+				"texto": "Moč, obremenitev in rezultate berem z očmi kolesarja. Pojasnim vam, kaj se dogaja in kaj bi bilo treba spremeniti.",
+				"prueba": "Elitni kolesar in športni direktor RFEC, stopnji I in II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Orodja po meri",
+				"texto": "Spletno strganje (scraping), modeli in majhne aplikacije v Pythonu, ki odgovarjajo na konkretno vprašanje vaše ekipe.",
+				"prueba": "Dve orodji za ekipo Cofidis: težavnost UCI in profil dirke."
+			},
+			{
+				"id": "datos",
+				"nombre": "Baze podatkov in poročila",
+				"texto": "Hitrejše poizvedbe, poenotene baze podatkov in nadzorne plošče v programu Power BI, ki so razumljive na prvi pogled.",
+				"prueba": "Več kot 580 tabel in 100 milijonov zapisov v bazi podatkov, ki jo optimiziram v podjetju SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Podpora na dirki",
+				"texto": "Priprava na dirke, spremljanje kolesarjev in športna masaža na tekmovanjih.",
+				"prueba": "Osebje reprezentance Valencijske skupnosti."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "O meni",
-		"title": "Podatki s kontekstom s steze, ceste in tekmovanj",
-		"text": "Sem Mario Álvarez, študent podatkovne znanosti na UPV z izkušnjami iz resničnega sveta v profesionalnem kolesarstvu. Združujem analizo podatkov in vrhunsko športno uspešnost, da vsako metriko pretvorim v odločitev, ki izboljšuje rezultate."
+		"title": "Iz velodroma do podatkov",
+		"text": "Obiskujem 3. letnik dodiplomskega študija podatkovne znanosti na univerzi UPV in zaključil sem magistrski študij digitalizacije in tehnologije, uporabljene v športu. Nisem zapustil kolesarstva: še vedno tekmujem na stezi, vodim mlade kolesarje in delam kot maser s profesionalci."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Izobraževanje",
-			"detail": "Diplomski študij podatkovne znanosti, Universitat Politècnica de València."
+			"label": "Baza",
+			"value": "Benidorm in Valencia"
 		},
 		{
-			"value": "Elita",
-			"label": "Izkušnje",
-			"detail": "Resnično delo znotraj profesionalne kolesarske ekipe."
+			"label": "Izobrazba",
+			"value": "Diploma iz podatkovne znanosti (UPV) in magisterij iz digitalizacije, inovacij in tehnologije v športu"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pristop",
-			"detail": "Analitika, uporabljena za izboljšanje športne uspešnosti."
+			"label": "Nazivi",
+			"value": "Športni direktor RFEC, stopnji I in II"
+		},
+		{
+			"label": "Zdaj",
+			"value": "Na voljo za projekte s področja podatkov in zmogljivosti"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Izkušnje",
-		"title": "Dva sveta, enak jezik: zmogljivost",
-		"text": "Tekmoval sem na najvišji ravni in danes uporabljam isto merilo za podatke: razumem, kaj število pomeni za športnika, ker sem bil tisti športnik."
+		"title": "Dva pasu, isto delo",
+		"text": "V enem optimiziram baze podatkov in pišem modele. V drugem pripravljam dirke in spremljam kolesarje. Oboje vodi k istemu cilju: dobro meriti za boljše odločanje.",
+		"carriles": [
+			{
+				"nombre": "Podatki",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "analiziranih tabel v podjetju SIME Telecom za združitev več baz v eno samo, brez širitve strojne opreme"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "zapisov v bazi podatkov, ki jo optimiziram"
+					},
+					{
+						"cifra": "2",
+						"texto": "orodji v Pythonu za ekipo Cofidis: težavnost UCI in profil dirke"
+					}
+				]
+			},
+			{
+				"nombre": "Steza in cesta",
+				"items": [
+					{
+						"cifra": "I in II",
+						"texto": "stopnji športnega direktorja Španske kolesarske zveze"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "let imajo mlajši kolesarji, ki jih treniram in spremljam skupaj z očetom"
+					},
+					{
+						"cifra": "2026",
+						"texto": "pomočnik v tekmovalni reprezentanci Valencijske skupnosti"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Govoriva o podatkih?",
-		"text": "Predstavite mi svoj projekt in skupaj poiščimo odločitve, ki izboljšujejo uspešnost."
+		"title": "Zadnji krog",
+		"text": "Če imaš podatke o uspešnosti in neodgovorjena vprašanja, mi piši, pa si jih skupaj ogledava."
 	}
 }

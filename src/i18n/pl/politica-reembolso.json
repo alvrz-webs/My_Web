@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Polityka zwrotów — Mario Álvarez",
+		"description": "Jak działają anulowania, prawo odstąpienia od umowy oraz zwroty usług świadczonych przez Mario Álvarez.",
+		"heading": "Polityka zwrotów"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ta strona internetowa nie pobiera opłat",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Na marioalvarez.me nie sprzedaje się produktów ani nie pobiera płatności online. Usługi (analiza wydajności, niestandardowe narzędzia, bazy danych i raporty oraz wsparcie kariery) są zamawiane osobno, na podstawie pisemnej oferty."
+				}
+			]
+		},
+		{
+			"titulo": "2. To, co mówi Twoja oferta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Każda oferta określa cenę, sposób i termin płatności oraz warunki anulowania. Jeśli oferta mówi coś innego niż niniejsza polityka, pierwszeństwo ma oferta, chyba że niniejsza polityka przyznaje Ci większe prawa jako konsumentowi."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jeśli anulujesz",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "O ile nie uzgodniono inaczej na piśmie:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Jeśli anulujesz przed rozpoczęciem pracy, zwrócę Ci w całości każdą wpłaconą zaliczkę.",
+						"Jeśli anulujesz po rozpoczęciu pracy, pobierana jest opłata tylko za część już wykonaną, a resztę wpłaconej kwoty Ci zwrócę.",
+						"Praca już dostarczona i zaakceptowana nie podlega zwrotowi, chyba że posiada wady, które nie zostały usunięte."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Prawo odstąpienia od umowy (jeśli jesteś konsumentem)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jeśli zawierasz umowę jako konsument (osoba działająca poza swoją działalnością zawodową) i umowa zostaje zawarta na odległość, przez email lub telefon, masz 14 dni kalendarzowych od dnia jej zawarcia na odstąpienie od umowy bez podawania przyczyny."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jeśli poprosisz mnie wyraźnie o rozpoczęcie pracy w ciągu tych 14 dni, a następnie odstąpisz od umowy, zapłacisz tylko proporcjonalną część usługi świadczonej do tego momentu. Jeśli usługa została w pełni wykonana w terminie, za Twoją uprzednią i wyraźną zgodą oraz ze świadomością, że tracisz tym samym to prawo, nie będziesz już mógł odstąpić od umowy."
+				}
+			]
+		},
+		{
+			"titulo": "5. Jak złożyć wniosek",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Napisz do mnie na {email}, podając swoje imię i nazwisko, nazwę usługi oraz datę jej zamówienia. Możesz skorzystać z tego wzoru formularza odstąpienia od umowy (nie jest to obowiązkowe):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Do {nombre}, {domicilio}, {email}:",
+						"Niniejszym informuję o moim odstąpieniu od umowy świadczenia następującej usługi: [servicio].",
+						"Zamówiono dnia: [fecha].",
+						"Imię i nazwisko konsumenta: [nombre].",
+						"Adres konsumenta: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Termin i sposób zwrotu środków",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Zwrócę należną kwotę w maksymalnym terminie 14 dni kalendarzowych od dnia poinformowania mnie o Twojej decyzji, przy użyciu takiej samej metody płatności, jakiej użyłeś, chyba że uzgodnimy inaczej. Zwrot środków nie wiąże się dla Ciebie z żadnymi kosztami."
+				}
+			]
+		}
+	]
+}

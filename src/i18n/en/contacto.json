@@ -3,11 +3,54 @@
 		"title": "Contact — Mario Álvarez",
 		"description": "Get in touch with Mario Álvarez to talk about data, sports performance and projects.",
 		"eyebrow": "Contact",
-		"heading": "Got data and a question to solve?",
-		"intro": "Let's talk. Whether it's a sports analytics project, a data collaboration, or just an idea you want to bounce off someone, I'm happy to respond.",
+		"heading": "Got data and a question?",
+		"intro": "Let's talk. Whether it's a sports analytics project, a data collaboration or an idea you want to test, I'll answer you myself.",
 		"email": "Email",
 		"telefono": "Phone",
 		"verTelefono": "Show phone number",
-		"redesSociales": "Social media"
+		"redesSociales": "Social media",
+		"temaTitulo": "What would you like to talk about?",
+		"temaAyuda": "Pick a topic and I'll have the email ready for you. You just tell me about your case.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Performance analysis"
+			},
+			{
+				"id": "herramientas",
+				"label": "A custom tool"
+			},
+			{
+				"id": "datos",
+				"label": "Databases and reporting"
+			},
+			{
+				"id": "carrera",
+				"label": "Race support"
+			},
+			{
+				"id": "otro",
+				"label": "Something else"
+			}
+		],
+		"escribir": "Write the email",
+		"copiar": "Copy email",
+		"copiado": "Email copied",
+		"asunto": "Enquiry from marioalvarez.me",
+		"cuerpo": "Hi Mario,\n\nI'm writing about: {tema}.\n\nWhat I have:\n\nWhat I'd like to know:\n\nThanks.",
+		"otrosCanales": "Other channels",
+		"base": "Based in",
+		"baseValor": "Benidorm and Valencia, Spain",
+		"idiomas": "Languages",
+		"idiomasValor": "Spanish, Valencian and English",
+		"aceptacionesTitulo": "Before you write",
+		"aceptoTerminos": "I have read and accept the {enlace}.",
+		"enlaceTerminos": "terms and conditions",
+		"aceptoCookies": "I accept the analytics cookies described in the {enlace} (optional).",
+		"enlaceCookies": "cookie policy",
+		"faltaTerminos": "To write to me, first tick the terms and conditions box.",
+		"primeraCapa": "Controller: Mario Álvarez Martínez. Purpose: replying to your enquiry and, if you ask, preparing a proposal. Legal basis: your request. Recipients: no one, unless required by law. Rights: access, rectification, erasure and the others explained in the {enlace}.",
+		"enlacePrivacidad": "privacy policy",
+		"refEmail": "Terms acceptance reference: {ref}"
 	}
 }

@@ -4,13 +4,28 @@
 		"description": "To verdener, samme språk: ytelse. Mario Álvarez' erfaring innen data og ingeniørkunst, og i elitesykling.",
 		"eyebrow": "Erfaring",
 		"heading": "To verdener, samme språk: ytelse",
+		"lead": "I en database eller i lagbilen er arbeidet det samme: å måle godt for å beslutte bedre.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "poster i databasen jeg optimaliserer hos SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "verktøy i Python for Cofidis-laget"
+			},
+			{
+				"cifra": "6.",
+				"texto": "i VM og EM i bane"
+			}
+		],
 		"colDatos": "Data og teknologi",
 		"colDeporte": "Elitesport"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Praksisplass innen datavitenskap",
-			"meta": "Datateknikk · Benidorm · 2026",
+			"meta": "Datateknikk, Benidorm, 2026",
 			"paragraphs": [
 				"SIME utvikler programvare for administrasjon (reservasjoner, fakturering, rapporter, restaurantbestillinger) som betjener hundrevis av kunder fra et sentralt system, på en database med over 580 sammenkoblede tabeller og over 100 millioner oppføringer. Veksten hadde tvunget frem en oppdeling av kunder på flere databaser for å avlaste lasten og klager på treghet.",
 				"Mitt arbeid: analysere disse databasene og, gjennom optimalisering av spørringer og indekser, utforme samlingen av all data i en enkelt effektiv database uten knapt å skalere maskinvaren (RAM/CPU). Forbedring allerede utviklet, i valideringsfase på testserver."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Prosjekter med Cofidis-laget (World Tour)",
-			"meta": "Python · Sommeren 2025",
+			"meta": "Python, sommeren 2025",
 			"paragraphs": [
 				"Eget prosjekt som jeg utførte som en prøve for å få tilgang til dataanalyse i profesjonell sykling:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Konkurranse",
 			"paragraphs": [
 				"Spansk mester i madison (18 år); VM og EM på bane med det spanske landslaget (6. plass i begge); elitesportutøver; lisensiert banesyklist, aktiv."
-			]
+			],
+			"meta": "Banesykling, Det spanske landslaget"
 		},
 		{
 			"title": "Sportslig ledelse",
 			"paragraphs": [
 				"Sportsdirektør nivå I og II (RFEC); opplæring og oppfølging av grusryttere (14–18) sammen med min far; assistent for landslaget i Valencia-regionen i konkurranser (2026)."
-			]
+			],
+			"meta": "RFEC, nivå I og II"
 		},
 		{
 			"title": "Idrettsmassasje og teknisk stab",

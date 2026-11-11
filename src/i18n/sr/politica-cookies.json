@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Politika kolačića — Mario Álvarez",
-		"description": "Koje kolačiće ovaj sajt koristi, u koju svrhu i kako možete promeniti svoj pristanak u bilo kom trenutku.",
-		"eyebrow": "Pravno",
-		"heading": "Politika kolačića"
+		"description": "Koje kolačiće koristi marioalvarez.me, za koje je potrebna vaša dozvola i kako možete promeniti svoj izbor u bilo kom trenutku.",
+		"heading": "Politika kolačića",
+		"eleccionTitulo": "Vaš izbor",
+		"eleccionTexto": "Možete ga promeniti ili obrisati svoje podatke kad god želite, isto tako lako kao što ste ih dali."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Ova veb lokacija koristi kolačiće i slične tehnologije (kao što je lokalno skladištenje pretraživača) za svoj pravilan rad i, uz vaš pristanak, za anonimnu analizu korišćenja sadržaja."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Korišćeni kolačići:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Naziv",
-				"Svrha",
-				"Tip",
-				"Trajanje"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Pamćenje vašeg izbora u vezi sa politikom kolačića",
-					"Sopstveni, tehnički (izuzet od pristanka)",
-					"12 meseci"
-				],
-				[
-					"visitante_id",
-					"Anonimni identifikator za povezivanje vaših poseta i utvrđivanje koji je sadržaj koristan",
-					"Sopstveni, analitički (zahteva vaš pristanak)",
-					"12 meseci"
-				]
+			"titulo": "1. Šta su i da li mi je potrebna vaša dozvola",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kolačići i slične tehnologije (poput lokalnog skladištenja u pretraživaču) čuvaju male podatke na vašem uređaju. U skladu sa važećim propisima o zaštiti podataka, oni koji su striktno neophodni za uslugu koju ste zatražili ne zahtevaju pristanak; analitički kolačići zahtevaju."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Zato ovaj veb-sajt čuva analitički kolačić samo ako ga prihvatite, i omogućava vam da prihvatite ili odbijete pomoću dva jednaka dugmeta, na istom ekranu i bez unapred označenih polja. Odbijanje vas ne sprečava da koristite bilo koji deo veb-sajta."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Nijedan od ovih kolačića nije od trećih strana, nijedan se ne koristi u reklamne svrhe i nijedan se ne deli ni sa kim van ovog sajta."
+			"titulo": "2. Kolačići koje koristi ovaj veb-sajt",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Naziv",
+						"Čemu služi",
+						"Vrsta",
+						"Da li je potrebna vaša dozvola?",
+						"Trajanje"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Čuvanje vašeg izbora, verzije ove politike i pseudonimizovanog identifikatora vašeg zapisa o pristanku",
+							"Sopstveni, tehnički",
+							"Ne",
+							"12 meseci"
+						],
+						[
+							"visitante_id",
+							"Pseudonimizovani identifikator radi saznanja koji sadržaji su korisni",
+							"Sopstveni, analitički",
+							"Da",
+							"12 meseci"
+						],
+						[
+							"tema (lokalno skladištenje)",
+							"Pamćenje da li preferirate svetlu ili tamnu temu; čuva se samo ako je promenite",
+							"Sopstveni, za personalizaciju koju ste zatražili",
+							"Ne",
+							"Dok ih ne obrišete"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Svoju odluku možete promeniti ili povući pristanak u bilo kom trenutku putem veze \"Konfiguriši kolačiće\" u podnožju stranice, i odmah izbrisati sve svoje podatke pomoću dugmeta \"Izbriši moje podatke\" na istoj kontrolnoj tabli."
+			"titulo": "3. Ono čega nema",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nema kolačića trećih strana, ni oglašavanja, ni ugrađenih sadržaja društvenih mreža, ni Google Analytics-a. Fontovi i slike se serviraju sa ovog istog veb-sajta."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Za više informacija o tome kako se postupa sa vašim podacima, pogledajte Politiku privatnosti."
+			"titulo": "4. Kako promeniti mišljenje",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Možete promeniti svoj izbor ili povući pristanak kad god želite putem opcije „Konfiguriši kolačiće“ u podnožju svake stranice, ili pomoću dugmeta na ovoj stranici. Odatle takođe možete u trenutku obrisati analitičke podatke povezane sa vašim pretraživačem. Takođe možete obrisati kolačiće kroz podešavanja svog pretraživača."
+				}
+			]
+		},
+		{
+			"titulo": "5. Zapis vašeg izbora",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Svaki put kada prihvatite, odbijete ili povučete pristanak, čuva se zapis (pseudonimizovani identifikator, odluka, verzija ove politike, datum i vreme, stranica, jezik, izvor i pretraživač), bez vaše IP adrese, kako bi se moglo dokazati da je pristanak bio važeći. Čuva se 3 godine. Više detalja u politici privatnosti."
+				}
+			]
+		},
+		{
+			"titulo": "6. Promene",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ako se ova politika značajno promeni, obaveštenje o kolačićima će se ponovo pojaviti kako biste mogli ponovo da odlučite."
+				}
+			]
 		}
 	]
 }

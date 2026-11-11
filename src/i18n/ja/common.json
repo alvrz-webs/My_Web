@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "ホーム",
 		"sobreMi": "私について",
 		"proyectos": "プロジェクト",
 		"experiencia": "経歴",
@@ -7,10 +8,22 @@
 		"ariaMain": "メインナビゲーション",
 		"openMenu": "メニューを開く"
 	},
+	"saltar": "コンテンツへスキップ",
+	"tema": "ライトモードとダークモードを切り替える",
+	"telefono": "電話",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "マディソンのスペイン王者。データサイエンティスト。",
+		"disponible": "データおよびスポーツパフォーマンスのプロジェクトに対応可能です。",
+		"escribeme": "ご連絡ください",
+		"navLabel": "セクション",
+		"legalLabel": "法的事項",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "ソーシャルメディア"
+	},
+	"cierre": {
+		"title": "お話しませんか？",
+		"text": "パフォーマンスデータと未解決の疑問をお持ちでしたら、ご連絡ください。一緒に確認しましょう。",
+		"cta": "ご連絡ください"
 	},
 	"langSwitch": {
 		"label": "言語を変更",
@@ -27,11 +40,20 @@
 		"ariaBanner": "クッキーの同意"
 	},
 	"legal": {
+		"terminos": "利用規約",
 		"privacidad": "プライバシーポリシー",
-		"cookies": "クッキーポリシー"
+		"cookies": "クッキーポリシー",
+		"reembolso": "返金ポリシー",
+		"actualizado": "最終更新日",
+		"indice": "このページ内",
+		"otros": "その他のドキュメント"
 	},
 	"person": {
 		"jobTitle": "データサイエンティスト",
 		"description": "プロサイクリングの分野での経験を持つ、スポーツ分析を専門とするデータサイエンティスト。"
+	},
+	"pizarra": {
+		"vueltas": "ラップ",
+		"campana": "最後"
 	}
 }

@@ -1,0 +1,687 @@
+---
+/**
+ * Escena "la cara en puntos": el retrato de Mario dibujado como una trama fina de puntos (WebGL, sin
+ * librerías). Al bajar, la cámara se acerca a la cara y la trama se subdivide (cada punto se parte
+ * en cuatro), hasta llegar al ojo; uno de sus puntos se abre hasta llenar la pantalla con el color de
+ * la tinta, que es el fondo de la sección siguiente (.campo-invertido), y la página sigue sin corte.
+ *
+ * Dos modos:
+ * - "hero": es la portada. El contenido del slot (titular, entradilla, botones) va encima, a un lado
+ *   de la cara, y se va con el scroll antes de que empiece el acercamiento. Sin JavaScript se ve la
+ *   foto recortada en lugar de la trama.
+ * - "seccion": una escena a mitad de página con una frase (Sobre mí). Sin JavaScript no se muestra.
+ *
+ * Con movimiento reducido o sin WebGL: la trama quieta, sin anclaje. El lienzo es decorativo.
+ */
+interface Props {
+	modo?: 'hero' | 'seccion';
+	frase?: string;
+	fotoAlt?: string;
+	id?: string;
+	[atributo: string]: unknown;
+}
+
+const { modo = 'seccion', frase, fotoAlt = 'Mario Álvarez', id = 'escena-puntos', ...resto } = Astro.props;
+const tieneContenido = Astro.slots.has('default');
+---
+
+<section class:list={['escena', `escena-${modo}`]} id={id} data-escena data-modo={modo} {...resto}>
+	<div class="escena-pin">
+		<canvas class="escena-lienzo" aria-hidden="true"></canvas>
+		{
+			modo === 'hero' && (
+				<img class="escena-foto" src="/mario-puntos.webp" alt={fotoAlt} width="640" height="800" fetchpriority="high" decoding="async" />
+			)
+		}
+		{frase && <h2 class="escena-frase">{frase}</h2>}
+		<span class="escena-apertura" aria-hidden="true"></span>
+	</div>
+	{
+		tieneContenido && (
+			<div class="escena-contenido">
+				<slot />
+			</div>
+		)
+	}
+</section>
+
+<script>
+	import { gsap } from 'gsap';
+	import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+	gsap.registerPlugin(ScrollTrigger);
+
+	const IMAGEN = '/mario-puntos.webp';
+	// Anclas en píxeles de la imagen recortada (640×800)
+	const CARA = { x: 326, y: 334 };
+	const OJO_BLANCO = { x: 372, y: 308 }; // de aquí sale el punto claro que se abre (tema oscuro)
+	const OJO_PUPILA = { x: 360, y: 307 }; // y aquí el oscuro (tema claro)
+	const CABEZA = { arriba: 140, abajo: 500 }; // del pelo a la barbilla
+	// El lienzo sobresale de la pantalla por cada lado (ver CSS): los puntos grandes no "saltan" en los bordes
+	const MARGEN = 64;
+
+	const reducido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	const tactil = window.matchMedia('(pointer: coarse)').matches || Math.min(window.innerWidth, window.innerHeight) < 700;
+	// Trama fina: celda de 3 px de la foto (1,5 al acercarse). En el móvil algo más abierta, por rendimiento.
+	// La segunda capa es la mitad de la primera y parte del mismo origen: cada punto grueso coincide con
+	// uno fino y, al acercarse, se "divide" limpio, como una trama de imprenta.
+	const CAPAS = tactil ? [3.6, 1.8] : [3, 1.5];
+	const ORIGEN = CAPAS[0] / 2;
+
+	const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v));
+	const suave = (a: number, b: number, v: number) => {
+		const t = clamp((v - a) / (b - a), 0, 1);
+		return t * t * (3 - 2 * t);
+	};
+	const mezcla = (a: number, b: number, t: number) => a + (b - a) * t;
+
+	type Punto = { x: number; y: number; lum: number };
+	type Trama = { datos: Float32Array; total: number; totalCapa0: number; ancho: number; alto: number; blanco: Punto; pupila: Punto };
+
+	/** Muestrea la imagen en dos rejillas hexagonales alineadas; solo donde hay persona (alfa). */
+	function muestrear(img: HTMLImageElement): Trama {
+		const ancho = img.naturalWidth;
+		const alto = img.naturalHeight;
+		const c = document.createElement('canvas');
+		c.width = ancho;
+		c.height = alto;
+		const ctx = c.getContext('2d', { willReadFrequently: true })!;
+		ctx.drawImage(img, 0, 0);
+		const px = ctx.getImageData(0, 0, ancho, alto).data;
+
+		// lectura bilineal: con celdas de 1,5 px cada punto cae entre píxeles
+		const leer = (x: number, y: number) => {
+			const x0 = clamp(Math.floor(x), 0, ancho - 2);
+			const y0 = clamp(Math.floor(y), 0, alto - 2);
+			const fx = clamp(x - x0, 0, 1);
+			const fy = clamp(y - y0, 0, 1);
+			let a = 0;
+			let l = 0;
+			for (const [dx, dy, w] of [
+				[0, 0, (1 - fx) * (1 - fy)],
+				[1, 0, fx * (1 - fy)],
+				[0, 1, (1 - fx) * fy],
+				[1, 1, fx * fy],
+			]) {
+				const k = ((y0 + dy) * ancho + (x0 + dx)) * 4;
+				const al = px[k + 3] / 255;
+				a += al * w;
+				l += ((px[k] * 0.299 + px[k + 1] * 0.587 + px[k + 2] * 0.114) / 255) * al * w;
+			}
+			return { a, l: a > 0 ? l / a : 0 };
+		};
+
+		const datos: number[] = [];
+		let totalCapa0 = 0;
+		let blanco: Punto = { ...OJO_BLANCO, lum: -1 };
+		let pupila: Punto = { ...OJO_PUPILA, lum: 2 };
+
+		CAPAS.forEach((celda, capa) => {
+			const paso = celda * 0.866;
+			// la capa gruesa promedia su celda (4 lecturas); la fina ya es casi un píxel (1 lectura)
+			const sub = capa === 0 ? [-0.25, 0.25] : [0];
+			let fila = 0;
+			for (let y = ORIGEN; y < alto; y += paso, fila++) {
+				const desfase = (fila % 2) * (celda / 2);
+				for (let x = ORIGEN + desfase; x < ancho; x += celda) {
+					let lum = 0;
+					let alfa = 0;
+					let n = 0;
+					for (const ox of sub) {
+						for (const oy of sub) {
+							const m = leer(x + ox * celda, y + oy * celda);
+							lum += m.l * m.a;
+							alfa += m.a;
+							n++;
+						}
+					}
+					if (alfa / n < 0.5) continue;
+					lum = lum / alfa;
+					// contraste: estira la escala de grises (la curva de medios tonos se aplica al pintar, según el tema)
+					lum = clamp((lum - 0.05) / 0.85, 0, 1);
+					datos.push(x, y, lum, capa, Math.random());
+					if (capa === 0) totalCapa0++;
+
+					if (capa === CAPAS.length - 1) {
+						if (Math.hypot(x - OJO_BLANCO.x, y - OJO_BLANCO.y) < 6 && lum > blanco.lum) blanco = { x, y, lum };
+						if (Math.hypot(x - OJO_PUPILA.x, y - OJO_PUPILA.y) < 4 && lum < pupila.lum) pupila = { x, y, lum };
+					}
+				}
+			}
+		});
+
+		return { datos: new Float32Array(datos), total: datos.length / 5, totalCapa0, ancho, alto, blanco, pupila };
+	}
+
+	const VS = `
+		attribute vec2 aPos;
+		attribute vec3 aDat;
+		uniform vec2 uRes;
+		uniform vec2 uCentro;
+		uniform vec2 uDesp;
+		uniform float uEscala;
+		uniform vec2 uCeldas;
+		uniform float uT;
+		uniform float uInvertir;
+		uniform float uTiempo;
+		uniform float uMaxTam;
+		uniform float uRetiro;
+		uniform float uCorte;
+		varying float vTam;
+		void main() {
+			// Subdivisión: el punto grueso encoge hasta el tamaño del fino mientras los finos nuevos
+			// crecen en los huecos. Nunca se pisan y la cara no pierde densidad.
+			float celda;
+			float peso;
+			if (aDat.y < .5) {
+				celda = mix(uCeldas.x, uCeldas.y, uT);
+				peso = uT < .999 ? 1. : 0.;
+			} else {
+				celda = uCeldas.y;
+				peso = uT;
+			}
+			// corte bajo la barbilla (portada en el móvil: el texto va debajo de la cara)
+			peso *= 1. - smoothstep(uCorte, uCorte + 40., aPos.y);
+			// el busto se deshace hacia abajo: sin el borde recto de la foto bajo el jersey
+			peso *= 1. - smoothstep(540., 790., aPos.y);
+			// tamaño según la tinta: luz en tema oscuro, sombra en el claro; la curva levanta los medios
+			// tonos para que, con puntos tan finos, la cara no se vea apagada
+			float v = pow(clamp(mix(aDat.x, 1. - aDat.x, uInvertir), 0., 1.), .85);
+			// en las luces los puntos llegan a tocarse (1,02): blancos limpios, como en la foto
+			float d = celda * uEscala * (.1 + .92 * sqrt(v)) * peso * (1. - uRetiro);
+			vec2 vivo = vec2(sin(uTiempo * .9 + aDat.z * 6.283), cos(uTiempo * .7 + aDat.z * 6.283)) * .07 * celda;
+			vec2 p = (aPos + vivo - uCentro) * uEscala + uDesp;
+			gl_Position = vec4(p.x / (uRes.x * .5), -p.y / (uRes.y * .5), 0., 1.);
+			if (peso < .003 || d < .3) gl_Position = vec4(3., 3., 3., 1.);
+			gl_PointSize = min(d, uMaxTam);
+			vTam = gl_PointSize;
+		}`;
+
+	const FS = `
+		precision mediump float;
+		uniform vec3 uColor;
+		varying float vTam;
+		void main() {
+			float r = length(gl_PointCoord - .5);
+			float borde = 1. / max(vTam, 1.);
+			float a = 1. - smoothstep(.5 - borde, .5, r);
+			if (a <= 0.) discard;
+			gl_FragColor = vec4(uColor * a, a);
+		}`;
+
+	function compilar(gl: WebGLRenderingContext, tipo: number, src: string) {
+		const s = gl.createShader(tipo)!;
+		gl.shaderSource(s, src);
+		gl.compileShader(s);
+		if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s) ?? 'shader');
+		return s;
+	}
+
+	/** Color de la tinta y si el fondo es claro (entonces los puntos son oscuros y crecen con la sombra). */
+	function leerTema(seccion: HTMLElement) {
+		const estilo = getComputedStyle(seccion);
+		const rgb = (txt: string) => (txt.match(/[\d.]+/g) ?? ['0', '0', '0']).slice(0, 3).map(Number);
+		const [r, g, b] = rgb(estilo.color);
+		const [fr, fg, fb] = rgb(estilo.backgroundColor);
+		const fondoClaro = (0.299 * fr + 0.587 * fg + 0.114 * fb) / 255 > 0.5;
+		return { tinta: [r / 255, g / 255, b / 255] as [number, number, number], invertir: fondoClaro ? 1 : 0 };
+	}
+
+	function iniciar(seccion: HTMLElement) {
+		const hero = seccion.dataset.modo === 'hero';
+		const lienzo = seccion.querySelector<HTMLCanvasElement>('.escena-lienzo')!;
+		const frase = seccion.querySelector<HTMLElement>('.escena-frase');
+		const apertura = seccion.querySelector<HTMLElement>('.escena-apertura')!;
+		const contenido = seccion.querySelector<HTMLElement>('.escena-contenido');
+		const texto = seccion.querySelector<HTMLElement>('[data-escena-texto]');
+		const rtl = document.documentElement.dir === 'rtl';
+
+		const cerca = new IntersectionObserver(
+			([entrada]) => {
+				if (!entrada.isIntersecting) return;
+				cerca.disconnect();
+				arrancar();
+			},
+			{ rootMargin: '120% 0px' },
+		);
+		cerca.observe(seccion);
+
+		async function arrancar() {
+			const img = new Image();
+			img.decoding = 'async';
+			img.src = IMAGEN;
+			try {
+				await img.decode();
+			} catch {
+				seccion.classList.add('escena-sin-imagen');
+				return;
+			}
+			const trama = muestrear(img);
+
+			const gl = reducido
+				? null
+				: (lienzo.getContext('webgl', { alpha: true, antialias: false, premultipliedAlpha: true }) as WebGLRenderingContext | null);
+			if (!gl) {
+				estatica(trama);
+				return;
+			}
+			try {
+				animada(gl, trama);
+			} catch {
+				estatica(trama);
+			}
+		}
+
+		/**
+		 * Encuadre inicial. En escritorio la cara va a un lado (del texto o de la frase); en vertical,
+		 * arriba: en la portada se ajusta al hueco que deja el texto, medido en la página.
+		 */
+		function encuadre(vw: number, vh: number, trama: Trama) {
+			const vertical = vw / vh < 1;
+			if (!vertical) {
+				const escala = hero ? 1.38 : 1.22;
+				return { escala0: (vh * escala) / trama.alto, despX: vw * 0.2 * (rtl ? -1 : 1), despY: vh * (hero ? 0.2 : 0.17), corte: 1e5 };
+			}
+			if (!hero) {
+				return { escala0: vh / trama.alto, despX: 0, despY: vh * 0.2, corte: 1e5 };
+			}
+			const cabecera = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) || 64;
+			// dónde empieza el texto en la primera pantalla (relativo a la escena, que arranca arriba del todo)
+			const inicioTexto = texto ? texto.offsetTop : vh * 0.5;
+			const arriba = cabecera + 12;
+			const abajo = Math.max(arriba + vh * 0.22, inicioTexto - 14);
+			const altoCabeza = CABEZA.abajo - CABEZA.arriba;
+			const escala0 = Math.min((abajo - arriba) / altoCabeza, (vw * 0.95) / 330);
+			// centro de la cabeza (en la foto) en el centro del hueco
+			const yFoto = (CABEZA.arriba + CABEZA.abajo) / 2;
+			const despY = (arriba + abajo) / 2 - vh / 2 - (yFoto - trama.alto / 2) * escala0;
+			const despX = -(CARA.x - trama.ancho / 2) * escala0;
+			return { escala0, despX, despY, corte: CABEZA.abajo };
+		}
+
+		function estatica(trama: Trama) {
+			seccion.classList.add('escena-estatica');
+			const ctx = lienzo.getContext('2d');
+			if (!ctx) {
+				seccion.classList.add('escena-sin-imagen');
+				return;
+			}
+			const pintar = () => {
+				const dpr = Math.min(window.devicePixelRatio || 1, 2);
+				const w = lienzo.clientWidth;
+				const h = lienzo.clientHeight;
+				lienzo.width = Math.round(w * dpr);
+				lienzo.height = Math.round(h * dpr);
+				const { tinta, invertir } = leerTema(seccion);
+				const { escala0, despX, despY, corte } = encuadre(w - MARGEN * 2, h - MARGEN * 2, trama);
+				ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+				ctx.clearRect(0, 0, w, h);
+				ctx.fillStyle = `rgb(${tinta.map((c) => Math.round(c * 255)).join(',')})`;
+				for (let i = 0; i < trama.totalCapa0; i++) {
+					const o = i * 5;
+					if (trama.datos[o + 1] > corte) continue;
+					const desvanece = 1 - suave(540, 790, trama.datos[o + 1]);
+					if (desvanece <= 0.01) continue;
+					const v = Math.pow(invertir ? 1 - trama.datos[o + 2] : trama.datos[o + 2], 0.85);
+					const d = CAPAS[0] * escala0 * (0.1 + 0.92 * Math.sqrt(v)) * desvanece;
+					const x = (trama.datos[o] - trama.ancho / 2) * escala0 + w / 2 + despX;
+					const y = (trama.datos[o + 1] - trama.alto / 2) * escala0 + h / 2 + despY;
+					ctx.beginPath();
+					ctx.arc(x, y, d / 2, 0, Math.PI * 2);
+					ctx.fill();
+				}
+			};
+			pintar();
+			new ResizeObserver(pintar).observe(lienzo);
+			new MutationObserver(pintar).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+		}
+
+		function animada(gl: WebGLRenderingContext, trama: Trama) {
+			const prog = gl.createProgram()!;
+			gl.attachShader(prog, compilar(gl, gl.VERTEX_SHADER, VS));
+			gl.attachShader(prog, compilar(gl, gl.FRAGMENT_SHADER, FS));
+			gl.linkProgram(prog);
+			if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) throw new Error('programa');
+			gl.useProgram(prog);
+
+			const buf = gl.createBuffer();
+			gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+			gl.bufferData(gl.ARRAY_BUFFER, trama.datos, gl.STATIC_DRAW);
+			const aPos = gl.getAttribLocation(prog, 'aPos');
+			const aDat = gl.getAttribLocation(prog, 'aDat');
+			gl.enableVertexAttribArray(aPos);
+			gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 20, 0);
+			gl.enableVertexAttribArray(aDat);
+			gl.vertexAttribPointer(aDat, 3, gl.FLOAT, false, 20, 8);
+
+			const u = (n: string) => gl.getUniformLocation(prog, n);
+			const uRes = u('uRes'),
+				uCentro = u('uCentro'),
+				uDesp = u('uDesp'),
+				uEscala = u('uEscala'),
+				uCeldas = u('uCeldas'),
+				uT = u('uT'),
+				uInvertir = u('uInvertir'),
+				uTiempo = u('uTiempo'),
+				uMaxTam = u('uMaxTam'),
+				uRetiro = u('uRetiro'),
+				uCorte = u('uCorte'),
+				uColor = u('uColor');
+
+			gl.uniform2f(uCeldas, CAPAS[0], CAPAS[1]);
+			const rango = gl.getParameter(gl.ALIASED_POINT_SIZE_RANGE) as Float32Array;
+			gl.uniform1f(uMaxTam, rango?.[1] ?? 64);
+			gl.enable(gl.BLEND);
+			gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
+			gl.clearColor(0, 0, 0, 0);
+
+			let tema = leerTema(seccion);
+			const aplicarTema = () => {
+				tema = leerTema(seccion);
+				gl.uniform3f(uColor, tema.tinta[0], tema.tinta[1], tema.tinta[2]);
+				gl.uniform1f(uInvertir, tema.invertir);
+				apertura.style.backgroundColor = getComputedStyle(seccion).color;
+			};
+			aplicarTema();
+			new MutationObserver(aplicarTema).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+			let dpr = 1;
+			let vw = 1; // tamaño de la pantalla visible (el lienzo es MARGEN mayor por cada lado)
+			let vh = 1;
+			let marco = encuadre(1, 1, trama);
+			const medir = () => {
+				dpr = Math.min(window.devicePixelRatio || 1, tactil ? 2 : 1.75);
+				const anchoCss = lienzo.clientWidth;
+				const altoCss = lienzo.clientHeight;
+				vw = anchoCss - MARGEN * 2;
+				vh = altoCss - MARGEN * 2;
+				lienzo.width = Math.round(anchoCss * dpr);
+				lienzo.height = Math.round(altoCss * dpr);
+				gl.viewport(0, 0, lienzo.width, lienzo.height);
+				gl.uniform2f(uRes, lienzo.width, lienzo.height);
+				marco = encuadre(vw, vh, trama);
+			};
+			medir();
+			new ResizeObserver(medir).observe(lienzo);
+			if (texto) new ResizeObserver(medir).observe(texto);
+
+			// Ratón: la cara sigue un poco al puntero mientras está entera
+			let px = 0,
+				py = 0,
+				pxv = 0,
+				pyv = 0;
+			window.addEventListener(
+				'pointermove',
+				(e) => {
+					px = (e.clientX / window.innerWidth) * 2 - 1;
+					py = (e.clientY / window.innerHeight) * 2 - 1;
+				},
+				{ passive: true },
+			);
+
+			/*
+			 * El recorrido lo lleva GSAP ScrollTrigger: "scrub" suaviza el scroll como una cámara (el
+			 * acercamiento sigue un instante a la rueda en vez de ir a saltos). El zoom empieza en cuanto
+			 * se baja; en la portada, el texto sube más rápido que la página y se desvanece (parallax).
+			 */
+			const estado = { p: 0 };
+			const recorrido = gsap.to(estado, {
+				p: 1,
+				ease: 'none',
+				scrollTrigger: { trigger: seccion, start: 'top top', end: 'bottom bottom', scrub: 0.8, invalidateOnRefresh: true },
+			});
+			if (contenido) {
+				gsap.to(contenido, {
+					opacity: 0,
+					y: () => -window.innerHeight * 0.18,
+					ease: 'none',
+					scrollTrigger: { trigger: seccion, start: 'top top', end: () => '+=' + window.innerHeight * 0.42, scrub: 0.4, invalidateOnRefresh: true },
+				});
+			}
+			if (frase) {
+				gsap.to(frase, {
+					opacity: 0,
+					y: -40,
+					ease: 'none',
+					scrollTrigger: { trigger: seccion, start: 'top top', end: () => '+=' + window.innerHeight * 0.3, scrub: 0.4, invalidateOnRefresh: true },
+				});
+			}
+
+			let ultimo = performance.now();
+			let activo = false;
+			let raf = 0;
+
+			const cuadro = (ahora: number) => {
+				raf = requestAnimationFrame(cuadro);
+				const dt = Math.min(0.05, (ahora - ultimo) / 1000);
+				ultimo = ahora;
+
+				// Cerca del final no se deja que el suavizado se quede atrás: el punto tiene que estar
+				// abierto del todo cuando la escena suelta la pantalla
+				const crudo = recorrido.scrollTrigger?.progress ?? estado.p;
+				const Pv = crudo > 0.9 ? Math.max(estado.p, crudo - 0.03) : estado.p;
+
+				// 1 · se acerca a la cara (la trama se afina)  2 · entra en el ojo  3 · el punto se abre
+				const a = suave(0.0, 0.5, Pv);
+				const b = suave(0.46, 0.84, Pv);
+				const abrir = suave(0.82, 0.95, Pv);
+				// ×3 para ver la cara entera y nítida; ×12 al final: el ojo llena la pantalla y aún se reconoce
+				const zoom = Math.exp(Math.log(3) * a + Math.log(12 / 3) * b);
+
+				const objetivo = tema.invertir ? trama.pupila : trama.blanco;
+				const { escala0, despX, despY, corte } = marco;
+
+				pxv += (px - pxv) * (1 - Math.exp(-dt * 3));
+				pyv += (py - pyv) * (1 - Math.exp(-dt * 3));
+				const libre = 1 - b;
+				const cx0 = trama.ancho / 2,
+					cy0 = trama.alto / 2;
+				const cx = mezcla(mezcla(cx0, CARA.x, a), objetivo.x, b) - pxv * 6 * libre;
+				const cy = mezcla(mezcla(cy0, CARA.y, a), objetivo.y, b) - pyv * 5 * libre;
+				const dx = despX * (1 - a);
+				const dy = despY * (1 - a);
+
+				const escalaCss = escala0 * zoom;
+				gl.uniform2f(uCentro, cx, cy);
+				gl.uniform2f(uDesp, dx * dpr, dy * dpr);
+				gl.uniform1f(uEscala, escalaCss * dpr);
+				gl.uniform1f(uTiempo, ahora / 1000);
+				gl.uniform1f(uT, suave(1.5, 2.4, zoom));
+				gl.uniform1f(uRetiro, suave(0.08, 0.75, abrir));
+				gl.uniform1f(uCorte, mezcla(corte, 1e5, suave(0, 0.25, a)));
+
+				gl.clear(gl.COLOR_BUFFER_BIT);
+				if (abrir < 0.999) gl.drawArrays(gl.POINTS, 0, trama.total); // tapado del todo: no hace falta pintar
+
+				// El punto del ojo se abre: un círculo de tinta que nace con su mismo tamaño y posición
+				if (abrir > 0) {
+					const v = Math.pow(clamp(tema.invertir ? 1 - objetivo.lum : objetivo.lum, 0, 1), 0.85);
+					const r0 = (CAPAS[1] * escalaCss * (0.1 + 0.92 * Math.sqrt(clamp(v, 0, 1)))) / 2;
+					const x = (objetivo.x - cx) * escalaCss + dx + vw / 2;
+					const y = (objetivo.y - cy) * escalaCss + dy + vh / 2;
+					const rFin = Math.hypot(Math.max(x, vw - x), Math.max(y, vh - y)) * 1.04;
+					const e = abrir * abrir * abrir;
+					const radio = mezcla(r0, rFin, e);
+					apertura.style.opacity = '1';
+					apertura.style.transform = `translate(${x}px, ${y}px) scale(${radio / 100})`;
+				} else {
+					apertura.style.opacity = '0';
+				}
+			};
+
+			const visible = new IntersectionObserver(([entrada]) => {
+				const debe = entrada.isIntersecting;
+				if (debe && !activo) {
+					activo = true;
+					ultimo = performance.now();
+					raf = requestAnimationFrame(cuadro);
+				} else if (!debe && activo) {
+					activo = false;
+					cancelAnimationFrame(raf);
+				}
+			});
+			visible.observe(seccion);
+
+			lienzo.addEventListener('webglcontextlost', (e) => {
+				e.preventDefault();
+				cancelAnimationFrame(raf);
+				visible.disconnect();
+				apertura.style.opacity = '0';
+				recorrido.scrollTrigger?.kill();
+				ScrollTrigger.getAll().forEach((t) => {
+					if (t.trigger === seccion) t.kill();
+				});
+				if (contenido) gsap.set(contenido, { clearProps: 'opacity,transform' });
+				if (frase) gsap.set(frase, { clearProps: 'opacity,transform' });
+				estatica(trama);
+			});
+
+			seccion.classList.add('escena-lista');
+		}
+	}
+
+	document.querySelectorAll<HTMLElement>('[data-escena]').forEach(iniciar);
+</script>
+
+<style>
+	.escena {
+		position: relative;
+		height: 270vh;
+		background: var(--color-bg);
+		color: var(--color-text);
+	}
+
+	/* Portada: pegada arriba, bajo la cabecera fija; el acercamiento empieza nada más bajar */
+	.escena-hero {
+		height: 300vh;
+		margin-block-start: calc(-1 * var(--header-h));
+	}
+
+	/* Sin JavaScript: la escena de mitad de página no se muestra; la portada enseña la foto recortada */
+	:global(html:not(.js)) .escena-seccion {
+		display: none;
+	}
+
+	:global(html:not(.js)) .escena-hero,
+	.escena:global(.escena-estatica),
+	.escena:global(.escena-sin-imagen) {
+		height: auto;
+	}
+
+	.escena-pin {
+		position: sticky;
+		inset-block-start: 0;
+		block-size: 100vh;
+		overflow: clip;
+	}
+
+	:global(html:not(.js)) .escena-hero .escena-pin,
+	.escena:global(.escena-estatica) .escena-pin,
+	.escena:global(.escena-sin-imagen) .escena-pin {
+		position: relative;
+	}
+
+	.escena-seccion:global(.escena-estatica) .escena-pin {
+		block-size: min(100vh, 900px);
+	}
+
+	.escena-lienzo {
+		position: absolute;
+		inset: -64px;
+		inline-size: calc(100% + 128px);
+		block-size: calc(100% + 128px);
+		opacity: 0;
+		transition: opacity 0.9s var(--ease-out);
+	}
+
+	.escena:global(.escena-lista) .escena-lienzo,
+	.escena:global(.escena-estatica) .escena-lienzo {
+		opacity: 1;
+	}
+
+	/* Foto recortada: solo se ve sin JavaScript o si la trama no puede pintarse */
+	.escena-foto {
+		position: absolute;
+		inset-block-end: 0;
+		inset-inline-end: max(0px, calc((100vw - var(--container-width)) / 2));
+		block-size: min(92vh, 860px);
+		inline-size: auto;
+		max-inline-size: 60%;
+		object-fit: contain;
+		object-position: bottom;
+		filter: grayscale(1);
+	}
+
+	:global(html.js) .escena-foto {
+		visibility: hidden;
+	}
+
+	:global(html.js) .escena:global(.escena-sin-imagen) .escena-foto {
+		visibility: visible;
+	}
+
+	.escena-contenido {
+		position: relative;
+		z-index: 1;
+		margin-block-start: -100vh;
+		will-change: opacity;
+	}
+
+	:global(html:not(.js)) .escena-hero .escena-contenido,
+	.escena:global(.escena-estatica) .escena-contenido,
+	.escena:global(.escena-sin-imagen) .escena-contenido {
+		position: absolute;
+		inset: 0;
+		margin: 0;
+	}
+
+	.escena-frase {
+		position: absolute;
+		inset-inline-start: max(1.25rem, calc((100vw - var(--container-width)) / 2 + 2rem));
+		inset-block-start: 50%;
+		margin-block-start: -0.5em;
+		max-inline-size: 10.5em;
+		font-size: clamp(2.4rem, 4.2vw, 4rem);
+		font-weight: 800;
+		line-height: 0.95;
+		letter-spacing: -0.01em;
+		translate: 0 -50%;
+		will-change: opacity, transform;
+	}
+
+	/* Coordenadas de pantalla (las calcula el script): físicas a propósito, también en RTL */
+	.escena-apertura {
+		position: absolute;
+		top: 0;
+		left: 0;
+		inline-size: 200px;
+		block-size: 200px;
+		margin: -100px 0 0 -100px;
+		border-radius: 50%;
+		background: var(--color-text);
+		opacity: 0;
+		transform: scale(0);
+		transform-origin: center;
+		pointer-events: none;
+		will-change: transform;
+	}
+
+	@media (max-width: 860px), (max-aspect-ratio: 1/1) {
+		.escena-frase {
+			inset-block-start: calc(var(--header-h) + 1.5rem);
+			margin-block-start: 0;
+			translate: none;
+			max-inline-size: 14ch;
+			font-size: clamp(2rem, 8.5vw, 2.8rem);
+		}
+
+		.escena-foto {
+			inset-block-start: calc(var(--header-h) + 0.5rem);
+			inset-block-end: auto;
+			inset-inline: 0;
+			margin-inline: auto;
+			block-size: 46vh;
+			max-inline-size: none;
+		}
+	}
+</style>

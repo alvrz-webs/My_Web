@@ -3,7 +3,13 @@
 		"title": "Kuhusu mimi — Mario Álvarez",
 		"description": "Kutoka bingwa wa Uhispania wa madison hadi mwanafunzi wa Sayansi ya Data: safari ya Mario Álvarez kati ya baiskeli ya kiwango cha juu na uchambuzi wa michezo.",
 		"eyebrow": "Kuhusu mimi",
-		"heading": "Kutoka uwanja wa baiskeli hadi data"
+		"heading": "Kutoka uwanja wa baiskeli hadi data",
+		"lead": "Bado nipo katika mchezo wa baiskeli, uwanjani na kwenye gari la timu. Kilichobadilika ni jinsi ninavyoutazama: sasa pia nikiwa na data.",
+		"historiaTitulo": "Mwanariadha, mkurugenzi na mwanasayansi wa data",
+		"fichaTitulo": "kwa ufupi",
+		"fichaTexto": "Muhimu, ikiwa una haraka.",
+		"retratoAlt": "Picha ya Mario Álvarez",
+		"escenaFrase": "Kwanza, miguu. Sasa, data."
 	},
 	"bio": [
 		"Nilianza kushindana. Akiwa na miaka 18 nilikuwa bingwa wa Uhispania wa madison kwenye njia na Timu ya Taifa ya Baiskeli ya Uhispania iliniita kwa ajili ya Mashindano ya Dunia na ya Ulaya, ambapo nilikuwa wa sita katika yote mawili, jambo ambalo lilinipa hadhi ya mwanamichezo wa kiwango cha juu.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Msingi",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm na Valencia"
 		},
 		{
 			"label": "Hali",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Mtazamo",
-			"value": "Data + utendaji wa michezo"
+			"value": "Data na utendaji wa michezo"
 		},
 		{
 			"label": "Lugha",
-			"value": "Kihispania cha asili · Valenciano · Kiingereza B1"
+			"value": "Kihispania (asili), Valencian na Kiingereza (B1)"
 		},
 		{
 			"label": "Elimu",
-			"value": "Digrii katika Sayansi ya Data (UPV) · Shahada ya Uzamili katika Uwekaji Dijiti, Ubunifu na Teknolojia katika Michezo"
+			"value": "Shahada ya Sayansi ya Data (UPV) na Shahada ya Uzamili ya Uwekaji Dijiti, Ubunifu na Teknolojia katika Michezo"
 		}
 	]
 }

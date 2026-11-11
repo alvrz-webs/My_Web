@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "홈",
 		"sobreMi": "소개",
 		"proyectos": "프로젝트",
 		"experiencia": "경력",
@@ -7,10 +8,22 @@
 		"ariaMain": "주요 탐색",
 		"openMenu": "메뉴 열기"
 	},
+	"saltar": "콘텐츠로 건너뛰기",
+	"tema": "라이트 모드와 다크 모드 전환",
+	"telefono": "전화",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "스페인 매디슨 챔피언. 데이터 과학자.",
+		"disponible": "데이터 및 스포츠 성과 프로젝트에 참여 가능합니다.",
+		"escribeme": "메시지 보내기",
+		"navLabel": "섹션",
+		"legalLabel": "법적 고지",
 		"copySufijo": "마리오 알바레스. 발렌시아.",
 		"ariaSocial": "소셜 미디어"
+	},
+	"cierre": {
+		"title": "연락하시겠습니까?",
+		"text": "성과 데이터와 미해결 질문이 있으시면 저에게 연락주세요. 함께 살펴보겠습니다.",
+		"cta": "메시지 보내기"
 	},
 	"langSwitch": {
 		"label": "언어 변경",
@@ -27,11 +40,20 @@
 		"ariaBanner": "쿠키 동의"
 	},
 	"legal": {
+		"terminos": "이용 약관",
 		"privacidad": "개인정보 처리방침",
-		"cookies": "쿠키 정책"
+		"cookies": "쿠키 정책",
+		"reembolso": "환불 정책",
+		"actualizado": "최종 업데이트",
+		"indice": "이 페이지에서",
+		"otros": "기타 문서"
 	},
 	"person": {
 		"jobTitle": "데이터 과학자",
 		"description": "프로 사이클링 분야의 경험을 갖춘 스포츠 분석 전문 데이터 과학자."
+	},
+	"pizarra": {
+		"vueltas": "바퀴",
+		"campana": "마지막"
 	}
 }

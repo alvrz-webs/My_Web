@@ -4,7 +4,10 @@
 		"description": "Mario Álvarezin data-analyysi-, visualisointi- ja koneoppimisrepositoriot ja -projektit.",
 		"eyebrow": "Projektit",
 		"heading": "Projektit",
-		"intro": "Katsaus työhöni: ammattipyöräilytyökaluista akateemisiin analyysi- ja koneoppimisprojekteihin."
+		"intro": "Katsaus työhöni: ammattipyöräilytyökaluista akateemisiin analyysi- ja koneoppimisprojekteihin.",
+		"cifraRepos": "julkiset repositoriot GitHubissa",
+		"cifraWebs": "julkaistut verkkosivustot",
+		"cifraHerramientas": "kielet ja työkalut"
 	},
 	"list": {
 		"eyebrow": "Työ",

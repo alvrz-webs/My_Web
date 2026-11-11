@@ -4,13 +4,28 @@
 		"description": "Kaksi maailmaa, sama kieli: suorituskyky. Mario Álvarezin kokemus datasta ja insinööritieteestä sekä huippupyöräilystä.",
 		"eyebrow": "Kokemus",
 		"heading": "Kaksi maailmaa, sama kieli: suorituskyky",
-		"colDatos": "Data & Teknologia",
+		"lead": "Tietokannassa tai joukkueen autossa työ on sama: mittaa tarkasti, jotta päätät paremmin.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "tietuetta tietokannassa, jota optimoin SIME Telecomilla"
+			},
+			{
+				"cifra": "2",
+				"texto": "työkalua Pythonilla Cofidis-tiimille"
+			},
+			{
+				"cifra": "6.",
+				"texto": "sija ratapyöräilyn MM- ja EM-kilpailuissa"
+			}
+		],
+		"colDatos": "Datoja ja teknologiaa",
 		"colDeporte": "Huippu-urheilu"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Datatieteen harjoittelu",
-			"meta": "Data-insinööritiede · Benidorm · 2026",
+			"meta": "Data-insinööri, Benidorm, 2026",
 			"paragraphs": [
 				"SIME kehittää hallintaohjelmistoja (varaukset, laskutus, raportit, ravintolatilaukset), jotka palvelevat satoja asiakkaita keskusjärjestelmästä, yli 580 toisiinsa kytketyn taulun ja yli 100 miljoonan tietueen tietokannassa. Kasvu oli pakottanut jakamaan asiakkaita useisiin tietokantoihin kuormituksen ja hitausvalitusten lieventämiseksi.",
 				"Työni: näiden tietokantojen analysointi ja kyselyjen sekä indeksien optimoinnin kautta kaikkien tietojen yhdistämisen suunnittelu yhteen tehokkaaseen tietokantaan tuskin lainkaan skaalaamalla laitteistoa (RAM/CPU). Parannus on jo kehitetty ja se on validointivaiheessa testipalvelimella."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projektit Cofidis-tiimin kanssa (World Tour)",
-			"meta": "Python · Kesä 2025",
+			"meta": "Python, kesä 2025",
 			"paragraphs": [
 				"Oma projekti, jonka tein testinä päästäkseni ammattilaispyöräilyn data-analyysiin:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Kilpailu",
 			"paragraphs": [
 				"Madisonin Espanjan mestari (18 vuotta); ratapyöräilyn MM- ja EM-kilpailut Espanjan maajoukkueessa (molemmoissa 6.); huippu-urheilija; aktiivinen lisensoitu ratapyöräilijä."
-			]
+			],
+			"meta": "Ratapyöräily, Espanjan maajoukkue"
 		},
 		{
 			"title": "Urheiluvalmennus ja -johto",
 			"paragraphs": [
 				"Urheilujohtaja Taso I ja II (RFEC); nuorten pyöräilijöiden (14–18) valmennus ja seuranta yhdessä isäni kanssa; huoltaja Valencian alueen maajoukkueessa kilpailuissa (2026)."
-			]
+			],
+			"meta": "RFEC, tasot I ja II"
 		},
 		{
 			"title": "Urheiluhieronta ja tekninen henkilöstö",

@@ -1,6 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Proyectos from '../Proyectos.astro';
+import CierreContacto from '../CierreContacto.astro';
+import EscenaPuntos from '../EscenaPuntos.astro';
 import { localizedPath, type Locale } from '../../lib/i18n';
 import { getDict } from '../../lib/dictionary';
 
@@ -11,291 +13,505 @@ interface Props {
 const { lang = 'es' } = Astro.props;
 
 const inicio = getDict(lang, 'inicio') as any;
-const { hero, sobreMiResumen, stats, experienciaResumen, ctaFinal, meta: t } = inicio;
+const { hero, servicios, sobreMiResumen, ficha, experienciaResumen, ctaFinal, meta: t } = inicio;
+const contactoHref = localizedPath('/contacto', lang);
+
+// Cada servicio corre por un carril de la pista
+const carriles = ['sprinter', 'stayer', 'azur', 'medicion'];
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>
-	<section id="hero" class="hero" data-tracking-seccion="inicio">
-		<div class="container hero-grid">
-			<div class="hero-copy reveal">
-				<p class="eyebrow">{hero.eyebrow}</p>
-				<h1>
-					{hero.titlePre}<span class="highlight">{hero.titleHighlight}</span>
-				</h1>
-				<p class="hero-subtitle text-dim">
-					{hero.subtitle}
-				</p>
-				<div class="hero-actions">
-					<a href="#proyectos" class="btn btn-primary">{t.verProyectos}</a>
-					<a href={localizedPath('/contacto', lang)} class="btn btn-ghost">
-						{t.contacto}
-					</a>
-				</div>
-
-				<ul class="hero-tools" aria-label={t.herramientas}>
-					{hero.tools.map((tool) => <li>{tool}</li>)}
-				</ul>
-			</div>
-
-			<div class="hero-portrait reveal">
-				<div class="portrait-frame">
-					<img src="/mario.webp" alt="Retrato de Mario Álvarez" width="420" height="420" />
+	<EscenaPuntos modo="hero" id="hero" fotoAlt={hero.retratoAlt} data-tracking-seccion="inicio" data-vuelta="6">
+		<div class="container hero">
+			<div class="hero-copy" data-escena-texto>
+				<p class="hero-kicker">{hero.kicker}</p>
+				<h1 class="hero-title">{hero.title}</h1>
+				<p class="hero-subtitle" data-carga style="--d:120ms">{hero.subtitle}</p>
+				<div class="hero-actions" data-carga style="--d:220ms">
+					<a href={servicios ? '#servicios' : '#proyectos'} class="btn btn-primary">{t.verServicios ?? t.verProyectos}</a>
+					<a href={contactoHref} class="link-arrow">{t.contacto}</a>
 				</div>
 			</div>
 		</div>
+	</EscenaPuntos>
+
+	<!-- Al abrirse el punto del ojo, lo primero que aparece en el campo claro es el palmarés -->
+	<section class="palmares-seccion campo-invertido" aria-label={hero.palmaresLabel}>
+		<div class="container">
+			<ol class="palmares">
+				{
+					hero.palmares.map((resultado: any, i: number) => (
+						<li class:list={['resultado', { 'resultado-oro': i === 0 }]} data-entra style={`--i:${i}`}>
+							<span class="resultado-pos">{resultado.pos}</span>
+							<span class="resultado-texto">
+								{resultado.texto}
+								<span class="resultado-nota">{resultado.nota}</span>
+							</span>
+						</li>
+					))
+				}
+			</ol>
+		</div>
 	</section>
 
-	<section id="sobre-mi-resumen" class="sobre-mi">
-		<div class="container">
-			<div class="section-intro reveal">
-				<p class="eyebrow">{sobreMiResumen.eyebrow}</p>
-				<h2>{sobreMiResumen.title}</h2>
-				<p class="text-dim">
-					{sobreMiResumen.text}
-				</p>
-				<a href={localizedPath('/sobre-mi', lang)} class="btn btn-ghost section-cta">
-					{t.verMas}
-				</a>
+	{
+		servicios && (
+			<section id="servicios" class="seccion servicios campo-invertido" data-vuelta="5" data-tracking-seccion="servicios">
+				<div class="container rejilla-rotulo">
+					<div class="rotulo-fijo servicios-intro">
+						<h2 class="titulo-seccion" data-entra>
+							{servicios.title}
+						</h2>
+						<p class="lead" data-entra style="--i:1">
+							{servicios.text}
+						</p>
+						<div data-entra style="--i:2">
+							<a href={contactoHref} class="btn btn-primary">
+								{servicios.cta}
+							</a>
+						</div>
+					</div>
+
+					<ul class="servicios-lista">
+						{servicios.items.map((servicio: any, i: number) => (
+							<li class="servicio" style={`--carril: var(--linea-${carriles[i % carriles.length]}); --i:${i}`} data-entra>
+								<h3 class="servicio-nombre">
+									<a href={`${contactoHref}?tema=${servicio.id}`} class="servicio-enlace" data-tracking-clic={`servicio-${servicio.id}`}>
+										{servicio.nombre}
+									</a>
+								</h3>
+								<p class="servicio-texto">{servicio.texto}</p>
+								<p class="servicio-prueba">{servicio.prueba}</p>
+							</li>
+						))}
+					</ul>
+				</div>
+			</section>
+		)
+	}
+
+	<section id="sobre-mi-resumen" class="seccion sobre-mi" data-vuelta="4">
+		<div class="container sobre-mi-grid">
+			<div class="sobre-mi-texto">
+				<h2 class="titulo-seccion" data-entra>{sobreMiResumen.title}</h2>
+				<p data-entra style="--i:1">{sobreMiResumen.text}</p>
+				<div data-entra style="--i:2">
+					<a href={localizedPath('/sobre-mi', lang)} class="link-arrow">{t.verMas}</a>
+				</div>
 			</div>
 
-			<div class="stats-grid">
+			<dl class="ficha" data-entra style="--i:2">
 				{
-					stats.map((stat, i) => (
-						<div class="stat-card reveal" style={`transition-delay: ${i * 0.1}s`}>
-							<p class="stat-value">{stat.value}</p>
-							<p class="stat-label">{stat.label}</p>
-							<p class="stat-detail text-dim">{stat.detail}</p>
+					ficha.map((fila: any) => (
+						<div class="ficha-fila">
+							<dt>{fila.label}</dt>
+							<dd>{fila.value}</dd>
+						</div>
+					))
+				}
+			</dl>
+		</div>
+	</section>
+
+	<section id="experiencia-resumen" class="seccion experiencia" data-vuelta="3">
+		<div class="container">
+			<div class="experiencia-intro">
+				<h2 class="titulo-seccion" data-entra>{experienciaResumen.title}</h2>
+				<p class="lead" data-entra style="--i:1">{experienciaResumen.text}</p>
+			</div>
+
+			<div class="carriles">
+				{
+					experienciaResumen.carriles.map((carril: any, i: number) => (
+						<div class:list={['carril', i === 0 ? 'carril-datos' : 'carril-pista']} data-entra style={`--i:${i}`}>
+							<h3 class="carril-nombre">{carril.nombre}</h3>
+							<ul class="carril-items">
+								{carril.items.map((item: any) => (
+									<li>
+										<span class="carril-cifra">{item.cifra}</span>
+										<span class="carril-texto">{item.texto}</span>
+									</li>
+								))}
+							</ul>
 						</div>
 					))
 				}
 			</div>
+
+			<a href={localizedPath('/experiencia', lang)} class="link-arrow">{t.verMas}</a>
 		</div>
 	</section>
 
-	<section id="experiencia-resumen" class="experiencia-teaser">
-		<div class="container">
-			<div class="section-intro reveal">
-				<p class="eyebrow">{experienciaResumen.eyebrow}</p>
-				<h2>{experienciaResumen.title}</h2>
-				<p class="text-dim">
-					{experienciaResumen.text}
-				</p>
-				<a href={localizedPath('/experiencia', lang)} class="btn btn-ghost section-cta">
-					{t.verMas}
-				</a>
-			</div>
+	<div class="proyectos-tramo" data-vuelta="2">
+		<Proyectos lang={lang} />
+
+		<div class="container proyectos-cta">
+			<a href={localizedPath('/proyectos', lang)} class="link-arrow">{t.verTodosProyectos}</a>
 		</div>
-	</section>
-
-	<Proyectos lang={lang} />
-
-	<div class="container proyectos-cta reveal">
-		<a href={localizedPath('/proyectos', lang)} class="btn btn-ghost">
-			{t.verTodosProyectos}
-		</a>
 	</div>
 
-	<section class="cta-final">
-		<div class="container cta-final-inner reveal">
-			<h2>{ctaFinal.title}</h2>
-			<p class="text-dim">{ctaFinal.text}</p>
-			<a href={localizedPath('/contacto', lang)} class="btn btn-primary">
-				{t.irAContacto}
-			</a>
-		</div>
-	</section>
+	<CierreContacto titulo={ctaFinal.title} texto={ctaFinal.text} cta={t.irAContacto} href={contactoHref} vuelta="1" />
 </Layout>
 
 <style>
+	/* ---------- Portada: el texto a un lado; la cara en puntos la pinta EscenaPuntos detrás ---------- */
 	.hero {
-		padding-block: 5rem 2.5rem;
-	}
-
-	.hero-grid {
-		display: grid;
-		grid-template-columns: 1.15fr 0.85fr;
+		display: flex;
 		align-items: center;
-		gap: 3rem;
+		min-height: 100vh;
+		padding-block: calc(var(--header-h) + 2rem) 3rem;
 	}
 
-	.hero-copy h1 {
-		font-size: clamp(2.2rem, 4.5vw, 3.4rem);
-		margin-block: 0.9rem 1.1rem;
+	.hero-copy {
+		max-width: min(52%, 600px);
+	}
+
+	.hero-kicker {
+		font-style: italic;
+		color: var(--color-text-dim);
+		margin-block-end: 1rem;
+	}
+
+	.hero-title {
+		font-size: var(--fs-display);
+		font-weight: 800;
+		line-height: 0.92;
+		letter-spacing: -0.01em;
+		text-transform: uppercase;
+		margin-block-end: 1.75rem;
 	}
 
 	.hero-subtitle {
-		font-size: 1.05rem;
-		max-width: 46ch;
+		font-size: clamp(1.1rem, 1.6vw, 1.25rem);
+		line-height: 1.55;
+		max-width: 44ch;
 		margin-block-end: 2rem;
 	}
 
 	.hero-actions {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 1rem;
+		align-items: center;
+		gap: 0.75rem 1.75rem;
 	}
 
-	.hero-tools {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.6rem;
+	/* En vertical, la cara arriba y el texto abajo (el script ajusta la cara al hueco que queda) */
+	@media (max-width: 860px), (max-aspect-ratio: 1/1) {
+		.hero {
+			align-items: flex-end;
+			padding-block-end: max(1.75rem, env(safe-area-inset-bottom));
+		}
+
+		.hero-copy {
+			max-width: 34rem;
+		}
+
+		.hero-kicker {
+			margin-block-end: 0.6rem;
+		}
+
+		.hero-title {
+			margin-block-end: 1.1rem;
+		}
+
+		.hero-subtitle {
+			margin-block-end: 1.4rem;
+		}
+	}
+
+	/* ---------- Palmarés: lo primero que aparece cuando se abre el punto ---------- */
+	.palmares-seccion {
+		padding-block: var(--space-tras-cabecera) 0;
+	}
+
+	.palmares {
 		list-style: none;
-		margin-block-start: 2rem;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		border-block-start: 3px solid var(--color-text);
 	}
 
-	.hero-tools li {
-		font-family: var(--font-mono);
-		font-size: 0.78rem;
-		color: var(--color-text-dim);
-		border: 1px solid var(--color-border);
-		border-radius: 999px;
-		padding: 0.35rem 0.85rem;
-	}
-
-	.hero-portrait {
+	.resultado {
 		display: flex;
-		justify-content: center;
+		align-items: baseline;
+		gap: 1rem;
+		padding-block: 1.4rem;
+		padding-inline-end: 1.5rem;
 	}
 
-	.portrait-frame {
+	.resultado + .resultado {
+		border-inline-start: 1px solid var(--color-border);
+		padding-inline-start: 1.5rem;
+	}
+
+	.resultado-pos {
+		flex-shrink: 0;
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: var(--fs-cifra);
+		line-height: 1;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.resultado-oro .resultado-pos {
+		color: var(--color-accent);
+	}
+
+	.resultado-texto {
+		display: grid;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.25rem;
+		line-height: 1.2;
+	}
+
+	.resultado-nota {
+		font-family: var(--font-body);
+		font-weight: 400;
+		font-size: var(--fs-small);
+		color: var(--color-text-dim);
+		margin-block-start: 0.2rem;
+	}
+
+	/* ---------- Servicios: cada uno en su carril ---------- */
+	/* Mismo campo claro que el palmarés, que va justo antes */
+	.servicios {
+		margin-block-start: 0;
+	}
+
+	.servicios-intro .lead {
+		margin-block: 1.5rem 2rem;
+		max-width: 38ch;
+	}
+
+	.servicios-lista {
+		list-style: none;
+		display: grid;
+		gap: clamp(2.25rem, 4vw, 3.25rem);
+	}
+
+	.servicio {
 		position: relative;
-		width: min(360px, 80vw);
-		aspect-ratio: 1 / 1;
-		border-radius: 28px;
-		padding: 4px;
-		background: linear-gradient(155deg, var(--color-blue), var(--color-green) 60%, transparent);
+		padding-block-start: 1.4rem;
 	}
 
-	.portrait-frame::before {
+	/* La línea del carril: se pinta de lado a lado al entrar */
+	.servicio::before {
 		content: '';
 		position: absolute;
-		inset: -30px;
-		z-index: -1;
-		background: radial-gradient(circle, rgba(56, 189, 248, 0.25), transparent 70%);
-		filter: blur(20px);
+		inset-block-start: 0;
+		inset-inline: 0;
+		block-size: 4px;
+		background: var(--carril);
+		transform-origin: var(--origen-inline, left) center;
+		transition: transform 1.1s var(--ease-expo);
+		transition-delay: calc(var(--i, 0) * 85ms + 120ms);
 	}
 
-	.portrait-frame img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		border-radius: 24px;
-		background: var(--color-bg-elevated);
+	[dir='rtl'] .servicio::before {
+		--origen-inline: right;
 	}
 
-	.sobre-mi {
-		padding-block: 1rem 6rem;
+	@media (prefers-reduced-motion: no-preference) {
+		:global(.cine) .servicio:not(.is-in)::before {
+			transform: scaleX(0);
+		}
 	}
 
-	.section-intro {
-		max-width: 62ch;
-		margin-block-end: 3rem;
+	.servicio-nombre {
+		font-size: var(--fs-h3);
+		font-weight: 700;
+		margin-block-end: 0.6rem;
 	}
 
-	.section-intro h2 {
-		font-size: clamp(1.6rem, 3vw, 2.1rem);
-		margin-block: 0.75rem 1rem;
+	.servicio-enlace {
+		text-decoration: underline;
+		text-decoration-color: transparent;
+		text-decoration-thickness: 2px;
+		text-underline-offset: 0.18em;
+		transition: text-decoration-color var(--transition-fast);
 	}
 
-	.section-intro p.text-dim {
-		font-size: 1.02rem;
+	/* Todo el servicio es clicable; el enlace es el nombre */
+	.servicio-enlace::after {
+		content: '';
+		position: absolute;
+		inset: 0;
 	}
 
-	.section-cta {
-		margin-block-start: 1.5rem;
+	@media (hover: hover) and (pointer: fine) {
+		.servicio:hover .servicio-enlace {
+			text-decoration-color: var(--carril);
+		}
 	}
 
-	.experiencia-teaser {
-		padding-block: 1rem 6rem;
+	.servicio-enlace:focus-visible {
+		outline: none;
 	}
 
-	.experiencia-teaser .section-intro {
-		margin-block-end: 0;
+	.servicio:has(.servicio-enlace:focus-visible) {
+		outline: 2px solid var(--color-link);
+		outline-offset: 6px;
 	}
 
-	.proyectos-cta {
-		display: flex;
-		justify-content: center;
-		margin-block-start: -3.5rem;
-		margin-block-end: 6rem;
+	.servicio-texto {
+		font-size: 1.1rem;
+		max-width: 52ch;
 	}
 
-	.cta-final {
-		border-top: 1px solid var(--color-border);
-		padding-block: 4.5rem;
-	}
-
-	.cta-final-inner {
-		max-width: 56ch;
-		text-align: center;
-		margin-inline: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-	}
-
-	.cta-final-inner h2 {
-		font-size: clamp(1.6rem, 3vw, 2.2rem);
-	}
-
-	.cta-final-inner .btn {
-		margin-block-start: 0.5rem;
-	}
-
-	.stats-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-		gap: 1.5rem;
-	}
-
-	.stat-card {
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 16px;
-		padding: 1.5rem;
-		transition:
-			border-color var(--transition-fast),
-			transform var(--transition-fast),
-			opacity 0.6s ease,
-			transform 0.6s ease;
-	}
-
-	.stat-card:hover {
-		border-color: var(--color-blue);
-		transform: translateY(-3px);
-	}
-
-	.stat-value {
-		font-family: var(--font-mono);
-		font-size: 1.4rem;
-		font-weight: 500;
-		color: var(--color-green);
-		margin-block-end: 0.35rem;
-	}
-
-	.stat-label {
-		font-family: var(--font-heading);
+	.servicio-prueba {
+		margin-block-start: 0.75rem;
+		font-family: var(--font-display);
 		font-weight: 600;
+		font-size: 1.05rem;
+		color: var(--color-text-dim);
+	}
+
+	/* ---------- Bloques ---------- */
+	.sobre-mi-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+		gap: clamp(2rem, 6vw, 5rem);
+		align-items: start;
+	}
+
+	.sobre-mi-texto .titulo-seccion {
+		margin-block-end: 1.5rem;
+	}
+
+	.sobre-mi-texto p {
+		font-size: var(--fs-lead);
+		line-height: 1.6;
+		margin-block-end: 1.25rem;
+		max-width: 46ch;
+	}
+
+	.ficha {
+		margin: 0;
+		border-block-start: 3px solid var(--color-text);
+	}
+
+	.ficha-fila {
+		display: grid;
+		grid-template-columns: 7.5rem minmax(0, 1fr);
+		gap: 1rem;
+		padding-block: 1.05rem;
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.ficha dt {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.05rem;
+		color: var(--color-text-dim);
+	}
+
+	.ficha dd {
+		margin: 0;
+	}
+
+	/* Dos carriles: datos con la línea stayer, deporte con la sprinter */
+	.experiencia-intro {
+		max-width: 60ch;
+		margin-block-end: var(--space-block);
+	}
+
+	.experiencia-intro .lead {
+		margin-block-start: 1.5rem;
+		max-width: 52ch;
+	}
+
+	.carriles {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: clamp(1.5rem, 4vw, 3.5rem);
+		margin-block-end: 1.5rem;
+	}
+
+	.carril {
+		border-block-start: 4px solid var(--carril-color);
+		padding-block-start: 1rem;
+	}
+
+	.carril-datos {
+		--carril-color: var(--color-link);
+	}
+
+	.carril-pista {
+		--carril-color: var(--pista-sprinter);
+	}
+
+	.carril-nombre {
+		font-size: 1.4rem;
+		font-weight: 700;
 		margin-block-end: 0.5rem;
 	}
 
-	.stat-detail {
-		font-size: 0.92rem;
+	.carril-items {
+		list-style: none;
+	}
+
+	.carril-items li {
+		display: grid;
+		grid-template-columns: 6.5rem minmax(0, 1fr);
+		gap: 1rem;
+		align-items: baseline;
+		padding-block: 1rem;
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.carril-cifra {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: 2rem;
+		line-height: 1;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.carril-texto {
+		font-size: 1.02rem;
 		line-height: 1.5;
 	}
 
+	/* ---------- Proyectos ---------- */
+	.proyectos-cta {
+		margin-block: 0 var(--space-section);
+	}
+
 	@media (max-width: 860px) {
-		.hero-grid {
+		.palmares {
 			grid-template-columns: 1fr;
 		}
 
-		.hero-portrait {
-			order: -1;
+		.resultado {
+			padding-block: 0.9rem;
 		}
 
-		.portrait-frame {
-			width: min(280px, 60vw);
+		.resultado + .resultado {
+			border-inline-start: 0;
+			border-block-start: 1px solid var(--color-border);
+			padding-inline-start: 0;
+		}
+
+		.sobre-mi-grid,
+		.carriles {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 420px) {
+		.carril-items li {
+			grid-template-columns: 5rem minmax(0, 1fr);
+		}
+
+		.carril-cifra {
+			font-size: 1.6rem;
+		}
+
+		.ficha-fila {
+			grid-template-columns: 1fr;
+			gap: 0.2rem;
 		}
 	}
 </style>

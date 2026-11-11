@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Algemene voorwaarden — Mario Álvarez",
+		"description": "Juridische kennisgeving en gebruiksvoorwaarden van marioalvarez.me: wie de eigenaar is, hoe de website kan worden gebruikt en welk recht van toepassing is.",
+		"heading": "Algemene voorwaarden"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Wie er achter deze website zit",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "In overeenstemming met artikel 10 van Wet 34/2002 betreffende de diensten van de informatiemaatschappij en de e-commerce (LSSI-CE), zijn dit de gegevens van de eigenaar van marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Eigenaar: {nombre}",
+						"NIF: {nif}",
+						"Adres: {domicilio}",
+						"Email: {email}",
+						"Activiteit: professionele portfolio en het aanbieden van diensten op het gebied van data-analyse, maatwerktools, databases en rapporten, en carrièrebegeleiding."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Wat deze voorwaarden reguleren",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Deze voorwaarden reguleren de toegang tot en het gebruik van marioalvarez.me (de \"website\") in al haar talen. Door erop te surfen, accepteert u deze te gebruiken in overeenstemming met wat hier wordt vermeld. Als u mij schrijft via het contactformulier, vraag ik u om deze uitdrukkelijk te accepteren door een vakje aan te kruisen."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hoe de website mag worden gebruikt",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "U kunt de inhoud raadplegen en delen onder vermelding van de bron. Het is niet toegestaan om:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"de website te gebruiken voor illegale doeleinden of doeleinden die schadelijk zijn voor derden;",
+						"te proberen toegang te krijgen tot afgeschermde zones (zoals het privépaneel) of de systemen die de website hosten;",
+						"virussen of andere schadelijke code te introduceren, of de website opzettelijk te overbelasten;",
+						"inhoud te kopiëren om deze als uw eigen eigendom voor te stellen."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Diensten en contractering",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "De website verkoopt geen producten en int geen online betalingen. Als u geïnteresseerd bent in een dienst, bespreken we dit via email of telefonisch en stuur ik u een schriftelijk voorstel met de omvang, de prijs, de termijnen en de betalings- en annuleringsvoorwaarden. Dit voorstel, zodra het door beide partijen is geaccepteerd, is hetgeen dat de dienst regelt en prevaleert boven deze voorwaarden."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hoe annuleringen, het herroepingsrecht en terugbetalingen werken, wordt uitgelegd in het terugbetalingsbeleid."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intellectuele en industriële eigendom",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "De teksten, het ontwerp, de eigen code, het logo en de foto's van Mario Álvarez zijn eigendom van hemzelf of worden gebruikt met toestemming van de auteurs ervan. Het is niet toegestaan om deze zonder schriftelijke toestemming te reproduceren voor commerciële doeleinden."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "De namen en logo's van derden (zoals LinkedIn, GitHub, Instagram of de teams en entiteiten die in de ervaring worden genoemd) zijn eigendom van hun respectieve eigenaren. Het vermelden ervan impliceert geen enkele commerciële relatie of sponsoring, tenzij dit uitdrukkelijk wordt vermeld."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "De website maakt gebruik van bronnen van derden met licenties die dit toestaan: de lettertypen Fira Sans Extra Condensed en Source Serif 4 (SIL Open Font License 1.1), de pictogrammen van Lucide (ISC-licentie) en Simple Icons (CC0 1.0) en de animatiebibliotheek GSAP (gratis standaardlicentie van GreenSock, van Webflow). Elk project waarnaar op GitHub wordt gelinkt, heeft zijn eigen licentie."
+				}
+			]
+		},
+		{
+			"titulo": "6. Aansprakelijkheid",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ik werk eraan om ervoor te zorgen dat de informatie juist is en dat de website beschikbaar is, maar ik kan niet garanderen dat er geen fouten of onderbrekingen zijn. De inhoud is informatief en vervangt geen professioneel advies over uw specifieke situatie."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "De website bevat links naar websites van derden (sociale media, repositories, projectwebsites). Ik heb geen controle over de inhoud of het beleid ervan en ben er niet verantwoordelijk voor."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privacy en cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hoe uw gegevens worden verwerkt en welke cookies worden gebruikt, wordt uitgelegd in het privacybeleid en het cookiebeleid. Geen enkel deel van de website verplicht u om cookies te accepteren om deze te kunnen gebruiken."
+				}
+			]
+		},
+		{
+			"titulo": "8. Registratie van acceptaties",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Om de toestemming te kunnen aantonen wanneer dat nodig is (artikel 7.1 van de AVG), wordt er, wanneer u deze voorwaarden accepteert in het contactformulier of kiest welke cookies u toestaat, een logboek opgeslagen met: een pseudonieme identificatie, wat u hebt geaccepteerd of geweigerd, de versie van elk document, de datum en tijd, de pagina en de taal vanwaar u dit hebt gedaan, de bron (banner, instellingen of formulier), de browser en, in het formulier, een referentiecode die in uw email meereist. Uw IP-adres wordt niet opgeslagen. De details staan in het privacybeleid."
+				}
+			]
+		},
+		{
+			"titulo": "9. Talen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "De Spaanse versie van deze teksten is de originele versie en prevaleert in geval van twijfel. De overige versies zijn automatische vertalingen die voor het gemak worden aangeboden."
+				}
+			]
+		},
+		{
+			"titulo": "10. Wijzigingen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ik kan deze voorwaarden bijwerken om ze aan te passen aan wettelijke wijzigingen of wijzigingen op de website. De datum van de huidige versie staat bovenaan deze pagina. Als de wijziging significant is, zal ik u opnieuw vragen deze te accepteren."
+				}
+			]
+		},
+		{
+			"titulo": "11. Toepasselijk recht en jurisdictie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Op deze voorwaarden is de Spaanse wetgeving van toepassing. Als u handelt als consument, kunt u zich wenden tot de rechtbanken van uw woonplaats en tot de systemen voor arbitrage en geschillenbeslechting voor consumenten van uw autonome gemeenschap. In alle andere gevallen onderwerpen beide partijen zich aan de rechtbanken en tribunalen van Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

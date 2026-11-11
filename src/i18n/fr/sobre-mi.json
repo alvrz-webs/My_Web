@@ -3,7 +3,13 @@
 		"title": "À propos de moi — Mario Álvarez",
 		"description": "De champion d'Espagne de madison à étudiant en science des données : le parcours de Mario Álvarez entre le cyclisme de compétition et l'analyse sportive.",
 		"eyebrow": "À propos de moi",
-		"heading": "Du vélodrome aux données"
+		"heading": "Du vélodrome aux données",
+		"lead": "Je suis toujours dans le cyclisme, sur la piste et dans la voiture de l'équipe. Ce qui a changé, c'est la façon dont je le regarde : maintenant aussi avec des données.",
+		"historiaTitulo": "Coureur, directeur sportif et data scientist",
+		"fichaTitulo": "En bref",
+		"fichaTexto": "L'essentiel, au cas où vous seriez pressé.",
+		"retratoAlt": "Portrait de Mario Álvarez",
+		"escenaFrase": "D'abord, les jambes. Maintenant, les données."
 	},
 	"bio": [
 		"J'ai commencé par la compétition. À 18 ans, j'ai été sacré champion d'Espagne de madison sur piste et l'équipe nationale espagnole de cyclisme m'a convoqué pour les championnats du monde et d'Europe, où j'ai terminé sixième dans les deux cas, ce qui m'a valu le statut d'athlète de haut niveau.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Base",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm et Valence"
 		},
 		{
 			"label": "Statut",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Approche",
-			"value": "Données + performance sportive"
+			"value": "Données et performance sportive"
 		},
 		{
 			"label": "Langues",
-			"value": "Espagnol natif · Valencien · Anglais B1"
+			"value": "Espagnol (natif), valencien et anglais (B1)"
 		},
 		{
 			"label": "Formation",
-			"value": "Licence en science des données (UPV) · Master en numérisation, innovation et technologie dans le sport"
+			"value": "Licence en Science des Données (UPV) et Master en Numérisation, Innovation et Technologie dans le Sport"
 		}
 	]
 }

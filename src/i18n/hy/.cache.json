@@ -46,10 +46,6 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "Բացել ըն菜单"
 		},
-		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
-		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
 			"value": "Mario Álvarez. Valencia."
@@ -113,6 +109,82 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "Սպորտային վերլուծության ոլորտում մասնագիտացած տվյալների գիտնական՝ պրոֆեսիոնալ հեծանվասպորտում աշխատանքային փորձով:"
+		},
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "Գլխավոր"
+		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "Ancora al contenuto"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "Անցնել բաց և մութ ռեժիմների միջև"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "Հեռախոս"
+		},
+		"footer/tagline": {
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "Մեդիսոնի Իսպանիայի չեմպիոն: Տվյալների գիտնական:"
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "Հասանելի է տվյալների և մարզական արդյունավետության նախագծերի համար:"
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Գրիր ինձ"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "Բաժիններ"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "Իրավական"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "Խոսե՞նք"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Եթե ​​ունեք կատարողականի տվյալներ և անպատասխան հարցեր, գրեք ինձ և մենք միասին կնայենք դրանք:"
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Գրիր ինձ"
+		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Պայմաններ և դրույթներ"
+		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Գումարի վերադարձման քաղաքականություն"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "Վերջին թարմացումը"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "Այս էջում"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "Այլ փաստաթղթեր"
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "պտույտներ"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "վերջին"
 		}
 	},
 	"inicio": {
@@ -120,137 +192,265 @@
 			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
 			"value": "Մاريո Ալվարես — Տվյալների գիտնական՝ մասնագիտացված սպորտում"
 		},
-		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "Մاريո Ալվարես, տվյալների գիտնական Վալենսիայում, մասնագիտացված սպորտային վերլուծության մեջ: Տվյալներ · Սպորտ · Առקדընթաց:"
-		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "Տեսնել նախագծերը"
-		},
-		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "Կապ"
-		},
-		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "Տեսնել ավելին"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "Տեսնել բոլոր նախագծերը"
 		},
-		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "Անցնել կապին"
-		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "Հիմնական գործիքներ"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "Տվյալների գիտնական · Սպորտային վերլուծություն · Վալենսիա"
+		"meta/description": {
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "Մարիո Ալվարես, տվյալների գիտնական Վալենսիայում՝ մասնագիտացված մարզական վերլուծության մեջ: Մեդիսոնի Իսպանիայի չեմպիոն և RFEC սպորտային տնօրեն:"
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "Ես վերածում եم տվյալները "
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "Տեսնել, թե ինչպես եմ օգնում քեզ"
 		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "հստակ որոշումների"
+		"meta/contacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Գրիր ինձ"
+		},
+		"meta/verMas": {
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "Կարդալ ավելին"
+		},
+		"meta/irAContacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Գրիր ինձ"
+		},
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "Մարիո Ալվարես, տվյալների գիտնական"
+		},
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "Եղել եմ մեդիսոնի Իսպանիայի չեմպիոն:"
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "Ես կամուրջ եմ տվյալների վերլուծության և էլիտար սպորտի միջև. արդյունավետության չափանիշները վերածում եմ ռազմավարությունների, որոնք փոփոխություն են մտցնում խաղադաշտում:"
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "Այժմ ես սովորում եմ Տվյալների գիտություն UPV-ում և վերլուծում եմ այն, ինչ թաքնված է արդյունավետության հետևում՝ հզորություն, բեռնվածություն և արդյունքներ: Ես գիտեմ, թե ինչ է նշանակում թիվ հեծանվորդի համար, քանի որ ես եղել եմ այդ հեծանվորդը:"
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "Նվաճումներ"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "1º"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "Մեդիսոնի Իսպանիայի առաջնություն"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "Թրեք, 18 տարեկանում"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "Իմ մասին"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "Թրեքի Աշխարհի առաջնություն"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Իսպանական հավաքական"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "Թրեքի Եվրոպայի առաջնություն"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Իսպանական հավաքական"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Մարիո Ալվարեսի դիմանկարը"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "Ինչում կարող եմ օգնել քեզ"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "Աշխատում եմ թիմերի, մարզիչների և հեծանվորդների հետ, ովքեր ունեն տվյալներ և ցանկանում են դրանցից օգուտ քաղել: Եվ այն ընկերությունների հետ, որոնք կարիք ունեն կարգավորելու սեփականները:"
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "Պատմիր ինձ քո դեպքի մասին"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Արդյունավետության վերլուծություն"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "Կարդում եմ հզորությունը, բեռնվածությունը և արդյունքները հեծանվորդի աչքերով: Բացատրում եմ, թե ինչ է կատարվում և ինչը կփոխեի:"
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "Էլիտար հեծանվորդ և RFEC սպորտային տնօրեն, I և II մակարդակներ:"
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "Հարմարեցված գործիքներ"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "Scraping, մոդելներ և փոքր հավելվածներ Python-ում, որոնք պատասխանում են ձեր թիմի կոնկրետ հարցին:"
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Երկու գործիք Cofidis թիմի համար՝ UCI դժվարություն և մրցավազքի պրոֆիլ:"
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Տվյալների բազաներ և հաշվետվություններ"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "Ավելի արագ հարցումներ, միասնական բազաներ և վահանակներ Power BI-ում, որոնք հասկանալի են առաջին հայացքից:"
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "Ավելի քան 580 աղյուսակ և 100 միլիոն գրառում բազայում, որոնք օպտիմալացնում եմ SIME Telecom-ում:"
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Աջակցություն մրցավազքում"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "Մրցավազքի նախապատրաստում, հեծանվորդների հսկողություն և մրցութային քսանմաժ:"
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "Վալենսիայի Համայնքի Հավաքականի անձնակազմ:"
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "Տվյալներ՝ մրցուղու, ճանապարհի և մրցույթի համատեքստով"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "Վելոդրոմից մինչև տվյալներ"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "Ես Մاريո Ալվարեսն եم, Տվյալների գիտության ուսանող Պոլիտեխնիկական համալսարանում՝ պրոֆեսիոնալ հեծանվավազքում իրական փորձով: Ես համատեղում եմ տվյալների վերլուծությունը էլիտար սպորտային արդյունավետության հետ՝ յուրաքանչյուր ցուցանիշ վերածելու արդյունքները բարելավող որոշման:"
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "Սովորում եմ Տվյալների գիտության բակալավրիատի 3-րդ կուրսում UPV-ում և ավարտել եմ մագիստրատուրա՝ սպորտին կիրառվող թվայնացման և տեխնոլոգիաների ոլորտում: Հեծանվասպորտից դուրս չեմ եկել. շարունակում եմ մրցել թրեքում, ղեկավարում եմ սկսնակ հեծանվորդներին և աշխատում որպես քսանմաժագետ պրոֆեսիոնալների հետ:"
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Բազա"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Բենիդորմ և Վալենսիա"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Կրթություն"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "Տվյալների գիտության բակալավր, Վալենսիայի պոլիտեխնիկական համալսարան:"
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Տվյալների գիտության բակալավրիատ (UPV) և Մագիստրատուրա թվայնացման, նորարարության և տեխնոլոգիաների սպորտում"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "Էլիտա"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "Կոչումներ"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Փորձ"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "RFEC սպորտային տնօրեն, I և II մակարդակներ"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "Իրական աշխատանք պրոֆեսիոնալ հեծանվային թիմում:"
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "Այժմ"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "Մոտեցում"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "Վերլուծություն՝ ուղղված սպորտային արդյունավետության բարելավմանը:"
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Փորձ"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "Հասանելի է տվյալների և արդյունավետության նախագծերի համար"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "Երկու աշխարհ, միևնույն լեզուն՝ արդյունավետությունը"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "Երկու ուղի, միևնույն աշխատանքը"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "Ես մրցել եم ամենաբարձր մակարդակով և այսօր նույն չափանիշը կիրառում եմ տվյալների վրա. հասկանում եմ, թե ինչ է նշանակում թիվը մարզիկի համար, որովհետև ես եղել եմ այդ մարզիկը:"
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "Մեկում ես օպտիմալացնում եմ տվյալների բազաներ և գրում մոդելներ: Մյուսում նախապատրաստում եմ մրցավազքեր և հետևում հեծանվորդներին: Երկուսն էլ նույն բանի մասին են՝ լավ չափել՝ ավելի լավ որոշում կայացնելու համար:"
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "Տվյալներ"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "վերլուծված աղյուսակ SIME Telecom-ում մի քանի բազա մեկում միավորելու համար՝ առանց սարքավորումների ընդլայնման"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "գրառում տվյալների բազայում, որն օպտիմալացնում եմ"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "գործիք Python-ում Cofidis թիմի համար՝ UCI դժվարություն և մրցավազքի պրոֆիլ"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "Թրեք և խճուղի"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I և II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "Իսպանիայի հեծանվասպորտի թագավորական ֆեդերացիայի սպորտային տնօրենի մակարդակներ"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "տարեկան են այն սկսնակ հեծանվորդները, որոնց մարզում և ուղեկցում եմ հորս հետ"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "օգնական Վալենսիայի Համայնքի Հավաքականի հետ մրցույթում"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "Խոսե՞նք տվյալներից:"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "Վերջին պտույտ"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "Պատմիր ինձ քո նախագծի մասին, և մենք միասին կփնտրենք, թե որտեղ են այն որոշումները, որոնք բարելավում են արդյունավետությունը:"
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Եթե ունես կատարողականի տվյալներ և չպատասխանված հարցեր, գրիր ինձ, և միասին կնայենք դրանք:"
 		}
 	},
 	"sobre-mi": {
@@ -290,10 +490,6 @@
 			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
 			"value": "Հիմք"
 		},
-		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
-		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
 			"value": "Կարգավիճակ"
@@ -306,25 +502,53 @@
 			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
 			"value": "Մոտեցում"
 		},
-		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "Տվյալներ + սպորտային արդյունավետություն"
-		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "Լեզուներ"
-		},
-		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "Մայրենի իսպաներեն · Վալենսիերեն · Անգլերեն B1"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Կրթություն"
 		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "Ես դեռ հեծանվասպորտում եմ՝ տրեկում և մարզչական մեքենայում: Փոխվել է միայն այն, թե ինչպես եմ նայում դրան. հիմա նաև տվյալների միջոցով:"
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "Մրցարշավորդ, տնօրեն և տվյալների գիտնական"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "Կարճ ասած"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "Ամենակարևորը, եթե շտապում եք:"
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Մاريո Ալվարեսի դիմանկարը"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "Սկզբում՝ ոտքերը: Հիմա՝ տվյալները:"
+		},
+		"facts/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Բենիդորմ և Վալենսիա"
+		},
+		"facts/2/value": {
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "Տվյալներ և մարզական արդյունավետություն"
+		},
+		"facts/3/value": {
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "Իսպաներեն (մայրենի), վալենսիերեն և անգլերեն (B1)"
+		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "Տվյալների գիտության բակալավր (UPV) · Սպորտում թվայնացման, նորարարության և տեխնոլոգիայի մագիստրոս"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Տվյալների գիտության բակալավր (UPV) և Մագիստրոսի կոչում սպորտում թվայնացման, նորարարության և տեխնոլոգիաների ոլորտում"
 		}
 	},
 	"experiencia": {
@@ -344,10 +568,6 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "Եثنين աշխարհ, միևնույն լեզուն՝ արդյունավետությունը"
 		},
-		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "Տվյալներ և տեխնոլոգիա"
-		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
 			"value": "Էլիտար սպորտ"
@@ -355,10 +575,6 @@
 		"datos/0/title": {
 			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
 			"value": "SIME TELECOM — Տվյալների գիտության պրակտիկա"
-		},
-		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "Տվյալների ճարտարագիտություն · Բենիդորմ · 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -371,10 +587,6 @@
 		"datos/1/title": {
 			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
 			"value": "Նախագծեր Cofidis թիմի հետ (World Tour)"
-		},
-		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · 2025 թվականի ամառ"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -435,6 +647,54 @@
 		"deporte/2/paragraphs/0": {
 			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
 			"value": "Որակավորված կիրոմասաժիստ; պրոֆեսիոնալ հեծանվորդների մերսող; Վալենսիայի Համայնքի հավաքականի, ֆիլիպինյան մայրցամաքային թիմի և Բենիդորմում անհատ հեծանվորդների հետ աշխատող անձնակազմ։"
+		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "Տվյալների բազայում, թե հեծանվային թիմի մեքենայում, աշխատանքը նույնն է՝ լավ չափել՝ ավելի լավ որոշում կայացնելու համար:"
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "գրառումներ այն բազայում, որը օպտիմալացնում եմ SIME Telecom-ում"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "գործիք Python-ով Cofidis թիմի համար"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "հեծանվասպորտի աշխարհի և Եվրոպայի առաջնություններում"
+		},
+		"meta/colDatos": {
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "Տվյալներ և տեխնոլոգիա"
+		},
+		"datos/0/meta": {
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "Տվյալների ինժեneria, Բենիդորմ, 2026"
+		},
+		"datos/1/meta": {
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, ամառ 2025"
+		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "Հեծանվասպորտ տրեկում, Իսպանիայի հավաքական"
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, I և II մակարդակներ"
 		}
 	},
 	"proyectos": {
@@ -521,6 +781,18 @@
 		"list/vacioWebs": {
 			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
 			"value": "Այս բաժնում դեռևս հրապարակված կայքեր չկան:"
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "GitHub-ի հանրային պահոցներ"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "հրապարակված կայքեր"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "լեզուներ և գործիքներ"
 		}
 	},
 	"contacto": {
@@ -535,14 +807,6 @@
 		"meta/eyebrow": {
 			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
 			"value": "Կապ"
-		},
-		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "Ունե՞ք տվյալներ և լուծելու ենթակա հարց:"
-		},
-		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "Եկեք խոսենք: Լինի դա սպորտային վերլուծության նախագիծ, տվյալների ոլորտում համագործակցություն, թե պարզապես մի միտք, որը ցանկանում եք քննարկել, ես սիրով կպատասխանեմ:"
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,6 +823,118 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Սոցիալական ցանցեր"
+		},
+		"meta/heading": {
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "Տվյալներ ունե՞ք և հարց։"
+		},
+		"meta/intro": {
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "Եկեք խոսենք։ Լինի դա սպորտային վերլուծության նախագիծ, տվյալների ոլորտում համագործակցություն, թե մի միտք, որը ցանկանում եք քննարկել, ես եմ պատասխանելու։"
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "Ի՞նչ մասին եք ուզում խոսել։"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "Ընտրեք թեմա, և ես կնախապատրաստեմ էլ. փոստը ձեզ համար: Պարզապես պետք է պատմեք ձեր խնդրի մասին։"
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Կատարողականի վերլուծություն"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "Հարմարեցված գործիք"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Տվյալների բազաներ և հաշվետվություններ"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Կարիերային աջակցություն"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "Այլ բան"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "Գրել էլ. փոստ"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "Պատճենել էլ. փոստը"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "Էլ. փոստը պատճենված է"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "Հարցում marioalvarez.me-ից"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "Բարև Մարիո՝\n\nԳրում եմ հետևյալի մասին՝ {tema}։\n\nԱյն, ինչ ունեմ՝\n\nԱյն, ինչ կցանկանայի իմանալ՝\n\nՇնորհակալություն։"
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "Այլ ուղիներ"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Բազա"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Բենիդորմ և Վալենսիա"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "Լեզուներ"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "Իսպաներեն, վալենսերեն և անգլերեն"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "Մինչև ինձ գրելը"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "Կարդացել և ընդունում եم {enlace}։"
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "պայմաններ և դրույթներ"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "Ընդունում եմ վերլուծական թխուկները, որոնք նկարագրված են {enlace}-ում (կամընտրական)։"
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "թխուկների քաղաքականություն"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "Ինձ գրելու համար նախ նշեք պայմանների և դրույթների վանդակը։"
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "Պատասխանատու՝ Mario Álvarez Martínez: Նպատակը՝ պատասխանել ձեր հարցմանը և, եթե խնդրեք, պատրաստել առաջարկ ձեզ համար: Օրինականություն՝ ձեր խնդրանքը: Ստացողներ՝ ոչ ոք, բացառությամբ օրենքով սահմանված դեպքերի: Իրավունքներ՝ մուտք, ուղղում, ջնջում և մյուսները, որոնք բացատրված են {enlace}-ում։"
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "գաղտնիության քաղաքականություն"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "Պայմանների ընդունման հղում՝ {ref}"
 		}
 	},
 	"politica-cookies": {

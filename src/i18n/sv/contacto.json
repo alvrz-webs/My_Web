@@ -3,11 +3,54 @@
 		"title": "Kontakta — Mario Álvarez",
 		"description": "Kom i kontakt med Mario Álvarez för att prata om data, idrottsprestationer och projekt.",
 		"eyebrow": "Kontakt",
-		"heading": "Har du data och en fråga som behöver lösas?",
-		"intro": "Låt oss prata. Oavsett om det gäller ett idrottsanalysprojekt, ett datasamarbete eller bara en idé som du vill bolla, svarar jag gärna.",
+		"heading": "Har du data och en fråga?",
+		"intro": "Låt oss prata. Oavsett om det är ett idrottsanalysprojekt, et datasamarbete eller en idé du vill bolla, svarar jag personligen.",
 		"email": "E-post",
 		"telefono": "Telefon",
 		"verTelefono": "Visa telefonnummer",
-		"redesSociales": "Sociala medier"
+		"redesSociales": "Sociala medier",
+		"temaTitulo": "Vad vill du prata om?",
+		"temaAyuda": "Välj ett ämne så förbereder jag e-postmeddelandet åt dig. Du behöver bara berätta om ditt fall.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Prestationsanalys"
+			},
+			{
+				"id": "herramientas",
+				"label": "Ett skräddarsytt verktyg"
+			},
+			{
+				"id": "datos",
+				"label": "Databaser och rapporter"
+			},
+			{
+				"id": "carrera",
+				"label": "Karriärstöd"
+			},
+			{
+				"id": "otro",
+				"label": "Något annat"
+			}
+		],
+		"escribir": "Skriv e-post",
+		"copiar": "Kopiera e-post",
+		"copiado": "E-post kopierad",
+		"asunto": "Förfrågan från marioalvarez.me",
+		"cuerpo": "Hej Mario:\n\nJag skriver till dig angående: {tema}.\n\nDet jag har:\n\nDet jag skulle vilja veta:\n\nTack.",
+		"otrosCanales": "Andra kanaler",
+		"base": "Bas",
+		"baseValor": "Benidorm och Valencia",
+		"idiomas": "Språk",
+		"idiomasValor": "Spanska, valencianska och engelska",
+		"aceptacionesTitulo": "Innan du skriver till mig",
+		"aceptoTerminos": "Jag har läst och godkänner {enlace}.",
+		"enlaceTerminos": "villkor",
+		"aceptoCookies": "Jag accepterar analyskakorna som beskrivs i {enlace} (valfritt).",
+		"enlaceCookies": "cookiepolicy",
+		"faltaTerminos": "För att skriva till mig, markera rutan för villkoren först.",
+		"primeraCapa": "Personuppgiftsansvarig: Mario Álvarez Martínez. Ändamål: att besvara din förfrågan och, om du ber om det, förbereda ett förslag åt dig. Laglig grund: din begäran. Mottagare: ingen, förutom vid lagstadgad skyldighet. Rättigheter: tillgång, rättelse, radering och övriga som förklaras i {enlace}.",
+		"enlacePrivacidad": "integritetspolicy",
+		"refEmail": "Referens för godkännande av villkoren: {ref}"
 	}
 }

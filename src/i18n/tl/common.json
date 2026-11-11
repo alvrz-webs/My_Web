@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Simula",
 		"sobreMi": "Tungkol sa akin",
 		"proyectos": "Mga Proyekto",
 		"experiencia": "Karanasan",
@@ -7,10 +8,22 @@
 		"ariaMain": "Pangunahing nabigasyon",
 		"openMenu": "Buksan ang menu"
 	},
+	"saltar": "Laktaw patungo sa nilalaman",
+	"tema": "Lumipat sa pagitan ng maliwanag at madilim na mode",
+	"telefono": "Telepono",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Kampeon ng Espanya sa madison. Data Scientist.",
+		"disponible": "Available para sa mga proyekto sa data at pagganap sa palakasan.",
+		"escribeme": "Sumulat sa akin",
+		"navLabel": "Mga Seksyon",
+		"legalLabel": "Legal",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Mga social media"
+	},
+	"cierre": {
+		"title": "Mag-usap tayo?",
+		"text": "Kung mayroon kang data ng pagganap at mga tanong na walang sagot, sumulat sa akin at susuriin natin ito nang magkasama.",
+		"cta": "Sumulat sa akin"
 	},
 	"langSwitch": {
 		"label": "Baguhin ang wika",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Pahintulot sa cookies"
 	},
 	"legal": {
+		"terminos": "Mga Tuntunin at Kondisyon",
 		"privacidad": "Patakaran sa privacy",
-		"cookies": "Patakaran sa cookies"
+		"cookies": "Patakaran sa cookies",
+		"reembolso": "Patakaran sa refund",
+		"actualizado": "Huling na-update",
+		"indice": "Sa pahinang ito",
+		"otros": "Iba pang mga dokumento"
 	},
 	"person": {
 		"jobTitle": "Data Scientist",
 		"description": "Data Scientist na dalubhasa sa sports analytics, na may karanasan sa loob ng propesyonal na pagbibisikleta."
+	},
+	"pizarra": {
+		"vueltas": "mga lap",
+		"campana": "huli"
 	}
 }

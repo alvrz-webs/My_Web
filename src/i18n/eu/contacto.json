@@ -3,11 +3,54 @@
 		"title": "Kontaktua — Mario Álvarez",
 		"description": "Jarri harremanetan Mario Álvarezekin datuei, kirol-errendimenduari eta proiektuei buruz hitz egiteko.",
 		"eyebrow": "Kontaktua",
-		"heading": "Datuak eta konpondu beharreko galdera bat al dituzu?",
-		"intro": "Egin dezagun berba. Kirol-analitika proiektu bat, datu-kolaborazio bat edo kontrastatu nahi duzun ideia bat izan, gustura erantzuten dut.",
+		"heading": "Datuak eta galdera bat dituzu?",
+		"intro": "Hitz egin dezagun. Kirol-analitika proiektu bat, datu-kolaborazio bat edo kontrastatu nahi duzun ideia bat izan, nik erantzungo dizut.",
 		"email": "Posta elektronikoa",
 		"telefono": "Telefonoa",
 		"verTelefono": "Ikusi telefonoa",
-		"redesSociales": "Sare sozialak"
+		"redesSociales": "Sare sozialak",
+		"temaTitulo": "Zazunez hitz egin nahi duzu?",
+		"temaAyuda": "Aukeratu gai bat eta posta elektronikoa prest utziko dizut. Zure kasua kontatu besterik ez duzu egin behar.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Errendimenduaren analisia"
+			},
+			{
+				"id": "herramientas",
+				"label": "Neurrira egindako tresna bat"
+			},
+			{
+				"id": "datos",
+				"label": "Datu-baseak eta txostenak"
+			},
+			{
+				"id": "carrera",
+				"label": "Karrerako laguntza"
+			},
+			{
+				"id": "otro",
+				"label": "Besterik"
+			}
+		],
+		"escribir": "Mezua idatzi",
+		"copiar": "Posta elektronikoa kopiatu",
+		"copiado": "Posta elektronikoa kopiatuta",
+		"asunto": "Kontsulta marioalvarez.me gunetik",
+		"cuerpo": "Kaixo Mario:\n\nHonengatik idazten dizut: {tema}.\n\nBadaukadana:\n\nJakin nahiko nukena:\n\nEskerrik asko.",
+		"otrosCanales": "Beste bide batzuk",
+		"base": "Oinarria",
+		"baseValor": "Benidorm eta Valentzia",
+		"idiomas": "Hizkuntzak",
+		"idiomasValor": "Gaztelania, valentzieraz eta ingelesa",
+		"aceptacionesTitulo": "Idatzi aurretik",
+		"aceptoTerminos": "Irakurri dut eta onartzen ditut {enlace}.",
+		"enlaceTerminos": "baldintza eta zehaztapenak",
+		"aceptoCookies": "Onartzen ditut {enlace}(e)an deskribatzen diren analisi-cookieak (aukerakoa).",
+		"enlaceCookies": "cookieen politika",
+		"faltaTerminos": "Niri idazteko, markatu lehenik baldintzen eta zehaztapenen koadrotxoa.",
+		"primeraCapa": "Arduraduna: Mario Álvarez Martínez. Xedea: zure galderari erantzutea eta, eskatzen badidazu, proposamen bat prestatzea. Legitimazioa: zure eskaera. Hartzaileak: inor ez, legezko betebeharra ezezik. Eskubideak: sartzea, zuzentzea, ezabatzea eta {enlace}(e)an azaltzen diren gainerakoak.",
+		"enlacePrivacidad": "pribatutasun-politika",
+		"refEmail": "Baldintzak onartzeko erreferentzia: {ref}"
 	}
 }

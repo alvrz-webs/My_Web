@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Početak",
 		"sobreMi": "O meni",
 		"proyectos": "Projekti",
 		"experiencia": "Iskustvo",
@@ -7,10 +8,22 @@
 		"ariaMain": "Glavna navigacija",
 		"openMenu": "Otvori meni"
 	},
+	"saltar": "Pređi na sadržaj",
+	"tema": "Prebaci između svetlog i tamnog režima",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Šampion Španije u medisonu. Data naučnik.",
+		"disponible": "Dostupan za projekte u oblasti podataka i sportskih performansi.",
+		"escribeme": "Piši mi",
+		"navLabel": "Sekcije",
+		"legalLabel": "Pravne informacije",
 		"copySufijo": "Mario Álvarez. Valensija.",
 		"ariaSocial": "Društvene mreže"
+	},
+	"cierre": {
+		"title": "Da li pričamo?",
+		"text": "Ako imaš podatke o performansama i neodgovorena pitanja, piši mi da to zajedno pogledamo.",
+		"cta": "Piši mi"
 	},
 	"langSwitch": {
 		"label": "Promeni jezik",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Saglasnost za kolačiće"
 	},
 	"legal": {
+		"terminos": "Uslovi korišćenja",
 		"privacidad": "Politika privatnosti",
-		"cookies": "Politika kolačića"
+		"cookies": "Politika kolačića",
+		"reembolso": "Politika povraćaja novca",
+		"actualizado": "Poslednje ažuriranje",
+		"indice": "Na ovoj stranici",
+		"otros": "Drugi dokumenti"
 	},
 	"person": {
 		"jobTitle": "Data scientist",
 		"description": "Data scientist specijalizovan za sportsku analitiku, sa iskustvom u profesionalnom biciklizmu."
+	},
+	"pizarra": {
+		"vueltas": "krugovi",
+		"campana": "poslednja"
 	}
 }

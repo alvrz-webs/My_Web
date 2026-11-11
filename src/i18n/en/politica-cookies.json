@@ -1,45 +1,99 @@
 {
 	"meta": {
-		"title": "Cookie Policy — Mario Álvarez",
-		"description": "What cookies this site uses, for what purpose, and how to change your consent at any time.",
-		"eyebrow": "Legal",
-		"heading": "Cookie Policy"
+		"version": "2026-11-10",
+		"title": "Cookie policy — Mario Álvarez",
+		"description": "Which cookies marioalvarez.me uses, which ones need your permission and how to change your choice at any time.",
+		"heading": "Cookie policy",
+		"eleccionTitulo": "Your choice",
+		"eleccionTexto": "You can change it or delete your data at any time, as easily as you gave it."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "This website uses cookies and similar technologies (such as browser local storage) for it to function correctly and, if you give your consent, to anonymously analyse how the content is used."
-		},
-		{ "tipo": "parrafo", "texto": "Cookies used:" },
-		{
-			"tipo": "tabla",
-			"columnas": ["Name", "Purpose", "Type", "Duration"],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Remembers your choice regarding this cookie policy",
-					"First-party, technical (exempt from consent)",
-					"12 months"
-				],
-				[
-					"visitante_id",
-					"Anonymous identifier used to link your visits and understand which content is useful",
-					"First-party, analytics (requires your consent)",
-					"12 months"
-				]
+			"titulo": "1. What they are and whether I need your permission",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookies and similar technologies (such as the browser's local storage) store small pieces of data on your device. Under article 22.2 of the Spanish LSSI-CE and the Spanish Data Protection Agency's guide on cookies, those strictly necessary for something you request do not require consent; analytics cookies do."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "That is why this website only stores the analytics cookie if you accept it, and lets you accept or reject with two equal buttons, on the same screen and with no pre-ticked boxes. Rejecting it does not stop you from using any part of the website."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "None of these cookies are third-party cookies, none are used for advertising purposes, and none are shared with anyone outside this site."
+			"titulo": "2. Cookies used on this website",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Name",
+						"Purpose",
+						"Type",
+						"Needs your permission?",
+						"Duration"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Storing your choice, the version of this policy and the pseudonymous identifier of your consent record",
+							"First-party, technical",
+							"No",
+							"12 months"
+						],
+						[
+							"visitante_id",
+							"Pseudonymous identifier to learn which content is useful",
+							"First-party, analytics",
+							"Yes",
+							"12 months"
+						],
+						[
+							"tema (local storage)",
+							"Remembering whether you prefer the light or dark theme; only stored if you change it",
+							"First-party, personalisation you request",
+							"No",
+							"Until you delete it"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "You can change your decision or withdraw your consent at any time via the \"Manage cookies\" link in the footer, and delete all your data immediately using the \"Delete my data\" button in that same panel."
+			"titulo": "3. What there isn't",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "There are no third-party cookies, no advertising, no embedded social media content and no Google Analytics. Typefaces and images are served from this same website."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "For more information on how your data is handled, please see the Privacy Policy."
+			"titulo": "4. How to change your mind",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "You can change your choice or withdraw consent at any time from \"Cookie settings\" in the footer of every page, or with the button on this page. From there you can also instantly delete the analytics data linked to your browser. You can also delete cookies in your browser settings."
+				}
+			]
+		},
+		{
+			"titulo": "5. Record of your choice",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Each time you accept, reject or withdraw consent a record is kept (pseudonymous identifier, decision, version of this policy, date and time, page, language, source and browser), without your IP address, to be able to show that consent was valid. It is kept for 3 years. More details in the privacy policy."
+				}
+			]
+		},
+		{
+			"titulo": "6. Changes",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "If this policy changes significantly, the cookie notice will appear again so you can decide anew."
+				}
+			]
 		}
 	]
 }

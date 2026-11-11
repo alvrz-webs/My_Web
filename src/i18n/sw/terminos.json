@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Sheria na Masharti — Mario Álvarez",
+		"description": "Ilani ya kisheria na masharti ya matumizi ya marioalvarez.me: nani mmiliki, jinsi tovuti inaweza kutumika na sheria gani inayotumika.",
+		"heading": "Sheria na Masharti"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Nani yuko nyuma ya tovuti hii",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kwa kufuata kifungu cha 10 cha Sheria ya 34/2002, ya huduma za jamii ya habari na biashara ya mtandaoni (LSSI-CE), haya ndiyo maelezo ya mmiliki wa marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Mmiliki: {nombre}",
+						"NIF: {nif}",
+						"Anwani: {domicilio}",
+						"Email: {email}",
+						"Shughuli: jalada la kitaalamu na utoaji wa huduma za uchambuzi wa data, zana maalum, hifadhidata na ripoti na usaidizi katika kazi."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Sheria hizi zinasimamia nini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sheria hizi zinasimamia ufikiaji na matumizi ya marioalvarez.me (\"tovuti\") katika lugha zake zote. Unapovinjari unakubali kuitumia kulingana na kile kilichoelezwa hapa. Ikiwa uniandikia kutoka kwenye fomu ya mawasiliano, nakuomba ukubali kwa uwazi kwa kuweka alama kwenye sanduku."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jinsi tovuti inavyoweza kutumika",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Unaweza kushauriana na kushiriki yaliyomo kwa kutaja chanzo chake. Hairuhusiwi:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"kutumia tovuti kwa madhumuni haramu au ambayo yanadhuru watu wengine;",
+						"kujaribu kufikia maeneo yaliyozuiliwa (kama vile jopo la faragha) au mifumo inayoiweka;",
+						"kuleta virusi au msimbo wowote mbaya, au kuizidisha kwa makusudi;",
+						"nakili yaliyomo ili kuwasilisha kama yako mwenyewe."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Huduma na kuajiri",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tovuti haiuzi bidhaa au kuchukua malipo mtandaoni. Ikiwa una nia ya huduma, tunazungumza kwa email au kwa simu na ninakutumia pendekezo kwa maandishi lenye upeo, bei, tarehe za mwisho na masharti ya malipo na kufuta. Pendekezo hilo, maraakapokubaliwa na wote wawili, ndilo linalotawala huduma na lina nguvu kuliko sheria hizi."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jinsi kufuta, haki ya kujiondoa na kurejesha pesa zinavyofanya kazi kunaelezwa katika sera ya kurejesha pesa."
+				}
+			]
+		},
+		{
+			"titulo": "5. Mali ya akili na viwanda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Maandishi, muundo, msimbo wa kibinafsi, nembo na picha za Mario Álvarez zinamilikiwa naye au zinatumutwa kwa idhini ya waandishi wao. Hairuhusiwi kuzizalisha tena kwa madhumuni ya kibiashara bila ruhusa ya maandishi."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Majina na nembo za wengine (kama vile LinkedIn, GitHub, Instagram au timu na vyombo vilivyotajwa katika uzoefu) ni mali ya wamiliki wao. Kuyataja hakumaanishi uhusiano wowote wa kibiashara au udhamini, isipokuwa kama isemwe waziwazi."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Tovuti inatumia rasilimali za wengine zenye leseni zinazoruhusu: fonti Fira Sans Extra Condensed na Source Serif 4 (SIL Open Font License 1.1), aikoni za Lucide (leseni ya ISC) na Simple Icons (CC0 1.0) na maktaba ya uhuishaji GSAP (leseni ya kawaida ya bure ya GreenSock, kutoka Webflow). Kila mradi uliounganishwa kwenye GitHub una leseni yake mwenyewe."
+				}
+			]
+		},
+		{
+			"titulo": "6. Wajibu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ninafanya kazi ili kuhakikisha habari ni sahihi na tovuti inapatikana, lakini siwezi kuhakikisha kuwa hakuna makosa au kukatizwa. Yaliyomo ni ya habari na hayachukui nafasi ya ushauri wa kitaalamu kuhusu kesi yako maalum."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Tovuti inaunganisha kwenye tovuti za wengine (mitandao ya kijamii, hazina, tovuti za miradi). Sidhibiti maudhui yao au sera zao na siwajibiki kwao."
+				}
+			]
+		},
+		{
+			"titulo": "7. Faragha na vidakuzi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jinsi data yako inavyoshughulikiwa na vidakuzi vinavyotumutwa vinaelezwa katika sera ya faragha na sera ya vidakuzi. Hakuna sehemu ya tovuti inayokulazimisha kukubali vidakuzi ili uweze kuitumia."
+				}
+			]
+		},
+		{
+			"titulo": "8. Usajili wa kukubali",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ili kuweza kuonyesha ridhaa wakati inapohitajika (kifungu cha 7.1 cha GDPR), unapokubali sheria hizi katika fomu ya mawasiliano au kuchagua vidakuzi unavyoruhusu, rekodi inahifadhiwa na: kitambulisho cha jina la uwongo, ulichokubali au kukataa, toleo la kila hati, tarehe na saa, ukurasa na lugha uliyofanyia, chanzo (bendera, usanidi au fomu), kivinjari na, katika fomu, msimbo wa rejeleo unaosafiri kwenye email yako. Anwani yako ya IP haihifadhiwa. Maelezo yako katika sera ya faragha."
+				}
+			]
+		},
+		{
+			"titulo": "9. Lugha",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Toleo la Kihispania la maandishi haya ndilo asili na lina nguvu katika kesi ya shaka. Nyingine ni tafsiri za kiotomatiki zinazotolewa kwa urahisi."
+				}
+			]
+		},
+		{
+			"titulo": "10. Mabadiliko",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ninaweza kusasisha sheria hizi ili kuzichukulia na mabadiliko ya kisheria au ya tovuti. Tarehe ya toleo linalotumika inaonekana mwanzoni mwa ukurasa huu. Ikiwa mabadiliko ni muhimu, nitakuomba tena ukubali."
+				}
+			]
+		},
+		{
+			"titulo": "11. Sheria inayotumika na mamlaka",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sheria hizi zinasimamiwa na sheria ya Uhispania. Ikiwa unatenda kama mtumiaji, unaweza kwenda kwenye mahakama za anwani yako na mifumo ya usuluhishi na utatuzi wa migogoro ya matumizi ya jamii yako inayojitegemea. Katika kesi zingine, pande zote mbili zinajisalimisha kwa mahakama na mabaraza ya Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

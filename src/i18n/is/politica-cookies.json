@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Smákökustefna — Mario Álvarez",
-		"description": "Hvaða smákökur þessi vefur notar, í hvaða tilgangi samþykki þitt er notað og hvernig það er breytt hvenær sem er.",
-		"eyebrow": "Lagalegt",
-		"heading": "Smákökustefna"
+		"version": "2026-11-10",
+		"title": "Kökustefna — Mario Álvarez",
+		"description": "Hvaða kökur marioalvarez.me notar, hverjar þurfa þitt leyfi og hvernig þú getur breytt valinu þínu hvenær sem er.",
+		"heading": "Kökustefna",
+		"eleccionTitulo": "Þitt val",
+		"eleccionTexto": "Þú getur breytt eða eytt gögnunum þínum hvenær sem er, jafn auðveldlega og þú gafst þau."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Þessi vefur notar smákökur og svipaða tækni (svo sem staðbundna geymslu vafra) fyrir rétta virkni og, ef þú samþykkir, til að greina nafnlaust hvernig efnið er notað."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Notaðar smákökur:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Heiti",
-				"Tilgangur",
-				"Gerð",
-				"Gildistími"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Muna val þitt um þessa smákökustefnu",
-					"Eigin, tæknileg (undanþegin samþykki)",
-					"12 mánuðir"
-				],
-				[
-					"visitante_id",
-					"Nafnlaust auðkenni til að tengja heimsóknir þínar og sjá hvaða efni er gagnlegt",
-					"Eigin, greiningarleg (krefst samþykkis þíns)",
-					"12 mánuðir"
-				]
+			"titulo": "1. Hvað þær eru og hvort ég þurfi þitt leyfi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kökur og svipað tæknistig (svo sem staðbundin geymsla vafrans) geyma lítil gögn á tækinu þínu. Samkvæmt spænsku lögunum LSSI-CE og leiðbeiningum um notkun köka frá spænsku persónuverndarstofnuninni (Agencia Española de Protección de Datos) þurfa þær sem eru alveg nauðsynlegar fyrir eitthvað sem þú biður um ekki samþykki; greiningarkökur gera það hins vegar."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Þess vegna geymir þessi vefur aðeins greiningarkökuna ef þú samþykkir hana, og leyfir þér að samþykki eða hafna með tveimur jafn stórum hnöppum, á sama skjá og án þess að reitir séu hakaðir við fyrir fram. Að hafna henni kemur ekki í veg fyrir að þú getir notað vefinn."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Engar þessara smákökur eru frá þriðja aðila, engar eru notaðar í auglýsingaskyni og engum er deilt með neinum utan þessarar síðu."
+			"titulo": "2. Kökur sem þessi vefur notar",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nafn",
+						"Til hvers",
+						"Gerð",
+						"Þarf þitt leyfi?",
+						"Gildistími"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Vista valið þitt, útgáfu þessarar stefnu og dulnefnisauðkenni samþykkisskráningarinnar",
+							"Eigin, tæknileg",
+							"Nei",
+							"12 mánuðir"
+						],
+						[
+							"visitante_id",
+							"Dulnefnisauðkenni til að vita hvaða efni gagnast",
+							"Eigin, greiningar",
+							"Já",
+							"12 mánuðir"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Muna hvort þú vilt ljóst eða dökkt þema; er aðeins vistað ef þú breytir því",
+							"Eigin, fyrir persónulegri notkun sem þú baðst um",
+							"Nei",
+							"Þar til þú eyðir henni"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Þú getur breytt ákvörðun þinni eða afturkallað samþykki þitt hvenær sem er með hlekknum \"Stilla smákökur\" í fóttexta, og eytt öllum gögnum þínum tafarlaust með hnappinum \"Eyða gögnum mínum\" á sama spjaldi."
+			"titulo": "3. Það sem er ekki til staðar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hér eru engar kökur frá þriðja aðila, engin auglýsingar, engin innfelld samfélagsmiðlaefni og engin Google Analytics. Leturgerð og myndir eru afgreiddar beint af þessum vef."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Fyrir frekari upplýsingar um hvernig gögn þín eru meðhöndluð, sjá persónuverndarstefnuna."
+			"titulo": "4. Hvernig á að skipta um skoðun",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þú getur breytt valinu þínu eða afturkallað samþykkið hvenær sem er undir „Stilla kökur“ neðst á hverri síðu eða með takkanum á þessari síðu. Þaðan getur þú líka eytt greiningargögnum sem tengjast vafranum þínum samstundis. Einnig getur þú eytt kökum í Stillingum vafrans þíns."
+				}
+			]
+		},
+		{
+			"titulo": "5. Skráning á valinu þínu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Í hvert skipti sem þú samþykkir, hafnar eða afturkallar samþykki er skráning vistuð (dulnefnisauðkenni, ákvörðun, útgáfa þessarar stefnu, dagsetning og tími, síða, tungumál, uppruni og vafri), án IP-tölunnar þinnar, til að hægt sé að sanna að samþykkið hafi verið gilt. Þetta er geymt í 3 ár. Nánari upplýsingar í persónuverndarstefnunni."
+				}
+			]
+		},
+		{
+			"titulo": "6. Breytingar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ef þessi stefna breytist verulega mun kökutilkynningin birtast aftur svo þú getir ákveðið upp á nýtt."
+				}
+			]
 		}
 	]
 }

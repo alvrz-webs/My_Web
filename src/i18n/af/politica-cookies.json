@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Koekiebeleid — Mario Álvarez",
-		"description": "Watter koekies hierdie webwerf gebruik, met watter doel en hoe om jou toestemming te eniger tyd te verander.",
-		"eyebrow": "Regs",
-		"heading": "Koekiebeleid"
+		"description": "Watter koekie gebruiks marioalvarez.me, watter het jou toestemming nodig en hoe om jou keuse enige tyd te verander.",
+		"heading": "Koekiebeleid",
+		"eleccionTitulo": "Jou keuse",
+		"eleccionTexto": "Jy kan dit verander of jou data uitvee wanneer jy wil, net so maklik as wat jy dit gegee het."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Hierdie webwerf gebruik koekies en soortgelyke tegnologieë (soos die blaaier se plaaslike berging) vir die korrekte werking daarvan en, indien jy toestemming gee, om anoniem te ontleed hoe die inhoud gebruik word."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Gebruikte koekies:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Naam",
-				"Doel",
-				"Tipe",
-				"Duur"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Onthou jou keuse oor hierdie koekiebeleid",
-					"Eie, tegnies (vrygestel van toestemming)",
-					"12 maande"
-				],
-				[
-					"visitante_id",
-					"Anonieme identifiseerder om jou besoeke te verbind en te weet watter inhoud nuttig is",
-					"Eie, analities (vereis jou toestemming)",
-					"12 maande"
-				]
+			"titulo": "1. Wat dit is en of ek jou toestemming nodig het",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Koekies en soortgelyke tegnologieë (soos die blaaier se plaaslike berging) stoor klein hoeveelhede data op jou toestel. Volgens artikel 22.2 van die LSSI-CE en die Gids oor die gebruik van koekies van die Spaanse Agentskap vir Databeskerming, benodig die wat streng noodsaaklik is vir iets wat jy vra nie toestemming nie; ontledingskoekies wel."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Daarom stoor hierdie webwerf slegs die ontledingskoekie as jy dit aanvaar, en laat jou toe om te aanvaar of te weier met twee identieke knoppies, op dieselfde skerm en sonder vooraf-gemerkte blokkies. Om dit te weier verhoed jou nie om enige iets op die webwerf te gebruik nie."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Geen van hierdie koekies is van derdepartye nie, geen word vir advertensiedoeleindes gebruik nie, en geen word gedeel met iemand buite hierdie webwerf nie."
+			"titulo": "2. Koekies wat hierdie webwerf gebruik",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Naam",
+						"Waarvoor dit is",
+						"Tipe",
+						"Benodig dit jou toestemming?",
+						"Duur"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Stoor jou keuse, die weergawe van hierdie beleid en die skuilnaam-identifiseerder van jou toestemmingsrekord",
+							"Eie, tegniese",
+							"Nee",
+							"12 maande"
+						],
+						[
+							"visitante_id",
+							"Skuilnaam-identifiseerder om te weet watter inhoud nuttig is",
+							"Eie, ontledings-",
+							"Ja",
+							"12 maande"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Onthou of jy die ligte of donker tema verkies; dit word slegs gestoor as jy dit verander",
+							"Eie, vir personalisering deur jou gevra",
+							"Nee",
+							"Totdat jy dit uitvee"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Jy kan jou besluit verander of jou toestemming te eniger tyd intrek via die \"Koekiekonfigurasie\"-skakel in die voetskrif, en al jou data onmiddellik uitvee met die \"Vee my data uit\"-knoppie in dieselfde paneel."
+			"titulo": "3. Wat daar nie is nie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Daar is geen derdeparty-koekies, geen advertensies, geen ingebedde sosiale media-inhoud, en geen Google Analytics nie. Die tipografie en beelde word vanaf hierdie selfde webwerf bedien."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Vir meer inligting oor hoe jou data hanteer word, raadpleeg die Privaatheidsbeleid."
+			"titulo": "4. Hoe om van gedagte te verander",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jy kan jou keuse verander of toestemming te eniger tyd intrek vanaf «Konfigureer koekies», in die voetskrif van elke bladsy, of met die knoppie op hierdie bladsy. Van daar af kan jy ook onmiddellik die ontledingsdata wat met jou blaaier geassosieer word, uitvee. En jy kan die koekies uitvee via jou blaaier se instellings."
+				}
+			]
+		},
+		{
+			"titulo": "5. Rekord van jou keuse",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Elke keer as jy toestemming aanvaar, weier of intrek, word 'n rekord gestoor (skuilnaam-identifiseerder, besluit, weergawe van hierdie beleid, datum en tyd, bladsy, taal, herkoms en blaaier), sonder jou IP-adres, om te kan bewys dat die toestemming geldig was. Dit word vir 3 jaar bewaar. Meer besonderhede in die privaatheidsbeleid."
+				}
+			]
+		},
+		{
+			"titulo": "6. Veranderinge",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "As hierdie beleid op 'n belangrike manier verander, sal die koekiekennisgewing weer verskyn sodat jy weer kan besluit."
+				}
+			]
 		}
 	]
 }

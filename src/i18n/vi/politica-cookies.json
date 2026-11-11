@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Chính sách Cookie — Mario Álvarez",
-		"description": "Trang web này sử dụng cookie nào, với mục đích gì và cách thay đổi sự đồng ý của bạn bất cứ lúc nào.",
-		"eyebrow": "Pháp lý",
-		"heading": "Chính sách Cookie"
+		"version": "2026-11-10",
+		"title": "Chính sách cookie — Mario Álvarez",
+		"description": "Những cookie mà marioalvarez.me sử dụng, loại nào cần sự cho phép của bạn và cách thay đổi lựa chọn của bạn bất cứ lúc nào.",
+		"heading": "Chính sách cookie",
+		"eleccionTitulo": "Lựa chọn của bạn",
+		"eleccionTexto": "Bạn có thể thay đổi hoặc xóa dữ liệu của mình bất cứ khi nào bạn muốn, dễ dàng như lúc bạn đồng ý."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Trang web này sử dụng cookie và các công nghệ tương tự (như lưu trữ cục bộ của trình duyệt) để trang web hoạt động bình thường và, nếu bạn đồng ý, để phân tích ẩn danh cách sử dụng nội dung."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Cookie được sử dụng:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Tên",
-				"Mục đích",
-				"Loại",
-				"Thời hạn"
-			],
-			"filas": [
-				[
-					"sự đồng ý của cookie",
-					"Ghi nhớ lựa chọn của bạn về chính sách cookie này",
-					"Của bên đầu tiên, kỹ thuật (được miễn sự đồng ý)",
-					"12 tháng"
-				],
-				[
-					"visitante_id",
-					"Mã định danh ẩn danh để liên kết các lượt truy cập của bạn và biết nội dung nào hữu ích",
-					"Của bên đầu tiên, phân tích (yêu cầu sự đồng ý của bạn)",
-					"12 tháng"
-				]
+			"titulo": "1. Cookie là gì và liệu tôi có cần sự cho phép của bạn không",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookie và các công nghệ tương tự (như lưu trữ cục bộ của trình duyệt) lưu trữ các dữ liệu nhỏ trên thiết bị của bạn. Theo Điều 22.2 của LSSI-CE và Hướng dẫn về việc sử dụng cookie của Cơ quan Bảo vệ Dữ liệu Tây Ban Nha, những cookie thực sự cần thiết cho một việc mà bạn yêu cầu thì không cần sự đồng ý; còn cookie phân tích thì cần."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Đó là lý do tại sao trang web này chỉ lưu cookie phân tích nếu bạn chấp nhận, và cho phép bạn chấp nhận hoặc từ chối bằng hai nút giống nhau, trên cùng một màn hình và không có ô đánh dấu sẵn từ trước. Việc từ chối không cản trở bạn sử dụng bất kỳ tính năng nào của trang web."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Không có cookie nào trong số này là của bên thứ ba, không cookie nào được sử dụng cho mục đích quảng cáo và không cookie nào được chia sẻ với bất kỳ ai bên ngoài trang web này."
+			"titulo": "2. Các cookie mà trang web này sử dụng",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Tên",
+						"Dùng để làm gì",
+						"Loại",
+						"Có cần sự cho phép của bạn không?",
+						"Thời hạn"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Lưu lựa chọn của bạn, phiên bản của chính sách này và định danh ẩn danh của bản ghi đồng ý của bạn",
+							"Của trang web, kỹ thuật",
+							"Không",
+							"12 tháng"
+						],
+						[
+							"visitante_id",
+							"Định danh ẩn danh để biết nội dung nào hữu ích",
+							"Của trang web, phân tích",
+							"Có",
+							"12 tháng"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Ghi nhớ nếu bạn thích chủ đề sáng hay tối; chỉ được lưu nếu bạn thay đổi nó",
+							"Của trang web, tùy chỉnh theo yêu cầu của bạn",
+							"Không",
+							"Cho đến khi bạn xóa nó"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Bạn có thể thay đổi quyết định hoặc rút lại sự đồng ý của mình bất cứ lúc nào từ liên kết \"Cấu hình cookie\" ở chân trang, và xóa ngay lập tức tất cả dữ liệu của bạn bằng nút \"Xóa dữ liệu của tôi\" trong bảng điều khiển đó."
+			"titulo": "3. Những gì không có",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Không có cookie của bên thứ ba, không có quảng cáo, không có nội dung mạng xã hội được nhúng, không có Google Analytics. Phông chữ và hình ảnh được phục vụ từ chính trang web này."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Để biết thêm thông tin về cách dữ liệu của bạn được xử lý, hãy tham khảo Chính sách Quyền riêng tư."
+			"titulo": "4. Cách thay đổi ý kiến",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bạn có thể thay đổi lựa chọn hoặc rút lại sự đồng ý bất cứ lúc nào từ «Cấu hình cookie», ở chân trang của mỗi trang, hoặc bằng nút trên trang này. Từ đó, bạn cũng có thể xóa ngay lập tức dữ liệu phân tích liên quan đến trình duyệt của mình. Và bạn có thể xóa cookie từ phần cài đặt của trình duyệt."
+				}
+			]
+		},
+		{
+			"titulo": "5. Bản ghi lựa chọn của bạn",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mỗi khi bạn chấp nhận, từ chối hoặc rút lại sự đồng ý, một bản ghi sẽ được lưu lại (định danh ẩn danh, quyết định, phiên bản của chính sách này, ngày giờ, trang, ngôn ngữ, nguồn và trình duyệt), không có địa chỉ IP của bạn, để có thể chứng minh rằng sự đồng ý là hợp lệ. Bản ghi được giữ trong 3 năm. Chi tiết thêm trong chính sách quyền riêng tư."
+				}
+			]
+		},
+		{
+			"titulo": "6. Thay đổi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nếu chính sách này thay đổi một cách quan trọng, thông báo về cookie sẽ xuất hiện lại để bạn quyết định một lần nữa."
+				}
+			]
 		}
 	]
 }

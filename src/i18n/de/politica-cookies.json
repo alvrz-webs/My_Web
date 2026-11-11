@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Cookie-Richtlinie — Mario Álvarez",
-		"description": "Welche Cookies diese Website verwendet, zu welchem Zweck und wie Sie Ihre Einwilligung jederzeit ändern können.",
-		"eyebrow": "Rechtliches",
-		"heading": "Cookie-Richtlinie"
+		"description": "Welche Cookies marioalvarez.me verwendet, welche deine Erlaubnis benötigen und wie du deine Auswahl jederzeit ändern kannst.",
+		"heading": "Cookie-Richtlinie",
+		"eleccionTitulo": "Deine Auswahl",
+		"eleccionTexto": "Du kannst sie jederzeit ändern oder deine Daten löschen, genauso einfach wie du sie gegeben hast."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Diese Website verwendet Cookies und ähnliche Technologien (wie den lokalen Speicher des Browsers) für ihren ordnungsgemäßen Betrieb und, falls Sie zustimmen, zur anonymen Analyse der Nutzung der Inhalte."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Verwendete Cookies:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Name",
-				"Zweck",
-				"Typ",
-				"Dauer"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Speicherung Ihrer Entscheidung bezüglich dieser Cookie-Richtlinie",
-					"Eigene, technisch (von der Einwilligung ausgenommen)",
-					"12 Monate"
-				],
-				[
-					"visitante_id",
-					"Anonyme Kennung zur Verknüpfung Ihrer Besuche und um zu sehen, welche Inhalte nützlich sind",
-					"Eigene, analytisch (erfordert Ihre Einwilligung)",
-					"12 Monate"
-				]
+			"titulo": "1. Was sie sind und ob ich deine Erlaubnis brauche",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookies und ähnliche Technologien (wie der lokale Speicher des Browsers) speichern kleine Datenmengen auf deinem Gerät. Gemäß Artikel 22.2 des LSSI-CE und dem Leitfaden zur Verwendung von Cookies der spanischen Datenschutzagentur (AEPD) benötigen diejenigen, die für etwas, das du anforderst, streng notwendig sind, keine Einwilligung; Analyse-Cookies hingegen schon."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Aus diesem Grund speichert diese Website das Analyse-Cookie nur, wenn du es akzeptierst, und lässt dich mit zwei gleichen Tasten auf demselben Bildschirm und ohne im Voraus angekreuzte Kästchen akzeptieren oder ablehnen. Das Ablehnen hindert dich nicht daran, irgendetwas auf der Website zu nutzen."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Keines dieser Cookies ist ein Drittanbieter-Cookie, keines wird für Werbezwecke verwendet und keines wird an Dritte außerhalb dieser Website weitergegeben."
+			"titulo": "2. Cookies, die diese Website verwendet",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Name",
+						"Wofür",
+						"Typ",
+						"Benötigt es deine Erlaubnis?",
+						"Dauer"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Speicherung deiner Auswahl, der Version dieser Richtlinie und der pseudonymen Kennung deines Einwilligungsprotokolls",
+							"Eigener, technisch",
+							"Nein",
+							"12 Monate"
+						],
+						[
+							"visitante_id",
+							"Pseudonyme Kennung, um zu erfahren, welche Inhalte nützlich sind",
+							"Eigener, Analyse",
+							"Ja",
+							"12 Monate"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Merken, ob du das helle oder dunkle Design bevorzugst; wird nur gespeichert, wenn du es änderst",
+							"Eigener, von dir gewünschte Personalisierung",
+							"Nein",
+							"Bis du sie löschst"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Sie können Ihre Entscheidung jederzeit ändern oder Ihre Einwilligung über den Link „Cookies konfigurieren“ in der Fußzeile widerrufen und alle Ihre Daten mit der Schaltfläche „Meine Daten löschen“ in demselben Bereich sofort löschen."
+			"titulo": "3. Was es nicht gibt",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Es gibt keine Cookies von Drittanbietern, keine Werbung, keine eingebetteten Social-Media-Inhalte und kein Google Analytics. Schriften und Bilder werden direkt von dieser Website bereitgestellt."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Weitere Informationen darüber, wie Ihre Daten verarbeitet werden, finden Sie in der Datenschutzerklärung."
+			"titulo": "4. Wie man die Meinung ändert",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kannst deine Auswahl ändern oder die Einwilligung jederzeit über „Cookies konfigurieren“ in der Fußzeile jeder Seite oder über die Schaltfläche auf dieser Seite widerrufen. Von dort aus kannst du auch sofort die mit deinem Browser verknüpften Analysedaten löschen. Und du kannst Cookies über deine Browsereinstellungen löschen."
+				}
+			]
+		},
+		{
+			"titulo": "5. Protokoll deiner Auswahl",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jedes Mal, wenn du die Einwilligung akzeptierst, ablehnst oder widerrufst, wird ein Protokoll gespeichert (pseudonyme Kennung, Entscheidung, Version dieser Richtlinie, Datum und Uhrzeit, Seite, Sprache, Herkunft und Browser), ohne deine IP-Adresse, um nachweisen zu können, dass die Einwilligung gültig war. Sie wird 3 Jahre lang aufbewahrt. Weitere Details in der Datenschutzrichtlinie."
+				}
+			]
+		},
+		{
+			"titulo": "6. Änderungen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Wenn sich diese Richtlinie wesentlich ändert, erscheint der Cookie-Hinweis erneut, damit du dich wieder entscheiden kannst."
+				}
+			]
 		}
 	]
 }

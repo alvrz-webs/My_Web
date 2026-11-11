@@ -4,7 +4,10 @@
 		"description": "Repositori dan proyek analisis data, visualisasi, dan machine learning oleh Mario Álvarez.",
 		"eyebrow": "Proyek",
 		"heading": "Proyek",
-		"intro": "Sekilas tentang pekerjaan saya: mulai dari perangkat untuk balap sepeda profesional hingga proyek akademik analisis dan machine learning."
+		"intro": "Sekilas tentang pekerjaan saya: mulai dari perangkat untuk balap sepeda profesional hingga proyek akademik analisis dan machine learning.",
+		"cifraRepos": "repositori publik di GitHub",
+		"cifraWebs": "situs web yang dipublikasikan",
+		"cifraHerramientas": "bahasa dan alat"
 	},
 	"list": {
 		"eyebrow": "Pekerjaan",

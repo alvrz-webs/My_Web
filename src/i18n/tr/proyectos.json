@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez'in veri analizi, görselleştirme ve makine öğrenimi depo ve projeleri.",
 		"eyebrow": "Projeler",
 		"heading": "Projeler",
-		"intro": "Çalışmalarıma bir bakış: profesyonel bisiklet araçlarından akademik analiz ve makine öğrenimi projelerine kadar."
+		"intro": "Çalışmalarıma bir bakış: profesyonel bisiklet araçlarından akademik analiz ve makine öğrenimi projelerine kadar.",
+		"cifraRepos": "GitHub'daki halka açık depolar",
+		"cifraWebs": "yayınlanan web siteleri",
+		"cifraHerramientas": "diller ve araçlar"
 	},
 	"list": {
 		"eyebrow": "Çalışma",

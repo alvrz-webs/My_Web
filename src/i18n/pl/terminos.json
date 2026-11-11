@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Warunki korzystania z usługi — Mario Álvarez",
+		"description": "Nota prawna i warunki korzystania z marioalvarez.me: kto jest właścicielem, jak można korzystać ze strony internetowej i jakie prawo ma zastosowanie.",
+		"heading": "Warunki korzystania"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kto stoi za tą stroną internetową",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Zgodnie z artykułem 10 hiszpańskiej Ustawy 34/2002 o usługach społeczeństwa informacyjnego i handlu elektronicznym (LSSI-CE), oto dane właściciela marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Właściciel: {nombre}",
+						"NIF: {nif}",
+						"Adres: {domicilio}",
+						"Email: {email}",
+						"Działalność: portfolio zawodowe oraz oferowanie usług z zakresu analizy danych, niestandardowych narzędzi, baz danych, raportów oraz wsparcia w karierze."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Co regulują niniejsze warunki",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Niniejsze warunki regulują dostęp do i korzystanie z marioalvarez.me (zwanej „stroną internetową”) w dowolnym z jej języków. Przeglądając ją, akceptujesz korzystanie z niej zgodnie z niniejszym regulaminem. Jeśli piszesz do mnie za pomocą formularza kontaktowego, proszę Cię o ich wyraźne zaakceptowanie poprzez zaznaczenie pola wyboru."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jak można korzystać ze strony internetowej",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Możesz przeglądać i udostępniać treści, powołując się na ich źródło. Zabronione jest:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"korzystanie ze strony internetowej w celach niezgodnych z prawem lub szkodliwych dla osób trzecich;",
+						"próby uzyskania dostępu do obszarów zastrzeżonych (takich jak panel prywatny) lub systemów, które ją hostują;",
+						"wprowadzanie wirusów lub jakiegokolwiek szkodliwego kodu, lub celowe przeciążanie strony;",
+						"kopiowanie treści w celu przedstawienia ich jako własnych."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Usługi i zawieranie umów",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Strona internetowa nie sprzedaje produktów ani nie pobiera płatności online. Jeśli interesuje Cię usługa, omawiamy to przez email lub telefon, a ja przesyłam Ci pisemną propozycję obejmującą zakres, cenę, terminy oraz warunki płatności i rezygnacji. Taka propozycja, po zaakceptowaniu przez obie strony, reguluje usługę i ma pierwszeństwo przed niniejszymi warunkami."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Sposób działania rezygnacji, prawa odstąpienia od umowy i zwrotów opisano w polityce zwrotów."
+				}
+			]
+		},
+		{
+			"titulo": "5. Własność intelektualna i przemysłowa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Teksty, projekt, własny kod, logo i fotografie autorstwa Mario Álvareza stanowią jego własność lub są wykorzystywane za zgodą ich autorów. Zabrania się ich powielania w celach komercyjnych bez pisemnej zgody."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nazwy i logo osób trzecich (takie jak LinkedIn, GitHub, Instagram lub zespoły i podmioty wymienione w doświadczeniu) należą do ich właścicieli. Wspomnienie o nich nie implikuje żadnych relacji handlowych ani sponsorowania, chyba że wyraźnie to zaznaczono."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Strona internetowa korzysta z zasobów stron trzecich na podstawie zezwalających na to licencji: fontów Fira Sans Extra Condensed i Source Serif 4 (SIL Open Font License 1.1), ikon Lucide (licencja ISC) i Simple Icons (CC0 1.0) oraz biblioteki animacji GSAP (bezpłatna licencja standardowa GreenSock od Webflow). Każdy projekt powiązany w serwisie GitHub posiada własną licencję."
+				}
+			]
+		},
+		{
+			"titulo": "6. Odpowiedzialność",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dokładam starań, aby informacje były poprawne, a strona internetowa dostępna, jednak nie mogę zagwarantować braku błędów lub przerw w działaniu. Treści mają charakter informacyjny i nie zastępują profesjonalnego doradztwa w Twojej konkretnej sprawie."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Strona internetowa zawiera łącza do witryn osób trzecich (sieci społecznościowe, repozytoria, strony projektów). Nie kontroluję ich treści ani polityk i nie ponoszę za nie odpowiedzialności."
+				}
+			]
+		},
+		{
+			"titulo": "7. Prywatność i pliki cookie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sposób przetwarzania Twoich danych oraz używane pliki cookie zostały wyjaśnione w polityce prywatności oraz polityce plików cookie. Żadna część strony internetowej nie zmusza Cię do akceptacji plików cookie w celu korzystania z niej."
+				}
+			]
+		},
+		{
+			"titulo": "8. Rejestr akceptacji",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aby móc wykazać zgodę w razie potrzeby (artykuł 7.1 RODO), podczas akceptacji niniejszych warunków w formularzu kontaktowym lub wyboru dozwolonych plików cookie, zapisywany jest rejestr zawierający: pseudonimizowany identyfikator, to, co zaakceptowano lub odrzucono, wersję każdego dokumentu, datę i godzinę, stronę i język, z których dokonano czynności, źródło (baner, konfiguracja lub formularz), przeglądarkę oraz, w przypadku formularza, kod referencyjny przesyłany w wiadomości email. Twój adres IP nie jest zapisywany. Szczegóły znajdują się w polityce prywatności."
+				}
+			]
+		},
+		{
+			"titulo": "9. Języki",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hiszpanska wersja tych tekstów jest wersją oryginalną i ma pierwszeństwo w przypadku wątpliwości. Pozostałe to tłumaczenia maszynowe oferowane dla wygody."
+				}
+			]
+		},
+		{
+			"titulo": "10. Zmiany",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mogę aktualizować niniejsze warunki, aby dostosować je do zmian prawnych lub zmian na stronie internetowej. Data obowiązującej wersji widnieje na początku tej strony. Jeśli zmiana jest istotna, poproszę Cię o ponowną akceptację warunków."
+				}
+			]
+		},
+		{
+			"titulo": "11. Prawo właściwe i jurysdykcja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Niniejsze warunki podlegają prawu hiszpańskiemu. Jeśli działasz jako konsument, możesz udać się do sądów właściwych dla Twojego miejsca zamieszkania oraz skorzystać z systemów arbitrażu i rozstrzygania sporów konsumenckich obowiązujących w Twojej wspólnocie autonomicznej. We wszystkich innych przypadkach obie strony poddają się jurysdykcji sądów w Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

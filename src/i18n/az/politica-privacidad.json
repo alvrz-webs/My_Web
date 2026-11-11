@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Məxfilik Siyasəti — Mario Álvarez",
-		"description": "Mario Álvarez saytının məxfilik siyasəti: hansı məlumatların toplandığı, hansı məqsədlə və hüquqlarınızdan necə istifadə edə biləcəyiniz.",
-		"eyebrow": "Hüquqi",
-		"heading": "Məxfilik Siyasəti"
+		"version": "2026-11-10",
+		"title": "Məxfilik siyasəti — Mario Álvarez",
+		"description": "marioalvarez.me saytının hansı məlumatları emal etdiyi, hansı məqsədlə, hansı hüquqi əsasla, nə qədər müddətə və hüquqlarınızı necə həyata keçirə biləcəyiniz haqqında.",
+		"heading": "Məxfilik siyasəti"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Məlumatların işlənməsinə cavabdeh şəxs",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Benidorm (Alicante), İspaniya ünvanında yerləşən Mario Álvarez Martínez. Əlaqə: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Məlumatların işlənməsinin məqsədi",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Bu vebsayt daxili olaraq və yalnız statistik məqsədlərlə məzmunu yaxşılaşdırmaq məqsədi ilə ziyarətçilər üçün hansı məzmunun (bölmələr, layihələr) daha faydalı olduğunu təhlil edir. Reklam məqsədləri üçün istifadə olunmur, üçüncü tərəflərlə paylaşılmır və heç bir halda satılmır."
-				}
-			]
-		},
-		{
-			"titulo": "3. Toplanan məlumatlar (yalnız analitik kukiləri qəbul etdiyiniz təqdirdə)",
+			"titulo": "1. Məsul şəxs",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Adınız, e-poçtunuz və ya sizi birbaşa müəyyən edən hər hansı digər məlumatla əlaqəli olmayan təsadüfi anonim identifikator.",
-						"Ziyarət etdiyiniz səhifələr və layihələr, həmçinin hər birində sərf olunan diqqət müddəti (tab aktiv olduğu müddətdə).",
-						"Qarşılıqlı əlaqələr (layihələrə, linklərə və ya düymələrə kliklər).",
-						"Ziyarət tarixi və vaxtı.",
-						"Baxılan saytın dili.",
-						"Cihaz növü (mobil və ya masaüstü).",
-						"IP ünvanınız saxlanılmadan, Cloudflare infrastrukturu vasitəsilə əldə edilən təxmini ölkə.",
-						"Mənbə səhifəsi (məsələn, LinkedIn və ya axtarış sistemi)."
+						"Məsul şəxs: {nombre}",
+						"NIF: {nif}",
+						"Ünvan: {domicilio}",
+						"Məxfiliklə bağlı hər hansı məsələ üçün e-poçt: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "IP ünvanınız toplanmır, brauzerin müəyyənləşdirilməsi texnikalarından (fingerprinting) və ya Google Analytics və bənzəri üçüncü tərəf alətlərindən istifadə olunmur."
+					"texto": "Ölçü və fəaliyyət növünə görə məlumatların mühafizəsi üzrə nümayəndənin təyin edilməsi məcburi deyil, ona görə də yoxdur: birbaşa mənə yazın."
 				}
 			]
 		},
 		{
-			"titulo": "4. Hüquqi əsas",
+			"titulo": "2. Hansı məlumatları emal edirəm, nə üçün və nə səbəbdən",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Emal sizin açıq razılığınıza əsaslanır (GDPR-in 6.1.a maddəsi və LSSI-CE-nin 22.2 maddəsi), bunu saytın öz kuki menecerindən istənilən vaxt geri götürə bilərsiniz."
+					"tipo": "tabla",
+					"columnas": [
+						"Nə məqsədlə",
+						"Hansı məlumatlar",
+						"Hüquqi əsas",
+						"Nə qədər müddətə"
+					],
+					"filas": [
+						[
+							"İstifadə analitikası, yalnız analitika kukilərini qəbul etdiyiniz təqdirdə",
+							"Təsadüfi təxəllüslü identifikator (visitante_id kukisi), baxdığınız bölmələr və layihələr, hər birində keçirdiyiniz vaxt, linklər və düymələrə kliklər, dil, cihaz növü (mobil və ya masaüstü), təxmini ölkə və hər bir hadisənin baş verdiyi veb-sayt səhifəsi.",
+							"Razılığınız (ÜMMP-nin 6.1.a maddəsi və LSSI-CE-nin 22.2 maddəsi).",
+							"12 ay; bundan sonra hər bir hadisə avtomatik olaraq silinir."
+						],
+						[
+							"Razılıqların qeydiyyatı",
+							"Təxəllüslü identifikator, nəyi qəbul etdiyiniz, rədd etdiyiniz və ya geri götürdüyünüz, hər sənədin versiyası, tarix və vaxt, səhifə, dil, mənbə (banner, tənzimləmələr və ya forma), brauzer (istifadəçi agenti) və təxmini ölkə; formada əlavə olaraq e-poçtunuzun istinad kodu.",
+							"Razılığı sübut etmək öhdəliyinin yerinə yetirilməsi (ÜMMP-nin 6.1.c və 7.1 maddələri).",
+							"Hər qeydiyyatdan etibarən 3 il (LOPDGDD pozuntularının maksimum iddia müddəti); bundan sonra avtomatik olaraq silinir."
+						],
+						[
+							"Sorğunuza e-poçt və ya telefon vasitəsilə cavab vermək",
+							"Göndərməyə qərar verdiyiniz məlumatlar: adətən adınız, e-poçtunuz və ya telefonunuz və mesajın məzmunu.",
+							"Sizin tələbinizlə müqaviləöncəsi tədbirlərin görülməsi (ÜMMP-nin 6.1.b maddəsi) və ya cavab verməkdə qanuni marağım (6.1.f maddəsi).",
+							"Danışıq davam etdiyi müddətdə və ondan sonra 1 ilə qədər, əgər müqavilə bağlamarıqsa."
+						],
+						[
+							"Müqavilə bağlanan xidmətin idarə edilməsi",
+							"İdentifikasiya, əlaqə və faktura məlumatları.",
+							"Müqavilənin icrası (ÜMMP-nin 6.1.b maddəsi) və vergi və mühasibatlıq öhdəlikləri (6.1.c maddəsi).",
+							"Vergi və ticarət qanunlarının tələb etdiyi müddət (adətən 4 ilə 6 il arası)."
+						],
+						[
+							"Açıq və ya təmli (qaranlıq) mövzuya üstünlük verdiyinizi yadda saxlamaq",
+							"«tema» üstünlüyü, yalnız brauzerinizdə saxlanılır (yerli yaddaş). Mənə çatmır.",
+							"Düyməni basarkən tələb etdiyiniz funksiya (LSSI-CE-nin 22.2 maddəsinə əsasən razılıq tələb olunmur).",
+							"Onu brauzerinizdən silənə qədər."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Saxlama müddəti",
+			"titulo": "3. Tələb etmədiyim və toplamadığım məlumatlar",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Məlumatlar son ziyarətinizdən etibarən maksimum 12 ay saxlanılır, bundan sonra avtomatik olaraq silinir."
+					"texto": "Hər bir məqsəd üçün yalnız vacib olanları emal edirəm. Xüsusilə:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Əlaqə forması adınızı, e-poçtunuzu və ya telefonunuzu tələb etmir: e-poçt proqramınızı açır və mənə nə göndərəcəyinizə özünüz qərar verirsiniz.",
+						"İP ünvanınızı nə analitikada, nə də razılıqların qeydiyyatında saxlamıram.",
+						"Brauzer identifikasiyası texnikalarından (fingerprinting), Google Analytics, reklam piksellərindən və üçüncü tərəf kukilərindən istifadə etmirəm.",
+						"Şriftlər və şəkillər məhz bu veb-saytdan xidmət göstərir: ona baş çəkərkən brauzeriniz Google Fonts, GitHub və ya digər xarici xidmətlərə qoşulmur."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Alıcılar və beynəlxalq köçürmələr",
+			"titulo": "4. Kimlər iştirak edir",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Məlumatlar üçüncü tərəflərə verilmir və ya satılmır. O, emalçı qismində çıxış edən Cloudflare, Inc. tərəfindən təmin edilən məlumat bazası xidməti olan Cloudflare D1-də saxlanılır. Cloudflare məlumatları Avropa İqtisadi Bölgəsindən kənarda emal edə bilər; bu halda, həmin köçürmə Avropa Komissiyası tərəfindən təsdiq edilmiş Standart Müqavilə Bəndləri ilə əhatə olunur. Ətraflı məlumatı Cloudflare-in məxfilik siyasətində tapa bilərsiniz: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Qanuni öhdəlik istisna olmaqla, məlumatlarınızı heç kimə satmıram və ötürmürəm. Saytın işləməsi və sizə cavab vermək üçün bu təminatçılardan istifadə edirəm:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: veb-saytı və verilənlər bazasını yerləşdirir (Cloudflare Pages və D1) və emalçı qismində çıxış edir. Sayta xidmət göstərmək üçün İP-niz kimi mənim çıxışım olmayan texniki əlaqə məlumatlarını emal edir. Onun siyasəti: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): e-poçtları qəbul etdiyim və cavablandırdığım poçt xidməti; həmin mesajları öz siyasətinə uyğun olaraq emal edir: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Hüquqlarınız",
+			"titulo": "5. Beynəlxalq köçürmələr",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "malvmar5@hotmail.com ünvanına yazmaqla istənilən vaxt giriş, düzəliş, silmə, etiraz etmə, emalın məhdudlaşdırılması və daşınması hüquqlarınızdan istifadə edə bilərsiniz. Bundan əlavə, heç kimə yazmağa ehtiyac qalmadan, saytın kuki parametrlərində mövcud olan \"Məlumatlarımı sil\" düyməsindən istifadə edərək məlumatlarınızı dərhal silə bilərsiniz. Hüquqlarınızın düzgün şəkildə təmin olunmadığını düşünürsünüzsə, İspaniya Məlumatların Mühafizəsi Agentliyinə (www.aepd.es) şikayət vermək hüququnuz da var."
+					"texto": "Cloudflare və Microsoft məlumatları ABŞ-da emal edə bilər. Hər ikisi Aİ-AB Məlumat Məxfiliyi Çərçivəsinə (Avropa Komissiyasının 10 iyul 2023-cü il tarixli uyğunluq qərarı) qoşulub və əlavə olaraq Komissiya tərəfindən təsdiq edilmiş standart müqavilə bəndlərini təklif edir."
 				}
 			]
 		},
 		{
-			"titulo": "8. Bu siyasətdə dəyişikliklər",
+			"titulo": "6. Hüquqlarınız",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Bu siyasət hüquqi dəyişikliklərə və ya saytın özündə baş verən dəyişikliklərə uyğunlaşmaq üçün yenilənə bilər."
+					"texto": "İstənilən vaxt məlumatlarınıza daxil olmağı, onları düzəltməyi, silməyi, emalına etiraz etməyi, məhdudlaşdırmağı və ya başqa yerə köçürmək üçün almağı (daşınabilirlik) tələb edə bilərsiniz, həmçinin əvvəllər emal edilmişlərə təsir etmədən razılığınızı geri götürə bilərsiniz. {email} ünvanına yazın; maksimum bir ay ərzində cavab verəcəyəm."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analitika məlumatlarını kuki tənzimləmələrindəki «Borrar mis datos» düyməsini basaraq dərhal özünüz silə bilərsiniz. Razılıqların qeydiyyatı razılığı geri götürsəniz belə saxlanılır, çünki məhz nə vaxt verdiyinizi və nə vaxt geri götürdüyünüzü sübut etməyə xidmət edir."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hüquqlarınızın lazımi səviyyədə qorunmadığını düşünürsünüzsə, İspaniya Məlumatların Mühafizəsi Agentliyinə şikayət edə bilərsiniz: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Yetkinlik yaşına çatmayanlar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veb-sayt 14 yaşından kiçiklər üçün nəzərdə tutulmayıb. 14 yaşından kiçiksinizsə, valideynlərinizin və ya qəyyumlarınızın icazəsi olmadan mənə şəxsi məlumatlar göndərməyin (LOPDGDD-nin 7-ci maddəsi)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Təhlükəsizlik",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Məlumatlar şifrələnmiş şəkildə ötürülür (HTTPS) və yalnız istifadəçi adı və parol ilə qorunan şəxsi paneldən daxil olunan verilənlər bazasında saxlanılır."
+				}
+			]
+		},
+		{
+			"titulo": "9. Bu siyasətdə dəyişikliklər",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Əgər hər hansı vacib dəyişiklik olarsa, bu səhifəni və onun versiya tarixini yeniləyəcəyəm. Əgər dəyişiklik kukilərə təsir edərsə, sizə yenidən sual veriləcək."
 				}
 			]
 		}

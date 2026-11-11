@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez的数据分析、可视化和机器学习代码库与项目。",
 		"eyebrow": "项目",
 		"heading": "项目",
-		"intro": "一览我的工作：从职业自行车运动工具到学术分析和机器学习项目。"
+		"intro": "一览我的工作：从职业自行车运动工具到学术分析和机器学习项目。",
+		"cifraRepos": "GitHub上的公共存储库",
+		"cifraWebs": "已发布的网站",
+		"cifraHerramientas": "语言与工具"
 	},
 	"list": {
 		"eyebrow": "工作",

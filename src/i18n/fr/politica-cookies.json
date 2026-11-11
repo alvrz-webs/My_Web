@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Politique relative aux cookies — Mario Álvarez",
-		"description": "Quels cookies ce site utilise, dans quel but et comment modifier votre consentement à tout moment.",
-		"eyebrow": "Légal",
-		"heading": "Politique relative aux cookies"
+		"description": "Quelles cookies marioalvarez.me utilise, lesquelles nécessitent votre autorisation et comment modifier votre choix à tout moment.",
+		"heading": "Politique relative aux cookies",
+		"eleccionTitulo": "Votre choix",
+		"eleccionTexto": "Vous pouvez modifier ou effacer vos données quand vous le souhaitez, aussi facilement que vous les avez accordées."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Ce site Web utilise des cookies et des technologies similaires (telles que le stockage local du navigateur) pour son bon fonctionnement et, si vous y consentez, pour analyser de manière anonyme la manière dont le contenu est utilisé."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Cookies utilisés :"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nom",
-				"Finalité",
-				"Type",
-				"Durée"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Mémoriser votre choix concernant cette politique de cookies",
-					"Interne, technique (exemptée de consentement)",
-					"12 mois"
-				],
-				[
-					"visitante_id",
-					"Identifiant anonyme pour relier vos visites et savoir quel contenu s'avère utile",
-					"Interne, analytique (nécessite votre consentement)",
-					"12 mois"
-				]
+			"titulo": "1. Qu'sont-ils et si j'ai besoin de votre autorisation",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les cookies et technologies similaires (comme le stockage local du navigateur) enregistrent de petites données sur votre appareil. Conformément à l'article 22.2 de la LSSI-CE et au Guide sur l'utilisation des cookies de l'Agence espagnole de protection des données, ceux qui sont strictement nécessaires à une demande de votre part ne nécessitent pas de consentement ; ceux d'analyse, si."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "C'est pourquoi ce site web ne sauvegarde le cookie d'analyse que si vous l'acceptez, et vous permet d'accepter ou de refuser avec deux boutons identiques, sur le même écran et sans cases pré-cochées. Le refuser ne vous empêche d'utiliser aucune partie du site."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Aucun de ces cookies n'est tiers, aucun n'est utilisé à des fins publicitaires et aucun n'est partagé avec des tiers en dehors de ce site."
+			"titulo": "2. Cookies utilisés par ce site web",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nom",
+						"À quoi sert",
+						"Type",
+						"Nécessite votre autorisation ?",
+						"Durée"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Sauvegarder votre choix, la version de cette politique et l'identifiant pseudonyme de votre registre de consentement",
+							"Interne, technique",
+							"Non",
+							"12 mois"
+						],
+						[
+							"visitante_id",
+							"Identifiant pseudonyme pour savoir quels contenus sont utiles",
+							"Interne, d'analyse",
+							"Oui",
+							"12 mois"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Mémoriser si vous préférez le thème clair ou sombre ; il est uniquement enregistré si vous le modifiez",
+							"Interne, de personnalisation demandée par vous",
+							"Non",
+							"Jusqu'à ce que vous l'effaciez"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Vous pouvez modifier votre décision ou retirer votre consentement à tout moment depuis le lien \"Configurer les cookies\" dans le pied de page, et effacer immédiatement toutes vos données grâce au bouton \"Effacer mes données\" dans ce même panneau."
+			"titulo": "3. Ce qu'il n'y a pas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Il n'y a pas de cookies tiers, ni de publicité, ni de contenus de réseaux sociaux intégrés, ni de Google Analytics. Les polices et les images sont servies depuis ce même site web."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Pour plus d'informations sur la manière dont vos données sont traitées, consultez la Politique de confidentialité."
+			"titulo": "4. Comment changer d'avis",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vous pouvez modifier votre choix ou retirer votre consentement à tout moment depuis « Configurer les cookies », dans le pied de page de chaque page, ou avec le bouton de cette page. À partir de là, vous pouvez également supprimer immédiatement les données d'analyse associées à votre navigateur. Et vous pouvez supprimer les cookies depuis les paramètres de votre navigateur."
+				}
+			]
+		},
+		{
+			"titulo": "5. Enregistrement de votre choix",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Chaque fois que vous acceptez, refusez ou retirez votre consentement, un enregistrement est sauvegardé (identifiant pseudonyme, décision, version de cette politique, date et heure, page, langue, origine et navigateur), sans votre adresse IP, afin de pouvoir prouver que le consentement était valide. Il est conservé 3 ans. Plus de détails dans la politique de confidentialité."
+				}
+			]
+		},
+		{
+			"titulo": "6. Modifications",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Si cette politique change de manière significative, l'avis sur les cookies réapparaîtra pour que vous puissiez décider à nouveau."
+				}
+			]
 		}
 	]
 }
