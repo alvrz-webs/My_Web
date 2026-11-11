@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Felhasználási feltételek — Mario Álvarez",
+		"description": "A marioalvarez.me jogi nyilatkozata és felhasználási feltételei: ki a tulajdonos, hogyan használható a weboldal és milyen jogszabályok vonatkoznak rá.",
+		"heading": "Felhasználási feltételek"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ki áll a weboldal mögött?",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Az információs társadalom szolgáltatásairól és az elektronikus kereskedelemről szóló 34/2002. sz. törvény (LSSI-CE) 10. cikkének megfelelően itt találhatók a marioalvarez.me tulajdonosának adatai:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Tulajdonos: {nombre}",
+						"NIF: {nif}",
+						"Cím: {domicilio}",
+						"Email: {email}",
+						"Tevékenység: szakmai portfólió, valamint adatelemzési szolgáltatások, egyedi eszközök, adatbázisok és jelentések készítése, valamint karriertámogatás nyújtása."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Mit szabályoznak ezek a feltételek?",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ezek a feltételek a marioalvarez.me (a „weboldal”) bármely nyelven történő elérését és használatát szabályozzák. Az oldalon való böngészéssel elfogadod, hogy azt az itt leírtak szerint használod. Ha a kapcsolatfelvételi űrlapon keresztül írsz nekem, kérem, hogy egy jelölőnégyzet bepipálásával kifejezetten fogadd el ezeket."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hogyan használható a weboldal?",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A tartalmakat megtekintheted és megoszthatod a forrás megjelölésével. Tilos:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"a weboldal használata törvényellenes célokra vagy harmadik felek károsítására;",
+						"megkísérelni a belépést korlátozott területekre (például a privát panelre) vagy az azt hosztoló rendszerekbe;",
+						"vírusokat vagy bármilyen kártékony kódot bejuttatni, vagy szándékosan túlterhelni a weboldalt;",
+						"a tartalmakat sajátodként feltüntetni másolással."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Szolgáltatások és megrendelés",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A weboldal nem értékesít termékeket, és nem szed online fizetéseket. Ha felkeltettem az érdeklődésedet egy szolgáltatás iránt, e-mailben vagy telefonon megbeszéljük, és küldök neked egy írásos ajánlatot a terjedelemről, az árról, a határidőkről, valamint a fizetési és lemondási feltételekről. Ez az ajánlat, miután mindketten elfogadtuk, szabályozza a szolgáltatást, és elsőbbséget élvez ezen feltételekkel szemben."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "A lemondások, az elállási jog és a visszatérítések működését a visszatérítési szabályzat ismerteti."
+				}
+			]
+		},
+		{
+			"titulo": "5. Szellemi és ipari tulajdonjog",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A szövegek, a design, a saját kód, a logó és Mario Álvarez fényképei a saját tulajdonát képezik, vagy szerzőik engedélyével kerülnek felhasználásra. Engedély nélkül tilos őket kereskedelmi céllal reprodukálni."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "A harmadik felek nevei és logói (mint például a LinkedIn, a GitHub, az Instagram vagy a tapasztalatok között említett csapatok és szervezetek) a saját tulajdonosaik tulajdonát képezik. Említésük nem von maga után semmilyen kereskedelmi kapcsolatot vagy szponzorációt, kivéve, ha azt kifejezetten jelezzük."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "A weboldal olyan harmadik féltől származó erőforrásokat használ, amelyek ehhez engedéllyel rendelkeznek: Fira Sans Extra Condensed és Source Serif 4 tipográfiák (SIL Open Font License 1.1), Lucide ikonok (ISC licenc) és Simple Icons (CC0 1.0), valamint a GSAP animációs könyvtár (GreenSock ingyenes standard licenc, a Webflow-tól). A GitHubon hivatkozott minden egyes projekt saját licenccel rendelkezik."
+				}
+			]
+		},
+		{
+			"titulo": "6. Felelősség",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dolgozom azon, hogy az információk helyesek legyenek, és a weboldal elérhető legyen, de nem tudom garantálni, hogy nincsenek hibák vagy megszakítások. A tartalmak tájékoztató jellegűek, és nem helyettesítik a konkrét esetedre szabott szakmai tanácsadást."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "A weboldal harmadik felek oldalaira (közösségi oldalak, tárolók, projektwebhelyek) mutat hivatkozásokat. Nem ellenőrzöm azok tartalmát vagy szabályzatait, és nem vállalok értük felelősséget."
+				}
+			]
+		},
+		{
+			"titulo": "7. Adatvédelem és sütik",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Az adatok kezelését és a használt sütiket az adatvédelmi szabályzat és a sütiszabályzat ismerteti. A weboldal semmilyen része sem kötelezi a sütik elfogadására a használatához."
+				}
+			]
+		},
+		{
+			"titulo": "8. Elfogadások nyilvántartása",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Annak érdekében, hogy szükség esetén igazolni lehessen a hozzájárulást (a GDPR 7. cikkének 1. bekezdése), amikor elfogadod ezeket a feltételeket a kapcsolatfelvételi űrlapon, vagy kiválasztod, hogy milyen sütiket engedélyezel, egy naplófájl jön létre a következő adatokkal: egy álneves azonosító, mit fogadtál el vagy utasítottál el, az egyes dokumentumok verziója, a dátum és az időpont, az oldal és a nyelv, ahonnan ezt tetted, a forrás (banner, beállítások vagy űrlap), a böngésző, és az űrlapon egy hivatkozási kód, amely az e-mailödben utazik. Az IP-címedet nem mentjük. A részleteket az adatvédelmi szabályzat tartalmazza."
+				}
+			]
+		},
+		{
+			"titulo": "9. Nyelvek",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ezen szövegek spanyol nyelvű változata az eredeti, és kétség esetén az élvez elsőbbséget. A többi automatikus fordítás, amelyet a kényelem kedvéért bocsátunk rendelkezésre."
+				}
+			]
+		},
+		{
+			"titulo": "10. Változtatások",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Frissíthetem ezeket a feltételeket, hogy igazodjanak a jogi vagy a weboldalt érintő változásokhoz. Az érvényes verzió dátuma az oldal elején látható. Ha a változás jelentős, újra megkérem Önt/téged az elfogadásukra."
+				}
+			]
+		},
+		{
+			"titulo": "11. Alkalmazandó jog és illetékesség",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ezekre a feltételekre a spanyol jog az irányadó. Ha fogyasztóként jársz el, fordulhatsz a lakóhelyed szerinti bíróságokhoz, valamint a autonóm közösséged fogyasztói vitarendezési és választottbírósági rendszereihez. Egyéb esetekben mindkét fél Benidorm (Alicante) bíróságainak és törvényszékeinek veti alá magát."
+				}
+			]
+		}
+	]
+}

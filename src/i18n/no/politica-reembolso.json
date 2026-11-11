@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Refusjonspolitikk — Mario Álvarez",
+		"description": "Slik fungerer avbestillinger, angrerett og returer for tjenestene til Mario Álvarez.",
+		"heading": "Refusjonspolitikk"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Dette nettstedet krever ikke betaling",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "På marioalvarez.me selges det ikke produkter, og det kreves ikke inn nettbetalinger. Tjenestene (ytelsesanalyse, skreddersydde verktøy, databaser og rapporter, og karrierestøtte) avtales separat gjennom et skriftlig tilbud."
+				}
+			]
+		},
+		{
+			"titulo": "2. Det som står i tilbudet ditt",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvert tilbud angir prisen, hvordan og når det betales, og avbestillingsvilkårene. Hvis tilbudet sier noe annet enn denne retningslinjen, gjelder tilbudet, med mindre denne retningslinjen gir deg flere rettigheter som forbruker."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hvis du avbestiller",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Med mindre noe annet er avtalt skriftlig:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Hvis du avbestiller før arbeidet starter, får du tilbake hele eventuelle forskuddsbetalinger.",
+						"Hvis du avbestiller etter at arbeidet har startet, belastes kun den delen som allerede er utført, og resten av forskuddsbetalingen din blir refundert.",
+						"Arbeid som allerede er levert og akseptert, refunderes ikke, med mindre det har mangler som ikke blir rettet opp."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Angrerett (hvis du er forbruker)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis du inngår avtale som forbruker (en person som handler utenfor sin yrkesvirksomhet) og avtalen inngås på avstand, via e-post eller telefon, har du 14 kalenderdager fra avtalen inngås til å angre uten å oppgi en grunn, i henhold til gjeldende forbrukerlovgivning."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis du uttrykkelig ber meg om å begynne arbeidet innen disse 14 dagene og du senere angrer, må du betale bare den proporsjonale delen av tjenesten som er utført til det tidspunktet. Hvis tjenesten er fullført innen fristen, med ditt på forhåndgitte og uttrykkelige samtykke og med viten om at du dermed mister denne retten, vil du ikke lenger kunne angre."
+				}
+			]
+		},
+		{
+			"titulo": "5. Slik ber du om det",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Skriv til meg på {email} med navnet ditt, tjenesten og datoen du bestilte den. Du kan bruke dette angreskjemaet (det er ikke obligatorisk):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Til {nombre}, {domicilio}, {email}:",
+						"Herved meddeler jeg at jeg angrer på min tjenesteavtale for følgende tjeneste: [servicio].",
+						"Bestilt den: [fecha].",
+						"Forbrukerens navn: [nombre].",
+						"Forbrukerens adresse: [domicilio].",
+						"Dato: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Frist og måte for refusjon",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jeg returnerer det beløpet du har krav på, innen maksimalt 14 kalenderdager fra du meddeler din beslutning, ved å bruke samme betalingsmåte som du brukte, med mindre vi avtaler noe annet. Refusjonen koster deg ingenting."
+				}
+			]
+		}
+	]
+}

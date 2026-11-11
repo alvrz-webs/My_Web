@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Şartlar ve koşullar — Mario Álvarez",
+		"description": "marioalvarez.me sitesinin yasal uyarısı ve kullanım koşulları: sahibinin kim olduğu, web sitesinin nasıl kullanılabileceği ve hangi yasanın geçerli olduğu.",
+		"heading": "Şartlar ve koşullar"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Bu web sitesinin arkasında kim var?",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bilgi toplumu ve elektronik ticaret hizmetleri kanununun (LSSI-CE) 34/2002 sayılı Kanun'un 10. maddesi gereğince, marioalvarez.me sitesinin sahibinin bilgileri şu şekildedir:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Sahibi: {nombre}",
+						"NIF: {nif}",
+						"İkametgah: {domicilio}",
+						"Email: {email}",
+						"Faaliyet: profesyonel portföy ve veri analizi, özel araçlar, veritabanları ve raporlar ile kariyer desteği hizmetlerinin sunulması."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Bu şartlar neleri düzenler?",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu şartlar, herhangi bir dilindeki marioalvarez.me'ye («web sitesi») erişimi ve kullanımı düzenler. Sitede gezinerek burada belirtilenlere uygun olarak kullanmayı kabul etmiş olursunuz. İletişim formundan bana yazarsanız, bir kutucuğu işaretleyerek bunları açıkça kabul etmenizi rica ederim."
+				}
+			]
+		},
+		{
+			"titulo": "3. Web sitesi nasıl kullanılabilir?",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "İçerikleri kaynağını belirterek inceleyebilir ve paylaşabilirsiniz. Şunlara izin verilmez:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"web sitesini yasadışı amaçlarla veya üçüncü şahıslara zarar verecek şekilde kullanmak;",
+						"kısıtlı alanlara (özel panel gibi) veya burayı barındıran sistemlere erişmeye çalışmak;",
+						"virüs veya herhangi bir zararlı kod sokmak ya da kasıtlı olarak aşırı yüklemek;",
+						"içerikleri sanki kendinizinmiş gibi sunmak üzere kopyalamak."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Hizmetler ve sözleşme",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web sitesi ürün satmaz veya çevrimiçi ödeme almaz. Bir hizmetle ilgileniyorsanız, bunu email veya telefon yoluyla görüşürüz ve size kapsamı, fiyatı, süreleri ve ödeme ile iptal koşullarını içeren yazılı bir teklif gönderirim. Bu teklif, her iki tarafça kabul edildiğinde hizmeti yönetir ve bu şartların önüne geçer."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "İptallerin, cayma hakkının ve iadelerin nasıl çalıştığı iade politikasında açıklanmaktadır."
+				}
+			]
+		},
+		{
+			"titulo": "5. Fikri ve sınai mülkiyet",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez'e ait metinler, tasarım, orijinal kod, logo ve fotoğraflar kendisine aittir veya yazarlarının izniyle kullanılmaktadır. Yazılı izin olmaksızın ticari amaçlarla çoğaltılamalarına izin verilmez."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Üçüncü tarafların adları ve logoları (LinkedIn, GitHub, Instagram veya deneyimde bahsedilen ekip ve kuruluşlar gibi) sahiplerine aittir. Bunlardan bahsedilmesi, açıkça belirtilmedikçe hiçbir ticari ilişki veya sponsorluk anlamına gelmez."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web sitesi, izin veren lisanslara sahip üçüncü taraf kaynaklarını kullanır: Fira Sans Extra Condensed ve Source Serif 4 tipografileri (SIL Open Font License 1.1), Lucide simgeleri (ISC lisansı) ve Simple Icons (CC0 1.0) ile GSAP animasyon kütüphanesi (GreenSock'ın standart ücretsiz lisansı, Webflow). GitHub'da bağlantı verilen her projenin kendi lisansı vardır."
+				}
+			]
+		},
+		{
+			"titulo": "6. Sorumluluk",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bilgilerin doğru olması ve web sitesinin erişilebilir olması için çalışıyorum, ancak hataların veya kesintilerin olmayacağını garanti edemem. İçerikler bilgilendiricidir ve belirli durumunuzla ilgili profesyonel danışmanlığın yerini almaz."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web sitesi üçüncü taraf sitelerine (sosyal ağlar, havuzlar, proje web siteleri) bağlantı verir. İçeriklerini veya politikalarını kontrol etmiyorum ve bunlardan sorumlu değilim."
+				}
+			]
+		},
+		{
+			"titulo": "7. Gizlilik ve çerezler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Verilerinizin nasıl işlendiği ve hangi çerezlerin kullanıldığı gizlilik politikasında ve çerez politikasında açıklanmaktadır. Web sitesinin hiçbir kısmı, kullanabilmeniz için çerezleri kabul etmenizi zorunlu kılmaz."
+				}
+			]
+		},
+		{
+			"titulo": "8. Kabul kaydı",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gerektiğinde rızayı kanıtlayabilmek için (RGPD'nin 7.1. maddesi), iletişim formunda bu şartları kabul ettiğinizde veya hangi çerezlere izin verdiğinizi seçtiğinizde şu bilgilerle bir kayıt tutulur: takma ad kimliği, neyi kabul ettiğiniz veya reddettiğiniz, her belgenin sürümü, tarih ve saat, bunu yaptığınız sayfa ve dil, kaynak (banner, yapılandırma veya form), tarayıcı ve formda emailinizde seyahat eden bir referans kodu. IP adresiniz kaydedilmez. Ayrıntılar gizlilik politikasındadır."
+				}
+			]
+		},
+		{
+			"titulo": "9. Diller",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu metinlerin İspanyolca versiyonu orijinaldir ve şüphe durumunda geçerlidir. Diğerleri kolaylık olması açısından sunulan otomatik çevirilerdir."
+				}
+			]
+		},
+		{
+			"titulo": "10. Değişiklikler",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu şartları yasal değişikliklere veya web sitesindeki değişikliklere uyarlamak için güncelleyebilirim. Geçerli versiyonun tarihi bu sayfanın başında görünür. Değişiklik önemliyse, bunları yeniden kabul etmenizi isteyeceğim."
+				}
+			]
+		},
+		{
+			"titulo": "11. Uygulanacak hukuk ve yargı yetkisi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bu şartlar İspanyol yasalarına tabidir. Tüketici olarak hareket ederseniz, ikametgahınızın mahkemelerine ve özerk topluluğunuzun tüketici uyuşmazlık çözüm ve tahkim sistemlerine başvurabilirsiniz. Diğer durumlarda, her iki taraf da Benidorm (Alicante) mahkemelerine ve mahkemelerine tabidir."
+				}
+			]
+		}
+	]
+}

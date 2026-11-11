@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Domů",
 		"sobreMi": "O mně",
 		"proyectos": "Projekty",
 		"experiencia": "Zkušenosti",
@@ -7,10 +8,22 @@
 		"ariaMain": "Hlavní navigace",
 		"openMenu": "Otevřít menu"
 	},
+	"saltar": "Přeskočit na obsah",
+	"tema": "Přepnout mezi světlým a tmavým režimem",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Španělský šampion v madisonu. Datový vědec.",
+		"disponible": "Dostupný pro datové projekty a sportovní výkonnost.",
+		"escribeme": "Napište mi",
+		"navLabel": "Sekce",
+		"legalLabel": "Právní informace",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sociální sítě"
+	},
+	"cierre": {
+		"title": "Popovídáme si?",
+		"text": "Pokud máte data o výkonnosti a nezodpovězené otázky, napište mi a podíváme se na to společně.",
+		"cta": "Napište mi"
 	},
 	"langSwitch": {
 		"label": "Změnit jazyk",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Souhlas s cookies"
 	},
 	"legal": {
+		"terminos": "Obchodní podmínky",
 		"privacidad": "Zásady ochrany osobních údajů",
-		"cookies": "Zásady používání cookies"
+		"cookies": "Zásady používání cookies",
+		"reembolso": "Zásady vrácení peněz",
+		"actualizado": "Poslední aktualizace",
+		"indice": "Na této stránce",
+		"otros": "Další dokumenty"
 	},
 	"person": {
 		"jobTitle": "Datový vědec",
 		"description": "Datový vědec specializovaný na sportovní analytiku, se zkušenostmi v profesionální cyklistice."
+	},
+	"pizarra": {
+		"vueltas": "koly",
+		"campana": "poslední"
 	}
 }

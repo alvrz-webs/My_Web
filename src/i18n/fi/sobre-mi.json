@@ -3,7 +3,13 @@
 		"title": "Minusta — Mario Álvarez",
 		"description": "Espanjan madisonin mestarista datatieteiden opiskelijaksi: Mario Álvarezin polku huippupyöräilyn ja urheiluanalytiikan välillä.",
 		"eyebrow": "Minusta",
-		"heading": "Velodromilta datoihin"
+		"heading": "Velodromilta datoihin",
+		"lead": "Olen yhä mukana pyöräilyssä, radalla ja joukkueen auton ratissa. Muuttunut on se, miten sitä katson: nyt myös datan kautta.",
+		"historiaTitulo": "Ajaja, urheilutoimenjohtaja ja datatieteilijä",
+		"fichaTitulo": "Lyhyesti",
+		"fichaTexto": "Olennaiset, jos sinulla on kiire.",
+		"retratoAlt": "Muotokuva Mario Álvarezista",
+		"escenaFrase": "Ensin jalat. Nyt data."
 	},
 	"bio": [
 		"Aloitin kilpailemisen. 18-vuotiaana minut kruunattiin Espanjan mestariksi ratamaisonissa, ja Espanjan pyöräilymaajoukkue kutsui minut maailman- ja Euroopan-mestaruuskilpailuihin, joissa olin kuudes. Tämä antoi minulle huippu-urheilijan aseman.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Sijainti",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm ja Valencia"
 		},
 		{
 			"label": "Tila",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Painopiste",
-			"value": "Data + urheilusuorituskyky"
+			"value": "Data ja urheilusuoritus"
 		},
 		{
 			"label": "Kielet",
-			"value": "Äidinkieli espanja · valencia · englanti B1"
+			"value": "Espanja (äidinkieli), valensia ja englanti (B1)"
 		},
 		{
 			"label": "Koulutus",
-			"value": "Datatieteiden kandidaatti (UPV) · Urheilun digitalisaation, innovaatioiden ja teknologian maisteri"
+			"value": "Datatieteen kandidaatti (UPV) ja maisteri urheilun digitalisaatiossa, innovaatioissa ja teknologiassa"
 		}
 	]
 }

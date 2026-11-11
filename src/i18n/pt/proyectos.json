@@ -4,7 +4,10 @@
 		"description": "Repositórios e projetos de análise de dados, visualização e machine learning de Mario Álvarez.",
 		"eyebrow": "Projetos",
 		"heading": "Projetos",
-		"intro": "Uma vista geral do meu trabalho: desde ferramentas para ciclismo profissional até projetos acadêmicos de análise e machine learning."
+		"intro": "Uma vista geral do meu trabalho: desde ferramentas para ciclismo profissional até projetos acadêmicos de análise e machine learning.",
+		"cifraRepos": "repositórios públicos no GitHub",
+		"cifraWebs": "sites publicados",
+		"cifraHerramientas": "linguagens e ferramentas"
 	},
 	"list": {
 		"eyebrow": "Trabalho",

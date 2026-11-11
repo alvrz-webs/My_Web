@@ -3,11 +3,54 @@
 		"title": "İletişim — Mario Álvarez",
 		"description": "Veri, spor performansını artırma ve projeler hakkında konuşmak için Mario Álvarez ile iletişime geçin.",
 		"eyebrow": "İletişim",
-		"heading": "Verileriniz ve çözülmesini bekleyen bir sorunuz mu var?",
-		"intro": "Hadi konuşalım. İster bir spor analitiği projesi, ister veri işbirliği veya sadece üzerinde fikir yürütmek istediğiniz bir düşünce olsun, memnuniyetle yanıt veririm.",
+		"heading": "Verileriniz ve bir sorunuz mu var?",
+		"intro": "Konuşalım. İster bir spor analitiği projesi, ister bir veri iş birliği, ister fikir alışverişinde bulunmak istediğiniz bir konu olsun, size doğrudan ben yanıt veriyorum.",
 		"email": "E-posta",
 		"telefono": "Telefon",
 		"verTelefono": "Telefonu göster",
-		"redesSociales": "Sosyal medya"
+		"redesSociales": "Sosyal medya",
+		"temaTitulo": "Ne hakkında konuşmak istiyorsunuz?",
+		"temaAyuda": "Bir konu seçin, e-postanızı hazırlayayım. Bana sadece durumunuzu anlatmanız yeterli.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Performans analizi"
+			},
+			{
+				"id": "herramientas",
+				"label": "Özel bir araç"
+			},
+			{
+				"id": "datos",
+				"label": "Veritabanları ve raporlar"
+			},
+			{
+				"id": "carrera",
+				"label": "Kariyer desteği"
+			},
+			{
+				"id": "otro",
+				"label": "Diğer"
+			}
+		],
+		"escribir": "E-posta yaz",
+		"copiar": "E-postayı kopyala",
+		"copiado": "E-posta kopyalandı",
+		"asunto": "marioalvarez.me üzerinden gelen sorgu",
+		"cuerpo": "Merhaba Mario:\n\nŞunun için yazıyorum: {tema}.\n\nElimde olanlar:\n\nÖğrenmek istediklerim:\n\nTeşekkürler.",
+		"otrosCanales": "Diğer kanallar",
+		"base": "Temel",
+		"baseValor": "Benidorm ve Valensiya",
+		"idiomas": "Diller",
+		"idiomasValor": "İspanyolca, Valensiyaca ve İngilizce",
+		"aceptacionesTitulo": "Bana yazmadan önce",
+		"aceptoTerminos": "{enlace} okudum ve kabul ediyorum.",
+		"enlaceTerminos": "şartlar ve koşullar",
+		"aceptoCookies": "{enlace} açıklanan analiz çerezlerini kabul ediyorum (isteğe bağlı).",
+		"enlaceCookies": "çerez politikası",
+		"faltaTerminos": "Bana yazabilmek için lütfen önce şartlar ve koşullar kutucuğunu işaretleyin.",
+		"primeraCapa": "Sorumlu: Mario Álvarez Martínez. Amaç: Sorunuza yanıt vermek ve eğer isterseniz sizin için bir teklif hazırlamak. Yasal dayanak: Talebiniz. Alıcılar: Yasal bir zorunluluk olmadıkça kimse. Haklar: Erişim, düzeltme, silme ve {enlace} açıklanan diğer haklar.",
+		"enlacePrivacidad": "gizlilik politikası",
+		"refEmail": "Şartları kabul referansı: {ref}"
 	}
 }

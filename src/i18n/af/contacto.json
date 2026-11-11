@@ -3,11 +3,54 @@
 		"title": "Kontak — Mario Álvarez",
 		"description": "Tree in kontak met Mario Álvarez om te praat oor data, sportprestasie en projekte.",
 		"eyebrow": "Kontak",
-		"heading": "Het jy data en 'n vraag om op te los?",
-		"intro": "Kom ons praat. Of dit nou 'n sportanalitiese projek, 'n datasamewerking of net 'n idee is wat jy wil bespreek, ek antwoord graag.",
+		"heading": "Het jy data en 'n vraag?",
+		"intro": "Kom ons praat. Of dit nou 'n sportanalitiekprojek, 'n datasamewerking of 'n idee is wat jy wil bespreek, ek sal jou antwoord.",
 		"email": "E-pos",
 		"telefono": "Telefoon",
 		"verTelefono": "Sien telefoon",
-		"redesSociales": "Sosiale media"
+		"redesSociales": "Sosiale media",
+		"temaTitulo": "Waarvoor wil jy praat?",
+		"temaAyuda": "Kies 'Ora onderwerp en ek sal die e-pos vir jou voorberei. Jy hoef net jou saak aan my te vertel.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Prestasieregistrasie en -analise"
+			},
+			{
+				"id": "herramientas",
+				"label": "'n Pasgemaakte hulpmiddel"
+			},
+			{
+				"id": "datos",
+				"label": "Databasisse en verslae"
+			},
+			{
+				"id": "carrera",
+				"label": "Loopbaanondersteuning"
+			},
+			{
+				"id": "otro",
+				"label": "Iets anders"
+			}
+		],
+		"escribir": "Skryf die e-pos",
+		"copiar": "Kopieer e-pos",
+		"copiado": "E-pos gekopieer",
+		"asunto": "Navraag vanaf marioalvarez.me",
+		"cuerpo": "Hallo Mario:\n\nEk skryf aan jou oor: {tema}.\n\nWat ek het:\n\nWat ek graag wil weet:\n\nDankie.",
+		"otrosCanales": "Ander kanale",
+		"base": "Basis",
+		"baseValor": "Benidorm en Valencia",
+		"idiomas": "Tale",
+		"idiomasValor": "Spaans, Valenciaans en Engels",
+		"aceptacionesTitulo": "Voordat jy aan my skryf",
+		"aceptoTerminos": "Ek het die {enlace} gelees en aanvaar.",
+		"enlaceTerminos": "terme en voorwaardes",
+		"aceptoCookies": "Ek aanvaar die ontledingskoekies wat in die {enlace} beskryf word (opsioneel).",
+		"enlaceCookies": "koekiebeleid",
+		"faltaTerminos": "Om aan my te skryf, merk asseblief eers die blokkie vir die terme en voorwaardes.",
+		"primeraCapa": "Verantwoordelike party: Mario Álvarez Martínez. Doel: om op jou navraag te reageer en, indien jy dit vra, om 'n voorstel vir jou voor te berei. Wettiging: jou versoek. Ontvangers: niemand nie, behalwe indien wetlik verplig. Regte: toegang, regstelling, skrapping en die ander wat in die {enlace} verduidelik word.",
+		"enlacePrivacidad": "privaatheidsbeleid",
+		"refEmail": "Verwysing vir aanvaarding van die terme: {ref}"
 	}
 }

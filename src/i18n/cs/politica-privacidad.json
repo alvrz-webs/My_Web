@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Zásady ochrany osobních údajů — Mario Álvarez",
-		"description": "Zásady ochrany osobních údajů na webu Mária Álvareze: jaké údaje jsou shromažďovány, za jakým účelem a jak uplatnit vaše práva.",
-		"eyebrow": "Právní",
+		"description": "Jaké údaje marioalvarez.me zpracovává, za jakým účelem, na jakém právním základě, jak dlouho a jak můžete uplatnit své právo.",
 		"heading": "Zásady ochrany osobních údajů"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Správce údajů",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, s adresou v Benidormu (Alicante), Španělsko. Kontakt: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Účel zpracování",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Tento web interně a výhradně pro statistické účely analyzuje, jaký obsah (sekce, projekty) je pro návštěvníky nejužitečnější, s cílem zlepšit jeho obsah. Nepoužívá se k reklamním účelům, nesdílí se s třetími stranami a za žádných okolností se neprodává."
-				}
-			]
-		},
-		{
-			"titulo": "3. Shromažďované údaje (pouze pokud přijmete analytické soubory cookie)",
+			"titulo": "1. Správce",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Náhodný anonymní identifikátor, který není propojen s vaším jménem, e-mailem ani žádnými jinými informacemi, které vás přímo identifikují.",
-						"Navštívené stránky a projekty a doba pozornosti u každého z nich (když je karta aktivní).",
-						"Interakce (kliky na projekty, odkazy nebo tlačítka).",
-						"Datum a čas návštěvy.",
-						"Jazyk konzultovaného webu.",
-						"Typ zařízení (mobilní nebo stolní počítač).",
-						"Přibližná země získaná prostřednictvím infrastruktury Cloudflare bez uložení vaší IP adresy.",
-						"Zdrojová stránka (například LinkedIn nebo vyhledávač)."
+						"Správce: {nombre}",
+						"NIF: {nif}",
+						"Adresa: {domicilio}",
+						"E-mail pro jakékoli otázky týkající se ochrany soukromí: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Vaše IP adresa se neshromažďuje, nepoužívají se techniky identifikace prohlížeče (fingerprinting) ani nástroje třetích stran jako Google Analytics nebo podobné."
+					"texto": "Vzhledem k rozsahu a povaze činnosti není povinné jmenovat pověřence pro ochranu osobních údajů, takže žádný není: napište mi přímo."
 				}
 			]
 		},
 		{
-			"titulo": "4. Právní základ",
+			"titulo": "2. Jaké údaje zpracovávám, za jakým účelem a proč",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Zpracování je založeno na vašem výslovném souhlasu (článek 6.1.a GDPR a článek 22.2 španělského zákona LSSI-CE), který můžete kdykoli odvolat prostřednictvím správce souborů cookie na samotném webu."
+					"tipo": "tabla",
+					"columnas": [
+						"K čemu",
+						"Jaké údaje",
+						"Právní základ",
+						"Jak dlouho"
+					],
+					"filas": [
+						[
+							"Analytika používání, pouze pokud přijmete analytické soubory cookie",
+							"Náhodný pseudonymní identifikátor (cookie visitante_id), sekce a projekty, které si prohlížíte, a čas strávený na každém z nich, kliknutí na odkazy a tlačítka, jazyk, typ zařízení (mobilní nebo desktop), přibližná země a stránka webu, na které ke každé události dochází.",
+							"Váš souhlas (čl. 6 odst. 1 písm. a) GDPR a čl. 22 odst. 2 LSSI-CE).",
+							"12 měsíců; poté se každá událost automaticky vymaže."
+						],
+						[
+							"Záznam souhlasů",
+							"Pseudonymní identifikátor, co jste přijal(a), odmítl(a) nebo odvolal(a), verze každého dokumentu, datum a čas, stránka, jazyk, původ (banner, nastavení nebo formulář), prohlížeč (uživatelský agent) a přibližná země; ve formuláři navíc referenční kód vašeho e-mailu.",
+							"Plnění povinnosti prokázat udělení souhlasu (čl. 6 odst. 1 písm. c) a čl. 7 odst. 1 GDPR).",
+							"3 roky od každého záznamu (maximální promlčecí doba pro porušení předpisů LOPDGDD); poté se automaticky vymaže."
+						],
+						[
+							"Odpověď na váš dotaz e-mailem nebo telefonicky",
+							"Údaje, které se mi rozhodnete poslat: obvykle vaše jméno, e-mail nebo telefonní číslo a obsah zprávy.",
+							"Uplatnění předsmluvních opatření na vaši žádost (čl. 6 odst. 1 písm. b) GDPR) nebo můj oprávněný zájem vám odpovědět (čl. 6 odst. 1 písm. f)).",
+							"Po dobu trvání konverzace a až 1 rok poté, pokud nedojde k uzavření smlouvy."
+						],
+						[
+							"Správa smluvní služby",
+							"Identifikační, kontaktní a fakturační údaje.",
+							"Plnění smlouvy (čl. 6 odst. 1 písm. b) GDPR) a daňové a účetní povinnosti (čl. 6 odst. 1 písm. c)).",
+							"To, co vyžadují daňové a obchodní předpisy (obecně mezi 4 a 6 lety)."
+						],
+						[
+							"Zapamatování si, zda preferujete světlé nebo tmavé téma",
+							"Předvolba «tema» uložená pouze ve vašem prohlížeči (místní úložiště). Ke mně se nedostane.",
+							"Funkce, kterou požadujete stisknutím tlačítka (osvobozená od souhlasu podle čl. 22 odst. 2 LSSI-CE).",
+							"Dokud ji nevymažete ze svého prohlížeče."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Doba uchovávání",
+			"titulo": "3. Co nepožaduji ani neshromažďuji",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Údaje jsou uchovávány maximálně 12 měsíců od vaší poslední návštěvy, po jejichž uplynutí jsou automaticky smazány."
+					"texto": "Zpracovávám pouze to nejnutnější pro daný účel. Konkrétně:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kontaktní formulář nevyžaduje vaše jméno, e-mail ani telefonní číslo: otevře se váš e-mailový klient a jste to vy, kdo rozhoduje, co mi pošlete.",
+						"Neukládám vaši IP adresu ani v analytice, ani v záznamu souhlasů.",
+						"Nepoužívám techniky identifikace prohlížeče (fingerprinting), Google Analytics, reklamní pixely ani soubory cookie třetích stran.",
+						"Písma a obrázky jsou servírovány přímo z tohoto webu: při jeho návštěvě se váš prohlížeč nepřipojuje ke Google Fonts, GitHubu ani jiným externím službám."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Příjemci a mezinárodní předání",
+			"titulo": "4. Kdo další se na tom podílí",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Údaje se nepředávají ani neprodávají třetím stranám. Jsou uloženy v Cloudflare D1, databázové službě poskytované společností Cloudflare, Inc., která působí jako zpracovatel. Cloudflare může zpracovávat údaje mimo Evropský hospodářský prostor; v takovém případě se toto předání opírá o standardní smluvní doložky schválené Evropskou komisí. Více informací v zásadách ochrany osobních údajů Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Neprodávám ani nepředávám vaše údaje nikomu, s výjimkou zákonné povinnosti. Pro fungování webu a pro odpovědi na vaše zprávy využívám tyto poskytovatele:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: hostuje web a databázi (Cloudflare Pages a D1) a působí jako zpracovatel. Za účelem provozu webu zpracovává technické údaje o připojení, jako je vaše IP adresa, ke kterým nemám přístup. Jejich zásady: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): e-mailová služba, ve které přijímám a zodpovídám e-maily; tyto zprávy zpracovává podle svých vlastních zásad: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Vaše práva",
+			"titulo": "5. Mezinárodní přenosy údajů",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Svá práva na přístup, opravu, výmaz, námitku, omezení zpracování a přenositelnost můžete kdykoli uplatnit napsáním na adresu malvmar5@hotmail.com. Svá data můžete také okamžitě smazat, aniž byste museli komukoli psát, pomocí tlačítka \"Smazat moje data\", které je k dispozici v nastavení souborů cookie na webu. Máte také právo podat stížnost u Španělské agentury pro ochranu údajů (www.aepd.es), pokud se domníváte, že vaše práva nebyla řádně vyřízena."
+					"texto": "Cloudflare a Microsoft mohou zpracovávat údaje ve Spojených státech. Obě společnosti jsou přihlášeny k Rámci pro ochranu osobních údajů mezi EU a USA (rozhodnutí Evropské komise o odpovídající ochraně ze dne 10. července 2023) a navíc nabízejí standardní smluvní doložky schválené Komisí."
 				}
 			]
 		},
 		{
-			"titulo": "8. Změny těchto zásad",
+			"titulo": "6. Vaše práva",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Tyto zásady mohou být aktualizovány tak, aby odrážely právní změny nebo změny samotného webu."
+					"texto": "Můžete mě kdykoli požádat o přístup k vašim údajům, jejich opravu, vymazání, vznést námitku proti jejich zpracování, omezit jej nebo je získat za účelem jejich přenesení jinam (přenositelnost) a odvolat svůj souhlas, aniž by to ovlivnilo dřívější zpracování. Napište mi na {email}; odpovím vám do jednoho měsíce."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analytická data můžete vymazat sami okamžitě pomocí tlačítka „Vymazat moje data“ v nastavení souborů cookie. Záznam souhlasů se uchovává, i když souhlas odvoláte, protože slouží právě k prokázání, kdy jste jej udělili a kdy jste jej odvolali."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Pokud se domníváte, že jsem vaše práva nevyřídil řádně, můžete podat stížnost u Španělské agentury pro ochranu údajů (Agencia Española de Protección de Datos): https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Nezletilí",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web není určen osobám mladším 14 let. Pokud je vám méně než 14 let, neposílejte mi osobní údaje bez souhlasu svých rodičů nebo opatrovníků (čl. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Bezpečnost",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Údaje cestují šifrovaně (HTTPS) a jsou uloženy v databázi, do které je přístup pouze ze soukromého panelu chráněného uživatelským jménem a heslem."
+				}
+			]
+		},
+		{
+			"titulo": "9. Změny těchto zásad",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pokud se něco podstatného změní, tuto stránku a datum její verze aktualizuji. Pokud se změna týká souborů cookie, budete požádáni o souhlas znovu."
 				}
 			]
 		}

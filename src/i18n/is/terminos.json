@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Skilmálar og skilyrði — Mario Álvarez",
+		"description": "Lagaleg tilkynning og notkunarskilmálar fyrir marioalvarez.me: hver er eigandinn, hvernig má nota vefinn og hvaða lög eiga við.",
+		"heading": "Skilmálar og skilyrði"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Hver er á bak við þennan vef",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Í samræmi við 10. grein laga 34/2002 um þjónustu í upplýsingasamfélaginu og rafræn viðskipti (LSSI-CE), eru hér upplýsingar um eiganda marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Eigandi: {nombre}",
+						"NIF: {nif}",
+						"Heimilisfang: {domicilio}",
+						"Email: {email}",
+						"Starfsemi: faglegt safnverk (portfolio) og boð um þjónustu við gagnagreiningu, sérsniðin verkfæri, gagnagrunna og skýrslur sem og stuðning við feril."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Hvað þessir skilmálar gilda um",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þessir skilmálar gilda um aðgang að og notkun á marioalvarez.me („vefurinn“) á hvaða tungumáli sem er. Með því að vafra um hann samþykkir þess að nota hann í samræmi við það sem hér kemur fram. Ef þú skrifar mér úr tengiliðaforminu bið ég þig um að samþykkja þá sérstaklega með því að haka við reit."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hvernig má nota vefinn",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þú getur skoðað and deilt efninu með því að vitna í uppruna þess. Það er ekki leyfilegt að:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"nota vefinn í ólöglegum tilgangi eða til að skaða þriðju aðila;",
+						"reyna að fá aðgang að takmörkuðum svæðum (svo sem einkastjórnborðinu) eða kerfunum sem hýsa hann;",
+						"koma með vírusar eða annan skaðlegan kóða, eða ofhlaða hann viljandi;",
+						"afrita efnið til að kynna það sem þitt eigið."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Þjónusta og samningar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vefurinn selur ekki vörur eða tekur við greiðslum á netinu. Ef þú hefur áhuga á þjónustu ræðum við það með tölvupósti eða í síma og ég sendi þér skriflega tillögu með umfangi, verði, tímaramma og skilmálum um greiðslu og afpöntun. Sú tillaga, þegar hún hefur verið samþykkt af okkur báðum, stýrir þjónustunni og gengur framar þessum skilmálum."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hvernig afpantanir, riftunarréttur og endurgreiðslur virka er útskýrt í endurgreiðslustefnunni."
+				}
+			]
+		},
+		{
+			"titulo": "5. Hugverkaréttur og iðnaðarréttur",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Textar, hönnun, eigin kóði, lógó og ljósmyndir eftir Mario Álvarez eru í hans eigu eða notaðar með leyfi höfunda þeirra. Það er ekki leyfilegt að endurframleiða það í viðskiptalegum tilgangi án skriflegs leyfis."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nöfn og lógó þriðju aðila (svo sem LinkedIn, GitHub, Instagram eða teymi og aðilar sem nefndir eru í reynslu) tilheyra eigendum sínum. Að minnast á þau þýðir ekki nein viðskiptatengsl eða styrktaraðild, nema það sé sérstaklega tekið fram."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Vefurinn notar úrræði þriðju aðila með leyfum sem leyfa það: leturgerðirnar Fira Sans Extra Condensed og Source Serif 4 (SIL Open Font License 1.1), táknmyndir frá Lucide (ISC leyfi) og Simple Icons (CC0 1.0) og hreyfimyndasafnið GSAP (ókeypis staðallaleyfi frá GreenSock, hjá Webflow). Hvert verkefni sem tengt er á GitHub er með sitt eigið leyfi."
+				}
+			]
+		},
+		{
+			"titulo": "6. Ábyrgð",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ég legg áherslu á að upplýsingar séu réttar og vefurinn sé aðgengilegur, en ég get ekki ábyrgst að engar villur eða truflanir verði. Innihaldið er til upplýsinga og kemur ekki í stað faglegs ráðgjafar um þitt sérstaka tilvik."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Vefurinn tengir á vefsvæði þriðju aðila (samfélagsmiðla, gagnageymslur, verkefnavefi). Ég stjórna ekki efni þeirra eða stefnum og ber ekki ábyrgð á þeim."
+				}
+			]
+		},
+		{
+			"titulo": "7. Persónuvernd og vafrakökur",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvernig farið er með gögn þín and hvaða vafrakökur eru notaðar er útskýrt í persónuverndarstefnunni og vafrakökustefnunni. Enginn hluti vefjarins neyðir þig til að samþykkja vafrakökur til að geta notað hann."
+				}
+			]
+		},
+		{
+			"titulo": "8. Skráning samþykkja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Til að geta sannað samþykki þegar þörf krefur (7. gr. 1. mgr. GDPR), þegar þú samþykkir þessa skilmála í tengiliðaforminu eða velur hvaða vafrakökur þ tú leyfir, er skrá vistuð með: dulnefnisskilkenni, hvað þú samþykktir eða hafnaðir, útgáfu hvers skjals, dagsetningu og tíma, síðunni og tungumálinu sem þ tú gerðir það frá, uppruna (auglýsingaborði, stillingum eða eyðublaði), vafra og, í eyðublaðinu, tilvísunarkóða sem ferðast í tölvupóstinum þínum. IP-talan þín er ekki vistuð. Nánari upplýsingar eru í persónuverndarstefnunni."
+				}
+			]
+		},
+		{
+			"titulo": "9. Tungumál",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Spænska útgáfa þessara texta er upprunalega útgáfan og gengur framar ef vafi leikur á. Aðrar eru sjálfvirkar þýðingar sem eru boðnar fram til þæginda."
+				}
+			]
+		},
+		{
+			"titulo": "10. Breytingar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ég get uppfært þessa skilmála til að laga þá að lagalegum breytingum eða breytingum á vefnum. Dagsetning gildandi útgáfu birtist í upphafi þessarar síðu. Ef breytingin er mikilvæg fer ég aftur fram á að þ tú samþykkir þá."
+				}
+			]
+		},
+		{
+			"titulo": "11. Gildandi lög og lögsaga",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Þessir skilmálar lúta spænskum lögum. Ef þ tú starfar sem neytandi getur þ tú leitað til dómstóla á lögheimili þínu og til úrlausnarkerfa og sáttameðferða vegna neytendamála í þínu sjálfstjórnarhéraði. Í öðrum tilvikum lúta báðir aðilar dómstólum í Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

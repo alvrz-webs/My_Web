@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez-in məlumatların təhlili, vizuallaşdırma və maşın öyrənməsi üzrə repozitoriyaları və layihələri.",
 		"eyebrow": "Layihələr",
 		"heading": "Layihələr",
-		"intro": "İşlərimə bir baxış: peşəkar velosiped idmanı alətlərindən tutmuş akademik analiz və maşın öyrənməsi layihələrinə qədər."
+		"intro": "İşlərimə bir baxış: peşəkar velosiped idmanı alətlərindən tutmuş akademik analiz və maşın öyrənməsi layihələrinə qədər.",
+		"cifraRepos": "GitHub-da ictimai repozitoriyalar",
+		"cifraWebs": "dərc olunmuş veb-saytlar",
+		"cifraHerramientas": "dillər və alətlər"
 	},
 	"list": {
 		"eyebrow": "İş",

@@ -38,5 +38,17 @@
     "updated_at": "2026-04-13T16:24:41Z",
     "en": "Developed as an academic project, this tool scrapes UCI rankings and race data from ProCyclingStats to calculate race difficulty scores tailored to the Cofidis cycling team's calendar. It is built with Python, using Selenium and BeautifulSoup for web scraping, Pandas for data processing, and Streamlit for the interactive interface.",
     "es": "Proyecto académico que calcula una puntuación de dificultad para las carreras del equipo ciclista Cofidis a partir de datos de ProCyclingStats. Utiliza web scraping con Selenium y BeautifulSoup, procesamiento de datos con Pandas y una interfaz web interactiva creada en Streamlit."
+  },
+  "VIS": {
+    "name": "VIS",
+    "updated_at": "2026-09-06T18:56:06Z",
+    "en": "This is a collection of coursework and practical exercises for a university data visualization course, featuring data analysis and plotting examples implemented in R, Python, and Tableau.",
+    "es": "Recopilación de prácticas y ejercicios de la asignatura de Visualización, desarrollados en R y Python para explorar técnicas de representación de datos. Incluye scripts con ggplot2 y Plotly, así como dashboards creados en Tableau."
+  },
+  "RCR": {
+    "name": "RCR",
+    "updated_at": "2026-11-11T10:26:47Z",
+    "en": "A collection of coursework, notes, and Jupyter notebooks from the Knowledge Representation and Reasoning university course. It explores logic-based representation, ontologies, and rule-based systems using Python libraries like pyDatalog, Owlready2, and clipspy.",
+    "es": "Recopilación de prácticas y apuntes de la asignatura Representación del Conocimiento y Razonamiento del Grado en Ciencia de Datos, desarrollada en Python mediante Jupyter Notebooks. Incluye ejercicios y código sobre lógica, ontologías y sistemas basados en reglas utilizando librerías como owlready2, clipspy y pyDatalog."
   }
 }

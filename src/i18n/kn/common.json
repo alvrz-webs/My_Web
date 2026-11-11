@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "ಮುಖಪುಟ",
 		"sobreMi": "N/A",
 		"proyectos": "N/A",
 		"experiencia": "N/A",
@@ -7,10 +8,22 @@
 		"ariaMain": "N/A",
 		"openMenu": "N/A"
 	},
+	"saltar": "내용ಗೆ ಹೋಗಿ",
+	"tema": "ಬೆಳಕು ಮತ್ತು ಕತ್ತಲೆ ಮೋಡ್ ನಡುವೆ ಬದಲಾಯಿಸಿ",
+	"telefono": "ದೂರವಾಣಿ",
 	"footer": {
-		"tagline": "N/A",
+		"tagline": "ಮ್ಯಾಡಿಸನ್ ಸ್ಪ್ಯಾನಿಷ್ ಚಾಂಪಿಯನ್. ಡೇಟಾ ವಿಜ್ಞಾನಿ.",
+		"disponible": "ಡೇಟಾ ಮತ್ತು ಕ್ರೀಡಾ ಕಾರ್ಯಕ್ಷಮತೆ ಯೋಜನೆಗಳಿಗೆ ಲಭ್ಯವಿದೆ.",
+		"escribeme": "ನನಗೆ ಬರೆಯಿರಿ",
+		"navLabel": "ವಿಭಾಗಗಳು",
+		"legalLabel": "ಕಾನೂನುಬದ್ಧ",
 		"copySufijo": "N/A",
 		"ariaSocial": "N/A"
+	},
+	"cierre": {
+		"title": "ನಾವು ಮಾತನಾಡೋಣವೇ?",
+		"text": "ನೀವು ಕಾರ್ಯಕ್ಷಮತೆ ಡೇಟಾ ಮತ್ತು ಉತ್ತರಿಸದ ಪ್ರಶ್ನೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ, ನನಗೆ ಬರೆಯಿರಿ ಮತ್ತು ನಾವು ಅದನ್ನು ಒಟ್ಟಿಗೆ ನೋಡೋಣ.",
+		"cta": "ನನಗೆ ಬರೆಯಿರಿ"
 	},
 	"langSwitch": {
 		"label": "N/A",
@@ -27,11 +40,20 @@
 		"ariaBanner": "N/A"
 	},
 	"legal": {
+		"terminos": "ನಿಯಮಗಳು ಮತ್ತು ನಿಬಂಧನೆಗಳು",
 		"privacidad": "N/A",
-		"cookies": "N/A"
+		"cookies": "N/A",
+		"reembolso": "ಮರುಪಾವತಿ ನೀತಿ",
+		"actualizado": "ಕೊನೆಯ ನವೀಕರಣ",
+		"indice": "ಈ ಪುಟದಲ್ಲಿ",
+		"otros": "ಇತರ ದಾಖಲೆಗಳು"
 	},
 	"person": {
 		"jobTitle": "N/A",
 		"description": "N/A"
+	},
+	"pizarra": {
+		"vueltas": "ಸುತ್ತುಗಳು",
+		"campana": "ಕೊನೆಯ"
 	}
 }

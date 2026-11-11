@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Duomenų mokslininkas, kurio specializacija – sportas",
-		"description": "Mario Álvarez, duomenų mokslininkas Valensijoje, kurio specializacija – sporto analitika. Data · Sport · Progress.",
+		"description": "Mario Álvarez, duomenų mokslininkas Valensijoje, besispecializuojantis sporto analitikoje. Ispanijos „madison“ rungties čempionas ir RFEC sporto direktorius.",
 		"verProyectos": "Žiūrėti projektus",
-		"contacto": "Kontaktai",
-		"verMas": "Žiūrėti daugiau",
+		"verServicios": "Pažiūrėk, kaip tau padedu",
+		"contacto": "Parašyk man",
+		"verMas": "Skaityti daugiau",
 		"verTodosProyectos": "Žiūrėti visus projektus",
-		"irAContacto": "Eiti į kontaktus",
+		"irAContacto": "Parašyk man",
 		"herramientas": "Pagrindiniai įrankiai"
 	},
 	"hero": {
-		"eyebrow": "Duomenų mokslininkas · Sporto analitika · Valensija",
-		"titlePre": "Paverčiu duomenis ",
-		"titleHighlight": "aiškiais sprendimais",
-		"subtitle": "Eu esu tiltas tarp duomenų analizės ir elito sporto: paverčiu rezultatų metrikas strategijomis, kurios lemia skirtumą aikštelėje.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, duomenų mokslininkas",
+		"title": "Buvau Ispanijos „madison“ rungties čempionas.",
+		"subtitle": "Dabar studijuoju duomenų mokslą UPV ir analizuoju tai, kas slypi už pasirodymo: galią, krūvį ir rezultatus. Žinau, ką skaičius reiškia lenktynininkui, nes pats buvau tas lenktynininkas.",
+		"palmaresLabel": "Pasiekimai",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Ispanijos „madison“ čempionatas",
+				"nota": "Trekas, būdamas 18 metų"
+			},
+			{
+				"pos": "6º",
+				"texto": "Pasaulio treko čempionatas",
+				"nota": "Ispanijos rinktinė"
+			},
+			{
+				"pos": "6º",
+				"texto": "Europos treko čempionatas",
+				"nota": "Ispanijos rinktinė"
+			}
+		],
+		"retratoAlt": "Mario Álvarez portretas"
+	},
+	"servicios": {
+		"title": "Kuo galiu tau padėti",
+		"text": "Dirbu su komandomis, treneriais ir lenktynininkais, kurie turi duomenų ir nori iš jų pasipelnyti. Taip pat su įmonėmis, kurioms reikia sutvarkyti savus.",
+		"cta": "Papasakok savo atvejį",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Rezultatų analizė",
+				"texto": "Skaitau galią, krūvį ir rezultatus lenktynininko akimis. Paaiškinu, kas vyksta ir ką reikėtų keisti.",
+				"prueba": "Elito lenktynininkas ir RFEC sporto direktorius, I ir II lygiai."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Individualūs įrankiai",
+				"texto": "„Scraping“, modeliai ir nedidelės programėlės Python, atsakančios į konkretų jūsų komandos klausimą.",
+				"prueba": "Du įrankiai komandai Cofidis: UCI sudėtingumas ir lenktynių profilis."
+			},
+			{
+				"id": "datos",
+				"nombre": "Duomenų bazės ir ataskaitos",
+				"texto": "Greitesnės užklausos, suvienodintos bazės ir Power BI valdymo skydeliai, kurie suprantami iš pirmo žvilgsnio.",
+				"prueba": "Daugiau nei 580 lentelių ir 100 milijonų įrašų bazėje, kurią optimizuoju SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Pagalba lenktynėse",
+				"texto": "Lenktynių pasiruošimas, lenktynininkų sekimas ir sportinis masažas varžybose.",
+				"prueba": "Valensijos bendruomenės rinktinės personalas."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Apie mane",
-		"title": "Duomenys su aikštelės, kelio ir varžybų kontekstu",
-		"text": "Esu Mario Álvarez, Duomenų mokslo studentas UPV su realia patirtimi profesionaliame dviračių sporte. Derinu duomenų analizę su elito sportiniais rezultatais, kad kiekvieną metriką paverčiau sprendimu, gerinančiu rezultatus."
+		"title": "Nuo velodromo iki duomenų",
+		"text": "Studijuoju duomenų mokslo bakalauro 3-čiame kurse UPV ir baigiau sportui pritaikytos skaitmeninizmo ir technologijų magistrantūrą. Nepasitraukiau iš dviračių sporto: tebesivaržau treke, treniruoju jaunus lenktyninikus ir dirbu masažuotoju su profesionalais."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Būstinė",
+			"value": "Benidormas ir Valensija"
+		},
+		{
 			"label": "Išsilavinimas",
-			"detail": "Duomenų mokslo bakalauras, Universitat Politècnica de València."
+			"value": "Duomenų mokslo bakalauras (UPV) ir Skaitmenizavimo, inovacijų bei technologijų sporte magistras"
 		},
 		{
-			"value": "Elitas",
-			"label": "Patirtis",
-			"detail": "Realus darbas profesionalioje dviračių sporto komandoje."
+			"label": "Titulai",
+			"value": "RFEC sporto direktorius, I ir II lygiai"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Požiūris",
-			"detail": "Analitika, pritaikyta sportinių rezultatų gerinimui."
+			"label": "Dabar",
+			"value": "Pasiekiamas duomenų ir rezultatų projektams"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Patirtis",
-		"title": "Du pasauliai, viena kalba: rezultatai",
-		"text": "Eu varžybose dalyvavau aukščiausiu lygiu ir šiandien taikau tą patį kriterijų duomenims: suprantu, ką skaičius reiškia sportininkui, nes pats buvau toks sportininkas."
+		"title": "Dvi juostos, tas pats darbas",
+		"text": "Vienoje optimizuoju duomenų bazes ir rašau modelius. Kitoje ruošiuosi lenktynėms ir seku lenktynininkus. Abi yra apie tą patį: gerai išmatuoti, kad priimtum geresnius sprendimus.",
+		"carriles": [
+			{
+				"nombre": "Duomenys",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "išanalizuotos lentelės SIME Telecom, kad kelios bazės būtų sujungtos į vieną, neplečiant aparatūros"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "įrašai duomenų bazėje, kurią optimizuoju"
+					},
+					{
+						"cifra": "2",
+						"texto": "įrankiai Python komandai Cofidis: UCI sudėtingumas ir lenktynių profilis"
+					}
+				]
+			},
+			{
+				"nombre": "Trekas ir plentas",
+				"items": [
+					{
+						"cifra": "I ir II",
+						"texto": "Ispanijos dviračių sporto karališkosios federacijos sporto direktoriaus lygiai"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "metų amžiaus yra jaunieji lenktynininkai, kuriuos treniruoju ir seku kartu su tėvu"
+					},
+					{
+						"cifra": "2026",
+						"texto": "padėjėjas su Valensijos bendruomenės rinktine varžybose"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Pakalbėkime apie duomenis?",
-		"text": "Papasakokite apie savo projektą ir kartu ieškokime sprendimų, kurie gerina rezultatus."
+		"title": "Paskutinis ratas",
+		"text": "Jei turite našumo duomenų ir neatsakytų klausimų, parašykite man ir mes tai išsiaiškinsime kartu."
 	}
 }

@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Evästekäytäntö — Mario Álvarez",
-		"description": "Mitä evästeitä tämä sivusto käyttää, mihin tarkoitukseen ja miten voit muuttaa suostumustasi milloin tahansa.",
-		"eyebrow": "Oikeudelliset tiedot",
-		"heading": "Evästekäytäntö"
+		"description": "Mitä evästeitä marioalvarez.me käyttää, mitkä vaativat suostumuksesi ja miten voit muuttaa valintaasi milloin tahansa.",
+		"heading": "Evästekäytäntö",
+		"eleccionTitulo": "Valintasi",
+		"eleccionTexto": "Voit muuttaa sitä tai poistaa tietosi milloin haluat, yhtä helposti kuin annoit ne."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Tämä verkkosivusto käyttää evästeitä ja vastaavia tekniikoita (kuten selaimen paikallista tallennustilaa) asianmukaiseen toimintaansa ja, jos annat suostumuksesi, sisällön käytön nimettömään analysointiin."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Käytetyt evästeet:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nimi",
-				"Tarkoitus",
-				"Tyyppi",
-				"Kesto"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Muistaa valintasi koskien tätä evästekäytäntöä",
-					"Ensimmäisen osapuolen tekninen (vapautettu suostumuksesta)",
-					"12 kuukautta"
-				],
-				[
-					"visitante_id",
-					"Nimetön tunniste käyntiesi yhdistämiseen ja sen selvittämiseen, mikä sisältö on hyödyllistä",
-					"Ensimmäisen osapuolen analyyttinen (vaatii suostumuksesi)",
-					"12 kuukautta"
-				]
+			"titulo": "1. Mitä ne ovat ja tarvitsenko suostumuksesi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Evästeet ja vastaavat tekniikat (kuten selaimen paikallinen tallennustila) tallentavat pieniä tietoja laitteellesi. Espanjan lainsäädännön ja tietosuojaviranomaisen ohjeiden mukaan ne, jotka ovat ehdottoman välttämättömiä pyytämällesi asialle, eivät vaadi suostumusta; analytiikkaevästeet vaativat."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Siksi tämä verkkosivusto tallentaa analytiikkaevästeen vain, jos hyväksyt sen, ja antaa sinun hyväksyä tai hylätä sen kahella samanlaisella painikkeella, samalla näytöllä ja ilman etukäteen valittuja ruutuja. Sen hylkääminen ei estä sinua käyttämästä mitään sivuston osaa."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Mikään näistä evästeistä ei ole kolmannen osapuolen eväste, mitään niistä ei käytetä mainontatarkoituksiin eikä mitään niistä jaeta tämän sivuston ulkopuolisten tahojen kanssa."
+			"titulo": "2. Evästeet, joita tämä sivusto käyttää",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nimi",
+						"Mihin sitä käytetään",
+						"Tyyppi",
+						"Tarvitseeko se suostumuksesi?",
+						"Kesto"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Tallentaa valintasi, tämän käytännön version ja suostumuslokejasi koskevan pseudonymisoidun tunnisteen",
+							"Oma, tekninen",
+							"Ei",
+							"12 kuukautta"
+						],
+						[
+							"visitante_id",
+							"Pseudonymisoitu tunniste sen selvittämiseksi, mitkä sisällöt ovat hyödyllisiä",
+							"Oma, analytiikka",
+							"Kyllä",
+							"12 kuukautta"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Muistaa, kumman teeman (vaalea vai tumma) haluat; tallennetaan vain, jos muutat sitä",
+							"Oma, pyytämäsi mukauttaminen",
+							"Ei",
+							"Kunnes poistat sen"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Voit muuttaa päätöstäsi tai peruuttaa suostumuksesi milloin tahansa sivuston alatunnisteen \"Määritä evästeet\" -linkistä ja poistaa kaikki tietosi välittömästi saman paneelin \"Poista tietoni\" -painikkeella."
+			"titulo": "3. Mitä täällä ei ole",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Täällä ei ole kolmannen osapuolen evästeitä, mainontaa, upotettua sosiaalisen median sisältöä eikä Google Analyticsia. Fontit ja kuvat tarjoillaan tältä samalta verkkosivustolta."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Lisätietoja tietojesi käsittelystä saat tietosuojakäytännöstä."
+			"titulo": "4. Miten muuttaa mieltään",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Voit muuttaa valintaasi tai peruuttaa suostumuksesi milloin tahansa jokaisen sivun alalaidan kohdasta \"Määritä evästeet\" tai tämän sivun painikkeella. Sieltä voit myös poistaa selaimeesi liittyvät analytiikkatiedot heti. Voit myös poistaa evästeet selaimen asetuksista."
+				}
+			]
+		},
+		{
+			"titulo": "5. Merkintä valinnastasi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Joka kerta kun hyväksyt, hylkäät tai peruutat suostumuksen, tallennetaan lokitieto (pseudonymisoitu tunniste, päätös, tämän käytännön versio, päivämäärä ja kellonaika, sivu, kieli, lähde ja selain) ilman IP-osoitettasi, jotta voidaan todistaa, että suostumus oli pätevä. Sitä säilytetään 3 vuotta. Lisätietoja tietosuojakäytännössä."
+				}
+			]
+		},
+		{
+			"titulo": "6. Muutokset",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jos tämä käytäntö muuttuu olennaisesti, eväste-ilmoitus tulee näkyviin uudelleen, jotta voit tehdä päätöksen uudelleen."
+				}
+			]
 		}
 	]
 }

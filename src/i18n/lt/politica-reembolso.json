@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Grąžinimo politika — Mario Álvarez",
+		"description": "Kaip veikia Mario Álvarez teikiamų paslaugų atšaukimai, atsisakymo teisė ir grąžinimai.",
+		"heading": "Grąžinimo politika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ši svetainė nepriima mokėjimų",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Svetainėje marioalvarez.me neparduodami produktai ir nepriimami mokėjimai internetu. Paslaugos (našumo analizė, individualūs įrankiai, duomenų bazės ir ataskaitos bei karjeros palaikymas) užsakomos atskirai, pateikiant raštišką pasiūlymą."
+				}
+			]
+		},
+		{
+			"titulo": "2. Ką nurodo jūsų pasiūlymas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kiekviename pasiūlyme nurodoma kaina, mokėjimo būdas ir laikas bei atšaukimo sąlygos. Jei pasiūlyme nurodyta kas kita nei šioje politikoje, galioja pasiūlymas, nebent ši politika suteikia jums daugiau vartotojo teisių."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jei atšaukiate užsakymą",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jei raštu nesusitarta kitaip:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Jei atšaukiate prieš prasidedant darbui, aš grąžinu visą iš anksto sumokėtą sumą.",
+						"Jei atšaukiate darbui jau prasidėjus, imamas mokestis tik už jau atliktą dalį, o likusi išankstinio mokėjimo dalis jums grąžinama.",
+						"Jau pristatytas ir priimtas darbas negrąžinamas, nebent jame yra defektų, kurių nepavyksta ištaisyti."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Teisė atsisakyti sutarties (jei esate vartotojas)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jei sudarote sutartį kaip vartotojas (asmuo, veikiantis ne savo profesinės veiklos srityje) ir sutartis sudaroma nuotoliniu būdu, el. paštu arba telefonu, turite 14 kalendorinių dienų nuo sutarties sudarymo dienos atsisakyti sutarties nenurodydami jokių priežasčių, remdamasis Bendrojo vartotojų ir naudotojų teisių apsaugos įstatymo tekstinio rinkinio (Karališkasis teisėkūros dekreto 1/2007) 102–108 straipsniais."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jei aiškiai paprašysite pradėti darbą per šias 14 dienų ir vėliau nuspręsite atsisakyti sutarties, sumokėsite tik proporcingą iki tol suteiktos paslaugos dalį. Jei paslauga buvo visiškai atlikta per nustatytą terminą, gavus jūsų išankstinį ir aiškų sutikimą bei žinant, kad taip prarandate šią teisę, sutarties atsisakyti nebegalėsite (103.a straipsnis)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kaip pateikti prašymą",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Parašykite man el. paštu {email}, nurodydami savo vardą, pavardę, paslaugą ir jos užsakymo datą. Galite pasinaudoti šiuo sutarties atsisakymo formos pavyzdžiu (tai nėra privaloma):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Skirta {nombre}, {domicilio}, {email}:",
+						"Šiuo pranešimu informuoju, kad atsisakau savo sutarties dėl šios paslaugos teikimo: [servicio].",
+						"Užsakyta: [fecha].",
+						"Vartotojo vardas, pavardė: [nombre].",
+						"Vartotojo adresas: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Pinigų grąžinimo terminas ir būdas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Atitinkamą sumą jums grąžinsiu ne vėliau kaip per 14 kalendorinių dienų nuo dienos, kurią pranešėte man apie savo sprendimą, tuo pačiu mokėjimo būdu, kurį naudojote, nebent susitarsime kitaip. Pinigų grąžinimas jums nieko nekainuos."
+				}
+			]
+		}
+	]
+}

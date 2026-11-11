@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Informasjonskapselretningslinjer — Mario Álvarez",
-		"description": "Hvilke informasjonskapsler dette nettstedet bruker, med hvilke formål, og hvordan du når som helst kan endre samtykket ditt.",
-		"eyebrow": "Juridisk",
-		"heading": "Informasjonskapselretningslinjer"
+		"description": "Hvilke informasjonskapsler marioalvarez.me bruker, hvilke som krever din tillatelse, og hvordan du når som helst kan endre ditt valg.",
+		"heading": "Informasjonskapselretningslinjer",
+		"eleccionTitulo": "Ditt valg",
+		"eleccionTexto": "Du kan endre eller slette dataene dine når du vil, like enkelt som du ga dem."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Denne nettsiden bruker informasjonskapsler og lignende teknologier (som lokal lagring i nettleseren) for at den skal fungere som den skal, og, hvis du gir ditt samtykke, for å analysere anonymt hvordan innholdet brukes."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Informasjonskapsler som brukes:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Navn",
-				"Formål",
-				"Type",
-				"Varighet"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Huske ditt valg angående disse informasjonskapselretningslinjene",
-					"Egen, teknisk (unntatt fra samtykke)",
-					"12 måneder"
-				],
-				[
-					"visitante_id",
-					"Anonym identifikator for å koble sammen besøkene dine og vite hvilket innhold som er nyttig",
-					"Egen, analytisk (krever ditt samtykke)",
-					"12 måneder"
-				]
+			"titulo": "1. Hva de er, og om jeg trenger din tillatelse",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Informasjonskapsler og lignende teknologier (som nettleserens lokale lagring) lagrer små datamengder på enheten din. I henhold til gjeldende regelverk trenger ikke de som er strengt nødvendige for noe du ber om, samtykke; det gjør derimot analysekapsler."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Derfor lagrer dette nettstedet bare analysekapselen hvis du godtar den, og lar deg godta eller avvise med to like knapper, på samme skjerm og uten forhåndsvalgte bokser. Å avvise den hindrer deg ikke i å bruke noen del av nettstedet."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Ingen av disse informasjonskapslene er fra tredjeparter, ingen brukes til reklameformål, og ingen deles med noen utenfor dette nettstedet."
+			"titulo": "2. Informasjonskapsler som brukes av dette nettstedet",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Navn",
+						"Hva den brukes til",
+						"Type",
+						"Trenger den din tillatelse?",
+						"Varighet"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Lagre valget ditt, versjonen av disse retningslinjene og den pseudonyme identifikatoren for samtykkeregistreringen din",
+							"Egen, teknisk",
+							"Nei",
+							"12 måneder"
+						],
+						[
+							"visitante_id",
+							"Pseudonym identifikator for å vite hvilket innhold som er nyttig",
+							"Egen, analyse",
+							"Ja",
+							"12 måneder"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Husk om du foretrekker det lyst eller mørkt tema; lagres kun hvis du endrer det",
+							"Egen, personalisering etter din forespørsel",
+							"Nei",
+							"Til du sletter den"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Du kan når som helst endre avgjørelsen din eller trekke tilbake samtykket ditt via lenken \"Konfigurer informasjonskapsler\" i sidefoten, og slette alle dataene dine umiddelbart med knappen \"Slett mine data\" i det samme panelet."
+			"titulo": "3. Det som ikke finnes her",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Det er ingen tredjeparts informasjonskapsler, ingen reklame, intet innebygd sosiale medier-innhold og ingen Google Analytics. Skrifttyper og bilder serveres fra dette samme nettstedet."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "For mer informasjon om hvordan dataene dine behandles, se Personvernerklæringen."
+			"titulo": "4. Slik ombestemmer du deg",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kan endre valget ditt eller trekke tilbake samtykket når som helst fra «Konfigurer informasjonskapsler» i bunnteksten på hver side, eller med knappen på denne siden. Derfra kan du også umiddelbart slette analysodataene som er knyttet til nettleseren din. Og du kan slette informasjonskapsler fra nettleserens innstillinger."
+				}
+			]
+		},
+		{
+			"titulo": "5. Registrering av ditt valg",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hver gang du godtar, avviser eller trekker tilbake samtykke, lagres en logg (pseudonym identifikator, beslutning, versjon av disse retningslinjene, dato og klokkeslett, side, språk, kilde og nettleser), uten IP-adressen din, for å kunne bevise at samtykket var gyldig. Den oppbevares i 3 år. Flere detaljer i personvernerklæringen."
+				}
+			]
+		},
+		{
+			"titulo": "6. Endringer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis disse retningslinjene endres på en vesentlig måte, vil varselet om informasjonskapsler dukke opp igjen slik at du kan ta en ny avgjørelse."
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Refusionspolitik — Mario Álvarez",
+		"description": "Sådan fungerer aflysninger, fortrydelsesret og returneringer af tjenester fra Mario Álvarez.",
+		"heading": "Refusionspolitik"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Denne hjemmeside opkræver ikke betalinger",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "På marioalvarez.me sælges der ikke produkter, og der opkræves ikke onlinebetalinger. Tjenesterne (præstationsanalyse, skræddersyede værktøjer, databaser og rapporter samt karrierestøtte) aftales separat med et skriftligt tilbud."
+				}
+			]
+		},
+		{
+			"titulo": "2. Hvad dit tilbud siger",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvert tilbud angiver prisen, hvordan og hvornår der betales, samt aflysningsbetingelserne. Hvis tilbuddet siger noget andet end denne politik, gælder tilbuddet, medmindre denne politik giver dig flere rettigheder som forbruger."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hvis du aflyser",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Medmindre andet er aftalt skriftligt:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Hvis du aflyser, før arbejdet begynder, betaler jeg enhver forudbetaling fuldt tilbage.",
+						"Hvis du aflyser, efter arbejdet er gået i gang, opkræves kun den del, der allerede er udført, og jeg betaler resten af det forudbetalte tilbage.",
+						"Arbejder, der allerede er leveret og accepteret, refunderes ikke, medmindre de har mangler, der ikke bliver udbedret."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Fortrydelsesret (hvis du er forbruger)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis du indgår aftale som forbruger (en person, der handler uden for sin erhvervsmæssige virksomhed), og aftalen indgås ved fjernsalg, via e-mail eller telefon, har du 14 kalenderdage fra aftalens indgåelse til at fortryde uden at angive en årsag."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis du udtrykkeligt beder mig om at begynde at arbejde inden for disse 14 dage og derefter fortryder, skal du kun betale den promportionsmæssige del af den tjeneste, der er leveret indtil det tidspunkt. Hvis tjenesten er fuldstændigt udført inden for fristen med dit forudgående og udtrykkelige samtykke og med viden om, at du dermed mister denne ret, kan du ikke længere fortryde."
+				}
+			]
+		},
+		{
+			"titulo": "5. Sådan anmoder du om det",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Skriv til mig på {email} med dit navn, tjenesten og datoen for, hvornår du bestilte den. Du kan bruge denne standardformular til fortrydelse (den er ikke obligatorisk):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Til {nombre}, {domicilio}, {email}:",
+						"Herved meddeler jeg, at jeg fortryder min aftale om levering af følgende tjeneste: [servicio].",
+						"Bestilt den: [fecha].",
+						"Forbrugerens navn: [nombre].",
+						"Forbrugerens adresse: [domicilio].",
+						"Dato: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Frist og form for tilbagebetaling",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jeg betaler det relevante beløb tilbage senest 14 kalenderdage efter, at du har meddelt mig din beslutning, via det samme betalingsmiddel, som du brugte, medmindre vi aftaler andet. Tilbagebetalingen er uden omkostninger for dig."
+				}
+			]
+		}
+	]
+}

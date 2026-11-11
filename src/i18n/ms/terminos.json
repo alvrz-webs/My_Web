@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Terma dan syarat — Mario Álvarez",
+		"description": "Notis undang-undang dan syarat penggunaan marioalvarez.me: siapa pemiliknya, cara web boleh digunakan dan undang-undang yang terpakai.",
+		"heading": "Terma dan syarat"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Siapa di disebalik web ini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bagi mematuhi perkara 10 Undang-undang 34/2002, perkhidmatan masyarakat maklumat dan perdagangan elektronik (LSSI-CE), berikut adalah butiran pemilik marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Pemilik: {nombre}",
+						"NIF: {nif}",
+						"Alamat: {domicilio}",
+						"Email: {email}",
+						"Aktiviti: portfolio profesional dan tawaran perkhidmatan analisis data, alat tersuai, pangkalan data dan laporan serta sokongan kerjaya."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Perkara yang dikawal oleh terma ini",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Terma ini mengawal akses dan penggunaan marioalvarez.me (\"web\") dalam mana-mana bahasanya. Dengan melayarinya, anda bersetuju untuk menggunakannya mengikut apa yang dinyatakan di sini. Jika anda menulis kepada saya melalui borang hubungan, saya meminta anda menerimanya secara nyata dengan menandakan kotak."
+				}
+			]
+		},
+		{
+			"titulo": "3. Cara web boleh digunakan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Anda boleh merujuk dan berkongsi kandungan dengan menyatakan sumbernya. Tidak dibenarkan:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"menggunakan web untuk tujuan haram atau yang merugikan pihak ketiga;",
+						"mencuba mengakses kawasan terpelihara (seperti panel peribadi) atau sistem yang mengehoskannya;",
+						"memasukkan virus atau sebarang kod berbahaya, atau membebannya secara sengaja;",
+						"menyalin kandungan untuk mempersembahkannya sebagai milik sendiri."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Perkhidmatan dan kontrak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web ini tidak menjual produk atau mengenakan bayaran dalam talian. Jika anda berminat dengan perkhidmatan, kita membincangkannya melalui email atau telefon dan saya menghantar cadangan bertulis dengan skop, harga, tempoh serta syarat pembayaran dan pembatalan. Cadangan tersebut, apabila diterima oleh kedua-dua pihak, adalah yang mengawal perkhidmatan dan diutamakan berbanding terma ini."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Cara pembatalan, hak penarikan diri dan pemulangan berfungsi dijelaskan dalam dasar bayaran balik."
+				}
+			]
+		},
+		{
+			"titulo": "5. Harta intelek dan perindustrian",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Teks, reka bentuk, kod sendiri, logo dan gambar Mario Álvarez adalah miliknya atau digunakan dengan kebenaran pengarangnya. Ia tidak dibenarkan untuk diterbitkan semula bagi tujuan komersial tanpa kebenaran bertulis."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nama dan logo pihak ketiga (seperti LinkedIn, GitHub, Instagram atau pasukan dan entiti yang disebut dalam pengalaman) adalah hak milik pemilik masing-masing. Menyebutnya tidak membayangkan sebarang hubungan komersial atau tajaan, kecuali dinyatakan secara nyata."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web ini menggunakan sumber pihak ketiga dengan lesen yang membenarkannya: fon Fira Sans Extra Condensed dan Source Serif 4 (SIL Open Font License 1.1), ikon Lucide (lesen ISC) dan Simple Icons (CC0 1.0) serta perpustakaan animasi GSAP (lesen standard percuma GreenSock, daripada Webflow). Setiap projek yang dipautkan dalam GitHub mempunyai lesennya sendiri."
+				}
+			]
+		},
+		{
+			"titulo": "6. Tanggungjawab",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saya bekerja untuk memastikan maklumat adalah betul and web tersedia, tetapi saya tidak dapat menjamin bahawa tiada ralat atau gangguan. Kandungan bersifat maklumat dan bukan pengganti nasihat profesional mengenai kes khusus anda."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web ini memaut ke laman pihak ketiga (rangkaian sosial, repositori, laman web projek). Saya tidak mengawal kandungan atau dasarnya dan tidak bertanggungjawab mengenainya."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privasi dan kuki",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cara data anda diproses dan kuki yang digunakan dijelaskan dalam dasar privasi dan dasar kuki. Tiada bahagian web yang memaksa anda menerima kuki untuk menggunakannya."
+				}
+			]
+		},
+		{
+			"titulo": "8. Pendaftaran penerimaan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Untuk dapat membuktikan persetujuan apabila diperlukan (perkara 7.1 GDPR), apabila anda menerima terma ini dalam borang hubungan atau memilih kuki yang anda benarkan, rekod disimpan dengan: pengecam pseudonim, apa yang anda terima atau tolak, versi setiap dokumen, tarikh dan masa, halaman dan bahasa dari mana anda melakukannya, asal (sepanduk, konfigurasi atau borang), pelayar dan, dalam borang, kod rujukan yang dihantar dalam email anda. Alamat IP anda tidak disimpan. Butiran ada dalam dasar privasi."
+				}
+			]
+		},
+		{
+			"titulo": "9. Bahasa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Versi Sepanyol bagi teks ini adalah yang asal dan diutamakan sekiranya berlaku keraguan. Yang lain adalah terjemahan mesin yang ditawarkan untuk kemudahan."
+				}
+			]
+		},
+		{
+			"titulo": "10. Perubahan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saya boleh mengemas kini terma ini untuk menyesuaikannya dengan perubahan undang-undang atau web. Tarikh versi semasa muncul pada permulaan halaman ini. Jika perubahan itu penting, saya akan meminta anda menerimanya semula."
+				}
+			]
+		},
+		{
+			"titulo": "11. Undang-undang yang terpakai dan bidang kuasa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Terma ini dikawal oleh undang-undang Sepanyol. Jika anda bertindak sebagai pengguna, anda boleh pergi ke mahkamah di alamat anda dan sistem timbang tara serta penyelesaian konflik pengguna komuniti autonomi anda. Dalam kes lain, kedua-dua pihak tertakluk kepada mahkamah dan tribunal Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

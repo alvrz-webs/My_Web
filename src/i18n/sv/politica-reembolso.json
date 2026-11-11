@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Återbetalningspolicy — Mario Álvarez",
+		"description": "Hur avbokningar, ångerrätt och återbetalningar för Mario Álvarez tjänster fungerar.",
+		"heading": "Återbetalningspolicy"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Denna webbplats tar inte emot betalningar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "På marioalvarez.me säljs inga produkter och inga onlinebetalningar tas emot. Tjänster (prestandaanalys, skräddarsydda verktyg, databaser och rapporter samt karriärstöd) avtalas separat med ett skriftligt anbud."
+				}
+			]
+		},
+		{
+			"titulo": "2. Vad ditt anbud säger",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Varje anbud anger pris, hur och när betalning sker samt avbokningsvillkor. Om anbudet säger något annat än denna policy gäller anbudet, såvida inte denna policy ger dig fler rättigheter som konsument."
+				}
+			]
+		},
+		{
+			"titulo": "3. Om du avbokar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Om inget annat avtalats skriftligen:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Om du avbokar innan arbetet påbörjas återbetalar jag eventuell förskottsbetalning i sin helhet.",
+						"Om du avbokar efter att arbetet har påbörjats debiteras endast den del som redan har utförts och jag återbetalar resten av det förskottsbelopp du har betalat.",
+						"Arbete som redan har levererats och godkänts återbetalas inte, såvida det inte har brister som inte rättas till."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Ångerrätt (om du är konsument)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Om du tecknar avtal som konsument (en person som handlar utanför sin yrkesverksamhet) och avtalet ingås på distans, via e-post eller telefon, har du 14 kalenderdagar på dig från avtalets ingående att ångra dig utan att ange skäl, i enlighet med artiklarna 102 till 108 i den konsumentskyddslagstiftning som gäller."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Om du uttryckligen ber mig att börja arbeta inom dessa 14 dagar och sedan ångrar dig, betalar du endast den proportionella delen av den tjänst som har utförts fram till dess. Om tjänsten har slutförts helt inom tidsfristen, med ditt föregående och uttryckliga samtycke och med insikten om att du därmed förlorar denna rätt, kan du inte längre ångra dig (artikel 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Hur du begär det",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Skriv till mig på {email} med ditt namn, tjänsten och det datum då du anlitade den. Du kan använda denna standardblankett för ångerrätt (ej obligatorisk):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Till uppmärksamhet för {nombre}, {domicilio}, {email}:",
+						"Härmed meddelar jag att jag ångrar mitt avtal om tillhandahållande av följande tjänst: [servicio].",
+						"Beställt den: [fecha].",
+						"Konsumentens namn: [nombre].",
+						"Konsumentens adress: [domicilio].",
+						"Datum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Tidsfrist och metod för återbetalning",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jag återbetalar det belopp som du har rätt till inom maximalt 14 kalenderdagar från det att du meddelar mig ditt beslut, via samma betalningsmetod som du använde, om vi inte kommer överens om något annat. Återbetalningen är helt kostnadsfri för dig."
+				}
+			]
+		}
+	]
+}

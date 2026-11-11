@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
+import CierreContacto from '../CierreContacto.astro';
 import { localizedPath, type Locale } from '../../lib/i18n';
 import { getDict } from '../../lib/dictionary';
 
@@ -12,163 +13,192 @@ const { lang = 'es' } = Astro.props;
 
 const experiencia = getDict(lang, 'experiencia') as any;
 const { datos: datosItems, deporte: deporteItems, meta: t } = experiencia;
+const cierre = (getDict(lang, 'common') as any).cierre;
+
+// Dos tramos, cada uno con su carril: datos por la stayer, deporte por la sprinter.
+const tramos = [
+	{ id: 'datos', titulo: t.colDatos, items: datosItems, clase: 'tramo-datos' },
+	{ id: 'deporte', titulo: t.colDeporte, items: deporteItems, clase: 'tramo-deporte campo-invertido' },
+];
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>
-	<PageHeader eyebrow={t.eyebrow} title={t.heading} />
+	<PageHeader eyebrow={t.eyebrow} title={t.heading} description={t.lead}>
+		{
+			t.cifras?.length > 0 && (
+				<ul slot="aside" class="cifras">
+					{t.cifras.map((c: any) => (
+						<li class="cifra">
+							<span class="cifra-valor">{c.cifra}</span>
+							<span class="cifra-texto">{c.texto}</span>
+						</li>
+					))}
+				</ul>
+			)
+		}
+	</PageHeader>
 
-	<section class="experiencia" data-tracking-seccion="experiencia">
-		<div class="container experiencia-columns">
-			<div class="column reveal">
-				<h2>{t.colDatos}</h2>
-				<div class="timeline">
-					{
-						datosItems.map((item) => (
-							<article class="timeline-item">
-								<h3>{item.title}</h3>
-								{item.meta && <p class="timeline-meta">{item.meta}</p>}
-								{item.paragraphs.map((p) => (
-									<p class="text-dim">{p}</p>
-								))}
-								{item.list && (
-									<ul class="timeline-list">
-										{item.list.map((entry) => (
-											<li class="text-dim">{entry}</li>
-										))}
-									</ul>
-								)}
-								{item.link && (
-									<a href={localizedPath(item.link.href, lang)} class="timeline-link">
-										{item.link.label} →
-									</a>
-								)}
-							</article>
-						))
-					}
-				</div>
-			</div>
+	{
+		tramos.map((tramo, n) => (
+			<section id={tramo.id} class:list={['seccion', 'tramo', tramo.clase]} data-tracking-seccion={n === 0 ? 'experiencia' : undefined}>
+				<div class="container">
+					<h2 class="titulo-seccion tramo-titulo" data-entra>
+						{tramo.titulo}
+					</h2>
 
-			<div class="column reveal">
-				<h2>{t.colDeporte}</h2>
-				<div class="timeline">
-					{
-						deporteItems.map((item) => (
-							<article class="timeline-item">
-								<h3>{item.title}</h3>
-								{item.meta && <p class="timeline-meta">{item.meta}</p>}
-								{item.paragraphs.map((p) => (
-									<p class="text-dim">{p}</p>
-								))}
-							</article>
-						))
-					}
+					<ul class="entradas">
+						{tramo.items.map((item: any) => (
+							<li class="entrada" data-entra>
+								<p class="entrada-meta">{item.meta}</p>
+								<div class="entrada-cuerpo">
+									<h3>{item.title}</h3>
+									{item.paragraphs?.map((p: string) => (
+										<p>{p}</p>
+									))}
+									{item.list && (
+										<ul class="entrada-lista">
+											{item.list.map((entry: string) => (
+												<li>{entry}</li>
+											))}
+										</ul>
+									)}
+									{item.link && (
+										<a href={localizedPath(item.link.href, lang)} class="link-arrow">
+											{item.link.label}
+										</a>
+									)}
+								</div>
+							</li>
+						))}
+					</ul>
 				</div>
-			</div>
-		</div>
-	</section>
+			</section>
+		))
+	}
+
+	<CierreContacto titulo={cierre.title} texto={cierre.text} cta={cierre.cta} href={localizedPath('/contacto', lang)} />
 </Layout>
 
 <style>
-	.experiencia {
-		padding-block: 1rem 6rem;
-	}
-
-	.experiencia-columns {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 3rem;
-		align-items: start;
-	}
-
-	.column h2 {
-		font-family: var(--font-heading);
-		font-size: 1.3rem;
-		font-weight: 600;
-		margin-block-end: 1.5rem;
-		padding-block-end: 0.85rem;
-		border-bottom: 1px solid var(--color-border);
-	}
-
-	.timeline {
-		display: flex;
-		flex-direction: column;
-		gap: 1.25rem;
-	}
-
-	.timeline-item {
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 14px;
-		padding: 1.4rem;
-		transition: border-color var(--transition-fast);
-	}
-
-	.timeline-item:hover {
-		border-color: var(--color-green);
-	}
-
-	.timeline-item h3 {
-		font-size: 1.02rem;
-		font-weight: 600;
-	}
-
-	.timeline-meta {
-		font-family: var(--font-mono);
-		font-size: 0.78rem;
-		color: var(--color-green);
-		margin-block-start: 0.35rem;
-	}
-
-	.timeline-item p.text-dim {
-		font-size: 0.94rem;
-		line-height: 1.6;
-		margin-block-start: 0.75rem;
-	}
-
-	.timeline-list {
+	/* ---------- Cifras de cabecera ---------- */
+	.cifras {
 		list-style: none;
-		display: flex;
-		flex-direction: column;
-		gap: 0.6rem;
-		margin-block-start: 0.75rem;
+		display: grid;
+		gap: 0;
+		inline-size: 100%;
+		max-inline-size: 380px;
+		border-block-start: 3px solid var(--color-text);
 	}
 
-	.timeline-list li {
-		font-size: 0.94rem;
-		line-height: 1.6;
-		padding-inline-start: 1rem;
+	.cifra {
+		display: grid;
+		grid-template-columns: 6.5rem minmax(0, 1fr);
+		gap: 1rem;
+		align-items: baseline;
+		padding-block: 1rem;
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.cifra-valor {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: 2.1rem;
+		line-height: 1;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.cifra-texto {
+		font-size: 1rem;
+		line-height: 1.45;
+	}
+
+	/* ---------- Tramos ---------- */
+	.tramo-datos {
+		--carril: var(--linea-stayer);
+		padding-block-start: var(--space-tras-cabecera);
+	}
+
+	.tramo-deporte {
+		--carril: var(--linea-sprinter);
+	}
+
+	.tramo-titulo::before {
+		background: var(--carril);
+	}
+
+	.entradas {
+		list-style: none;
+		display: grid;
+		gap: clamp(2.75rem, 5vw, 4rem);
+		margin-block-start: var(--space-block);
+	}
+
+	/* Cada experiencia: la fecha y el lugar a un lado, el trabajo al otro, sobre la línea de su carril */
+	.entrada {
+		display: grid;
+		grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+		gap: 1.25rem var(--gutter);
+		padding-block-start: 1.5rem;
+		border-block-start: 4px solid var(--carril);
+	}
+
+	.entrada-meta {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.15rem;
+		line-height: 1.3;
+		color: var(--color-text-dim);
+	}
+
+	.entrada-cuerpo {
+		display: grid;
+		gap: 1rem;
+		max-width: 64ch;
+	}
+
+	.entrada-cuerpo h3 {
+		font-size: var(--fs-h3);
+		font-weight: 700;
+		line-height: 1.1;
+	}
+
+	.entrada-cuerpo p {
+		font-size: 1.08rem;
+		line-height: 1.65;
+	}
+
+	.entrada-lista {
+		list-style: none;
+		display: grid;
+		gap: 0.85rem;
+	}
+
+	.entrada-lista li {
 		position: relative;
+		padding-inline-start: 1.4rem;
+		font-size: 1.05rem;
+		line-height: 1.6;
 	}
 
-	.timeline-list li::before {
+	/* Viñeta: un tramo corto del carril */
+	.entrada-lista li::before {
 		content: '';
 		position: absolute;
 		inset-inline-start: 0;
-		inset-block-start: 0.55em;
-		width: 6px;
-		height: 6px;
-		border-radius: 50%;
-		background: var(--color-blue);
+		inset-block-start: 0.72em;
+		inline-size: 0.8rem;
+		block-size: 3px;
+		background: var(--carril);
 	}
 
-	.timeline-link {
-		display: inline-block;
-		margin-block-start: 0.9rem;
-		font-size: 0.9rem;
-		font-weight: 600;
-		color: var(--color-blue);
-		text-decoration: none;
-		transition: color var(--transition-fast);
+	.entrada-cuerpo .link-arrow {
+		justify-self: start;
 	}
 
-	.timeline-link:hover {
-		color: var(--color-green);
-	}
-
-	@media (max-width: 860px) {
-		.experiencia-columns {
-			grid-template-columns: 1fr;
-			gap: 3.5rem;
+	@media (max-width: 760px) {
+		.entrada {
+			grid-template-columns: minmax(0, 1fr);
+			gap: 0.6rem;
 		}
 	}
 </style>

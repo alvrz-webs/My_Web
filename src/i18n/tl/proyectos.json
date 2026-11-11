@@ -4,7 +4,10 @@
 		"description": "Mga repositoryo at proyekto sa pagsusuri ng datos, visualization, at machine learning ni Mario Álvarez.",
 		"eyebrow": "Mga Proyekto",
 		"heading": "Mga Proyekto",
-		"intro": "Isang sulyap sa aking mga gawa: mula sa mga tool para sa propesyonal na pagbisikleta hanggang sa mga akademikong proyekto sa pagsusuri at machine learning."
+		"intro": "Isang sulyap sa aking mga gawa: mula sa mga tool para sa propesyonal na pagbisikleta hanggang sa mga akademikong proyekto sa pagsusuri at machine learning.",
+		"cifraRepos": "mga pampublikong repository sa GitHub",
+		"cifraWebs": "mga nai-publish na website",
+		"cifraHerramientas": "mga wika at tool"
 	},
 	"list": {
 		"eyebrow": "Gawa",

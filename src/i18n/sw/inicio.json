@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Mtaalamu wa takwimu za michezo aliyeobebea katika michezo",
-		"description": "Mario Álvarez, mtaalamu wa takwimu za michezo huko Valencia aliyeobebea katika uchambuzi wa michezo. Data · Sport · Progress.",
+		"description": "Mario Álvarez, mtaalamu wa sayansi ya data huko Valencia aliyebobea katika uchanganuzi wa michezo. Bingwa wa Uhispania wa madison na mkurugenzi wa michezo wa RFEC.",
 		"verProyectos": "Tazama miradi",
-		"contacto": "Mawasiliano",
-		"verMas": "Tazama zaidi",
+		"verServicios": "Ona jinsi ninavyoweza kukusaidia",
+		"contacto": "Niandikie",
+		"verMas": "Soma zaidi",
 		"verTodosProyectos": "Tazama miradi yote",
-		"irAContacto": "Nenda kwenye mawasiliano",
+		"irAContacto": "Niandikie",
 		"herramientas": "Zana kuu"
 	},
 	"hero": {
-		"eyebrow": "Mtaalamu wa takwimu · Uchambuzi wa michezo · Valencia",
-		"titlePre": "Ninageuza data kuwa ",
-		"titleHighlight": "maamuzi yaliyo wazi",
-		"subtitle": "Mimi ni daraja kati ya uchambuzi wa data na michezo ya kiwango cha juu: ninageuza vipimo vya utendakazi kuwa mikakati inayofanya tofauti uwanjani.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, mtaalamu wa sayansi ya data",
+		"title": "Nilikuwa bingwa wa Uhispania wa madison.",
+		"subtitle": "Sasa ninasoma Sayansi ya Data katika UPV na ninachambua kilicho nyuma ya utendaji: nguvu, mzigo na matokeo. Najua namba inamaanisha nini kwa mkimbiaji kwa sababu nimekuwa mkimbiaji huyo.",
+		"palmaresLabel": "Wasifu na mafanikio",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Michuano ya Uhispania ya madison",
+				"nota": "Uwanja wa baiskeli, ukiwa na umri wa miaka 18"
+			},
+			{
+				"pos": "6º",
+				"texto": "Michuano ya Dunia ya uwanja wa baiskeli",
+				"nota": "Timu ya Taifa ya Uhispania"
+			},
+			{
+				"pos": "6º",
+				"texto": "Michuano ya Ulaya ya uwanja wa baiskeli",
+				"nota": "Timu ya Taifa ya Uhispania"
+			}
+		],
+		"retratoAlt": "Picha ya Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Ninachoweza kukusaidia",
+		"text": "Ninafanya kazi na timu, makocha na wakimbiaji ambao wana data na wanataka kuzitumia vizuri. Na kwa kampuni zinazohitaji kupanga zao.",
+		"cta": "Niambie kuhusu kesi yako",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Uchanganuzi wa utendaji",
+				"texto": "Nasoma nguvu, mzigo na matokeo kwa macho ya mkimbiaji. Nakueleza nini kinaendelea na nini kingebadilika.",
+				"prueba": "Mkimbiaji wa kiwango cha juu na mkurugenzi wa michezo wa RFEC, viwango vya I na II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Zana maalum",
+				"texto": "Scraping, mifumo na programu ndogo za Python zinazojibu swali maalum la timu yako.",
+				"prueba": "Zana mbili kwa ajili ya timu ya Cofidis: ugumu wa UCI na wasifu wa mbio."
+			},
+			{
+				"id": "datos",
+				"nombre": "Hifadhidata na ripoti",
+				"texto": "Maswali ya haraka zaidi, hifadhidata zilizounganishwa na dashibodi katika Power BI ambazo zinaeleweka mara moja.",
+				"prueba": "Zaidi ya jedwali 580 na rekodi milioni 100 katika hifadhidata ninayoboresha katika SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Usaidizi wakati wa mbio",
+				"texto": "Maandalizi ya mbio, ufuatiliaji wa wakimbiaji na masaji ya michezo wakati wa mashindano.",
+				"prueba": "Wafanyakazi wa Timu ya Taifa ya Jumuiya ya Valencia."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Kuhusu mimi",
-		"title": "Data yenye muktadha wa uwanja, barabara na mashindano",
-		"text": "Mimi ni Mario Álvarez, mwanafunzi wa Sayansi ya Data katika UPV mwenye uzoefu halisi ndani ya timu ya kitaalamu ya baiskeli. Ninachanganya uchambuzi wa data na utendakazi wa michezo ya kiwango cha juu, ili kugeuza kila kipimo kuwa uamuzi unaoboresha matokeo."
+		"title": "Kutoka uwanja wa baiskeli hadi data",
+		"text": "Ninasoma mwaka wa 3 wa Shahada ya Sayansi ya Data katika UPV na nimemaliza shahada ya uzamili katika uwekaji wa dijiti na teknolojia inayotumika kwenye michezo. Sijatoka kwenye michezo ya baiskeli: bado nakimbia kwenye uwanja, ninaongoza wakimbiaji wa vijana na nafanya kazi kama mtaalamu wa masaji na wataalamu."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Elimu",
-			"detail": "Shahada ya Sayansi ya Data, Universitat Politècnica de València."
+			"label": "Msingi",
+			"value": "Benidorm na Valencia"
 		},
 		{
-			"value": "Kiwango cha juu",
-			"label": "Uzoefu",
-			"detail": "Kazi halisi ndani ya timu ya kitaalamu ya baiskeli."
+			"label": "Mafunzo",
+			"value": "Shahada ya Sayansi ya Data (UPV) na Shahada ya Uzamili katika Uwekaji Dijiti, Ubunifu na Teknolojia katika Michezo"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Mtazamo",
-			"detail": "Uchambuzi uliotumika kuboresha utendakazi wa michezo."
+			"label": "Vifungu na vyeti",
+			"value": "Mkurugenzi wa michezo wa RFEC, viwango vya I na II"
+		},
+		{
+			"label": "Sasa",
+			"value": "Inapatikana kwa miradi ya data na utendaji"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Uzoefu",
-		"title": "Dunia mbili, lugha moja: utendakazi",
-		"text": "Nimeshindana katika kiwango cha juu zaidi na leo ninatumia kigezo hicho hicho kwa data: ninaelewa namba inamaanisha nini kwa mwanamichezo kwa sababu nimekuwa mwanamichezo huyo."
+		"title": "Njia mbili, kazi moja",
+		"text": "Katika moja ninaboresha hifadhidata na kuandika mifumo. Katika nyingine ninatazama mbio na kufuata wakimbiaji. Zote mbili zinalenga kitu kile kile: kupima vizuri ili kuamua vizuri zaidi.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "jedwali zilizochambuliwa katika SIME Telecom kuunganisha hifadhidata kadhaa kuwa moja, bila kupanua vifaa vya kompyuta"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "rekodi katika hifadhidata ninayoboresha"
+					},
+					{
+						"cifra": "2",
+						"texto": "zana katika Python kwa ajili ya timu ya Cofidis: ugumu wa UCI na wasifu wa mbio"
+					}
+				]
+			},
+			{
+				"nombre": "Uwanja wa baiskeli na barabara",
+				"items": [
+					{
+						"cifra": "I na II",
+						"texto": "viwango vya mkurugenzi wa michezo wa Shirikisho la Baiskeli la Uhispania"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "miaka ambayo wakimbiaji wa msingi ninaowafundisha na kuwafuata pamoja na baba yangu wanayo"
+					},
+					{
+						"cifra": "2026",
+						"texto": "msaidizi na Timu ya Taifa ya Jumuiya ya Valencia kwenye mashindano"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Tuzungumze kuhusu data?",
-		"text": "Niambie kuhusu mradi wako na tutatafuta pamoja mahali ambapo kuna maamuzi yanayoboresha utendakazi."
+		"title": "Mzunguko wa mwisho",
+		"text": "Ikiwa una data ya utendaji na maswali ambayo hayajajibiwa, niandikie na tutaiangalia pamoja."
 	}
 }

@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Ana səhifə",
 		"sobreMi": "Haqqımda",
 		"proyectos": "Layihələr",
 		"experiencia": "Təcrübə",
@@ -7,10 +8,22 @@
 		"ariaMain": "Əsas naviqasiya",
 		"openMenu": "Menyu aç"
 	},
+	"saltar": "Məzmuna keç",
+	"tema": "Açıq və tünd rejim arasında keçid et",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Madison üzrə İspaniya çempionu. Məlumat elmi üzrə mütəxəssis.",
+		"disponible": "Məlumat layihələri və idman göstəriciləri üçün mövcuddur.",
+		"escribeme": "Mənə yaz",
+		"navLabel": "Bölmələr",
+		"legalLabel": "Hüquqi",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sosial şəbəkələr"
+	},
+	"cierre": {
+		"title": "Danışaq?",
+		"text": "Əgər idman göstəriciləri ilə bağlı məlumatlarınız və cavabsız suallarınız varsa, mənə yazın və birlikdə baxaq.",
+		"cta": "Mənə yaz"
 	},
 	"langSwitch": {
 		"label": "Dili dəyiş",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Kuki razılığı"
 	},
 	"legal": {
+		"terminos": "Şərtlər və qaydalar",
 		"privacidad": "Məxfilik siyasəti",
-		"cookies": "Kukilər siyasəti"
+		"cookies": "Kukilər siyasəti",
+		"reembolso": "Geri ödəniş siyasəti",
+		"actualizado": "Son yenilənmə",
+		"indice": "Bu səhifədə",
+		"otros": "Digər sənədlər"
 	},
 	"person": {
 		"jobTitle": "Data alimi",
 		"description": "Peşəkar velosiped idmanında təcrübəsi olan, idman analitikası üzrə ixtisaslaşmış data alimi."
+	},
+	"pizarra": {
+		"vueltas": "dövrələr",
+		"campana": "son"
 	}
 }

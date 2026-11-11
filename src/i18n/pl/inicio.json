@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Analityk danych specjalizujący się w sporcie",
-		"description": "Mario Álvarez, analityk danych w Walencji specjalizujący się w analityce sportowej. Data · Sport · Progress.",
+		"description": "Mario Álvarez, analityk danych z Walencji specjalizujący się w analityce sportowej. Mistrz Hiszpanii w madisonie i dyrektor sportowy RFEC.",
 		"verProyectos": "Zobacz projekty",
-		"contacto": "Kontakt",
-		"verMas": "Zobacz więcej",
+		"verServicios": "Zobacz, jak mogę Ci pomóc",
+		"contacto": "Napisz do mnie",
+		"verMas": "Czytaj więcej",
 		"verTodosProyectos": "Zobacz wszystkie projekty",
-		"irAContacto": "Przejdź do kontaktu",
+		"irAContacto": "Napisz do mnie",
 		"herramientas": "Główne narzędzia"
 	},
 	"hero": {
-		"eyebrow": "Analityk danych · Analityka sportowa · Walencja",
-		"titlePre": "Zamieniam dane w ",
-		"titleHighlight": "jasne decyzje",
-		"subtitle": "Jestem pomostem między analizą danych a sportem wyczynowym: przekształcam metryki wydajności w strategie, które robią różnicę na boisku.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, analityk danych",
+		"title": "Byłem mistrzem Hiszpanii w madisonie.",
+		"subtitle": "Teraz studiuję naukę o danych (Data Science) na UPV i analizuję to, co kryje się za wydajnością: moc, obciążenie i wyniki. Wiem, co oznacza liczba dla kolarza, ponieważ sam byłem takim kolarzem.",
+		"palmaresLabel": "Osiągnięcia",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Mistrzostwa Hiszpanii w madisonie",
+				"nota": "Tor, w wieku 18 lat"
+			},
+			{
+				"pos": "6.",
+				"texto": "Mistrzostwa Świata na torze",
+				"nota": "Reprezentacja Hiszpanii"
+			},
+			{
+				"pos": "6.",
+				"texto": "Mistrzostwa Europy na torze",
+				"nota": "Reprezentacja Hiszpanii"
+			}
+		],
+		"retratoAlt": "Portret Mario Álvareza"
+	},
+	"servicios": {
+		"title": "W czym mogę Ci pomóc",
+		"text": "Pracuję z zespołami, trenerami i kolarzami, którzy mają dane i chcą je wykorzystać. Oraz z firmami, które muszą uporządkować swoje własne.",
+		"cta": "Opowiedz mi o swojej sytuacji",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analiza wydajności",
+				"texto": "Odczytuję moc, obciążenie i wyniki okiem kolarza. Wyjaśniam, co się dzieje i co należałoby zmienić.",
+				"prueba": "Elitarny kolarz i dyrektor sportowy RFEC, poziomy I i II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Narzędzia na miarę",
+				"texto": "Scraping, modele i małe aplikacje w Python, które odpowiadają na konkretne pytanie Twojego zespołu.",
+				"prueba": "Dwa narzędzia dla zespołu Cofidis: trudność UCI i profil wyścigu."
+			},
+			{
+				"id": "datos",
+				"nombre": "Bazy danych i raporty",
+				"texto": "Szybsze zapytania, zunifikowane bazy danych oraz panele w Power BI, które są zrozumiałe od pierwszego spojrzenia.",
+				"prueba": "Ponad 580 tabel i 100 milionów rekordów w bazie, którą optymalizuję w SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Wsparcie na wyścigu",
+				"texto": "Przygotowanie do wyścigów, śledzenie kolarzy i masaż sportowy podczas zawodów.",
+				"prueba": "Sztab Reprezentacji Wspólnoty Walenckiej."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "O mnie",
-		"title": "Dane z kontekstem toru, szosy i rywalizacji",
-		"text": "Nazywam się Mario Álvarez, jestem studentem Data Science na UPV z rzeczywistym doświadczeniem w kolarstwie zawodowym. Łączę analizę danych z wynikami sportowymi na najwyższym poziomie, aby przekształcić każdą metrykę w decyzję poprawiającą wyniki."
+		"title": "Od welodromu do danych",
+		"text": "Studiuję na 3. roku Data Science na UPV i ukończyłem studia magisterskie z cyfryzacji i technologii stosowanych w sporcie. Nie wyszedłem z kolarstwa: nadal ścigam się na torze, trenuję młodych kolarzy i pracuję jako masażista z profesjonalistami."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Baza",
+			"value": "Benidorm i Walencja"
+		},
+		{
 			"label": "Wykształcenie",
-			"detail": "Studia licencjackie z Data Science, Universitat Politècnica de València."
+			"value": "Licencjat z Data Science (UPV) oraz Studia Magisterskie z Cyfryzacji, Innowacji i Technologii w Sporcie"
 		},
 		{
-			"value": "Elita",
-			"label": "Doświadczenie",
-			"detail": "Rzeczywista praca w zawodowej grupie kolarskiej."
+			"label": "Tytuły",
+			"value": "Dyrektor sportowy RFEC, poziomy I i II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Podejście",
-			"detail": "Analityka stosowana do poprawy wyników sportowych."
+			"label": "Teraz",
+			"value": "Dostępny do projektów z zakresu danych i wydajności"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Doświadczenie",
-		"title": "Dwa światy, ten sam język: wyniki",
-		"text": "Rywalizowałem na najwyższym poziomie, a dzisiaj stosuję te same kryteria do danych: rozumiem, co liczba oznacza dla sportońca, ponieważ sam nim byłem."
+		"title": "Dwa pasy ruchu, ta sama praca",
+		"text": "W jednym optymalizuję bazy danych i piszę modele. W drugim przygotowuję wyścigi i śledzę kolarzy. Oba dotyczą tego samego: dobrego pomiaru, aby podejmować lepsze decyzje.",
+		"carriles": [
+			{
+				"nombre": "Dane",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "przeanalizowanych tabel w SIME Telecom w celu unifikacji wielu baz w jedną, bez rozbudowy sprzętu"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "rekordów w bazie danych, którą optymalizuję"
+					},
+					{
+						"cifra": "2",
+						"texto": "narzędzia w Python dla zespołu Cofidis: trudność UCI i profil wyścigu"
+					}
+				]
+			},
+			{
+				"nombre": "Tor i szosa",
+				"items": [
+					{
+						"cifra": "I i II",
+						"texto": "poziomy dyrektora sportowego Królewskiej Hiszpaniaeńskiej Federacji Kolarskiej"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "lat mają młodzi kolarze, których trenuję i prowadzę razem z moim ojcem"
+					},
+					{
+						"cifra": "2026",
+						"texto": "asystent w Reprezentacji Wspólnoty Walenckiej podczas zawodów"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Porozmawiajmy o danych?",
-		"text": "Opowiedz mi o swoim projekcie i poszukajmy razem miejsc na decyzje, które poprawiają wyniki."
+		"title": "Ostatnia prosta",
+		"text": "Jeśli masz dane wydajnościowe i pytania bez odpowiedzi, napisz do mnie, a spójrzymy na to razem."
 	}
 }

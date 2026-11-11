@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Datenschutzbestimmungen — Mario Álvarez",
-		"description": "Datenschutzbestimmungen der Website von Mario Álvarez: Welche Daten erfasst werden, zu welchem Zweck und wie Sie Ihre Rechte ausüben können.",
-		"eyebrow": "Rechtliches",
-		"heading": "Datenschutzbestimmungen"
+		"version": "2026-11-10",
+		"title": "Datenschutzerklärung — Mario Álvarez",
+		"description": "Welche Daten marioalvarez.me verarbeitet, zu welchem Zweck, auf welcher Rechtsgrundlage, wie lange und wie Sie Ihre Rechte ausüben können.",
+		"heading": "Datenschutzerklärung"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Verantwortlicher für die Datenverarbeitung",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, mit Sitz in Benidorm (Alicante), Spanien. Kontakt: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Zweck der Verarbeitung",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Diese Website analysiert intern und ausschließlich zu statistischen Zwecken, welche Inhalte (Bereiche, Projekte) für die Besucher am nützlichsten sind, um deren Inhalt zu verbessern. Sie wird nicht für Werbezwecke verwendet, nicht an Dritte weitergegeben und unter keinen Umständen verkauft."
-				}
-			]
-		},
-		{
-			"titulo": "3. Erfasste Daten (nur wenn Sie den Analyse-Cookies zustimmen)",
+			"titulo": "1. Verantwortlicher",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Eine anonyme, zufällige Kennung, die weder mit Ihrem Namen, Ihrer E-Mail-Adresse noch mit anderen Informationen verknüpft ist, die Sie direkt identifizieren.",
-						"Besuchte Seiten und Projekte sowie die Verweildauer auf den einzelnen Seiten (während der Tab aktiv ist).",
-						"Interaktionen (Klicks auf Projekte, Links oder Schaltflächen).",
-						"Datum und Uhrzeit des Besuchs.",
-						"Sprache der aufgerufenen Website.",
-						"Gerätetyp (Mobilgerät oder Desktop).",
-						"Ungefähres Land, ermittelt über die Infrastruktur von Cloudflare, ohne Speicherung Ihrer IP-Adresse.",
-						"Herkunftsseite (z. B. LinkedIn oder eine Suchmaschine)."
+						"Verantwortlicher: {nombre}",
+						"NIF: {nif}",
+						"Wohnanschrift: {domicilio}",
+						"E-Mail für alle Datenschutzfragen: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Ihre IP-Adresse wird nicht erfasst, es werden keine Browser-Fingerprinting-Techniken oder Tools von Drittanbietern wie Google Analytics oder ähnliche verwendet."
+					"texto": "Aufgrund der Größe und der Art der Tätigkeit ist die Benennung eines Datenschutzbeauftragten nicht vorgeschrieben, daher gibt es keinen: Schreiben Sie mir direkt."
 				}
 			]
 		},
 		{
-			"titulo": "4. Rechtsgrundlage",
+			"titulo": "2. Welche Daten ich verarbeite, wozu und warum",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Die Verarbeitung basiert auf Ihrer ausdrücklichen Einwilligung (Artikel 6 Absatz 1 Buchstabe a DSGVO und Artikel 22 Absatz 2 LSSI-CE), die Sie jederzeit über den Cookie-Manager der Website widerrufen können."
+					"tipo": "tabla",
+					"columnas": [
+						"Wozu",
+						"Welche Daten",
+						"Rechtsgrundlage",
+						"Wie lange"
+					],
+					"filas": [
+						[
+							"Nutzungsanalysen, nur wenn Sie den Analyse-Cookies zustimmen",
+							"Ein zufälliges pseudonomes Identifikationsmerkmal (Cookie visitante_id), die von Ihnen gelesenen Abschnitte und Projekte sowie die Verweildauer auf diesen, Klicks auf Links und Schaltflächen, die Sprache, der Gerätetyp (Mobilgerät oder Desktop), das ungefähre Land und die Webseite, auf der das jeweilige Ereignis stattfindet.",
+							"Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).",
+							"12 Monate; danach wird jedes Ereignis automatisch gelöscht."
+						],
+						[
+							"Einwilligungsregister",
+							"Das pseudonome Identifikationsmerkmal, was Sie akzeptiert, abgelehnt oder widerrufen haben, die Version jedes Dokuments, Datum und Uhrzeit, die Seite, die Sprache, die Herkunft (Banner, Einstellungen oder Formular), der Browser (User Agent) und das ungefähre Land; im Formular zusätzlich der Referenzcode Ihrer E-Mail.",
+							"Erfüllung der Verpflichtung, die Einwilligung nachweisen zu können (Art. 6 Abs. 1 lit. c und Art. 7 Abs. 1 DSGVO).",
+							"3 Jahre ab jedem Eintrag (die maximale Verjährungsfrist für Verstöße); danach wird er automatisch gelöscht."
+						],
+						[
+							"Beantwortung Ihrer Anfrage per E-Mail oder Telefon",
+							"Die Daten, die Sie mir senden: normalerweise Ihr Name, Ihre E-Mail-Adresse oder Telefonnummer sowie der Inhalt der Nachricht.",
+							"Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage hin (Art. 6 Abs. 1 lit. b DSGVO) oder mein berechtigtes Interesse an einer Antwort (Art. 6 Abs. 1 lit. f).",
+							"Während der Dauer des Gesprächs und bis zu 1 Jahr danach, es sei denn, wir gehen einen Vertrag ein."
+						],
+						[
+							"Verwaltung einer vertraglichen Dienstleistung",
+							"Identifizierungs-, Kontakt- und Abrechnungsdaten.",
+							"Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) sowie steuerliche und buchhalterische Verpflichtungen (Art. 6 Abs. 1 lit. c).",
+							"Was steuer- und handelsrechtliche Gesetze vorschreiben (im Allgemeinen zwischen 4 und 6 Jahren)."
+						],
+						[
+							"Speicherung Ihrer Präferenz für den hellen oder dunklen Modus",
+							"Die Präferenz „tema“, die nur in Ihrem Browser gespeichert wird (lokaler Speicher). Sie erreicht mich nicht.",
+							"Eine Funktion, die Sie durch Drücken der Schaltfläche anfordern.",
+							"Bis Sie sie aus Ihrem Browser löschen."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Aufbewahrungsfrist",
+			"titulo": "3. Was ich nicht anfordere oder erfasse",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Die Daten werden maximal 12 Monate ab Ihrem letzten Besuch aufbewahrt und danach automatisch gelöscht."
+					"texto": "Ich verarbeite nur das für den jeweiligen Zweck unbedingt Erforderliche. Konkret:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Das Kontaktformular fordert weder Ihren Namen noch Ihre E-Mail-Adresse oder Telefonnummer an: Es öffnet Ihr E-Mail-Programm und Sie entscheiden selbst, was Sie mir senden.",
+						"Ich speichere Ihre IP-Adresse weder in der Analyse noch im Einwilligungsregister.",
+						"Ich verwende keine Browser-Identifizierungstechniken (Fingerprinting), Google Analytics, Werbe-Pixel oder Cookies von Drittanbietern.",
+						"Schriftarten und Bilder werden von dieser Website selbst bereitgestellt: Beim Besuch verbindet sich Ihr Browser nicht mit Google Fonts, GitHub oder anderen externen Diensten."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Empfänger und internationale Übermittlungen",
+			"titulo": "4. Wer sonst noch beteiligt ist",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Die Daten werden nicht an Dritte weitergegeben oder verkauft. Sie werden in Cloudflare D1 gespeichert, einem Datenbankdienst von Cloudflare, Inc., der als Auftragsverarbeiter fungiert. Cloudflare kann Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten; in diesem Fall stützt sich diese Übermittlung auf die von der Europäischen Kommission genehmigten Standardvertragsklauseln. Weitere Informationen in den Datenschutzbestimmungen von Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ich verkaufe oder überlasse Ihre Daten an niemanden, es sei denn, es besteht eine gesetzliche Verpflichtung. Damit die Website funktioniert und ich Ihnen antworten kann, nutze ich folgende Dienstleister:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: hostet die Website und die Datenbank (Cloudflare Pages und D1) und fungiert als Auftragsverarbeiter. Zur Bereitstellung der Website verarbeitet das Unternehmen technische Verbindungsdaten wie Ihre IP-Adresse, zu denen ich keinen Zugang habe. Richtlinie: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): der E-Mail-Dienst, über den ich E-Mails empfange und beantworte; er verarbeitet diese Nachrichten gemäß seiner eigenen Datenschutzrichtlinie: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Ihre Rechte",
+			"titulo": "5. Internationale Übermittlungen",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Sie können Ihre Rechte auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung der Verarbeitung und Datenübertragbarkeit jederzeit durch eine E-Mail an malvmar5@hotmail.com ausüben. Darüber hinaus können Sie Ihre Daten sofort und ohne Kontaktaufnahme über die Schaltfläche „Meine Daten löschen“ in den Cookie-Einstellungen der Website löschen. Sie haben auch das Recht, eine Beschwerde bei der zuständigen Datenschutzbehörde einzureichen, wenn Sie der Ansicht sind, dass Ihre Rechte nicht ordnungsgemäß behandelt wurden."
+					"texto": "Cloudflare und Microsoft können Daten in den Vereinigten Staaten verarbeiten. Beide sind dem EU-US Data Privacy Framework angeschlossen (Angemessenheitsbeschluss der Europäischen Kommission vom 10. Juli 2023) und bieten zudem die von der Kommission genehmigten Standardvertragsklauseln an."
 				}
 			]
 		},
 		{
-			"titulo": "8. Änderungen dieser Richtlinie",
+			"titulo": "6. Ihre Rechte",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Diese Richtlinie kann aktualisiert werden, um sie an rechtliche Änderungen oder Änderungen der Website selbst anzupassen."
+					"texto": "Sie können jederzeit Auskunft über Ihre Daten, deren Berichtigung, Löschung, die Einschränkung der Verarbeitung, den Widerspruch dagegen oder die Übertragung auf einen anderen Ort (Datenübertragbarkeit) verlangen sowie Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Schreiben Sie mir an {email}; ich werde Ihnen innerhalb von maximal einem Monat antworten."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analysedaten können Sie selbst sofort über die Schaltfläche „Meine Daten löschen“ in den Cookie-Einstellungen löschen. Das Einwilligungsregister wird auch dann aufbewahrt, wenn Sie Ihre Einwilligung widerrufen, da es genau dazu dient, nachzuweisen, wann Sie sie erteilt und wann Sie sie widerrufen haben."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Wenn Sie der Ansicht sind, dass Ihre Rechte nicht ausreichend berücksichtigt wurden, können Sie Beschwerde bei der zuständigen Aufsichtsbehörde einreichen: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Minderjährige",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die Website richtet sich nicht an Minderjährige. Wenn Sie minderjährig sind, senden Sie mir keine personenbezogenen Daten ohne die Erlaubnis Ihrer Eltern oder Erziehungsberechtigten."
+				}
+			]
+		},
+		{
+			"titulo": "8. Sicherheit",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Daten werden verschlüsselt übertragen (HTTPS) und in einer Datenbank gespeichert, auf die nur über das geschützte private Panel mit Benutzername und Passwort zugegriffen werden kann."
+				}
+			]
+		},
+		{
+			"titulo": "9. Änderungen dieser Richtlinie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Wenn sich etwas Wesentliches ändert, werde ich diese Seite und ihr Versionsdatum aktualisieren. Wenn die Änderung Cookies betrifft, werden Sie erneut gefragt."
 				}
 			]
 		}

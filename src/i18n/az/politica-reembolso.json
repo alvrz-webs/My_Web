@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Geri ödəniş siyasəti — Mario Álvarez",
+		"description": "Mario Álvarez xidmətlərində ləğv etmələrin, imtina hüququnun və geri qaytarmaların necə işlədiyi.",
+		"heading": "Geri ödəniş siyasəti"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Bu veb-sayt ödəniş qəbul etmir",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "marioalvarez.me saytında məhsul satılmır və onlayn ödənişlər alınmır. Xidmətlər (məhsuldarlıq təhlili, xüsusi alətlər, verilənlər bazaları və hesabatlar, eləcə də karyera dəstəyi) ayrıca, yazılı təklif əsasında sifariş edilir."
+				}
+			]
+		},
+		{
+			"titulo": "2. Təklifinizdə nə yazılıbsa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hər bir təklif qiyməti, necə və nə vaxt ödəniləcəyini, həmçinin ləğvetmə şərtlərini göstərir. Təklifdə bu siyasətdən fərqli bir şey yazılıbsa, təklif üstün tutulur, vəziyyət istisna olmaqla ki, bu siyasət sizə istehlakçı kimi daha çox hüquq verir."
+				}
+			]
+		},
+		{
+			"titulo": "3. Əgər ləğv etsəniz",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Yazılı şəkildə başqa cür razılaşdırılmayıbsa:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"İş başlamazdan əvvəl ləğv etsəniz, əvvəlcədən ödədiyiniz hər hansı məbləğ tamamilə sizə qaytarılır.",
+						"İş başladıqdan sonra ləğv etsəniz, yalnız artıq görülmüş işə görə ödəniş alınır və avans olaraq ödədiklərinizin qalan hissəsi sizə qaytarılır.",
+						"Artıq təslim edilmiş və qəbul edilmiş iş, düzəldilməyən qüsurları olmadığı təqdirdə, geri qaytarılmır."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. İmtina hüququ (əgər istehlakçısınızsa)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "İstehlakçı kimi (peşəkar fəaliyyətindən kənarda hərəkət edən şəxs) müqavilə bağlayırsınızsa və müqavilə uzaqdan, e-poçt və ya telefon vasitəsilə bağlanırsa, İstehlakçıların və İstifadəçilərin Müdafiəsi üzrə Ümumi Qanunun Mətninin 102-ci və 108-ci maddələrinə (1/2007 saylı Kral Qanunvericilik Fərmanı) əsasən, hər hansı səbəb göstərmədən imtina etmək üçün müqavilə bağlandığı tarixdən etibarən 14 təqvim günü ваqtınız var."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Məndən açıq şəkildə həmin 14 gün ərzində işə başlamağınızı xahiş etsəniz və sonra imtina etsəniz, həmin ana qədər göstərilən xidmətin yalnız mütənasib hissəsini ödəyəcəksiniz. Xidmət sizin əvvəlcədən və açıq razılığınızla, bu hüququnuzu itirdiyinizi bilərək müddət ərzində tam olaraq yerinə yetirilmişdirsə, artıq imtina edə bilməyəcəksiniz (103.a maddəsi)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Necə müraciət etməli",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "{email} ünvanına adınızı, xidməti və onu sifariş etdiyiniz tarixi qeyd edərək mənə yazın. Siz bu imtina forması modelindən istifadə edə bilərsiniz (məcburi deyil):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"{nombre}-nin diqqətinə, {domicilio}, {email}:",
+						"Bununla sizə bildirirəm ki, aşağıdakı xidmətin göstərilməsi üzrə müqaviləmdən imtina edirəm: [servicio].",
+						"Sifariş tarixi: [fecha].",
+						"İstehlakçının adı: [nombre].",
+						"İstehlakçının ünvanı: [domicilio].",
+						"Tarix: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Geri qaytarılma müddəti və forması",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Qərarınızı mənə bildirdiyiniz tarixdən etibarən maksimum 14 təqvim günü ərzində, başqa cür razılaşmadığımız təqdirdə, istifadə etdiyiniz eyni ödəniş vasitəsi ilə müvafiq məbləği sizə qaytarıram. Geri qaytarılma sizin üçün heç bir xərc tələb etmir."
+				}
+			]
+		}
+	]
+}

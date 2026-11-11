@@ -3,11 +3,54 @@
 		"title": "Saziņa — Mario Álvarez",
 		"description": "Sazinieties ar Mario Álvarez, lai apspriestu datus, sportisko sniegumu un projektus.",
 		"eyebrow": "Saziņa",
-		"heading": "Vai jums ir dati un neatrisināts jautājums?",
-		"intro": "Aprunāsimies. Neatkarīgi no tā, vai tas ir sporta analītikas projekts, datu sadarbība vai vienkārši ideja, kuru vēlaties apspriest, es labprāt atbildēšu.",
+		"heading": "Vai tev ir dati un jautājums?",
+		"intro": "Parunāsim. Neatkarīgi no tā, vai tas ir sporta analītikas projekts, datu sadarbība vai ideja, kuru vēlies apspriest, es tev atbildēšu pats.",
 		"email": "E-pasts",
 		"telefono": "Tālrunis",
 		"verTelefono": "Skatīt tālruni",
-		"redesSociales": "Sociālie tīkli"
+		"redesSociales": "Sociālie tīkli",
+		"temaTitulo": "Par ko tu vēlies runāt?",
+		"temaAyuda": "Izvēlies tēmu, un es sagatavošu e-pastu tavā vietā. Tev atliek tikai pastāstīt man par savu gadījumu.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Veiktspējas analīze"
+			},
+			{
+				"id": "herramientas",
+				"label": "Pielāgots rīks"
+			},
+			{
+				"id": "datos",
+				"label": "Datubāzes un atskaites"
+			},
+			{
+				"id": "carrera",
+				"label": "Karjeras atbalsts"
+			},
+			{
+				"id": "otro",
+				"label": "Cita lieta"
+			}
+		],
+		"escribir": "Rakstīt e-pastu",
+		"copiar": "Kopēt e-pastu",
+		"copiado": "E-pasts nokopēts",
+		"asunto": "Jautājums no marioalvarez.me",
+		"cuerpo": "Sveiks, Mario!\n\nEs rakstu par: {tema}.\n\nTas, kas man ir:\n\nTas, ko es vēlētos uzzināt:\n\nPaldies.",
+		"otrosCanales": "Citi kanāli",
+		"base": "Bāze",
+		"baseValor": "Benidorma un Valensija",
+		"idiomas": "Valodas",
+		"idiomasValor": "Spāņu, valensiešu un angļu",
+		"aceptacionesTitulo": "Pirms rakstīšanas man",
+		"aceptoTerminos": "Es izlasīju un piekrītu {enlace}.",
+		"enlaceTerminos": "noteikumiem un nosacījumiem",
+		"aceptoCookies": "Piekrītu analītikas sīkfailiem, kas aprakstīti {enlace} (pēc izvēles).",
+		"enlaceCookies": "sīkfailu politiku",
+		"faltaTerminos": "Lai man uzrakstītu, vispirms atzīmē noteikumu un nosacījumu izvēles rūtiņu.",
+		"primeraCapa": "Atbildīgā persona: Mario Álvarez Martínez. Mērķis: atbildēt uz tavu jautājumu un, ja tu to lūdz, sagatavot tev piedāvājumu. Leģitimizācija: tavs pieprasījums. Saņēmēji: neviens, izņemot likumā noteiktos gadījumus. Tiesības: piekļuve, labošana, dzēšana un citas, kas izskaidrotas {enlace}.",
+		"enlacePrivacidad": "konfidencialitātes politiku",
+		"refEmail": "Noteikumu pieņemšanas atsauce: {ref}"
 	}
 }

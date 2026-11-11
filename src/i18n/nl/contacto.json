@@ -3,11 +3,54 @@
 		"title": "Contact — Mario Álvarez",
 		"description": "Neem contact op met Mario Álvarez om te praten over data, sportprestaties en projecten.",
 		"eyebrow": "Contact",
-		"heading": "Heb je data en een vraag die opgelost moet worden?",
-		"intro": "Laten we praten. Of het nu gaat om een sportanalytisch project, een datasamenwerking of gewoon een idee dat je wilt bespreken, ik reageer graag.",
+		"heading": "Heb je data en een vraag?",
+		"intro": "Laten we praten. Of het nu gaat om een sportanalytisch project, een datasamewerking of een idee dat je wilt toetsen, ik beantwoord je persoonlijk.",
 		"email": "E-mail",
 		"telefono": "Telefoon",
 		"verTelefono": "Telefoonnummer weergeven",
-		"redesSociales": "Sociale media"
+		"redesSociales": "Sociale media",
+		"temaTitulo": "Waar wil je over praten?",
+		"temaAyuda": "Kies een onderwerp en ik zet de e-mail alvast voor je klaar. Je hoeft mij alleen je situatie te vertellen.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Prestatieanalyse"
+			},
+			{
+				"id": "herramientas",
+				"label": "Een op maat gemaakte tool"
+			},
+			{
+				"id": "datos",
+				"label": "Databases en rapporten"
+			},
+			{
+				"id": "carrera",
+				"label": "Carrièrebegeleiding"
+			},
+			{
+				"id": "otro",
+				"label": "Iets anders"
+			}
+		],
+		"escribir": "E-mail schrijven",
+		"copiar": "E-mail kopiëren",
+		"copiado": "E-mail gekopieerd",
+		"asunto": "Vraag via marioalvarez.me",
+		"cuerpo": "Hallo Mario:\n\nIk schrijf je over: {tema}.\n\nWat ik heb:\n\nWat ik zou willen weten:\n\nBedankt.",
+		"otrosCanales": "Andere kanalen",
+		"base": "Basis",
+		"baseValor": "Benidorm en Valencia",
+		"idiomas": "Talen",
+		"idiomasValor": "Spaans, Valenciaans en Engels",
+		"aceptacionesTitulo": "Voordat je mij schrijft",
+		"aceptoTerminos": "Ik heb de {enlace} gelezen en ga hiermee akkoord.",
+		"enlaceTerminos": "algemene voorwaarden",
+		"aceptoCookies": "Ik ga akkoord met de analyse-cookies die worden beschreven in het {enlace} (optioneel).",
+		"enlaceCookies": "cookiebeleid",
+		"faltaTerminos": "Om mij te schrijven, vink eerst het vakje van de algemene voorwaarden aan.",
+		"primeraCapa": "Verantwoordelijke: Mario Álvarez Martínez. Doel: reageren op je vraag en, als je dat vraagt, een voorstel voor je opstellen. Wettelijke grondslag: jouw aanvraag. Ontvangers: niemand, behalve bij wettelijke verplichting. Rechten: inzage, rectificatie, verwijdering en de overige rechten uitgelegd in het {enlace}.",
+		"enlacePrivacidad": "privacybeleid",
+		"refEmail": "Referentie van acceptatie van de voorwaarden: {ref}"
 	}
 }

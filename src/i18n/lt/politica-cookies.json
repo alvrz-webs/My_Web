@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Slapukų politika — Mario Álvarez",
-		"description": "Kokius slapukus naudoja ši svetainė, kokiu tikslu ir kaip bet kada pakeisti savo sutikimą.",
-		"eyebrow": "Teisinė informacija",
-		"heading": "Slapukų politika"
+		"description": "Kokius slapukus naudoja marioalvarez.me, kuriems reikia jūsų leidimo ir kaip bet kada pakeisti savo pasirinkimą.",
+		"heading": "Slapukų politika",
+		"eleccionTitulo": "Jūsų pasirinkimas",
+		"eleccionTexto": "Galite bet kada pakeisti arba ištrinti savo duomenis taip pat lengvai, kaip juos pateikėte."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Šioje svetainėje naudojami slapukai ir panašios technologijos (pavyzdžiui, naršyklės vietinė atmintis), užtikrinantys tinkamą jos veikimą, o jums sutikus – anonymiškai analizuojantys, kaip naudojamas turinys."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Naudojami slapukai:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Pavadinimas",
-				"Tikslas",
-				"Tipas",
-				"Trukmė"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Prisiminti jūsų pasirinkimą dėl šios slapukų politikos",
-					"Savas, techninis (nereikalaujantis sutikimo)",
-					"12 mėnesių"
-				],
-				[
-					"visitante_id",
-					"Anoniminis identifikatorius jūsų apsilankymams susieti ir sužinoti, kuris turinys yra naudingas",
-					"Savas, analitinis (reikalaujantis jūsų sutikimo)",
-					"12 mėnesių"
-				]
+			"titulo": "1. Kas tai yra ir ar man reikia jūsų leidimo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Slapukai ir panašios technologijos (pvz., naršyklės vietinė atmintis) saugo nedidelius duomenis jūsų įrenginyje. Pagal LSSI-CE 22.2 straipsnį ir Ispanijos duomenų apsaugos agentūros slapukų naudojimo vadovą, tie, kurie yra griežtai reikalingi kažkam, ko jūs prašote, nereikalauja sutikimo; analitiniai slapukai – reikalauja."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Štai kodėl ši svetainė išsaugo analizės slapuką tik tuo atveju, jei jį priimate, ir leidžia priimti arba atmesti dviem vienodais mygtukais, tame pačiame ekrane ir be iš anksto pažymėtų langelių. Jo atmetimas netrukdo jums naudotis jokiomis svetainės funkcijomis."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Joks iš šių slapukų nėra trečiųjų šalių, nenaudojamas reklamos tikslais ir nėra bendrinamas su jokiu asmeniu už šios svetainės ribų."
+			"titulo": "2. Slapukai, kuriuos naudoja ši svetainė",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Pavadinimas",
+						"Kam skirtas",
+						"Tipas",
+						"Ar reikia jūsų leidimo?",
+						"Trukmė"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Išsaugoti jūsų pasirinkimą, šios politikos versiją ir jūsų sutikimo įrašo slapyvardžio identifikatorių",
+							"Nuosavas, techninis",
+							"Ne",
+							"12 mėnesių"
+						],
+						[
+							"visitante_id",
+							"Slapyvardžio identifikatorius, padedantis suprasti, kuris turinys yra naudingas",
+							"Nuosavas, analitinis",
+							"Taip",
+							"12 mėnesių"
+						],
+						[
+							"tema (vietinė atmintis)",
+							"Prisiminti, ar pageidaujate šviesios, ar tamsios temos; saugoma tik tada, jei ją pakeičiate",
+							"Nuosavas, jūsų prašytas suasmeninimas",
+							"Ne",
+							"Kol jį ištrinsite"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Galite bet kada pakeisti savo sprendimą arba atšaukti sutikimą naudodamiesi nuoroda \"Konfigūruoti slapukus\" puslapio apačioje ir nedelsdami ištrinti visus savo duomenis paspausdami mygtuką \"Ištrinti mano duomenis\" tame pačiame skydelyje."
+			"titulo": "3. Ko čia nėra",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Čia nėra jokių trečiųjų šalių slapukų, reklamų, įterpto socialinių tinklų turinio ar Google Analytics. Šriftai ir paveikslėliai pateikiami iš šios pačios svetainės."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Daugiau informacijos apie tai, kaip tvarkomi jūsų duomenys, rasite Privatumo politikoje."
+			"titulo": "4. Kaip persigalvoti",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Galite bet kada pakeisti savo pasirinkimą arba atšaukti sutikimą per „Konfigūruoti slapukus“ kiekvieno puslapio poraštėje arba naudodami šio puslapio mygtuką. Taip pat iš ten galite akimirksniu ištrinti su jūsų naršykle susietus analizės duomenis. Be to, slapukus galite ištrinti savo naršyklės nustatymuose."
+				}
+			]
+		},
+		{
+			"titulo": "5. Jūsų pasirinkimo registravimas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kiekvieną kartą, gdy priimate, atmetate arba atšaukiate sutikimą, saugomas įrašas (slapyvardžio identifikatorius, sprendimas, šios politikos versija, data ir laikas, puslapis, kalba, kilmė ir naršyklė) be jūsų IP adreso, kad būtų galima įrodyti, jog sutikimas buvo galiojantis. Jis saugomas 3 metus. Daugiau informacijos pateikiama privatumo politikoje."
+				}
+			]
+		},
+		{
+			"titulo": "6. Pakeitimai",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jei ši politika iš esmės pasikeis, slapukų pranešimas pasirodys iš naujo, kad galėtumėte nuspręsti dar kartą."
+				}
+			]
 		}
 	]
 }

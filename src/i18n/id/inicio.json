@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Ilmuwan data yang mengkhususkan diri dalam bidang olahraga",
-		"description": "Mario Álvarez, ilmuwan data di Valencia yang mengkhususkan diri dalam analitik olahraga. Data · Sport · Progress.",
+		"description": "Mario Álvarez, ilmuwan data di Valencia yang berspesialisasi dalam analitik olahraga. Juara Spanyol madison dan direktur olahraga RFEC.",
 		"verProyectos": "Lihat proyek",
-		"contacto": "Kontak",
-		"verMas": "Lihat lebih banyak",
+		"verServicios": "Lihat bagaimana saya membantu Anda",
+		"contacto": "Tulis kepada saya",
+		"verMas": "Baca selengkapnya",
 		"verTodosProyectos": "Lihat semua proyek",
-		"irAContacto": "Ke kontak",
+		"irAContacto": "Tulis kepada saya",
 		"herramientas": "Alat utama"
 	},
 	"hero": {
-		"eyebrow": "Ilmuwan data · Analitik olahraga · Valencia",
-		"titlePre": "Saya mengubah data menjadi ",
-		"titleHighlight": "keputusan yang jelas",
-		"subtitle": "Saya adalah jembatan antara analisis data dan olahraga elit: saya mengubah metrik performa menjadi strategi yang membuat perbedaan di lapangan.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, ilmuwan data",
+		"title": "Saya adalah juara Spanyol madison.",
+		"subtitle": "Sekarang saya belajar Sains Data di UPV dan menganalisis apa yang ada di balik performa: daya, beban, dan hasil. Saya tahu arti sebuah angka bagi seorang pebalap karena saya pernah menjadi pebalap itu.",
+		"palmaresLabel": "Pencapaian",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Kejuaraan Spanyol madison",
+				"nota": "Trek, pada usia 18 tahun"
+			},
+			{
+				"pos": "6º",
+				"texto": "Kejuaraan Dunia trek",
+				"nota": "Tim Nasional Spanyol"
+			},
+			{
+				"pos": "6º",
+				"texto": "Kejuaraan Eropa trek",
+				"nota": "Tim Nasional Spanyol"
+			}
+		],
+		"retratoAlt": "Potret Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Bagaimana saya dapat membantu Anda",
+		"text": "Saya bekerja dengan tim, pelatih, dan pebalap yang memiliki data dan ingin memanfaatkannya. Dan dengan perusahaan yang perlu mengatur data mereka.",
+		"cta": "Ceritakan kasus Anda",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analisis performa",
+				"texto": "Saya membaca daya, beban, dan hasil dengan mata seorang pebalap. Saya menjelaskan kepada Anda apa yang sedang terjadi dan apa yang akan diubah.",
+				"prueba": "Pebalap elit dan direktur olahraga RFEC, level I dan II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Alat khusus",
+				"texto": "Scraping, model, dan aplikasi kecil dengan Python yang menjawab pertanyaan spesifik dari tim Anda.",
+				"prueba": "Dua alat untuk tim Cofidis: kesulitan UCI dan profil balapan."
+			},
+			{
+				"id": "datos",
+				"nombre": "Basis data dan laporan",
+				"texto": "Kueri lebih cepat, basis terpadu, dan dasbor di Power BI yang langsung dipahami.",
+				"prueba": "Lebih dari 580 tabel dan 100 juta catatan dalam basis yang saya optimalkan di SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Dukungan balapan",
+				"texto": "Persiapan balapan, pemantauan pebalap, dan pijat olahraga dalam kompetisi.",
+				"prueba": "Staf Tim Nasional Komunitas Valencia."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Tentang saya",
-		"title": "Data dengan konteks lintasan, jalan raya, dan kompetisi",
-		"text": "Saya Mario Álvarez, mahasiswa Sains Data di UPV dengan pengalaman nyata di bidang balap sepeda profesional. Saya memadukan analisis data dengan performa olahraga elit, untuk mengubah setiap metrik menjadi keputusan yang meningkatkan hasil."
+		"title": "Dari velodrom ke data",
+		"text": "Saya menempuh tahun ke-3 Gelar Sarjana Sains Data di UPV dan telah menyelesaikan gelar master dalam digitalisasi dan teknologi terapan untuk olahraga. Saya tidak meninggalkan bersepeda: saya terus membalap di trek, melatih pebalap akar rumput, dan bekerja sebagai terapis pijat dengan para profesional."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Basis",
+			"value": "Benidorm dan Valencia"
+		},
+		{
 			"label": "Pendidikan",
-			"detail": "Gelar Sarjana Sains Data, Universitat Politècnica de València."
+			"value": "Gelar Sarjana Sains Data (UPV) dan Master dalam Digitalisasi, Inovasi, dan Teknologi dalam Olahraga"
 		},
 		{
-			"value": "Elit",
-			"label": "Pengalaman",
-			"detail": "Pekerjaan nyata di dalam tim balap sepeda profesional."
+			"label": "Gelar",
+			"value": "Direktur olahraga RFEC, level I dan II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pendekatan",
-			"detail": "Analitik yang diterapkan untuk peningkatan performa olahraga."
+			"label": "Sekarang",
+			"value": "Tersedia untuk proyek data dan performa"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Pengalaman",
-		"title": "Dua dunia, satu bahasa yang sama: performa",
-		"text": "Saya telah berkompetisi di tingkat tertinggi dan hari ini saya menerapkan kriteria yang sama pada data: saya memahami arti sebuah angka bagi seorang atlet karena saya pernah menjadi atlet tersebut."
+		"title": "Dua jalur, pekerjaan yang sama",
+		"text": "Di satu sisi saya mengoptimalkan basis data dan menulis model. Di sisi lain saya mempersiapkan balapan dan mengikuti pebalap. Keduanya bermaksud sama: mengukur dengan baik untuk memutuskan dengan lebih baik.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tabel yang dianalisis di SIME Telecom untuk menyatukan beberapa basis menjadi satu, tanpa memperluas perangkat keras"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "catatan dalam basis data yang sedang saya optimalkan"
+					},
+					{
+						"cifra": "2",
+						"texto": "alat dalam Python untuk tim Cofidis: kesulitan UCI dan profil balapan"
+					}
+				]
+			},
+			{
+				"nombre": "Trek dan jalan raya",
+				"items": [
+					{
+						"cifra": "I dan II",
+						"texto": "level direktur olahraga dari Federasi Balap Sepeda Kerajaan Spanyol"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "usia pebalap akar rumput yang saya latih dan pantau bersama ayah saya"
+					},
+					{
+						"cifra": "2026",
+						"texto": "asisten dengan Tim Nasional Komunitas Valencia dalam kompetisi"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Mari bicara tentang data?",
-		"text": "Ceritakan proyek Anda dan kita cari bersama di mana letak keputusan yang meningkatkan performa."
+		"title": "Putaran terakhir",
+		"text": "Jika Anda memiliki data performa dan pertanyaan yang belum terjawab, hubungi saya dan kita akan memeriksanya bersama."
 	}
 }

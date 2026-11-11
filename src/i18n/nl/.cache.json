@@ -22,6 +22,10 @@
 		}
 	},
 	"common": {
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "Startpagina"
+		},
 		"nav/sobreMi": {
 			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
 			"value": "Over mij"
@@ -46,9 +50,37 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "Menu openen"
 		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "Ga naar de inhoud"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "Schakelen tussen lichte en donkere modus"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "Telefoon"
+		},
 		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "Spaans kampioen madison. Datawetenschapper."
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "Beschikbaar voor data- en sportprestatieprojecten."
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Schrijf me"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "Secties"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "Juridisch"
 		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
@@ -57,6 +89,18 @@
 		"footer/ariaSocial": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Sociale media"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "Zullen we praten?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Als je prestatiegegevens en onbeantwoorde vragen hebt, schrijf me dan en we bekijken het samen."
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Schrijf me"
 		},
 		"langSwitch/label": {
 			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
@@ -98,6 +142,10 @@
 			"hash": "8a27f245f419cf27e1055c0004349e13d64579b79a7c51e2d9d91f35e85874dd",
 			"value": "Cookie toestemming"
 		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Algemene voorwaarden"
+		},
 		"legal/privacidad": {
 			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
 			"value": "Privacybeleid"
@@ -106,6 +154,22 @@
 			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
 			"value": "Cookiebeleid"
 		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Restitutiebeleid"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "Laatste update"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "Op deze pagina"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "Andere documenten"
+		},
 		"person/jobTitle": {
 			"hash": "d4eb464156ca87b9fafede59deacd1c0ddc7bcd6971cc2c82d2355c2d38e0c58",
 			"value": "Datawetenschapper"
@@ -113,6 +177,14 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "Datawetenschapper gespecialiseerd in sportanalyse, met ervaring in de professionele wielrennerij."
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "ronden"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "laatste"
 		}
 	},
 	"inicio": {
@@ -121,136 +193,264 @@
 			"value": "Mario Álvarez — Data-wetenschapper gespecialiseerd in sport"
 		},
 		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "Mario Álvarez, data-wetenschapper in Valencia gespecialiseerd in sportanalyse. Data · Sport · Progress."
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "Mario Álvarez, data scientist in Valencia gespecialiseerd in sportanalyse. Spaans kampioen madison en sportdirekteur RFEC."
 		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "Bekijk projecten"
 		},
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "Bekijk hoe ik kan helpen"
+		},
 		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "Contact"
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Schrijf me"
 		},
 		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "Bekijk meer"
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "Lees meer"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "Bekijk alle projecten"
 		},
 		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "Ga naar contact"
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Schrijf me"
 		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "Belangrijkste tools"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "Data-wetenschapper · Sportanalyse · Valencia"
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "Mario Álvarez, data scientist"
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "Ik zet data om in "
-		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "duidelijke beslissingen"
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "Ik was Spaans kampioen madison."
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "Ik ben de brug tussen data-analyse en topsport: ik transformeer prestatiemetrics in strategieën die het verschil maken op het veld."
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "Nu studeer ik Data Science aan de UPV en analyseer ik wat er achter de prestaties schuilt: vermogen, belasting en resultaten. Ik weet wat een getal betekent voor een renner, omdat ik die renner ben geweest."
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "Erelijst"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "1e"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "Spaans kampioenschap madison"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "Baan, op 18-jarige leeftijd"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6e"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "Over mij"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "Wereldkampioenschap baan"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Spaanse selectie"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6e"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "Europees kampioenschap baan"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Spaanse selectie"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Portret van Mario Álvarez"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "Waar ik je mee kan helpen"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "Ik werk met ploegen, trainers en renners die data hebben en daar het maximale uit willen halen. En met bedrijven die hun data op orde moeten krijgen."
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "Vertel me over je situatie"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Prestatieanalyse"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "Ik lees vermogen, belasting en resultaten met de ogen van een renner. Ik leg je uit wat er gebeurt en wat er anders moet."
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "Eliterenner en RFEC-sportdirekteur, niveaus I en II."
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "Gemaakte tools"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "Scraping, modellen en kleine Python-applicaties die een specifiek vraagstuk van je ploeg beantwoorden."
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Twee tools voor de ploeg Cofidis: UCI-moeilijkheidsgraad en koersprofiel."
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Databases en rapporten"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "Snellere queries, verenigde databases en Power BI-dashboards die meteen duidelijk zijn."
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "Meer dan 580 tabellen en 100 miljoen records in de database die ik optimaliseer bij SIME Telecom."
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Ondersteuning in de koers"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "Koersvoorbereiding, rennersvolgorde en sportmassage in competitie."
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "Staf van de selectie van de Regio Valencia."
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "Data met context van baan, weg en competitie"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "Van de velodroom naar data"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "Ik ben Mario Álvarez, student Data Science aan de UPV met echte ervaring in het professionele wielrennen. Ik combineer data-analyse met topsportprestaties om elke metric om te zetten in een beslissing die de resultaten verbetert."
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "Ik zit in het 3e jaar van de Bachelor Data Science aan de UPV en heb een master afgerond in digitalisering en toegepaste technologie in de sport. Ik heb het wielrennen niet verlaten: ik rij nog steeds op de baan, ik begeleid jeugdrenners en ik werk als sportmasseur met professionals."
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Basis"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm en Valencia"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Opleiding"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "Bachelor in Data Science, Universitat Politècnica de València."
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Bachelor Data Science (UPV) en Master Digitalisering, Innovatie en Technologie in de Sport"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "Elite"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "Diploma's"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Ervaring"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "Sportdirekteur RFEC, niveaus I en II"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "Echte werkervaring binnen een professioneel wielerteam."
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "Nu"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "Aanpak"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "Analyse toegepast op de verbetering van sportprestaties."
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Ervaring"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "Beschikbaar voor data- en prestatieprojecten"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "Twee werelden, dezelfde taal: prestatie"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "Twee sporen, dezelfde taak"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "Ik heb op het hoogste niveau geëxpresteerd en pas vandaag dezelfde criteria toe op data: ik begrijp wat een cijfer betekent voor een sporter omdat ik die sporter ben geweest."
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "Op het ene spoor optimaliseer ik databases en schrijf ik modellen. Op het andere spoor bereid ik koersen voor en volg ik renners. Beide gaan over hetzelfde: goed meten om beter te beslissen."
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "Data"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "geanalyseerde tabellen bij SIME Telecom om meerdere databases te verenigen tot één, zonder uitbreiding van de hardware"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "records in de database die ik aan het optimaliseren ben"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "Python-tools voor de ploeg Cofidis: UCI-moeilijkheidsgraad en koersprofiel"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "Baan en weg"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I en II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "niveaus van sportdirekteur van de Spaanse Wielerfederatie"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "jaar oud zijn de jeugdrenners die ik train en begeleid samen met mijn vader"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "assistent bij de selectie van de Regio Valencia in competitie"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "Zullen we over data praten?"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "Laatste ronde"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "Vertel me over je project en we zoeken samen naar de beslissingen die de prestaties verbeteren."
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Als je prestatiegegevens en onbeantwoorde vragen hebt, schrijf me dan en we bekijken het samen."
 		}
 	},
 	"sobre-mi": {
@@ -269,6 +469,30 @@
 		"meta/heading": {
 			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
 			"value": "Van de wielerbaan naar data"
+		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "Ik zit nog steeds in de wielersport, op de baan en in de ploegleiderswagen. Wat is veranderd, is hoe ik ernaar kijk: nu ook met data."
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "Renner, ploegleider en data-wetenschapper"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "In het kort"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "Het essentiële, mocht je haast hebben."
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Portret van Mario Álvarez"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "Eerst de benen. Nu de data."
 		},
 		"bio/0": {
 			"hash": "d7d611e5e1b9b9834eb8052dd8edd5c1e1986ee032a232146858b8bcedcbb7b0",
@@ -291,8 +515,8 @@
 			"value": "Basis"
 		},
 		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm en Valencia"
 		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
@@ -307,24 +531,24 @@
 			"value": "Focus"
 		},
 		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "Data + sportprestaties"
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "Data en sportprestaties"
 		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "Talen"
 		},
 		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "Moedertaal Spaans · Valenciaans · Engels B1"
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "Spaans (moedertaal), Valenciaans en Engels (B1)"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Opleiding"
 		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "Bachelor Data Science (UPV) · Master in Digitalisering, Innovatie en Technologie in de Sport"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Bachelor in Data Science (UPV) en Master in Digitalisering, Innovatie en Technologie in de Sport"
 		}
 	},
 	"experiencia": {
@@ -344,9 +568,37 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "Twee werelden, dezelfde taal: prestatie"
 		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "In een database of in de ploegleiderswagen is het werk hetzelfde: goed meten om beter te beslissen."
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "records in de database die ik optimaliseer bij SIME Telecom"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "tools in Python voor het team Cofidis"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6e"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "op het WK en EK baanwielrennen"
+		},
 		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "Data & Technologie"
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "Data en technologie"
 		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
@@ -357,8 +609,8 @@
 			"value": "SIME TELECOM — Stage Data Science"
 		},
 		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "Data Engineering · Benidorm · 2026"
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "Data-engineering, Benidorm, 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -373,8 +625,8 @@
 			"value": "Projecten met het Cofidis-team (World Tour)"
 		},
 		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · Zomer 2025"
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, zomer 2025"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -416,6 +668,10 @@
 			"hash": "431d7654ad9c17cfef188c6dd216d77877c67074b5a70fccc26b28faecb96342",
 			"value": "Spaans kampioen madison (18 jaar); WK en EK baanwielrennen met de Spaanse selectie (6e bij beide); elitesporter; actieve, gefedereerde baanwielrenner."
 		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "Baanwielrennen, Spaanse nationale ploeg"
+		},
 		"deporte/1/title": {
 			"hash": "84790bf295460a6481da8ad76c8e18d330f20f20baefb8c4d37a1818f065b8a5",
 			"value": "Sportdirectie"
@@ -423,6 +679,10 @@
 		"deporte/1/paragraphs/0": {
 			"hash": "5dc31dcec5b8544c3fc67da4aedaf52f4da758ba225c9b41297dbeb77730d51b",
 			"value": "Sportdirecteur Niveau I en II (RFEC); training en begeleiding van jeugdrenners (14–18) samen met mijn vader; assistent bij de selectie van de Valenciaanse Gemeenschap tijdens wedstrijden (2026)."
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, niveau I en II"
 		},
 		"deporte/2/title": {
 			"hash": "0cfe14a47563f418eb121ade7cad7186d2ee23873832ee8f81b43b56f8c18212",
@@ -457,6 +717,18 @@
 		"page/intro": {
 			"hash": "1fd2e8bddd12d8068f8b276948c38027993b3b9bdfceddc4b731d6f8d8cf0050",
 			"value": "Een blik op mijn werk: van tools voor professioneel wielrennen tot academische analyse- en machine-learningprojecten."
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "openbare repositories op GitHub"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "gepubliceerde websites"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "talen en tools"
 		},
 		"list/eyebrow": {
 			"hash": "e1ddc0cbc9891e79be8a4e469ca4f1acdeb9c42cf5a43ae2fa45c189e422cdae",
@@ -537,12 +809,12 @@
 			"value": "Contact"
 		},
 		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "Heb je data en een vraag die opgelost moet worden?"
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "Heb je data en een vraag?"
 		},
 		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "Laten we praten. Of het nu gaat om een sportanalytisch project, een datasamenwerking of gewoon een idee dat je wilt bespreken, ik reageer graag."
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "Laten we praten. Of het nu gaat om een sportanalytisch project, een datasamewerking of een idee dat je wilt toetsen, ik beantwoord je persoonlijk."
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,206 +831,734 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Sociale media"
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "Waar wil je over praten?"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "Kies een onderwerp en ik zet de e-mail alvast voor je klaar. Je hoeft mij alleen je situatie te vertellen."
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Prestatieanalyse"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "Een op maat gemaakte tool"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Databases en rapporten"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Carrièrebegeleiding"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "Iets anders"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "E-mail schrijven"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "E-mail kopiëren"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "E-mail gekopieerd"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "Vraag via marioalvarez.me"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "Hallo Mario:\n\nIk schrijf je over: {tema}.\n\nWat ik heb:\n\nWat ik zou willen weten:\n\nBedankt."
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "Andere kanalen"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Basis"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm en Valencia"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "Talen"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "Spaans, Valenciaans en Engels"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "Voordat je mij schrijft"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "Ik heb de {enlace} gelezen en ga hiermee akkoord."
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "algemene voorwaarden"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "Ik ga akkoord met de analyse-cookies die worden beschreven in het {enlace} (optioneel)."
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "cookiebeleid"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "Om mij te schrijven, vink eerst het vakje van de algemene voorwaarden aan."
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "Verantwoordelijke: Mario Álvarez Martínez. Doel: reageren op je vraag en, als je dat vraagt, een voorstel voor je opstellen. Wettelijke grondslag: jouw aanvraag. Ontvangers: niemand, behalve bij wettelijke verplichting. Rechten: inzage, rectificatie, verwijdering en de overige rechten uitgelegd in het {enlace}."
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "privacybeleid"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "Referentie van acceptatie van de voorwaarden: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
 			"value": "Cookiebeleid — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "Welke cookies deze website gebruikt, met welk doel en hoe je je toestemming op elk moment kunt wijzigen."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Juridisch"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "Welke cookies marioalvarez.me gebruikt, welke jouw toestemming nodig hebben en hoe je je keuze op elk moment kunt wijzigen."
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
 			"value": "Cookiebeleid"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "Deze website maakt gebruik van cookies en vergelijkbare technologieën (zoals lokale opslag van de browser) voor de juiste werking en, als je toestemming geeft, om anoniem te analyseren hoe de inhoud wordt gebruikt."
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "Jouw keuze"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "Gebruikte cookies:"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "Je kunt je gegevens op elk moment wijzigen of wissen, net zo eenvoudig als je ze hebt gegeven."
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "1. Wat ze zijn en of ik je toestemming nodig heb"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "Cookies en vergelijkbare technologieën (zoals lokale browseropslag) slaan kleine gegevensbestandjes op op je apparaat. Volgens artikel 22.2 van de LSSI-CE en de Gids over het gebruik van cookies van het Spaanse Agentschap voor Gegevensbescherming (AEPD) hebben cookies die strikt noodzakelijk zijn voor iets dat jij vraagt geen toestemming nodig; analytische cookies wel."
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "Daarom slaat deze website de analytische cookie alleen op als je deze accepteert, en kun je deze accepteren of weigeren met twee gelijke knoppen, op hetzelfde scherm en zonder vooraf aangevinkte vakjes. Het weigeren ervan belet je niet om gebruik te maken van de website."
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "2. Cookies die deze website gebruikt"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "Naam"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "Doel"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Waarvoor"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "Type"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "Heeft het je toestemming nodig?"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "Duur"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "cookie_toestemming"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "Jouw keuze, de versie van dit beleid en de pseudonieme identificatie van je toestemmingsregistratie opslaan"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "Onthouden van je keuze met betrekking tot dit cookiebeleid"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "Eigen, technisch"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "Eigen, technisch (vrijgesteld van toestemming)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "Nee"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 maanden"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "bezoeker_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "Pseudonieme identificatie om te weten welke inhoud nuttig is"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "Anonieme identificatie om je bezoeken te koppelen en te weten welke inhoud nuttig is"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "Eigen, analytisch"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "Eigen, analytisch (vereist je toestemming)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "Ja"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 maanden"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "Geen van deze cookies is van derden, geen enkele wordt gebruikt voor advertentiedoeleinden en geen enkele wordt gedeeld met iemand buiten deze site."
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "Je kunt je beslissing wijzigen of je toestemming op elk moment intrekken via de link \"Cookies configureren\" in de voettekst, en al je gegevens onmiddellijk wissen met de knop \"Mijn gegevens wissen\" in datzelfde paneel."
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "Onthouden of je de lichte of donkere modus prefereert; wordt alleen opgeslagen als je dit wijzigt"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "Raadpleeg het Privacybeleid voor meer informatie over hoe je gegevens worden verwerkt."
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "Eigen, voor personalisatie op jouw verzoek"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "Nee"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "Totdat je deze wist"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "3. Wat er niet is"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "Er zijn geen third-party cookies, geen reclame, geen ingesloten socialemedia-inhoud en geen Google Analytics. Lettertypen en afbeeldingen worden vanaf dezezelfde website geladen."
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "4. Hoe je van gedachten kunt veranderen"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "Je kunt je keuze wijzigen of je toestemming op elk moment intrekken via «Configurar cookies» in de footer van elke pagina, of met de knop op deze pagina. Vanaf daar kun je ook direct de analytische gegevens gekoppeld aan je browser wissen. En je kunt cookies wissen via je browserinstellingen."
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "5. Registratie van je keuze"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "Elke keer dat je toestemming accepteert, weigert of intrekt, wordt er een registratie opgeslagen (pseudonieme identificatie, beslissing, versie van dit beleid, datum en tijd, pagina, taal, bron en browser), zonder jouw IP-adres, om te kunnen aantonen dat de toestemming geldig was. Deze wordt 3 jaar bewaard. Meer details in het privacybeleid."
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "6. Wijzigingen"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "Als dit beleid ingrijpend wijzigt, verschijnt de cookiemelding opnieuw zodat je opnieuw kunt beslissen."
 		}
 	},
 	"politica-privacidad": {
 		"meta/title": {
-			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
+			"hash": "42071aae1686801e5e4d10f528b7ea46c5763923ea327ea82dd99d7216c615cc",
 			"value": "Privacybeleid — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
-			"value": "Privacybeleid van de website van Mario Álvarez: welke gegevens worden verzameld, met welk doel en hoe je je rechten kunt uitoefenen."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Juridisch"
+			"hash": "835ff2101ffc889e493af11033230e7e7c68e148b166dfda511fa4dc11cf8f23",
+			"value": "Welke gegevens marioalvarez.me verwerkt, voor welk doel, op welke wettelijke basis, hoe lang en hoe je je rechten kunt uitoefenen."
 		},
 		"meta/heading": {
-			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
 			"value": "Privacybeleid"
 		},
 		"secciones/0/titulo": {
-			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
-			"value": "1. Verantwoordelijke voor de verwerking"
+			"hash": "f26db73f9b3e3b1ff6e9079253f37e391e699fc0a2d4f1d75cc4ad5e736e95a0",
+			"value": "1. Verantwoordelijke"
 		},
-		"secciones/0/bloques/0/texto": {
-			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
-			"value": "Mario Álvarez Martínez, met adres in Benidorm (Alicante), Spanje. Contact: malvmar5@hotmail.com"
+		"secciones/0/bloques/0/items/0": {
+			"hash": "30b867430b07e1173b004c27dbfa003df6e989a4730e364af948572908bd1d7b",
+			"value": "Verantwoordelijke: {nombre}"
+		},
+		"secciones/0/bloques/0/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/0/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Adres: {domicilio}"
+		},
+		"secciones/0/bloques/0/items/3": {
+			"hash": "dc9414558e3d4d2f18d1a3674b75de6fadddac371f9d47a3b552090af8eb521e",
+			"value": "E-mail voor al je privacyvragen: {email}"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "4ded33c4f911f981554d9312d284fb6c54397059545a170e4cc7fe589462e16d",
+			"value": "Gezien de omvang en de aard van de activiteit is het niet verplicht om een functionaris voor gegevensbescherming aan te stellen, dus die is er niet: schrijf mij rechtstreeks."
 		},
 		"secciones/1/titulo": {
-			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
-			"value": "2. Doel van de verwerking"
+			"hash": "7945e3b3ea085d4541900f91dd5ee53aa546f0101caa5a0e3e02151f2787a1d8",
+			"value": "2. Welke gegevens ik verwerk, voor welk doel en waarom"
 		},
-		"secciones/1/bloques/0/texto": {
-			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
-			"value": "Deze website analyseert intern en uitsluitend voor statistische doeleinden welke inhoud (secties, projecten) het meest nuttig is voor bezoekers, met als doel de inhoud te verbeteren. Het wordt niet gebruikt voor reclamedoeleinden, niet gedeeld met derden en onder geen enkele beding verkocht."
+		"secciones/1/bloques/0/columnas/0": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Waarvoor"
+		},
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "972848ecab8712f1568b40ae2e85d79982921d9fb636715f12c3ee77922e3552",
+			"value": "Welke gegevens"
+		},
+		"secciones/1/bloques/0/columnas/2": {
+			"hash": "0e2ca19b51a48180494077bf03cdc3954e09bdee2636072ad50078371e62a9a5",
+			"value": "Wettelijke basis"
+		},
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "37f1242360cae04ca75412a4e8cb1f99084336707371d837bfc22cb6e7f5573f",
+			"value": "Hoe lang"
+		},
+		"secciones/1/bloques/0/filas/0/0": {
+			"hash": "66f19c829749fd1569fc7654b5c44b3cfab1a9f5435c0500d82c758b69eba6f8",
+			"value": "Gebruiksanalytica, alleen als je akkoord gaat met de analytische cookies"
+		},
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "2316c78abc893aa7ee9c70d0d8941a2f1773cb0072467c8339cd9fe754f34ffd",
+			"value": "Een willekeurig pseudoniem identificatiemiddel (cookie visitante_id), de secties en projecten die je bekijkt en de tijd op elk daarvan, klikken op links en knoppen, de taal, het type apparaat (mobiel of desktop), het geschatte land en de pagina van de website waarop elk event plaatsvindt."
+		},
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "48f423d1cad8999cc02a95461334fb67708564a718aae008e8e3d4bd6f1abe5c",
+			"value": "Jouw toestemming (art. 6.1.a AVG en art. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "7793be198aa2fa735865c4d0184ca23264562c7145f55c2181325fac495c2008",
+			"value": "12 maanden; daarna wordt elk event automatisch verwijderd."
+		},
+		"secciones/1/bloques/0/filas/1/0": {
+			"hash": "c9085a6241675f43631bb0acc7db73240979340e52f215e12bac23565cfb2c26",
+			"value": "Toestemmingsregister"
+		},
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "4a6cae5ac5e5e2b02740d4fd1afb185091db19db70cf3c1532949b5a71f6d025",
+			"value": "Het pseudoniem identificatiemiddel, wat je hebt geaccepteerd, geweigerd of ingetrokken, de versie van elk document, de datum en tijd, de pagina, de taal, de herkomst (banner, configuratie of formulier), de browser (user-agent) en het geschatte land; in het formulier bovendien de referentiecode van je e-mail."
+		},
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "f49d2c07e64734bea73e86a5f913788d7fbef6b7ba587c45d3e43a2fe892e954",
+			"value": "Voldoen aan de verplichting om aan te tonen dat er toestemming is verkregen (art. 6.1.c en 7.1 AVG)."
+		},
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "a2ecf36d6bf6235f3dcca3b1c5fde18943f1cf05d1520617dc789b7a4217b98d",
+			"value": "3 jaar vanaf elke registratie (de maximale verjaringstermijn voor overtredingen van de LOPDGDD); daarna wordt het automatisch verwijderd."
+		},
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "a0b02e5aea3ce82e5aeb02b12c9a190e7b4b8161dadce962d7469d0a4e5c5427",
+			"value": "Antwoorden op je vraag via e-mail of telefoon"
+		},
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "6fed1a34cd293c983716f8c74612d9b18e8869913be6cbfb6dda6384e8613438",
+			"value": "De gegevens die je ervoor kiest om mij te sturen: meestal je naam, je e-mail of telefoonnummer en de inhoud van het bericht."
+		},
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "89d10b2cde2d06df634b68d50f4bc73acd354488c981db6412af30a4f424f360",
+			"value": "Precontractuele maatregelen toepassen op jouw verzoek (art. 6.1.b AVG) of mijn gerechtvaardigd belang om te antwoorden (art. 6.1.f)."
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "74f9dde75113c5650697044fdbc4c3a3a97598af5331ce0ef428bbf822cc0c21",
+			"value": "Zolang het gesprek duurt en tot 1 jaar daarna, tenzij we een contract aangaan."
+		},
+		"secciones/1/bloques/0/filas/3/0": {
+			"hash": "f9c4c0ee00650b320f51840cabbb7e6e642e3b61c8837a74d8d996e267df1b24",
+			"value": "Het beheren van een gecontracteerde dienst"
+		},
+		"secciones/1/bloques/0/filas/3/1": {
+			"hash": "63ec8a60b26e57f8d39da6ce54f8230cb8530bcf816369573da70e9e591e2822",
+			"value": "Identificatie-, contact- en factureringsgegevens."
+		},
+		"secciones/1/bloques/0/filas/3/2": {
+			"hash": "d802d684897cfb64dab5dfb2b82d148f56cec2c89e6f825d0e1bc61ac73971a3",
+			"value": "Uitvoering van het contract (art. 6.1.b AVG) en fiscale en boekhoudkundige verplichtingen (art. 6.1.c)."
+		},
+		"secciones/1/bloques/0/filas/3/3": {
+			"hash": "11f2d939b6159a847bc51d24414c4b9e793bf6825f7c1398abd8db2c71593d92",
+			"value": "Wat de belasting- en handelswetgeving vereist (over het algemeen tussen 4 en 6 jaar)."
+		},
+		"secciones/1/bloques/0/filas/4/0": {
+			"hash": "063288f4f5c95e4a853b475581be68a6fe1a5d2f897f910b64cf1e112b6ad45c",
+			"value": "Onthouden of je de lichte of donkere thema verkiest"
+		},
+		"secciones/1/bloques/0/filas/4/1": {
+			"hash": "dc01e55b7f3a74f530144f1343bf45325fd1f19a6506d36f1a840187ea7c2ce1",
+			"value": "De voorkeur «tema», alleen opgeslagen in je browser (lokale opslag). Bereikt mij niet."
+		},
+		"secciones/1/bloques/0/filas/4/2": {
+			"hash": "b040ff84d8f2d571755a6a5e7ef2c402852e9dec6a680b046a8840b517f0258f",
+			"value": "Een functie die je aanvraagt door op de knop te drukken (vrijgesteld van toestemming volgens art. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/4/3": {
+			"hash": "8fb068d79a6505e39426755b0e06217d53afb0432147bf3814d2980ab9e64f5a",
+			"value": "Totdat je deze uit je browser verwijdert."
 		},
 		"secciones/2/titulo": {
-			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
-			"value": "3. Verzamelde gegevens (alleen als je analytische cookies accepteert)"
+			"hash": "7feaf44c775a941b92da3e422a3dfbbf1af6d00c97a112d765f00b6c6e69145c",
+			"value": "3. Wat ik niet vraag of verzamel"
 		},
-		"secciones/2/bloques/0/items/0": {
-			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
-			"value": "Een willekeurige anonieme identificator, niet gekoppeld aan je naam, e-mailadres of andere informatie die je direct identificeert."
+		"secciones/2/bloques/0/texto": {
+			"hash": "2e532d9922da0772b96e789b3bc6716e06e430392ef62cdbafbf5a64a8b602a0",
+			"value": "Ik verwerk alleen het strikt noodzakelijke voor elk doel. Concreet:"
 		},
-		"secciones/2/bloques/0/items/1": {
-			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
-			"value": "Pagina's en projecten die je bezoekt, en de tijd besteed aan elk daarvan (terwijl het tabblad actief is)."
+		"secciones/2/bloques/1/items/0": {
+			"hash": "162d4749f1b4ecef620defa8cc4315c9cdeb14495be2b079d86990bab9921fcc",
+			"value": "Het contactformulier vraagt niet om je naam, je e-mail of je telefoonnummer: het opent je e-mailprogramma en jij besluit wat je mij stuurt."
 		},
-		"secciones/2/bloques/0/items/2": {
-			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
-			"value": "Interacties (klikken op projecten, links of knoppen)."
+		"secciones/2/bloques/1/items/1": {
+			"hash": "ff397d4902c0ffd1189f8e1e35e2bcb687831fb514a3f9e543d45b5097cd02cf",
+			"value": "Ik bewaar je IP-adres niet, wederom niet in de analytica noch in het toestemmingsregister."
 		},
-		"secciones/2/bloques/0/items/3": {
-			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
-			"value": "Datum en tijd van het bezoek."
+		"secciones/2/bloques/1/items/2": {
+			"hash": "f56194a61aec7b27015853b20033d553cbb9ac044fe9f04346b24415eb7adbcb",
+			"value": "Ik gebruik geen browseridentificatietechnieken (fingerprinting), Google Analytics, advertentiepixels of cookies van derden."
 		},
-		"secciones/2/bloques/0/items/4": {
-			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
-			"value": "Taal van de geraadpleegde site."
-		},
-		"secciones/2/bloques/0/items/5": {
-			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
-			"value": "Apparaattype (mobiel of desktop)."
-		},
-		"secciones/2/bloques/0/items/6": {
-			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
-			"value": "Geschat land, verkregen via de infrastructuur van Cloudflare, zonder je IP-adres op te slaan."
-		},
-		"secciones/2/bloques/0/items/7": {
-			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
-			"value": "Herkomstpagina (bijvoorbeeld LinkedIn of een zoekmachine)."
-		},
-		"secciones/2/bloques/1/texto": {
-			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
-			"value": "Je IP-adres wordt niet verzameld, er worden geen technieken voor browseridentificatie (fingerprinting) gebruikt en er worden geen tools van derden zoals Google Analytics of vergelijkbare diensten gebruikt."
+		"secciones/2/bloques/1/items/3": {
+			"hash": "0ba62a40c9ed5bff67053ea0f359fcdfe831ea6223962396ea3e25270f49b79e",
+			"value": "Lettertypen en afbeeldingen worden vanaf dezezelfde website geladen: bij een bezoek maakt je browser geen verbinding met Google Fonts, GitHub of andere externe diensten."
 		},
 		"secciones/3/titulo": {
-			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
-			"value": "4. Wettelijke grondslag"
+			"hash": "e97f09119206a0bb54b91a4d0525a1611a86cd2a1ffb1ce68ecee7e407f5b4b2",
+			"value": "4. Wie er nog meer bij betrokken zijn"
 		},
 		"secciones/3/bloques/0/texto": {
-			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
-			"value": "De verwerking is gebaseerd op je uitdrukkelijke toestemming (artikel 6.1.a van de AVG en artikel 22.2 van de LSSI-CE), die je op elk moment kunt intrekken via de cookiebeheerder van de website zelf."
+			"hash": "9379c1c29056fb76c9aaac14eec204ccc80f1839470f1fa57d869d5ede4e8554",
+			"value": "Ik verkoop of geef je gegevens aan niemand door, behalve bij wettelijke verplichting. Om de website te laten werken en je te antwoorden gebruik ik deze leveranciers:"
+		},
+		"secciones/3/bloques/1/items/0": {
+			"hash": "ba8d5055f95f76f5d5f213f9ea6abd0d2e73614739ee762b8e003da614270e78",
+			"value": "Cloudflare, Inc.: host de website en de database (Cloudflare Pages en D1) en treedt op als verwerker. Om de website te tonen verwerkt het technische verbindingsgegevens, zoals je IP-adres, waartoe ik geen toegang heb. Hun beleid: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/3/bloques/1/items/1": {
+			"hash": "e5466224dac0fab3f83206452f2e1dce4d397ed8821b014e24422d4c03931809",
+			"value": "Microsoft Corporation (Outlook.com): de e-mailservice waarin ik e-mails ontvang en beantwoord; verwerkt deze berichten volgens hun eigen beleid: https://privacy.microsoft.com/es-es/privacystatement"
 		},
 		"secciones/4/titulo": {
-			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
-			"value": "5. Bewaartermijn"
+			"hash": "0f1733989dcc9d3e7da935c30da90d6d47f7e418e0623ece20bdddea5480e10d",
+			"value": "5. Internationale doorgiften"
 		},
 		"secciones/4/bloques/0/texto": {
-			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
-			"value": "Gegevens worden maximaal 12 maanden bewaard vanaf je laatste bezoek, waarna ze automatisch worden verwijderd."
+			"hash": "730d0cdbf2408bcb369456290dbb1557289c98b1c1ad50e6c7738990068ee833",
+			"value": "Cloudflare en Microsoft kunnen gegevens verwerken in de Verenigde Staten. Beide zijn aangesloten bij het EU-VS Privacypramework (adequaatheidsbesluit van de Europese Commissie van 10 juli 2023) en bieden daarnaast de door de Commissie goedgekeurde modelcontractbepalingen."
 		},
 		"secciones/5/titulo": {
-			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
-			"value": "6. Ontvangers en internationale doorgiften"
+			"hash": "4ec1c1d4af17035281741f9ce83569b18261968bce5f1398635042c17d1ea5aa",
+			"value": "6. Jouw rechten"
 		},
 		"secciones/5/bloques/0/texto": {
-			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
-			"value": "Gegevens worden niet doorgegeven of verkocht aan derden. Ze worden opgeslagen in Cloudflare D1, een databasedienst geleverd door Cloudflare, Inc., die optreedt als verwerker. Cloudflare kan gegevens verwerken buiten de Europese Economische Ruimte; in dat geval is een dergelijke doorgifte gebaseerd op de door de Europese Commissie goedgekeurde standaardcontractbepalingen. Meer informatie in het privacybeleid van Cloudflare: https://www.cloudflare.com/privacypolicy/"
+			"hash": "6315177b90b21cdfbed7fbfaec8577e8da3be3f21abc4b0aa4ee3768d05d5730",
+			"value": "Je kunt mij op elk moment vragen om toegang tot je gegevens, rectificatie, verwijdering, bezwaar tegen de verwerking, beperking daarvan of om ze te ontvangen om ze ergens anders te gebruiken (overdraagbaarheid), en je toestemming intrekken zonder dat dit invloed heeft op hetgeen daarvoor is verwerkt. Schrijf naar {email}; ik antwoord je binnen maximaal een maand."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "861c3a71db2dc302875ad844414aa75c76842e60449a723c31645d069833fcce",
+			"value": "Analytische gegevens kun je zelf direct wissen met de knop «Mijn gegevens wissen» in de cookie-instellingen. Het toestemmingsregister wordt bewaardzelfs als je de toestemming intrekt, omdat het juist dient om te bewrijven wanneer je deze hebt gegeven en wanneer je deze hebt ingetrokken."
+		},
+		"secciones/5/bloques/2/texto": {
+			"hash": "893606189520d2e9c25fbc294f12b208763cd9a34b5e2e9260c64d938f8c636c",
+			"value": "Als je vindt dat ik niet goed ben omgegaan met je rechten, kun je een klacht indienen bij de Spaanse Gegevensbeschermingsautoriteit (Agencia Española de Protección de Datos): https://www.aepd.es"
 		},
 		"secciones/6/titulo": {
-			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
-			"value": "7. Jouw rechten"
+			"hash": "003ddb2514982633893943d31d98d557414a83f3a0566ffe931a21885a10d93c",
+			"value": "7. Minderjarigen"
 		},
 		"secciones/6/bloques/0/texto": {
-			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
-			"value": "Je kunt op elk moment je rechten op inzage, rectificatie, verwijdering, bezwaar, beperking van de verwerking en overdraagbaarheid uitoefenen door te schrijven naar malvmar5@hotmail.com. Daarnaast kun je je gegevens direct wissen, zonder dat je iemand hoeft te schrijven, via de knop \"Mijn gegevens wissen\" die beschikbaar is in de cookie-instellingen van de site. Je hebt ook het recht om een klacht in te dienen bij de Spaanse gegevensbeschermingsautoriteit (www.aepd.es) als je van mening bent dat je rechten niet correct zijn behandeld."
+			"hash": "a5bc9a70e47befee36963581af0ce2875c63d35566435cb7078f36ee013a0da5",
+			"value": "De website is niet gericht op minderjarigen jonger dan 14 jaar. Als je jonger bent dan 14 jaar, stuur dan geen persoonsgegevens zonder toestemming van je ouders of voogden (art. 7 LOPDGDD)."
 		},
 		"secciones/7/titulo": {
-			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
-			"value": "8. Wijzigingen in dit beleid"
+			"hash": "89bad5840c8dee67d2a6178a78cebda20b28cbe970a49fd79a807b44b36df8c4",
+			"value": "8. Beveiliging"
 		},
 		"secciones/7/bloques/0/texto": {
-			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
-			"value": "Dit beleid kan worden bijgewerkt om zich aan te passen aan wettelijke wijzigingen of veranderingen op de site zelf."
+			"hash": "42a5a107a1cdae9c58164e80236ff37ee90982816a2bc13cca85a541687e78ce",
+			"value": "Gegevens reizen versleuteld (HTTPS) en worden opgeslagen in een database die alleen toegankelijk is via het privépaneel, beveiligd met een gebruikersnaam en wachtwoord."
+		},
+		"secciones/8/titulo": {
+			"hash": "281d85edd7253d4dfcfac85764031516f590f798423fec77375a13cd6628419b",
+			"value": "9. Wijzigingen in dit beleid"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "c02f8e64ffd3e30fd572c5e4ffa814fa674bc2ce1bc1ae97cbda29bc426a0641",
+			"value": "Als er iets belangrijks verandert, werk ik deze pagina en de versiedatum bij. Als de wijziging betrekking heeft op cookies, wordt je opnieuw om toestemming gevraagd."
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "Algemene voorwaarden — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "Juridische kennisgeving en gebruiksvoorwaarden van marioalvarez.me: wie de eigenaar is, hoe de website kan worden gebruikt en welk recht van toepassing is."
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Algemene voorwaarden"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "1. Wie er achter deze website zit"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "In overeenstemming met artikel 10 van Wet 34/2002 betreffende de diensten van de informatiemaatschappij en de e-commerce (LSSI-CE), zijn dit de gegevens van de eigenaar van marioalvarez.me:"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "Eigenaar: {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Adres: {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "Email: {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "Activiteit: professionele portfolio en het aanbieden van diensten op het gebied van data-analyse, maatwerktools, databases en rapporten, en carrièrebegeleiding."
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "2. Wat deze voorwaarden reguleren"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "Deze voorwaarden reguleren de toegang tot en het gebruik van marioalvarez.me (de \"website\") in al haar talen. Door erop te surfen, accepteert u deze te gebruiken in overeenstemming met wat hier wordt vermeld. Als u mij schrijft via het contactformulier, vraag ik u om deze uitdrukkelijk te accepteren door een vakje aan te kruisen."
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "3. Hoe de website mag worden gebruikt"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "U kunt de inhoud raadplegen en delen onder vermelding van de bron. Het is niet toegestaan om:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "de website te gebruiken voor illegale doeleinden of doeleinden die schadelijk zijn voor derden;"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "te proberen toegang te krijgen tot afgeschermde zones (zoals het privépaneel) of de systemen die de website hosten;"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "virussen of andere schadelijke code te introduceren, of de website opzettelijk te overbelasten;"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "inhoud te kopiëren om deze als uw eigen eigendom voor te stellen."
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "4. Diensten en contractering"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "De website verkoopt geen producten en int geen online betalingen. Als u geïnteresseerd bent in een dienst, bespreken we dit via email of telefonisch en stuur ik u een schriftelijk voorstel met de omvang, de prijs, de termijnen en de betalings- en annuleringsvoorwaarden. Dit voorstel, zodra het door beide partijen is geaccepteerd, is hetgeen dat de dienst regelt en prevaleert boven deze voorwaarden."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "Hoe annuleringen, het herroepingsrecht en terugbetalingen werken, wordt uitgelegd in het terugbetalingsbeleid."
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "5. Intellectuele en industriële eigendom"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "De teksten, het ontwerp, de eigen code, het logo en de foto's van Mario Álvarez zijn eigendom van hemzelf of worden gebruikt met toestemming van de auteurs ervan. Het is niet toegestaan om deze zonder schriftelijke toestemming te reproduceren voor commerciële doeleinden."
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "De namen en logo's van derden (zoals LinkedIn, GitHub, Instagram of de teams en entiteiten die in de ervaring worden genoemd) zijn eigendom van hun respectieve eigenaren. Het vermelden ervan impliceert geen enkele commerciële relatie of sponsoring, tenzij dit uitdrukkelijk wordt vermeld."
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "De website maakt gebruik van bronnen van derden met licenties die dit toestaan: de lettertypen Fira Sans Extra Condensed en Source Serif 4 (SIL Open Font License 1.1), de pictogrammen van Lucide (ISC-licentie) en Simple Icons (CC0 1.0) en de animatiebibliotheek GSAP (gratis standaardlicentie van GreenSock, van Webflow). Elk project waarnaar op GitHub wordt gelinkt, heeft zijn eigen licentie."
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "6. Aansprakelijkheid"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "Ik werk eraan om ervoor te zorgen dat de informatie juist is en dat de website beschikbaar is, maar ik kan niet garanderen dat er geen fouten of onderbrekingen zijn. De inhoud is informatief en vervangt geen professioneel advies over uw specifieke situatie."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "De website bevat links naar websites van derden (sociale media, repositories, projectwebsites). Ik heb geen controle over de inhoud of het beleid ervan en ben er niet verantwoordelijk voor."
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "7. Privacy en cookies"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "Hoe uw gegevens worden verwerkt en welke cookies worden gebruikt, wordt uitgelegd in het privacybeleid en het cookiebeleid. Geen enkel deel van de website verplicht u om cookies te accepteren om deze te kunnen gebruiken."
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "8. Registratie van acceptaties"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "Om de toestemming te kunnen aantonen wanneer dat nodig is (artikel 7.1 van de AVG), wordt er, wanneer u deze voorwaarden accepteert in het contactformulier of kiest welke cookies u toestaat, een logboek opgeslagen met: een pseudonieme identificatie, wat u hebt geaccepteerd of geweigerd, de versie van elk document, de datum en tijd, de pagina en de taal vanwaar u dit hebt gedaan, de bron (banner, instellingen of formulier), de browser en, in het formulier, een referentiecode die in uw email meereist. Uw IP-adres wordt niet opgeslagen. De details staan in het privacybeleid."
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "9. Talen"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "De Spaanse versie van deze teksten is de originele versie en prevaleert in geval van twijfel. De overige versies zijn automatische vertalingen die voor het gemak worden aangeboden."
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "10. Wijzigingen"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "Ik kan deze voorwaarden bijwerken om ze aan te passen aan wettelijke wijzigingen of wijzigingen op de website. De datum van de huidige versie staat bovenaan deze pagina. Als de wijziging significant is, zal ik u opnieuw vragen deze te accepteren."
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "11. Toepasselijk recht en jurisdictie"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "Op deze voorwaarden is de Spaanse wetgeving van toepassing. Als u handelt als consument, kunt u zich wenden tot de rechtbanken van uw woonplaats en tot de systemen voor arbitrage en geschillenbeslechting voor consumenten van uw autonome gemeenschap. In alle andere gevallen onderwerpen beide partijen zich aan de rechtbanken en tribunalen van Benidorm (Alicante)."
+		}
+	},
+	"politica-reembolso": {
+		"meta/title": {
+			"hash": "bdcfda545addeea0886ff82b66b64f5f56f91e39aa6afa93ede2e498fc231c44",
+			"value": "Teruggavebeleid — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "5b9e6941811b24b85c7ab3f7fc2f74a6a41fe53d808ff533e8fca8d66fbbc4da",
+			"value": "Hoe annuleringen, het herroepingsrecht en teruggaven van de diensten van Mario Álvarez werken."
+		},
+		"meta/heading": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Teruggavebeleid"
+		},
+		"secciones/0/titulo": {
+			"hash": "ff143d312f054ce7182b3caf2913fadf9053edbe7bbc5126c0500dbf9924dcde",
+			"value": "1. Deze website brengt geen betalingen in rekening"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "14d92dd27a30ce3225cc0c90b70e3ebf5c3a8b786edbc2a8282dfefe97f97e3c",
+			"value": "Op marioalvarez.me worden geen producten verkocht en worden er geen online betalingen geïnd. Diensten (prestatie-analyse, maatwerktools, databases en rapporten en carrièrebegeleiding) worden apart ingehuurd, met een schriftelijk voorstel."
+		},
+		"secciones/1/titulo": {
+			"hash": "50402d539cae16eba5d0c0bd8ed574497c5bedd07c9f76a6c54b995228b9d194",
+			"value": "2. Wat je voorstel zegt"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "dba3b38c35565ddc44e04919f2b2ca0f8953108a319093cee6475d431c6c77fa",
+			"value": "Elk voorstel vermeldt de prijs, hoe en wanneer er wordt betaald en de annuleringsvoorwaarden. Als het voorstel iets anders zegt dan dit beleid, is het voorstel van kracht, tenzij dit beleid je meer rechten als consument geeft."
+		},
+		"secciones/2/titulo": {
+			"hash": "4da83f4f1afe5790834f743bdc1ca5eaabe6d4a85865798796e14a32c2912fae",
+			"value": "3. Als je annuleert"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "e9dd1fcdc7020f5821d857b0db902ad60b806b130178587e00206cc2379bcdc4",
+			"value": "Tenzij schriftelijk anders is overeengekomen:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "3d2e21613adc4a86859e877cf39529e9de64cfaecebc6ee4ac24c9b268fec07b",
+			"value": "Als je annuleert voordat het werk begint, krijg je elke vooruitbetaling volledig terug."
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "f9b70232e9bfc004f82934930816cccba917692c2ed1ba56637d5a85f27eed9c",
+			"value": "Als je annuleert nadat het werk is begonnen, wordt alleen het reeds uitgevoerde deel in rekening gebracht en krijg ik de rest van je vooruitbetaling terug."
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "367ad099f56f6a5ddd4c394d2e66479d6a7421c518e28ede6dc88e5229f6bed8",
+			"value": "Reeds geleverd en geaccepteerd werk wordt niet terugbetaald, tenzij het gebreken vertoont die niet worden verholpen."
+		},
+		"secciones/3/titulo": {
+			"hash": "d7e3fed395f638f5604782dab666b621dd5f132a48b827e2fe042194881148cf",
+			"value": "4. Herroepingsrecht (als je een consument bent)"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "5e178abe0b325218fe10f437c89f7da3090cd74714a8a5c2adc1c35739b1804b",
+			"value": "Als je als consument inhuurt (een persoon die handelt buiten zijn/haar professionele activiteit) en de overeenkomst op afstand, via e-mail of per telefoon wordt gesloten, heb je 14 kalenderdagen vanaf de sluiting de tijd om af te zien van de overeenkomst zonder opgaaf van redenen, overeenkomstig artikelen 102 tot 108 van de geconsolideerde tekst van de Algemene Wet voor de Bescherming van Consumenten en Gebruikers (Koninklijk Wetsbesluit 1/2007)."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "f6ccce5a6cdfe56e4eb204d74e1064cfaaf14b0a6401d34d54943282934f4faa",
+			"value": "Als je mij uitdrukkelijk vraagt om binnen die 14 dagen te beginnen met werken en je vervolgens afziet van de overeenkomst, betaal je alleen het evenredige deel van de dienst die tot dat moment is verleend. Als de dienst volledig is voltooid binnen de termijn, met jouw voorafgaande en uitdrukkelijke toestemming en wetende dat je daardoor dit recht verliest, kun je niet meer afzien van de overeenkomst (artikel 103.a)."
+		},
+		"secciones/4/titulo": {
+			"hash": "a6b6f5e3070a156219fd0eb8a8485c11404e66c1db10f2be65a78ccea7dadb43",
+			"value": "5. Hoe aan te vragen"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "faffb4c0f6bdf1648e409afaf168c981f036d78cdc26c1f190944b92d95326c9",
+			"value": "Schrijf mij op {email} met je naam, de dienst en de datum waarop je deze hebt ingehuurd. Je kunt dit model voor een herroepingsformulier gebruiken (dit is niet verplicht):"
+		},
+		"secciones/4/bloques/1/items/0": {
+			"hash": "02f390f8ef61e6f8180ebd55d94bf24cd7742af44ba37433395550e7a2f7082f",
+			"value": "Ter attentie van {nombre}, {domicilio}, {email}:"
+		},
+		"secciones/4/bloques/1/items/1": {
+			"hash": "6705d14225a84c97d190c86895abdd4ae2b7b92e03befbd46052e9ac22718df4",
+			"value": "Hierbij deel ik u mede dat ik afzie van mijn overeenkomst tot levering van de volgende dienst: [servicio]."
+		},
+		"secciones/4/bloques/1/items/2": {
+			"hash": "b756f3bd6d0bb6e148c0d59d09dae258a0f664174766530bdc6f938f5592e68a",
+			"value": "Ingehuurd op: [fecha]."
+		},
+		"secciones/4/bloques/1/items/3": {
+			"hash": "a1e157dce89e05f90d3590bcbac310ee77465b68928d5123598551e40aea2db8",
+			"value": "Naam van de consument: [nombre]."
+		},
+		"secciones/4/bloques/1/items/4": {
+			"hash": "6da3fe45c69b15e52be050ff970ab79ea26ee9b6bf0a7205d117978a159fdaff",
+			"value": "Adres van de consument: [domicilio]."
+		},
+		"secciones/4/bloques/1/items/5": {
+			"hash": "7fc0956f32767e8a77ad2f5755c8e13cf040d910c328534129ef063dc106acf4",
+			"value": "Datum: [fecha]."
+		},
+		"secciones/5/titulo": {
+			"hash": "4f7a4409f1709a01b1af2b1edf6e71d467f7e5a5f4e0ed8c74717a33964f5b40",
+			"value": "6. Termijn en wijze van de teruggave"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "e842a6745c96e277d063610a98f358f325d922b561595105917cc4d9b5c2c97c",
+			"value": "Ik betaal het verschuldigde bedrag binnen maximaal 14 kalenderdagen nadat je mij je beslissing hebt meegedeeld terug, via dezelfde betaalmethode die je hebt gebruikt, tenzij we anders overeenkomen. De teruggave kost je niets."
 		}
 	}
 }

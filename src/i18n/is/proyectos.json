@@ -4,7 +4,10 @@
 		"description": "Gagnagreiningar-, sjónræni- og vélnámsverkefni og geymslur eftir Mario Álvarez.",
 		"eyebrow": "Verkefni",
 		"heading": "Verkefni",
-		"intro": "Yfirlit yfir vinnuna mína: allt frá verkfærum fyrir atvinnuhjólreiðar til fræðilegra greiningar- og vélnámsverkefna."
+		"intro": "Yfirlit yfir vinnuna mína: allt frá verkfærum fyrir atvinnuhjólreiðar til fræðilegra greiningar- og vélnámsverkefna.",
+		"cifraRepos": "opinberar geymslur á GitHub",
+		"cifraWebs": "birtar vefsíður",
+		"cifraHerramientas": "tungumál og verkfæri"
 	},
 	"list": {
 		"eyebrow": "Vinna",

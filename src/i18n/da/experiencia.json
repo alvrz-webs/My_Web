@@ -4,13 +4,28 @@
 		"description": "To verdener, ét og samme sprog: ydeevne. Mario Álvarez' erfaring inden for data og engineering samt elitecykling.",
 		"eyebrow": "Erfaring",
 		"heading": "To verdener, ét og samme sprog: ydeevne",
-		"colDatos": "Data & Teknologi",
+		"lead": "I en database eller i holdbilen er arbejdet det samme: Mål præcist for at beslutte bedre.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "poster i den database, jeg optimerer hos SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "værktøjer i Python til Cofidis-holdet"
+			},
+			{
+				"cifra": "6.",
+				"texto": "ved VM og EM i banecykling"
+			}
+		],
+		"colDatos": "Data og teknologi",
 		"colDeporte": "Elitesport"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Praktik i datatruenskab",
-			"meta": "Data Engineering · Benidorm · 2026",
+			"meta": "Dataengineering, Benidorm, 2026",
 			"paragraphs": [
 				"SIME udvikler administrationssoftware (reservationer, fakturering, rapporter, restaurantbestillinger), som betjener hundreder af kunder fra et centralt system baseret på en database med +580 indbyrdes forbundne tabeller og +100 millioner poster. Væksten havde gjort det nødvendigt at fordele kunder på flere databaser for at lette belastningen og klager over langsommelighed.",
 				"Mit arbejde: at analysere disse databaser og gennem forespørgsels- og indeksoptimering designe samlingen af alle data i en enkelt, effektiv database uden nævneværdig skalering af hardware (RAM/CPU). Forbedringen er allerede udviklet og er i valideringsfasen på en testserver."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekter med Cofidis-holdet (World Tour)",
-			"meta": "Python · Sommer 2025",
+			"meta": "Python, sommer 2025",
 			"paragraphs": [
 				"Eget projekt udført som en test for at få adgang til dataanalyse i professionel cykling:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Konkurrence",
 			"paragraphs": [
 				"Spansk mester i madison (18 år); VM og EM på bane med det spanske landshold (nr. 6 i begge); elitesportudøver; aktiv, licenseret banecykelrytter."
-			]
+			],
+			"meta": "Banecykling, det spanske landshold"
 		},
 		{
 			"title": "Sportslig ledelse",
 			"paragraphs": [
 				"Sportsdirektør niveau I og II (RFEC); træning og opfølgning af ungdomsryttere (14–18) sammen med min far; holdleder for landsholdet i Valencia-regionen ved konkurrencer (2026)."
-			]
+			],
+			"meta": "RFEC, niveau I og II"
 		},
 		{
 			"title": "Kiro-massage og teknisk personale",

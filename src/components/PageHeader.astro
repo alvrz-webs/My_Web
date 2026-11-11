@@ -1,39 +1,92 @@
 ---
+/**
+ * Cabecera de las subpáginas: el gran rótulo en mayúsculas (mismo cuerpo que el hero de inicio),
+ * una entradilla y, si la página lo necesita, una columna al lado (retrato, cifras...) por el slot
+ * "aside". La remata la recta de la pista, que se dibuja al cargar.
+ *
+ * `eyebrow` se acepta por compatibilidad, pero ya no se pinta: la navegación ya marca dónde estás.
+ */
+import LineasPista from './LineasPista.astro';
+
 interface Props {
-	eyebrow: string;
+	eyebrow?: string;
 	title: string;
 	description?: string;
+	tamano?: 'normal' | 'compacto';
+	/** En móvil, el aside va encima del título (un retrato) o debajo (cifras, datos). */
+	asideArriba?: boolean;
 }
 
-const { eyebrow, title, description } = Astro.props;
+const { title, description, tamano = 'normal', asideArriba = false } = Astro.props;
+const tieneAside = Astro.slots.has('aside');
 ---
 
-<section class="page-header">
-	<div class="container">
-		<div class="page-header-inner reveal">
-			<p class="eyebrow">{eyebrow}</p>
-			<h1>{title}</h1>
-			{description && <p class="page-header-desc text-dim">{description}</p>}
+<section class:list={['cabecera-pagina', `cabecera-${tamano}`]}>
+	<div class:list={['container', 'cabecera-grid', { 'con-aside': tieneAside, 'aside-arriba': asideArriba }]}>
+		<div class="cabecera-texto">
+			<h1 class="titulo-display cabecera-titulo" data-carga>{title}</h1>
+			{description && <p class="lead cabecera-lead" data-carga style="--d:120ms">{description}</p>}
+			<slot />
 		</div>
+		{
+			tieneAside && (
+				<div class="cabecera-aside" data-carga style="--d:200ms">
+					<slot name="aside" />
+				</div>
+			)
+		}
 	</div>
+	<LineasPista retraso={260} class="cabecera-lineas" />
 </section>
 
 <style>
-	.page-header {
-		padding-block: 3.5rem 1rem;
+	.cabecera-pagina {
+		padding-block-start: clamp(3rem, 8vw, 6.5rem);
 	}
 
-	.page-header-inner {
-		max-width: 68ch;
+	.cabecera-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		gap: var(--gutter);
+		align-items: end;
 	}
 
-	.page-header-inner h1 {
-		font-size: clamp(1.9rem, 4vw, 2.8rem);
-		margin-block: 0.85rem 1rem;
+	.cabecera-grid.con-aside {
+		grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
 	}
 
-	.page-header-desc {
-		font-size: 1.05rem;
-		max-width: 58ch;
+	.cabecera-titulo {
+		font-size: clamp(2.6rem, 6.2vw, 5.6rem);
+	}
+
+	.cabecera-compacto .cabecera-titulo {
+		font-size: clamp(2.4rem, 5vw, 4.2rem);
+	}
+
+	.cabecera-lead {
+		margin-block-start: clamp(1.25rem, 2.5vw, 2rem);
+	}
+
+	.cabecera-aside {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.cabecera-pagina :global(.cabecera-lineas) {
+		margin-block-start: clamp(3rem, 7vw, 5.5rem);
+	}
+
+	@media (max-width: 860px) {
+		.cabecera-grid.con-aside {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.cabecera-aside {
+			justify-content: flex-start;
+		}
+
+		.aside-arriba .cabecera-aside {
+			order: -1;
+		}
 	}
 </style>

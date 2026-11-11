@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Dataforsker med speciale i sport",
-		"description": "Mario Álvarez, dataforsker i Valencia med speciale i sportsanalyse. Data · Sport · Progress.",
+		"description": "Mario Álvarez, datavidenskabsman i Valencia med speciale i sportsanalyser. Spansk mester i madison og sportsdirektør for RFEC.",
 		"verProyectos": "Se projekter",
-		"contacto": "Kontakt",
-		"verMas": "Se mere",
+		"verServicios": "Se hvordan jeg kan hjælpe dig",
+		"contacto": "Skriv til mig",
+		"verMas": "Læs mere",
 		"verTodosProyectos": "Se alle projekter",
-		"irAContacto": "Gå til kontakt",
+		"irAContacto": "Skriv til mig",
 		"herramientas": "Hovedværktøjer"
 	},
 	"hero": {
-		"eyebrow": "Dataforsker · Sportsanalyse · Valencia",
-		"titlePre": "Jeg forvandler data til ",
-		"titleHighlight": "klare beslutninger",
-		"subtitle": "Jeg er bindeleddet mellem dataanalyse og elitsport: Jeg omdanner præstationsmålinger til strategier, der gør en forskel på banen.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, datavidenskabsman",
+		"title": "Jeg var spansk mester i madison.",
+		"subtitle": "Nu studerer jeg datavidenskab på UPV og analyserer det, der ligger bag præstationen: watt, belastning og resultater. Jeg ved, hvad et tal betyder for en rytter, fordi jeg har været den rytter.",
+		"palmaresLabel": "Resultater",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Spansk mesterskab i madison",
+				"nota": "Bane, som 18-årig"
+			},
+			{
+				"pos": "6º",
+				"texto": "VM i banecykling",
+				"nota": "Spansk landshold"
+			},
+			{
+				"pos": "6º",
+				"texto": "EM i banecykling",
+				"nota": "Spansk landshold"
+			}
+		],
+		"retratoAlt": "Portræt af Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Hvordan jeg kan hjælpe dig",
+		"text": "Jeg arbejder med hold, trænere og ryttere, der har data og vil udnytte dem. Og med virksomheder, der har brug for at organisere deres egne.",
+		"cta": "Fortæl mig om din sag",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Præstationsanalyse",
+				"texto": "Jeg læser watt, belastning og resultater med en rytters øjne. Jeg forklarer dig, hvad der sker, og hvad der skal ændres.",
+				"prueba": "Eliterytter og sportsdirektør for RFEC, niveau I og II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Skræddersyede værktøjer",
+				"texto": "Scraping, modeller og små Python-applikationer, der besvarer et specifikt spørgsmål fra dit hold.",
+				"prueba": "To værktøjer til Cofidis-holdet: UCI-sværhedsgrad og løbsprofil."
+			},
+			{
+				"id": "datos",
+				"nombre": "Databaser og rapporter",
+				"texto": "Hurtigere forespørgsler, samlede databaser og Power BI-dashboards, der er til at forstå med det samme.",
+				"prueba": "Mere end 580 tabeller og 100 millioner poster i den database, jeg optimerer hos SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Support under løb",
+				"texto": "Forberedelse til løb, opfølgning på ryttere og sportsmassage under konkurrence.",
+				"prueba": "Stab for det valencianske landshold."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Om mig",
-		"title": "Data med kontekst fra bane, landevej og konkurrence",
-		"text": "Jeg er Mario Álvarez, datavidenskabsstuderende på UPV med reel erfaring fra professionel cykling. Jeg kombinerer dataanalyse med eliteidrætspræstationer for at omdanne hver enkelt måling til en beslutning, der forbedrer resultaterne."
+		"title": "Fra velodromen til data",
+		"text": "Jeg læser 3. semester på datavidenskabsstudiet på UPV og har afsluttet en kandidatuddannelse i digitalisering og teknologi anvendt på sport. Jeg har ikke forladt cykling: Jeg kører stadig banecykling, træner ungdomsryttere og arbejder som massør med professionelle."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Base",
+			"value": "Benidorm og Valencia"
+		},
+		{
 			"label": "Uddannelse",
-			"detail": "Bachelor i datavidenskab, Universitat Politècnica de València."
+			"value": "Bachelor i datavidenskab (UPV) og Kandidatuddannelse i digitalisering, innovation og teknologi inden for sport"
 		},
 		{
-			"value": "Elite",
-			"label": "Erfaring",
-			"detail": "Reelt arbejde på et professionelt cykelhold."
+			"label": "Titler",
+			"value": "Sportsdirektør for RFEC, niveau I og II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Tilgang",
-			"detail": "Analyse anvendt til forbedring af sportspræstationer."
+			"label": "Nu",
+			"value": "Tilgængelig for data- og præstationsprojekter"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Erfaring",
-		"title": "To verdener, samme sprog: præstationen",
-		"text": "Jeg har konkurreret på højeste niveau og anvender i dag den samme tilgang på data: Jeg forstår, hvad et tal betyder for en sportsmand, fordi jeg har været den sportsmand."
+		"title": "To spor, det samme arbejde",
+		"text": "I det ene optimerer jeg databaser og skriver modeller. I det andet forbereder jeg løb og følger ryttere. Begge handler om det samme: at måle præcist for at beslutte bedre.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tabeller analyseret hos SIME Telecom for at forene flere databaser til én uden at opgradere hardwaren"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "poster i den database, jeg er ved at optimere"
+					},
+					{
+						"cifra": "2",
+						"texto": "Python-værktøjer til Cofidis-holdet: UCI-sværhedsgrad og løbsprofil"
+					}
+				]
+			},
+			{
+				"nombre": "Bane og landevej",
+				"items": [
+					{
+						"cifra": "I og II",
+						"texto": "niveauer for sportsdirektør for det spanske cykleforbund"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "år er de ungdomsryttere, jeg træner og følger sammen med min far"
+					},
+					{
+						"cifra": "2026",
+						"texto": "assistent for det valencianske landshold under konkurrence"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Skal vi snakke data?",
-		"text": "Fortæl mig om dit projekt, og lad os sammen finde ud af, hvor de beslutninger, der forbedrer præstationerne, ligger."
+		"title": "Sidste omgang",
+		"text": "Hvis du har præstationsdata og ubesvarede spørgsmål, så skriv til mig, så kigger vi på det sammen."
 	}
 }

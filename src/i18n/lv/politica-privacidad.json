@@ -1,8 +1,8 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Privātuma politika — Mario Álvarez",
-		"description": "Mario Álvarez vietnes privātuma politika: kādi dati tiek vākti, kādam nolūkam un kā īstenot savas tiesības.",
-		"eyebrow": "Juridiskā informācija",
+		"description": "Kādus datus marioalvarez.me apstrādā, kādā nolūkā, uz kāda tiesiskā pamata, cik ilgi un kā īstenot savas tiesības.",
 		"heading": "Privātuma politika"
 	},
 	"secciones": [
@@ -10,84 +10,150 @@
 			"titulo": "1. Pārzinis",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, ar adresi Benidorm (Alikante), Spānija. Kontakti: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Apstrādes nolūks",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Šī vietne iekšēji un ekskluzīvi statistikas nolūkos analizē, kurš saturs (sadaļas, projekti) apmeklētājiem šķiet visnoderīgākais, lai uzlabotu tās saturu. Tā netiek izmantota reklāmas nolūkos, netiek kopīgota ar trešajām pusēm un nekādos apstākļos netiek pārdota."
-				}
-			]
-		},
-		{
-			"titulo": "3. Apkopotie dati (tikai tad, ja piekrītat analītiskajām sīkdatnēm)",
-			"bloques": [
-				{
 					"tipo": "lista",
 					"items": [
-						"Nejauša anonīma identifikatora numurs, kas nav saistīts ar jūsu vārdu, e-pastu vai citu informāciju, kas jūs tieši identificē.",
-						"Apmeklētās lapas un projekti, kā arī katrā no tiem pavadītais laiks (kamēr cilne ir aktīva).",
-						"Mijiedarbība (klikšķi uz projektiem, saitēm vai pogām).",
-						"Apmeklējuma datums un laiks.",
-						"Konsultētās vietnes valoda.",
-						"Ierīces tips (mobilā vai galddatora).",
-						"Aptuvenā valsts, kas iegūta, izmantojot Cloudflare infrastruktūru, neuzglabājot jūsu IP adresi.",
-						"Izcelsmes lapa (piemēram, LinkedIn vai meklētājprogramma)."
+						"Pārzinis: {nombre}",
+						"NIF: {nif}",
+						"Adrese: {domicilio}",
+						"E-pasts jebkādiem ar privātumu saistītiem jautājumiem: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Jūsu IP adrese netiek vākta, netiek izmantotas pārlūkprogrammas identifikācijas tehnikas (fingerprinting) vai trešo pušu rīki, piemēram, Google Analytics vai tamlīdzīgi."
+					"texto": "Ņemot vērā darbības apjomu un veidu, nav obligāti iecelt datu aizsardzības speciālistu, tāpēc tāda nav: rakstiet man tieši."
 				}
 			]
 		},
 		{
-			"titulo": "4. Likumīgais pamats",
+			"titulo": "2. Kādi dati tiek apstrādāti, kādam nolūkam un kāpēc",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Apstrāde balstās uz jūsu nepārprotamu piekrišanu (VPDAR 6. panta 1. punkta a apakšpunkts un LSSI-CE 22. panta 2. punkts), kuru varat jebkurā laikā atsaukt no pašas vietnes sīkdatņu pārvaldnieka."
+					"tipo": "tabla",
+					"columnas": [
+						"Kādam nolūkam",
+						"Kādi dati",
+						"Tiesiskais pamats",
+						"Cik ilgi"
+					],
+					"filas": [
+						[
+							"Lietošanas analītika, tikai ja piekrītat analītiskajām sīkdatnēm",
+							"Nejaušs pseidonīmisks identifikators (sīkdatne visitante_id), sadaļas un projekti, ko skatāties, un katrā pavadītais laiks, klikšķi uz saitēm un pogām, valoda, ierīces veids (mobilā ierīce vai galddators), aptuvena valsts un tīmekļa vietnes lapa, kurā notiek katrs notikums.",
+							"Jūsu piekrišana (VDAR 6. panta 1. punkta a apakšpunkts).",
+							"12 mēneši; pēc tam katrs notikums tiek automātiski dzēsts."
+						],
+						[
+							"Piekrišanu reģistrs",
+							"Pseidonīmisks identifikators, tas, kam piekritāt, ko noraidījāt vai atsaucāt, katra dokumenta versija, datums un laiks, lapa, valoda, izcelsme (reklāmkarogs, iestatījumi vai veidlapa), pārlūkprogramma (lietotāja aģents) un aptuvena valsts; veidlapā papildus arī jūsu e-pasta atsauces kods.",
+							"Pienākums spēt pierādīt piekrišanu (VDAR 6. panta 1. punkta c apakšpunkts un 7. panta 1. punkts).",
+							"3 gadi no katra reģistrācijas brīža (maksimālais noilguma termiņš likumpārkāpumiem); pēc tam tiek automātiski dzēsts."
+						],
+						[
+							"Atbildēt uz jūsu pieprasījumu, kas nosūtīts pa e-pastu vai tālruni",
+							"Dati, kurus izlemjat man nosūtīt: parasti jūsu vārds, e-pasts vai tālrunis un ziņojuma saturs.",
+							"Pirmslīguma pasākumu īstenošana pēc jūsu pieprasījuma (VDAR 6. panta 1. punkta b apakšpunkts) vai manas leģitīmās intereses jums atbildēt (6. panta 1. punkta f apakšpunkts).",
+							"Kamēr ilgst saruna un līdz 1 gadam pēc tam, ja vien nenoslēdzam līgumu."
+						],
+						[
+							"Nolīgta pakalpojuma pārvaldība",
+							"Identifikācijas, kontaktinformācijas un norēķinu dati.",
+							"Līguma izpilde (VDAR 6. panta 1. punkta b apakšpunkts) un nodokļu un grāmatvedības saistības (6. panta 1. punkta c apakšpunkts).",
+							"Tas, ko nosaka nodokļu un komerctiesības (parasti no 4 līdz 6 gadiem)."
+						],
+						[
+							"Atcerēties, vai priekšroku dodat gaišajai vai tumšajai tēmai",
+							"Iestatījums «tema», kas saglabāts tikai jūsu pārlūkprogrammā (lokālā krātuve). Tas nenonāk pie manis.",
+							"Funkcija, ko pieprasāt, nospiežot pogu (atbrīvota no piekrišanas prasības saskaņā ar attiecīgajiem noteikumiem).",
+							"Līdz brīdim, kad to dzēšat savā pārlūkprogrammā."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Saglabāšanas termiņš",
+			"titulo": "3. Tas, ko es neprasu un neievācu",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dati tiek glabāti ne ilgāk kā 12 mēnešus kopš jūsu pēdējā apmeklējuma, pēc kura tie tiek automātiski dzēsti."
+					"texto": "Es apstrādāju tikai to, kas ir absolūti nepieciešams katram mērķim. Konkrēti:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kontaktformas veidlapa neprasa jūsu vārdu, e-pastu vai tālruni: tā atver jūsu e-pasta programmu, un jūs pats izlemjat, ko man sūtīt.",
+						"Es nesaglabāju jūsu IP adresi ne analītikā, ne piekrišanu reģistrā.",
+						"Es neizmantoju pārlūkprogrammas identifikācijas tehnikas (pirkstu nospiedumu veidošanu jeb fingerprinting), Google Analytics, reklāmas pikseļus vai trešo pušu sīkdatnes.",
+						"Burtveidoli un attēli tiek padoti no šīs pašas tīmekļa vietnes: apmeklējot to, jūsu pārlūkprogramma neizveido savienojumu ar Google Fonts, GitHub vai citiem ārējiem pakalpojumiem."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Saņēmēji un starptautiskā datu pārsūtīšana",
+			"titulo": "4. Kas vēl ir iesaistīts",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dati netiek izpausti vai pārdoti trešajām pusēm. Tie tiek glabāti Cloudflare D1, datu bāzes pakalpojumā, ko nodrošina Cloudflare, Inc., kas darbojas kā apstrādātājs. Cloudflare var apstrādāt datus ārpus Eiropas Ekonomikas zonas; šādā gadījumā šāda pārsūtīšana balstās uz Eiropas Komisijas apstiprinātajiem Līguma standartklauzulu noteikumiem. Vairāk informācijas Cloudflare privātuma politikā: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Es nepārdodu un neizsniedzu jūsu datus nevienam, izņemot gadījumus, kad to nosaka likums. Lai vietne darbotos un lai jums atbildētu, es izmantoju šādus pakalpojumu sniedzējus:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: mitrina vietni un datu bāzi (Cloudflare Pages un D1) un darbojas kā apstrādātājs. Lai uzturētu vietni, tā apstrādā tehniskos savienojuma datus, piemēram, jūsu IP adresi, kam man nav piekļuves. Tās politika: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): e-pasta pakalpojums, kurā es saņemu un atbildu uz e-pastiem; šie ziņojumi tiek apstrādāti saskaņā ar tās pašu politiku: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Jūsu tiesības",
+			"titulo": "5. Starptautiskie datu pārsūtījumie",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Jūs varat jebkurā laikā īstenot savas tiesības piekļūt, labot, dzēst, iebilst, ierobežot apstrādi un datu pārnesamību, rakstot uz malvmar5@hotmail.com. Turklāt jūs varat nekavējoties izdzēst savus datus, nevienam nerakstot, izmantojot pogu \"Dzēst manus datus\", kas pieejama vietnes sīkdatņu iestatījumos. Jums ir arī tiesības iesniegt sūdzību Spānijas Datu aizsardzības aģentūrā (www.aepd.es), ja uzskatāt, ka jūsu tiesības nav ievērotas pareizi."
+					"texto": "Cloudflare un Microsoft var apstrādāt datus ASV. Abas ir pievienojušās ES un ASV Datu privātuma satvaram (Eiropas Komisijas 2023. gada 10. jūlija lēmums par atbilstību) un piedāvā arī Komisijas apstiprinātos līguma standartnoteikumus."
 				}
 			]
 		},
 		{
-			"titulo": "8. Izmaiņas šajā politikā",
+			"titulo": "6. Jūsu tiesības",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Šī politika var tikt atjaunināta, lai pielāgotos likumdošanas vai pašas vietnes izmaiņām."
+					"texto": "Jūs varat jebkurā laikā pieprasīt piekļuvi saviem datiem, to labošanu, dzēšanu, iebilst pret to apstrādi, ierobežot to vai saņemt tos pārnešanai uz citu vietu (pārnesamība), kā arī atsaukt savu piekrišanu, neietekmējot pirms tam apstrādāto. Rakstiet man uz {email}; es jums atbildēšu viena mēneša laikā."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analītikas datus varat dzēst pats nekavējoties, izmantojot pogu «Dzēst manus datus» sīkdatņu iestatījumos. Piekrišanu reģistrs tiek saglabāts pat tad, ja atsaucat piekrišanu, jo tas kalpo tieši tam, lai pierādītu, kad jūs to devāt un kad atsaucāt."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ja uzskatāt, ka neesmu pienācīgi respektējis jūsu tiesības, varat iesniegt sūdzību datu aizsardzības iestādē: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Nepilngadīgie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tīmekļa vietne nav paredzēta personām, kas jaunākas par 14 gadiem. Ja esat jaunāks par 14 gadiem, nesūtiet man personas datus bez vecāku vai aizbildņu atļaujas."
+				}
+			]
+		},
+		{
+			"titulo": "8. Drošība",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dati tiek pārsūtīti šifrētā veidā (HTTPS) un glabāti datu bāzē, kurai var piekļūt tikai no privātā paneļa, kas aizsargāts ar lietotājvārdu un paroli."
+				}
+			]
+		},
+		{
+			"titulo": "9. Izmaiņas šajā politikā",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ja mainās kas būtisks, es atjaunināšu šo lapu un tās versijas datumu. Ja izmaiņas skar sīkdatnes, jums tiks jautāts no jauna."
 				}
 			]
 		}

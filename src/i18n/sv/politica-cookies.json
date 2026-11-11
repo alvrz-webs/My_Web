@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Cookiepolicy — Mario Álvarez",
-		"description": "Vilka cookies denna webbplats använder, i vilket syfte och hur du när som helst kan ändra ditt samtycke.",
-		"eyebrow": "Juridiskt",
-		"heading": "Cookiepolicy"
+		"description": "Vilka cookies marioalvarez.me använder, vilka som kräver ditt tillstånd och hur du när som helst kan ändra ditt val.",
+		"heading": "Cookiepolicy",
+		"eleccionTitulo": "Ditt val",
+		"eleccionTexto": "Du kan när som helst ändra eller radera dina uppgifter lika enkelt som du gav dem."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Denna webbplats använder cookies och liknande tekniker (såsom webbläsarens lokala lagring) för att fungera korrekt och, om du ger ditt samtycke, för att anonymt analysera hur innehållet används."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Använda cookies:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Namn",
-				"Syfte",
-				"Typ",
-				"Varaktighet"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Kom ihåg ditt val angående denna cookiepolicy",
-					"Förstapart, teknisk (befriad från samtycke)",
-					"12 månader"
-				],
-				[
-					"visitante_id",
-					"Anonym identifierare för att koppla ihop dina besök och se vilket innehåll som är användbart",
-					"Förstapart, analytisk (kräver ditt samtycke)",
-					"12 månader"
-				]
+			"titulo": "1. Vad de är och om jag behöver ditt tillstånd",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookies och liknande tekniker (som webbläsarens lokala lagring) sparar små datamängder på din enhet. Enligt artikel 22.2 i LSSI-CE och riktlinjerna för användning av cookies från den spanska dataskyddsmyndigheten (Agencia Española de Protección de Datos) kräver de som är strikt nödvändiga för något du begär inget samtycke, men det gör analyscookies."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Därför sparar denna webbplats endast analyscookien om du accepterar den, och låter dig acceptera eller avvisa med två identiska knappar, på samma skärm och utan förfyllda rutor. Att avvisa den hindrar dig inte från att använda något på webbplatsen."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Ingen av dessa cookies är från tredje part, ingen används i reklamsyfte och ingen delas med någon utanför denna webbplats."
+			"titulo": "2. Cookies som används av denna webbplats",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Namn",
+						"Syfte",
+						"Typ",
+						"Kräver ditt tillstånd?",
+						"Varaktighet"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Spara ditt val, versionen av denna policy och det pseudonymiserade identifieringsnumret för ditt samtyckesregister",
+							"Egen, teknisk",
+							"Nej",
+							"12 månader"
+						],
+						[
+							"visitante_id",
+							"Pseudonymiserat identifieringsnummer för att se vilket innehåll som är till nytta",
+							"Egen, analys",
+							"Ja",
+							"12 månader"
+						],
+						[
+							"tema (lokal lagring)",
+							"Kom ihåg om du föredrar det ljusa eller mörka temat; sparas endast om du ändrar det",
+							"Egen, personalisering som du har begärt",
+							"Nej",
+							"Tills du raderar den"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Du kan ändra ditt beslut eller återkalla ditt samtycke när som helst via länken \"Konfigurera cookies\" i sidfoten, och omedelbart radera alla dina uppgifter med knappen \"Radera mina uppgifter\" i samma panel."
+			"titulo": "3. Vad som inte finns",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Det finns inga Tredjepartscookies, ingen reklam, inget inbäddat sociala medier-innehåll och ingen Google Analytics. Typsnitt och bilder serveras från samma webbplats."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "För mer information om hur dina uppgifter behandlas, se integritetspolicyn."
+			"titulo": "4. Hur du ändrar dig",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kan när som helst ändra ditt val eller dra tillbaka ditt samtycke via \"Konfigurera cookies\" längst ner på varje sida eller med knappen på den här sidan. Därifrån kan du också omedelbart radera analysdata som är kopplade till din webbläsare. Och du kan radera cookies via webbläsarens inställningar."
+				}
+			]
+		},
+		{
+			"titulo": "5. Register över ditt val",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Varje gång du accepterar, avvisar eller drar tillbaka ditt samtycke sparas ett register (pseudonymiserat identifieringsnummer, beslut, version av denna policy, datum och tid, sida, språk, ursprung och webbläsare) utan din IP-adress, för att kunna bevisa att samtycket var giltigt. Det sparas i 3 år. Mer information finns i integritetspolicyn."
+				}
+			]
+		},
+		{
+			"titulo": "6. Ändringar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Om denna policy ändras på ett väsentligt sätt kommer cookiemeddelandet att visas igen så att du kan fatta ett nytt beslut."
+				}
+			]
 		}
 	]
 }

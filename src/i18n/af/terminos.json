@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Terminus en voorwaardes — Mario Álvarez",
+		"description": "Regs kennisgewing en gebruiksvoorwaardes van marioalvarez.me: wie die eienaar is, hoe die webwerf gebruik kan word en watter wet van toepassing is.",
+		"heading": "Terminus en voorwaardes"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Wie is agter hierdie webwerf",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "In ooreenstemming met artikel 10 van Wet 34/2002, van dienste van die inligtingsamelewing en elektroniese handel (LSSI-CE), is dit die besonderhede van die eienaar van marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Eienaar: {nombre}",
+						"NIF: {nif}",
+						"Adres: {domicilio}",
+						"E-pos: {email}",
+						"Aktiwiteit: professionele portefeulje en aanbieding van data-analysedienste, pasgemaakte gereedskap, databasisse en verslae en loopbaanondersteuning."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Wat hierdie voorwaardes reguleer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hierdie voorwaardes reguleer die toegang tot en die gebruik van marioalvarez.me (die \"webwerf\") in enige van sy tale. Deur daardeur te blaai, stem jy in om dit te gebruik in ooreenstemming met wat hier gesê word. As jy vir my skryf vanaf die kontakvorm, vra ek jou om dit uitdruklik te aanvaar deur 'n blokkie te merk."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hoe die webwerf gebruik kan word",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jy kan die inhoud raadpleeg en deel deur die oorsprong daarvan te vermeld. Dit is nie toelaatbaar om:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"die webwerf te gebruik vir onwettige doeleindes of doeleindes wat derdepartye benadeel nie;",
+						"te probeer toegang verkry tot beperkte areas (soos die privaat paneel) of die stelsels wat dit huisves nie;",
+						"virusse of enige skadelike kode bekend te stel, of dit opsetlik te oorlaai nie;",
+						"die inhoud te kopieer om dit as jou eie voor te stel nie."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Dienste en kontraktering",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die webwerf verkoop nie produkte of vorder aanlynbetalings nie. As jy belangstel in 'n diens, bespreek ons dit per e-pos of per telefoon en stuur ek vir jou 'n skriftelike voorstel met die omvang, die prys, die spertye en die betaal- en kansellasievoorwaardes. Daardie voorstel, sodra dit deur beide aanvaar is, is die een wat die diens reguleer en swaarder weeg as hierdie voorwaardes."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hoe kansellasies, die reg om te ontbind en terugbetalings werk, word in die terugbetalingsbeleid verduidelik."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intellektuele en industriële eiendom",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die tekste, die ontwerp, die eie kode, die logo en die fotografieë van Mario Álvarez is sy eiendom of word gebruik met magtiging van sy outeurs. Dit word nie toegelaat om dit vir kommersiële doeleindes te reproduseer sonder skriftelike toestemming nie."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Die name en logo's van derdepartye (soos LinkedIn, GitHub, Instagram of die spanne en entiteite wat in die ervaring genoem word) behoort aan hulle eienaars. Om hulle te noem impliseer geen kommersiële verhouding of borgskap nie, tensy uitdruklik gesê."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Die webwerf gebruik derdeparty-hulpbronne met lisensies wat dit toelaat: die tipografieë Fira Sans Extra Condensed en Source Serif 4 (SIL Open Font License 1.1), die ikone van Lucide (ISC-lisensie) en van Simple Icons (CC0 1.0) en die animasiebiblioteek GSAP (gratis standaardlisensie van GreenSock, van Webflow). Elke projek wat op GitHub gekoppel is, het sy eie lisensie."
+				}
+			]
+		},
+		{
+			"titulo": "6. Aanspreeklikheid",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ek werk daaraan om te verseker dat die inligting korrek is en dat die webwerf beskikbaar is, maar ek kan nie waarborg dat daar geen foute of onderbrekings sal wees nie. Die inhoud is insiggewend en vervang nie professionele advies oor jou spesifieke saak nie."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Die webwerf skakel na derdeparty-webwerwe (sosiale netwerke, bewaarplekke, projekwebwerwe). Ek beheer nie hul inhoud of hul beleide nie en is nie verantwoordelik daarvoor nie."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privaatheid en koekies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hoe jou data hanteer word en watter koekies gebruik word, word in die privaatheidsbeleid en in die koekiebeleid verduidelik. Geen deel van die webwerf verplig jou om koekies te aanvaar om dit te kan gebruik nie."
+				}
+			]
+		},
+		{
+			"titulo": "8. Aanvaardingsregister",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Om toestemming te kan bewou wanneer nodig (artikel 7.1 van die AVG), wanneer jy hierdie voorwaardes in die kontakvorm aanvaar of kies watter koekies jy toelaat, word 'n register gestoor met: 'n skuilnaam-identifiseerder, wat jy aanvaar of geweier het, die weergawe van elke dokument, die datum en tyd, die bladsy en die taal van waar af jy dit gedoen het, die oorsprong (banier, konfigurasie of vorm), die blaaier en, in die vorm, 'n verwysingskode wat in jou e-pos reis. Jou IP-adres word nie gestoor nie. Die besonderhede is in die privaatheidsbeleid."
+				}
+			]
+		},
+		{
+			"titulo": "9. Tale",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Die Spaanse weergawe van hierdie tekste is die oorspronklike en swaarder weeg in geval van twyfel. Die res is outomatiese vertalings wat vir gerief aangebied word."
+				}
+			]
+		},
+		{
+			"titulo": "10. Veranderinge",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ek kan hierdie voorwaardes opdateer om aan te pas by wetlike of webwerfveranderinge. Die datum van die huidige weergawe verskyn aan die begin van hierdie bladsy. As die verandering belangrik is, sal ek jou weer vra om dit te aanvaar."
+				}
+			]
+		},
+		{
+			"titulo": "11. Toepaslike wetgewing en jurisdiksie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hierdie voorwaardes word deur die Spaanse wet geregeer. As jy as 'n verbruiker optree, kan jy na die Howe van jou adres en na die arbitrasie- en verbruikersgeskiloplossingstelsels van jou outonome gemeenskap gaan. In alle ander gevalle onderworpe beide partye aan die howe en tribunale van Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

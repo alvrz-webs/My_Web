@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Znanstvenik podataka specijaliziran za sport",
-		"description": "Mario Álvarez, znanstvenik podataka u Valenciji specijaliziran za sportsku analitiku. Data · Sport · Progress.",
+		"description": "Mario Álvarez, znanstvenik podataka iz Valencije specijaliziran za sportsku analitiku. Prvak Španjolske u madisonu i sportski direktor RFEC-a.",
 		"verProyectos": "Pogledaj projekte",
-		"contacto": "Kontakt",
-		"verMas": "Pogledaj više",
+		"verServicios": "Pogledaj kako ti mogu pomoći",
+		"contacto": "Piši mi",
+		"verMas": "Pročitaj više",
 		"verTodosProyectos": "Pogledaj sve projekte",
-		"irAContacto": "Idi na kontakt",
+		"irAContacto": "Piši mi",
 		"herramientas": "Glavni alati"
 	},
 	"hero": {
-		"eyebrow": "Znanstvenik podataka · Sportska analitika · Valencia",
-		"titlePre": "Pretvaram podatke u ",
-		"titleHighlight": "jasne odluke",
-		"subtitle": "Ja sam most između analize podataka i vrhunskog sporta: pretvaram metrike izvedbe u strategije koje donose prevagu na terenu.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, znanstvenik podataka",
+		"title": "Bio sam prvak Španjolske u madisonu.",
+		"subtitle": "Sada studiram Znanost o podacima na UPV-u i analiziram ono što se krije iza performansi: snagu, opterećenje i rezultate. Znam što broj znači jednom vozaču jer sam bio taj vozač.",
+		"palmaresLabel": "Palmares",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Prvenstvo Španjolske u madisonu",
+				"nota": "Pista, s 18 godina"
+			},
+			{
+				"pos": "6.",
+				"texto": "Svjetsko prvenstvo na pisti",
+				"nota": "Španjolska reprezentacija"
+			},
+			{
+				"pos": "6.",
+				"texto": "Europsko prvenstvo na pisti",
+				"nota": "Španjolska reprezentacija"
+			}
+		],
+		"retratoAlt": "Portret Marija Álvareza"
+	},
+	"servicios": {
+		"title": "U čemu ti mogu pomoći",
+		"text": "Radim s momčadima, trenerima i vozačima koji imaju podatke i žele ih iskoristiti. I s tvrtkama koje trebaju urediti svoje.",
+		"cta": "Ispričaj mi svoj slučaj",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Analiza performansi",
+				"texto": "Čitam snagu, opterećenje i rezultate očima vozača. Objašnjavam ti što se događa i što bi se promijenilo.",
+				"prueba": "Elitni vozač i sportski direktor RFEC-a, razine I i II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Prilagođeni alati",
+				"texto": "Scraping, modeli i male aplikacije u Pythonu koje odgovaraju na konkretno pitanje vaše momčadi.",
+				"prueba": "Dva alata za momčad Cofidis: UCI težina i profil utrke."
+			},
+			{
+				"id": "datos",
+				"nombre": "Baze podataka i izvješća",
+				"texto": "Brži upiti, ujedinjene baze i kontrolne ploče u Power BI-ju koje se razumiju na prvu.",
+				"prueba": "Više od 580 tablica i 100 milijuna zapisa u bazi koju optimiziram u SIME Telecomu."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Podrška na utrci",
+				"texto": "Priprema utrka, praćenje vozača i sportska masaža na natjecanju.",
+				"prueba": "Osoblje reprezentacije Valencijske Zajednice."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "O meni",
-		"title": "Podaci s kontekstom terena, ceste i natjecanja",
-		"text": "Ja sam Mario Álvarez, student znanosti o podacima na UPV-u s stvarnim iskustvom u profesionalnom biciklizmu. Kombiniram analizu podataka s vrhunskim sportskim performansama kako bih svaku metriku pretvorio u odluku koja poboljšava rezultate."
+		"title": "Od velodroma do podataka",
+		"text": "Studiram 3. godinu preddiplomskog studija Znanosti o podacima na UPV-u i završio sam magistarski studij digitalizacije i tehnologije primijenjene u sportu. Nisam napustio biciklizam: i dalje vozim na pisti, vodim mlade vozače i radim kao maser s profesionalcima."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Baza",
+			"value": "Benidorm i Valencia"
+		},
+		{
 			"label": "Obrazovanje",
-			"detail": "Prvostupnik znanosti o podacima, Universitat Politècnica de València."
+			"value": "Preddiplomski studij Znanosti o podacima (UPV) i magistarski studij digitalizacije, inovacija i tehnologije u sportu"
 		},
 		{
-			"value": "Elita",
-			"label": "Iskustvo",
-			"detail": "Stvarni rad unutar profesionalnog biciklističkog tima."
+			"label": "Titule",
+			"value": "Sportski direktor RFEC-a, razine I i II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pristup",
-			"detail": "Analitika primijenjena na poboljšanje sportske izvedbe."
+			"label": "Sada",
+			"value": "Dostupan za projekte podataka i performansi"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Iskustvo",
-		"title": "Dva svijeta, isti jezik: izvedba",
-		"text": "Natjecao sam se na najvišoj razini i danas primjenjujem isti kriterij na podatke: razumijem što broj znači sportašu jer sam bio taj sportaš."
+		"title": "Dva kolosijeka, isti posao",
+		"text": "U jednom optimiziram baze podataka i pišem modele. U drugom pripremam utrke i pratim vozače. Oboje se svodi na isto: dobro mjeriti da bi se bolje odlučivalo.",
+		"carriles": [
+			{
+				"nombre": "Podaci",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tablica analiziranih u SIME Telecomu kako bi se nekoliko baza ujedinilo u jednu, bez proširivanja hardvera"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "zapisa u bazi podataka koju optimiziram"
+					},
+					{
+						"cifra": "2",
+						"texto": "alata u Pythonu za momčad Cofidis: UCI težina i profil utrke"
+					}
+				]
+			},
+			{
+				"nombre": "Pista i cesta",
+				"items": [
+					{
+						"cifra": "I i II",
+						"texto": "razine sportskog direktora Kraljevskog španjolskog biciklističkog saveza"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "godina imaju mladi vozači koje treniram i pratim zajedno s ocem"
+					},
+					{
+						"cifra": "2026",
+						"texto": "pomoćni trener s reprezentacijom Valencijske Zajednice na natjecanju"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Razgovaramo li o podacima?",
-		"text": "Ispričaj mi o svom projektu i zajedno ćemo potražiti gdje su odluke koje poboljšavaju izvedbu."
+		"title": "Posljednji krug",
+		"text": "Ako imaš podatke o performansama i neodgovorena pitanja, piši mi pa ćemo to zajedno pogledati."
 	}
 }

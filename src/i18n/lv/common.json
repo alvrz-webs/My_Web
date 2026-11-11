@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Sākums",
 		"sobreMi": "Par mani",
 		"proyectos": "Projekti",
 		"experiencia": "Pieredze",
@@ -7,10 +8,22 @@
 		"ariaMain": "Galvenā navigācija",
 		"openMenu": "Atvērt izvēlni"
 	},
+	"saltar": "Pāriet uz saturu",
+	"tema": "Pārslēgt starp gaišo un tumšo režīmu",
+	"telefono": "Tālrunis",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spānijas čempions medisonā. Datu zinātnieks.",
+		"disponible": "Pieejams datu un sportiskā snieguma projektiem.",
+		"escribeme": "Rakstiet man",
+		"navLabel": "Sadaļas",
+		"legalLabel": "Juridiskā informācija",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sociālie tīkli"
+	},
+	"cierre": {
+		"title": "Vai aprunājamies?",
+		"text": "Ja jums ir snieguma dati un neatbildēti jautājumi, rakstiet man, un mēs tos apskatīsim kopā.",
+		"cta": "Rakstiet man"
 	},
 	"langSwitch": {
 		"label": "Mainīt valodu",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Sīkdatņu piekrišana"
 	},
 	"legal": {
+		"terminos": "Noteikumi un nosacījumi",
 		"privacidad": "Konfidencialitātes politika",
-		"cookies": "Sīkdatņu politika"
+		"cookies": "Sīkdatņu politika",
+		"reembolso": "Atmaksas politika",
+		"actualizado": "Pēdējoreiz atjaunināts",
+		"indice": "Šajā lapā",
+		"otros": "Citi dokumenti"
 	},
 	"person": {
 		"jobTitle": "Datu zinātnieks",
 		"description": "Datu zinātnieks, kas specializējas sporta analītikā un kuram ir pieredze profesionālajā riteņbraukšanā."
+	},
+	"pizarra": {
+		"vueltas": "apļi",
+		"campana": "pēdējā"
 	}
 }

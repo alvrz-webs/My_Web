@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Adatvédelmi Irányelvek — Mario Álvarez",
-		"description": "Mario Álvarez webhelyének adatvédelmi irányelvei: milyen adatokat gyűjtenek, milyen céllal és hogyan gyakorolhatja jogait.",
-		"eyebrow": "Jogi",
-		"heading": "Adatvédelmi Irányelvek"
+		"version": "2026-11-10",
+		"title": "Adatvédelmi irányelvek — Mario Álvarez",
+		"description": "Milyen adatokat kezel a marioalvarez.me, milyen célból, milyen jogalappal, mennyi ideig és hogyan gyakorolhatod a jogaidat.",
+		"heading": "Adatvédelmi irányelvek"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Az adatkezelő",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, lakhelye Benidorm (Alicante), Spanyolország. Kapcsolat: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Az adatkezelés célja",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Ez a webhely belső jelleggel és kizárólag statisztikai célból elemzi, hogy mely tartalmak (szakaszok, projektek) a leghasznosabbak a látogatók számára, a tartalom javítása érdekében. Nem használják fel hirdetési célokra, nem osztják meg harmadik felekkel, és semmilyen körülmények között nem értékesítik."
-				}
-			]
-		},
-		{
-			"titulo": "3. Gyűjtött adatok (csak ha elfogadja az analitikai sütiket)",
+			"titulo": "1. Adatkezelő",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Véletlenszerű, névtelen azonosító, amely nincs összekapcsolva az Ön nevével, e-mail címével vagy más, Önt közvetlenül azonosító információval.",
-						"A meglátogatott oldalak és projektek, valamint az egyes oldalakon eltöltött idő (amíg a fül aktív).",
-						"Interakciók (kattintások projektekre, linkekre vagy gombokra).",
-						"A látogatás dátuma és ideje.",
-						"A megtekintett oldal nyelve.",
-						"Az eszköz típusa (mobil vagy asztali).",
-						"Hozzávetőleges ország, amelyet a Cloudflare infrastruktúráján keresztül szereznek be, az Ön IP-címének tárolása nélkül.",
-						"A hivatkozó oldal (például a LinkedIn vagy egy keresőmotor)."
+						"Adatkezelő: {nombre}",
+						"NIF: {nif}",
+						"Cím: {domicilio}",
+						"E-mail bármilyen adatvédelmi kérdéssel kapcsolatban: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Az Ön IP-címét nem gyűjtik, nem használnak böngésző-azonosítási technikákat (fingerprinting), és nem vesznek igénybe harmadik féltől származó eszközöket, mint például a Google Analytics vagy hasonlók."
+					"texto": "A méretből és a tevékenység típusából adódóan nem kötelező adatvédelmi tisztviselőt kinevezni, így ilyen nincs: írj nekem közvetlenül."
 				}
 			]
 		},
 		{
-			"titulo": "4. Jogi alap",
+			"titulo": "2. Milyen adatokat kezelek, milyen célból és miért",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Az adatkezelés az Ön kifejezett hozzájárulásán alapul (a GDPR 6. cikk (1) bekezdésének a) pontja és a LSSI-CE 22. cikkének (2) bekezdése), amelyet bármikor visszavonhat magának a webhelynek a sütikezelőjéből."
+					"tipo": "tabla",
+					"columnas": [
+						"Milyen célból",
+						"Milyen adatok",
+						"Jogalap",
+						"Mennyi ideig"
+					],
+					"filas": [
+						[
+							"Használati analitika, csak ha elfogadod az elemzési sütiket",
+							"Egy véletlenszerű álneves azonosító (látogatói azonosító sütik: visitante_id), az általad megtekintett szekciók és projektek, valamint az azokban eltöltött idő, a linkekre és gombokra adott kattintások, a nyelv, az eszköz típusa (mobil vagy asztali), a hozzávetőleges ország és a weboldal azon oldala, amelyen az egyes események történnek.",
+							"Az Ön hozzájárulása (a GDPR 6. cikk (1) bekezdés a) pontja és a LSSI-CE 22. cikkének 2. bekezdése).",
+							"12 hónap; utána minden esemény automatikusan törlődik."
+						],
+						[
+							"Hozzájárulások nyilvántartása",
+							"Az álneves azonosító, hogy mit fogadtál el, utasítottál vissza vagy vontál vissza, az egyes dokumentumok verziója, a dátum és az időpont, az oldal, a nyelv, a forrás (szalagcím, beállítások vagy űrlap), a böngésző (felhasználói ügynök) és a hozzávetőleges ország; az űrlapon ráadásul az e-mail hivatkozási kódja.",
+							"A hozzájárulás bizonyítási kötelezettségének teljesítése (a GDPR 6. cikk (1) bekezdés c) pontja és 7. cikkének 1. bekezdése).",
+							"3 év minden egyes regisztrációtól számítva (a LOPDGDD szerinti jogsértések elévülésének maximális határideje); utána automatikusan törlődik."
+						],
+						[
+							"Vlaszolás az e-mailben vagy telefonon érkezett megkeresésedre",
+							"Azok az adatok, amelyeket úgy döntesz, hogy elküldesz nekem: általában a neved, az e-mail címed vagy a telefonszámod és az üzenet tartalma.",
+							"Szerződéskötést megelőző intézkedések alkalmazása az Ön kérésére (a GDPR 6. cikk (1) bekezdés b) pontja) vagy az én jogos érdekem a megválaszolásra (6. cikk (1) bekezdés f) pont).",
+							"Amíg a beszélgetés tart, és az utána következő 1 évig, kivéve, ha szerződést kötünk."
+						],
+						[
+							"Szerződéses szolgáltatás kezelése",
+							"Azonosítási, kapcsolattartási és számlázási adatok.",
+							"A szerződés teljesítése (a GDPR 6. cikk (1) bekezdés b) pontja) valamint adó- és számviteli kötelezettségek (6. cikk (1) bekezdés c) pontja).",
+							"Az adó- és kereskedelmi törvények által megkövetelt időtartam (általában 4 és 6 év között)."
+						],
+						[
+							"Megjegyezni, hogy a világos vagy a sötét témát preferálod-e",
+							"A „tema” preferencia, amely csak a böngésződben van tárolva (helyi tárolás). Nem jut el hozzám.",
+							"Egy funkció, amelyet a gomb megnyomásával kérsz (hozzájárulás alól mentesül a LSSI-CE 22. cikkének 2. bekezdése alapján).",
+							"Amíg ki nem törlöd a böngésződből."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Megőrzési idő",
+			"titulo": "3. Amit nem kérek és nem gyűjtök",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Az adatokat az utolsó látogatástól számított legfeljebb 12 hónapig őrzik meg, ezt követően automatikusan törlésre kerülnek."
+					"texto": "Csak a minden egyes célhoz feltétlenül szükséges adatokat kezelem. Konkrétan:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"A kapcsolati űrlap nem kéri a neved, az e-mail címed és a telefonszámod: nyisd meg az e-mail programodat, és te döntöd el, hogy mit küldesz nekem.",
+						"Nem mentem el az IP-címedet sem az analitikában, sem a hozzájárulások nyilvántartásában.",
+						"Nem használok böngészőazonosítási technikákat (fingerprinting), Google Analytics-et, hirdetési pixeleket vagy harmadik féltől származó sütiket.",
+						"A betűtípusok és a képek ebből a weboldalból kerülnek kiszolgálásra: a látogatáskor a böngésződ nem csatlakozik a Google Fonts-hoz, a GitHubhoz vagy más külső szolgáltatásokhoz."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Címzettek és nemzetközi adattovábbítások",
+			"titulo": "4. Ki vesz még részt benne",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Az adatokat nem adják át és nem értékesítik harmadik feleknek. Tárolásuk a Cloudflare D1-ben történik, amely a Cloudflare, Inc. által biztosított adatbázis-szolgáltatás, és adatfeldolgozóként jár el. A Cloudflare feldolgozhat adatokat az Európai Gazdasági Térségen kívül is; ebben az esetben az ilyen továbbítás az Európai Bizottság által jóváhagyott általános szerződési feltételeken alapul. További információ a Cloudflare adatvédelmi irányelveiben: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Nem adom el és nem adom át az adataidat senkinek, kivéve törvényi kötelezettség esetén. A weboldal működtetése és a válaszadás érdekében ezeket a szolgáltatókat használom:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: üzemelteti a weboldalat és az adatbázist (Cloudflare Pages és D1), valamint adatfeldolgozóként jár el. A weboldal kiszolgálásához olyan technikai csatlakozási adatokat dolgoz fel, mint az IP-címed, amelyekhez nincs hozzáférésem. Irányelvei: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): az az e-mail szolgáltatás, amelyen keresztül fogadom és megválaszolom az e-maileket; ezeket az üzeneteket a saját irányelvei szerint kezeli: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Az Ön jogai",
+			"titulo": "5. Nemzetközi adattovábbítások",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Bikor gyakorolhatja a hozzáféréshez, helyesbítéshez, törléshez, tiltakozáshoz, az adatkezelés korlátozásához és az adathordozhatósághoz való jogait a malvmar5@hotmail.com címre írva. Ezenkívül azonnal, bárkinek történő levélírás nélkül törölheti adatait a webhely cookie-beállításaiban elérhető „Adataim törlése” gomb megnyomásával. Önnek joga van panaszt tenni a Spanyol Adatvédelmi Ügynökségnél is (www.aepd.es), ha úgy ítéli meg, hogy jogait nem kezelték megfelelően."
+					"texto": "A Cloudflare és a Microsoft kezelhet adatokat az Egyesült Államokban. Mindkettő csatlakozott az EU–USA Adatvédelmi Keretrendszerhez (az Európai Bizottság 2023. július 10-i megfelelőségi határozata), és ráadásul a Bizottság által jóváhagyott általános szerződési feltételeket is kínálják."
 				}
 			]
 		},
 		{
-			"titulo": "8. Változások ezen irányelvekben",
+			"titulo": "6. A te jogaid",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Ezek az irányelvek frissülhetnek a jogi változásokhoz vagy magához a webhelyhez való igazodás érdekében."
+					"texto": "Bikor kérheted tőlem az adataidhoz való hozzáférést, azok helyesbítését, törlését, a kezelésük elleni tiltakozást, a korlátozást, vagy hogy átvehesd őket máshoz való továbbításhoz (adathordozhatóság), valamint visszavonhatod a hozzájárulásodat anélkül, hogy ez érintené a korábbi adatkezelést. Írj nekem ide: {email}; legfeljebb egy hónapon belül válaszolok."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Az analitikai adatokat te magad is azonnal törölheted a süti-beállítások „Adataim törlése” gombjával. A hozzájárulások nyilvántartását akkor is megőrizzük, ha visszavonod a hozzájárulásodat, mert pontosan arra szolgál, hogy igazolni lehessen, mikor adtad meg és mikor vontad vissza."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ha úgy véled, hogy nem kezeltem megfelelően a jogaidat, panaszt nyújthatsz be a Spanyol Adatvédelmi Ügynökségnél: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Kiskorúak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A weboldal nem 14 éven aluliaknak szól. Ha 14 év alatti vagy, ne küldj nekem személyes adatokat a szüleid vagy gondviselőid engedélye nélkül (LOPDGDD 7. cikk)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Biztonság",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Az adatok titkosítva utaznak (HTTPS) és egy olyan adatbázisban vannak tárolva, amelyhez csak a felhasználónévvel és jelszóval védett magánfelületről lehet hozzáférni."
+				}
+			]
+		},
+		{
+			"titulo": "9. Változások ezen irányelvekben",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ha valami lényeges dolog megváltozik, frissíteni fogom ezt az oldalat és a verziószám dátumát. Ha a változás a sütiket érinti, a rendszer újra fel fogja tenni a kérdést."
 				}
 			]
 		}

@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Võta ühendust Mario Álvareziga, et rääkida andmetest, sportlikust sooritusest ja projektidest.",
 		"eyebrow": "Kontakt",
-		"heading": "Kas sul on andmed ja lahendamist vajav küsimus?",
-		"intro": "Räägime. Olgu tegemist spordianalüütika projekti, andmealase koostöö või lihtsalt ideega, mida soovid arutada, vastan hea meelega.",
+		"heading": "Kas sul on andmed ja küsimus?",
+		"intro": "Räägime. Olgu tegemist spordianalüütika projekti, andmealase koostöö või ideega, mida soovid arutada, vastan sulle mina.",
 		"email": "E-post",
 		"telefono": "Telefon",
 		"verTelefono": "Vaata telefoni",
-		"redesSociales": "Sotsiaalmeedia"
+		"redesSociales": "Sotsiaalmeedia",
+		"temaTitulo": "Millest sa rääkida tahad?",
+		"temaAyuda": "Vali teema ja ma valmistan sulle e-kirja ette. Sa pead vaid oma juhtumist rääkima.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Sooritusvõime analüüs"
+			},
+			{
+				"id": "herramientas",
+				"label": "Kohandatud tööriist"
+			},
+			{
+				"id": "datos",
+				"label": "Andmebaasid ja aruanded"
+			},
+			{
+				"id": "carrera",
+				"label": "Karjääritoetus"
+			},
+			{
+				"id": "otro",
+				"label": "Muu asi"
+			}
+		],
+		"escribir": "Kirjuta e-kiri",
+		"copiar": "Kopeeri e-kiri",
+		"copiado": "E-kiri kopeeritud",
+		"asunto": "Päring lehelt marioalvarez.me",
+		"cuerpo": "Tere, Mario:\n\nKirjutan sulle seoses: {tema}.\n\nMis mul on:\n\nMida ma tahaksin teada:\n\nTänan.",
+		"otrosCanales": "Muud kanalid",
+		"base": "Baas",
+		"baseValor": "Benidorm ja Valencia",
+		"idiomas": "Keeled",
+		"idiomasValor": "Hispaania, valencia ja inglise keel",
+		"aceptacionesTitulo": "Enne mulle kirjutamist",
+		"aceptoTerminos": "Olen lugenud ja nõustun dokumendiga {enlace}.",
+		"enlaceTerminos": "tingimused ja eeskirjad",
+		"aceptoCookies": "Nõustun analüütikaküpsistega, mida kirjeldatakse dokumendis {enlace} (valikuline).",
+		"enlaceCookies": "küpsiste poliitika",
+		"faltaTerminos": "Mulle kirjutamiseks märgi enne tingimuste ja eeskirjade ruut.",
+		"primeraCapa": "Vastutav töötleja: Mario Álvarez Martínez. Eesmärk: vastata sinu päringule ja soovi korral koostada sulle pakkumine. Õiguslik alus: sinu taotlus. Saajad: keegi, välja arvatud seadusest tulenev kohustus. Õigused: juurdepääs, parandamine, kustutamine ja muud, mida selgitab {enlace}.",
+		"enlacePrivacidad": "privaatsuspoliitika",
+		"refEmail": "Tingimuste aktsepteerimise viide: {ref}"
 	}
 }

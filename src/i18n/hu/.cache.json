@@ -22,6 +22,10 @@
 		}
 	},
 	"common": {
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "Kezdőlap"
+		},
 		"nav/sobreMi": {
 			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
 			"value": "Rólam"
@@ -46,9 +50,37 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "Menü megnyitása"
 		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "Ugrás tartalomra"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "Váltás világos és sötét mód között"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "Telefon"
+		},
 		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "Spanyol madison bajnok. Adattudós."
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "Elérhető adatelemzési és sportteljesítmény-projektekre."
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Írjon nekem"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "Szakaszok"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "Jogi"
 		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
@@ -57,6 +89,18 @@
 		"footer/ariaSocial": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Közösségi média"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "Beszéljünk?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Ha teljesítményadatai vannak és megválaszolatlan kérdései, írjon nekem, és együtt megnézzük."
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Írjon nekem"
 		},
 		"langSwitch/label": {
 			"hash": "48a468d875e628df43bfd0bc4b6b5e5dbb73f4a57e3daeea5e849fe211e2e635",
@@ -98,6 +142,10 @@
 			"hash": "8a27f245f419cf27e1055c0004349e13d64579b79a7c51e2d9d91f35e85874dd",
 			"value": "Sütihozzájárulás"
 		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Felhasználási feltételek"
+		},
 		"legal/privacidad": {
 			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
 			"value": "Adatvédelmi irányelvek"
@@ -106,6 +154,22 @@
 			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
 			"value": "Sütiszabályzat"
 		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Visszatérítési irányelvek"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "Utolsó frissítés"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "Ezen az oldalon"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "Egyéb dokumentumok"
+		},
 		"person/jobTitle": {
 			"hash": "d4eb464156ca87b9fafede59deacd1c0ddc7bcd6971cc2c82d2355c2d38e0c58",
 			"value": "Adattudós"
@@ -113,6 +177,14 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "Sportanalitikára szakosodott adattudós, profi kerékpározásban szerzett tapasztalattal."
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "körök"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "utolsó"
 		}
 	},
 	"inicio": {
@@ -121,136 +193,264 @@
 			"value": "Mario Álvarez — Sportspecifikus adattudós"
 		},
 		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "Mario Álvarez, valenciai adattudós, aki a sportanalitikára szakosodott. Data · Sport · Progress."
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "Mario Álvarez, adatelemző Valenciában, a sportanalitikára specializálódva. Spanyol madison bajnok és RFEC sportszakmai igazgató."
 		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "Projektek megtekintése"
 		},
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "Nézd meg, hogyan segíthetek"
+		},
 		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "Kapcsolat"
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Írj nekem"
 		},
 		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "Tovább"
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "Olvass tovább"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "Összes projekt megtekintése"
 		},
 		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "Ugrás a kapcsolathoz"
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "Írj nekem"
 		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "Fő eszközök"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "Adattudós · Sportanalitika · Valencia"
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "Mario Álvarez, adatelemző"
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "Az adatokat "
-		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "világos döntésekké"
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "Spanyol madison bajnok voltam."
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "alakítom. Én vagyok a híd az adatelemzés és az élvonalbeli sport között: a teljesítménymutatókat olyan stratégiákká alakítom, amelyek számítanak a pályán."
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "Most adattudományt tanulok az UPV-n, és elemzem a teljesítmény mögött rejlő tényezőket: teljesítményt, terhelést és eredményeket. Tudom, mit jelent egy szám egy kerékpáros számára, mert én magam is az a kerékpáros voltam."
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "Eredménylista"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "1."
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "Spanyol madison bajnokság"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "Pálya, 18 évesen"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6."
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "Rólam"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "Pályakerékpáros Világbajnokság"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Spanyol Válogatott"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6."
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "Pályakerékpáros Európa-bajnokság"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "Spanyol Válogatott"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Mario Álvarez portréja"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "Miben tudok segíteni neked?"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "Olyan csapatokkal, edzőkkel és kerékpárosokkal dolgozom, akiknek vannak adataik, és ki akarják hozni belőlük a maximumot. Valamint olyan cégekkel, amelyeknek rendezniük kell a sajátjaikat."
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "Meséld el az esetedet"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Teljesítményelemzés"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "Egy kerékpáros szemével olvasom a teljesítményt, a terhelést és az eredményeket. Elmagyarázom, mi történik, és mit változtatnék meg."
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "Elit kerékpáros és I. és II. szintű RFEC sportszakmai igazgató."
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "Egyedi eszközök"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "Webes adatszedés (scraping), modellek és kis Python-alkalmazások, amelyek válaszolnak a csapatod egy konkrét kérdésére."
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Két eszköz a Cofidis csapat számára: UCI nehézség és versenyprofil."
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Adatbázisok és jelentések"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "Gyorsabb lekérdezések, egységesített adatbázisok és első ránézésre érthető Power BI műszerfalak."
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "Több mint 580 tábla és 100 millió rekord abban az adatbázisban, amelyet a SIME Telecomnál optimalizálok."
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Versenybeli támogatás"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "Versenyek előkészítése, kerékpárosok követése és sportmasszázs a versenyeken."
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "A Valenciai Közösség Válogatottjának stábja."
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "Adatok pályás, úti és versenykontextusban"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "A velodrómtól az adatokig"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "Mario Álvarez vagyok, az UPV adattudományi hallgatója, valós tapasztalattal a profi kerékpározás világában. Ötvözöm az adatelemzést az elit sportteljesítménnyel, hogy minden egyes mutatót olyan döntéssé formáljak, amely javítja az eredményeket."
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "Harmadéves vagyok az Adattudomány alapképzésen az UPV-n, és elvégeztem egy mesterképzést a sportban alkalmazott digitalizáció és technológia területén. Nem léptem ki a kerékpározásból: továbbra is pályán versenyzem, utánpótláskorú kerékpárosokat irányítok, és sportmasszőrként dolgozom profikkal."
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Bázis"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm és Valencia"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
-			"value": "Képzés"
+			"value": "Képzettség"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "Adattudomány alapképzés, Universitat Politècnica de València."
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Adattudomány alapképzés (UPV) és Mesterképzés a Sport Digitalizációjáról, Innovációjáról és Technológiájáról"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "Elit"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "Címek"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Tapasztalat"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "I. és II. szintű RFEC sportszakmai igazgató"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "Valós munka egy profi kerékpárcsapaton belül."
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "Most"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "Megközelítés"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "A sportteljesítmény javítására alkalmazott analitika."
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "Tapasztalat"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "Elérhető adatelemzési és teljesítményprojektekhez"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "Két világ, ugyanaz a nyelv: a teljesítmény"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "Két sáv, ugyanaz a munka"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "Versenyzettem a legmagasabb szinten, és ma ugyanezt a szemléletet alkalmazom az adatokra: értem, mit jelent egy szám egy sportoló számára, mert én magam is az voltam."
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "Az egyikben adatbázisokat optimalizálok és modelleket írok. A másikban versenyeket készítek elő és kerékpárosokat kísérek. Mindkettő ugyanarról szól: jól mérni, hogy jobban dönthessünk."
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "Adatok"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "elemezett tábla a SIME Telecomnál több adatbázis egységesítésére egyetlenbe, a hardver bővítése nélkül"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "rekord az optimalizálás alatt álló adatbázisban"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "Python-eszköz a Cofidis csapat számára: UCI nehézség és versenyprofil"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "Pálya és országút"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I. és II."
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "a Spanyol Kerékpáros Szövetség sportszakmai igazgatói szintjei"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "évesek azok az utánpótláskorú kerékpárosok, akiket edzek és apámmal együtt kísérek"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "segéd a Valenciai Közösség Válogatottjánál versenyen"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "Beszéljünk az adatokról?"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "Utolsó kör"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "Mesélj a projektedről, és keressük meg együtt, hol vannak azok a döntések, amelyek javítják a teljesítményt."
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "Ha vannak teljesítményadataid és megválaszolatlan kérdéseid, írj nekem, és megnézzük együtt."
 		}
 	},
 	"sobre-mi": {
@@ -269,6 +469,30 @@
 		"meta/heading": {
 			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
 			"value": "A velodrómtól az adatokig"
+		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "Ben a kerékpározásban maradtam, a pályán és a csapatautóban is. Ami változott, az a szemléletem: most már adatokkal is."
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "Versenyző, sportigazgató és adatelemző"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "Röviden"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "A lényeg, ha sietsz."
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Mario Álvarez portréja"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "Először a lábak. Most az adatok."
 		},
 		"bio/0": {
 			"hash": "d7d611e5e1b9b9834eb8052dd8edd5c1e1986ee032a232146858b8bcedcbb7b0",
@@ -291,8 +515,8 @@
 			"value": "Alap"
 		},
 		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm és Valencia"
 		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
@@ -307,24 +531,24 @@
 			"value": "Fókusz"
 		},
 		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "Adatok + sportteljesítmény"
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "Adatok és sporteredmények"
 		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "Nyelvek"
 		},
 		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "Anyanyelvi spanyol · valenciai · angol B1"
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "Spanyol (anyanyelvű), valenciai és angol (B1)"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "Képzés"
 		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "Adattudományi alapképzés (UPV) · Mesterképzés a Sport Digitalizációjában, Innovációjában és Technológiájában"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "Adattudományi alapdiploma (UPV) és mesterképzés a sport digitalizációjáról, innovációjáról és technológiájáról"
 		}
 	},
 	"experiencia": {
@@ -344,8 +568,36 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "Két világ, egy közös nyelv: a teljesítmény"
 		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "Egy adatbázisban vagy a csapat kocsijában a feladat ugyanaz: jól mérni a jobb döntés érdekében."
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "rekord az adatbázisban, amelyet a SIME Telecomnál optimalizálok"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "eszköz Pythonban a Cofidis csapat számára"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6."
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "a pályakerékpáros Világ- és Európa-bajnokságon"
+		},
 		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
 			"value": "Adatok és technológia"
 		},
 		"meta/colDeporte": {
@@ -357,8 +609,8 @@
 			"value": "SIME TELECOM — Adattudományi gyakorlat"
 		},
 		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "Adatmérnökség · Benidorm · 2026"
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "Adatmérnökség, Benidorm, 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -373,8 +625,8 @@
 			"value": "Projektek a Cofidis csapattal (World Tour)"
 		},
 		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · 2025 nyár"
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, 2025 nyara"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -416,6 +668,10 @@
 			"hash": "431d7654ad9c17cfef188c6dd216d77877c67074b5a70fccc26b28faecb96342",
 			"value": "Spanyol madison bajnok (18 évesen); pályakerékpáros Világ- és Európa-bajnokság a spanyol válogatottal (6. hely mindkettőn); elit sportoló; aktív, igazolt pályakerékpáros."
 		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "Pályakerékpár, Spanyol Válogatott"
+		},
 		"deporte/1/title": {
 			"hash": "84790bf295460a6481da8ad76c8e18d330f20f20baefb8c4d37a1818f065b8a5",
 			"value": "Sportvezetés"
@@ -423,6 +679,10 @@
 		"deporte/1/paragraphs/0": {
 			"hash": "5dc31dcec5b8544c3fc67da4aedaf52f4da758ba225c9b41297dbeb77730d51b",
 			"value": "I. és II. szintű sportvezető (RFEC); utánpótláskorú (14–18) kerékpárosok képzése és kísérése az édesapámmal; segítő a Valenciai Közösség válogatottjával a versenyeken (2026)."
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, I. és II. szint"
 		},
 		"deporte/2/title": {
 			"hash": "0cfe14a47563f418eb121ade7cad7186d2ee23873832ee8f81b43b56f8c18212",
@@ -457,6 +717,18 @@
 		"page/intro": {
 			"hash": "1fd2e8bddd12d8068f8b276948c38027993b3b9bdfceddc4b731d6f8d8cf0050",
 			"value": "Betekintés a munkámba: a profi kerékpározáshoz készült eszközöktől az akadémiai elemzési és gépi tanulási projektekig."
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "nyilvános GitHub-adattárak"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "közzétett weboldalak"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "nyelvek és eszközök"
 		},
 		"list/eyebrow": {
 			"hash": "e1ddc0cbc9891e79be8a4e469ca4f1acdeb9c42cf5a43ae2fa45c189e422cdae",
@@ -537,12 +809,12 @@
 			"value": "Kapcsolat"
 		},
 		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "Vannek adataid és megválaszolandó kérdésed?"
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "Van adataid és egy kérdésed?"
 		},
 		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "Beszéljünk. Legyen szó sportanalitikai projektről, adatelemzési együttműködésről vagy csak egy ötletről, amit meg akarsz osztani, szívesen válaszolok."
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "Beszéljünk. Legyen szó sportanalitikai projektről, adatokkal kapcsolatos együttműködésről vagy egy megvitatni kívánt ötletről, én válaszolok."
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,206 +831,734 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "Közösségi média"
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "Miről szeretnél beszélni?"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "Válassz egy témát, és előkészítem neked az e-mailt. Csak el kell mesélned az esetedet."
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "Teljesítményelemzés"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "Egyedi eszköz"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "Adatbázisok és jelentések"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "Karriertámogatás"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "Valami más"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "E-mail írása"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "E-mail másolása"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "E-mail másolva"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "Megkeresés a marioalvarez.me oldalsról"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "Szia Mario:\n\nAzért írok, mert: {tema}.\n\nAmim van:\n\nAmit szeretnék tudni:\n\nKöszönöm."
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "Egyéb csatornák"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "Bázis"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm és Valencia"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "Nyelvek"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "Spanyol, valenciai és angol"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "Mielőtt írsz nekem"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "Elolvastam és elfogadom a következőt: {enlace}."
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "általános szerződési feltételek"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "Elfogadom a {enlace} által leírt elemzési sütiket (opcionális)."
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "sütiszabályzat"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "Ahhoz, hogy írni tudj nekem, előbb jelöld be az általános szerződési feltételek dobozát."
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "Felelős: Mario Álvarez Martínez. Cél: a megkeresésed megválaszolása és, ha kéred, ajánlat készítése számodra. Jogalap: a te kérelmed. Címzettek: senki, kivéve jogi kötelezettség esetén. Jogok: hozzáférés, helyesbítés, törlés és a {enlace} által részletezett egyéb jogok."
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "adatvédelmi szabályzat"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "A feltételek elfogadásának hivatkozása: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
 			"value": "Cookie-szabályzat — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "Milyen sütiket használ ez az oldal, milyen céllal, és hogyan módosíthatja hozzájárulását bármikor."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Jogi"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "Milyen sütiket használ a marioalvarez.me, melyekhez van szükség a hozzájárulásodra, és hogyan változtathatod meg a döntésedet bármikor."
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
 			"value": "Cookie-szabályzat"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "Ez a webhely sütiket és hasonló technológiákat (például a böngésző helyi tárolását) használ a megfelelő működés érdekében, és az Ön hozzájárulásával a tartalomhasználat névtelen elemzésére."
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "A te döntésed"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "Felhasznált sütik:"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "Bármikor megváltoztathatod vagy törölheted az adataidat, ugyanolyan egyszerűen, mint ahogyan megadtad őket."
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "1. Mik azok és hogy szükségem van-e a hozzájárulásodra"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "A sütik és hasonló technológiák (mint a böngésző helyi tárolása) kis adatokat mentenek az eszközödre. Az LSSI-CE 22.2 cikke és a Spanyol Adatvédelmi Ügynökség (AEPD) sütihasználati útmutatója szerint azok, amelyek szigorúan szükségesek valamihez, amit te kérsz, nem igényelnek hozzájárulást; az elemzési célúak azonban igen."
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "Ezért ez a weboldal csak akkor menti az elemzési sütit, ha elfogadod, és két egyenlő gombbal, ugyanazon a képernyőn, előre bejelölt dobozok nélkül hagyja elfogadni vagy elutasítani. Az elutasítás nem akadályoz meg abban, hogy a weboldal bármely részét használd."
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "2. Sütik, amelyeket ez a weboldal használ"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "Név"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "Cél"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Mire való"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "Típus"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "Szüksége van a hozzájárulásodra?"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "Időtartam"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "consentimiento_cookies"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "A választásod, a szabályzat ezen verziójának és a hozzájárulási naplód álnéves azonosítójának elmentése"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "Emlékezzen a cookie-szabályzattal kapcsolatos választására"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "Saját, technikai"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "Saját, technikai (hozzájárulást nem igénylő)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "Nem"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 hónap"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "visitante_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "Álnéves azonosító annak megállapítására, hogy mely tartalmak hasznosak"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "Névtelen azonosító a látogatások összekapcsolásához és annak megállapításához, hogy mely tartalom hasznos"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "Saját, elemzési"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "Saját, analitikai (hozzájárulást igénylő)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "Igen"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "12 hónap"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "Ezek közül a sütik közül egyik sem harmadik féltől származik, egyiket sem használják hirdetési célokra, és egyiket sem osztják meg senkivel ezen az oldalon kívül."
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "Bármikor módosíthatja döntését vagy visszavonhatja hozzájárulását az oldallábon található „Sütik beállítása” linken keresztül, és azonnal törölheti minden adatát ugyanezen panel „Adataim törlése” gombjával."
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "Emlékezni arra, hogy a világos vagy a sötét témát preferálod-e; csak akkor kerül mentésre, ha megváltoztatod"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "További információkért arról, hogy miként kezeljük adatait, tekintse meg az Adatvédelmi szabályzatot."
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "Saját, az általad kért testreszabás"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "Nem"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "Amíg nem törlöd"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "3. Amit nem tartalmaz"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "Nincsenek harmadik féltől származó sütik, nincsenek hirdetések, nincsenek beágyazott közösségi média tartalmak és nincs Google Analytics sem. A betűtípusok és a képek közvetlenül erről a weboldalról származnak."
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "4. Hogyan változtasd meg a véleményedet"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "Bármikor megváltoztathatod a döntésedet vagy visszavonhatod a hozzájárulásodat az egyes oldalak láblécében található „Sütik konfigurálása” menüpontból, vagy az ezen az oldalon található gombbal. Onnantól kezdve azonnal törölheted a böngésződhöz társított elemzési adatokat is. A sütiket pedig a böngésződ beállításaiban is törölheted."
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "5. A döntésed rögzítése"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "Minden alkalommal, amikor elfogadod, elutasítod vagy visszavonod a hozzájárulást, egy rekord kerül mentésre (álnéves azonosító, döntés, ezen szabályzat verziója, dátum és időpont, oldal, nyelv, forrás és böngésző), az IP-címed nélkül, annak bizonyítására, hogy a hozzájárulás érvényes volt. 3 évig őrizzük meg. További részletek az adatvédelmi szabályzatban."
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "6. Változások"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "Ha ez a szabályzat jelentős mértékben megváltozik, a sütikkel kapcsolatos figyelmeztetés újra megjelenik, hogy újra dönthess."
 		}
 	},
 	"politica-privacidad": {
 		"meta/title": {
-			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
-			"value": "Adatvédelmi Irányelvek — Mario Álvarez"
+			"hash": "42071aae1686801e5e4d10f528b7ea46c5763923ea327ea82dd99d7216c615cc",
+			"value": "Adatvédelmi irányelvek — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
-			"value": "Mario Álvarez webhelyének adatvédelmi irányelvei: milyen adatokat gyűjtenek, milyen céllal és hogyan gyakorolhatja jogait."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "Jogi"
+			"hash": "835ff2101ffc889e493af11033230e7e7c68e148b166dfda511fa4dc11cf8f23",
+			"value": "Milyen adatokat kezel a marioalvarez.me, milyen célból, milyen jogalappal, mennyi ideig és hogyan gyakorolhatod a jogaidat."
 		},
 		"meta/heading": {
-			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
-			"value": "Adatvédelmi Irányelvek"
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
+			"value": "Adatvédelmi irányelvek"
 		},
 		"secciones/0/titulo": {
-			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
-			"value": "1. Az adatkezelő"
+			"hash": "f26db73f9b3e3b1ff6e9079253f37e391e699fc0a2d4f1d75cc4ad5e736e95a0",
+			"value": "1. Adatkezelő"
 		},
-		"secciones/0/bloques/0/texto": {
-			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
-			"value": "Mario Álvarez Martínez, lakhelye Benidorm (Alicante), Spanyolország. Kapcsolat: malvmar5@hotmail.com"
+		"secciones/0/bloques/0/items/0": {
+			"hash": "30b867430b07e1173b004c27dbfa003df6e989a4730e364af948572908bd1d7b",
+			"value": "Adatkezelő: {nombre}"
+		},
+		"secciones/0/bloques/0/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/0/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Cím: {domicilio}"
+		},
+		"secciones/0/bloques/0/items/3": {
+			"hash": "dc9414558e3d4d2f18d1a3674b75de6fadddac371f9d47a3b552090af8eb521e",
+			"value": "E-mail bármilyen adatvédelmi kérdéssel kapcsolatban: {email}"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "4ded33c4f911f981554d9312d284fb6c54397059545a170e4cc7fe589462e16d",
+			"value": "A méretből és a tevékenység típusából adódóan nem kötelező adatvédelmi tisztviselőt kinevezni, így ilyen nincs: írj nekem közvetlenül."
 		},
 		"secciones/1/titulo": {
-			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
-			"value": "2. Az adatkezelés célja"
+			"hash": "7945e3b3ea085d4541900f91dd5ee53aa546f0101caa5a0e3e02151f2787a1d8",
+			"value": "2. Milyen adatokat kezelek, milyen célból és miért"
 		},
-		"secciones/1/bloques/0/texto": {
-			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
-			"value": "Ez a webhely belső jelleggel és kizárólag statisztikai célból elemzi, hogy mely tartalmak (szakaszok, projektek) a leghasznosabbak a látogatók számára, a tartalom javítása érdekében. Nem használják fel hirdetési célokra, nem osztják meg harmadik felekkel, és semmilyen körülmények között nem értékesítik."
+		"secciones/1/bloques/0/columnas/0": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "Milyen célból"
+		},
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "972848ecab8712f1568b40ae2e85d79982921d9fb636715f12c3ee77922e3552",
+			"value": "Milyen adatok"
+		},
+		"secciones/1/bloques/0/columnas/2": {
+			"hash": "0e2ca19b51a48180494077bf03cdc3954e09bdee2636072ad50078371e62a9a5",
+			"value": "Jogalap"
+		},
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "37f1242360cae04ca75412a4e8cb1f99084336707371d837bfc22cb6e7f5573f",
+			"value": "Mennyi ideig"
+		},
+		"secciones/1/bloques/0/filas/0/0": {
+			"hash": "66f19c829749fd1569fc7654b5c44b3cfab1a9f5435c0500d82c758b69eba6f8",
+			"value": "Használati analitika, csak ha elfogadod az elemzési sütiket"
+		},
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "2316c78abc893aa7ee9c70d0d8941a2f1773cb0072467c8339cd9fe754f34ffd",
+			"value": "Egy véletlenszerű álneves azonosító (látogatói azonosító sütik: visitante_id), az általad megtekintett szekciók és projektek, valamint az azokban eltöltött idő, a linkekre és gombokra adott kattintások, a nyelv, az eszköz típusa (mobil vagy asztali), a hozzávetőleges ország és a weboldal azon oldala, amelyen az egyes események történnek."
+		},
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "48f423d1cad8999cc02a95461334fb67708564a718aae008e8e3d4bd6f1abe5c",
+			"value": "Az Ön hozzájárulása (a GDPR 6. cikk (1) bekezdés a) pontja és a LSSI-CE 22. cikkének 2. bekezdése)."
+		},
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "7793be198aa2fa735865c4d0184ca23264562c7145f55c2181325fac495c2008",
+			"value": "12 hónap; utána minden esemény automatikusan törlődik."
+		},
+		"secciones/1/bloques/0/filas/1/0": {
+			"hash": "c9085a6241675f43631bb0acc7db73240979340e52f215e12bac23565cfb2c26",
+			"value": "Hozzájárulások nyilvántartása"
+		},
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "4a6cae5ac5e5e2b02740d4fd1afb185091db19db70cf3c1532949b5a71f6d025",
+			"value": "Az álneves azonosító, hogy mit fogadtál el, utasítottál vissza vagy vontál vissza, az egyes dokumentumok verziója, a dátum és az időpont, az oldal, a nyelv, a forrás (szalagcím, beállítások vagy űrlap), a böngésző (felhasználói ügynök) és a hozzávetőleges ország; az űrlapon ráadásul az e-mail hivatkozási kódja."
+		},
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "f49d2c07e64734bea73e86a5f913788d7fbef6b7ba587c45d3e43a2fe892e954",
+			"value": "A hozzájárulás bizonyítási kötelezettségének teljesítése (a GDPR 6. cikk (1) bekezdés c) pontja és 7. cikkének 1. bekezdése)."
+		},
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "a2ecf36d6bf6235f3dcca3b1c5fde18943f1cf05d1520617dc789b7a4217b98d",
+			"value": "3 év minden egyes regisztrációtól számítva (a LOPDGDD szerinti jogsértések elévülésének maximális határideje); utána automatikusan törlődik."
+		},
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "a0b02e5aea3ce82e5aeb02b12c9a190e7b4b8161dadce962d7469d0a4e5c5427",
+			"value": "Vlaszolás az e-mailben vagy telefonon érkezett megkeresésedre"
+		},
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "6fed1a34cd293c983716f8c74612d9b18e8869913be6cbfb6dda6384e8613438",
+			"value": "Azok az adatok, amelyeket úgy döntesz, hogy elküldesz nekem: általában a neved, az e-mail címed vagy a telefonszámod és az üzenet tartalma."
+		},
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "89d10b2cde2d06df634b68d50f4bc73acd354488c981db6412af30a4f424f360",
+			"value": "Szerződéskötést megelőző intézkedések alkalmazása az Ön kérésére (a GDPR 6. cikk (1) bekezdés b) pontja) vagy az én jogos érdekem a megválaszolásra (6. cikk (1) bekezdés f) pont)."
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "74f9dde75113c5650697044fdbc4c3a3a97598af5331ce0ef428bbf822cc0c21",
+			"value": "Amíg a beszélgetés tart, és az utána következő 1 évig, kivéve, ha szerződést kötünk."
+		},
+		"secciones/1/bloques/0/filas/3/0": {
+			"hash": "f9c4c0ee00650b320f51840cabbb7e6e642e3b61c8837a74d8d996e267df1b24",
+			"value": "Szerződéses szolgáltatás kezelése"
+		},
+		"secciones/1/bloques/0/filas/3/1": {
+			"hash": "63ec8a60b26e57f8d39da6ce54f8230cb8530bcf816369573da70e9e591e2822",
+			"value": "Azonosítási, kapcsolattartási és számlázási adatok."
+		},
+		"secciones/1/bloques/0/filas/3/2": {
+			"hash": "d802d684897cfb64dab5dfb2b82d148f56cec2c89e6f825d0e1bc61ac73971a3",
+			"value": "A szerződés teljesítése (a GDPR 6. cikk (1) bekezdés b) pontja) valamint adó- és számviteli kötelezettségek (6. cikk (1) bekezdés c) pontja)."
+		},
+		"secciones/1/bloques/0/filas/3/3": {
+			"hash": "11f2d939b6159a847bc51d24414c4b9e793bf6825f7c1398abd8db2c71593d92",
+			"value": "Az adó- és kereskedelmi törvények által megkövetelt időtartam (általában 4 és 6 év között)."
+		},
+		"secciones/1/bloques/0/filas/4/0": {
+			"hash": "063288f4f5c95e4a853b475581be68a6fe1a5d2f897f910b64cf1e112b6ad45c",
+			"value": "Megjegyezni, hogy a világos vagy a sötét témát preferálod-e"
+		},
+		"secciones/1/bloques/0/filas/4/1": {
+			"hash": "dc01e55b7f3a74f530144f1343bf45325fd1f19a6506d36f1a840187ea7c2ce1",
+			"value": "A „tema” preferencia, amely csak a böngésződben van tárolva (helyi tárolás). Nem jut el hozzám."
+		},
+		"secciones/1/bloques/0/filas/4/2": {
+			"hash": "b040ff84d8f2d571755a6a5e7ef2c402852e9dec6a680b046a8840b517f0258f",
+			"value": "Egy funkció, amelyet a gomb megnyomásával kérsz (hozzájárulás alól mentesül a LSSI-CE 22. cikkének 2. bekezdése alapján)."
+		},
+		"secciones/1/bloques/0/filas/4/3": {
+			"hash": "8fb068d79a6505e39426755b0e06217d53afb0432147bf3814d2980ab9e64f5a",
+			"value": "Amíg ki nem törlöd a böngésződből."
 		},
 		"secciones/2/titulo": {
-			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
-			"value": "3. Gyűjtött adatok (csak ha elfogadja az analitikai sütiket)"
+			"hash": "7feaf44c775a941b92da3e422a3dfbbf1af6d00c97a112d765f00b6c6e69145c",
+			"value": "3. Amit nem kérek és nem gyűjtök"
 		},
-		"secciones/2/bloques/0/items/0": {
-			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
-			"value": "Véletlenszerű, névtelen azonosító, amely nincs összekapcsolva az Ön nevével, e-mail címével vagy más, Önt közvetlenül azonosító információval."
+		"secciones/2/bloques/0/texto": {
+			"hash": "2e532d9922da0772b96e789b3bc6716e06e430392ef62cdbafbf5a64a8b602a0",
+			"value": "Csak a minden egyes célhoz feltétlenül szükséges adatokat kezelem. Konkrétan:"
 		},
-		"secciones/2/bloques/0/items/1": {
-			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
-			"value": "A meglátogatott oldalak és projektek, valamint az egyes oldalakon eltöltött idő (amíg a fül aktív)."
+		"secciones/2/bloques/1/items/0": {
+			"hash": "162d4749f1b4ecef620defa8cc4315c9cdeb14495be2b079d86990bab9921fcc",
+			"value": "A kapcsolati űrlap nem kéri a neved, az e-mail címed és a telefonszámod: nyisd meg az e-mail programodat, és te döntöd el, hogy mit küldesz nekem."
 		},
-		"secciones/2/bloques/0/items/2": {
-			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
-			"value": "Interakciók (kattintások projektekre, linkekre vagy gombokra)."
+		"secciones/2/bloques/1/items/1": {
+			"hash": "ff397d4902c0ffd1189f8e1e35e2bcb687831fb514a3f9e543d45b5097cd02cf",
+			"value": "Nem mentem el az IP-címedet sem az analitikában, sem a hozzájárulások nyilvántartásában."
 		},
-		"secciones/2/bloques/0/items/3": {
-			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
-			"value": "A látogatás dátuma és ideje."
+		"secciones/2/bloques/1/items/2": {
+			"hash": "f56194a61aec7b27015853b20033d553cbb9ac044fe9f04346b24415eb7adbcb",
+			"value": "Nem használok böngészőazonosítási technikákat (fingerprinting), Google Analytics-et, hirdetési pixeleket vagy harmadik féltől származó sütiket."
 		},
-		"secciones/2/bloques/0/items/4": {
-			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
-			"value": "A megtekintett oldal nyelve."
-		},
-		"secciones/2/bloques/0/items/5": {
-			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
-			"value": "Az eszköz típusa (mobil vagy asztali)."
-		},
-		"secciones/2/bloques/0/items/6": {
-			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
-			"value": "Hozzávetőleges ország, amelyet a Cloudflare infrastruktúráján keresztül szereznek be, az Ön IP-címének tárolása nélkül."
-		},
-		"secciones/2/bloques/0/items/7": {
-			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
-			"value": "A hivatkozó oldal (például a LinkedIn vagy egy keresőmotor)."
-		},
-		"secciones/2/bloques/1/texto": {
-			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
-			"value": "Az Ön IP-címét nem gyűjtik, nem használnak böngésző-azonosítási technikákat (fingerprinting), és nem vesznek igénybe harmadik féltől származó eszközöket, mint például a Google Analytics vagy hasonlók."
+		"secciones/2/bloques/1/items/3": {
+			"hash": "0ba62a40c9ed5bff67053ea0f359fcdfe831ea6223962396ea3e25270f49b79e",
+			"value": "A betűtípusok és a képek ebből a weboldalból kerülnek kiszolgálásra: a látogatáskor a böngésződ nem csatlakozik a Google Fonts-hoz, a GitHubhoz vagy más külső szolgáltatásokhoz."
 		},
 		"secciones/3/titulo": {
-			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
-			"value": "4. Jogi alap"
+			"hash": "e97f09119206a0bb54b91a4d0525a1611a86cd2a1ffb1ce68ecee7e407f5b4b2",
+			"value": "4. Ki vesz még részt benne"
 		},
 		"secciones/3/bloques/0/texto": {
-			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
-			"value": "Az adatkezelés az Ön kifejezett hozzájárulásán alapul (a GDPR 6. cikk (1) bekezdésének a) pontja és a LSSI-CE 22. cikkének (2) bekezdése), amelyet bármikor visszavonhat magának a webhelynek a sütikezelőjéből."
+			"hash": "9379c1c29056fb76c9aaac14eec204ccc80f1839470f1fa57d869d5ede4e8554",
+			"value": "Nem adom el és nem adom át az adataidat senkinek, kivéve törvényi kötelezettség esetén. A weboldal működtetése és a válaszadás érdekében ezeket a szolgáltatókat használom:"
+		},
+		"secciones/3/bloques/1/items/0": {
+			"hash": "ba8d5055f95f76f5d5f213f9ea6abd0d2e73614739ee762b8e003da614270e78",
+			"value": "Cloudflare, Inc.: üzemelteti a weboldalat és az adatbázist (Cloudflare Pages és D1), valamint adatfeldolgozóként jár el. A weboldal kiszolgálásához olyan technikai csatlakozási adatokat dolgoz fel, mint az IP-címed, amelyekhez nincs hozzáférésem. Irányelvei: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/3/bloques/1/items/1": {
+			"hash": "e5466224dac0fab3f83206452f2e1dce4d397ed8821b014e24422d4c03931809",
+			"value": "Microsoft Corporation (Outlook.com): az az e-mail szolgáltatás, amelyen keresztül fogadom és megválaszolom az e-maileket; ezeket az üzeneteket a saját irányelvei szerint kezeli: https://privacy.microsoft.com/es-es/privacystatement"
 		},
 		"secciones/4/titulo": {
-			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
-			"value": "5. Megőrzési idő"
+			"hash": "0f1733989dcc9d3e7da935c30da90d6d47f7e418e0623ece20bdddea5480e10d",
+			"value": "5. Nemzetközi adattovábbítások"
 		},
 		"secciones/4/bloques/0/texto": {
-			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
-			"value": "Az adatokat az utolsó látogatástól számított legfeljebb 12 hónapig őrzik meg, ezt követően automatikusan törlésre kerülnek."
+			"hash": "730d0cdbf2408bcb369456290dbb1557289c98b1c1ad50e6c7738990068ee833",
+			"value": "A Cloudflare és a Microsoft kezelhet adatokat az Egyesült Államokban. Mindkettő csatlakozott az EU–USA Adatvédelmi Keretrendszerhez (az Európai Bizottság 2023. július 10-i megfelelőségi határozata), és ráadásul a Bizottság által jóváhagyott általános szerződési feltételeket is kínálják."
 		},
 		"secciones/5/titulo": {
-			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
-			"value": "6. Címzettek és nemzetközi adattovábbítások"
+			"hash": "4ec1c1d4af17035281741f9ce83569b18261968bce5f1398635042c17d1ea5aa",
+			"value": "6. A te jogaid"
 		},
 		"secciones/5/bloques/0/texto": {
-			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
-			"value": "Az adatokat nem adják át és nem értékesítik harmadik feleknek. Tárolásuk a Cloudflare D1-ben történik, amely a Cloudflare, Inc. által biztosított adatbázis-szolgáltatás, és adatfeldolgozóként jár el. A Cloudflare feldolgozhat adatokat az Európai Gazdasági Térségen kívül is; ebben az esetben az ilyen továbbítás az Európai Bizottság által jóváhagyott általános szerződési feltételeken alapul. További információ a Cloudflare adatvédelmi irányelveiben: https://www.cloudflare.com/privacypolicy/"
+			"hash": "6315177b90b21cdfbed7fbfaec8577e8da3be3f21abc4b0aa4ee3768d05d5730",
+			"value": "Bikor kérheted tőlem az adataidhoz való hozzáférést, azok helyesbítését, törlését, a kezelésük elleni tiltakozást, a korlátozást, vagy hogy átvehesd őket máshoz való továbbításhoz (adathordozhatóság), valamint visszavonhatod a hozzájárulásodat anélkül, hogy ez érintené a korábbi adatkezelést. Írj nekem ide: {email}; legfeljebb egy hónapon belül válaszolok."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "861c3a71db2dc302875ad844414aa75c76842e60449a723c31645d069833fcce",
+			"value": "Az analitikai adatokat te magad is azonnal törölheted a süti-beállítások „Adataim törlése” gombjával. A hozzájárulások nyilvántartását akkor is megőrizzük, ha visszavonod a hozzájárulásodat, mert pontosan arra szolgál, hogy igazolni lehessen, mikor adtad meg és mikor vontad vissza."
+		},
+		"secciones/5/bloques/2/texto": {
+			"hash": "893606189520d2e9c25fbc294f12b208763cd9a34b5e2e9260c64d938f8c636c",
+			"value": "Ha úgy véled, hogy nem kezeltem megfelelően a jogaidat, panaszt nyújthatsz be a Spanyol Adatvédelmi Ügynökségnél: https://www.aepd.es"
 		},
 		"secciones/6/titulo": {
-			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
-			"value": "7. Az Ön jogai"
+			"hash": "003ddb2514982633893943d31d98d557414a83f3a0566ffe931a21885a10d93c",
+			"value": "7. Kiskorúak"
 		},
 		"secciones/6/bloques/0/texto": {
-			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
-			"value": "Bikor gyakorolhatja a hozzáféréshez, helyesbítéshez, törléshez, tiltakozáshoz, az adatkezelés korlátozásához és az adathordozhatósághoz való jogait a malvmar5@hotmail.com címre írva. Ezenkívül azonnal, bárkinek történő levélírás nélkül törölheti adatait a webhely cookie-beállításaiban elérhető „Adataim törlése” gomb megnyomásával. Önnek joga van panaszt tenni a Spanyol Adatvédelmi Ügynökségnél is (www.aepd.es), ha úgy ítéli meg, hogy jogait nem kezelték megfelelően."
+			"hash": "a5bc9a70e47befee36963581af0ce2875c63d35566435cb7078f36ee013a0da5",
+			"value": "A weboldal nem 14 éven aluliaknak szól. Ha 14 év alatti vagy, ne küldj nekem személyes adatokat a szüleid vagy gondviselőid engedélye nélkül (LOPDGDD 7. cikk)."
 		},
 		"secciones/7/titulo": {
-			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
-			"value": "8. Változások ezen irányelvekben"
+			"hash": "89bad5840c8dee67d2a6178a78cebda20b28cbe970a49fd79a807b44b36df8c4",
+			"value": "8. Biztonság"
 		},
 		"secciones/7/bloques/0/texto": {
-			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
-			"value": "Ezek az irányelvek frissülhetnek a jogi változásokhoz vagy magához a webhelyhez való igazodás érdekében."
+			"hash": "42a5a107a1cdae9c58164e80236ff37ee90982816a2bc13cca85a541687e78ce",
+			"value": "Az adatok titkosítva utaznak (HTTPS) és egy olyan adatbázisban vannak tárolva, amelyhez csak a felhasználónévvel és jelszóval védett magánfelületről lehet hozzáférni."
+		},
+		"secciones/8/titulo": {
+			"hash": "281d85edd7253d4dfcfac85764031516f590f798423fec77375a13cd6628419b",
+			"value": "9. Változások ezen irányelvekben"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "c02f8e64ffd3e30fd572c5e4ffa814fa674bc2ce1bc1ae97cbda29bc426a0641",
+			"value": "Ha valami lényeges dolog megváltozik, frissíteni fogom ezt az oldalat és a verziószám dátumát. Ha a változás a sütiket érinti, a rendszer újra fel fogja tenni a kérdést."
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "Felhasználási feltételek — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "A marioalvarez.me jogi nyilatkozata és felhasználási feltételei: ki a tulajdonos, hogyan használható a weboldal és milyen jogszabályok vonatkoznak rá."
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "Felhasználási feltételek"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "1. Ki áll a weboldal mögött?"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "Az információs társadalom szolgáltatásairól és az elektronikus kereskedelemről szóló 34/2002. sz. törvény (LSSI-CE) 10. cikkének megfelelően itt találhatók a marioalvarez.me tulajdonosának adatai:"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "Tulajdonos: {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "Cím: {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "Email: {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "Tevékenység: szakmai portfólió, valamint adatelemzési szolgáltatások, egyedi eszközök, adatbázisok és jelentések készítése, valamint karriertámogatás nyújtása."
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "2. Mit szabályoznak ezek a feltételek?"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "Ezek a feltételek a marioalvarez.me (a „weboldal”) bármely nyelven történő elérését és használatát szabályozzák. Az oldalon való böngészéssel elfogadod, hogy azt az itt leírtak szerint használod. Ha a kapcsolatfelvételi űrlapon keresztül írsz nekem, kérem, hogy egy jelölőnégyzet bepipálásával kifejezetten fogadd el ezeket."
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "3. Hogyan használható a weboldal?"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "A tartalmakat megtekintheted és megoszthatod a forrás megjelölésével. Tilos:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "a weboldal használata törvényellenes célokra vagy harmadik felek károsítására;"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "megkísérelni a belépést korlátozott területekre (például a privát panelre) vagy az azt hosztoló rendszerekbe;"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "vírusokat vagy bármilyen kártékony kódot bejuttatni, vagy szándékosan túlterhelni a weboldalt;"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "a tartalmakat sajátodként feltüntetni másolással."
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "4. Szolgáltatások és megrendelés"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "A weboldal nem értékesít termékeket, és nem szed online fizetéseket. Ha felkeltettem az érdeklődésedet egy szolgáltatás iránt, e-mailben vagy telefonon megbeszéljük, és küldök neked egy írásos ajánlatot a terjedelemről, az árról, a határidőkről, valamint a fizetési és lemondási feltételekről. Ez az ajánlat, miután mindketten elfogadtuk, szabályozza a szolgáltatást, és elsőbbséget élvez ezen feltételekkel szemben."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "A lemondások, az elállási jog és a visszatérítések működését a visszatérítési szabályzat ismerteti."
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "5. Szellemi és ipari tulajdonjog"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "A szövegek, a design, a saját kód, a logó és Mario Álvarez fényképei a saját tulajdonát képezik, vagy szerzőik engedélyével kerülnek felhasználásra. Engedély nélkül tilos őket kereskedelmi céllal reprodukálni."
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "A harmadik felek nevei és logói (mint például a LinkedIn, a GitHub, az Instagram vagy a tapasztalatok között említett csapatok és szervezetek) a saját tulajdonosaik tulajdonát képezik. Említésük nem von maga után semmilyen kereskedelmi kapcsolatot vagy szponzorációt, kivéve, ha azt kifejezetten jelezzük."
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "A weboldal olyan harmadik féltől származó erőforrásokat használ, amelyek ehhez engedéllyel rendelkeznek: Fira Sans Extra Condensed és Source Serif 4 tipográfiák (SIL Open Font License 1.1), Lucide ikonok (ISC licenc) és Simple Icons (CC0 1.0), valamint a GSAP animációs könyvtár (GreenSock ingyenes standard licenc, a Webflow-tól). A GitHubon hivatkozott minden egyes projekt saját licenccel rendelkezik."
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "6. Felelősség"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "Dolgozom azon, hogy az információk helyesek legyenek, és a weboldal elérhető legyen, de nem tudom garantálni, hogy nincsenek hibák vagy megszakítások. A tartalmak tájékoztató jellegűek, és nem helyettesítik a konkrét esetedre szabott szakmai tanácsadást."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "A weboldal harmadik felek oldalaira (közösségi oldalak, tárolók, projektwebhelyek) mutat hivatkozásokat. Nem ellenőrzöm azok tartalmát vagy szabályzatait, és nem vállalok értük felelősséget."
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "7. Adatvédelem és sütik"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "Az adatok kezelését és a használt sütiket az adatvédelmi szabályzat és a sütiszabályzat ismerteti. A weboldal semmilyen része sem kötelezi a sütik elfogadására a használatához."
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "8. Elfogadások nyilvántartása"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "Annak érdekében, hogy szükség esetén igazolni lehessen a hozzájárulást (a GDPR 7. cikkének 1. bekezdése), amikor elfogadod ezeket a feltételeket a kapcsolatfelvételi űrlapon, vagy kiválasztod, hogy milyen sütiket engedélyezel, egy naplófájl jön létre a következő adatokkal: egy álneves azonosító, mit fogadtál el vagy utasítottál el, az egyes dokumentumok verziója, a dátum és az időpont, az oldal és a nyelv, ahonnan ezt tetted, a forrás (banner, beállítások vagy űrlap), a böngésző, és az űrlapon egy hivatkozási kód, amely az e-mailödben utazik. Az IP-címedet nem mentjük. A részleteket az adatvédelmi szabályzat tartalmazza."
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "9. Nyelvek"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "Ezen szövegek spanyol nyelvű változata az eredeti, és kétség esetén az élvez elsőbbséget. A többi automatikus fordítás, amelyet a kényelem kedvéért bocsátunk rendelkezésre."
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "10. Változtatások"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "Frissíthetem ezeket a feltételeket, hogy igazodjanak a jogi vagy a weboldalt érintő változásokhoz. Az érvényes verzió dátuma az oldal elején látható. Ha a változás jelentős, újra megkérem Önt/téged az elfogadásukra."
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "11. Alkalmazandó jog és illetékesség"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "Ezekre a feltételekre a spanyol jog az irányadó. Ha fogyasztóként jársz el, fordulhatsz a lakóhelyed szerinti bíróságokhoz, valamint a autonóm közösséged fogyasztói vitarendezési és választottbírósági rendszereihez. Egyéb esetekben mindkét fél Benidorm (Alicante) bíróságainak és törvényszékeinek veti alá magát."
+		}
+	},
+	"politica-reembolso": {
+		"meta/title": {
+			"hash": "bdcfda545addeea0886ff82b66b64f5f56f91e39aa6afa93ede2e498fc231c44",
+			"value": "Visszatérítési szabályzat — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "5b9e6941811b24b85c7ab3f7fc2f74a6a41fe53d808ff533e8fca8d66fbbc4da",
+			"value": "Hogyan működnek a lemondások, az elállási jog és a visszatérítések a Mario Álvarez szolgáltatásai esetében."
+		},
+		"meta/heading": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "Visszatérítési szabályzat"
+		},
+		"secciones/0/titulo": {
+			"hash": "ff143d312f054ce7182b3caf2913fadf9053edbe7bbc5126c0500dbf9924dcde",
+			"value": "1. Ez a weboldal nem fogad el fizetéseket"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "14d92dd27a30ce3225cc0c90b70e3ebf5c3a8b786edbc2a8282dfefe97f97e3c",
+			"value": "A marioalvarez.me oldalon nem értékesítenek termékeket, és nem történik online fizetés. A szolgáltatások (teljesítményelemzés, egyedi eszközök, adatbázisok és jelentések, valamint karriertámogatás) külön, írásbeli árajánlat alapján kerülnek megkötésre."
+		},
+		"secciones/1/titulo": {
+			"hash": "50402d539cae16eba5d0c0bd8ed574497c5bedd07c9f76a6c54b995228b9d194",
+			"value": "2. Amit az ajánlatod mond"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "dba3b38c35565ddc44e04919f2b2ca0f8953108a319093cee6475d431c6c77fa",
+			"value": "Minden ajánlat tartalmazza az árat, a fizetés módját és idejét, valamint a lemondási feltételeket. Ha az ajánlat ettől a szabályzattól eltérő rendelkezést tartalmaz, az ajánlat az irányadó, kivéve, ha ez a szabályzat nagyobb fogyasztói jogokat biztosít számodra."
+		},
+		"secciones/2/titulo": {
+			"hash": "4da83f4f1afe5790834f743bdc1ca5eaabe6d4a85865798796e14a32c2912fae",
+			"value": "3. Ha lemondod"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "e9dd1fcdc7020f5821d857b0db902ad60b806b130178587e00206cc2379bcdc4",
+			"value": "Hacsak írásban másként nem állapodunk meg:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "3d2e21613adc4a86859e877cf39529e9de64cfaecebc6ee4ac24c9b268fec07b",
+			"value": "Ha a munka megkezdése előtt mondod le, az előre kifizetett összeget teljes egészében visszatérítem."
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "f9b70232e9bfc004f82934930816cccba917692c2ed1ba56637d5a85f27eed9c",
+			"value": "Ha a munka megkezdése után mondod le, csak a már elvégzett részért kell fizetned, a befizetett összeg fennmaradó részét pedig visszatérítem."
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "367ad099f56f6a5ddd4c394d2e66479d6a7421c518e28ede6dc88e5229f6bed8",
+			"value": "A már átadott és elfogadott munkát nem térítem vissza, kivéve, ha olyan hibái vannak, amelyeket nem javítanak ki."
+		},
+		"secciones/3/titulo": {
+			"hash": "d7e3fed395f638f5604782dab666b621dd5f132a48b827e2fe042194881148cf",
+			"value": "4. Elállási jog (ha fogyasztó vagy)"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "5e178abe0b325218fe10f437c89f7da3090cd74714a8a5c2adc1c35739b1804b",
+			"value": "Ha fogyasztóként (szakmai tevékenységed körén kívül eljáró személyként) kötöd meg a szerződést, és a szerződés távollévők között, e-mailben vagy telefonon jön létre, a megkötéstől számított 14 naptári napon belül indoklás nélkül elállhatsz a szerződéstől a Fogyasztók és Felhasználók Védelméről szóló általános törvény szövegének egységes szerkezetbe foglalt törvénye (1/2007. sz. királyi törvényerejű rendelet) 102–108. cikkei alapján."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "f6ccce5a6cdfe56e4eb204d74e1064cfaaf14b0a6401d34d54943282934f4faa",
+			"value": "Ha kifejezetten kéred, hogy a munka elvégzését ezen 14 napon belül kezdjem meg, majd ezt követően állsz el a szerződéstől, akkor csak az addig nyújtott szolgáltatás arányos részét köteles megfizetni. Ha a szolgáltatás a határidőn belül teljes egészében le lett adva, az Ön előzetes és kifejezett hozzájárulásával, valamint annak tudatában, hogy így elveszíti ezt a jogot, többé nem állhat el (103. a) cikk)."
+		},
+		"secciones/4/titulo": {
+			"hash": "a6b6f5e3070a156219fd0eb8a8485c11404e66c1db10f2be65a78ccea7dadb43",
+			"value": "5. Hogyan kérheted"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "faffb4c0f6bdf1648e409afaf168c981f036d78cdc26c1f190944b92d95326c9",
+			"value": "Írj nekem a {email} címre a neveddel, a szolgáltatással és a megkötés dátumával. Használhatod ezt az elállási nyilatkozat mintát (nem kötelező):"
+		},
+		"secciones/4/bloques/1/items/0": {
+			"hash": "02f390f8ef61e6f8180ebd55d94bf24cd7742af44ba37433395550e7a2f7082f",
+			"value": "Címzett: {nombre}, {domicilio}, {email}:"
+		},
+		"secciones/4/bloques/1/items/1": {
+			"hash": "6705d14225a84c97d190c86895abdd4ae2b7b92e03befbd46052e9ac22718df4",
+			"value": "Ezúton közlöm, hogy elállok az alábbi szolgáltatás nyújtására vonatkozó szerződésemtől: [szolgáltatás]."
+		},
+		"secciones/4/bloques/1/items/2": {
+			"hash": "b756f3bd6d0bb6e148c0d59d09dae258a0f664174766530bdc6f938f5592e68a",
+			"value": "Megkötés dátuma: [dátum]."
+		},
+		"secciones/4/bloques/1/items/3": {
+			"hash": "a1e157dce89e05f90d3590bcbac310ee77465b68928d5123598551e40aea2db8",
+			"value": "A fogyasztó neve: [név]."
+		},
+		"secciones/4/bloques/1/items/4": {
+			"hash": "6da3fe45c69b15e52be050ff970ab79ea26ee9b6bf0a7205d117978a159fdaff",
+			"value": "A fogyasztó lakcíme: [lakcím]."
+		},
+		"secciones/4/bloques/1/items/5": {
+			"hash": "7fc0956f32767e8a77ad2f5755c8e13cf040d910c328534129ef063dc106acf4",
+			"value": "Dátum: [dátum]."
+		},
+		"secciones/5/titulo": {
+			"hash": "4f7a4409f1709a01b1af2b1edf6e71d467f7e5a5f4e0ed8c74717a33964f5b40",
+			"value": "6. A visszatérítés határideje és módja"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "e842a6745c96e277d063610a98f358f325d922b561595105917cc4d9b5c2c97c",
+			"value": "A döntésed közlésétől számított legfeljebb 14 naptári napon belül visszatérítem a járandóságodat, ugyanazon a fizetési módon keresztül, amelyet használtál, hacsak másként nem állapodunk meg. A visszatérítés számodra semmilyen költséggel não jár."
 		}
 	}
 }

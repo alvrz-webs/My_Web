@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Heim",
 		"sobreMi": "Um mig",
 		"proyectos": "Verkefni",
 		"experiencia": "Reynsla",
@@ -7,10 +8,22 @@
 		"ariaMain": "Aðalvalmynd",
 		"openMenu": "Opna valmynd"
 	},
+	"saltar": "Fara í efnið",
+	"tema": "Skipta milli ljóðs og dökkrar stillingar",
+	"telefono": "Sími",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spænskur meistari í madison hjólreiðum. Gagnafræðingur.",
+		"disponible": "Laus við gagnaverkefni og íþróttaárangur.",
+		"escribeme": "Skrifaðu mér",
+		"navLabel": "Hlutar",
+		"legalLabel": "Lagalegt",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Samfélagsmiðlar"
+	},
+	"cierre": {
+		"title": "Tölumst við?",
+		"text": "Ef þ ನೀವು hefur árangursgögn og ósvaraðar spurningar skaltu skrifa mér og við skoðum það saman.",
+		"cta": "Skrifaðu mér"
 	},
 	"langSwitch": {
 		"label": "Breyta tungumáli",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Samþykki fyrir vefkökum"
 	},
 	"legal": {
+		"terminos": "Skilmálar",
 		"privacidad": "Persónuverndarstefna",
-		"cookies": "Stefna um vefkökur"
+		"cookies": "Stefna um vefkökur",
+		"reembolso": "Endurgreiðslustefna",
+		"actualizado": "Síðast uppfært",
+		"indice": "Á þessari síðu",
+		"otros": "Önnur skjöl"
 	},
 	"person": {
 		"jobTitle": "Gagnafræðingur",
 		"description": "Gagnafræðingur sem sérhæfir sig í íþróttagreiningu, með reynslu úr atvinnuhjólreiðum."
+	},
+	"pizarra": {
+		"vueltas": "hringir",
+		"campana": "síðasta"
 	}
 }

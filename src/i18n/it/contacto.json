@@ -3,11 +3,54 @@
 		"title": "Contatto — Mario Álvarez",
 		"description": "Mettiti in contatto con Mario Álvarez per parlare di dati, prestazioni sportive e progetti.",
 		"eyebrow": "Contatto",
-		"heading": "Hai dati e una domanda da risolvere?",
-		"intro": "Parliamone. Che si tratti di un progetto di analisi sportiva, di una collaborazione sui dati o semplicemente di un'idea che vuoi confrontare, rispondo volentieri.",
+		"heading": "Hai dati e una domanda?",
+		"intro": "Parliamone. Che si tratti di un progetto di analisi sportiva, di una collaborazione sui dati o di un'idea che vuoi confrontare, ti rispondo io.",
 		"email": "Email",
 		"telefono": "Telefono",
 		"verTelefono": "Mostra telefono",
-		"redesSociales": "Social media"
+		"redesSociales": "Social media",
+		"temaTitulo": "Di cosa vuoi parlare?",
+		"temaAyuda": "Scegli un tema e ti preparo l'email. Devi solo raccontarmi il tuo caso.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analisi delle prestazioni"
+			},
+			{
+				"id": "herramientas",
+				"label": "Uno strumento su misura"
+			},
+			{
+				"id": "datos",
+				"label": "Database e report"
+			},
+			{
+				"id": "carrera",
+				"label": "Supporto di carriera"
+			},
+			{
+				"id": "otro",
+				"label": "Altro"
+			}
+		],
+		"escribir": "Scrivi l'email",
+		"copiar": "Copia email",
+		"copiado": "Email copiata",
+		"asunto": "Richiesta da marioalvarez.me",
+		"cuerpo": "Ciao Mario:\n\nTi scrivo per: {tema}.\n\nQuello che ho:\n\nQuello che vorrei sapere:\n\nGrazie.",
+		"otrosCanales": "Altri canali",
+		"base": "Base",
+		"baseValor": "Benidorm e Valencia",
+		"idiomas": "Lingue",
+		"idiomasValor": "Spagnolo, valenciano e inglese",
+		"aceptacionesTitulo": "Prima di scrivermi",
+		"aceptoTerminos": "Ho letto e accetto i {enlace}.",
+		"enlaceTerminos": "termini e condizioni",
+		"aceptoCookies": "Accetto i cookie di analisi descritti nella {enlace} (facoltativo).",
+		"enlaceCookies": "politica sui cookie",
+		"faltaTerminos": "Per scrivermi, spunta prima la casella dei termini e condizioni.",
+		"primeraCapa": "Titolare: Mario Álvarez Martínez. Finalità: rispondere alla tua richiesta e, se me lo chiedi, prepararti una proposta. Base giuridica: la tua richiesta. Destinatari: nessuno, salvo obblighi di legge. Diritti: accesso, rettifica, cancellazione e gli altri spiegati nella {enlace}.",
+		"enlacePrivacidad": "informativa sulla privacy",
+		"refEmail": "Riferimento di accettazione dei termini: {ref}"
 	}
 }

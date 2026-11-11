@@ -3,11 +3,54 @@
 		"title": "Wasiliana — Mario Álvarez",
 		"description": "Wasiliana na Mario Álvarez ili kuzungumza kuhusu data, utendaji wa michezo, na miradi.",
 		"eyebrow": "Wasiliana",
-		"heading": "Una data na swali la kutatua?",
-		"intro": "Tuzungumze. Iwe ni mradi wa uchanganuzi wa michezo, ushirikiano wa data, au wazo tu unalotaka kujadili, ninajibu kwa furaha.",
+		"heading": "Una data na swali?",
+		"intro": "Tuzungumze. Iwe ni mradi wa takwimu za michezo, ushirikiano wa data, au wazo unalotaka kujadili, nitakujibu moja kwa moja.",
 		"email": "Barua pepe",
 		"telefono": "Simu",
 		"verTelefono": "Onyesha simu",
-		"redesSociales": "Mitandao ya kijamii"
+		"redesSociales": "Mitandao ya kijamii",
+		"temaTitulo": "Unataka tuzungumze nini?",
+		"temaAyuda": "Chagua mada na nitakuandalia barua pepe. Unachotakiwa kufanya ni kunieleza kesi yako.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Uchambuzi wa utendaji"
+			},
+			{
+				"id": "herramientas",
+				"label": "Zana maalum"
+			},
+			{
+				"id": "datos",
+				"label": "Hifadhidata na ripoti"
+			},
+			{
+				"id": "carrera",
+				"label": "Usaidizi katika kazi"
+			},
+			{
+				"id": "otro",
+				"label": "Jingine"
+			}
+		],
+		"escribir": "Andika barua pepe",
+		"copiar": "Nakili barua pepe",
+		"copiado": "Barua pepe imenakiliwa",
+		"asunto": "Swali kutoka marioalvarez.me",
+		"cuerpo": "Habari Mario:\n\nNakuandikia kuhusu: {tema}.\n\nNilicho nacho:\n\nNinachotaka kujua:\n\nAsante.",
+		"otrosCanales": "Njia zingine",
+		"base": "Msingi",
+		"baseValor": "Benidorm na Valencia",
+		"idiomas": "Lugha",
+		"idiomasValor": "Kihispania, Kivalencia na Kiingereza",
+		"aceptacionesTitulo": "Kabla ya kuniandikia",
+		"aceptoTerminos": "Nimesoma na kukubali {enlace}.",
+		"enlaceTerminos": "sheria na masharti",
+		"aceptoCookies": "Ninaukubali vidakuzi vya uchambuzi vilivyofafanuliwa katika {enlace} (si lazima).",
+		"enlaceCookies": "sera ya vidakuzi",
+		"faltaTerminos": "Ili kuniandikia, tafadhali weka alama kwenye kisanduku cha sheria na masharti kwanza.",
+		"primeraCapa": "Wajibika: Mario Álvarez Martínez. Madhumuni: kujibu swali lako na, ukiomba, kukuandalia pendekezo. Uhalali: ombi lako. Wapokeaji: hakuna, isipokuwa kama sheria inavyotakiwa. Haki: ufikiaji, urekebishaji, ufutaji na zingine zilizoelezwa katika {enlace}.",
+		"enlacePrivacidad": "sera ya faragha",
+		"refEmail": "Rejeleo la kukubali sheria na masharti: {ref}"
 	}
 }

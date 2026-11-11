@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Nyumbani",
 		"sobreMi": "Kuhusu mimi",
 		"proyectos": "Miradi",
 		"experiencia": "Uzoefu",
@@ -7,10 +8,22 @@
 		"ariaMain": "Urambazaji mkuu",
 		"openMenu": "Fungua menyu"
 	},
+	"saltar": "Ruka hadi yaliyomo",
+	"tema": "Badilisha kati ya hali ya mwanga na giza",
+	"telefono": "Simu",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Bingwa wa Hispania wa madison. Mwanasayansi wa data.",
+		"disponible": "Inapatikana kwa miradi ya data na utendaji wa michezo.",
+		"escribeme": "Niandikie",
+		"navLabel": "Sehemu",
+		"legalLabel": "Sheria",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Mitandao ya kijamii"
+	},
+	"cierre": {
+		"title": "Tuzungumze?",
+		"text": "Ikiwa una data ya utendaji na maswali ambayo hayajajibiwa, niandikie na tutaiangalia pamoja.",
+		"cta": "Niandikie"
 	},
 	"langSwitch": {
 		"label": "Badilisha lugha",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Idhini ya vidakuzi"
 	},
 	"legal": {
+		"terminos": "Sheria na Masharti",
 		"privacidad": "Sera ya faragha",
-		"cookies": "Sera ya vidakuzi"
+		"cookies": "Sera ya vidakuzi",
+		"reembolso": "Sera ya kurejesha pesa",
+		"actualizado": "Sasisho la mwisho",
+		"indice": "Kwenye ukurasa huu",
+		"otros": "Nyaraka zingine"
 	},
 	"person": {
 		"jobTitle": "Mwanasayansi wa data",
 		"description": "Mwanasayansi wa data aliobobea katika uchanganuzi wa michezo, mwenye uzoefu katika baiskeli ya kulipwa."
+	},
+	"pizarra": {
+		"vueltas": "mapaja",
+		"campana": "ya mwisho"
 	}
 }

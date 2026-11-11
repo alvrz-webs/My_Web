@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez duomenų analizės, vizualizacijos ir mašininio mokymosi saugyklos bei projektai.",
 		"eyebrow": "Projektai",
 		"heading": "Projektai",
-		"intro": "Žvilgsnis į my darbą: nuo profesionalių dviračių sporto įrankių iki akademinių analizės ir mašininio mokymosi projektų."
+		"intro": "Žvilgsnis į my darbą: nuo profesionalių dviračių sporto įrankių iki akademinių analizės ir mašininio mokymosi projektų.",
+		"cifraRepos": "viešosios saugyklos „GitHub“",
+		"cifraWebs": "paskelbtos svetainės",
+		"cifraHerramientas": "kalbos ir įrankiai"
 	},
 	"list": {
 		"eyebrow": "Darbas",

@@ -46,10 +46,6 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "فتح القائمة"
 		},
-		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
-		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
 			"value": "Mario Álvarez. Valencia."
@@ -113,6 +109,82 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "عالم بيانات متخصص في تحليل الرياضة، مع خبرة في مجال سباقات الدراجات الاحترافية."
+		},
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "ပင်mမစာမျက်နှာ"
+		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "အဓိကအကြောင်းအရာသို့ ခုန်ကူးရန်"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "အလင်းနှင့် အမှောင်မုဒ် අතර ပြောင်းရန်"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "ဖုန်း"
+		},
+		"footer/tagline": {
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "စပိန်မက်ဒီဆန် ချန်ပီယံ။ ဒေတာသိပ္ပံပညာရှင်။"
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "ဒေတာနှင့် အားကစားစွမ်းဆောင်ရည် ပراجက်များအတွက် ရရှိနိုင်ပါသည်။"
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "ငါ့ကို ရေးပါ"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "ကဏ္ဍများ"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "တရားဝင်"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "¿Hablamos?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "თუ ඔබට စွမ်းဆောင်ရည်ဒေတာနှင့် အဖြေမရသေးသော မေးခွန်းများ ရှိပါက ကျွန်ုပ်ထံ စာရေးပါ၊ ၎င်းကို အတူတကွ လေ့လာကြည့်ပါမည်။"
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "ငါ့ကို ရေးပါ"
+		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "စည်းမျဉ်းစည်းကမ်းများ"
+		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "ငွေပြန်အမ်းသည့် မူဝါဒ"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "နောက်ဆုံး အပ်ဒိတ်"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "ဤစာမျက်နှာတွင်"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "အခြားစာရွက်စာတမ်းများ"
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "ပတ်လည်"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "နောက်ဆုံး"
 		}
 	},
 	"inicio": {
@@ -120,137 +192,265 @@
 			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
 			"value": "မာริယို အာဗာရက်ဇ် — အားကစားဆိုင်ရာ အချက်အလက်သိပ္ပံပညာရှင်"
 		},
-		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "မာริယို အာဗာရက်ဇ်၊ ဗလင်စီယာမြို့ရှိ အားကစားခွဲခြမ်းစိတ်ဖြာမှုဆိုင်ရာ အချက်အလက်သိပ္ပံပညာရှင်။ Data · Sport · Progress။"
-		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "ပရောဂျက်များကို ကြည့်ရန်"
-		},
-		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "ဆက်သွယ်ရန်"
-		},
-		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "ပိုမိုကြည့်ရှုရန်"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "ပရောဂျက်အားလုံးကို ကြည့်ရန်"
 		},
-		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "ဆက်သွယ်ရန်သို့ သွားရန်"
-		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "ပင်မကိရိယာများ"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "အချက်အလက်သိပ္ပံပညာရှင် · အားကစားခွဲခြမ်းစိတ်ဖြာမှု · ဗလင်စီယာ"
+		"meta/description": {
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "မာ리오 အာလ်ဗาเรซ၊ ဗาเลนเซียရှိ အားကစားဆိုင်ရာ အချက်အလက် ခွဲခြမ်းစိတ်ဖြာမှုတွင် အထူးပြုသော ဒေတာသိပ္ပံပညာရှင်။ မာဒီဆန် စပိန်ချန်ပီယံနှင့် RFEC အားကစားဒါရိုက်တာ။"
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "အချက်အလက်များကို "
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "ဘယ်လိုကူညီပေးနိုင်ကြောင်း ကြည့်ရန်"
 		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "ရှင်းလင်းသော ဆုံးဖြတ်ချက်များ အဖြစ် ပြောင်းလဲပေးသည်"
+		"meta/contacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "ကျွန်ုပ်ထံ စာရေးပါ"
+		},
+		"meta/verMas": {
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "ပိုမိုဖတ်ရှုရန်"
+		},
+		"meta/irAContacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "ကျွန်ုပ်ထံ စာရေးပါ"
+		},
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "မာ리오 အာလ်ဗาเรซ၊ ဒေတာသိပ္ပံပညာရှင်"
+		},
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "ကျွန်ုပ်သည် မာဒီဆန် စပိန်ချန်ပီယံ ဖြစ်ခဲ့သည်။"
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "ကျွန်ုပ်သည် အချက်အလက်ခွဲခြမ်းစိတ်ဖြာမှုနှင့် ထိပ်တန်းအားကစားတို့ကြား ပေါင်းကူးတံတားဖြစ်သည်- စွမ်းဆောင်ရည်တိုင်းတာချက်များကို ကွင်းပြင်တွင် ကွာခြားချက်ဖြစ်စေမည့် မဟာဗျူဟာများအဖြစ်သို့ ပြောင်းလဲပေးသည်။"
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "ယခုအခါ UPV တွင် ဒေတာသိပ္ပံကို လေ့လာနေပြီး စွမ်းဆောင်ရည်နောက်ကွယ်ရှိ အရာများကို ခွဲခြမ်းစိတ်ဖြာနေသည်- ပါဝါ၊ ဝန်နှင့် ရလဒ်များ။ စက်ဘီးသမားတစ်ဦးအတွက် နံပါတ်တစ်ခုသည် ဘာကိုဆိုလိုကြောင်း ကျွန်ုပ်သိပါသည်၊ အကြောင်းမှာ ကျွန်ုပ်ကိုယ်တိုင်လည်း ထိုစက်ဘီးသမား ဖြစ်ခဲ့ဖူးသောကြောင့်တည်း။"
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "ဆုတံဆိပ်များ"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "၁º"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "မာဒီဆန် စပိန်ချန်ပီယံပြိုင်ပွဲ"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "ပတ်လမ်း၊ အသက် ၁၈ နှစ်တွင်"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "၆º"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "ကျွန်ုပ်အကြောင်း"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "ကမ္ဘာ့ပတ်လမ်း ချန်ပီယံပြိုင်ပွဲ"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "စပိန်လက်ရွေးစင်အသင်း"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "၆º"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "ဥရောပပတ်လမ်း ချန်ပီယံပြိုင်ပွဲ"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "စပိန်လက်ရွေးစင်အသင်း"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "မာ리오 အာလ်ဗาเรซ၏ ပုံတူ"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "သင့်ကို မည်သို့ ကူညီပေးနိုင်မည်နည်း"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "ကျွန်ုပ်သည် ဒေတာများရှိပြီး ၎င်းတို့ကို အကျိုးရှိရှိ အသုံးချလိုသော အသင်းများ၊ နည်းပြများနှင့် စက်ဘီးသမားများ၊ ထို့အပြင် ၎င်းတို့၏ ဒေတာများကို စနစ်တကျ စီစဉ်လိုသော ကုမ္ပဏီများနှင့် လုပ်ဆောင်ပါသည်။"
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "သင့်အကြောင်းကို ပြောပြပါ"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "စွမ်းဆောင်ရည် ခွဲခြမ်းစိတ်ဖြာခြင်း"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "ပါဝါ၊ ဝန်နှင့် ရလဒ်များကို စက်ဘီးသမားတစ်ဦး၏ မျက်လုံးဖြင့် ဖတ်ရှုပါသည်။ ဘာတွေဖြစ်နေလဲ၊ ဘာတွေပြောင်းလဲရမလဲဆိုတာကို ရှင်းပြပေးပါတယ်။"
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "အထက်တန်းစား စက်ဘီးသမားနှင့် RFEC အားကစားဒါရိုက်တာ၊ အဆင့် I နှင့် II။"
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "သင့်လျော်သော ကိရိယာများ"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "သင့်အသင်း၏ တိကျသော မေးခွန်းတစ်ခုကို ဖြေဆိုပေးသည့် Python ဖြင့် ပြုလုပ်ထားသော Scraping၊ မော်ဒယ်များနှင့် သေးငယ်သော အက်ပ်လီကေးရှင်းများ။"
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Cofidis အသင်းအတွက် ကိရိယာနှစ်ခု- UCI ခက်ခဲမှုနှင့် ပြိုင်ပွဲပရိုဖိုင်။"
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "ဒေတာဘေ့စ်များနှင့် အစီရင်ခံစာများ"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "ပိုမိုမြန်ဆန်သော မေးမြန်းမှုများ၊ ပေါင်းစည်းထားသော ဒေတာဘေ့စ်များနှင့် တစ်ချက်ကြည့်ရုံဖြင့် နားလည်နိုင်သော Power BI ရှိ ဒက်ရှ်ဘೋರ್ಡ್များ။"
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "SIME Telecom တွင် ကျွန်ုပ် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နေသော ဒေတာဘေ့စ်ရှိ ဇယား ၅၈၀ ကျော်နှင့် မှတ်တမ်းသန်း ၁၀၀ ကျော်။"
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "ပြိုင်ပွဲဆိုင်ရာ ပံ့ပိုးမှု"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "ပြိုင်ပွဲ ပြင်ဆင်မှု၊ စက်ဘီးသမားများ နောက်ევခြေရာခံခြင်းနှင့် ပြိုင်ပွဲအတွင်း အားကစားနှိပ်နယ်ပေးခြင်း။"
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "ဗာเลนเซีย ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ လက်ရွေးစင်အသင်း၏ ဝန်ထမ်းအဖွဲ့။"
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "ကွင်းပြင်၊ လမ်းနှင့် ယှဉ်ပြိုင်မှုဆိုင်ရာ ဆက်စပ်အချက်အလက်များ"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "ဗယ်လိုဒရုမ်းမှ ဒေတာများဆီသို့"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "ကျွန်ုပ်သည် မာရီယို အာဗာရက်ဇ်ဖြစ်ပြီး၊ ပရော်ဖက်ရှင်နယ် စက်ဘီးစီးခြင်းတွင် လက်တွေ့အတွေ့အကြုံရှိသော UPV မှ အချက်အလက်သိပ္ပံ ကျောင်းသားတစ်ဦး ဖြစ်သည်။ ရလဒ်များကို တိုးတက်စေမည့် ဆုံးဖြတ်ချက်တစ်ခုအဖြစ် တိုင်းတာချက်တိုင်းကို ပြောင်းလဲနိုင်ရန် အချက်အလက်ခွဲခြမ်းစိတ်ဖြာမှုကို ထိပ်တန်းအားကစားစွမ်းဆောင်ရည်နှင့် ပေါင်းစပ်ထားသည်။"
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "UPV တွင် ဒေတာသိပ္ပံဘွဲ့ တတိယနှစ် တက်ရောက်နေပြီး အားကစားတွင် အသုံးချသည့် ဒစ်ဂျစ်တယ်ဆန်ရေးနှင့် နည်းပညာဆိုင်ရာ မာစတာဘွဲ့ကို ပြီးဆုံးထားပါသည်။ စက်ဘီးစီးခြင်းမှ မထွက်ခွာသေးပါ- ပတ်လမ်းတွင် ဆက်လက်စီးနင်းနေဆဲဖြစ်ပြီး၊ အခြေခံအဆင့် စက်ဘီးသမားများကို လမ်းညွှန်ပေးကာ ပညာရှင်များနှင့်အတူ အားကစားနှိပ်နယ်ပေးသူအဖြစ် လုပ်ကိုင်နေဆဲဖြစ်သည်။"
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "အခြေခံ"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "ဘင်နီဒေါ့ နှင့် ဗาเลนเซีย"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
-			"value": "သင်တန်း"
+			"value": "ပညာရေး"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "ဒေတာသိပ္ပံဘွဲ့၊ ဗလင်စီယာ ပိုလီတက်နစ် တက္ကသိုလ်။"
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "ဒေတာသိပ္ပံဘွဲ့ (UPV) နှင့် အားကစားဆိုင်ရာ ဒစ်ဂျစ်တယ်ဆန်ရေး၊ ဆန်းသစ်တီထွင်မှုနှင့် နည်းပညာ မာစတာဘွဲ့"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "အထက်တန်းစား"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "ဘွဲ့တံဆိပ်များ"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "အတွေ့အကြုံ"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "အားကစားဒါရိုက်တာ RFEC၊ အဆင့် I နှင့် II"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "ပရော်ဖက်ရှင်နယ် စက်ဘီးစီးအသင်းတစ်ခုအတွင်း လက်တွေ့အလုပ်လုပ်ကိုင်မှု။"
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "ယခု"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "ချဉ်းကပ်ပုံ"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "အားကစားစွမ်းဆောင်ရည် တိုးတက်စေရန် အသုံးချသည့် ခွဲခြမ်းစိတ်ဖြာမှု။"
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "အတွေ့အကြုံ"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "ဒေတာနှင့် စွမ်းဆောင်ရည် ပရောဂျက်များအတွက် ရရှိနိုင်ပါသည်"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "ကမ္ဘာနှစ်ခု၊ ဘာသာစကားတစ်ခုတည်း - စွမ်းဆောင်ရည်"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "လမ်းကြောင်းနှစ်ခု၊ အလုပ်တစ်ခုတည်း"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "ကျွန်ုပ်သည် အမြင့်ဆုံးအဆင့်တွင် ယှဉ်ပြိုင်ခဲ့ဖူးပြီး ယနေ့ခေတ်တွင် ထိုစံနှုန်းကိုပင် အချက်အလက်များအပေါ် အသုံးချနေပါသည်- အားကစားသမားတစ်ဦးအတွက် နံပါတ်တစ်ခု၏ အဓိပ္ပာယ်ကို ကျွန်ုပ်နားလည်ပါသည်၊ အကြောင်းမှာ ကျွန်ုပ်ကိုယ်တိုင်လည်း ထိုသို့သော အားကစားသမားတစ်ဦး ဖြစ်ခဲ့ဖူးသောကြောင့်တည်း။"
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "လမ်းကြောင်းတစ်ခုတွင် ဒေတာဘေ့စ်များကို ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်ပြီး မော်ဒယ်များကို ရေးသားသည်။ အခြားလမ်းကြောင်းတစ်ခုတွင် ပြိုင်ပွဲများကို ပြင်ဆင်ပြီး စက်ဘီးသမားများကို နောက်ယောင်ခံသည်။ နှစ်ခုစလုံးသည် တူညီသောအရာအတွက်ဖြစ်သည်- ပိုမိုကောင်းမွန်စွာ ဆုံးဖြတ်နိုင်ရန် ကောင်းမွန်စွာ တိုင်းတာရန်။"
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "ဒေတာများ"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+580"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "ဟာ့ဒ်ဝဲကို မချဲ့ထွင်ဘဲ ဒေတာဘေ့စ်အများအပြားကို တစ်ခုတည်းအဖြစ် ပေါင်းစည်းရန် SIME Telecom တွင် ခွဲခြမ်းစိတ်ဖြာခဲ့သော ဇယားများ"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "ကျွန်ုပ် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နေသော ဒေတာဘေ့စ်ရှိ မှတ်တမ်းများ"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "Cofidis အသင်းအတွက် Python ဖြင့် ပြုလုပ်ထားသော ကိရိယာများ- UCI ခက်ခဲမှုနှင့် ပြိုင်ပွဲပရိုဖိုင်"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "ပတ်လမ်းနှင့် ကတ္တရာလမ်း"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I နှင့် II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "စပိန်စက်ဘီးစီးအဖွဲ့ချုပ်၏ အားကစားဒါရိုက်တာ အဆင့်များ"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "14–18"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "ကျွန်ုပ်၏ ဖခင်နှင့်အတူ လေ့ကျင့်ပေးပြီး နောက်ယောင်ခံနေသော အခြေခံအဆင့် စက်ဘီးသမားများ၏ အသက်အရွယ်"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "2026"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "ပြိုင်ပွဲတွင် ဗာเลนเซีย ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရဒေသ လက်ရွေးစင်အသင်းနှင့်အတူ လက်ထောက်"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "အချက်အလက်များနှင့် ပတ်သက်၍ ဆွေးနွေးကြမည်လား။"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "နောက်ဆုံးအလှည့်"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "သင့်ပရောဂျက်အကြောင်း ပြောပြပါ၊ စွမ်းဆောင်ရည်ကို တိုးတက်စေမည့် ဆုံးဖြတ်ချက်များ ဘယ်မှာရှိသည်ကို ကျွန်ုပ်တို့ အတူတကွ ရှာဖွေပါမည်။"
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "သင့်တွင် စွမ်းဆောင်ရည်အချက်အလက်များနှင့် အဖြေမရသေးသော မေးခွန်းများရှိပါက ကျွန်ုပ်ထံ စာရေးပါ။ အတူတူ ကြည့်ကြবပါမည်။"
 		}
 	},
 	"sobre-mi": {
@@ -290,10 +490,6 @@
 			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
 			"value": "အခြေစိုက်"
 		},
-		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
-		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
 			"value": "အခြေအနေ"
@@ -306,25 +502,53 @@
 			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
 			"value": "အဓိကထားချက်"
 		},
-		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "ဒေတာ + အားကစား စွမ်းဆောင်ရည်"
-		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "ဘာသာစကားများ"
-		},
-		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "ဇာတိ စပိန်ဘာသာ · Valenciano · B1 အင်္ဂလိပ်ဘာသာ"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "ပညာရေး"
 		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "စက်ဘီးစီးခြင်းလောก์ထဲမှာ၊ ပတ်လမ်းနဲ့ အသင်းကားပေါ်မှာ ဆက်ရှိနေတုန်းပါပဲ။ ပြောင်းလဲသွားတာက ကျွန်တော် ဘယ်လိုကြည့်လဲဆိုတာပါပဲ- အခုဆိုရင် ဒေတာတွေနဲ့ပါ ထပ်ကြည့်နေပါပြီ။"
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "စက်ဘီးသမား၊ အသင်းညွှန်ကြားရေးမှူးနှင့် ဒေတာပညာရှင်"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "အတိုချုပ်"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "အရေးကြီးဆုံးအချက်များ၊ အကယ်၍ သင် အຮုန်းရှိနေပါက။"
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "Mario Álvarez ၏ ပုံရိပ်"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "ပထမတော့ ခြေထောက်တွေ၊ အခုတော့ ဒေတာတွေ။"
+		},
+		"facts/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm နှင့် Valencia"
+		},
+		"facts/2/value": {
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "ဒေတာနှင့် အားကစားစွမ်းဆောင်ရည်"
+		},
+		"facts/3/value": {
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "စပိန်ဘာသာ (မိခင်ဘာသာ)၊ ဗလင်စီယာနှင့် အင်္ဂလိပ်ဘာသာ (B1)"
+		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "ဒေတာသိပ္ပံဘွဲ့ (UPV) နှင့် အားကစားဆိုင်ရာ ဒစ်ဂျစ်တယ်ပြောင်းလဲမှု၊ ဆန်းသစ်တီထွင်မှုနှင့် နည်းပညာ မဟာဘွဲ့"
 		}
 	},
 	"experiencia": {
@@ -344,10 +568,6 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "ကမ္ဘာနှစ်ခု၊ ဘာသာစကားတစ်ခုတည်း- စွမ်းဆောင်ရည်"
 		},
-		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "အချက်အလက်နှင့် နည်းပညာ"
-		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
 			"value": "ထိပ်တန်းအားကစား"
@@ -355,10 +575,6 @@
 		"datos/0/title": {
 			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
 			"value": "SIME TELECOM — ဒေတာသိပ္ပံ အလုပ်သင်"
-		},
-		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "ဒေတာအင်ဂျင်နီယာ · Benidorm · 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -371,10 +587,6 @@
 		"datos/1/title": {
 			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
 			"value": "Cofidis အသင်းနှင့် ပရောဂျက်များ (World Tour)"
-		},
-		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · ၂၀၂၅ နွေရာသီ"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -435,6 +647,54 @@
 		"deporte/2/paragraphs/0": {
 			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
 			"value": "လက်မှတ်ရ ကျောနှိပ်ကုထုံးပညာရှင်; ပရော်ဖက်ရှင်နယ် စက်ဘီးသမားများ၏ နှိပ်နယ်ပေးသူ; ဗလင်စီယာအသိုက်အဝန်း လက်ရွေးစင်အသင်း၊ ဖိလစ်ပိုင် ကွန်တိနင့်တယ် အသင်းတစ်သင်းနှင့် Benidorm ရှိ တစ်ဦးချင်း စက်ဘီးသမားများနှင့်အတူ ဝန်ထမ်း။"
+		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "ဒေတာဘေ့စ်တစ်ခုတွင်ဖြစ်စေ၊ အသင်းကားပေါ်တွင်ဖြစ်စေ၊ အလုပ်ကတော့ အတူတူပါပဲ - ပိုမိုကောင်းမွန်စွာ ဆုံးဖြတ်နိုင်ရန် ကောင်းမွန်စွာ တိုင်းတာရန်။"
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "SIME Telecom တွင် ကျွန်ုပ် အကောင်းဆုံးဖြစ်အောင် လုပ်ဆောင်နေသော ဘေ့စ်အတွင်းရှိ မှတ်တမ်းများ"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "Cofidis အသင်းအတွက် Python ကိရိယာများ"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "ကမ္ဘာ့နှင့် ဥရောပ မီတာလမ်းပြိုင်ပွဲများတွင်"
+		},
+		"meta/colDatos": {
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "ဒေတာနှင့် နည်းပညာ"
+		},
+		"datos/0/meta": {
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "ဒေတာအင်ဂျင်နီယာ၊ Benidorm၊ 2026"
+		},
+		"datos/1/meta": {
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python၊ နွေရာသီ 2025"
+		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "လမ်းပြိုင်စက်ဘီးစီးခြင်း၊ စပိန်လက်ရွေးစက်အသင်း"
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC၊ အဆင့် I နှင့် II"
 		}
 	},
 	"proyectos": {
@@ -521,6 +781,18 @@
 		"list/vacioWebs": {
 			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
 			"value": "ဤကဏ္ဍတွင် ထုတ်ဝေထားသော ဝဘ်ဆိုဒ်များ မရှိသေးပါ။"
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "GitHub ရှိ အများပြည်သူဆိုင်ရာ ရိုပိုဇทรီများ"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "ထုတ်ဝေထားသော ဝဘ်ဆိုဒ်များ"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "ဘာသာစကားများနှင့် ကိရိယာများ"
 		}
 	},
 	"contacto": {
@@ -535,14 +807,6 @@
 		"meta/eyebrow": {
 			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
 			"value": "ဆက်သွယ်ရန်"
-		},
-		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "သင့်တွင် ဒေတာများနှင့် ဖြေရှင်းရမည့် မေးခွန်းတစ်ခု ရှိပါသလား။"
-		},
-		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "စကားပြောကြပါစို့။ အားကစား ခွဲခြမ်းစိတ်ဖြာမှု ပရောဂျက်၊ ဒေတာ ပူးပေါင်းဆောင်ရွက်မှု သို့မဟုတ် သင် ဆွေးနွေးလိုသည့် အကြံဉာဏ်တစ်ခုခုအတွက်ဖြစ်စေ ဝမ်းမြောက်စွာ ပြန်လည်ဖြေကြားပေးပါမည်။"
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,206 +823,742 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "လူမှုကွန်ရက်များ"
+		},
+		"meta/heading": {
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "ဒေတာတွေနဲ့ မေးခွန်းတစ်ခု ရှိပါသလား။"
+		},
+		"meta/intro": {
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "စကားပြောကြရအောင်။ အားကစားဆိုင်ရာ အချက်အလက် ခွဲခြမ်းစိတ်ဖြာမှု ပရောဂျက်ပဲဖြစ်ဖြစ်၊ ဒေတာ ပူးပေါင်းဆောင်ရွက်မှုပဲဖြစ်ဖြစ်၊ ဒါမှမဟုတ် ဆွေးနွေးချင်တဲ့ အကြံဉာဏ်ပဲဖြစ်ဖြစ် ကျွန်တော် ကိုယ်တိုင် ဖြေကြားပေးပါမယ်။"
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "ဘာအကြောင်း ဆွေးနွေးချင်ပါသလဲ။"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "အကြောင်းအရာတစ်ခုကို ရွေးချယ်ပါ၊ သင့်အတွက် အီးမေးလ်ကို ကြိုတင်ပြင်ဆင်ပေးပါမယ်။ သင့်ရဲ့ ဖြစ်ရပ်ကို ပြောပြဖို့ပဲ လိုပါတယ်။"
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "စွမ်းဆောင်ရည် ခွဲခြမ်းစိတ်ဖြာမှု"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "သင့်တော်တဲ့ ကိရိယာတစ်ခု"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "ဒေတာဘေ့စ်များနှင့် အစီရင်ခံစာများ"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "အသက်မွေးဝမ်းကျောင်းဆိုင်ရာ ပံ့ပိုးမှု"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "အခြားအရာ"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "အီးမေးလ် ရေးရန်"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "အီးမေးလ် ကူးယူရန်"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "အီးမေးလ် ကူးယူပြီးပါပြီ"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "marioalvarez.me မှ မေးမြန်းချက်"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "မင်္ဂလာပါ Mario:\n\nကျွန်တော် ဆက်သွယ်လာတာကတော့: {tema} ကြောင့် ဖြစ်ပါတယ်။\n\nကျွန်ტော့်မှာ ရှိတာတွေကတော့:\n\nကျွန်တော် သိချင်တာကတော့:\n\nကျေးဇူးတင်ပါတယ်။"
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "အခြားချန်နယ်များ"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "အခြေခံ"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "Benidorm နှင့် Valencia"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "ဘာသာစကားများ"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "စပိန်၊ ဗလင်စီယာနှင့် အင်္ဂလိပ်"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "မရေးသားမီ"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "ខ្ញុំបានអាន និងយល់ព្រម {enlace}។"
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "စည်းမျဉ်းစည်းကမ်းများ"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "{enlace} တွင် ဖော်ပြထားသော ခွဲခြမ်းစိတ်ဖြာမှု ကွတ်ကီးများကို လက်ခံပါသည် (ဆန္ဒအလျောက်)။"
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "ကွတ်ကီး မူဝါဒ"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "ကျွန်ტော့်ဆီ စာရေးဖို့အတွက် စည်းမျဉ်းစည်းကမ်းများ အကွက်ကို အရင် အမှန်ခြစ်ပါ။"
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "တာဝန်ခံ: Mario Álvarez Martínez။ ရည်ရွယ်ချက်: သင့်မေးခွန်းကို ဖြေကြားရန်နှင့် သင်တောင်းဆိုပါက သင့်အတွက် အဆိုပြုချက်တစ်ခု ပြင်ဆင်ပေးရန်။ တရားဝင်မှု: သင့်တောင်းဆိုမှု။ လက်ခံရရှိသူများ: ဥပဒေအရ တာဝန်ရှိမှသာလျှင် ဖြစ်ပြီး မည်သူ့ကိုမျှ မပေးပါ။ ရပိုင်ခွင့်များ: ဝင်ရောက်ကြည့်ရှုခွင့်၊ ပြင်ဆင်ခွင့်၊ ဖျက်ဆီးခွင့်နှင့် {enlace} တွင် ရှင်းပြထားသော အခြားအခွင့်အရေးများ။"
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "ကိုယ်ရေးကိုယ်တာ မူဝါဒ"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "စည်းမျဉ်းများကို လက်ခံကြောင်း ကိုးကားချက်: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
-			"value": "ကuki မူဝါဒ — Mario Álvarez"
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
+			"value": "ကوكီ မူဝါဒ — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "ဤဝဘ်ဆိုက်က အသုံးပြုသော ကukiများ၊ ရည်ရွယ်ချက်နှင့် သင်၏သဘောတူညီချက်ကို မည်သည့်အခါမဆို မည်သို့ပြောင်းလဲရမည်နည်း။"
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "တရားဝင်"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "marioalvarez.me တွင် မည်သည့် ကوكီများကို အသုံးပြုသည်၊ မည်သည်တို့က ခွင့်ပြုချက် လိုအပ်ပြီး သင်၏ ဆုံးဖြတ်ချက်ကို အချိန်မရွေး မည်သို့ ပြောင်းလဲနိုင်ပုံ။"
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
-			"value": "ကuki မူဝါဒ"
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "ကوكီ မူဝါဒ"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "ဤဝဘ်ဆိုက်သည် မှန်ကန်စွာလည်ပတ်နိုင်ရန်နှင့် သင့်သဘောတူညီချက်ဖြင့် အကြောင်းအရာများကို အမည်ဝှက်ဖြင့် ခွဲခြမ်းစိတ်ဖြာနိုင်ရန် ကukiများနှင့် ဆင်တူသောနည်းပညာများကို (ဘရောက်ဆာ၏ ဒေသတွင်းသိမ်းဆည်းမှုကဲ့သို့) အသုံးပြုပါသည်။"
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "သင်၏ ဆုံးဖြတ်ချက်"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "အသုံးပြုသော ကukiများ-"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "ပေးခဲ့စဉ်ကကဲ့သို့ပင် လွယ်ကူစွာဖြင့် သင်အလိုရှိသည့်အခါ သင့်ဒေတာများကို ပြောင်းလဲနိုင်သည် သို့မဟုတ် ဖျက်ပစ်နိုင်သည်။"
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "၁။ ကوكီဆိုသည်မှာ အဘယ်နည်းနှင့် ကျွန်ုပ်၏ ခွင့်ပြုချက် လိုအပ်ပါသလား"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "ကوكီများနှင့် ဆင်တူသော နည်းပညာများ (ဘရောက်ဆာ၏ ဒေသန္တရ သိုလှောင်မှုကဲ့သို့) သည် သင့်စက်ပစ္စည်းတွင် အချက်အလက်ငယ်များကို သိမ်းဆည်းသည်။ LSSI-CE ၏ ပုဒ်မ ၂၂.၂ နှင့် စပိန်ဒေတာ ကာကွယ်ရေး အေဂျင်စီ၏ ကوكီ အသုံးပြုမှုဆိုင်ရာ လမ်းညွှန်ချက်အရ သင်တောင်းဆိုထားသည့် အရာတစ်ခုအတွက် တိကျသေချာစွာ လိုအပ်သော ကوكီများသည် ခွင့်ပြုချက် မလိုအပ်ပါ၊ ခွဲခြမ်းစိတ်ဖြာမှု ကوكီများမှာမူ လိုအပ်ပါသည်။"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "ထို့ကြောင့် ဤဝဘ်ဆိုက်သည် သင်လက်ခံမှသာ ခွဲခြမ်းစိတ်ဖြာမှု ကوكီကို သိမ်းဆည်းပြီး တူညီသော ခလုတ်နှစ်ခု၊ တူညီသော မျက်နှာပြင်ပေါ်တွင် ကြိုတင်အမှန်ခြစ်ထားခြင်း မရှိဘဲ လက်ခံရန် သို့မဟုတ် ငြင်းပယ်ရန် သင့်ကို ခွင့်ပြုထားသည်။ ငြင်းပယ်ခြင်းက ဝဘ်ဆိုက်၏ မည်သည့်အရာကိုမျှ အသုံးပြုခြင်းမှ တားဆီးနိုင်မည် မဟုတ်ပါ။"
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "၂။ ဤဝဘ်ဆိုက် အသုံးပြုသော ကوكီများ"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "အမည်"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "ရည်ရွယ်ချက်"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "ဘာအတွက်လဲ"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "အမျိုးအစား"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "သင့်ခွင့်ပြုချက် လိုအပ်ပါသလား။"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "ကြာချိန်"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "consentimiento_cookies"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "သင့်ရွေးချယ်မှု၊ ဤမူဝါဒ၏ ဗားရှင်းနှင့် သင့်ခွင့်ပြုချက် မှတ်တမ်း၏ ကဝေအမည် (pseudonym) မှတ်ပုံတင်နံပါတ်ကို သိမ်းဆည်းရန်"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "ဤကuki မူဝါဒနှင့်ပတ်သက်သည့် သင့်ရွေးချယ်မှုကို မှတ်မိရန်"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "ကိုယ်ပိုင်၊ နည်းပညာပိုင်းဆိုင်ရာ"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "ကိုယ်ပိုင်၊ နည်းပညာပိုင်းဆိုင်ရာ (သဘောတူညီချက်မှ ကင်းလွတ်ခွင့်ရှိသည်)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "မဟုတ်"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "၁၂ လ"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "visitante_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "မည်သည့် အကြောင်းအရာများ အသုံးဝင်သည်ကို သိရှိရန် ကဝေအမည် (pseudonym) မှတ်ပုံတင်နံပါတ်"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "သင်၏လာရောက်လည်ပတ်မှုများကို ချိတ်ဆက်ရန်နှင့် မည်သည့်အကြောင်းအရာက အသုံးဝင်သည်ကို သိရှိရန် အမည်မသိသတ်မှတ်ချက်"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "ကိုယ်ပိုင်၊ ခွဲခြမ်းစိတ်ဖြာမှု"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "ကိုယ်ပိုင်၊ ခွဲခြမ်းစိတ်ဖြာခြင်း (သင့်သဘောတူညီချက် လိုအပ်သည်)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "ဟုတ်ကဲ့"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
 			"value": "၁၂ လ"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "ဤကukiများထဲမှ မည်သည့်ကukiမျှ တတိယပါတီဆိုင်ရာ မဟုတ်ပါ၊ ကြော်ငြာရည်ရွယ်ချက်အတွက် မည်သည်မျှ အသုံးမပြုပါ၊ ဤဝဘ်ဆိုက်ပြင်ပရှိ မည်သူ့ကိုမျှ မျှဝေခြင်းလည်းမရှိပါ။"
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "စာမျက်နှာအောက်ခြေရှိ \"ကukiများကို စီစဉ်သတ်မှတ်ရန်\" လင့်ခ်မှတစ်ဆင့် သင်၏ ဆုံးဖြတ်ချက်ကို ပြောင်းလဲနိုင်သည် သို့မဟုတ် သဘောတူညီချက်ကို အချိန်မရွေး ပြန်လည်ရုပ်သိမ်းနိုင်ပြီး ထိုဘယ်နယ်အတွင်းရှိ \"ကျွန်ုပ်၏ အချက်အလက်များကို ဖျက်မည်\" ခလုတ်ဖြင့် သင်၏ အချက်အလက်အားလုံးကို ချက်ချင်းဖျက်ပစ်နိုင်ပါသည်။"
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "အလင်း သို့မဟုတ် အမှောင် အပြင်အဆင်ကို သင်နှစ်သက်ခြင်း ရှိမရှိ မှတ်သားရန်၊ သင်ပြောင်းလဲမှသာ သိမ်းဆည်းသည်"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "သင့်အချက်အလက်များကို မည်သို့လုပ်ဆောင်သည်နှင့်ပတ်သက်၍ ပိုမိုသိရှိလိုပါက ကိုယ်ရေးလုံခြုံမှု မူဝါဒကို ကြည့်ရှုပါ။"
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "ကိုယ်ပိုင်၊ သင်တောင်းဆိုထားသော စိတ်ကြိုက်ပြင်ဆင်မှု"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "မဟုတ်"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "သင်ဖျက်သည်အထိ"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "၃။ မရှိသောအရာများ"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "တတိယပါတီ ကوكီများ၊ ကြော်ငြာများ၊ ထည့်သွင်းထားသော ဆိုရှယ်မီဒီယာ အကြောင်းအရာများ သို့မဟုတ် Google Analytics မရှိပါ။ ဖောင့်များနှင့် ပုံများကို ဤဝဘ်ဆိုက် ကိုယ်တိုင်မှ တင်ဆက်ပေးပါသည်။"
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "၄။ အမြင်ပြောင်းလဲလိုပါက"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "စာမျက်နှာတိုင်း၏ အောက်ခြေရှိ «Configurar cookies» မှ သို့မဟုတ် ဤစာမျက်နှာရှိ ခလုတ်မှတစ်ဆင့် သင်အလိုရှိသည့်အခါတိုင်း သင်၏ ရွေးချယ်မှုကို ပြောင်းလဲနိုင်သည် သို့မဟုတ် ခွင့်ပြုချက်ကို ပြန်လည်ရုပ်သိမ်းနိုင်သည်။ ထိုနေရာမှတစ်ဆင့် သင့်ဘရောက်ဆာနှင့် ဆက်စပ်နေသော ခွဲခြမ်းစိတ်ဖြာမှု ဒေတာများကိုလည်း ချက်ချင်း ဖျက်ပစ်နိုင်သည်။ ထို့ပြင် သင့်ဘရောက်ဆာ၏ ဆက်တင်များမှတစ်ဆင့်လည်း ကوكီများကို ဖျက်ပစ်နိုင်သည်။"
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "၅။ သင်၏ ရွေးချယ်မှု မှတ်တမ်း"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "သင်လက်ခံသည့်၊ ငြင်းပယ်သည့် သို့မဟုတ် ခွင့်ပြုချက် ပြန်လည်ရုပ်သိမ်းသည့် အကြိမ်တိုင်းတွင် (ခွင့်ပြုချက်သည် တရားဝင်ကြောင်း သက်သေပြနိုင်ရန်အတွက်) သင့် IP လိပ်စာမပါဘဲ မှတ်တမ်းတစ်ခု (ကဝေအမည် မှတ်ပုံတင်နံပါတ်၊ ဆုံးဖြတ်ချက်၊ ဤမူဝါဒ၏ ဗားရှင်း၊ ရက်စွဲနှင့် အချိန်၊ စာမျက်နှာ၊ ဘာသာစကား၊ အရင်းအမြစ်နှင့် ဘရောက်ဆာ) ကို သိမ်းဆည်းထားသည်။ ၃ နှစ်တိတိ သိမ်းဆည်းထားသည်။ အသေးစိတ်ကို ကိုယ်ရေးကိုယ်တာ မူဝါဒတွင် ကြည့်ပါ။"
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "၆။ အပြောင်းအလဲများ"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "ဤမူဝါဒသည် အရေးပါသော ပုံစံဖြင့် ပြောင်းလဲပါက သင်သည် ထပ်မံ ဆုံးဖြတ်နိုင်စေရန် ကوكီ သတိပေးချက်သည် ပြန်လည် ပေါ်လာလိမ့်မည်။"
 		}
 	},
 	"politica-privacidad": {
 		"meta/title": {
-			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
-			"value": "ကိုယ်ရေးကိုယ်တာ မူဝါဒ — Mario Álvarez"
+			"hash": "42071aae1686801e5e4d10f528b7ea46c5763923ea327ea82dd99d7216c615cc",
+			"value": "ကိုယ်ရေးလုံခြုံlık မူဝါဒ — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
-			"value": "Mario Álvarez ၏ ဝဘ်ဆိုက် ကိုယ်ရေးကိုယ်တာ မူဝါဒ- မည်သည့် အချက်အလက်များကို စုဆောင်းသည်၊ မည်သည့် ရည်ရွယ်ချက်အတွက်နှင့် သင်၏ အခွင့်အရေးများကို မည်သို့ ကျင့်သုံးရမည်နည်း။"
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "တရားဝင်"
+			"hash": "835ff2101ffc889e493af11033230e7e7c68e148b166dfda511fa4dc11cf8f23",
+			"value": "marioalvarez.me မှ မည်သည့်ဒေတာများကို လုပ်ဆောင်သည်၊ မည်သည့်ရည်ရွယ်ချက်အတွက်၊ မည်သည့်ဥပဒေအရံအတားဖြင့်၊ မည်သည့်အക്കാലအဝေးအထိနှင့် သင်၏အခွင့်အရေးများကို မည်သို့အသုံးချရမည်နည်း။"
 		},
 		"meta/heading": {
-			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
-			"value": "ကိုယ်ရေးကိုယ်တာ မူဝါဒ"
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
+			"value": "ကိုယ်ရေးလုံခြုံlık မူဝါဒ"
 		},
 		"secciones/0/titulo": {
-			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
-			"value": "၁။ လုပ်ဆောင်ချက် တာဝန်ခံ"
+			"hash": "f26db73f9b3e3b1ff6e9079253f37e391e699fc0a2d4f1d75cc4ad5e736e95a0",
+			"value": "၁။ တာဝန်ခံ"
 		},
-		"secciones/0/bloques/0/texto": {
-			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
-			"value": "Mario Álvarez Martínez၊ Benidorm (Alicante)၊ Spain တွင် ရုံးစိုက်သည်။ ဆက်သွယ်ရန်- malvmar5@hotmail.com"
+		"secciones/0/bloques/0/items/0": {
+			"hash": "30b867430b07e1173b004c27dbfa003df6e989a4730e364af948572908bd1d7b",
+			"value": "တာဝန်ခံ: {nombre}"
+		},
+		"secciones/0/bloques/0/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/0/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "နေရပ်လိပ်စာ: {domicilio}"
+		},
+		"secciones/0/bloques/0/items/3": {
+			"hash": "dc9414558e3d4d2f18d1a3674b75de6fadddac371f9d47a3b552090af8eb521e",
+			"value": "ကိုယ်ရေးလုံခြုံရေးဆိုင်ရာ မေးခွန်းများအတွက် အီးမေးလ်: {email}"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "4ded33c4f911f981554d9312d284fb6c54397059545a170e4cc7fe589462e16d",
+			"value": "လုပ်ငန်းအရွယ်အစားနှင့် အမျိုးအစားကြောင့် ကိုယ်ရေးကိုယ်တာ အချက်အလက် ကာကွယ်ရေး အရာရှိတစ်ဦး ခန့်အပ်ရန် မလိုအပ်ပါ၊ ထို့ကြောင့် မရှိပါ - ကျွန်ုပ်ထံ တိုက်ရိုက် စာရေးပါ။"
 		},
 		"secciones/1/titulo": {
-			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
-			"value": "၂။ လုပ်ဆောင်ချက်၏ ရည်ရွယ်ချက်"
+			"hash": "7945e3b3ea085d4541900f91dd5ee53aa546f0101caa5a0e3e02151f2787a1d8",
+			"value": "၂။ ကျွန်ုပ် မည်သည့်ဒေတာများကို လုပ်ဆောင်သည်၊ မည်သည့်အတွက်နှင့် အဘယ်ကြောင့်နည်း"
 		},
-		"secciones/1/bloques/0/texto": {
-			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
-			"value": "ဤဝဘ်ဆိုက်သည် လာရောက်ကြည့်ရှုသူများအတွက် မည်သည့် အကြောင်းအရာများ (ကဏ္ဍများ၊ ပရောဂျက်များ) က အသုံးဝင်ဆုံးဖြစ်ကြောင်းကို အတွင်းပိုင်းနှင့် စာရင်းအင်း ရည်ရွယ်ချက်သက်သက်ဖြင့်သာ ခွဲခြမ်းစိတ်ဖြာပြီး ၎င်း၏ အကြောင်းအရာကို တိုးတက်ကောင်းမွန်စေရန် ရည်ရွယ်သည်။ ကြော်ငြာ ရည်ရွယ်ချက်အတွက် အသုံးမပြုပါ၊ ပြင်ပလူများကို မျှဝေခြင်းမရှိပါ၊ မည်သည့် အခြေအနေမျိုးတွင်မဆို ရောင်းချခြင်းမရှိပါ။"
+		"secciones/1/bloques/0/columnas/0": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "မည်သည့်အတွက်"
+		},
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "972848ecab8712f1568b40ae2e85d79982921d9fb636715f12c3ee77922e3552",
+			"value": "မည်သည့်ဒေတာ"
+		},
+		"secciones/1/bloques/0/columnas/2": {
+			"hash": "0e2ca19b51a48180494077bf03cdc3954e09bdee2636072ad50078371e62a9a5",
+			"value": "ဥပဒေအရံအတား"
+		},
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "37f1242360cae04ca75412a4e8cb1f99084336707371d837bfc22cb6e7f5573f",
+			"value": "မည်မျှကြာအောင်"
+		},
+		"secciones/1/bloques/0/filas/0/0": {
+			"hash": "66f19c829749fd1569fc7654b5c44b3cfab1a9f5435c0500d82c758b69eba6f8",
+			"value": "အသုံးပြုမှု ခွဲခြမ်းစိတ်ဖြာခြင်း၊ ခွဲခြမ်းစိတ်ဖြာမှု ကွတ်ကီးများကို သင်လက်ခံမှသာ"
+		},
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "2316c78abc893aa7ee9c70d0d8941a2f1773cb0072467c8339cd9fe754f34ffd",
+			"value": "ക്രമမကျသော နာမည်ဝှက် အမှတ်အသားတစ်ခု (visitor_id ကွတ်ကီး)၊ သင်ကြည့်ရှုသည့် ကဏ္ဍများနှင့် ပရောဂျက်များနှင့် တစ်ခုချင်းစီတွင် ကြာမြင့်ချိန်၊ လင့်ခ်များနှင့် ခလုတ်များပေါ် ကလစ်နှိပ်မှုများ၊ ဘာသာစကား၊ စက်ပစ္စည်းအမျိုးအစား (မိုဘိုင်း သို့မဟုတ် ဒက်စတော့)၊ ခန့်မှန်းခြေ နိုင်ငံနှင့် အဖြစ်အပျက်တစ်ခုစီ ဖြစ်ပွားသည့် ဝဘ်ဆိုက် စာမျက်နှာ။"
+		},
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "48f423d1cad8999cc02a95461334fb67708564a718aae008e8e3d4bd6f1abe5c",
+			"value": "သင်၏ သဘောတူညီချက် (RGPD ၏ ပုဒ်မ ၆.၁.က နှင့် LSSI-CE ၏ ပုဒ်မ ၂၂.၂)။"
+		},
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "7793be198aa2fa735865c4d0184ca23264562c7145f55c2181325fac495c2008",
+			"value": "၁၂ လ၊ ထို့နောက် အဖြစ်အပျက်တစ်ခုချင်းစီကို အလိုအလျောက် ဖျက်ပစ်သည်။"
+		},
+		"secciones/1/bloques/0/filas/1/0": {
+			"hash": "c9085a6241675f43631bb0acc7db73240979340e52f215e12bac23565cfb2c26",
+			"value": "သဘောတူညီချက် မှတ်တမ်း"
+		},
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "4a6cae5ac5e5e2b02740d4fd1afb185091db19db70cf3c1532949b5a71f6d025",
+			"value": "နာမည်ဝှက် အမှတ်အသား၊ သင်လက်ခံခဲ့သည်၊ ငြင်းပضانခဲ့သည် သို့မဟုတ် ပြန်လည်ရုပ်သိမ်းခဲ့သည်၊ စာရွက်စာတမ်းတစ်ခုချင်းစီ၏ ဗားရှင်း၊ နေ့စွဲနှင့် အချိန်၊ စာမျက်နှာ၊ ဘာသာစကား၊ အရင်းအမြစ် (ဘန်နာ၊ ဖွဲ့စည်းပုံ သို့မဟုတ် ပုံစံလွှာ)၊ ဘရောက်ဆာ (အသုံးပြုသူ ကိုယ်စားလှယ်) နှင့် ခန့်မှန်းခြေ နိုင်ငံ၊ ပုံစံလွှာတွင်မူ သင်၏ အီးမေးလ် ရည်ညွှန်းကုဒ်ပါရှိသည်။"
+		},
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "f49d2c07e64734bea73e86a5f913788d7fbef6b7ba587c45d3e43a2fe892e954",
+			"value": "သဘောတူညီချက်ကို သက်သေပြနိုင်ရန် တာဝန်ဝတ္တရားကို ဖြည့်ဆည်းခြင်း (RGPD ပုဒ်မ ၆.၁.ဂ နှင့် ၇.၁)။"
+		},
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "a2ecf36d6bf6235f3dcca3b1c5fde18943f1cf05d1520617dc789b7a4217b98d",
+			"value": "မှတ်တမ်းတစ်ခုစီမှစ၍ ၃ နှစ် (LOPDGDD ချိုးဖောက်မှုများအတွက် အမြင့်ဆုံး သက်တမ်းကုန်ဆုံးချိန်)၊ ထို့နောက် အလိုအလျောက် ဖျက်ပစ်သည်။"
+		},
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "a0b02e5aea3ce82e5aeb02b12c9a190e7b4b8161dadce962d7469d0a4e5c5427",
+			"value": "သင်၏ အီးမေးလ် သို့မဟုတ် ဖုန်းမေးမြန်းမှုကို ဖြေကြားရန်"
+		},
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "6fed1a34cd293c983716f8c74612d9b18e8869913be6cbfb6dda6384e8613438",
+			"value": "သင် ပို့ရန် ဆုံးဖြတ်သော ဒေတာများ- ပုံမှန်အားဖြင့် သင်၏ အမည်၊ သင်၏ အီးမေးလ် သို့မဟုတ် ဖုန်းနှင့် မက်ဆေ့ချ် အကြောင်းအရာ။"
+		},
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "89d10b2cde2d06df634b68d50f4bc73acd354488c981db6412af30a4f424f360",
+			"value": "သင်၏ တောင်းဆိုချက်အရ စာချုပ်မချုပ်မီ အစီအမံများကို ကျင့်သုံးခြင်း (RGPD ပုဒ်မ ၆.၁.ခ) သို့မဟုတ် သင့်ကို ပြန်လည်ဖြေကြားရန် ကျွန်ုပ်၏ တရားဝင် စိတ်ဝင်စားမှု (ပုဒ်မ ၆.၁.ဖ)။"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "74f9dde75113c5650697044fdbc4c3a3a97598af5331ce0ef428bbf822cc0c21",
+			"value": "စကားပြောဆိုမှု ရှိနေသမျှ ကာလပတ်လုံးနှင့် အပြီးသတ်သည်အထိ ၁ နှစ်အထိ၊ ကျွန်ုပ်တို့ စာချုပ်ချုပ်ဆိုခြင်း မရှိပါက။"
+		},
+		"secciones/1/bloques/0/filas/3/0": {
+			"hash": "f9c4c0ee00650b320f51840cabbb7e6e642e3b61c8837a74d8d996e267df1b24",
+			"value": "ချုပ်ဆိုထားသော ဝန်ဆောင်မှုကို စီမံခန့်ခွဲရန်"
+		},
+		"secciones/1/bloques/0/filas/3/1": {
+			"hash": "63ec8a60b26e57f8d39da6ce54f8230cb8530bcf816369573da70e9e591e2822",
+			"value": "အထောက်အထား၊ ဆက်သွယ်ရန်နှင့် ငွေတောင်းခံလွှာ ဒေတာများ။"
+		},
+		"secciones/1/bloques/0/filas/3/2": {
+			"hash": "d802d684897cfb64dab5dfb2b82d148f56cec2c89e6f825d0e1bc61ac73971a3",
+			"value": "စာချုပ်ကို အကောင်အထည်ဖော်ခြင်း (RGPD ပုဒ်မ ၆.၁.ခ) နှင့် အခွန်နှင့် စာရင်းကိုင် တာဝန်ဝတ္တရားများ (ပုဒ်မ ၆.၁.ဂ)။"
+		},
+		"secciones/1/bloques/0/filas/3/3": {
+			"hash": "11f2d939b6159a847bc51d24414c4b9e793bf6825f7c1398abd8db2c71593d92",
+			"value": "အခွန်နှင့် ကုန်သွယ်ရေး ဥပဒေများက တောင်းဆိုသည်များ (ယေဘုယျအားဖြင့် ၄ နှစ်နှင့် ၆ နှစ်ကြား)။"
+		},
+		"secciones/1/bloques/0/filas/4/0": {
+			"hash": "063288f4f5c95e4a853b475581be68a6fe1a5d2f897f910b64cf1e112b6ad45c",
+			"value": "အလင်း သို့မဟုတ် အမှောင် အပြင်အဆင်ကို သင် ပိုနှစ်သက်ခြင်း ရှိမရှိ မှတ်သားရန်"
+		},
+		"secciones/1/bloques/0/filas/4/1": {
+			"hash": "dc01e55b7f3a74f530144f1343bf45325fd1f19a6506d36f1a840187ea7c2ce1",
+			"value": "«tema» ဦးစားပေးမှု၊ သင်၏ဘရောက်ဆာတွင်သာ သိမ်းဆည်းထားသည် (ဒေသတွင်း သိုလှောင်မှု)။ ကျွန်ုပ်ထံသို့ မရောက်ရှိပါ။"
+		},
+		"secciones/1/bloques/0/filas/4/2": {
+			"hash": "b040ff84d8f2d571755a6a5e7ef2c402852e9dec6a680b046a8840b517f0258f",
+			"value": "ခလုတ်ကို နှိပ်သည့်အခါ သင်တောင်းဆိုသော လုပ်ဆောင်ချက်တစ်ခု (LSSI-CE ပုဒ်မ ၂၂.၂ အရ သဘောတူညီချက်မှ ကင်းလွတ်ခွင့်ရှိသည်)။"
+		},
+		"secciones/1/bloques/0/filas/4/3": {
+			"hash": "8fb068d79a6505e39426755b0e06217d53afb0432147bf3814d2980ab9e64f5a",
+			"value": "သင်၏ ဘရောက်ဆာမှ သင်ဖျက်သည်အထိ။"
 		},
 		"secciones/2/titulo": {
-			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
-			"value": "၃။ စုဆောင်းသော အချက်အလက်များ (ခွဲခြမ်းစိတ်ဖြာမှု ကွတ်ကီးများကို သင်လက်ခံမှသာ)"
+			"hash": "7feaf44c775a941b92da3e422a3dfbbf1af6d00c97a112d765f00b6c6e69145c",
+			"value": "၃။ ကျွန်ုပ် တောင်းဆိုခြင်းနှင့် စုဆောင်းခြင်း မရှိသည်များ"
 		},
-		"secciones/2/bloques/0/items/0": {
-			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
-			"value": "သင့်အမည်၊ အီးမေးလ် သို့မဟုတ် သင့်ကို တိုက်ရိုက်ဖော်ပြသည့် အခြားအချက်အလက်များနှင့် မချိတ်ဆက်ထားသော ကျပန်း အမည်ဝှက် အမှတ်အသားတစ်ခု။"
+		"secciones/2/bloques/0/texto": {
+			"hash": "2e532d9922da0772b96e789b3bc6716e06e430392ef62cdbafbf5a64a8b602a0",
+			"value": "ရည်ရွယ်ချက် တစ်ခုချင်းစီအတွက် မရှိမဖြစ် လိုအပ်သည်များကိုသာ ကျွန်ုပ် လုပ်ဆောင်သည်။ အထူးသဖြင့်-"
 		},
-		"secciones/2/bloques/0/items/1": {
-			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
-			"value": "သင်ကြည့်ရှုသည့် စာမျက်နှာများနှင့် ပရောဂျက်များ၊ နှင့် တစ်ခုချင်းစီတွင် ကြည့်ရှုသည့် အချိန် (တဘ်ကို ဖွင့်ထားစဉ်)။"
+		"secciones/2/bloques/1/items/0": {
+			"hash": "162d4749f1b4ecef620defa8cc4315c9cdeb14495be2b079d86990bab9921fcc",
+			"value": "ဆက်သွယ်ရန် ပုံစံလွှာသည် သင်၏ အမည်၊ အီးမေးလ် သို့မဟုတ် ဖုန်းကို တောင်းဆိုခြင်း မရှိပါ- သင်၏ အီးမေးလ် ပရိုแกรมကို ဖွင့်လိုက်ပြီး ကျွန်ုပ်ထံ မည်သည့်အရာ ပို့ရမည်ကို သင်ကိုယ်တိုင် ဆုံးဖြတ်သည်။"
 		},
-		"secciones/2/bloques/0/items/2": {
-			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
-			"value": "អន្តរកម្មများ (ပရောဂျက်များ၊ လင့်ခ်များ သို့မဟုတ် ခလုတ်များပေါ်တွင် ကလစ်နှိပ်ခြင်း)။"
+		"secciones/2/bloques/1/items/1": {
+			"hash": "ff397d4902c0ffd1189f8e1e35e2bcb687831fb514a3f9e543d45b5097cd02cf",
+			"value": "ခွဲခြမ်းစိတ်ဖြာမှုတွင်ဖြစ်စေ၊ သဘောတူညီချက် မှတ်တမ်းတွင်ဖြစ်စေ သင်၏ IP လိပ်စာကို ကျွန်ုပ် သိမ်းဆည်းခြင်း မရှိပါ။"
 		},
-		"secciones/2/bloques/0/items/3": {
-			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
-			"value": "ဝင်ရောက်ကြည့်ရှုသည့် ရက်စွဲနှင့် အချိန်။"
+		"secciones/2/bloques/1/items/2": {
+			"hash": "f56194a61aec7b27015853b20033d553cbb9ac044fe9f04346b24415eb7adbcb",
+			"value": "ဘရောက်ဆာ အမှတ်အသားပြုခြင်း နည်းပညာများ (fingerprinting)၊ Google Analytics၊ ကြော်ငြာ ပစ်ဇယ်များ သို့မဟုတ် ပြင်ပ ကုမ္ပဏီ ကွတ်ကီးများကို ကျွန်ုပ် အသုံးမပြုပါ။"
 		},
-		"secciones/2/bloques/0/items/4": {
-			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
-			"value": "ကြည့်ရှုသည့် ဆိုက်၏ ဘာသာစကား။"
-		},
-		"secciones/2/bloques/0/items/5": {
-			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
-			"value": "စက်ပစ္စည်း အမျိုးအစား (မိုဘိုင်း သို့မဟုတ် ဒက်စ်တော့)။"
-		},
-		"secciones/2/bloques/0/items/6": {
-			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
-			"value": "သင့် IP လိပ်စာကို မသိမ်းဆည်းဘဲ Cloudflare အခြေခံအဆောက်အအုံမှတစ်ဆင့် ရရှိသော ခန့်မှန်းခြေ နိုင်ငံ။"
-		},
-		"secciones/2/bloques/0/items/7": {
-			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
-			"value": "လာရာ စာမျက်နှာ (ဥပမာ- LinkedIn သို့မဟုတ် ရှာဖွေရေးအင်ဂျင်တစ်ခု)။"
-		},
-		"secciones/2/bloques/1/texto": {
-			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
-			"value": "သင့် IP လိပ်စာကို မစုဆောင်းပါ၊ ဘရောက်ဇာ ဖော်ထုတ်ခြင်း (fingerprinting) နည်းပညာများကို မသုံးပါ၊ Google Analytics သို့မဟုတ် အလားတူ ပြင်ပကိရိယာများကိုလည်း မသုံးပါ။"
+		"secciones/2/bloques/1/items/3": {
+			"hash": "0ba62a40c9ed5bff67053ea0f359fcdfe831ea6223962396ea3e25270f49b79e",
+			"value": "ဖောင့်များနှင့် ပုံများကို ဤဝဘ်ဆိုက် ကိုယ်တိုင်မှ ပံ့ပိုးပေးသည်- ဝင်ရောက်ကြည့်ရှုသည့်အခါ သင်၏ ဘရောက်ဆာသည် Google Fonts၊ GitHub သို့မဟုတ် အခြား ပြင်ပ ဝန်ဆောင်မှုများနှင့် ချိတ်ဆက်ခြင်း မရှိပါ။"
 		},
 		"secciones/3/titulo": {
-			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
-			"value": "၄။ တရားဝင် အခြေခံ"
+			"hash": "e97f09119206a0bb54b91a4d0525a1611a86cd2a1ffb1ce68ecee7e407f5b4b2",
+			"value": "၄။ မည်သူများ ပါဝင်ပတ်သက်သေနည်း"
 		},
 		"secciones/3/bloques/0/texto": {
-			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
-			"value": "လုပ်ဆောင်ချက်သည် သင့်၏ တိကျသေချာသော သဘောတူညီချက် (RGPD ၏ ပုဒ်မ ၆.၁.က နှင့် LSSI-CE ၏ ပုဒ်မ ၂၂.၂) အပေါ် အခြေခံထားပြီး ဆိုက်၏ ကွတ်ကီး မန်နေဂျာမှတစ်ဆင့် အချိန်မရွေး ပြန်လည်ရုပ်သိမ်းနိုင်သည်။"
+			"hash": "9379c1c29056fb76c9aaac14eec204ccc80f1839470f1fa57d869d5ede4e8554",
+			"value": "ဥပဒေအရ တာဝန်ရှိမှသာလျှင်၊ သင်၏ ဒေတာများကို မည်သူ့ကိုမျှ ကျွန်ုပ် ရောင်းချခြင်း သို့မဟုတ် ပေးအပ်ခြင်း မရှိပါ။ ဝဘ်ဆိုက် လည်ပတ်နိုင်ရန်နှင့် သင့်ကို ပြန်လည်ဖြေကြားရန် ဤဝန်ဆောင်မှု ပံ့ပိုးသူများကို အသုံးပြုသည်-"
+		},
+		"secciones/3/bloques/1/items/0": {
+			"hash": "ba8d5055f95f76f5d5f213f9ea6abd0d2e73614739ee762b8e003da614270e78",
+			"value": "Cloudflare, Inc.: ဝဘ်ဆိုက်နှင့် ဒေတာဘေ့စ်ကို လက်ခံပေးသည် (Cloudflare Pages နှင့် D1) နှင့် ဒေတာ လုပ်ဆောင်သူအဖြစ် ဆောင်ရွက်သည်။ ဝဘ်ဆိုက်ကို ပံ့ပိုးရန်အတွက် ကျွန်ုပ် ဝင်ရောက်ကြည့်ရှုခွင့်မရှိသော သင့် IP ကဲ့သို့သော ချိတ်ဆက်မှုဆိုင်ရာ နည်းပညာ ဒေတာများကို လုပ်ဆောင်သည်။ ၎င်း၏ မူဝါဒ: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/3/bloques/1/items/1": {
+			"hash": "e5466224dac0fab3f83206452f2e1dce4d397ed8821b014e24422d4c03931809",
+			"value": "Microsoft Corporation (Outlook.com): အီးမေးလ်များကို လက်ခံရရှိပြီး ပြန်လည်ဖြေကြားသည့် အီးမေးလ် ဝန်ဆောင်မှု၊ ၎င်း၏ မူဝါဒအတိုင်း ဤမက်ဆေ့ချ်များကို လုပ်ဆောင်သည်: https://privacy.microsoft.com/es-es/privacystatement"
 		},
 		"secciones/4/titulo": {
-			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
-			"value": "၅။ ထိန်းသိမ်းသည့် ကာလ"
+			"hash": "0f1733989dcc9d3e7da935c30da90d6d47f7e418e0623ece20bdddea5480e10d",
+			"value": "၅။ နိုင်ငံတကာ လွှဲပြောင်းမှုများ"
 		},
 		"secciones/4/bloques/0/texto": {
-			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
-			"value": "အချက်အလက်များကို သင်၏ နောက်ဆုံး ဝင်ရောက်ကြည့်ရှုချိန်မှစ၍ အများဆုံး ၁၂ လအထိ ထိန်းသိမ်းထားမည်ဖြစ်ပြီး ထိုကာလ ကုန်ဆုံးပါက အလိုအလျောက် ဖျက်ပစ်မည်ဖြစ်သည်။"
+			"hash": "730d0cdbf2408bcb369456290dbb1557289c98b1c1ad50e6c7738990068ee833",
+			"value": "Cloudflare နှင့် Microsoft တို့သည် အမေရိကန်ပြည်ထောင်စုတွင် ဒေတာများကို လုပ်ဆောင်နိုင်ပါသည်။ နှစ်ခုစလုံးသည် EU-US ဒေတာ ကိုယ်ရေးလုံခြုံမှု ማዕဘောင် (၂၀၂၃ ခုနှစ် ဇူလိုင်လ ၁၀ ရက်နေ့ ဥရောပ ကော်မရှင်၏ သင့်လျော်မှု ဆုံးဖြတ်ချက်) ကို လိုက်နာကြပြီး ကော်မရှင်မှ အတည်ပြုထားသော စံ စာချုပ်ပါ အပိုဒ်များကိုလည်း ပံ့ပိုးပေးပါသည်။"
 		},
 		"secciones/5/titulo": {
-			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
-			"value": "၆။ လက်ခံသူများနှင့် နိုင်ငံတကာ လွှဲပြောင်းမှုများ"
+			"hash": "4ec1c1d4af17035281741f9ce83569b18261968bce5f1398635042c17d1ea5aa",
+			"value": "၆။ သင်၏ အားသာချက်များ"
 		},
 		"secciones/5/bloques/0/texto": {
-			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
-			"value": "အချက်အလက်များကို ပြင်ပလူများထံ လွှဲပြောင်းခြင်း သို့မဟုတ် ရောင်းချခြင်း မရှိပါ။ လုပ်ဆောင်ချက် တာဝန်ခံအဖြစ် ဆောင်ရွက်နေသော Cloudflare, Inc. မှ ပံ့ပိုးပေးသည့် ဒေတာဘေ့စ် ဝန်ဆောင်မှုဖြစ်သော Cloudflare D1 တွင် သိမ်းဆည်းထားသည်။ Cloudflare သည် ဥရောပ စီးပွားရေး ဧရိယာပြင်ပသို့ အချက်အလက်များကို လုပ်ဆောင်နိုင်သည်၊ ထိုသို့သော အခြေအနေမျိုးတွင် အဆိုပါ လွှဲပြောင်းမှုကို ဥရောပကော်မရှင်မှ အတည်ပြုထားသော စံ စာချုပ်ပါ စည်းကမ်းချက်များဖြင့် အကာအကွယ် ပေးထားသည်။ Cloudflare ၏ ကိုယ်ရေးကိုယ်တာ မူဝါဒတွင် အသေးစိတ်ကြည့်ရှုရန်- https://www.cloudflare.com/privacypolicy/"
+			"hash": "6315177b90b21cdfbed7fbfaec8577e8da3be3f21abc4b0aa4ee3768d05d5730",
+			"value": "မည်သည့်အချိန်တွင်မဆို သင်၏ ဒေတာများကို ဝင်ရောက်ကြည့်ရှုရန်၊ ပြင်ဆင်ရန်၊ ဖျက်ပစ်ရန်၊ လုပ်ဆောင်မှုကို ကန့်ကွက်ရန်၊ ကန့်သတ်ရန် သို့မဟုတ် အခြားနေရာသို့ ယူဆောင်သွားရန် (သယ်ဆောင်နိုင်စွမ်း) လက်ခံရရှိရန်နှင့် ယခင် လုပ်ဆောင်ခဲ့သည့်အရာများကို ထိခိုက်မှုမရှိစေဘဲ သင်၏ သဘောတူညီချက်ကို ပြန်လည်ရုပ်သိမ်းရန် သင် တောင်းဆိုနိုင်ပါသည်။ {email} သို့ စာရေးပါ၊ အများဆုံး တစ်လအတွင်း ကျွန်ုပ် ပြန်လည်ဖြေကြားပါမည်။"
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "861c3a71db2dc302875ad844414aa75c76842e60449a723c31645d069833fcce",
+			"value": "ခွဲခြမ်းစိတ်ဖြာမှု ဒေတာများကို ကွတ်ကီး ဖွဲ့စည်းပုံရှိ «Borrar mis datos» ခလုတ်ဖြင့် သင်ကိုယ်တိုင် ချက်ချင်း ဖျက်ပစ်နိုင်ပါသည်။ သဘောတူညီချက် မှတ်တမ်းကို သဘောတူညီချက် ပြန်လည်ရုပ်သိမ်းသော်လည်း သိမ်းဆည်းထားပါသည်၊ အဘယ်ကြောင့်ဆိုသော် ၎င်းကို မည်သည့်အချိန်က ပေးခဲ့ပြီး မည်သည့်အချိန်က ရုပ်သိမ်းခဲ့သည်ကို တိကျစွာ သက်သေပြရန်အတွက် တိကျစွာ အသုံးဝင်သောကြောင့် ဖြစ်သည်။"
+		},
+		"secciones/5/bloques/2/texto": {
+			"hash": "893606189520d2e9c25fbc294f12b208763cd9a34b5e2e9260c64d938f8c636c",
+			"value": "သင်၏ အားသာချက်များကို ကောင်းမွန်စွာ မဆောင်ရွက်ပေးခဲ့ဟု သင်ယူဆပါက စပိန် ကိုယ်ရေးကိုယ်တာ အချက်အလက် ကာကွယ်ရေး ኤဂျင်စီတွင် တိုင်ကြားနိုင်ပါသည်: https://www.aepd.es"
 		},
 		"secciones/6/titulo": {
-			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
-			"value": "၇။ သင့်၏ အခွင့်အရေးများ"
+			"hash": "003ddb2514982633893943d31d98d557414a83f3a0566ffe931a21885a10d93c",
+			"value": "၇။ अल्पवयस्कများ"
 		},
 		"secciones/6/bloques/0/texto": {
-			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
-			"value": "malvmar5@hotmail.com သို့ စာရေးသား၍ ဝင်ရောက်ခွင့်၊ ပြင်ဆင်ခွင့်၊ ဖျက်ပစ်ခွင့်၊ ကန့်ကွက်ခွင့်၊ လုပ်ဆောင်ချက် ကန့်သတ်ခွင့်နှင့် အချက်အလက် လွှဲပြောင်းနိုင်ခွင့် ရှိသည့် အခွင့်အရေးများကို အချိန်မရွေး ကျင့်သုံးနိုင်ပါသည်။ ထို့အပြင်၊ မည်သူ့ကိုမျှ စာရေးစရာမလိုဘဲ ဆိုက်၏ ကွတ်ကီး ဆက်တင်များတွင် ရရှိနိုင်သော \"ကျွန်ုပ်၏ အချက်အလက်များကို ဖျက်ရန်\" ခလုတ်မှတစ်ဆင့် သင့်အချက်အလက်များကို ချက်ချင်း ဖျက်ပစ်နိုင်သည်။ သင့်အခွင့်အရေးများကို သင့်လျော်စွာ မဆောင်ရွက်ပေးဟု ယူဆပါက စပိန်ဒေတာ ကာကွယ်ရေး အေဂျင်စီ (www.aepd.es) ထံတွင်လည်း တိုင်ကြားပိုင်ခွင့် ရှိသည်။"
+			"hash": "a5bc9a70e47befee36963581af0ce2875c63d35566435cb7078f36ee013a0da5",
+			"value": "ဝဘ်ဆိုက်သည် အသက် ၁၄ နှစ်အောက် अल्पवयस्कများအတွက် ရည်ရွယ်ထားခြင်း မရှိပါ။ အသက် ၁၄ နှစ်အောက် ဖြစ်ပါက မိဘများ သို့မဟုတ် အုပ်ထိန်းသူများ၏ ခွင့်ပြုချက်မပါဘဲ ကိုယ်ရေးကိုယ်တာ ဒေတာများကို ကျွန်ုပ်ထံ မပို့ပါနှင့် (LOPDGDD ပုဒ်မ ၇)။"
 		},
 		"secciones/7/titulo": {
-			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
-			"value": "၈။ ဤမူဝါဒ၏ အပြောင်းအလဲများ"
+			"hash": "89bad5840c8dee67d2a6178a78cebda20b28cbe970a49fd79a807b44b36df8c4",
+			"value": "၈။ လုံခြုံရေး"
 		},
 		"secciones/7/bloques/0/texto": {
-			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
-			"value": "ဤမူဝါဒသည် တရားဝင် အပြောင်းအလဲများ သို့မဟုတ် ဆိုက်ကိုယ်တိုင်၏ အပြောင်းအလဲများနှင့် လိုက်လျောညီထွေဖြစ်စေရန် အပ်ဒိတ်လုပ်နိုင်ပါသည်။"
+			"hash": "42a5a107a1cdae9c58164e80236ff37ee90982816a2bc13cca85a541687e78ce",
+			"value": "ဒေတာများသည် ကုဒ်ဝှက်ထားပြီး ခရီးသွားကြသည် (HTTPS) နှင့် အသုံးပြုသူနှင့် စကားဝှက်ဖြင့် ကာကွယ်ထားသော ပုဂ္ဂလိက ፓနယ်မှသာ ဝင်ရောက်ကြည့်ရှုနိုင်သော ဒေတာဘေ့စ်တွင် သိမ်းဆည်းထားသည်။"
+		},
+		"secciones/8/titulo": {
+			"hash": "281d85edd7253d4dfcfac85764031516f590f798423fec77375a13cd6628419b",
+			"value": "၉။ ဤမူဝါဒတွင် အပြောင်းအလဲများ"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "c02f8e64ffd3e30fd572c5e4ffa814fa674bc2ce1bc1ae97cbda29bc426a0641",
+			"value": "အရေးကြီးသည် တစ်စုံတစ်ရာ ပြောင်းလဲပါက ဤစာမျက်နှာနှင့် ၎င်း၏ ဗားရှင်း နေ့စွဲကို ကျွန်ုပ် အပ်ဒိတ်လုပ်ပါမည်။ အပြောင်းအလဲသည် ကွတ်ကီးများကို ထိခိုက်ပါက သင့်အား ထပ်မံ မေးမြန်းပါလိမ့်မည်။"
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "စည်းM်းချက်များနှင့် သတ်မှတ်ချက်များ — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "marioalvarez.me ၏  legais သတိပေးချက်နှင့် အသုံးပြုမှု အခြေအနေများ- ပိုင်ရှင်, ဝဘ်ဆိုဒ်ကို မည်သို့အသုံးပြုနိုင်သည်နှင့် အကျုံးဝင်သည့် ဥပဒေ။"
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "စည်းကမ်းချက်များနှင့် သတ်မှတ်ချက်များ"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "၁။ ဤဝဘ်ဆိုဒ်နောက်ကွယ်တွင် မည်သူရှိသနည်း"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "အချက်အလက် လူ့အဘောင်နှင့် အီလက်ထရွန်နစ် ကူးသန်းရောင်းဝယ်ရေး ဝန်ဆောင်မှုများဆိုင်ရာ ဥပဒေ (LSSI-CE) ၏ အပိုဒ် ၁၀ အရ၊ ဤသည်မှာ marioalvarez.me ၏ ပိုင်ရှင် အချက်အလက်များ ဖြစ်သည်-"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "ပိုင်ရှင်- {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "နေရပ်လိပ်စာ- {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "အီးမေးလ်- {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "လုပ်ဆောင်ချက်- ပရော်ဖက်ရှင်နယ် ပေါ်တိုဖိုလီယိုနှင့် ဒေတာခွဲခြမ်းစိတ်ဖြာမှု ဝန်ဆောင်မှုများ၊ စိတ်ကြိုက် တူးလ်များ၊ ဒေတာဘေ့စ်များနှင့် အစီရင်ခံစာများ ပံ့ပိုးပေးခြင်း၊ ကယ်ရီယာ အထောက်အပံ့ ပေးခြင်း။"
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "၂။ ဤစည်းကမ်းချက်များသည် မည်သည်တို့ကို ထိန်းညှိသနည်း"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "ဤစည်းကမ်းချက်များသည် ဘာသာစကား မည်သည့်ဘာသာဖြင့်မဆို marioalvarez.me («ဝဘ်ဆိုဒ်») သို့ ဝင်ရောက်ခြင်းနှင့် အသုံးပြုခြင်းတို့ကို ထိန်းညှိပေးသည်။ ဝဘ်ဆိုဒ်ကို ကြည့်ရှုခြင်းဖြင့် ဤနေရာတွင် ဖော်ပြထားသည့်အတိုင်း အသုံးပြုရန် သင် သဘောတူပါသည်။ ဆက်သွယ်ရန် ဖောင်မှတဆင့် ကျွန်ုပ်ထံ စာရေးပါက အကွက်တစ်ခုကို အမှန်ခြစ်ခြင်းဖြင့် ၎င်းတို့ကို ရှင်းလင်းစွာ လက်ခံရန် တောင်းဆိုပါသည်။"
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "၃။ ဝဘ်ဆိုဒ်ကို မည်သို့အသုံးပြုနိုင်သနည်း"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "ရင်းမြစ်ကို ကိုးကား၍ အကြောင်းအရာများကို သင် ကြည့်ရှုပြီး မျှဝေနိုင်ပါသည်။ အောက်ပါတို့ကို ခွင့်မပြုပါ-"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "တရားမဝင်သော ရည်ရွယ်ချက်များဖြင့် သို့မဟုတ် တတိယပါတီများကို ထိခိုက်စေမည့် ရည်ရွယ်ချက်များဖြင့် ဝဘ်ဆိုဒ်ကို အသုံးပြုခြင်း၊"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "ကန့်သတ်ထားသော ဧရိယာများ (ကိုယ်ပိုင် ပန်နယ်ကဲ့သို့သော) သို့မဟုတ် ၎င်းကို လက်ခံပေးထားသည့် စနစ်များသို့ ဝင်ရောက်ရန် ကြိုးပမ်းခြင်း၊"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "ဗိုင်းရပ်စ်များ သို့မဟုတ် အန္တရာယ်ရှိသော ކုဒ်မှန်သမျှကို ထည့်သွင်းခြင်း၊ သို့မဟုတ် ရည်ရွယ်ချက်ရှိရှိဖြင့် လွန်ကဲစွာ တင်ဆောင်ခြင်း၊"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "ကိုယ်ပိုင်အဖြစ် တင်ပြရန်အတွက် အကြောင်းအရာများကို ကူးယူခြင်း။"
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "၄။ ဝန်ဆောင်မှုများနှင့် စာချုပ်ချုပ်ဆိုခြင်း"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "ဝဘ်ဆိုဒ်သည် ထုတ်ကုန်များကို မရောင်းချပါ၊ အွန်လိုင်းမှ ငွေပေးချေမှုများကိုလည်း မကောက်ခံပါ။ ဝန်ဆောင်မှုတစ်ခုကို စိတ်ဝင်စားပါက အီးမေးလ် သို့မဟုတ် ဖုန်းဖြင့် ဆွေးနွေးနိုင်ပြီး အကျုံးဝင်မှု၊ ဈေးနှုန်း၊ အချိန်ဇယား၊ ငွေပေးချေမှုနှင့် ပယ်ဖျက်မှု အခြေအနေများ ပါဝင်သည့် စာဖြင့်ရေးသားထားသော အဆိုပြုချက်ကို ပေးပို့ပါမည်။ ၎င်းအဆိုပြုချက်ကို နှစ်ဦးစလုံးက လက်ခံပြီးသည်နှင့် ဝန်ဆောင်မှုကို လမ်းညွှန်ပေးပြီး ဤစည်းကမ်းချက်များထက် ဦးစားပေးမည် ဖြစ်သည်။"
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "ပယ်ဖျက်ခြင်းများ၊ ငြင်းပယ်ပိုင်ခွင့်နှင့် ပြန်အမ်းငွေများ မည်သို့လုပ်ဆောင်သည်ကို ပြန်အမ်းငွေ ပေါ်လစီတွင် ရှင်းပြထားသည်။"
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "၅။ ဉာဏပစ္စည်းနှင့် စက်မှုပစ္စည်း မူပိုင်ခွင့်"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "စာသားများ၊ ဒီဇိုင်း၊ ကိုယ်ပိုင် ကုဒ်၊ လိုဂိုနှင့် Mario Álvarez ၏ ဓာတ်ပုံများသည် ၎င်း၏ ပိုင်ဆိုင်မှု ဖြစ်သည် သို့မဟုတ် ၎င်းတို့၏ စာရေးဆရာများ၏ ခွင့်ပြုချက်ဖြင့် အသုံးပြုထားသည်။ စာဖြင့်ရေးသားထားသော ခွင့်ပြုချက်မရှိဘဲ စီးပွားဖြစ် ရည်ရွယ်ချက်များဖြင့် ၎င်းတို့ကို ပြန်လည်ထုတ်လုပ်ခြင်းကို ခွင့်မပြုပါ။"
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "တတိယပါတီများ၏ အမည်များနှင့် လိုဂိုများ (LinkedIn, GitHub, Instagram ကဲ့သို့သော သို့မဟုတ် အတွေ့အကြုံတွင် ဖော်ပြထားသော အသင်းအဖွဲ့များနှင့် အဖွဲ့အစည်းများ) သည် ၎င်းတို့၏ ပိုင်ရှင်များဖြစ်သည်။ ၎င်းတို့ကို ဖော်ပြခြင်းသည် ရှင်းလင်းစွာ မဖော်ပြထားပါက မည်သည့် စီးပွားဖြစ် ဆက်ဆံရေး သို့မဟုတ် ပံ့ပိုးကူညီမှုကိုမျှ မဆိုလိုပါ။"
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "ဝဘ်ဆိုဒ်သည် ခွင့်ပြုသည့် လိုင်စင်များပါရှိသော တတိယပါတီ အရင်းအမြစ်များကို အသုံးပြုသည်- Fira Sans Extra Condensed နှင့် Source Serif 4 ဖောင့်များ (SIL Open Font License 1.1)၊ Lucide အိုင်ကွန်များ (ISC လိုင်စင်) နှင့် Simple Icons (CC0 1.0) နှင့် GSAP အန်နီမေးရှင်း లైব্রေရီ (Webflow ၏ GreenSock အခမဲ့ စံလိုင်စင်) တို့ ဖြစ်သည်။ GitHub တွင် ချိတ်ဆက်ထားသော ပရောဂျက်တစ်ခုချင်းစီတွင် ၎င်း၏ ကိုယ်ပိုင်လိုင်စင် ရှိသည်။"
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "၆။ တာဝန်ယူမှု"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "အချက်အလက်များ မှန်ကန်စေရန်နှင့် ဝဘ်ဆိုဒ် ရရှိနိုင်ရန် ကျွန်ုပ် ကြိုးစားသော်လည်း အမှားအယွင်းများ သို့မဟုတ် ပြတ်တောက်မှုများ မရှိကြောင်း အာမမခံနိုင်ပါ။ အကြောင်းအရာများသည် သတင်းအချက်အလက် သက်သက်ဖြစ်ပြီး သင့်၏ သီးခြားကိစ္စရပ်နှင့် ပတ်သက်သည့် ပရော်ဖက်ရှင်နယ် အကြံဉာဏ်ပေးမှုကို အစားမထိုးပါ။"
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "ဝဘ်ဆိုဒ်သည် တတိယပါတီဆိုက်များ (ဆိုရှယ်မီဒီယာများ၊ ရိုပိုဇิทရီများ၊ ပရောဂျက် ဝဘ်ဆိုဒ်များ) သို့ ချိတ်ဆက်ထားသည်။ ၎င်းတို့၏ အကြောင်းအရာ သို့မဟုတ် မူဝါဒများကို ကျွန်ုပ် မထိန်းချုပ်ပါ၊ ၎င်းတို့အတွက်လည်း တာဝန်မယူပါ။"
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "၇။ ကိုယ်ရေးကိုယ်တာနှင့် ကွတ်ကီးများ"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "သင့်ဒေတာများကို မည်သို့လုပ်ဆောင်သည်နှင့် မည်သည့်ကွတ်ကီးများကို အသုံးပြုသည်ကို ကိုယ်ရေးကိုယ်တာ ပေါ်လစီနှင့် ကွတ်ကီး မူဝါဒတွင် ရှင်းပြထားသည်။ ဝဘ်ဆိုဒ်၏ မည်သည့် အစိတ်အပိုင်းကမျှ ၎င်းကို အသုံးပြုနိုင်ရန် ကွတ်ကီးများကို လက်ခံရန် မခိုင်းစေပါ။"
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "၈။ လက်ခံမှု မှတ်တုံတင်ခြင်း"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "လိုအပ်သည့်အခါတိုင်း သဘောတူညီချက်ကို သက်သေပြနိုင်ရန် (GDPR ၏ အပိုဒ် 7.1)၊ ဆက်သွယ်ရန် ဖောင်တွင် ဤစည်းကမ်းချက်များကို လက်ခံသည့်အခါ သို့မဟုတ် မည်သည့် ကွတ်ကီးများကို ခွင့်ပြုမည်ကို ရွေးချယ်သည့်အခါ မှတ်တုံတင်မှုတစ်ခုကို သိမ်းဆည်းထားသည်- ကလောင်နာမည် အထောက်အထား၊ သင် လက်ခံခဲ့သည် သို့မဟုတ် ငြင်းပယ်ခဲ့သည်များ၊ စာရွက်စာတမ်းတစ်ခုချင်းစီ၏ ဗားရှင်း၊ နေ့စွဲနှင့် အချိန်၊ သင် လုပ်ဆောင်ခဲ့သည့် စာမျက်နှာနှင့် ဘာသာစကား၊ ရရင်းမြစ် (ဘန်နာ၊ ဖွဲ့စည်းပုံ သို့မဟုတ် ဖောင်)၊ ဘရောက်ဆာနှင့် ဖောင်တွင် သင့်အီးမေးလ်ထဲတွင် ပါလာသော ကိုးကားချက် ကုဒ်တစ်ခု။ သင့် IP လိပ်စာကို မသိမ်းဆည်းပါ။ အသေးစိတ်အချက်အလက်များကို ကိုယ်ရေးကိုယ်တာ ပေါ်လစီတွင် ဖော်ပြထားသည်။"
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "၉။ ဘာသာစကားများ"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "ဤစာသားများ၏ စပိန်ဘာသာစကား ဗားရှင်းသည် မူရင်းဖြစ်ပြီး သံသယဖြစ်ဖွယ် ရှိသည့်အခါ ဦးစားပေးမည် ဖြစ်သည်။ ကျန်ရှိသော ဗားရှင်းများသည် အဆင်ပြေစေရန်အတွက် ပံ့ပိုးပေးထားသည့် အလိုအလျောက် ဘာသာပြန်ဆိုချက်များ ဖြစ်သည်။"
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "၁၀။ အပြောင်းအလဲများ"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "ဥပဒေရေးရာ အပြောင်းအလဲများ သို့မဟုတ် ဝဘ်ဆိုဒ် အပြောင်းအလဲများနှင့် လိုက်လျောညီထွေဖြစ်စေရန် ဤစည်းကမ်းချက်များကို ကျွန်ုပ် အပ်ဒိတ်လုပ်နိုင်ပါသည်။ လက်ရှိသုံးနေသော ဗားရှင်း၏ ရက်စွဲကို ဤစာမျက်နှာ၏ အစတွင် ပြသထားသည်။ အပြောင်းအလဲသည် အရေးကြီးပါက ၎င်းတို့ကို လက်ခံရန် သင့်အား ထပ်မံတောင်းဆိုပါမည်။"
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "၁၁။ အကျုံးဝင်သည့် ဥပဒေနှင့် တရားစီရင်ပိုင်ခွင့်"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "ဤစည်းကမ်းချက်များကို စပိန်ဥပဒေဖြင့် ထိန်းညှိထားသည်။ စားသုံးသူတစ်ဦးအနေဖြင့် လုပ်ဆောင်ပါက သင့်နေရပ်လိပ်စာရှိ တရားရုံးများနှင့် သင့်ကိုယ်ပိုင်အုပ်ချုပ်ခွင့်ရ ဒေသ၏ စားသုံးသူများ အငြင်းပွားမှု ဖြေရှင်းရေးနှင့် ခုံသမာဓိ စနစ်များထံ သွားရောက်နိုင်ပါသည်။ အခြားကိစ္စရပ်များတွင် နှစ်ဖက်စလုံးသည် Benidorm (Alicante) ၏ တရားရုံးများနှင့် ခုံရုံးများအောက်တွင် တည်ရှိသည်။"
+		}
+	},
+	"politica-reembolso": {
+		"meta/title": {
+			"hash": "bdcfda545addeea0886ff82b66b64f5f56f91e39aa6afa93ede2e498fc231c44",
+			"value": "ငွေပြန်အမ်းand नीति — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "5b9e6941811b24b85c7ab3f7fc2f74a6a41fe53d808ff533e8fca8d66fbbc4da",
+			"value": "Mario Álvarez ၏ ဝန်ဆောင်မှုများအတွက် ဖျက်သိမ်းမှုများ၊ ငြင်းပယ်ပိုင်ခွင့်နှင့် ပြန်အမ်းငွေများ မည်သို့လုပ်ဆောင်ပုံ။"
+		},
+		"meta/heading": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "ငွေပြန်အမ်းand नीति"
+		},
+		"secciones/0/titulo": {
+			"hash": "ff143d312f054ce7182b3caf2913fadf9053edbe7bbc5126c0500dbf9924dcde",
+			"value": "၁။ ဤဝဘ်ဆိုက်သည် ငွေပေးချေမှုများ မကောက်ခံပါ"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "14d92dd27a30ce3225cc0c90b70e3ebf5c3a8b786edbc2a8282dfefe97f97e3c",
+			"value": "marioalvarez.me တွင် ထုတ်ကုန်များ ရောင်းချခြင်း သို့မဟုတ် အွန်လိုင်းငွေပေးချေမှုများ ကောက်ခံခြင်း မရှိပါ။ ဝန်ဆောင်မှုများ (စွမ်းဆောင်ရည် ခွဲခြမ်းစိတ်ဖြာမှု၊ စိတ်ကြိုက်ကိရိယာများ၊ ဒေတာဘေ့စ်များနှင့် အစီရင်ခံစာများ၊ နှင့် အသက်မွေးဝမ်းကျောင်းဆိုင်ရာ ပံ့ပိုးမှု) ကို စာဖြင့်ရေးသားထားသော દરเสนอခွင့်ပြုချက်ဖြင့် သီးခြားစီ စာချုပ်ချုပ်ဆိုပါသည်။"
+		},
+		"secciones/1/titulo": {
+			"hash": "50402d539cae16eba5d0c0bd8ed574497c5bedd07c9f76a6c54b995228b9d194",
+			"value": "၂။ သင့် દરเสนอခွင့်ပြုချက်တွင် ဖော်ပြထားသည်များ"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "dba3b38c35565ddc44e04919f2b2ca0f8953108a319093cee6475d431c6c77fa",
+			"value": "દરเสนอခွင့်ပြုချက်တစ်ခုချင်းစီတွင် ဈေးနှုန်း၊ မည်သို့နှင့် မည်သည့်အချိန်တွင် ပေးချေရမည်ဖြစ်ကြောင်းနှင့် ဖျက်သိမ်းရေး အခြေအနေများကို ဖော်ပြထားသည်။ အကယ်၍ દરเสนอခွင့်ပြုချက်တွင် ဤမူဝါဒနှင့် ကွဲလွဲသည်များ ဖော်ပြထားပါက၊ ဤမူဝါဒက သုံးစွဲသူတစ်ဦးအနေဖြင့် ပိုမိုသော အခွင့်အရေးများ မပေးအပ်ပါက દરเสนอခွင့်ပြုချက်ကိုသာ အတည်ပြုပါ။"
+		},
+		"secciones/2/titulo": {
+			"hash": "4da83f4f1afe5790834f743bdc1ca5eaabe6d4a85865798796e14a32c2912fae",
+			"value": "၃။ သင် ဖျက်သိမ်းပါက"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "e9dd1fcdc7020f5821d857b0db902ad60b806b130178587e00206cc2379bcdc4",
+			"value": "စာဖြင့် အခြားနည်းအရ သဘောတူညီချက်မရှိပါက:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "3d2e21613adc4a86859e877cf39529e9de64cfaecebc6ee4ac24c9b268fec07b",
+			"value": "အလုပ်မစတင်မီ ဖျက်သိမ်းပါက၊ ကြိုတင်ပေးချေထားသမျှ ငွေများကို အပြည့်အဝ ပြန်အမ်းပါမည်။"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "f9b70232e9bfc004f82934930816cccba917692c2ed1ba56637d5a85f27eed9c",
+			"value": "အလုပ်စတင်ပြီးနောက် ဖျက်သိမ်းပါက၊ လုပ်ဆောင်ပြီးစီးသွားသည့် အပိုင်းအတွက်သာ ကောက်ခံပြီး ကျန်ကြိုတင်ပေးချေငွေများကို ပြန်အမ်းပါမည်။"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "367ad099f56f6a5ddd4c394d2e66479d6a7421c518e28ede6dc88e5229f6bed8",
+			"value": "ပေးအပ်ပြီးနှင့် အတည်ပြုပြီးသော အလုပ်များကို ပြင်ဆင်၍မရသော အပြစ်အနာအဆာများ မရှိပါက ငွေပြန်မအမ်းပါ။"
+		},
+		"secciones/3/titulo": {
+			"hash": "d7e3fed395f638f5604782dab666b621dd5f132a48b827e2fe042194881148cf",
+			"value": "၄။ ငြင်းပယ်ပိုင်ခွင့် (သင်သည် သုံးစွဲသူတစ်ဦးဖြစ်ပါက)"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "5e178abe0b325218fe10f437c89f7da3090cd74714a8a5c2adc1c35739b1804b",
+			"value": "အကယ်၍ သင်သည် သုံးစွဲသူတစ်ဦးအနေဖြင့် (ပရော်ဖက်ഷണလ လုပ်ငန်းဆောင်တာများပြင်ပတွင် ဆောင်ရွက်နေသူ) စာချုပ်ချုပ်ဆိုပြီး အဝေးရောက်စနစ်၊ email သို့မဟုတ် ဖုန်းဖြင့် စာချုပ်ဝင်ရောက်ခဲ့ပါက၊ 消費者 and သုံးစွဲသူများ အကာအကွယ်ပေးရေး အထွေထွေဥပဒေ (Royal Legislative Decree 1/2007) ၏ ပုဒ်မ ၁၀၂ မှ ၁၀၈ အရ အကြောင်းပြချက်မပေးဘဲ ငြင်းပယ်ရန် စာချုပ်ချုပ်ဆိုသည့်နေ့မှစ၍ သဘာဝရက်ပေါင်း ၁၄ ရက် ရရှိမည်ဖြစ်သည်။"
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "f6ccce5a6cdfe56e4eb204d74e1064cfaaf14b0a6401d34d54943282934f4faa",
+			"value": "ထိုရက်ပေါင်း ၁၄ ရက်အတွင်း အလုပ်စတင်ရန် ကျွန်ုပ်အား အတိအလတ် တောင်းဆိုပြီးမှ ငြင်းပယ်ပါက၊ ထိုအချိန်အထိ ဆောင်ရွက်ပေးခဲ့သော ဝန်ဆောင်မှု၏ အချိုးကျအပိုင်းကိုသာ ပေးချေရမည်ဖြစ်သည်။ သင့်၏ ကြိုတင်သဘောတူညီချက်ဖြင့် သတ်မှတ်ရက်အတွင်း ဝန်ဆောင်မှု အပြည့်အစုံ ပြီးစီးသွားပြီး ဤအခွင့်အရေး ဆုံးရှုံးမည်ကို သိရှိပါက၊ သင်သည် ငြင်းပယ်နိုင်တော့မည် မဟုတ်ပါ (ပုဒ်မ ၁၀၃.a)။"
+		},
+		"secciones/4/titulo": {
+			"hash": "a6b6f5e3070a156219fd0eb8a8485c11404e66c1db10f2be65a78ccea7dadb43",
+			"value": "၅။ မည်သို့ တောင်းဆိုရမည်နည်း"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "faffb4c0f6bdf1648e409afaf168c981f036d78cdc26c1f190944b92d95326c9",
+			"value": "သင့်အမည်၊ ဝန်ဆောင်မှုနှင့် စာချုပ်ချုပ်ဆိုသည့်ရက်စွဲတို့နှင့်အတူ {email} သို့ ကျွန်ုပ်ထံ စာရေးသားပေးပို့ပါ။ ဤငြင်းပယ်လွှာ ပုံစံနမူနာကို အသုံးပြုနိုင်သည် (မဖြစ်မနေ မဟုတ်ပါ):"
+		},
+		"secciones/4/bloques/1/items/0": {
+			"hash": "02f390f8ef61e6f8180ebd55d94bf24cd7742af44ba37433395550e7a2f7082f",
+			"value": "{nombre}၊ {domicilio}၊ {email} ထံသို့:"
+		},
+		"secciones/4/bloques/1/items/1": {
+			"hash": "6705d14225a84c97d190c86895abdd4ae2b7b92e03befbd46052e9ac22718df4",
+			"value": "ဤစာဖြင့် အောက်ပါဝန်ဆောင်မှု ပေးအပ်ရေး စာချုပ်ကို ငြင်းပယ်ကြောင်း အကြောင်းကြားအပ်ပါသည်: [servicio]။"
+		},
+		"secciones/4/bloques/1/items/2": {
+			"hash": "b756f3bd6d0bb6e148c0d59d09dae258a0f664174766530bdc6f938f5592e68a",
+			"value": "စာချုပ်ချုပ်ဆိုသည့်ရက်စွဲ: [fecha]။"
+		},
+		"secciones/4/bloques/1/items/3": {
+			"hash": "a1e157dce89e05f90d3590bcbac310ee77465b68928d5123598551e40aea2db8",
+			"value": "သုံးစွဲသူအမည်: [nombre]။"
+		},
+		"secciones/4/bloques/1/items/4": {
+			"hash": "6da3fe45c69b15e52be050ff970ab79ea26ee9b6bf0a7205d117978a159fdaff",
+			"value": "သုံးစွဲသူ၏ နေရပ်လိပ်စာ: [domicilio]။"
+		},
+		"secciones/4/bloques/1/items/5": {
+			"hash": "7fc0956f32767e8a77ad2f5755c8e13cf040d910c328534129ef063dc106acf4",
+			"value": "ရက်စွဲ: [fecha]။"
+		},
+		"secciones/5/titulo": {
+			"hash": "4f7a4409f1709a01b1af2b1edf6e71d467f7e5a5f4e0ed8c74717a33964f5b40",
+			"value": "၆။ ပြန်အမ်းငွေ ပေးအပ်သည့် ကာလနှင့် ပုံစံ"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "e842a6745c96e277d063610a98f358f325d922b561595105917cc4d9b5c2c97c",
+			"value": "သင်၏ ဆုံးဖြတ်ချက်ကို ကျွန်ုပ်ထံ အကြောင်းကြားသည့်နေ့မှစ၍ အများဆုံး သဘာဝရက်ပေါင်း ၁၄ ရက်အတွင်း သင့်လျော်သည့် ငွေပမာဏကို သင်အသုံးပြုခဲ့သော ငွေပေးချေမှု နည်းလမ်းအတိုင်း ပြန်လည်ပေးအပ်မည်ဖြစ်ပြီး၊ အခြားနည်းလမ်းဖြင့် သဘောတူညီချက် မရှိပါက တူညီသောနည်းလမ်းဖြင့် ပြန်အမ်းပါမည်။ ငွေပြန်အမ်းခြင်းအတွက် သင့်တွင် မည်သည့်ကုန်ကျစရိတ်မျှ မရှိပါ။"
 		}
 	}
 }

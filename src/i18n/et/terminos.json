@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Kasutustingimused — Mario Álvarez",
+		"description": "Veebisaidi marioalvarez.me juriidiline teade ja kasutustingimused: kes on omanik, kuidas veebisaiti saab kasutada ja millist seadust kohaldatakse.",
+		"heading": "Kasutustingimused"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kes on selle veebisaidi taga",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vastavalt teenuste ja elektroonilise kaubanduse seaduse (LSSI-CE) artiklile 10 on siin marioalvarez.me omaniku andmed:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Omanik: {nombre}",
+						"NIF: {nif}",
+						"Aadress: {domicilio}",
+						"Email: {email}",
+						"Tegevusala: professionaalne portfoolio ja andmeanalüüsi teenuste, kohandatud tööriistade, andmebaaside ja aruannete ning karjääritoetuse pakkumine."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Mida need tingimused reguleerivad",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Need tingimused reguleerivad saidi marioalvarez.me (edaspidi veebisait) juurdepääsu ja kasutamist mis tahes selle keeles. Veebisaidil sirvides nõustute seda kasutama siin toodud tingimuste kohaselt. Kui kirjutate mulle kontaktivormi kaudu, palun teil nendega selgesõnaliselt nõustuda, märkides ruudu."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kuidas veebisaiti saab kasutada",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saate sisu vaadata ja jagada, viidates selle päritolule. Ei ole lubatud:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"kasutada veebisaiti ebaseaduslikel eesmärkidel või kolmandatele isikutele kahju tekitamiseks;",
+						"katsetada juurdepääsu piiratud aladele (näiteks privaatsele paneelile) või seda majutavatele süsteemidele;",
+						"sisestada viirusi või muud kahjulikku koodi või seda tahtlikult üle koormata;",
+						"kopeerida sisu, et esitleda seda enda omandina."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Teenused ja lepingute sõlmimine",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veebisait ei müü tooteid ega võta vastu veebimakseid. Kui olete teenusest huvitatud, arutame seda e-posti või telefoni teel ja ma saadan teile kirjaliku ettepaneku, mis sisaldab ulatust, hinda, tähtaegu ning makse- ja tühistamistingimusi. Kui mõlemad pooled on selle ettepaneku heaks kiitnud, reguleerib see teenust ja on ülimuslik nende tingimuste suhtes."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kuidas tühistamised, taganemisõigus ja tagastused toimivad, on selgitatud tagastuspoliitikas."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intellektuaalomand ja tööstusomand",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvareze tekstid, disain, oma kood, logo ja fotod kuuluvad talle või neid kasutatakse autorite loal. Neid ei ole lubatud ärilisel eesmärgil ilma kirjaliku loata reprodutseerida."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kolmandate osapoolte nimed ja logod (näiteks LinkedIn, GitHub, Instagram või kogemustes nimetatud meeskonnad ja üksused) kuuluvad nende omanikele. Nende mainimine ei tähenda ühtegi ärisuhet ega sponsorlust, välja arvatud juhul, kus seda on selgesõnaliselt öeldud."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Veebisait kasutab lubatud litsentsidega kolmandate osapoolte ressursse: fonte Fira Sans Extra Condensed ja Source Serif 4 (SIL Open Font License 1.1), ikoone Lucide (ISC litsents) ja Simple Icons (CC0 1.0) ning animatsiooniteeki GSAP (GreenSocki tasuta standardne litsents, Webflow). Igal GitHubis lingitud projektil on oma litsents."
+				}
+			]
+		},
+		{
+			"titulo": "6. Vastutus",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Töötan selle nimel, et teave oleks korrektne ja veebisait saadaval, kuid ma ei saa garanteerida vigade või katkestuste puudumist. Sisu on informatiivne ega asenda professionaalset nõustamist teie konkreetses olukorras."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Veebisait lingib kolmandate osapoolte saitidele (sotsiaalvõrgustikud, hoidlad, projektide veebisaidid). Ma ei kontrolli nende sisu ega poliitikat ning ei vastuta nende eest."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privaatsus ja küpsised",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Seda, kuidas teie andmeid töödeldakse ja milliseid küpsiseid kasutatakse, selgitatakse privaatsuspoliitikas ja küpsiste poliitikas. Ükski veebisaidi osa ei kohusta teid selle kasutamiseks küpsistega nõustuma."
+				}
+			]
+		},
+		{
+			"titulo": "8. Nõusolekute register",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Selleks, et saaksin vajaduse korral nõusolekut tõendada (isikuandmete kaitse üldmääruse artikkel 7.1), salvestatakse kontaktivormis nende tingimustega nõustumisel või lubatud küpsiste valimisel register, mis sisaldab: pseudonüümset identifikaatorit, millega te nõustusite või keeldusite, iga dokumendi versiooni, kuupäeva ja kellaaega, lehte ja keelt, kust te seda tegite, päritolu (bänner, seaded või vorm), brauserit ja vormis viitekoodi, mis liigub teie e-kirjas. Teie IP-aadressi ei salvestata. Üksikasjad on toodud privaatsuspoliitikas."
+				}
+			]
+		},
+		{
+			"titulo": "9. Keeled",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nende tekstide Hispaniakeelne versioon on originaal ja kahtluse korral ülimuslik. Kõik teised on automaattõlked, mida pakutakse mugavuse huvides."
+				}
+			]
+		},
+		{
+			"titulo": "10. Muudatused",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Võin neid tingimusi värskendada, et kohandada neid seaduslike või veebisaidiga seotud muudatustega. Kehtiva versiooni kuupäev on selle lehe alguses. Kui muudatus on oluline, palun teil uuesti nendega nõustuda."
+				}
+			]
+		},
+		{
+			"titulo": "11. Kohaldatav seadus ja jurisdiktsioon",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Neid tingimusi reguleerib Hispaania seadus. Tarbijana tegutsedes saate pöörduda oma elukoha kohtusse ning oma autonoomse piirkonna tarbijavaidluste lahendamise ja vahekohtu süsteemidesse. Kõigil muudel juhtudel alluvad mõlemad pooled Benidormi (Alicante) kohtutele."
+				}
+			]
+		}
+	]
+}

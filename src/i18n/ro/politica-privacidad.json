@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Politica de confidențialitate — Mario Álvarez",
-		"description": "Politica de confidențialitate a site-ului lui Mario Álvarez: ce date sunt colectate, în ce scop și cum vă puteți exercita drepturile.",
-		"eyebrow": "Legal",
-		"heading": "Politica de Confidențialitate"
+		"description": "Ce date prelucrează marioalvarez.me, în ce scop, pe ce bază legală, cât timp și cum îți poți exercita drepturile.",
+		"heading": "Politica de confidențialitate"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Operatorul de date",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, cu domiciliul în Benidorm (Alicante), Spania. Contact: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Scopul prelucrării",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Acest site web analizează intern și în exclusivitate în scopuri statistice ce conținuturi (secțiuni, proiecte) sunt cele mai utile vizitatorilor săi, cu scopul de a îmbunătăți conținutul acestuia. Nu este utilizat în scopuri publicitare, nu este partajat cu terți și nu este vândut în nicio circumstanță."
-				}
-			]
-		},
-		{
-			"titulo": "3. Date colectate (numai dacă acceptați cookie-urile analitice)",
+			"titulo": "1. Operatorul",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identificator anonim aleatoriu, care nu este legat de numele dvs., adresa de e-mail sau orice alte informații care vă identifică direct.",
-						"Paginile și proiectele pe care le vizitați și timpul petrecut pe fiecare în parte (cât timp fila este activă).",
-						"Interacțiuni (clicuri pe proiecte, linkuri sau butoane).",
-						"Data și ora vizitei.",
-						"Limba site-ului consultat.",
-						"Tipul de dispozitiv (mobil sau desktop).",
-						"Țara aproximativă, obținută prin infrastructura Cloudflare, fără a stoca adresa IP.",
-						"Pagina de proveniență (de exemplu, LinkedIn sau un motor de căutare)."
+						"Operatorul: {nombre}",
+						"NIF: {nif}",
+						"Domiciliul: {domicilio}",
+						"E-mail pentru orice chestiune legată de confidențialitate: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Adresa dvs. IP nu este colectată, nu sunt utilizate tehnici de identificare a browserului (fingerprinting) și nici instrumente terțe precum Google Analytics sau similare."
+					"texto": "Datorită dimensiunii și tipului de activitate, nu este obligatorie numirea unui responsabil cu protecția datelor, așa că nu există unul: scrie-mi direct mie."
 				}
 			]
 		},
 		{
-			"titulo": "4. Temeiul juridic",
+			"titulo": "2. Ce date prelucrez, în ce scop și de ce",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Prelucrarea se bazează pe consimțământul dvs. explicit (articolul 6.1.a din RGPD și articolul 22.2 din LSSI-CE), pe care îl puteți retrage în orice moment din managerul de cookie-uri al site-ului în sine."
+					"tipo": "tabla",
+					"columnas": [
+						"În ce scop",
+						"Ce date",
+						"Bază legală",
+						"Cât timp"
+					],
+					"filas": [
+						[
+							"Analiză de utilizare, doar dacă accepți cookie-urile de analiză",
+							"Un identificator pseudonim aleatoriu (cookie-ul de tip visitante_id), secțiunile și proiectele pe care le vizualizezi și timpul petrecut pe fiecare dintre ele, clicurile pe linkuri și butoane, limba, tipul de dispozitiv (mobil sau desktop), țara aproximativă și pagina web unde are loc fiecare eveniment.",
+							"Consimțământul tău (art. 6.1.a RGPD și art. 22.2 LSSI-CE).",
+							"12 luni; după aceea, fiecare eveniment este șters automat."
+						],
+						[
+							"Registrul de consimțăminte",
+							"Identificatorul pseudonim, ce ai acceptat, respins sau retras, versiunea fiecărui document, data și ora, pagina, limba, originea (banner, setări sau formular), browserul (agentul utilizator) și țara aproximativă; în formular, în plus, codul de referință al e-mailului tău.",
+							"Respectarea obligației de a putea demonstra consimțământul (art. 6.1.c și 7.1 RGPD).",
+							"3 ani de la fiecare înregistrare (termenul maxim de prescripție pentru infracțiunile prevăzute de LOPDGDD); după aceea, se șterge automat."
+						],
+						[
+							"Răspunsul la solicitarea ta prin e-mail sau telefon",
+							"Datele pe care decizi să mi le trimiți: de obicei, numele tău, e-mailul sau telefonul tău și conținutul mesajului.",
+							"Aplicarea de măsuri precontractuale la cererea ta (art. 6.1.b RGPD) sau interesul meu legitim de a-ți răspunde (art. 6.1.f).",
+							"Pe parcursul conversației și până la 1 an după aceasta, cu excepția cazului în care încheiem un contract."
+						],
+						[
+							"Gestionarea unui serviciu contractat",
+							"Date de identificare, contact și facturare.",
+							"Executarea contractului (art. 6.1.b RGPD) și obligații fiscale și contabile (art. 6.1.c).",
+							"Ceea ce impun legile fiscale și comerciale (în general, între 4 și 6 ani)."
+						],
+						[
+							"Memorarea preferinței pentru tema deschisă sau închisă",
+							"Preferința «tema», salvată doar în browserul tău (stocare locală). Nu ajunge la mine.",
+							"O funcție pe care o soliciți apăsând butonul (scutită de consimțământ conform art. 22.2 LSSI-CE).",
+							"Până o ștergi din browserul tău."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Perioada de păstrare",
+			"titulo": "3. Ceea ce nu solicit și nu colectez",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Datele sunt păstrate maximum 12 luni de la ultima dvs. vizită, după care sunt șterse automat."
+					"texto": "Prelucrez doar ceea ce este esențial pentru fiecare scop. Mai exact:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Formularul de contact nu îți cere numele, e-mailul sau telefonul: deschide-ți programul de e-mail și tu ești cel care decide ce îmi trimite.",
+						"Nu stochează adresa ta IP nici în analize, nici în registrul de consimțăminte.",
+						"Nu folosesc tehnici de identificare a browserului (fingerprinting), Google Analytics, pixeli de publicitate sau cookie-uri terțe.",
+						"Fonturile și imaginile sunt servite de pe acest site web: la vizitarea lui, browserul tău nu se conectează la Google Fonts, GitHub sau alte servicii externe."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Destinatari și transferuri internaționale",
+			"titulo": "4. Cine mai intervine",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Datele nu sunt cedate sau vândute terților. Ele sunt stocate în Cloudflare D1, un serviciu de baze de date furnizat de Cloudflare, Inc., care acționează în calitate de persoană împuternicită de operator. Cloudflare poate procesa date în afara Spațiului Economic European; în acest caz, un astfel de transfer se bazează the Clauzele Contractuale Standard aprobate de Comisia Europeană. Mai multe informații în politica de confidențialitate Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Nu vând și nu cesionez datele tale nimănui, cu excepția unei obligații legale. Pentru ca site-ul web să funcționeze și pentru a-ți răspunde, folosesc următorii furnizori:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: găzduiește site-ul web și baza de date (Cloudflare Pages și D1) și acționează ca persoană împuternicită de operator. Pentru a servi site-ul web, procesează date tehnice de conexiune, cum ar fi IP-ul tău, la care eu nu am acces. Politica lor: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): serviciul de e-mail prin care primesc și răspund la e-mailuri; prelucrează aceste mesaje conform propriilor politici: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Drepturile dumneavoastră",
+			"titulo": "5. Transferuri internaționale",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Vă puteți exercita oricând drepturile de acces, rectificare, ștergere, opoziție, restricționare a prelucrării și portabilitate scriind la malvmar5@hotmail.com. În plus, vă puteți șterge datele imediat, fără a fi nevoie să scrieți nimănui, de pe butonul „Șterge datele mele” disponibil în setările de cookie-uri ale site-ului. De asemenea, aveți dreptul de a depune o plângere la Agenția Spaniolă pentru Protecția Datelor (www.aepd.es) dacă considerați că drepturile dvs. nu au fost respectate în mod corespunzător."
+					"texto": "Cloudflare și Microsoft pot prelucra date în Statele Unite. Ambele aderă la Cadrul de confidențialitate a datelor UE-SUA (decizia de adecvare a Comisiei Europene din 10 iulie 2023) și oferă, de asemenea, clauzele contractuale standard aprobate de Comisie."
 				}
 			]
 		},
 		{
-			"titulo": "8. Modificări ale acestei politici",
+			"titulo": "6. Drepturile tale",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Această politică poate fi actualizată pentru a se adapta la modificările legislative sau ale site-ului în sine."
+					"texto": "Îmi poți solicita în orice moment accesul la datele tale, rectificarea, ștergerea acestora, opoziția la prelucrarea lor, limitarea acesteia sau primirea lor pentru a le muta în altă parte (portabilitate) și îți poți retrage consimțământul fără ca acest lucru să afecteze ceea ce a fost prelucrat anterior. Scrie-mi la {email}; îți voi răspunde în maximum o lună."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Datele de analiză le poți șterge chiar tu instantaneu cu butonul «Șterge datele mele» din setările pentru cookie-uri. Registrul de consimțăminte se păstrează chiar dacă îți retragi consimțământul, deoarece servește tocmai pentru a atesta când l-ai dat și când l-ai retras."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Dacă consideri că nu ți-am respectat drepturile în mod corespunzător, poți depune o plângere la Agenția Spaniolă pentru Protecția Datelor: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Minori",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Site-ul web nu se adresează minorilor sub 14 ani. Dacă ai sub 14 ani, nu îmi trimite date cu caracter personal fără permisiunea părinților sau a tutorilor tăi (art. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Securitate",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Datele circulă criptate (HTTPS) și sunt salvate într-o bază de date accesibilă numai din panoul privat, protejat cu nume de utilizator și parolă."
+				}
+			]
+		},
+		{
+			"titulo": "9. Modificări ale acestei politici",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dacă se schimbă ceva relevant, voi actualiza această pagină și data versiunii sale. Dacă modificarea afectează cookie-urile, vi se va cere din nou consimțământul."
 				}
 			]
 		}

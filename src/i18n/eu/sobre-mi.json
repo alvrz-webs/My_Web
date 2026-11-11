@@ -3,7 +3,13 @@
 		"title": "Niri buruz — Mario Álvarez",
 		"description": "Espainiako madison txapeldun izatetik Datu Zientzia ikastera: Mario Álvarez-ren ibilbidea eliteko txirrindularitzaren eta kirol-analitikaren artean.",
 		"eyebrow": "Niri buruz",
-		"heading": "Belodromotik datuetara"
+		"heading": "Belodromotik datuetara",
+		"lead": "Txirrindularitzan jarraitzen dut, pistan zein taldeko kotxean. Aldatu dena da nola begiratzen diodan: orain datuekin ere bai.",
+		"historiaTitulo": "Txirrindularia, kirol-zuzendaria eta datu-zientzialaria",
+		"fichaTitulo": "Laburrean",
+		"fichaTexto": "Funtsezkoa, presarik baduzu.",
+		"retratoAlt": "Mario Álvarezen erretratua",
+		"escenaFrase": "Lehenik, hankak. Orain, datuak."
 	},
 	"bio": [
 		"Lehiatzen hasi nintzen. 18 urterekin Espainiako madison txapeldun aldarrikatu nintzen pistan, eta Espainiako Txirrindularitza Selekzioak Munduko eta Europako Txapelketetarako deitu ninduen; seigarren geratu nintzen bietan, eta horri esker eliteko kirolari izaera lortu nuen.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Oinarria",
-			"value": "Benidorm · Valentzia"
+			"value": "Benidorm eta Valentzia"
 		},
 		{
 			"label": "Egoera",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Ikuspegia",
-			"value": "Datuak + kirol-errendimendua"
+			"value": "Datuak eta kirol-errendimendua"
 		},
 		{
 			"label": "Hizkuntzak",
-			"value": "Gaztelania (jatorrizkoa) · Balentzierra · Ingelesa B1"
+			"value": "Gaztelania (jatorrizkoa), valentziera eta ingelesa (B1)"
 		},
 		{
 			"label": "Prestakuntza",
-			"value": "Datu Zientziako Gradua (UPV) · Digitalizazio, Berrikuntza eta Teknologia Kirolean Masterra"
+			"value": "Datu Zientziako Gradua (UPV) eta Kirolaren Digitalizazio, Berrikuntza eta Teknologia Masterra"
 		}
 	]
 }

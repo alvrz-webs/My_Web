@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Itzultze-politika — Mario Álvarez",
+		"description": "Nola funtzionatzen duten Mario Álvarez-en zerbitzuen ezeztapenek, atzera egiteko eskubideak eta itzultzeek.",
+		"heading": "Itzultze-politika"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Webgune honek ez du ordainketarik kobratzen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mrioalvarez.me-n ez da produkturik saltzen ezta online ordainketarik kobratzen ere. Zerbitzuak (errendimendu-analisia, neurrira egindako tresnak, datu-baseak eta txostenak eta karreran laguntzea) aparte kontratatzen dira, idatzizko proposamen batekin."
+				}
+			]
+		},
+		{
+			"titulo": "2. Zure proposamenak dioena",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Proposamen bakoitzak prezioa, nola eta noiz ordaintzen den eta ezeztapen-baldintzak adierazten ditu. Proposamenak politika honen desberdina den zerbait esaten badu, proposamenak agintzen du, politika honek kontsumitzaile gisa eskubide gehiago ematen dizkizuenean izan ezik."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ezeztatzen baduzu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Besterik hitzartu ezeztatzean izan ezik idatziz:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Lana hasi aurretik ezeztatzen baduzu, aurreratutako edozein ordainketa osorik itzultzen dizut.",
+						"Lana hasita dagoela ezeztatzen baduzu, egindako zatia bakarrik kobratzen da eta aurreratu duzunaren gainerakoa itzultzen dizut.",
+						"Dagoeneko entregatu eta onartutako lana ez da itzultzen, konpontzen ez diren akatsak ez baditu behintzat."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Atzera egiteko eskubidea (kontsumitzailea bazara)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kontsumitzaile gisa kontratatzen baduzu (zure jarduera profesionaletik kanpo jarduten duen pertsona bat) eta kontratua urrutitik, posta elektronikoz edo telefonoz ixten bada, 14 egun natural dituzu ixten denetik azaltpenik eman gabe atzera egiteko, Kontsumitzaileen eta Erabiltzaileen Defentsarako Lege Orokorraren testu bateginaren (1/2007 Lege Dekretu Erregea) 102.etik 108.era bitarteko artikuluen arabera."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Epe horretako 14 egunen barruan lanari ekiteko espresuki eskatzen badidazu eta gero atzera egiten baduzu, ordura the emandako zerbitzuaren zati proportzionala bakarrik ordainduko duzu. Zerbitzua epearen barruan erabat osatu bada, aldez aurreko eta espresuko baimenarekin eta horrela eskubide hau galtzen duzula jakinda, ezin izango duzu jada atzera egin (103.a artikulua)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Nola eskatu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Idatzi {email} helbidera zure izenarekin, zerbitzuarekin eta kontratatu zenuen datarekin. Atzera egiteko inprimaki eredu hau erabil dezakezu (ez da derrigorrezkoa):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Honako honen arretara: {nombre}, {domicilio}, {email}:",
+						"Honεδ bidez jakinarazten dizut ondorengo zerbitzua emateko kontratutik atzera egiten dudala: [servicio].",
+						"Kontratatze-data: [fecha].",
+						"Kontsumitzailearen izena: [nombre].",
+						"Kontsumitzailearen helbidea: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Itzulketaren epea eta modua",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dagokiona gehienez 14 egun naturalean itzuliko dizut zure erabakia jakinarazten didazunetik, erabili zenuen ordainketa-bide beretik, beste bat adostu ezean. Itzulketak ez du inongo kosturik zuretzat."
+				}
+			]
+		}
+	]
+}

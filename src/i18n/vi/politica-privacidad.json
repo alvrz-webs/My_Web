@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Chính sách Bảo mật — Mario Álvarez",
-		"description": "Chính sách bảo mật của trang web Mario Álvarez: dữ liệu nào được thu thập, nhằm mục đích gì và cách thực hiện các quyền của bạn.",
-		"eyebrow": "Pháp lý",
-		"heading": "Chính sách Bảo mật"
+		"version": "2026-11-10",
+		"title": "Chính sách bảo mật — Mario Álvarez",
+		"description": "Dữ liệu nào mà marioalvarez.me xử lý, nhằm mục đích gì, dựa trên cơ sở pháp lý nào, trong bao lâu và cách thực hiện các quyền của bạn.",
+		"heading": "Chính sách bảo mật"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Người chịu trách nhiệm xử lý",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, có trụ sở tại Benidorm (Alicante), Tây Ban Nha. Liên hệ: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Mục đích xử lý",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Trang web này phân tích nội dung nào (các phần, dự án) hữu ích nhất đối với khách truy cập, nội bộ và hoàn toàn vì mục đích thống kê, nhằm cải thiện nội dung của trang. Dữ liệu không được sử dụng cho mục đích quảng cáo, không được chia sẻ với bên thứ ba và không bị bán dưới bất kỳ hình thức nào."
-				}
-			]
-		},
-		{
-			"titulo": "3. Dữ liệu được thu thập (chỉ khi bạn chấp nhận cookie phân tích)",
+			"titulo": "1. Bên kiểm soát dữ liệu",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Một mã định danh ẩn danh ngẫu nhiên, không liên kết với tên, email của bạn hoặc bất kỳ thông tin nào khác có thể xác định trực tiếp danh tính của bạn.",
-						"Các trang và dự án bạn truy cập, cùng với thời gian chú ý cho mỗi trang (trong khi tab đang hoạt động).",
-						"Tương tác (nhấp vào các dự án, liên kết hoặc nút).",
-						"Ngày và giờ truy cập.",
-						"Ngôn ngữ của trang web được tham khảo.",
-						"Loại thiết bị (di động hoặc máy tính để bàn).",
-						"Quốc gia tương ứng, được lấy thông qua cơ sở hạ tầng của Cloudflare, mà không lưu trữ địa chỉ IP của bạn.",
-						"Trang nguồn (ví dụ: LinkedIn hoặc công cụ tìm kiếm)."
+						"Bên kiểm soát dữ liệu: {nombre}",
+						"NIF: {nif}",
+						"Địa chỉ: {domicilio}",
+						"Email cho mọi vấn đề về quyền riêng tư: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Địa chỉ IP của bạn không được thu thập, không sử dụng kỹ thuật nhận dạng trình duyệt (fingerprinting) hoặc các công cụ của bên thứ ba như Google Analytics hoặc tương tự."
+					"texto": "Do quy mô và loại hình hoạt động, việc bổ nhiệm nhân viên bảo vệ dữ liệu là không bắt buộc, vì vậy không có: hãy viết thư trực tiếp cho tôi."
 				}
 			]
 		},
 		{
-			"titulo": "4. Cơ sở pháp lý",
+			"titulo": "2. Dữ liệu nào tôi xử lý, nhằm mục đích gì và tại sao",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Việc xử lý dựa trên sự đồng ý rõ ràng của bạn (Điều 6.1.a của GDPR và Điều 22.2 của LSSI-CE), bạn có thể rút lại bất kỳ lúc nào từ trình quản lý cookie của trang web."
+					"tipo": "tabla",
+					"columnas": [
+						"Nhằm mục đích gì",
+						"Dữ liệu nào",
+						"Cơ sở pháp lý",
+						"Trong bao lâu"
+					],
+					"filas": [
+						[
+							"Phân tích sử dụng, chỉ khi bạn đồng ý với cookie phân tích",
+							"Mã định danh giả danh ngẫu nhiên (cookie visitante_id), các phần và dự án bạn xem cùng thời gian trên mỗi phần, lượt nhấp vào liên kết và nút, ngôn ngữ, loại thiết bị (di động hay máy tính để bàn), quốc gia ước tính và trang web nơi diễn ra mỗi sự kiện.",
+							"Sự đồng ý của bạn (điều 6.1.a RGPD và điều 22.2 LSSI-CE).",
+							"12 tháng; sau đó mỗi sự kiện sẽ tự động bị xóa."
+						],
+						[
+							"Ghi nhận sự đồng ý",
+							"Mã định danh giả danh, những gì bạn đã đồng ý, từ chối hoặc rút lại, phiên bản của từng tài liệu, ngày giờ, trang web, ngôn ngữ, nguồn gốc (banner, cấu hình hoặc biểu mẫu), trình duyệt (tác nhân người dùng) và quốc gia ước tính; đối với biểu mẫu, ngoài ra còn có mã tham chiếu của email bạn.",
+							"Tuân thủ nghĩa vụ có thể chứng minh sự đồng ý (điều 6.1.c và 7.1 RGPD).",
+							"3 năm kể từ mỗi lần ghi nhận (thời hạn tối đa để truy cứu trách nhiệm đối với các vi phạm theo LOPDGDD); sau đó sẽ tự động bị xóa."
+						],
+						[
+							"Trả lời yêu cầu của bạn qua email hoặc điện thoại",
+							"Dữ liệu bạn quyết định gửi cho tôi: thông thường là tên, email hoặc số điện thoại của bạn và nội dung tin nhắn.",
+							"Áp dụng các biện pháp tiền hợp đồng theo yêu cầu của bạn (điều 6.1.b RGPD) hoặc lợi ích hợp pháp của tôi trong việc trả lời bạn (điều 6.1.f).",
+							"Trong suốt cuộc trò chuyện và tối đa 1 năm sau đó, trừ khi chúng ta ký kết hợp đồng."
+						],
+						[
+							"Quản lý dịch vụ đã ký kết",
+							"Dữ liệu nhận dạng, liên hệ và thanh toán.",
+							"Thực hiện hợp đồng (điều 6.1.b RGPD) và nghĩa vụ thuế và kế toán (điều 6.1.c).",
+							"Những gì luật thuế và thương mại yêu cầu (nói chung, từ 4 đến 6 năm)."
+						],
+						[
+							"Ghi nhớ xem bạn thích giao diện sáng hay tối",
+							"Tùy chọn «tema», chỉ được lưu trong trình duyệt của bạn (lưu trữ cục bộ). Dữ liệu không được gửi đến tôi.",
+							"Một chức năng bạn yêu cầu khi nhấn nút (được miễn sự đồng ý theo điều 22.2 LSSI-CE).",
+							"Cho đến khi bạn xóa nó khỏi trình duyệt của mình."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Thời hạn lưu trữ",
+			"titulo": "3. Những gì tôi không yêu cầu hoặc thu thập",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dữ liệu được lưu trữ tối đa 12 tháng kể từ lần truy cập cuối cùng của bạn, sau thời gian đó dữ liệu sẽ tự động bị xóa."
+					"texto": "Tôi chỉ xử lý những gì thiết yếu cho từng mục đích. Cụ thể:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Biểu mẫu liên hệ không yêu cầu tên, email hoặc số điện thoại của bạn: hãy mở chương trình email của bạn và chính bạn là người quyết định gửi cho tôi nội dung gì.",
+						"Tôi không lưu trữ địa chỉ IP của bạn trong phần phân tích cũng như trong phần ghi nhận sự đồng ý.",
+						"Tôi không sử dụng kỹ thuật nhận dạng trình duyệt (fingerprinting), Google Analytics, pixel quảng cáo hay cookie của bên thứ ba.",
+						"Phông chữ và hình ảnh được phục vụ từ chính trang web này: khi truy cập, trình duyệt của bạn không kết nối với Google Fonts, GitHub hay các dịch vụ bên ngoài khác."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Người nhận và chuyển giao quốc tế",
+			"titulo": "4. Ai khác tham gia",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dữ liệu không được chuyển giao hoặc bán cho bên thứ ba. Dữ liệu được lưu trữ trong Cloudflare D1, một dịch vụ cơ sở dữ liệu được cung cấp bởi Cloudflare, Inc., đóng vai trò là bên xử lý dữ liệu. Cloudflare có thể xử lý dữ liệu bên ngoài Khu vực Kinh tế Châu Âu; trong trường hợp đó, việc chuyển giao đó được bảo vệ bởi các Điều khoản Hợp đồng Chuẩn do Ủy ban Châu Âu phê duyệt. Thêm thông tin trong chính sách bảo mật của Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Tôi không bán hoặc chuyển nhượng dữ liệu của bạn cho bất kỳ ai, trừ khi có nghĩa vụ pháp lý. Để trang web hoạt động và để trả lời bạn, tôi sử dụng các nhà cung cấp sau:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: lưu trữ trang web và cơ sở dữ liệu (Cloudflare Pages và D1) và hoạt động với tư cách là bên xử lý dữ liệu. Để vận hành trang web, họ xử lý dữ liệu kết nối kỹ thuật, chẳng hạn như IP của bạn, mà tôi không có quyền truy cập. Chính sách của họ: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): dịch vụ email nơi tôi nhận và trả lời các email; xử lý các tin nhắn đó theo chính sách của riêng họ: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Quyền của bạn",
+			"titulo": "5. Chuyển giao dữ liệu quốc tế",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Bạn có thể thực hiện các quyền truy cập, cải chính, xóa, phản đối, hạn chế xử lý và di chuyển dữ liệu bất kỳ lúc nào bằng cách viết thư tới malvmar5@hotmail.com. Ngoài ra, bạn có thể xóa dữ liệu của mình ngay lập tức mà không cần viết thư cho bất kỳ ai, thông qua nút \"Xóa dữ liệu của tôi\" có sẵn trong cấu hình cookie của trang web. Bạn cũng có quyền nộp đơn khiếu nại lên Cơ quan Bảo vệ Dữ liệu Tây Ban Nha (www.aepd.es) nếu bạn choว่า quyền của mình chưa được giải quyết đúng cách."
+					"texto": "Cloudflare và Microsoft có thể xử lý dữ liệu tại Hoa Kỳ. Cả hai đều tuân thủ Khung Bảo mật Dữ liệu EU-Mỹ (quyết định về tính đầy đủ của Ủy ban Châu Âu ngày 10 tháng 7 năm 2023) và cũng cung cấp các điều khoản hợp đồng tiêu chuẩn do Ủy ban phê duyệt."
 				}
 			]
 		},
 		{
-			"titulo": "8. Thay đổi trong chính sách này",
+			"titulo": "6. Quyền của bạn",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Chính sách này có thể được cập nhật để phù hợp với các thay đổi pháp lý hoặc của chính trang web."
+					"texto": "Bạn có thể yêu cầu tôi bất cứ lúc nào để truy cập dữ liệu của mình, chỉnh sửa, xóa, phản đối việc xử lý, hạn chế xử lý hoặc nhận dữ liệu để chuyển đến nơi khác (tính di động), và rút lại sự đồng ý của mình mà không ảnh hưởng đến những gì đã được xử lý trước đó. Hãy viết thư cho tôi theo địa chỉ {email}; tôi sẽ trả lời bạn tối đa trong vòng một tháng."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Dữ liệu phân tích, bạn có thể tự xóa ngay lập tức bằng nút «Borrar mis datos» trong phần cài đặt cookie. Bản ghi nhận sự đồng ý vẫn được giữ lại ngay cả khi bạn rút lại sự đồng ý, vì nó phục vụ chính xác cho việc chứng minh bạn đã cấp quyền khi nào và rút lại khi nào."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nếu bạn cho rằng tôi chưa giải quyết thỏa đáng các quyền của mình, bạn có thể khiếu nại trước Cơ quan Bảo vệ Dữ liệu Tây Ban Nha: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Trẻ em",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Trang web không dành cho trẻ em dưới 14 tuổi. Nếu bạn dưới 14 tuổi, không gửi dữ liệu cá nhân cho tôi mà không có sự cho phép của cha mẹ hoặc người giám hộ (điều 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Bảo mật",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dữ liệu được truyền đi dưới dạng mã hóa (HTTPS) và được lưu trữ trong cơ sở dữ liệu chỉ có thể được truy cập từ bảng điều khiển riêng tư, được bảo vệ bằng tên người dùng và mật khẩu."
+				}
+			]
+		},
+		{
+			"titulo": "9. Thay đổi trong chính sách này",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nếu có gì đó quan trọng thay đổi, tôi sẽ cập nhật trang này và ngày phiên bản của nó. Nếu thay đổi ảnh hưởng đến cookie, bạn sẽ được hỏi lại."
 				}
 			]
 		}

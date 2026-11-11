@@ -3,11 +3,54 @@
 		"title": "Makipag-ugnayan — Mario Álvarez",
 		"description": "Makipag-ugnayan kay Mario Álvarez para pag-usapan ang data, pagganap sa palakasan, at mga proyekto.",
 		"eyebrow": "Makipag-ugnayan",
-		"heading": "Mayroon ka bang data at isang tanong na kailangang lutasin?",
-		"intro": "Mag-usap tayo. Maging ito man ay isang proyekto sa sports analytics, pakikipagtulungan sa data, o isang ideya lamang na nais mong talakayin, masaya akong tumugon.",
+		"heading": "Mayroon ka bang data at isang katanungan?",
+		"intro": "Mag-usap tayo. Maging ito ay isang proyekto sa analytics sa palakasan, pakikipagtulungan sa data, o isang ideya na gusto mong talakayin, ako ang sasagot sa iyo.",
 		"email": "Email",
 		"telefono": "Telepono",
 		"verTelefono": "Tingnan ang telepono",
-		"redesSociales": "Mga social network"
+		"redesSociales": "Mga social network",
+		"temaTitulo": "Tungkol saan mo gustong mag-usap?",
+		"temaAyuda": "Pumili ng paksa at ihahanda ko ang email para sa iyo. Kailangan mo lamang ikwento sa akin ang iyong sitwasyon.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Pagsusuri ng pagganap"
+			},
+			{
+				"id": "herramientas",
+				"label": "Isang pasadyang kasangkapan"
+			},
+			{
+				"id": "datos",
+				"label": "Mga database at ulat"
+			},
+			{
+				"id": "carrera",
+				"label": "Suporta sa karera"
+			},
+			{
+				"id": "otro",
+				"label": "Iba pa"
+			}
+		],
+		"escribir": "Isulat ang email",
+		"copiar": "Kopyahin ang email",
+		"copiado": "Kopya na ang email",
+		"asunto": "Tanong mula sa marioalvarez.me",
+		"cuerpo": "Kumusta Mario:\n\nSumusulat ako tungkol sa: {tema}.\n\nAng mayroon ako:\n\nAng gusto kong malaman:\n\nSalamat.",
+		"otrosCanales": "Iba pang mga channel",
+		"base": "Base",
+		"baseValor": "Benidorm at Valencia",
+		"idiomas": "Mga wika",
+		"idiomasValor": "Espanyol, Valenciano at Ingles",
+		"aceptacionesTitulo": "Bago ako sulatan",
+		"aceptoTerminos": "Nabasa ko na at tinatanggap ko ang {enlace}.",
+		"enlaceTerminos": "mga tuntunin at kundisyon",
+		"aceptoCookies": "Tinatanggap ko ang mga cookies sa pagsusuri na inilalarawan sa {enlace} (opsyonal).",
+		"enlaceCookies": "patakaran sa cookies",
+		"faltaTerminos": "Para sulatan ako, markahan muna ang kahon ng mga tuntunin at kundisyon.",
+		"primeraCapa": "Responsable: Mario Álvarez Martínez. Layunin: sagutin ang iyong katanungan at, kung hihilingin mo, maghanda ng panukala para sa iyo. Pagpapatunay: ang iyong kahilingan. Mga tatanggap: wala, maliban kung may legal na obligasyon. Mga Karapatan: pag-access, pagwawasto, pagtanggal at iba pa na ipinaliwanag sa {enlace}.",
+		"enlacePrivacidad": "patakaran sa pagkapribado",
+		"refEmail": "Sanggunian ng pagtanggap sa mga tuntunin: {ref}"
 	}
 }

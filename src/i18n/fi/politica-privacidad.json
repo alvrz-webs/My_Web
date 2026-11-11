@@ -1,8 +1,8 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Tietosuojakäytäntö — Mario Álvarez",
-		"description": "Mario Álvarezin sivuston tietosuojakäytäntö: mitä tietoja kerätään, mihin tarkoitukseen ja miten voit käyttää oikeuksiasi.",
-		"eyebrow": "Oikeudelliset tiedot",
+		"description": "Mitä tietoja marioalvarez.me käsittelee, mihin tarkoitukseen, millä oikeusperusteella, kuinka kauan ja miten voit käyttää oikeuksiasi.",
 		"heading": "Tietosuojakäytäntö"
 	},
 	"secciones": [
@@ -10,84 +10,150 @@
 			"titulo": "1. Rekisterinpitäjä",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, osoite Benidorm (Alicante), Espanja. Yhteystiedot: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Käsittelyn tarkoitus",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Tämä verkkosivusto analysoi sisäisesti ja yksinomaan tilastollisia tarkoituksia varten, mitkä sisällöt (osiot, projektit) ovat vierailijoille hyödyllisimpiä, tavoitteenaan sisällön parantaminen. Sitä ei käytetä mainontatarkoituksiin, sitä ei jaeta kolmansille osapuille eikä sitä myydä missään olosuhteissa."
-				}
-			]
-		},
-		{
-			"titulo": "3. Kerättävät tiedot (vain jos hyväksyt analyyttiset evästeet)",
-			"bloques": [
-				{
 					"tipo": "lista",
 					"items": [
-						"Satunnainen anonymisoitu tunniste, jota ei ole sidottu nimeesi, sähköpostiisi tai muihin suoraan sinut tunnistaviin tietoihin.",
-						"Sivut ja projektit, joilla vierailet, sekä kussakin vietetty aika (kun välilehti on aktiivinen).",
-						"Vuorovaikutukset (klikkaukset projekteissa, linkeissä tai painikkeissa).",
-						"Vierailun päivämäärä ja kellonaika.",
-						"Katsotun sivuston kieli.",
-						"Laitetyyppi (mobiili tai työpöytä).",
-						"Arvioitu maa, joka saadaan Cloudflaren infrastruktuurin kautta tallentamatta IP-osoitettasi.",
-						"Saapumissivu (esimerkiksi LinkedIn tai hakukone)."
+						"Rekisterinpitäjä: {nombre}",
+						"NIF: {nif}",
+						"Osoite: {domicilio}",
+						"Sähköposti kaikkiin tietosuoja-asioihin liittyen: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "IP-osoitettasi ei kerätä, selaimen tunnistustekniikoita (fingerprinting) ei käytetä, eikä kolmannen osapuolen työkaluja, kuten Google Analyticsia tai vastaavia, käytetä."
+					"texto": "Kokoni ja toimintatyyppini vuoksi tietosuojavastaavan nimeminen ei ole pakollista, joten sellaista ei ole: kirjoita suoraan minulle."
 				}
 			]
 		},
 		{
-			"titulo": "4. Oikeusperusta",
+			"titulo": "2. Mitä tietoja käsittelen, mihin tarkoitukseen ja miksi",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Käsittely perustuu nimenomaiseen suostumukseesi (GDPR:n artikla 6.1.a ja Espanjan LSSI-CE:n artikla 22.2), jonka voit peruuttaa milloin tahansa sivuston omasta evästeiden hallinnasta."
+					"tipo": "tabla",
+					"columnas": [
+						"Mihin tarkoitukseen",
+						"Mitä tietoja",
+						"Oikeusperuste",
+						"Kuinka kauan"
+					],
+					"filas": [
+						[
+							"Käyttöanalytiikka, vain jos hyväksyt analysointievästeet",
+							"Satunnainen pseudonymisoitu tunniste (eväste visitante_id), katsomasi osiot ja projektit sekä kussakin vietetty aika, linkki- ja painikeklikkaukset, kieli, laitteetyppi (mobiili tai työpöytä), likimääräinen maa ja verkkosivun sivu, jolla kukin tapahtuma tapahtuu.",
+							"Suostumuksesi (GDPR:n art. 6.1.a ja LSSI-CE:n art. 22.2).",
+							"12 kuukautta; sen jälkeen jokainen tapahtuma poistetaan automaattisesti."
+						],
+						[
+							"Suostumusten rekisteri",
+							"Pseudonymisoitu tunniste, mitä hyväksyit, hylkäsit tai peruit, kunkin asiakirjan versio, päivämäärä ja kellonaika, sivu, kieli, alkuperä (banneri, asetukset tai lomake), selain (käyttäjäagentti) ja likimääräinen maa; lomakkeessa lisäksi sähköpostisi viitekoodi.",
+							"Velvollisuus pystyä osoittamaan suostumus (GDPR:n art. 6.1.c ja 7.1).",
+							"3 vuotta jokaisesta rekisteröinnistä (LPDGDD:n rikkomusten vanhentumisaika); sen jälkeen poistetaan automaattisesti."
+						],
+						[
+							"Vastaaminen kyselyysi sähköpostitse tai puhelimitse",
+							"Tiedot, jotka päätät lähettää minulle: yleensä nimesi, sähköpostisi tai puhelinnumerosi ja viestin sisällön.",
+							"Sopimusta edeltävien toimenpiteiden toteuttaminen pyynnöstäsi (GDPR:n art. 6.1.b) tai oikeutettu etuni vastata sinulle (art. 6.1.f).",
+							"Keskustelun ajan ja enintään 1 vuosi sen jälkeen, ellei meidän välille synny sopimusta."
+						],
+						[
+							"Sovitun palvelun hallinnointi",
+							"Tunnistus-, yhteys- ja laskutustiedot.",
+							"Sopimuksen täytäntöönpano (GDPR:n art. 6.1.b) sekä verotus- ja kirjanpitovelvoitteet (art. 6.1.c).",
+							"Verotus- ja kauppalakejen edellyttämä aika (yleensä 4–6 vuotta)."
+						],
+						[
+							"Muistaa, pidätkö enemmän vaaleasta vai tummasta teemasta",
+							"Teema-asetus tallennettuna vain selaimeesi (paikallinen tallennustila). Sitä ei lähetetä minulle.",
+							"Toiminto, jota pyydät painiketta painamalla (vapautettu suostumuksesta LSSI-CE:n art. 22.2 mukaisesti).",
+							"Kunnes poistat sen selaimestasi."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Säilytysaika",
+			"titulo": "3. Mitä en pyydä enkä kerää",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Tietoja säilytetään enintään 12 kuukautta viimeisestä vierailustasi, minkä jälkeen ne poistetaan automaattisesti."
+					"texto": "Käsittelen vain kulloiseenkin tarkoitukseen ehdottoman pakolliset tiedot. Nimittäin:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Yhteydenottolomake ei pyydä nimeäsi, sähköpostiasi eikä puhelinnumeroasi: se avaa sähköpostiohjelmasi ja sinä päätät, mitä lähetät minulle.",
+						"En tallenna IP-osoitettasi analytiikkaan enkä suostumusten rekisteriin.",
+						"En käytä selaimen tunnistustekniikoita (fingerprinting), Google Analyticsia, mainospikseleitä enkä kolmannen osapuolen evästeitä.",
+						"Fontit ja kuvat tarjoillaan tältä samalta verkkosivustolta: vieraillessasi selaimesi ei ota yhteyttä Google Fontsiin, GitHubiin tai muihin ulkoisiin palveluihin."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Vastaanottajat ja kansainväliset siirrot",
+			"titulo": "4. Keitä muita prosessiin osallistuu",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Tietoja ei luovuteta eikä myydä kolmansille osapuille. Ne tallennetaan Cloudflare D1:een, Cloudflare, Inc:n tarjoamaan tietokantapalveluun, joka toimii henkilötietojen käsittelijänä. Cloudflare voi käsitellä tietoja Euroopan talousalueen ulkopuolella; tässä tapauksessa siirto perustuu Euroopan komission hyväksymiin EU:n mallisopimuslausekkeisiin. Lisätietoja Cloudflaren tietosuojakäytännöstä: https://www.cloudflare.com/privacypolicy/"
+					"texto": "En myy enkä luovuta tietojasi kenellekään, paitsi lain niin velvoittaessa. Verkkosivuston toimimiseksi ja sinulle vastaamiseksi käytän seuraavia palveluntarjoajia:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: majoittaa verkkosivuston ja tietokannan (Cloudflare Pages ja D1) ja toimii henkilötietojen käsittelijänä. Sivuston palvelemiseksi se käsittelee teknisiä yhteystietoja, kuten IP-osoitettasi, joihin minulla ei ole pääsyä. Sen käytäntö: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): sähköpostipalvelu, jossa vastaanotnan ja vastaan sähköposteihin; se käsittelee näitä viestejä oman käytäntönsä mukaisesti: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Sinun oikeutesi",
+			"titulo": "5. Kansainväliset tiedonsiirrot",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Voit käyttää milloin tahansa oikeuttasi tutustua tietoihin, oikaista niitä, poistaa niitä, vastustaa niiden käsittelyä, rajoittaa sitä ja siirtää tiedot toiselle järjestelmälle kirjoittamalla osoitteeseen malvmar5@hotmail.com. Lisäksi voit poistaa tietosi välittömästi ilman tarvetta kirjoittaa kenellekään sivuston evästeasetuksista löytyvän \"Poista tietoni\" -painikkeen kautta. Sinulla on myös oikeus tehdä valitus Espanjan tietosuojaviranomaiselle (www.aepd.es), jos katsot, että oikeuksiasi ei ole käsitelty asianmukaisesti."
+					"texto": "Cloudflare ja Microsoft voivat käsitellä tietoja Yhdysvalloissa. Molemmat noudattavat EU–USA-tietosuojakehystä (Euroopan komission 10. heinäkuuta 2023 antama päätös tietosuojan riittävyydestä) ja tarjoavat lisäksi komission hyväksymät vakiolausekkeet."
 				}
 			]
 		},
 		{
-			"titulo": "8. Muutokset tähän käytäntöön",
+			"titulo": "6. Oikeutesi",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Tätä käytäntöä voidaan päivittää vastaamaan lainsäädännön tai itse sivuston muutoksia."
+					"texto": "Voit pyytää minulta milloin tahansa pääsyä tietoihisi, niiden oikaisua, poistamista, käsittelyn vastustamista, rajoittamista tai niiden vastaanottamista siirtämistä varten (siirrettävyys) sekä peruuttaa suostumuksesi ilman, että se vaikuttaa aiempaan käsittelyyn. Kirjoita osoitteeseen {email}; vastaan sinulle viimeistään kuukauden kuluessa."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analyyttiset tiedot voit poistaa itse heti evästeasetusten «Poista tietoni» -painikkeella. Suostumusten rekisteri säilytetään, vaikka peruisit suostumuksesi, koska sitä käytetään juuri sen todistamiseen, milloin annoit suostumuksesi ja milloin peruit sen."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jos katsot, että oikeuksiasi ei ole käsitelty asianmukaisesti, voit tehdä valituksen Espanjan tietosuojavaltuutetulle (Agencia Española de Protección de Datos): https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Alaikäiset",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Verkkosivusto ei ole suunnattu alle 14-vuotiaille. Jos olet alle 14-vuotias, älä lähetä minulle henkilötietoja ilman vanhempiesi tai huoltajiesi lupaa (LOPDGDD:n art. 7)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Turvallisuus",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tiedot kulkevat salattuina (HTTPS) ja ne tallennetaan tietokantaan, johon päästään vain käyttäjätunnuksella ja salasanalla suojatun yksityisen paneelin kautta."
+				}
+			]
+		},
+		{
+			"titulo": "9. Muutokset tähän käytäntöön",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jos jokin olennainen asia muuttuu, päivitän tämän sivun ja sen versiopäivämäärän. Jos muutos koskee evästeitä, sinulta kysytään asiaa uudelleen."
 				}
 			]
 		}

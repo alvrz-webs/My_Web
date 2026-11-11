@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Privaatsuspoliitika — Mario Álvarez",
-		"description": "Mario Álvarezi veebisaidi privaatsuspoliitika: milliseid andmeid kogutakse, mis eesmärgil ja kuidas oma õigusi teostada.",
-		"eyebrow": "Legal",
+		"description": "Milliseid andmeid marioalvarez.me töötleb, mis eesmärgil, millisel õiguslikul alusel, kui kaua ja kuidas saate oma õigusi teostada.",
 		"heading": "Privaatsuspoliitika"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Andmetöötleja",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, asukohaga Benidorm (Alicante), Hispaania. Kontakt: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Töötlemise eesmärk",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "See veebisait analüüsib sisemiselt ja eranditult statistilistel eesmärkidel, milline sisu (sektsioonid, projektid) on külastajatele kasulikum, eesmärgiga selle sisu parandada. Seda ei kasutata reklaami eesmärgil, seda ei jagata kolmandate osapooltega ega müüda ühelgi tingimusel."
-				}
-			]
-		},
-		{
-			"titulo": "3. Kogutavad andmed (ainult siis, kui nõustute analüütiliste küpsistega)",
+			"titulo": "1. Vastutav töötleja",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Juhuslik anonüümne identifikaator, mis ei ole seotud teie nime, e-posti ega muu teabega, mis teid otseselt identifitseerib.",
-						"Külastatavad lehed ja projektid ning igal lehel viibimise aeg (kui vahekaart on aktiivne).",
-						"Interaktsioonid (klõpsud projektidel, linkidel või nuppudel).",
-						"Külastuse kuupäev ja kellaaeg.",
-						"Vaadatud saidi keel.",
-						"Seadme tüüp (mobiil või lauaarvuti).",
-						"Ligikaudne riik, mis on saadud Cloudflare'i infrastruktuuri kaudu, salvestamata teie IP-aadressi.",
-						"Lähteleht (näiteks LinkedIn või otsingumootor)."
+						"Vastutav töötleja: {nombre}",
+						"NIF: {nif}",
+						"Aadress: {domicilio}",
+						"E-posti aadress privaatsusküsimuste korral: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Teie IP-aadressi ei koguta, ei kasutata brauseri tuvastamise tehnikaid (fingerprinting) ega kolmandate osapoolte tööriistu nagu Google Analytics vms."
+					"texto": "Mahtude ja tegevuse tüübi tõttu ei ole kohustuslik määrata andmekaitseametnikku, mistõttu seda pole: kirjutage mulle otse."
 				}
 			]
 		},
 		{
-			"titulo": "4. Õiguslik alus",
+			"titulo": "2. Milliseid andmeid ma töötlen, mis eesmärgil ja miks",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Töötlemine põhineb teie selgesõnalisel nõusolekul (isikuandmete kaitse üldmääruse artikkel 6.1.a ja LSSI-CE artikkel 22.2), mille saate igal ajal tagasi võtta saidi enda küpsiste haldurist."
+					"tipo": "tabla",
+					"columnas": [
+						"Milleks",
+						"Millised andmed",
+						"Õiguslik alus",
+						"Kui kaua"
+					],
+					"filas": [
+						[
+							"Kasutusanalüütika, ainult juhul, kui nõustute analüütikaküpsistega",
+							"Juhuslik pseudonüümne identifikaator (küpsis visitante_id), vaadatud jaotised ja projektid ning igas viidatud aeg, lingi- ja nupuklõpsud, keel, seadme tüüp (mobiil või lauaarvuti), ligikaudne riik ja veebileht, kus iga sündmus toimub.",
+							"Teie nõusolek (isikuandmete kaitse üldmääruse art 6.1.a).",
+							"12 kuud; pärast seda kustutatakse iga sündmus automaatselt."
+						],
+						[
+							"Nõusolekute logi",
+							"Pseudonüümne identifikaator, millega nõustusite, keeldusite või mille tagasi võtsite, iga dokumendi versioon, kuupäev ja kellaaeg, leht, keel, päritolu (bänner, seaded või vorm), veebilehitseja (kasutajaagent) ja ligikaudne riik; vormi puhul lisaks teie e-posti viitekood.",
+							"Kohustus suuta nõusolekut tõendada (isikuandmete kaitse üldmääruse art 6.1.c ja 7.1).",
+							"3 aastat alates iga kande tegemisest (maksimaalne aegumistähtaeg); pärast seda kustutatakse see automaatselt."
+						],
+						[
+							"Vastamine teie päringule e-posti või telefoni teel",
+							"Andmed, mida otsustate mulle saata: tavaliselt teie nimi, e-posti aadress või telefoninumber ja sõnumi sisu.",
+							"Lepingueelsete meetmete rakendamine teie taotlusel (isikuandmete kaitse üldmääruse art 6.1.b) või minu õigustatud huvi teile vastata (art 6.1.f).",
+							"Kuni vestluse lõpuni ja kuni 1 aasta hiljem, välja arvatud juhul, kui sõlmime lepingu."
+						],
+						[
+							"Tellitud teenuse haldamine",
+							"Identifitseerimis-, kontakt- ja arveldusandmed.",
+							"Lepingu täitmine (isikuandmete kaitse üldmääruse art 6.1.b) ning maksundus- ja raamatupidamiskohustused (art 6.1.c).",
+							"Maksus- ja äriseadustega nõutav (üldiselt 4 kuni 6 aastat)."
+						],
+						[
+							"Meeles pidamine, kas eelistate heledat või tumedat teemat",
+							"Eelistus «tema», salvestatud ainult teie veebilehitsejasse (kohalik salvestusruum). Minuni see ei jõua.",
+							"Funktsioon, mida te nupule vajutades palute.",
+							"Kuni kustutate selle oma veebilehitsejast."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Säilitamistähtaeg",
+			"titulo": "3. Mida ma ei küsi ega kogu",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Andmeid säilitatakse maksimaalselt 12 kuud alates teie viimasest külastusest, pärast mida need kustutatakse automaatselt."
+					"texto": "Ma töötlen iga eesmärgi jaoks ainult hädavajalikku. Nimelt:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kontaktvorm ei küsi teie nime, e-posti aadressi ega telefoninumbrit: avage oma e-posti programm ja teie otsustate, mida mulle saadate.",
+						"Ma ei salvesta teie IP-aadressi ei analüütikas ega nõusolekute logis.",
+						"Ma ei kasuta veebilehitseja tuvastamise tehnikaid (fingerprinting), Google Analyticsit, reklaamipiksleid ega kolmandate osapoolte küpsiseid.",
+						"Tüübid ja pildid laaditakse samalt veebisaidilt: selle külastamisel ei loo teie veebilehitseja ühendust Google Fontsi, GitHubi ega muude väliste teenustega."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Vastuvõtjad ja rahvusvahelised edastused",
+			"titulo": "4. Kes veel osaleb",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Andmeid ei edastata ega müüda kolmandatele osapooltele. Neid hoitakse Cloudflare D1-s, mis on Cloudflare, Inc. pakutav andmebaasiteenus, kes tegutseb volitatud töötlejana. Cloudflare võib töödeldaandmeid väljaspool Euroopa Majanduspiirkonda; sellisel juhul tugineb see edastus Euroopa Komisjoni heaks kiidetud standardsetele lepingutingimustele. Lisateavet leiate Cloudflare'i privaatsuspoliitikast: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ma ei müü ega anna teie andmeid kellelegi edasi, välja arvatud seadusest tuleneva kohustuse korral. Veebi toimimiseks ja teile vastamiseks kasutan järgmisi teenusepakkujaid:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: majutab veebisaiti ja andmebaasi (Cloudflare Pages ja D1) ning toimib volitatud töötlejana. Veebi teenindamiseks töötleb see tehnilisi ühendusandmeid, nagu teie IP, millele mul juurdepääs puudub. Nende poliitika: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): e-postiteenus, milles ma e-kirju vastu võtan ja neile vastan; see töötleb neid sõnumeid oma poliitika kohaselt: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Teie õigused",
+			"titulo": "5. Rahvusvahelised edastamised",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Saate igal ajal kasutada oma õigust tutvuda andmetega, neid parandada, kustutada, esitada vastuväiteid, piirata töötlemist ja andmete ülekantavust, kirjutades aadressile malvmar5@hotmail.com. Lisaks saate oma andmed koheselt kustutada, ilma et peaksite kellelegi kirjutama, kasutades saidi küpsiste seadetest leitavat nuppu \"Kustuta minu andmed\". Samuti on teil õigus esitada kaebus Hispaania Andmekaitseametile (www.aepd.es), kui leiate, et teie õigusi ei ole nõuetekohaselt käsitleda võetud."
+					"texto": "Cloudflare ja Microsoft võivad töödelda andmeid Ameerika Ühendriikides. Mõlemad järgivad ELi-USA andmekaitseraamistikku ning pakuvad lisaks komisjoni heaks kiidetud tüüptingimusi."
 				}
 			]
 		},
 		{
-			"titulo": "8. Muudatused käesolevas poliitikas",
+			"titulo": "6. Teie õigused",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Seda poliitikat võidakse ajakohastada, et kohaneda õiguslike või saidi enda muudatustega."
+					"texto": "Võite minult igal ajal taotleda juurdepääsu oma andmetele, nende parandamist, kustutamist, töötlemise piiramist, sellele vastuväite esitamist või nende saamist teise kohta viimiseks (ülekantavus) ning võtta oma nõusoleku tagasi, ilma et see mõjutaks varasemat töötlemist. Kirjutage mulle aadressil {email}; vastaan teile hiljemalt kuu aja jooksul."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analüütikaandmed saate ise koheselt kustutada küpsisesätetes oleva nupuga «Borrar mis datos». Nõusolekute logi säilitatakse ka siis, kui võtate oma nõusoleku tagasi, kuna see on vajalik just nimelt selle tõendamiseks, millal te selle andsite ja millal tagasi võtsite."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kui arvate, et ma ei ole teie õigusi piisavalt austanud, saate esitada kaebuse asutusele Agencia Española de Protección de Datos: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Alaealised",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veebisait ei ole suunatud alla 14-aastastele alaealistele. Kui olete alla 14-aastane, ärge saatke mulle isikuandmeid ilma oma vanemate või eestkostjate loata."
+				}
+			]
+		},
+		{
+			"titulo": "8. Turvalisus",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Andmed liiguvad krüpteeritult (HTTPS) ja neid hoitakse andmebaasis, millele pääseb ligi ainult kasutajanime ja parooliga kaitstud privaatpaneelilt."
+				}
+			]
+		},
+		{
+			"titulo": "9. Muudatused käesolevas poliitikas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kui midagi olulist muutub, uuendan seda lehte ja selle versiooni kuupäeva. Kui muudatus puudutab küpsiseid, küsitakse teilt uuesti nõusolekut."
 				}
 			]
 		}

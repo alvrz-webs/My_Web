@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Cookiepolitik — Mario Álvarez",
-		"description": "Hvilke cookies dette websted bruger, til hvilke formål og hvordan du til enhver tid kan ændre dit samtykke.",
-		"eyebrow": "Juridisk",
-		"heading": "Cookiepolitik"
+		"description": "Hvilke cookies marioalvarez.me bruger, hvilke der kræver din tilladelse, og hvordan du til enhver tid ændrer dit valg.",
+		"heading": "Cookiepolitik",
+		"eleccionTitulo": "Dit valg",
+		"eleccionTexto": "Du kan ændre eller slette dine data, når du vil, lige så nemt som du gav dem."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Dette websted bruger cookies og lignende teknologier (såsom lokal lagring i browseren) til at fungere korrekt og, hvis du giver dit samtykke, til anonymt at analysere, hvordan indholdet bruges."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Anvendte cookies:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Navn",
-				"Formål",
-				"Type",
-				"Varighed"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Husk dit valg vedrørende denne cookiepolitik",
-					"Egnet, teknisk (fritaget for samtykke)",
-					"12 måneder"
-				],
-				[
-					"visitante_id",
-					"Anonym identifikator til at kæde dine besøg sammen og se, hvilket indhold der er nyttigt",
-					"Egnet, analytisk (kræver dit samtykke)",
-					"12 måneder"
-				]
+			"titulo": "1. Hvad de er, og om jeg har brug for din tilladelse",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookies og lignende teknologier (såsom lokal lagring i browseren) gemmer små datafiler på din enhed. Ifølge artikel 22.2 i LSSI-CE og vejledningen om brug af cookies fra det spanske datatilsyn (Agencia Española de Protección de Datos) kræver dem, der er strengt nødvendige for noget, du anmoder om, ikke samtykke; analyse-cookies gør."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Derfor gemmer dette websted kun analyse-cookies, hvis du accepterer dem, og lader dig acceptere eller afvise med to ens knapper, på samme skærm og uden forudafkrydsede felter. At afvise dem forhindrer dig ikke i at bruge noget på webstedet."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Ingen af disse cookies er fra tredjeparter, ingen bruges til reklameformål, og ingen deles med nogen uden for dette websted."
+			"titulo": "2. Cookies som dette websted bruger",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Navn",
+						"Hvad den bruges til",
+						"Type",
+						"Kræver den din tilladelse?",
+						"Varighed"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Gemme dit valg, versionen af denne politik og det pseudonymiserede id for dit samtykketilsagn",
+							"Egen, teknisk",
+							"Nej",
+							"12 måneder"
+						],
+						[
+							"visitante_id",
+							"Pseudonymiseret id for at vide, hvilke indhold der er nyttige",
+							"Egen, til analyse",
+							"Ja",
+							"12 måneder"
+						],
+						[
+							"tema (lokal lagring)",
+							"Husk om du foretrækker lyst eller mørkt tema; gemmes kun hvis du ændrer det",
+							"Egen, til personalisering anmodet af dig",
+							"Nej",
+							"Indtil du sletter den"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Du kan ændre din beslutning eller trække dit samtykke tilbage når som helst via linket \"Konfigurer cookies\" i sidefoden og straks slette alle dine data med knappen \"Slet mine data\" i det samme panel."
+			"titulo": "3. Hvad der ikke er her",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Der er ingen tredjepartscookies, ingen reklamer, intet indlejret indhold fra sociale medier og intet Google Analytics. Skrifttyper og billeder leveres fra dette samme websted."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "For mere information om, hvordan dine data behandles, kan du se Privatlivspolitikken."
+			"titulo": "4. Sådan ændrer du mening",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kan til enhver tid ændre dit valg eller trække dit samtykke tilbage under \"Konfigurer cookies\" i sidefoden på hver side eller med knappen på denne side. Derfra kan du også øjeblikkeligt slette analyse-data tilknyttet din browser. Og du kan slette cookies fra dine browserindstillinger."
+				}
+			]
+		},
+		{
+			"titulo": "5. Registrering af dit valg",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hver gang du accepterer, afviser eller trækker samtykke tilbage, gemmes der en log (pseudonymiseret id, beslutning, version af denne politik, dato og klokkeslæt, side, sprog, kilde og browser) uden din IP-adresse for at kunne bevise, at samtykket var gyldigt. Det opbevares i 3 år. Flere detaljer i privatlivspolitikken."
+				}
+			]
+		},
+		{
+			"titulo": "6. Ændringer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis denne politik ændrer sig væsentligt, vil cookie-notifikationen vises igen, så du kan træffe en ny beslutning."
+				}
+			]
 		}
 	]
 }

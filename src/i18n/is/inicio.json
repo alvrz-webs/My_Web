@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Íþrótta-gagnafræðingur",
-		"description": "Mario Álvarez, gagnafræðingur í Valencia sem sérhæfir sig í íþróttagreiningu. Data · Sport · Progress.",
+		"description": "Mario Álvarez, gagnafræðingur í Valencia sem sérhæfir sig í íþróttagreiningu. Spænskur meistari í madison og íþróttastjóri RFEC.",
 		"verProyectos": "Skoða verkefni",
-		"contacto": "Hafa samband",
-		"verMas": "Skoða meira",
+		"verServicios": "Sjá hvernig ég get hjálpað þér",
+		"contacto": "Skrifaðu mér",
+		"verMas": "Lesa meira",
 		"verTodosProyectos": "Skoða öll verkefni",
-		"irAContacto": "Fara í samband",
+		"irAContacto": "Skrifaðu mér",
 		"herramientas": "Helstu tól"
 	},
 	"hero": {
-		"eyebrow": "Gagnafræðingur · Íþróttagreining · Valencia",
-		"titlePre": "Ég breyti gögnum í ",
-		"titleHighlight": "skýrar ákvarðanir",
-		"subtitle": "Ég er brúin milli gagnafærni og afreksíþrótta: ég breyti frammistöðumælingum í stefnur sem skipta máli ávellinum.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, gagnafræðingur",
+		"title": "Ég var spænskur meistari í madison.",
+		"subtitle": "Núna stunda ég nám í gagnavísindum við UPV og greini það sem býr að baki árangri: afköst, álag og úrslit. Ég veit hvað töluleg gögn merkja fyrir keppanda því ég hef verið sá keppandi.",
+		"palmaresLabel": "Afrekaskrá",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Spænska meistaragíman í madison",
+				"nota": "Braut, 18 ára"
+			},
+			{
+				"pos": "6.",
+				"texto": "Heimsmeistaramót á braut",
+				"nota": "Spænska landsliðið"
+			},
+			{
+				"pos": "6.",
+				"texto": "Evrópumeistaramót á braut",
+				"nota": "Spænska landsliðið"
+			}
+		],
+		"retratoAlt": "Mynd af Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Hvernig get ég að liði komið?",
+		"text": "Ég vinna með liðum, þjálfurum og keppendum sem eiga gögn og vilja nýta þau. Einnig með fyrirtækjum sem þurfa að koma skipulagi á sín gögn.",
+		"cta": "Segðu mér frá þínu máli",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Árangursgreining",
+				"texto": "Ég les afköst, álag og úrslit með augum keppanda. Ég útskýri hvað er að gerast og hvað þyrfti að breyta.",
+				"prueba": "Elítukeppandi og íþróttastjóri RFEC, stig I og II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Sérsniðin verkfæri",
+				"texto": "Gagnaskrap (scraping), líkön og lítil smáforrit í Python sem svara ákveðinni spurningu frá þínu liði.",
+				"prueba": "Tvö verkfæri fyrir Cofidis-liðið: UCI erfiðleikastig og keppnisprófíll."
+			},
+			{
+				"id": "datos",
+				"nombre": "Gagnagrunnar og skýrslur",
+				"texto": "Hraðari fyrirspurnir, samþættir grunnar og mælaborð í Power BI sem eru auðskilin við fyrstu sýn.",
+				"prueba": "Meira en 580 töflur og 100 milljónir færslna í grunninum sem ég fínstilla hjá SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Stuðningur í keppni",
+				"texto": "Undirbúningur keppni, eftirfylgni með keppendum og íþróttanudd í keppni.",
+				"prueba": "Starfslið landsliðs Valencia-héraðsins."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Um mig",
-		"title": "Gögn með samhengisbraut, vegi og keppni",
-		"text": "Ég er Mario Álvarez, nemi í gagnafræði við UPV með raunverulega reynslu úr atvinnumannahjólreiðum. Ég hef gaman af því að sameina gagnafærni og afreksíþróttaárangur til að breyta hverri mælingu í ákvörðun sem bætir árangur."
+		"title": "Frá veldróm í gögn",
+		"text": "Ég stundanám á 3. ári í gagnavísindum við UPV og hef lokið meistaragráðu í stafrænni væðingu og tækni sem tengist íþróttum. Ég hef ekki yfirgefið hjólreiðarnar: ég keppi enn á braut, þjálfa yngri flokka og starfa sem íþróttanuddari með atvinnumönnum."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Grunnur",
+			"value": "Benidorm og Valencia"
+		},
+		{
 			"label": "Menntun",
-			"detail": "Gráða í gagnafræði, Tækniháskólanum í Valencia."
+			"value": "Gráða í gagnavísindum (UPV) og meistaragráða í stafrænni væðingu, nýsköpun og tækni í íþróttum"
 		},
 		{
-			"value": "Eðla",
-			"label": "Reynslusaga",
-			"detail": "Raunveruleg vinna innan atvinnumannaliðs í hjólreiðum."
+			"label": "Titlar",
+			"value": "Íþróttastjóri RFEC, stig I og II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Áhersla",
-			"detail": "Greining beitt til að bæta íþróttaárangur."
+			"label": "Núna",
+			"value": "Laus fyrir gagna- og árangursverkefni"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Reynslusaga",
-		"title": "Heimur tvíburanna, sama tungumálið: árangurinn",
-		"text": "Ég hef keppt á hæsta stigi og beiti nú sömu viðmiðum við gögnin: ég skil hvað tala þýðir fyrir íþróttamann því ég hef verið sá íþróttamaður."
+		"title": "Tvær brautir, sama verkið",
+		"text": "Á annarri fínstilla ég gagnagrunna og skrifa líkön. Á hinni undirbúi ég keppnir og fylgi eftir keppendum. Hvort tveggja snýst um hið sama: að mæla rétt til að taka betri ákvarðanir.",
+		"carriles": [
+			{
+				"nombre": "Gögn",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "töflur greindar hjá SIME Telecom til að samþætta marga grunna í einn, án þess að stækka vélbúnaðinn"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "færslur í gagnagrunninum sem ég er að fínstilla"
+					},
+					{
+						"cifra": "2",
+						"texto": "verkfæri í Python fyrir Cofidis-liðið: UCI erfiðleikastig og keppnisprófíll"
+					}
+				]
+			},
+			{
+				"nombre": "Braut og vegur",
+				"items": [
+					{
+						"cifra": "I og II",
+						"texto": "stig íþróttastjóra Spænska hjólreiðasambandsins"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "ára eru keppendur í yngri flokkum sem ég þjálfa og fylgi eftir ásamt föður mínum"
+					},
+					{
+						"cifra": "2026",
+						"texto": "stoðlið með landsliði Valencia-héraðsins í keppni"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Tulum við um gögn?",
-		"text": "Segðu mér frá verkefninu þínu og við finnum saman hvar ákvarðanirnar eru sem bæta árangur."
+		"title": "Síðasta umferð",
+		"text": "Ef þú ert með árangursgögn og ógildar spurningar, skrifaðu mér og við skoðum þetta saman."
 	}
 }

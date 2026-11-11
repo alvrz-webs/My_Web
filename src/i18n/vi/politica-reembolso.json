@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Chính sách hoàn tiền — Mario Álvarez",
+		"description": "Cách thức hoạt động của việc hủy bỏ, quyền rút lui khỏi hợp đồng và hoàn tiền cho các dịch vụ của Mario Álvarez.",
+		"heading": "Chính sách hoàn tiền"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Trang web này không thu phí",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tại marioalvarez.me, không có sản phẩm nào được bán và không có khoản thanh toán trực tuyến nào được thu. Các dịch vụ (phân tích hiệu suất, công cụ tùy chỉnh, cơ sở dữ liệu và báo cáo, cùng hỗ trợ sự nghiệp) được ký hợp đồng riêng thông qua một đề xuất bằng văn bản."
+				}
+			]
+		},
+		{
+			"titulo": "2. Nội dung trong đề xuất của bạn",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mỗi đề xuất nêu rõ mức giá, cách thức và thời điểm thanh toán cũng như các điều kiện hủy bỏ. Nếu đề xuất có nội dung khác với chính sách này, đề xuất sẽ được áp dụng, trừ khi chính sách này mang lại cho bạn nhiều quyền lợi hơn với tư cách là người tiêu dùng."
+				}
+			]
+		},
+		{
+			"titulo": "3. Nếu bạn hủy bỏ",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Trừ khi có thỏa thuận khác bằng văn bản:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Nếu bạn hủy trước khi công việc bắt đầu, tôi sẽ hoàn lại toàn bộ bất kỳ khoản thanh toán trước nào.",
+						"Nếu bạn hủy khi công việc đã bắt đầu, chỉ phần việc đã hoàn thành mới bị tính phí và tôi sẽ hoàn lại phần còn lại của số tiền bạn đã trả trước.",
+						"Công việc đã được bàn giao và chấp nhận sẽ không được hoàn tiền, trừ khi có các lỗi không thể khắc phục."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Quyền rút lui (nếu bạn là người tiêu dùng)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nếu bạn ký hợp đồng với tư cách là người tiêu dùng (cá nhân hành động ngoài hoạt động chuyên môn của mình) và hợp đồng được ký kết từ xa, qua email hoặc điện thoại, bạn có 14 ngày dương lịch kể từ ngày ký kết để rút lui mà không cần giải thích, theo các điều từ 102 đến 108 của văn bản hợp nhất Luật Chung về Bảo vệ Người tiêu dùng và Người sử dụng (Sắc lệnh Hoàng gia Lập pháp 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nếu bạn yêu cầu tôi bắt đầu công việc rõ ràng trong vòng 14 ngày đó và sau đó bạn rút lui, bạn sẽ chỉ phải trả phần tương ứng của dịch vụ được cung cấp cho đến thời điểm đó. Nếu dịch vụ đã được hoàn thành hoàn toàn trong thời hạn, với sự đồng ý trước và rõ ràng của bạn và biết rằng bằng cách đó bạn mất quyền này, bạn sẽ không thể rút lui nữa (điều 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Cách thức yêu cầu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hãy viết thư cho tôi tại {email} kèm theo tên của bạn, dịch vụ và ngày bạn ký hợp đồng. Bạn có thể sử dụng mẫu biểu mẫu rút lui này (không bắt buộc):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Gửi tới {nombre}, {domicilio}, {email}:",
+						"Tôi xin thông báo rằng tôi rút lui khỏi hợp đồng cung cấp dịch vụ sau đây: [servicio].",
+						"Được ký hợp đồng vào ngày: [fecha].",
+						"Tên người tiêu dùng: [nombre].",
+						"Địa chỉ của người tiêu dùng: [domicilio].",
+						"Ngày: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Thời hạn và hình thức hoàn tiền",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tôi sẽ hoàn lại số tiền tương ứng cho bạn trong tối đa 14 ngày dương lịch kể từ khi bạn thông báo quyết định của mình cho tôi, bằng chính phương thức thanh toán mà bạn đã sử dụng, trừ khi chúng ta thỏa thuận cách khác. Việc hoàn tiền hoàn toàn miễn phí đối với bạn."
+				}
+			]
+		}
+	]
+}

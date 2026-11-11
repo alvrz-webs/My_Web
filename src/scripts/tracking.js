@@ -16,8 +16,9 @@ function leerCookie(nombre) {
 	return match ? decodeURIComponent(match[1]) : null;
 }
 
+// La cookie guarda "aceptado:identificador:versión" (o "aceptado" a secas, formato antiguo)
 function haConsentido() {
-	return leerCookie(COOKIE_CONSENTIMIENTO) === 'aceptado';
+	return (leerCookie(COOKIE_CONSENTIMIENTO) ?? '').split(':')[0] === 'aceptado';
 }
 
 function ahoraSegundos() {
@@ -85,6 +86,12 @@ function comprobarLimitesDeTramos() {
 
 function enviarCola(usarBeacon) {
 	if (colaEventos.length === 0) return;
+
+	// Si se ha retirado el consentimiento durante la visita, no se envía nada más
+	if (!haConsentido()) {
+		colaEventos = [];
+		return;
+	}
 
 	const visitanteId = leerCookie(COOKIE_VISITANTE);
 	if (!visitanteId) {

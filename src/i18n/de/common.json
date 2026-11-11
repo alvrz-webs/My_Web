@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Startseite",
 		"sobreMi": "Über mich",
 		"proyectos": "Projekte",
 		"experiencia": "Erfahrung",
@@ -7,10 +8,22 @@
 		"ariaMain": "Hauptnavigation",
 		"openMenu": "Menü öffnen"
 	},
+	"saltar": "Zum Inhalt springen",
+	"tema": "Zwischen hellem und dunklem Modus wechseln",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spanischer Madison-Meister. Datenwissenschaftler.",
+		"disponible": "Verfügbar für Daten- und Sportleistungsprojekte.",
+		"escribeme": "Schreib mir",
+		"navLabel": "Abschnitte",
+		"legalLabel": "Rechtliches",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Soziale Netzwerke"
+	},
+	"cierre": {
+		"title": "Sollen wir sprechen?",
+		"text": "Wenn du Leistungsdaten und unbeantwortete Fragen hast, schreib mir und wir schauen es uns gemeinsam an.",
+		"cta": "Schreib mir"
 	},
 	"langSwitch": {
 		"label": "Sprache wechseln",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Cookie-Einwilligung"
 	},
 	"legal": {
+		"terminos": "Geschäftsbedingungen",
 		"privacidad": "Datenschutzbestimmungen",
-		"cookies": "Cookie-Richtlinie"
+		"cookies": "Cookie-Richtlinie",
+		"reembolso": "Rückgaberecht",
+		"actualizado": "Letzte Aktualisierung",
+		"indice": "Auf dieser Seite",
+		"otros": "Andere Dokumente"
 	},
 	"person": {
 		"jobTitle": "Datenwissenschaftler",
 		"description": "Auf Sportanalytik spezialisierter Datenwissenschaftler mit Erfahrung im professionellen Radsport."
+	},
+	"pizarra": {
+		"vueltas": "Runden",
+		"campana": "letzte"
 	}
 }

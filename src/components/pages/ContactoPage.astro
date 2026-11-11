@@ -1,11 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
-import SocialLinks from '../SocialLinks.astro';
-import { type Locale } from '../../lib/i18n';
+import { localizedPath, type Locale } from '../../lib/i18n';
 import { getDict } from '../../lib/dictionary';
 import mailIcon from 'lucide-static/icons/mail.svg?raw';
 import phoneIcon from 'lucide-static/icons/phone.svg?raw';
+import { REDES, EMAIL, TELEFONO, TELEFONO_TEL } from '../../data/redes.js';
 
 interface Props {
 	lang?: Locale;
@@ -13,167 +13,612 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const TELEFONO = '+34 656 867 231';
-const TELEFONO_TEL = 'tel:+34656867231';
-
 const t = (getDict(lang, 'contacto') as any).meta;
+const temas: { id: string; label: string }[] = t.temas ?? [];
 
-const socialLinks = [
-	{ href: 'https://www.linkedin.com/in/mario-álvarez-martínez-58a569390/', label: 'LinkedIn' },
-	{ href: 'https://github.com/Marioam200', label: 'GitHub' },
-	{ href: 'https://www.instagram.com/mario.a.m_200/', label: 'Instagram' },
-	{ href: TELEFONO_TEL, label: t.telefono },
-];
+// Textos con un enlace dentro: "He leído y acepto los {enlace}." → antes / enlace / después
+const conEnlace = (texto: string = '', enlace: string = '', href: string) => {
+	const [antes, despues = ''] = texto.split('{enlace}');
+	return { antes, enlace, despues, href };
+};
+const casillaTerminos = conEnlace(t.aceptoTerminos, t.enlaceTerminos, localizedPath('/terminos-y-condiciones', lang));
+const casillaCookies = conEnlace(t.aceptoCookies, t.enlaceCookies, localizedPath('/politica-de-cookies', lang));
+const primeraCapa = conEnlace(t.primeraCapa, t.enlacePrivacidad, localizedPath('/politica-de-privacidad', lang));
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>
-	<PageHeader eyebrow={t.eyebrow} title={t.heading} description={t.intro} />
+	<PageHeader eyebrow={t.eyebrow} title={t.heading} description={t.intro}>
+		<div slot="aside" class="directo">
+			<p class="email-grande">
+				<a href={`mailto:${EMAIL}`} data-tracking-clic="email-texto">{EMAIL}</a>
+			</p>
+			<button id="btn-copiar" type="button" class="btn btn-ghost" data-email={EMAIL} data-copiado={t.copiado}>
+				<span class="btn-copiar-texto">{t.copiar}</span>
+			</button>
+			<span id="aviso-copiado" class="sr-only" aria-live="polite"></span>
+		</div>
+	</PageHeader>
 
-	<section class="contact" data-tracking-seccion="contacto">
-		<div class="container contact-grid">
-			<div class="contact-methods reveal">
-				<a href="mailto:malvmar5@hotmail.com" class="contact-card-face">
-					<span class="contact-card-icon" set:html={mailIcon} />
-					<span class="contact-card-body">
-						<span class="contact-card-label">{t.email}</span>
-						<span class="contact-card-value">malvmar5@hotmail.com</span>
-					</span>
-				</a>
+	<section class="seccion contacto" data-tracking-seccion="contacto">
+		<div class="container contacto-grid">
+			<div class="contacto-principal">
+				<h2 class="titulo-seccion" data-entra>{t.temaTitulo ?? t.email}</h2>
+				{t.temaAyuda && <p class="lead contacto-ayuda" data-entra style="--i:1">{t.temaAyuda}</p>}
 
-				<div class="contact-card">
-					<button id="btn-telefono" type="button" class="contact-card-face">
-						<span class="contact-card-icon" set:html={phoneIcon} />
-						<span class="contact-card-body">
-							<span class="contact-card-label">{t.telefono}</span>
-							<span class="contact-card-value">{t.verTelefono}</span>
-						</span>
-					</button>
+				{
+					temas.length > 0 && (
+						<fieldset class="temas" data-entra style="--i:2">
+							<legend class="sr-only">{t.temaTitulo}</legend>
+							{temas.map((tema, i) => (
+								<label class="tema">
+									<input type="radio" name="tema" value={tema.id} data-label={tema.label} checked={i === 0} />
+									<span>{tema.label}</span>
+								</label>
+							))}
+						</fieldset>
+					)
+				}
 
-					<a id="telefono-link" href={TELEFONO_TEL} class="contact-card-face" hidden>
-						<span class="contact-card-icon" set:html={phoneIcon} />
-						<span class="contact-card-body">
-							<span class="contact-card-label">{t.telefono}</span>
-							<span class="contact-card-value">{TELEFONO}</span>
-						</span>
+				{
+					t.aceptoTerminos && (
+						<fieldset class="aceptaciones" data-entra style="--i:3">
+							<legend class="sr-only">{t.aceptacionesTitulo}</legend>
+							<label class="casilla">
+								<input type="checkbox" id="acepto-terminos" name="terminos" required aria-describedby="aviso-terminos" />
+								<span class="casilla-texto">
+									{casillaTerminos.antes}
+									<a href={casillaTerminos.href} target="_blank" rel="noopener">
+										{casillaTerminos.enlace}
+									</a>
+									{casillaTerminos.despues}
+								</span>
+							</label>
+							<label class="casilla">
+								<input type="checkbox" id="acepto-cookies" name="cookies" />
+								<span class="casilla-texto">
+									{casillaCookies.antes}
+									<a href={casillaCookies.href} target="_blank" rel="noopener">
+										{casillaCookies.enlace}
+									</a>
+									{casillaCookies.despues}
+								</span>
+							</label>
+							<p id="aviso-terminos" class="aviso-terminos" role="alert" hidden>
+								{t.faltaTerminos}
+							</p>
+						</fieldset>
+					)
+				}
+
+				<div class="contacto-acciones" data-entra style="--i:4">
+					<a
+						id="btn-email"
+						class="btn btn-primary"
+						href={`mailto:${EMAIL}`}
+						data-email={EMAIL}
+						data-asunto={t.asunto}
+						data-cuerpo={t.cuerpo}
+						data-ref={t.refEmail}
+						data-tracking-clic="email"
+					>
+						<span class="btn-icono" set:html={mailIcon} />
+						{t.escribir ?? t.email}
 					</a>
 				</div>
+
+				{
+					t.primeraCapa && (
+						<p class="primera-capa" data-entra style="--i:5">
+							{primeraCapa.antes}
+							<a href={primeraCapa.href} target="_blank" rel="noopener">
+								{primeraCapa.enlace}
+							</a>
+							{primeraCapa.despues}
+						</p>
+					)
+				}
 			</div>
 
-			<div class="contact-social reveal">
-				<SocialLinks links={socialLinks} ariaLabel={t.redesSociales} />
-			</div>
+			<aside class="contacto-canales" aria-labelledby="titulo-canales">
+				<h2 id="titulo-canales" class="canales-titulo" data-entra>{t.otrosCanales ?? t.redesSociales}</h2>
+
+				<ul class="canales" data-entra style="--i:1">
+					<li class="canal canal-telefono">
+						<button id="btn-telefono" type="button" class="canal-enlace">
+							<span class="canal-icono" set:html={phoneIcon} />
+							<span class="canal-cuerpo">
+								<span class="canal-nombre">{t.telefono}</span>
+								<span class="canal-dato">{t.verTelefono}</span>
+							</span>
+						</button>
+						<a id="telefono-link" href={TELEFONO_TEL} class="canal-enlace" data-tracking-clic="telefono" hidden>
+							<span class="canal-icono" set:html={phoneIcon} />
+							<span class="canal-cuerpo">
+								<span class="canal-nombre">{t.telefono}</span>
+								<span class="canal-dato">{TELEFONO}</span>
+							</span>
+						</a>
+					</li>
+					{
+						REDES.map((red) => (
+							<li class="canal">
+								<a href={red.href} class="canal-enlace" target="_blank" rel="noopener noreferrer" data-tracking-clic={red.label}>
+									<span class="canal-icono">
+										<svg viewBox={red.viewBox} width="20" height="20" fill="currentColor" fill-rule={red.relleno ?? 'nonzero'} aria-hidden="true">
+											<path d={red.path} />
+										</svg>
+									</span>
+									<span class="canal-cuerpo">
+										<span class="canal-nombre">{red.label}</span>
+										<span class="canal-dato">{red.usuario}</span>
+									</span>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+
+				{
+					t.base && (
+						<dl class="datos-contacto" data-entra style="--i:2">
+							<div>
+								<dt>{t.base}</dt>
+								<dd>{t.baseValor}</dd>
+							</div>
+							<div>
+								<dt>{t.idiomas}</dt>
+								<dd>{t.idiomasValor}</dd>
+							</div>
+						</dl>
+					)
+				}
+			</aside>
 		</div>
 	</section>
 
 	<script>
+		import { guardarDecision, leerConsentimiento, nuevaReferencia, registrar } from '../../scripts/consentimiento';
+
+		const prefiereMenosMovimiento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+		// Teléfono oculto tras un botón (evita que lo recojan los bots que rastrean webs)
 		const btnTelefono = document.getElementById('btn-telefono');
 		const telefonoLink = document.getElementById('telefono-link');
 
 		btnTelefono?.addEventListener('click', () => {
 			btnTelefono.hidden = true;
 			telefonoLink?.removeAttribute('hidden');
-			requestAnimationFrame(() => telefonoLink?.classList.add('is-visible'));
-			(telefonoLink as HTMLElement)?.focus();
+			(telefonoLink as HTMLElement | null)?.focus();
+			if (!prefiereMenosMovimiento) {
+				telefonoLink?.animate(
+					[
+						{ opacity: 0, transform: 'translateY(6px)' },
+						{ opacity: 1, transform: 'none' },
+					],
+					{ duration: 320, easing: 'cubic-bezier(0.23, 1, 0.32, 1)' },
+				);
+			}
+		});
+
+		/*
+		 * Email preparado: el tema elegido va al asunto y al cuerpo del mailto. Sin JavaScript, el
+		 * botón sigue siendo un mailto normal. ?tema=… (desde los servicios de inicio) lo preselecciona.
+		 */
+		const btnEmail = document.getElementById('btn-email') as HTMLAnchorElement | null;
+		const radios = document.querySelectorAll<HTMLInputElement>('input[name="tema"]');
+
+		const actualizarEmail = (referencia?: string) => {
+			if (!btnEmail) return;
+			const elegido = Array.from(radios).find((r) => r.checked);
+			const tema = elegido?.dataset.label ?? '';
+			const { email, asunto = '', cuerpo = '', ref = '' } = btnEmail.dataset;
+			const subject = tema ? asunto + ': ' + tema : asunto;
+			// La referencia enlaza este email con el registro de cuándo y cómo se aceptaron los términos
+			const pie = referencia && ref ? '\n\n—\n' + ref.replace('{ref}', referencia) : '';
+			const body = cuerpo.replace('{tema}', tema) + pie;
+			btnEmail.href = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+		};
+
+		const temaUrl = new URLSearchParams(location.search).get('tema');
+		if (temaUrl) {
+			const radio = Array.from(radios).find((r) => r.value === temaUrl);
+			if (radio) radio.checked = true;
+		}
+
+		radios.forEach((radio) => radio.addEventListener('change', () => actualizarEmail()));
+		actualizarEmail();
+
+		/*
+		 * Dos casillas separadas: términos y condiciones (obligatoria para escribir) y cookies de
+		 * análisis (opcional: escribir nunca depende de aceptar cookies). Al escribir se registra la
+		 * aceptación con un código que viaja en el email; la casilla de cookies refleja y cambia la
+		 * misma elección que el banner.
+		 */
+		const casillaTerminos = document.getElementById('acepto-terminos') as HTMLInputElement | null;
+		const casillaCookies = document.getElementById('acepto-cookies') as HTMLInputElement | null;
+		const avisoTerminos = document.getElementById('aviso-terminos');
+
+		const pintarBoton = () => btnEmail?.setAttribute('aria-disabled', String(Boolean(casillaTerminos && !casillaTerminos.checked)));
+		pintarBoton();
+
+		casillaTerminos?.addEventListener('change', () => {
+			pintarBoton();
+			if (casillaTerminos.checked && avisoTerminos) avisoTerminos.hidden = true;
+		});
+
+		if (casillaCookies) casillaCookies.checked = leerConsentimiento()?.decision === 'aceptado';
+		casillaCookies?.addEventListener('change', () => guardarDecision(casillaCookies.checked ? 'aceptado' : 'rechazado', 'formulario_contacto'));
+		window.addEventListener('consentimiento-cambiado', (e) => {
+			if (casillaCookies) casillaCookies.checked = (e as CustomEvent).detail?.decision === 'aceptado';
+		});
+
+		btnEmail?.addEventListener('click', (e) => {
+			if (casillaTerminos && !casillaTerminos.checked) {
+				e.preventDefault();
+				if (avisoTerminos) avisoTerminos.hidden = false;
+				casillaTerminos.focus();
+				if (!prefiereMenosMovimiento) {
+					casillaTerminos.closest('.casilla')?.animate(
+						[
+							{ transform: 'translateX(0)' },
+							{ transform: 'translateX(-6px)' },
+							{ transform: 'translateX(5px)' },
+							{ transform: 'translateX(-3px)' },
+							{ transform: 'translateX(0)' },
+						],
+						{ duration: 360, easing: 'ease-out' },
+					);
+				}
+				return;
+			}
+			const referencia = nuevaReferencia();
+			actualizarEmail(referencia);
+			registrar({
+				accion: 'aceptar_terminos',
+				origen: 'formulario_contacto',
+				terminos: true,
+				cookiesAnalitica: leerConsentimiento()?.decision === 'aceptado',
+				referencia,
+			});
+		});
+
+		// Copiar email, con confirmación visible y anunciada a lectores de pantalla
+		const btnCopiar = document.getElementById('btn-copiar') as HTMLButtonElement | null;
+		const textoCopiar = btnCopiar?.querySelector<HTMLElement>('.btn-copiar-texto');
+		const aviso = document.getElementById('aviso-copiado');
+		const textoOriginal = textoCopiar?.textContent ?? '';
+		let temporizador: number | undefined;
+
+		btnCopiar?.addEventListener('click', async () => {
+			const email = btnCopiar.dataset.email ?? '';
+			try {
+				await navigator.clipboard.writeText(email);
+			} catch {
+				window.location.href = `mailto:${email}`;
+				return;
+			}
+			if (textoCopiar) textoCopiar.textContent = btnCopiar.dataset.copiado ?? textoOriginal;
+			if (aviso) aviso.textContent = btnCopiar.dataset.copiado ?? '';
+			btnCopiar.classList.add('is-copiado');
+			if (!prefiereMenosMovimiento) {
+				textoCopiar?.animate(
+					[
+						{ opacity: 0, transform: 'translateY(40%)' },
+						{ opacity: 1, transform: 'none' },
+					],
+					{ duration: 260, easing: 'cubic-bezier(0.23, 1, 0.32, 1)' },
+				);
+			}
+			window.clearTimeout(temporizador);
+			temporizador = window.setTimeout(() => {
+				if (textoCopiar) textoCopiar.textContent = textoOriginal;
+				btnCopiar.classList.remove('is-copiado');
+				if (aviso) aviso.textContent = '';
+			}, 2200);
 		});
 	</script>
 </Layout>
 
 <style>
-	.contact {
-		padding-block: 1.5rem 6rem;
+	.contacto {
+		padding-block-start: var(--space-tras-cabecera);
 	}
 
-	.contact-grid {
-		display: flex;
-		flex-direction: column;
-		gap: 2.5rem;
-	}
-
-	.contact-methods {
+	.contacto-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-		gap: 1.25rem;
+		grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+		gap: var(--space-block) var(--gutter);
+		align-items: start;
 	}
 
-	.contact-card {
-		display: contents;
+	.contacto-ayuda {
+		margin-block: 1.5rem 2rem;
+		max-width: 42ch;
 	}
 
-	.contact-card-face {
+	/* ---------- Temas: radios con aspecto de pizarra ---------- */
+	.temas {
 		display: flex;
-		align-items: center;
-		gap: 1rem;
-		width: 100%;
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 14px;
-		padding: 1.25rem 1.4rem;
-		text-decoration: none;
-		color: var(--color-text);
-		font-family: inherit;
-		font-size: 1em;
-		text-align: left;
+		flex-wrap: wrap;
+		gap: 0.6rem;
+		margin: 0 0 2rem;
+		padding: 0;
+		border: 0;
+	}
+
+	.tema {
+		position: relative;
 		cursor: pointer;
-		transition:
-			border-color var(--transition-fast),
-			transform var(--transition-fast),
-			opacity 0.25s ease;
 	}
 
-	.contact-card-face:hover {
-		border-color: var(--color-blue);
-		transform: translateY(-2px);
-	}
-
-	/* [hidden] pierde contra .contact-card-face { display:flex } si no se refuerza:
-	   ambas son reglas de autor con la misma especificidad, y la última en cascada gana. */
-	.contact-card-face[hidden] {
-		display: none;
-	}
-
-	#telefono-link.contact-card-face {
+	.tema input {
+		position: absolute;
+		inset: 0;
 		opacity: 0;
+		margin: 0;
+		cursor: pointer;
 	}
 
-	#telefono-link.contact-card-face.is-visible {
-		opacity: 1;
-	}
-
-	.contact-card-icon {
-		flex-shrink: 0;
+	.tema span {
 		display: inline-flex;
-		color: var(--color-blue);
+		align-items: center;
+		min-height: 46px;
+		padding: 0.5rem 1.05rem;
+		border: 1px solid var(--color-rule);
+		border-radius: 4px;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.12rem;
+		color: var(--color-text);
+		transition:
+			background-color var(--transition-fast),
+			border-color var(--transition-fast),
+			color var(--transition-fast),
+			transform 0.12s var(--ease-out);
 	}
 
-	.contact-card-icon :global(svg) {
-		width: 22px;
-		height: 22px;
+	@media (hover: hover) and (pointer: fine) {
+		.tema:hover span {
+			border-color: var(--color-text);
+		}
 	}
 
-	.contact-card-body {
-		display: flex;
-		flex-direction: column;
-		gap: 0.25rem;
-		min-width: 0;
+	.tema:active span {
+		transform: scale(0.97);
 	}
 
-	.contact-card-label {
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
+	.tema input:checked + span {
+		background: var(--color-text);
+		border-color: var(--color-text);
+		color: var(--color-bg);
+	}
+
+	.tema input:focus-visible + span {
+		outline: 2px solid var(--color-link);
+		outline-offset: 3px;
+	}
+
+	/* ---------- Aceptaciones: dos casillas separadas, cada una con su documento ---------- */
+	.aceptaciones {
+		display: grid;
+		gap: 0.75rem;
+		margin: 0 0 1.75rem;
+		padding: 0;
+		border: 0;
+	}
+
+	.casilla {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		gap: 0.75rem;
+		align-items: start;
+		cursor: pointer;
+	}
+
+	.casilla input {
+		inline-size: 1.25rem;
+		block-size: 1.25rem;
+		margin: 0.2rem 0 0;
+		accent-color: var(--color-accent);
+		cursor: pointer;
+	}
+
+	.casilla-texto {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+	.casilla-texto a,
+	.primera-capa a {
+		color: inherit;
+		text-decoration: underline;
+		text-decoration-color: var(--color-accent);
+		text-underline-offset: 0.18em;
+	}
+
+	.aviso-terminos {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.05rem;
+		color: var(--color-accent);
+	}
+
+	#btn-email[aria-disabled='true'] {
+		opacity: 0.5;
+	}
+
+	.primera-capa {
+		margin-block-start: 1.5rem;
+		max-width: 60ch;
+		font-size: var(--fs-small);
+		line-height: 1.55;
 		color: var(--color-text-dim);
 	}
 
-	.contact-card-value {
-		font-family: var(--font-heading);
-		font-weight: 600;
-		font-size: 1rem;
-		word-break: break-word;
+	.contacto-acciones {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.75rem;
 	}
 
-	.contact-social {
-		padding-block-start: 1.75rem;
-		border-top: 1px solid var(--color-border);
+	.btn-icono {
+		display: inline-flex;
+	}
+
+	.btn-icono :global(svg) {
+		width: 19px;
+		height: 19px;
+	}
+
+	#btn-copiar {
+		min-inline-size: 10.5rem;
+		overflow: hidden;
+	}
+
+	.btn-copiar-texto {
+		display: inline-block;
+	}
+
+	#btn-copiar.is-copiado {
+		border-color: var(--color-text);
+	}
+
+	/* ---------- Contacto directo (cabecera) ---------- */
+	.directo {
+		display: grid;
+		justify-items: start;
+		gap: 0.6rem;
+		inline-size: 100%;
+		max-inline-size: 420px;
+		padding-block-start: 1rem;
+		border-block-start: 3px solid var(--color-text);
+	}
+
+	.directo #btn-copiar {
+		margin-block-start: 0.75rem;
+	}
+
+	.email-grande {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: clamp(1.7rem, 2.9vw, 2.4rem);
+		line-height: 1.1;
+		overflow-wrap: anywhere;
+	}
+
+	.email-grande a {
+		text-decoration: underline;
+		text-decoration-color: var(--color-rule);
+		text-decoration-thickness: 2px;
+		text-underline-offset: 0.16em;
+		transition: text-decoration-color var(--transition-fast);
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.email-grande a:hover {
+			text-decoration-color: var(--color-accent);
+		}
+	}
+
+	/* ---------- Otros canales ---------- */
+	.contacto-canales {
+		padding-block-start: 1.1rem;
+	}
+
+	.canales-titulo {
+		font-size: var(--fs-h3);
+		font-weight: 700;
+		margin-block-end: 1.25rem;
+	}
+
+	.canales {
+		list-style: none;
+		border-block-start: 3px solid var(--color-text);
+	}
+
+	.canal {
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.canal-enlace {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		inline-size: 100%;
+		min-height: 64px;
+		padding: 0.75rem 0;
+		background: none;
+		border: 0;
+		color: var(--color-text);
+		font: inherit;
+		text-align: start;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	.canal-icono {
+		display: inline-flex;
+		flex-shrink: 0;
+		color: var(--color-text-dim);
+		transition: color var(--transition-fast);
+	}
+
+	.canal-icono :global(svg) {
+		width: 20px;
+		height: 20px;
+	}
+
+	.canal-cuerpo {
+		display: grid;
+		gap: 0.1rem;
+		min-width: 0;
+	}
+
+	.canal-nombre {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 1.2rem;
+		line-height: 1.15;
+	}
+
+	.canal-dato {
+		font-size: var(--fs-small);
+		color: var(--color-text-dim);
+		overflow-wrap: anywhere;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.canal-enlace:hover .canal-icono {
+			color: var(--color-accent);
+		}
+	}
+
+	.canal-enlace:active {
+		transform: scale(0.99);
+	}
+
+	.datos-contacto {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1.25rem;
+		margin-block-start: 2rem;
+	}
+
+	.datos-contacto dt {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.05rem;
+		color: var(--color-text-dim);
+	}
+
+	.datos-contacto dd {
+		font-size: 1.05rem;
+	}
+
+	@media (max-width: 860px) {
+		.contacto-grid {
+			grid-template-columns: minmax(0, 1fr);
+		}
 	}
 </style>

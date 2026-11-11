@@ -3,7 +3,13 @@
 		"title": "Minust — Mario Álvarez",
 		"description": "Hispaania madisoni meistrist andmeteaduse tudengini: Mario Álvareze teekond eliitjalgrattasõidu ja spordianalüütika vahel.",
 		"eyebrow": "Minust",
-		"heading": "Velodroomilt andmeteni"
+		"heading": "Velodroomilt andmeteni",
+		"lead": "Olen endiselt rattaspordis, trekil ja tiimiautos. Muutunud on see, kuidas ma seda vaatan: nüüd ka andmetega.",
+		"historiaTitulo": "Rattur, spordidirektor ja andmeteadlane",
+		"fichaTitulo": "Lühidalt",
+		"fichaTexto": "Põhiline, kui sul on kiire.",
+		"retratoAlt": "Portree Mario Álvarezist",
+		"escenaFrase": "Kõigepealt jalad. Nüüd andmed."
 	},
 	"bio": [
 		"Alustasin võistlemisega. 18-aastaselt krooniti mind Hispaania meistriks trekil madisonis ja Hispaania Jalgrattaspordi Koondis kutsus mind maailma- ja Euroopa meistrivõistlustele, kus olin mõlemal korral kuues, mis tagas mulle eliitsportlase staatuse.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Asukoht",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm ja Valencia"
 		},
 		{
 			"label": "Staatus",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fookus",
-			"value": "Andmed + sportlik sooritus"
+			"value": "Andmed ja sportlik sooritus"
 		},
 		{
 			"label": "Keeled",
-			"value": "Emakeel hispaania · katalaani (valencia) · inglise B1"
+			"value": "Hispaania (emakeel), valencia ja inglise (B1)"
 		},
 		{
 			"label": "Haridus",
-			"value": "Andmeteaduse bakalaureusekraad (UPV) · Spordi digitaliseerimise, innovatsiooni ja tehnoloogia magister"
+			"value": "Andmeteaduse bakalaureus (UPV) ning spordi digitaliseerimise, innovatsiooni ja tehnoloogia magister"
 		}
 	]
 }

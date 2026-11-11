@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Politique de remboursement — Mario Álvarez",
+		"description": "Comment fonctionnent les annulations, le droit de rétractation et les retours pour les services de Mario Álvarez.",
+		"heading": "Politique de remboursement"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ce site Web ne perçoit aucun paiement",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sur marioalvarez.me, aucun produit n'est vendu et aucun paiement en ligne n'est perçu. Les services (analyse de performances, outils sur mesure, bases de données et rapports, et accompagnement de carrière) font l'objet d'un contrat séparé, avec une proposition écrite."
+				}
+			]
+		},
+		{
+			"titulo": "2. Ce que dit votre proposition",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Chaque proposition indique le prix, les modalités et les délais de paiement, ainsi que les conditions d'annulation. Si la proposition indique quelque chose de différent de cette politique, c'est la proposition qui prévaut, sauf si cette politique vous confère davantage de droits en tant que consommateur."
+				}
+			]
+		},
+		{
+			"titulo": "3. En cas d'annulation",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sauf accord contraire écrit :"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Si vous annulez avant le début du travail, je vous rembourse intégralement tout paiement anticipé.",
+						"Si vous annulez après le début du travail, seule la partie déjà effectuée est facturée et je vous rembourse le reste du montant versé à l'avance.",
+						"Le travail déjà livré et accepté n'est pas remboursé, sauf s'il présente des défauts qui ne sont pas corrigés."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Droit de rétractation (si vous êtes un consommateur)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Si vous concluez un contrat en tant que consommateur (une personne agissant en dehors de son activité professionnelle) et que le contrat est conclu à distance, par e-mail ou par téléphone, vous disposez de 14 jours calendaires à compter de la conclusion du contrat pour vous rétracter sans avoir à vous justifier, conformément aux articles 102 à 108 du texte consolidé de la Loi générale pour la défense des consommateurs et des utilisateurs (Décret royal législatif 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Si vous me demandez expressément de commencer à travailler dans ces 14 jours et que vous vous rétractez ensuite, vous ne paierez que la partie proportionnelle du service fourni jusqu'à ce moment-là. Si le service a été entièrement exécuté dans les délais, avec votre consentement préalable et exprès et en sachant que vous perdez ainsi ce droit, vous ne pourrez plus vous rétracter (article 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Comment en faire la demande",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Écrivez-moi à {email} en indiquant votre nom, le service et la date à laquelle vous l'avez contracté. Vous pouvez utiliser ce modèle de formulaire de rétractation (il n'est pas obligatoire) :"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"À l'attention de {nombre}, {domicilio}, {email} :",
+						"Par la présente, je vous notifie ma rétractation du contrat concernant la prestation du service suivant : [service].",
+						"Commandé le : [fecha].",
+						"Nom du consommateur : [nombre].",
+						"Adresse du consommateur : [domicilio].",
+						"Date : [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Délai et mode de remboursement",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Je vous rembourserai le montant dû dans un délai maximum de 14 jours calendaires à compter de la notification de votre décision, en utilisant le même moyen de paiement que celui que vous avez utilisé, sauf accord exprès contraire. Le remboursement ne vous occasionnera aucun frais."
+				}
+			]
+		}
+	]
+}

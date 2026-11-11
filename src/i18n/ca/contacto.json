@@ -3,11 +3,54 @@
 		"title": "Contacte — Mario Álvarez",
 		"description": "Posa't en contacte amb Mario Álvarez per parlar de dades, rendiment esportiu i projectes.",
 		"eyebrow": "Contacte",
-		"heading": "Tens dades i una pregunta per resoldre?",
-		"intro": "Parlem-ne. Ja sigui un projecte d'analítica esportiva, una col·laboració de dades o simplement una idea que vulguis contrastar, responc amb gust.",
+		"heading": "Tens dアダs i una pregunta?",
+		"intro": "En parlem. Ja sigui un projecte d'analítica esportiva, una col·laboració de dades o una idea que vulguis contrastar, et respondo jo.",
 		"email": "Email",
 		"telefono": "Telèfon",
 		"verTelefono": "Veure telèfon",
-		"redesSociales": "Xarxes socials"
+		"redesSociales": "Xarxes socials",
+		"temaTitulo": "De què vols parlar?",
+		"temaAyuda": "Tria un tema i et deixo l'email preparat. Només m'has d'explicar el teu cas.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Anàlisi de rendiment"
+			},
+			{
+				"id": "herramientas",
+				"label": "Una eina a mida"
+			},
+			{
+				"id": "datos",
+				"label": "Bases de dades i informes"
+			},
+			{
+				"id": "carrera",
+				"label": "Suport en carrera"
+			},
+			{
+				"id": "otro",
+				"label": "Una altra cosa"
+			}
+		],
+		"escribir": "Escriure l'email",
+		"copiar": "Copiar email",
+		"copiado": "Email copiat",
+		"asunto": "Consulta des de marioalvarez.me",
+		"cuerpo": "Hola Mario:\n\nT'escric per: {tema}.\n\nEl que tinc:\n\nEl que m'agradaria saber:\n\nGràcies.",
+		"otrosCanales": "Altres canals",
+		"base": "Base",
+		"baseValor": "Benidorm i València",
+		"idiomas": "Idiomes",
+		"idiomasValor": "Espanyol, valencià i anglès",
+		"aceptacionesTitulo": "Abans d'escriure'm",
+		"aceptoTerminos": "He llegit i accepto els {enlace}.",
+		"enlaceTerminos": "termes i condicions",
+		"aceptoCookies": "Accepto les cookies d'anàlisi que descriu la {enlace} (opcional).",
+		"enlaceCookies": "política de cookies",
+		"faltaTerminos": "Per escriure'm, marca abans la casella dels termes i condicions.",
+		"primeraCapa": "Responsable: Mario Álvarez Martínez. Finalitat: respondre a la teva consulta i, si m'ho demanes, preparar-te una proposta. Legitimació: la teva sol·licitud. Destinataris: ningú, tret d'obligació legal. Drets: accés, rectificació, supressió i els altres que explica la {enlace}.",
+		"enlacePrivacidad": "política de privadesa",
+		"refEmail": "Referència d'acceptació dels termes: {ref}"
 	}
 }

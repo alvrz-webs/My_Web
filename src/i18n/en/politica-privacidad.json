@@ -1,82 +1,161 @@
 {
 	"meta": {
-		"title": "Privacy Policy — Mario Álvarez",
-		"description": "Privacy policy for Mario Álvarez's site: what data is collected, for what purpose, and how to exercise your rights.",
-		"eyebrow": "Legal",
-		"heading": "Privacy Policy"
+		"version": "2026-11-10",
+		"title": "Privacy policy — Mario Álvarez",
+		"description": "What data marioalvarez.me processes, why, on what legal basis, for how long, and how to exercise your rights.",
+		"heading": "Privacy policy"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Data controller",
-			"bloques": [{ "tipo": "parrafo", "texto": "Mario Álvarez Martínez, based in Benidorm (Alicante), Spain. Contact: malvmar5@hotmail.com" }]
-		},
-		{
-			"titulo": "2. Purpose of processing",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "This website analyses, internally and for statistical purposes only, which content (sections, projects) is most useful to visitors, in order to improve its content. It is not used for advertising, is not shared with third parties, and is never sold under any circumstances."
-				}
-			]
-		},
-		{
-			"titulo": "3. Data collected (only if you accept analytics cookies)",
+			"titulo": "1. Controller",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"A random anonymous identifier, not linked to your name, email, or any other directly identifying information.",
-						"Pages and projects you visit, and the time of attention spent on each (while the tab is active).",
-						"Interactions (clicks on projects, links, or buttons).",
-						"Date and time of the visit.",
-						"Language of the site you viewed.",
-						"Device type (mobile or desktop).",
-						"Approximate country, obtained through Cloudflare's infrastructure, without storing your IP address.",
-						"Referring page (for example, LinkedIn or a search engine)."
+						"Controller: {nombre}",
+						"Tax ID (NIF): {nif}",
+						"Address: {domicilio}",
+						"Email for any privacy matter: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Your IP address is not collected, no browser fingerprinting techniques are used, and no third-party tools such as Google Analytics or similar are used."
+					"texto": "Given the size and type of activity, appointing a data protection officer is not required, so there isn't one: write to me directly."
 				}
 			]
 		},
 		{
-			"titulo": "4. Legal basis",
+			"titulo": "2. What data I process, why, and on what basis",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Purpose",
+						"Data",
+						"Legal basis",
+						"How long"
+					],
+					"filas": [
+						[
+							"Usage analytics, only if you accept analytics cookies",
+							"A random pseudonymous identifier (visitante_id cookie), the sections and projects you view and the time spent on each, clicks on links and buttons, language, device type (mobile or desktop), approximate country and the page of the website where each event happens.",
+							"Your consent (art. 6.1.a GDPR and art. 22.2 LSSI-CE).",
+							"12 months; after that each event is deleted automatically."
+						],
+						[
+							"Record of consents",
+							"The pseudonymous identifier, what you accepted, rejected or withdrew, the version of each document, date and time, page, language, source (banner, settings or form), browser (user agent) and approximate country; in the form, also the reference code in your email.",
+							"Complying with the obligation to be able to demonstrate consent (arts. 6.1.c and 7.1 GDPR).",
+							"3 years from each record (the maximum limitation period for infringements under Spanish data protection law); then deleted automatically."
+						],
+						[
+							"Replying to your enquiry by email or phone",
+							"Whatever data you choose to send me: usually your name, your email or phone and the content of the message.",
+							"Taking pre-contractual steps at your request (art. 6.1.b GDPR) or my legitimate interest in replying (art. 6.1.f).",
+							"While the conversation lasts and up to 1 year afterwards, unless we end up working together."
+						],
+						[
+							"Managing a hired service",
+							"Identification, contact and billing data.",
+							"Performance of the contract (art. 6.1.b GDPR) and tax and accounting obligations (art. 6.1.c).",
+							"As long as tax and commercial law require (generally 4 to 6 years)."
+						],
+						[
+							"Remembering whether you prefer the light or dark theme",
+							"The \"tema\" preference, stored only in your browser (local storage). It never reaches me.",
+							"A feature you request by pressing the button (exempt from consent under art. 22.2 LSSI-CE).",
+							"Until you delete it from your browser."
+						]
+					]
+				}
+			]
+		},
+		{
+			"titulo": "3. What I don't ask for or collect",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Processing is based on your explicit consent (Article 6.1.a GDPR and Article 22.2 of the Spanish LSSI-CE law), which you can withdraw at any time from the site's cookie manager."
+					"texto": "I only process what is essential for each purpose. Specifically:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"The contact form does not ask for your name, email or phone: it opens your email app and you decide what to send me.",
+						"I do not store your IP address, neither in the analytics nor in the record of consents.",
+						"I do not use browser fingerprinting, Google Analytics, advertising pixels or third-party cookies.",
+						"Typefaces and images are served from this same website: when you visit it, your browser does not connect to Google Fonts, GitHub or other external services."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Retention period",
-			"bloques": [
-				{ "tipo": "parrafo", "texto": "Data is kept for a maximum of 12 months from your last visit, after which it is automatically deleted." }
-			]
-		},
-		{
-			"titulo": "6. Recipients and international transfers",
+			"titulo": "4. Who else is involved",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Data is not shared or sold to third parties. It is stored in Cloudflare D1, a database service provided by Cloudflare, Inc., which acts as data processor. Cloudflare may process data outside the European Economic Area; in that case, such transfer is covered by the Standard Contractual Clauses approved by the European Commission. More information in Cloudflare's privacy policy: https://www.cloudflare.com/privacypolicy/"
+					"texto": "I do not sell or share your data with anyone, except where required by law. For the website to work and to reply to you I use these providers:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: hosts the website and the database (Cloudflare Pages and D1) and acts as a processor. To serve the website it processes technical connection data, such as your IP, which I have no access to. Its policy: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): the email service where I receive and answer emails; it handles those messages under its own policy: https://privacy.microsoft.com/en-gb/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Your rights",
+			"titulo": "5. International transfers",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "You can exercise your rights of access, rectification, erasure, objection, restriction of processing, and portability at any time by writing to malvmar5@hotmail.com. You can also delete your data immediately, with no need to contact anyone, using the \"Delete my data\" button available in the site's cookie settings. You also have the right to file a complaint with the Spanish Data Protection Agency (www.aepd.es) if you believe your rights have not been properly addressed."
+					"texto": "Cloudflare and Microsoft may process data in the United States. Both participate in the EU-U.S. Data Privacy Framework (European Commission adequacy decision of 10 July 2023) and also offer the standard contractual clauses approved by the Commission."
 				}
 			]
 		},
 		{
-			"titulo": "8. Changes to this policy",
-			"bloques": [{ "tipo": "parrafo", "texto": "This policy may be updated to reflect legal changes or changes to the site itself." }]
+			"titulo": "6. Your rights",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "You can ask me at any time to access your data, rectify it, erase it, object to its processing, restrict it or receive it to take elsewhere (portability), and to withdraw your consent without affecting what was processed before. Write to me at {email}; I will reply within one month at most."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "You can delete your analytics data yourself, instantly, with the \"Delete my data\" button in the cookie settings. The record of consents is kept even if you withdraw consent, because its purpose is precisely to prove when you gave it and when you withdrew it."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "If you believe I have not handled your rights properly, you can lodge a complaint with the Spanish Data Protection Agency: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Minors",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "The website is not aimed at children under 14. If you are under 14, please do not send me personal data without your parents' or guardians' permission (art. 7 of Spanish Organic Law 3/2018)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Security",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Data travels encrypted (HTTPS) and is stored in a database that can only be accessed from the private panel, protected by username and password."
+				}
+			]
+		},
+		{
+			"titulo": "9. Changes to this policy",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "If something relevant changes, I will update this page and its version date. If the change affects cookies, you will be asked again."
+				}
+			]
 		}
 	]
 }

@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Datu zinātnieks, kas specializējas sportā",
-		"description": "Mario Álvarez, datu zinātnieks Valensijā, kurš specializējas sporta analītikā. Dati · Sports · Progress.",
+		"description": "Mario Álvarez, datu zinātnieks Valensijā, kas specializējas sporta analītikā. Spānijas čempions madisonā un RFEC sporta direktors.",
 		"verProyectos": "Skatīt projektus",
-		"contacto": "Kontakti",
-		"verMas": "Skatīt vairāk",
+		"verServicios": "Skatīt, kā es tev palīdzu",
+		"contacto": "Uzraksti man",
+		"verMas": "Lasīt vairāk",
 		"verTodosProyectos": "Skatīt visus projektus",
-		"irAContacto": "Doties uz kontaktiem",
+		"irAContacto": "Uzraksti man",
 		"herramientas": "Galvenie rīki"
 	},
 	"hero": {
-		"eyebrow": "Datu zinātnieks · Sporta analītika · Valensija",
-		"titlePre": "Es pārvēršu datus ",
-		"titleHighlight": "skaidros lēmumos",
-		"subtitle": "Es esmu tilts starp datu analīzi un elitsportu: es pārvēršu snieguma metrikas stratēģijās, kas rada atšķirību laukumā.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, datu zinātnieks",
+		"title": "Es biju Spānijas čempions madisonā.",
+		"subtitle": "Tagad es studēju Datu zinātni UPV un analizēju to, kas slēpjas aiz snieguma: jauda, slodze un rezultāti. Es zinu, ko skaitlis nozīmē braucējam, jo esmu bijis šis braucējs.",
+		"palmaresLabel": "Sasniegumi",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Spānijas čempionāts madisonā",
+				"nota": "Treka, 18 gadu vecumā"
+			},
+			{
+				"pos": "6.",
+				"texto": "Pasaules čempionāts trekā",
+				"nota": "Spānijas izlase"
+			},
+			{
+				"pos": "6.",
+				"texto": "Eiropas čempionāts trekā",
+				"nota": "Spānijas izlase"
+			}
+		],
+		"retratoAlt": "Mario Álvarez portrets"
+	},
+	"servicios": {
+		"title": "Kā es tev varu palīdzēt",
+		"text": "Es strādāju ar komandām, treneriem un braucējiem, kuriem ir dati un kuri vēlas tos izmantot. Un ar uzņēmumiem, kuriem ir nepieciešams sakārtot savējos.",
+		"cta": "Pastāsti man savu gadījumu",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Snieguma analīze",
+				"texto": "Es lasu jaudu, slodzi un rezultātus ar braucēja acīm. Es paskaidroju, kas notiek un kas būtu jāmaina.",
+				"prueba": "Elites braucējs un RFEC sporta direktors, I un II līmenis."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Pielāgoti rīki",
+				"texto": "Scraping, modeļi un nelielas lietotnes Python, kas atbild uz konkrētu jūsu komandas jautājumu.",
+				"prueba": "Divi rīki Cofidis komandai: UCI grūtības pakāpe un sacensību profils."
+			},
+			{
+				"id": "datos",
+				"nombre": "Datu bāzes un pārskati",
+				"texto": "Ātrāki vaicājumi, vienotas datu bāzes un vadības paneļi Power BI, kas ir saprotami no pirmā acu uzmetiena.",
+				"prueba": "Vairāk nekā 580 tabulas un 100 miljoni ierakstu datu bāzē, ko es optimizēju SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Atbalsts sacensībās",
+				"texto": "Sacensību sagatavošana, braucēju uzraudzība un sporta masāža sacensību laikā.",
+				"prueba": "Valensijas kopienas izlases personāls."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Par mani",
-		"title": "Dati ar treneru, ceļu un sacensību kontekstu",
-		"text": "Es esmu Mario Álvarez, Datu zinātnes students UPV ar reālu pieredzi profesionālajā riteņbraukšanā. Es apvienoju datu analīzi ar augsta līmeņa sportisko sniegumu, lai katru metriku pārvērstu lēmumā, kas uzlabo rezultātus."
+		"title": "No velodroma līdz datiem",
+		"text": "Es studēju Datu zinātnes bakalaura 3. kursā UPV un esmu pabeidzis maģistrantūru digitalizācijā un sportam lietotajās tehnoloģijās. Es neesu aizgājis no riteņbraukšanas: es turpinu braukšanas treniņus trekā, vadu jaunos braucējus un strādāju par sporta masieri ar profesionāļiem."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Bāze",
+			"value": "Benidorma un Valensija"
+		},
+		{
 			"label": "Izglītība",
-			"detail": "Bakalaura grāds datu zinātnē, Valensijas Politehniskā universitāte."
+			"value": "Datu zinātnes bakalaurs (UPV) un maģistra grāds digitalizācijā, inovācijās un tehnoloģijās sportā"
 		},
 		{
-			"value": "Elite",
-			"label": "Pieredze",
-			"detail": "Reāls darbs profesionālā riteņbraukšanas komandā."
+			"label": "Tituli",
+			"value": "RFEC sporta direktors, I un II līmenis"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Pieeja",
-			"detail": "Analītika, kas pielietota sportiskā snieguma uzlabošanai."
+			"label": "Tagad",
+			"value": "Pieejams datu un snieguma projektiem"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Pieredze",
-		"title": "Divas pasaules, viena valoda: sniegums",
-		"text": "Esmu sacenties augstākajā līmenī un šodien piemēroju to pašu kritēriju datiem: es saprotu, ko skaitlis nozīmē sportistam, jo esmu bijis šis sportists."
+		"title": "Divas joslas, viens un tas pats darbs",
+		"text": "Vienā es optimizēju datu bāzes un rakstu modeļus. Otrā es sagatavoju sacensības un sekoju braucējiem. Abi ir par vienu un to pašu: labāk izmērīt, lai labāk pieņemtu lēmumus.",
+		"carriles": [
+			{
+				"nombre": "Dati",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "analizētas tabulas SIME Telecom, lai apvienotu vairākas datu bāzes vienā, nepalielinot aparatūru"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "ieraksti datu bāzē, kuru es optimizēju"
+					},
+					{
+						"cifra": "2",
+						"texto": "rīki Python valodā Cofidis komandai: UCI grūtības pakāpe un sacensību profils"
+					}
+				]
+			},
+			{
+				"nombre": "Treks un šoseja",
+				"items": [
+					{
+						"cifra": "I un II",
+						"texto": "Spānijas Karaliskās Riteņbraukšanas federācijas sporta direktora līmeņi"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "gadi ir jaunajiem braucējiem, kurus es trenēju un kuru gaitām sekoju kopā ar savu tēvu"
+					},
+					{
+						"cifra": "2026",
+						"texto": "palīgs Valensijas kopienas izlasē sacensībās"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Vai parunāsim par datiem?",
-		"text": "Pastāstiet man par savu projektu, un mēs kopā meklēsim lēmumus, kas uzlabo sniegumu."
+		"title": "Pēdējais aplis",
+		"text": "Ja tev ir veiktspējas dati un neatbildēti jautājumi, uzraksti man, un mēs to izskatīsim kopā."
 	}
 }

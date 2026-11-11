@@ -3,7 +3,13 @@
 		"title": "Tungkol sa akin — Mario Álvarez",
 		"description": "Mula sa pagiging kampeon ng Espanya sa madison hanggang sa pagiging estudyante ng Data Science: ang landas ni Mario Álvarez sa pagitan ng elite cycling at sports analytics.",
 		"eyebrow": "Tungkol sa akin",
-		"heading": "Mula sa velodrome patungo sa data"
+		"heading": "Mula sa velodrome patungo sa data",
+		"lead": "Nananatili ako sa loob ng pagbibisikleta, sa oval at sa sasakyan ng koponan. Ang nagbago ay kung paano ko ito tinitingnan: ngayon ay mayroon na ring mga datos.",
+		"historiaTitulo": "Manlakbay, direktor at siyentipiko ng datos",
+		"fichaTitulo": "Sa maikling salita",
+		"fichaTexto": "Ang pinakamahalaga, sakaling nagmamadali ka.",
+		"retratoAlt": "Larawan ni Mario Álvarez",
+		"escenaFrase": "Una, ang mga binti. Ngayon, ang mga datos."
 	},
 	"bio": [
 		"Nagsimula ako sa pakikipag-kumpetisyon. Sa edad na 18, itinalaga ko ang aking sarili bilang kampeon ng Espanya sa track madison at tinawag ako ng Pambansang Koponan ng Pag- berseKleta ng Espanya para sa World at European Championships, kung saan nakuha ko ang ikaanim na puwesto sa pareho, na nagbigay sa akin ng katayuan bilang isang elite na atleta.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Base",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm at Valencia"
 		},
 		{
 			"label": "Katayuan",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Pokus",
-			"value": "Data + pagganap sa palakasan"
+			"value": "Datos at pagganap sa isports"
 		},
 		{
 			"label": "Mga Wika",
-			"value": "Katutubong Espanyol · Valencian · Ingles B1"
+			"value": "Espanyol (katutubo), Valenciano at Ingles (B1)"
 		},
 		{
 			"label": "Edukasyon",
-			"value": "Degree sa Data Science (UPV) · Master sa Digitalization, Innovation at Technology sa Sports"
+			"value": "Batsilyer sa Agham ng Datos (UPV) at Master sa Digitalisasyon, Inobasyon at Teknolohiya sa Isports"
 		}
 	]
 }

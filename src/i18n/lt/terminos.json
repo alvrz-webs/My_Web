@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Sąlygos ir nuostatos — Mario Álvarez",
+		"description": "Teisinis pranešimas ir marioalvarez.me naudojimo sąlygos: kas yra savininkas, kaip galima naudoti svetainę ir kokie įstatymai taikomi.",
+		"heading": "Sąlygos ir nuostatos"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Kas slypi už šios svetainės",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Laikantis informacinės visuomenės paslaugų ir elektroninės prekybos įstatymo (LSSI-CE) 10 straipsnio, pateikiami marioalvarez.me savininko duomenys:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Savininkas: {nombre}",
+						"NIF: {nif}",
+						"Adresas: {domicilio}",
+						"El. paštas: {email}",
+						"Veikla: profesionalus portfolio ir duomenų analizės paslaugų, individualių įrankių, duomenų bazių bei ataskaitų teikimas ir karjeros palaikymas."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Ką reglamentuoja šios sąlygos",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šios sąlygos reglamentuoja prieigą prie marioalvarez.me (toliau – „svetainė“) ir jos naudojimą bet kuria kalba. Naršydami joje sutinkate ją naudoti pagal čia išdėstytas nuostatas. Jei rašote man per kontaktinę formą, prašau jūsų aiškiai jas patvirtinti pažymint langelį."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kaip galima naudoti svetainę",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Galite peržiūrėti ir bendrinti turinį nurodydami jo kilmę. Neleidžiama:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"naudoti svetainės neteisėtais tikslais arba siekiant pakenkti tretiesiems asmenims;",
+						"bandyti pasiekti ribotas zonas (pavyzdžiui, privačią skydelį) arba ją priglobsiančias sistemas;",
+						"įvesti virusus ar bet kokį kenksmingą kodą arba sąmoningai ją perkrauti;",
+						"kopijuoti turinį ir pateikti jį kaip savo."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Paslaugos ir sutarties sudarymas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Svetainėje neparduodami produktai ir nepriimami mokėjimai internetu. Jei jus domina paslauga, aptariame tai el. paštu arba telefonu ir aš atsiunčiu rašytinį pasiūlymą, kuriame nurodytas mastas, kaina, terminai bei mokėjimo ir atšaukimo sąlygos. Tas pasiūlymas, kai jį patvirtina abi šalys, reglamentuoja paslaugą ir turi viršenybę prieš šias sąlygas."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kaip veikia atšaukimai, atsisakutymo teisė ir grąžinimai, paaiškinta pinigų grąžinimo politikoje."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intelektinė ir pramoninė nuosavybė",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mario Álvarez tekstai, dizainas, nuosavas kodas, logotipas ir fotografijos priklauso jam arba yra naudojami turint autorių leidimą. Be raštiško leidimo jų negalima kopijuoti komerciniais tikslais."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Trečiųjų šalių pavadinimai ir logotipai (tokie kaip LinkedIn, GitHub, Instagram ar patirtyje minėtos komandos ir subjektai) priklauso jų savininkams. Jų paminėjimas nereiškia jokių komercinių santykių ar rėmimo, nebent nurodyta aiškiai."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Svetainėje naudojami trečiųjų šalių ištekliai su tai leidžiančiomis licencijomis: Fira Sans Extra Condensed ir Source Serif 4 šriftai (SIL Open Font License 1.1), Lucide piktogramos (ISC licencija) ir Simple Icons (CC0 1.0) bei GSAP animacijos biblioteka (nemokama standartinė GreenSock licencija iš Webflow). Kiekvienas GitHub susietas projektas turi savo licenciją."
+				}
+			]
+		},
+		{
+			"titulo": "6. Atsakomybė",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Stengiuosi, kad informacija būtų teisinga, o svetainė veiktų, tačiau negaliu garantuoti, kad nebus klaidų ar sutrikimų. Turinys yra informacinio pobūdžio ir nepakeičia profesionalių konsultacijų jūsų konkrečiu atveju."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Svetainėje yra nuorodos į trečiųjų šalių svetaines (socialinius tinklus, saugyklas, projektų svetaines). Aš nekontroliuoju jų turinio ar politikų ir už juos neatsakau."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privatumas ir slapukai",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kaip tvarkomi jūsų duomenys ir kokie slapukai naudojami, paaiškinta privatumo politikoje ir slapukų politikoje. Jokia svetainės dalis nereikalauja priimti slapukų, kad galėtumėte ja naudotis."
+				}
+			]
+		},
+		{
+			"titulo": "8. Sutikimų registras",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kad prireikus būtų galima įrodyti sutikimą (BDAR 7.1 straipsnis), kai sutinkate su šiomis sąlygomis kontaktinėje formoje arba pasirinkate, kuriuos slapukus leidžiate, saugomas įrašas, kuriame yra: pseudoniminis identifikatorius, tai, ką priėmėte arba atmetėte, kiekvieno dokumento versija, data ir laika, puslapio ir kalbos, iš kurių tai padarėte, kilmė (skydelis, nustatymai ar forma), naršyklė ir, formoje, nuorodos kodas, kuris keliauja jūsų el. laiške. Jūsų IP adresas nesaugomas. Išsami informacija pateikiama privatumo politikoje."
+				}
+			]
+		},
+		{
+			"titulo": "9. Kalbos",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ispaniška šių tekstų versija yra originali ir turi viršenybę kilus abejonėms. Kitos yra automatiniai vertimai, pateikiami patogumui."
+				}
+			]
+		},
+		{
+			"titulo": "10. Pakeitimai",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Galiu atnaujinti šias sąlygas, kad pritaikyčiau jas prie teisinių ar svetainės pokyčių. Galiojančios versijos data pateikiama šio puslapio pradžioje. Jei pakeitimas yra reikšmingas, vėl paprašysiu jūsų jį priimti."
+				}
+			]
+		},
+		{
+			"titulo": "11. Taikytina teisė ir jurisdikcija",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šioms sąlygoms taikoma Ispanijos teisė. Jei veikiate kaip vartotojas, galite kreiptis į savo gyvenamosios vietos teismus ir savo autonominio regiono vartotojų ginčų arbitražo bei sprendimo sistemas. Visais kitais atvejais abi šalys paklūsta Benidormo (Alikantė) teismams."
+				}
+			]
+		}
+	]
+}

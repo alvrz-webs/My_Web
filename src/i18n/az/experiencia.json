@@ -4,13 +4,28 @@
 		"description": "İki dünya, eyni dil: performans. Mario Álvarez-in məlumat və mühəndislik, eləcə də elita velosiped idmanındakı təcrübəsi.",
 		"eyebrow": "Təcrübə",
 		"heading": "İki dünya, eyni dil: performans",
-		"colDatos": "Məlumat və Texnologiya",
+		"lead": "Verilənlər bazasında və ya komanda avtomobilində iş eynidir: daha yaxşı qərar vermək üçün düzgün ölçmək.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "optimallaşdırdığım SIME Telecom bazasındakı qeydlər"
+			},
+			{
+				"cifra": "2",
+				"texto": "Cofidis komandası üçün Python-da alətlər"
+			},
+			{
+				"cifra": "6-cı",
+				"texto": "trek üzrə Dünya və Avropa çempionatında"
+			}
+		],
+		"colDatos": "Verilənlər və texnologiya",
 		"colDeporte": "Elita idmanı"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Məlumat Elmi Təcrübəsi",
-			"meta": "Məlumat Mühəndisliyi · Benidorm · 2026",
+			"meta": "Məlumat mühəndisliyi, Benidorm, 2026",
 			"paragraphs": [
 				"SIME, +580 bir-biri ilə əlaqəli cədvəl və +100 milyon qeyddən ibarət mərkəzi verilənlər bazası üzərindən yüzlərlə müştəriyə xidmət göstərən idarəetmə proqram təminatı (rezervasiyalar, faktura, hesabatlar, restoran sifarişləri) işləyib hazırlayır. Artım yükü azaltmaq və yavaşlıq şikayətlərini aradan qaldırmaq üçün müştəriləri bir neçə bazaya bölməyi zəruri etmişdi.",
 				"İşim: həmin bazaları təhlil etmək və sorğuların optimallaşdırılması və indekslər vasitəsilə aparat təminatını (RAM/CPU) demək olar ki, artırmadan bütün məlumatların tək və səmərəli bazada birləşdirilməsini layihələndirmək. Təkmilləşdirmə artıq işlənib hazırlanıb, sınaq serverində təsdiqləmə mərhələsindədir."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Cofidis komandası ilə layihələr (World Tour)",
-			"meta": "Python · Yay 2025",
+			"meta": "Python, yay 2025",
 			"paragraphs": [
 				"Peşəkar velosiped idmanında məlumat təhlili üçün imtahan olaraq həyata keçirdiyim şəxsi layihə:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Yarış",
 			"paragraphs": [
 				"İspaniya medison çempionu (18 yaş); İspaniya Milli Komandası ilə Trek Dünya və Avropa çempionatları (hər ikisində 6-cı); elita idmançı; aktiv, lisenziyalı treklər üzrə velosipedçi."
-			]
+			],
+			"meta": "Trek velosiped idmanı, İspaniya Milli Komandası"
 		},
 		{
 			"title": "İdman rəhbərliyi",
 			"paragraphs": [
 				"İdman Direktoru Səviyyə I və II (RFEC); atamla birlikdə gənc velosipedçilərin (14–18) hazırlanması və izlənməsi; yarışlarda Valensiya İcması Milli Komandası ilə köməkçi heyət (2026)."
-			]
+			],
+			"meta": "RFEC, I və II səviyyələr"
 		},
 		{
 			"title": "Kirotravmatologiya və texniki heyət",

@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Mga Tuntunin at Kundisyon — Mario Álvarez",
+		"description": "Legal na paunawa at mga kundisyon sa paggamit ng marioalvarez.me: sino ang nagmamay-ari, paano magagamit ang web, at anong batas ang naaangkop.",
+		"heading": "Mga Tuntunin at Kundisyon"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Sino ang nasa likod ng web na ito",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bilang pagsunod sa Artikulo 10 ng Batas 34/2002, hinggil sa mga serbisyo ng lipunan ng impormasyon at elektronikong komersyo (LSSI-CE), narito ang mga detalye ng nagmamay-ari ng marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"May-ari: {nombre}",
+						"NIF: {nif}",
+						"Tirahan: {domicilio}",
+						"Email: {email}",
+						"Aktibidad: propesyonal na portfolio at pag-aalok ng mga serbisyo sa pagsusuri ng datos, mga pasadyang kagamitan, mga database at ulat, at suporta sa karera."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Ano ang kinokontrol ng mga tuntuning ito",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kinokontrol ng mga tuntuning ito ang pag-access at paggamit ng marioalvarez.me (ang «web») sa alinman sa mga wika nito. Sa pag-browse dito, sumasang-ayon kang gamitin ito ayon sa sinasabi rito. Kung sumulat ka sa akin mula sa contact form, hinihiling ko sa iyong tanggapin ito nang hayagan sa pamamagitan ng pag-tsek sa isang kahon."
+				}
+			]
+		},
+		{
+			"titulo": "3. Paano magagamit ang web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Maaari mong konsultahin at ibahagi ang mga nilalaman sa pamamagitan ng pagbanggit sa pinagmulan nito. Hindi pinapayagan ang:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"gamitin ang web para sa mga iligal na layunin o makapinsala sa mga ikatlong partido;",
+						"subukang i-access ang mga pinaghihigpitang lugar (tulad ng pribadong panel) o ang mga sistemang nagho-host nito;",
+						"magpasok ng mga virus o anumang nakakapinsalang code, o sadyang i-overload ito;",
+						"kopyahin ang mga nilalaman upang ipakita ang mga ito bilang sarili mo."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Mga Serbisyo at Kontrata",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang web ay hindi nagbebenta ng mga produkto o nangongolekta ng mga online na bayad. Kung interesado ka sa isang serbisyo, pinag-uusapan natin ito sa pamamagitan ng email o telepono at ipinapadala ko sa iyo ang isang nakasulat na panukala na may saklaw, presyo, mga deadline, at mga kundisyon ng pagbabayad at pagkansela. Ang panukalang iyon, kapag tinanggap ng dalawa, ay ang namamahala sa serbisyo at mangingibabaw sa mga tuntuning ito."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kung paano gumagana ang mga pagkansela, ang karapatan sa pag-atras, at ang mga pagbabalik ay ipinaliwanag sa patakaran sa pag-refund."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intelektwal at pang-industriya na pagmamay-ari",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang mga teksto, disenyo, sariling code, logo, at mga litrato ni Mario Álvarez ay pagmamay-ari niya o ginagamit nang may pahintulot ng kanilang mga may-akda. Hindi pinapayagan na kopyahin ang mga ito para sa mga layuning pangkomersyo nang walang nakasulat na pahintulot."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ang mga pangalan at logo ng mga ikatlong partido (tulad ng LinkedIn, GitHub, Instagram o ang mga koponan at entidad na nabanggit sa karanasan) ay pagmamay-ari ng kanilang mga may-ari. Ang pagbanggit sa kanila ay hindi nagpapahiwatig ng anumang komersyal na relasyon o pag-sponsor, maliban kung hayagang sinabi."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Gumagamit ang web ng mga mapagkukunan ng ikatlong partido na may mga lisensya na nagbibigay-daan dito: ang Fira Sans Extra Condensed at Source Serif 4 na mga font (SIL Open Font License 1.1), ang mga icon ng Lucide (lisensya ng ISC) at Simple Icons (CC0 1.0) at ang GSAP animation library (libreng karaniwang lisensya ng GreenSock, mula sa Webflow). Ang bawat proyekto na naka-link sa GitHub ay may sariling lisensya."
+				}
+			]
+		},
+		{
+			"titulo": "6. Pananagutan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nagtatrabaho ako upang matiyak na tama ang impormasyon at magagamit ang web, ngunit hindi ko masisiguro na walang mga error o pagkaantala. Ang mga nilalaman ay nagbibigay-kaalaman at hindi pinapalitan ang propesyonal na payo sa iyong partikular na kaso."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ang web ay nag-a-link sa mga site ng ikatlong partido (mga social network, repository, mga web ng proyekto). Hindi ko kinokontrol ang kanilang nilalaman o mga patakaran at hindi ako mananagot para sa kanila."
+				}
+			]
+		},
+		{
+			"titulo": "7. Pagkapribado at cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kung paano pinoproseso ang iyong mga datos at kung anong mga cookies ang ginagamit ay ipinaliwanag sa patakaran sa pagkapribado at sa patakaran sa cookies. Walang bahagi ng web ang nag-aatas sa iyong tanggapin ang mga cookies upang magamit ito."
+				}
+			]
+		},
+		{
+			"titulo": "8. Rehistro ng mga pagtanggap",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Upang mapatunayan ang pahintulot kapag kinakailangan (Artikulo 7.1 ng RGPD), kapag tinanggap mo ang mga tuntuning ito sa contact form o pinili kung aling mga cookies ang pinapayagan, isang rehistro ang nai-save na may: isang pseudonymized identifier, kung ano ang tinanggihan o tinanggap mo, ang bersyon ng bawat dokumento, ang petsa at oras, ang pahina at ang wika kung saan mo ginawa ito, ang pinagmulan (banner, configuration o form), ang browser at, sa form, isang reference code na naglalakbay sa iyong email. Hindi nai-save ang iyong IP address. Ang mga detalye ay nasa patakaran sa pagkapribado."
+				}
+			]
+		},
+		{
+			"titulo": "9. Mga Wika",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang bersyon sa Espanyol ng mga tekstong ito ang orihinal at mangingibabaw sakaling may pagdududa. Ang iba ay mga awtomatikong pagsasalin na inaalok para sa kaginhawaan."
+				}
+			]
+		},
+		{
+			"titulo": "10. Mga Pagbabago",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Maaari kong i-update ang mga tuntuning ito upang i-adapt ang mga ito sa mga pagbabago sa batas o sa web. Ang petsa ng kasalukuyang bersyon ay lumalabas sa simula ng pahinang ito. Kung ang pagbabago ay mahalaga, hihilingin kong muli sa iyong tanggapin ang mga ito."
+				}
+			]
+		},
+		{
+			"titulo": "11. Naaangkop na batas at hurisdiksyon",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang mga tuntuning ito ay pinamamahalaan ng batas ng Espanya. Kung kumikilos ka bilang isang mamimili, maaari kang pumunta sa mga korte ng iyong tirahan at sa mga sistema ng arbitrasyon at paglutas ng alitan ng mamimili ng iyong autonomous community. Sa iba pang mga kaso, ang parehong partido ay nagpapasakop sa mga hukuman at tribunal ng Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

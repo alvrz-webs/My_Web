@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Chuyên gia khoa học dữ liệu chuyên về thể thao",
-		"description": "Mario Álvarez, chuyên gia khoa học dữ liệu tại Valencia chuyên về phân tích thể thao. Dữ liệu · Thể thao · Tiên tiến.",
+		"description": "Mario Álvarez, nhà khoa học dữ liệu tại Valencia, chuyên gia về phân tích thể thao. Nhà vô địch Tây Ban Nha nội dung madison và giám đốc thể thao RFEC.",
 		"verProyectos": "Xem các dự án",
-		"contacto": "Liên hệ",
-		"verMas": "Xem thêm",
+		"verServicios": "Xem cách tôi giúp bạn",
+		"contacto": "Viết cho tôi",
+		"verMas": "Đọc thêm",
 		"verTodosProyectos": "Xem tất cả các dự án",
-		"irAContacto": "Đi tới liên hệ",
+		"irAContacto": "Viết cho tôi",
 		"herramientas": "Các công cụ chính"
 	},
 	"hero": {
-		"eyebrow": "Chuyên gia khoa học dữ liệu · Phân tích thể thao · Valencia",
-		"titlePre": "Tôi chuyển đổi dữ liệu thành ",
-		"titleHighlight": "các quyết định rõ ràng",
-		"subtitle": "Tôi là cầu nối giữa phân tích dữ liệu và thể thao đỉnh cao: tôi chuyển hóa các chỉ số hiệu suất thành chiến lược tạo nên sự khác biệt trên sân thi đấu.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, nhà khoa học dữ liệu",
+		"title": "Tôi từng là nhà vô địch Tây Ban Nha nội dung madison.",
+		"subtitle": "Hiện tại tôi đang học Khoa học Dữ liệu tại UPV và phân tích những yếu tố đằng sau hiệu suất: công suất, khối lượng tập luyện và kết quả. Tôi hiểu con số có ý nghĩa thế nào đối với một vận động viên vì tôi chính là vận động viên đó.",
+		"palmaresLabel": "Thành tích",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "Giải vô địch Tây Ban Nha nội dung madison",
+				"nota": "Đường đua lòng chảo, năm 18 tuổi"
+			},
+			{
+				"pos": "6º",
+				"texto": "Giải vô địch thế giới đường đua lòng chảo",
+				"nota": "Đội tuyển Tây Ban Nha"
+			},
+			{
+				"pos": "6º",
+				"texto": "Giải vô địch châu Âu đường đua lòng chảo",
+				"nota": "Đội tuyển Tây Ban Nha"
+			}
+		],
+		"retratoAlt": "Chân dung Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Tôi có thể giúp gì cho bạn",
+		"text": "Tôi làm việc với các đội tuyển, huấn luyện viên và vận động viên có dữ liệu và muốn khai thác hiệu quả. Và với các doanh nghiệp cần sắp xếp dữ liệu của họ.",
+		"cta": "Kể cho tôi nghe trường hợp của bạn",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Phân tích hiệu suất",
+				"texto": "Tôi đọc công suất, khối lượng tập luyện và kết quả bằng góc nhìn của một vận động viên. Tôi giải thích cho bạn điều gì đang diễn ra và cần thay đổi gì.",
+				"prueba": "Vận động viên ưu tú và giám đốc thể thao RFEC, cấp độ I và II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Công cụ tùy chỉnh",
+				"texto": "Thu thập dữ liệu web, các mô hình và ứng dụng nhỏ bằng Python giải quyết một câu hỏi cụ thể của đội bạn.",
+				"prueba": "Hai công cụ cho đội Cofidis: độ khó UCI và hồ sơ chặng đua."
+			},
+			{
+				"id": "datos",
+				"nombre": "Cơ sở dữ liệu và báo cáo",
+				"texto": "Truy vấn nhanh hơn, cơ sở dữ liệu hợp nhất và bảng điều khiển trong Power BI dễ hiểu ngay từ cái nhìn đầu tiên.",
+				"prueba": "Hơn 580 bảng và 100 triệu bản ghi trong cơ sở dữ liệu mà tôi tối ưu hóa tại SIME Telecom."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Hỗ trợ trong cuộc đua",
+				"texto": "Chuẩn bị cho các giải đua, theo dõi vận động viên và mát-xa thể thao trong thi đấu.",
+				"prueba": "Ban huấn luyện Đội tuyển Cộng đồng Valencia."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Về tôi",
-		"title": "Dữ liệu với bối cảnh thi đấu trên đường đua và trong các giải đấu",
-		"text": "Tôi là Mario Álvarez, sinh viên ngành Khoa học Dữ liệu tại UPV với kinh nghiệm thực tế trong bộ môn đua xe đạp chuyên nghiệp. Tôi kết hợp phân tích dữ liệu với hiệu suất thể thao đỉnh cao, để biến mỗi chỉ số thành một quyết định cải thiện kết quả."
+		"title": "Từ đường đua lòng chảo đến dữ liệu",
+		"text": "Tôi đang học năm thứ 3 ngành Khoa học Dữ liệu tại UPV và đã hoàn thành chương trình thạc sĩ về số hóa và công nghệ ứng dụng trong thể thao. Tôi chưa từng rời xa xe đạp: tôi vẫn thi đấu đường đua lòng chảo, dẫn dắt các vận động viên trẻ và làm kỹ thuật viên mát-xa thể thao cho các chuyên gia."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
-			"label": "Học vấn",
-			"detail": "Cử nhân Khoa học Dữ liệu, Đại học Bách khoa Valencia."
+			"label": "Cơ sở",
+			"value": "Benidorm và Valencia"
 		},
 		{
-			"value": "Tinh hoa",
-			"label": "Kinh nghiệm",
-			"detail": "Làm việc thực tế trong một đội đua xe đạp chuyên nghiệp."
+			"label": "Đào tạo",
+			"value": "Cử nhân Khoa học Dữ liệu (UPV) và Thạc sĩ Số hóa, Đổi mới và Công nghệ trong Thể thao"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Phương pháp tiếp cận",
-			"detail": "Phân tích được áp dụng để nâng cao hiệu suất thể thao."
+			"label": "Bằng cấp",
+			"value": "Giám đốc thể thao RFEC, cấp độ I và II"
+		},
+		{
+			"label": "Hiện tại",
+			"value": "Sẵn sàng cho các dự án dữ liệu và hiệu suất"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Kinh nghiệm",
-		"title": "Hai thế giới, một ngôn ngữ chung: hiệu suất",
-		"text": "Tôi đã thi đấu ở cấp độ cao nhất và ngày nay tôi áp dụng tiêu chí đó vào dữ liệu: tôi hiểu một con số có ý nghĩa gì đối với một vận động viên vì tôi chính là vận động viên đó."
+		"title": "Hai hướng đi, một công việc",
+		"text": "Ở hướng này, tôi tối ưu hóa cơ sở dữ liệu và viết các mô hình. Ở hướng kia, tôi chuẩn bị cho các cuộc đua và theo dõi các vận động viên. Cả hai đều hướng về một mục đích: đo lường chính xác để ra quyết định tốt hơn.",
+		"carriles": [
+			{
+				"nombre": "Dữ liệu",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "bảng được phân tích tại SIME Telecom để hợp nhất nhiều cơ sở dữ liệu thành một, mà không cần mở rộng phần cứng"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "bản ghi trong cơ sở dữ liệu mà tôi đang tối ưu hóa"
+					},
+					{
+						"cifra": "2",
+						"texto": "công cụ bằng Python cho đội Cofidis: độ khó UCI và hồ sơ chặng đua"
+					}
+				]
+			},
+			{
+				"nombre": "Đường đua lòng chảo và đường trường",
+				"items": [
+					{
+						"cifra": "I và II",
+						"texto": "cấp độ giám đốc thể thao của Liên đoàn Xe đạp Hoàng gia Tây Ban Nha"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "tuổi của các vận động viên trẻ mà tôi huấn luyện và theo dõi cùng bố tôi"
+					},
+					{
+						"cifra": "2026",
+						"texto": "trợ lý cho Đội tuyển Cộng đồng Valencia trong thi đấu"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Chúng ta nói về dữ liệu chứ?",
-		"text": "Hãy kể cho tôi nghe về dự án của bạn và chúng ta sẽ cùng nhau tìm ra những quyết định giúp cải thiện hiệu suất."
+		"title": "Vòng cuối",
+		"text": "Nếu bạn có dữ liệu hiệu suất và các câu hỏi chưa được giải đáp, hãy viết cho tôi và chúng ta sẽ cùng xem xét."
 	}
 }

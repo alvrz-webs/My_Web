@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Visszatérítési szabályzat — Mario Álvarez",
+		"description": "Hogyan működnek a lemondások, az elállási jog és a visszatérítések a Mario Álvarez szolgáltatásai esetében.",
+		"heading": "Visszatérítési szabályzat"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ez a weboldal nem fogad el fizetéseket",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A marioalvarez.me oldalon nem értékesítenek termékeket, és nem történik online fizetés. A szolgáltatások (teljesítményelemzés, egyedi eszközök, adatbázisok és jelentések, valamint karriertámogatás) külön, írásbeli árajánlat alapján kerülnek megkötésre."
+				}
+			]
+		},
+		{
+			"titulo": "2. Amit az ajánlatod mond",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Minden ajánlat tartalmazza az árat, a fizetés módját és idejét, valamint a lemondási feltételeket. Ha az ajánlat ettől a szabályzattól eltérő rendelkezést tartalmaz, az ajánlat az irányadó, kivéve, ha ez a szabályzat nagyobb fogyasztói jogokat biztosít számodra."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ha lemondod",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hacsak írásban másként nem állapodunk meg:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ha a munka megkezdése előtt mondod le, az előre kifizetett összeget teljes egészében visszatérítem.",
+						"Ha a munka megkezdése után mondod le, csak a már elvégzett részért kell fizetned, a befizetett összeg fennmaradó részét pedig visszatérítem.",
+						"A már átadott és elfogadott munkát nem térítem vissza, kivéve, ha olyan hibái vannak, amelyeket nem javítanak ki."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Elállási jog (ha fogyasztó vagy)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ha fogyasztóként (szakmai tevékenységed körén kívül eljáró személyként) kötöd meg a szerződést, és a szerződés távollévők között, e-mailben vagy telefonon jön létre, a megkötéstől számított 14 naptári napon belül indoklás nélkül elállhatsz a szerződéstől a Fogyasztók és Felhasználók Védelméről szóló általános törvény szövegének egységes szerkezetbe foglalt törvénye (1/2007. sz. királyi törvényerejű rendelet) 102–108. cikkei alapján."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ha kifejezetten kéred, hogy a munka elvégzését ezen 14 napon belül kezdjem meg, majd ezt követően állsz el a szerződéstől, akkor csak az addig nyújtott szolgáltatás arányos részét köteles megfizetni. Ha a szolgáltatás a határidőn belül teljes egészében le lett adva, az Ön előzetes és kifejezett hozzájárulásával, valamint annak tudatában, hogy így elveszíti ezt a jogot, többé nem állhat el (103. a) cikk)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Hogyan kérheted",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Írj nekem a {email} címre a neveddel, a szolgáltatással és a megkötés dátumával. Használhatod ezt az elállási nyilatkozat mintát (nem kötelező):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Címzett: {nombre}, {domicilio}, {email}:",
+						"Ezúton közlöm, hogy elállok az alábbi szolgáltatás nyújtására vonatkozó szerződésemtől: [szolgáltatás].",
+						"Megkötés dátuma: [dátum].",
+						"A fogyasztó neve: [név].",
+						"A fogyasztó lakcíme: [lakcím].",
+						"Dátum: [dátum]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. A visszatérítés határideje és módja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A döntésed közlésétől számított legfeljebb 14 naptári napon belül visszatérítem a járandóságodat, ugyanazon a fizetési módon keresztül, amelyet használtál, hacsak másként nem állapodunk meg. A visszatérítés számodra semmilyen költséggel não jár."
+				}
+			]
+		}
+	]
+}

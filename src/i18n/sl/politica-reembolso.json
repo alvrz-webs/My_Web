@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Politika vračil — Mario Álvarez",
+		"description": "Kako delujejo preklici, pravica do odstopa od pogodbe in vračila za storitve, ki jih ponuja Mario Álvarez.",
+		"heading": "Politika vračil"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ta spletna stran ne prejema plačil",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Na spletnem mestu marioalvarez.me se ne prodajajo izdelki in ne izvajajo spletna plačila. Storitve (analiza uspešnosti, prilagojena orodja, podatkovne baze in poročila ter karierna podpora) se naročijo posebej na podlagi pisne ponudbe."
+				}
+			]
+		},
+		{
+			"titulo": "2. Določila vaše ponudbe",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vsaka ponudba navaja ceno, način in čas plačila ter pogoje preklica. Če ponudba določa nekaj drugega kot ta politika, velja ponudba, razen če vam ta politika daje več pravic kot potrošniku."
+				}
+			]
+		},
+		{
+			"titulo": "3. Če prekličete naročilo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Če ni pisno dogovorjeno drugače:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Če prekličete preden se delo začne, vam v celoti vrnem vsako vnaprej plačano znesek.",
+						"Če prekličete, ko je delo že v teku, se zaračuna samo že opravljeni del, preostanek vnaprej plačanega zneska pa vam vrnem.",
+						"Že dostavljeno in sprejeto delo ni predmet vračila, razen če ima napake, ki niso odpravljene."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Pravica do odstopa od pogodbe (če ste potrošnik)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Če sklepate pogodbo kot potrošnik (oseba, ki deluje zunaj svoje poklicne dejavnosti) in je pogodba sklenjena na daljavo, prek e-pošte ali telefona, imate 14 koledarskih dni od sklenitve pogodbe časa, da odstopite od nje brez navedbe razloga."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Če me izrecno prosite, da začnem z delom v teh 14 dneh, in kasneje odstopite od pogodbe, boste plačali le sorazmerni del storitve, opravljene do tistega trenutka. Če je bila storitev v celoti opravljena v roku, z vašim predhodnim in izrecnim soglasjem ter z zavedanjem, da s tem izgubljate to pravico, odstop od pogodbe več ni mogoč."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kako uveljaviti vračilo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pišite mi na {email} z vašim imenom, storitvijo in datumom naročila. Uporabite lahko naslednji vzorec obrazca za odstop od pogodbe (ni obvezen):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Za pozornost: {nombre}, {domicilio}, {email}:",
+						"S tem izjavljam, da odstopam od pogodbe o opravljanju naslednje storitve: [servicio].",
+						"Naročeno dne: [fecha].",
+						"Ime potrošnika: [nombre].",
+						"Naslov potrošnika: [domicilio].",
+						"Datum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Rok in način vračila",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ustrezni znesek vam vrnem v najvišjem roku 14 koledarskih dni od prejema vašega obvestila o odstopu, prek istega plačilnega sredstva, ki ste ga uporabili, razen če se dogovorimo drugače. Vračilo je za vas brezplačno."
+				}
+			]
+		}
+	]
+}

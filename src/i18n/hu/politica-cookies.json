@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Cookie-szabályzat — Mario Álvarez",
-		"description": "Milyen sütiket használ ez az oldal, milyen céllal, és hogyan módosíthatja hozzájárulását bármikor.",
-		"eyebrow": "Jogi",
-		"heading": "Cookie-szabályzat"
+		"description": "Milyen sütiket használ a marioalvarez.me, melyekhez van szükség a hozzájárulásodra, és hogyan változtathatod meg a döntésedet bármikor.",
+		"heading": "Cookie-szabályzat",
+		"eleccionTitulo": "A te döntésed",
+		"eleccionTexto": "Bármikor megváltoztathatod vagy törölheted az adataidat, ugyanolyan egyszerűen, mint ahogyan megadtad őket."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Ez a webhely sütiket és hasonló technológiákat (például a böngésző helyi tárolását) használ a megfelelő működés érdekében, és az Ön hozzájárulásával a tartalomhasználat névtelen elemzésére."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Felhasznált sütik:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Név",
-				"Cél",
-				"Típus",
-				"Időtartam"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Emlékezzen a cookie-szabályzattal kapcsolatos választására",
-					"Saját, technikai (hozzájárulást nem igénylő)",
-					"12 hónap"
-				],
-				[
-					"visitante_id",
-					"Névtelen azonosító a látogatások összekapcsolásához és annak megállapításához, hogy mely tartalom hasznos",
-					"Saját, analitikai (hozzájárulást igénylő)",
-					"12 hónap"
-				]
+			"titulo": "1. Mik azok és hogy szükségem van-e a hozzájárulásodra",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "A sütik és hasonló technológiák (mint a böngésző helyi tárolása) kis adatokat mentenek az eszközödre. Az LSSI-CE 22.2 cikke és a Spanyol Adatvédelmi Ügynökség (AEPD) sütihasználati útmutatója szerint azok, amelyek szigorúan szükségesek valamihez, amit te kérsz, nem igényelnek hozzájárulást; az elemzési célúak azonban igen."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ezért ez a weboldal csak akkor menti az elemzési sütit, ha elfogadod, és két egyenlő gombbal, ugyanazon a képernyőn, előre bejelölt dobozok nélkül hagyja elfogadni vagy elutasítani. Az elutasítás nem akadályoz meg abban, hogy a weboldal bármely részét használd."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Ezek közül a sütik közül egyik sem harmadik féltől származik, egyiket sem használják hirdetési célokra, és egyiket sem osztják meg senkivel ezen az oldalon kívül."
+			"titulo": "2. Sütik, amelyeket ez a weboldal használ",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Név",
+						"Mire való",
+						"Típus",
+						"Szüksége van a hozzájárulásodra?",
+						"Időtartam"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"A választásod, a szabályzat ezen verziójának és a hozzájárulási naplód álnéves azonosítójának elmentése",
+							"Saját, technikai",
+							"Nem",
+							"12 hónap"
+						],
+						[
+							"visitante_id",
+							"Álnéves azonosító annak megállapítására, hogy mely tartalmak hasznosak",
+							"Saját, elemzési",
+							"Igen",
+							"12 hónap"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Emlékezni arra, hogy a világos vagy a sötét témát preferálod-e; csak akkor kerül mentésre, ha megváltoztatod",
+							"Saját, az általad kért testreszabás",
+							"Nem",
+							"Amíg nem törlöd"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Bármikor módosíthatja döntését vagy visszavonhatja hozzájárulását az oldallábon található „Sütik beállítása” linken keresztül, és azonnal törölheti minden adatát ugyanezen panel „Adataim törlése” gombjával."
+			"titulo": "3. Amit nem tartalmaz",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nincsenek harmadik féltől származó sütik, nincsenek hirdetések, nincsenek beágyazott közösségi média tartalmak és nincs Google Analytics sem. A betűtípusok és a képek közvetlenül erről a weboldalról származnak."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "További információkért arról, hogy miként kezeljük adatait, tekintse meg az Adatvédelmi szabályzatot."
+			"titulo": "4. Hogyan változtasd meg a véleményedet",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Bármikor megváltoztathatod a döntésedet vagy visszavonhatod a hozzájárulásodat az egyes oldalak láblécében található „Sütik konfigurálása” menüpontból, vagy az ezen az oldalon található gombbal. Onnantól kezdve azonnal törölheted a böngésződhöz társított elemzési adatokat is. A sütiket pedig a böngésződ beállításaiban is törölheted."
+				}
+			]
+		},
+		{
+			"titulo": "5. A döntésed rögzítése",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Minden alkalommal, amikor elfogadod, elutasítod vagy visszavonod a hozzájárulást, egy rekord kerül mentésre (álnéves azonosító, döntés, ezen szabályzat verziója, dátum és időpont, oldal, nyelv, forrás és böngésző), az IP-címed nélkül, annak bizonyítására, hogy a hozzájárulás érvényes volt. 3 évig őrizzük meg. További részletek az adatvédelmi szabályzatban."
+				}
+			]
+		},
+		{
+			"titulo": "6. Változások",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ha ez a szabályzat jelentős mértékben megváltozik, a sütikkel kapcsolatos figyelmeztetés újra megjelenik, hogy újra dönthess."
+				}
+			]
 		}
 	]
 }

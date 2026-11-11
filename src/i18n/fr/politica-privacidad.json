@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Politique de confidentialité — Mario Álvarez",
-		"description": "Politique de confidentialité du site de Mario Álvarez : quelles données sont collectées, dans quel but et comment exercer vos droits.",
-		"eyebrow": "Legal",
+		"description": "Quelles données marioalvarez.me traite, dans quel but, sur quelle base légale, pendant combien de temps et comment exercer vos droits.",
 		"heading": "Politique de confidentialité"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Responsable du traitement",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, domicilié à Benidorm (Alicante), Espagne. Contact : malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Finalité du traitement",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Ce site analyse de manière interne et à des fins exclusivement statistiques quels contenus (sections, projets) sont les plus utiles aux visiteurs, dans le but d'améliorer son contenu. Il n'est pas utilisé à des fins publicitaires, n'est pas partagé avec des tiers et n'est vendu en aucun cas."
-				}
-			]
-		},
-		{
-			"titulo": "3. Données collectées (uniquement si vous acceptez les cookies analytiques)",
+			"titulo": "1. Responsable",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Un identifiant anonyme aléatoire, non lié à votre nom, votre e-mail ou toute autre information vous identifiant directement.",
-						"Pages et projets que vous visitez, et le temps d'attention sur chacun (pendant que l'onglet est actif).",
-						"Interactions (clics sur des projets, des liens ou des boutons).",
-						"Date et heure de la visite.",
-						"Langue du site consulté.",
-						"Type d'appareil (mobile ou bureau).",
-						"Pays approximatif, obtenu via l'infrastructure de Cloudflare, sans stocker votre adresse IP.",
-						"Page de provenance (par exemple, LinkedIn ou un moteur de recherche)."
+						"Responsable : {nombre}",
+						"NIF : {nif}",
+						"Domicile : {domicilio}",
+						"E-mail pour toute question relative à la confidentialité : {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Votre adresse IP n'est pas collectée, aucune technique d'identification du navigateur (fingerprinting) n'est utilisée, et aucun outil tiers tel que Google Analytics ou similaire n'est employé."
+					"texto": "En raison de la taille et du type d'activité, il n'est pas obligatoire de nommer un délégué à la protection des données, il n'y en a donc pas : écrivez-moi directement."
 				}
 			]
 		},
 		{
-			"titulo": "4. Base juridique",
+			"titulo": "2. Quelles données je traite, dans quel but et pourquoi",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Le traitement est fondé sur votre consentement explicite (article 6.1.a du RGPD et article 22.2 de la LSSI-CE), que vous pouvez retirer à tout moment depuis le gestionnaire de cookies du site."
+					"tipo": "tabla",
+					"columnas": [
+						"Dans quel but",
+						"Quelles données",
+						"Base légale",
+						"Combien de temps"
+					],
+					"filas": [
+						[
+							"Analytique d'utilisation, uniquement si vous acceptez les cookies d'analyse",
+							"Un identifiant pseudonyme aléatoire (cookie visitante_id), les sections et projets que vous consultez et le temps passé sur chacun, les clics sur les liens et les boutons, la langue, le type d'appareil (mobile ou bureau), le pays approximatif et la page du site Web où se produit chaque événement.",
+							"Votre consentement (art. 6.1.a RGPD et art. 22.2 LSSI-CE).",
+							"12 mois ; ensuite, chaque événement est automatiquement supprimé."
+						],
+						[
+							"Registre des consentements",
+							"L'identifiant pseudonyme, ce que vous avez accepté, refusé ou retiré, la version de chaque document, la date et l'heure, la page, la langue, l'origine (bannière, configuration ou formulaire), le navigateur (agent utilisateur) et le pays approximatif ; dans le formulaire, en outre, le code de référence de votre e-mail.",
+							"Respecter l'obligation de pouvoir prouver le consentement (arts. 6.1.c et 7.1 RGPD).",
+							"3 ans à compter de chaque enregistrement (le délai maximal de prescription des infractions de la LOPDGDD) ; ensuite, il est automatiquement supprimé."
+						],
+						[
+							"Répondre à votre demande par e-mail ou par téléphone",
+							"Les données que vous décidez de m'envoyer : généralement votre nom, votre e-mail ou votre téléphone et le contenu du message.",
+							"Appliquer des mesures précontractuelles à votre demande (art. 6.1.b RGPD) ou mon intérêt légitime à vous répondre (art. 6.1.f).",
+							"Pendant la durée de la conversation et jusqu'à 1 an après, sauf si nous concluons un contrat."
+						],
+						[
+							"Gérer un service contracté",
+							"Données d'identification, de contact et de facturation.",
+							"Exécution du contrat (art. 6.1.b RGPD) et obligations fiscales et comptables (art. 6.1.c).",
+							"Ce qu'exigent les lois fiscales et commerciales (en général, entre 4 et 6 ans)."
+						],
+						[
+							"Mémoriser si vous préférez le thème clair ou sombre",
+							"La préférence « tema », enregistrée uniquement dans votre navigateur (stockage local). Elle ne m'est pas transmise.",
+							"Une fonction que vous demandez en appuyant sur le bouton (exemptée de consentement selon l'art. 22.2 LSSI-CE).",
+							"Jusqu'à ce que vous la supprimiez de votre navigateur."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Durée de conservation",
+			"titulo": "3. Ce que je ne demande ni ne recueille",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Les données sont conservées pendant un maximum de 12 mois à compter de votre dernière visite, après quoi elles sont automatiquement supprimées."
+					"texto": "Je ne traite que ce qui est indispensable à chaque fin. Concrètement :"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Le formulaire de contact ne demande ni votre nom, ni votre e-mail, ni votre téléphone : il ouvre votre logiciel de messagerie et c'est vous qui décidez ce que vous m'envoyez.",
+						"Je ne stocke pas votre adresse IP, ni dans l'analytique ni dans le registre des consentements.",
+						"Je n'utilise pas de techniques d'identification du navigateur (fingerprinting), Google Analytics, de pixels publicitaires ni de cookies tiers.",
+						"Les polices et les images sont servies depuis ce même site Web : lors de sa visite, votre navigateur ne se connecte pas à Google Fonts, à GitHub ni à d'autres services externes."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Destinataires et transferts internationaux",
+			"titulo": "4. Qui d'autre intervient",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Les données ne sont ni cédées ni vendues à des tiers. Elles sont stockées dans Cloudflare D1, un service de base de données fourni par Cloudflare, Inc., qui agit en tant que sous-traitant. Cloudflare peut traiter des données en dehors de l'Espace Économique Européen ; dans ce cas, ce transfert est couvert par les Clauses Contractuelles Types approuvées par la Commission Européenne. Plus d'informations dans la politique de confidentialité de Cloudflare : https://www.cloudflare.com/privacypolicy/"
+					"texto": "Je ne vends ni ne cède vos données à quiconque, sauf obligation légale. Pour que le site Web fonctionne et pour vous répondre, j'utilise ces fournisseurs :"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc. : héberge le site Web et la base de données (Cloudflare Pages et D1) et agit en tant que sous-traitant. Pour servir le site Web, il traite des données techniques de connexion, telles que votre IP, auxquelles je n'ai pas accès. Leur politique : https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com) : le service de messagerie dans lequel je reçois et réponds aux e-mails ; il traite ces messages selon sa propre politique : https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Vos droits",
+			"titulo": "5. Transferts internationaux",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Vous pouvez exercer à tout moment vos droits d'accès, de rectification, de suppression, d'opposition, de limitation du traitement et de portabilité en écrivant à malvmar5@hotmail.com. De plus, vous pouvez supprimer vos données immédiatement, sans avoir à écrire à quiconque, grâce au bouton \"Effacer mes données\" disponible dans les paramètres des cookies du site. Vous avez également le droit d'introduire une réclamation auprès de l'Agence Espagnole de Protection des Données (www.aepd.es) si vous estimez que vos droits n'ont pas été respectés correctement."
+					"texto": "Cloudflare et Microsoft peuvent traiter des données aux États-Unis. Tous deux adhèrent au cadre de protection des données UE-États-Unis (décision d'adéquation de la Commission européenne du 10 juillet 2023) et offrent en outre les clauses contractuelles types approuvées par la Commission."
 				}
 			]
 		},
 		{
-			"titulo": "8. Modifications de cette politique",
+			"titulo": "6. Vos droits",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Cette politique peut être mise à jour pour s'adapter aux modifications légales ou du site lui-même."
+					"texto": "Vous pouvez me demander à tout moment d'accéder à vos données, de les rectifier, de les supprimer, de vous opposer à leur traitement, de le limiter ou de les recevoir pour les transmettre ailleurs (portabilité), et de retirer votre consentement sans que cela n'affecte ce qui a été traité auparavant. Écrivez-moi à {email} ; je vous répondrai dans un délai maximum d'un mois."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Les données analytiques peuvent être supprimées par vous-même instantanément grâce au bouton « Effacer mes données » dans la configuration des cookies. Le registre des consentements est conservé même si vous retirez votre consentement, car il sert précisément à prouver quand vous l'avez donné et quand vous l'avez retiré."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Si vous estimez que je n'ai pas correctement pris en compte vos droits, vous pouvez déposer une réclamation auprès de l'Agence espagnole de protection des données : https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Mineurs",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Le site Web n'est pas destiné aux mineurs de moins de 14 ans. Si vous avez moins de 14 ans, ne m'envoyez pas de données personnelles sans l'autorisation de vos parents ou tuteurs (art. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Sécurité",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les données transitent de manière chiffrée (HTTPS) et sont stockées dans une base de données accessible uniquement depuis le panneau privé, protégé par un nom d'utilisateur et un mot de passe."
+				}
+			]
+		},
+		{
+			"titulo": "9. Modifications de cette politique",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Si quelque chose d'important change, je mettrai à jour cette page et sa date de version. Si le changement concerne les cookies, il vous sera demandé à nouveau."
 				}
 			]
 		}

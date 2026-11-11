@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Datenwissenschaftler mit Spezialisierung auf Sport",
-		"description": "Mario Álvarez, Datenwissenschaftler in Valencia, spezialisiert auf Sportanalytik. Data · Sport · Progress.",
+		"description": "Mario Álvarez, Data Scientist in Valencia, spezialisiert auf Sportanalytik. Spanischer Madison-Meister und RFEC-Sportdirektor.",
 		"verProyectos": "Projekte ansehen",
-		"contacto": "Kontakt",
-		"verMas": "Mehr ansehen",
+		"verServicios": "Sehen, wie ich dir helfen kann",
+		"contacto": "Schreib mir",
+		"verMas": "Weiterlesen",
 		"verTodosProyectos": "Alle Projekte ansehen",
-		"irAContacto": "Zum Kontakt",
+		"irAContacto": "Schreib mir",
 		"herramientas": "Hauptwerkzeuge"
 	},
 	"hero": {
-		"eyebrow": "Datenwissenschaftler · Sportanalytik · Valencia",
-		"titlePre": "Ich verwandle Daten in ",
-		"titleHighlight": "klare Entscheidungen",
-		"subtitle": "Ich bin die Brücke zwischen Datenanalyse und Spitzensport: Ich verwandle Leistungskennzahlen in Strategien, die auf dem Spielfeld den Unterschied ausmachen.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, Data Scientist",
+		"title": "Ich war spanischer Madison-Meister.",
+		"subtitle": "Jetzt studiere ich Data Science an der UPV und analysiere das, was hinter der Leistung steckt: Watt, Belastung und Ergebnisse. Ich weiß, was eine Zahl für einen Fahrer bedeutet, da ich selbst dieser Fahrer war.",
+		"palmaresLabel": "Erfolge",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Spanische Madison-Meisterschaft",
+				"nota": "Bahn, mit 18 Jahren"
+			},
+			{
+				"pos": "6.",
+				"texto": "Bahn-Weltmeisterschaft",
+				"nota": "Spanische Nationalmannschaft"
+			},
+			{
+				"pos": "6.",
+				"texto": "Bahn-Europameisterschaft",
+				"nota": "Spanische Nationalmannschaft"
+			}
+		],
+		"retratoAlt": "Porträt von Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Wie ich dir helfen kann",
+		"text": "Ich arbeite mit Teams, Trainern und Fahrern zusammen, die Daten haben und diese nutzen wollen. Und mit Unternehmen, die ihre Daten ordnen müssen.",
+		"cta": "Erzähl mir von deinem Fall",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Leistungsanalyse",
+				"texto": "Ich lese Watt, Belastung und Ergebnisse mit den Augen eines Fahrers. Ich erkläre dir, was passiert und was sich ändern sollte.",
+				"prueba": "Elitefahrer und RFEC-Sportdirektor, Stufen I und II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Maßgeschneiderte Tools",
+				"texto": "Scraping, Modelle und kleine Python-Anwendungen, die eine konkrete Frage deines Teams beantworten.",
+				"prueba": "Zwei Tools für das Team Cofidis: UCI-Schwierigkeit und Rennprofil."
+			},
+			{
+				"id": "datos",
+				"nombre": "Datenbanken und Berichte",
+				"texto": "Schnellere Abfragen, vereinheitlichte Datenbanken und Power-BI-Dashboards, die auf den ersten Blick verständlich sind.",
+				"prueba": "Mehr als 580 Tabellen und 100 Millionen Datensätze in der Datenbank, die ich bei SIME Telecom optimiere."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Unterstützung im Rennen",
+				"texto": "Rennvorbereitung, Fahrerbetreuung und Sportmassage im Wettkampf.",
+				"prueba": "Betreuerstab der Auswahl der Valencianischen Gemeinschaft."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Über mich",
-		"title": "Daten mit Kontext von Strecke, Straße und Wettkampf",
-		"text": "Ich bin Mario Álvarez, Student der Datenwissenschaft an der UPV mit praktischer Erfahrung im professionellen Radsport. Ich verbinde Datenanalyse mit sportlicher Spitzenleistung, um jede Kennzahl in eine Entscheidung zu verwandeln, die die Ergebnisse verbessert."
+		"title": "Vom Velodrom zu den Daten",
+		"text": "Ich studiere im 3. Jahr den Bachelor in Data Science an der UPV und habe einen Master in Digitalisierung und angewandter Sporttechnologie abgeschlossen. Ich habe den Radsport nicht verlassen: Ich fahre weiterhin auf der Bahn, trainiere Nachwuchsfahrer und arbeite als Masseur mit Profis."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Standort",
+			"value": "Benidorm und Valencia"
+		},
+		{
 			"label": "Ausbildung",
-			"detail": "Bachelor in Datenwissenschaft, Universitat Politècnica de València."
+			"value": "Bachelor in Data Science (UPV) und Master in Digitalisierung, Innovation und Technologie im Sport"
 		},
 		{
-			"value": "Elite",
-			"label": "Erfahrung",
-			"detail": "Praktische Arbeit in einem professionellen Radsportteam."
+			"label": "Qualifikationen",
+			"value": "RFEC-Sportdirektor, Stufen I und II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Ansatz",
-			"detail": "Analytik angewandt auf die Verbesserung der sportlichen Leistung."
+			"label": "Jetzt",
+			"value": "Verfügbar für Daten- und Leistungsprojekte"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Erfahrung",
-		"title": "Zwei Welten, dieselbe Sprache: die Leistung",
-		"text": "Ich habe auf höchstem Niveau konkurriert und wende heute genau dieses Kriterium auf Daten an: Ich verstehe, was eine Zahl für einen Sportler bedeutet, weil ich dieser Sportler war."
+		"title": "Zwei Wege, dieselbe Arbeit",
+		"text": "Auf dem einen optimiere ich Datenbanken und schreibe Modelle. Auf dem anderen bereite ich Rennen vor und betreue Fahrer. Beides dreht sich um dasselbe: richtig messen, um besser zu entscheiden.",
+		"carriles": [
+			{
+				"nombre": "Daten",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "analysierte Tabellen bei SIME Telecom zur Zusammenführung mehrerer Datenbanken in eine einzige, ohne Hardwareerweiterung"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "Datensätze in der Datenbank, die ich optimiere"
+					},
+					{
+						"cifra": "2",
+						"texto": "Python-Tools für das Team Cofidis: UCI-Schwierigkeit und Rennprofil"
+					}
+				]
+			},
+			{
+				"nombre": "Bahn und Straße",
+				"items": [
+					{
+						"cifra": "I und II",
+						"texto": "Sportdirektor-Stufen des Spanischen Radsportverbandes"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "Jahre alt sind die Nachwuchsfahrer, die ich gemeinsam mit meinem Vater trainiere und betreue"
+					},
+					{
+						"cifra": "2026",
+						"texto": "Betreuer bei der Auswahl der Valencianischen Gemeinschaft im Wettkampf"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Sprechen wir über Daten?",
-		"text": "Erzählen Sie mir von Ihrem Projekt und wir suchen gemeinsam nach den Entscheidungen, die die Leistung verbessern."
+		"title": "Letzte Runde",
+		"text": "Wenn Sie Leistungsdaten und unbeantwortete Fragen haben, schreiben Sie mir und wir schauen uns das gemeinsam an."
 	}
 }

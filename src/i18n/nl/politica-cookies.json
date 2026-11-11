@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Cookiebeleid — Mario Álvarez",
-		"description": "Welke cookies deze website gebruikt, met welk doel en hoe je je toestemming op elk moment kunt wijzigen.",
-		"eyebrow": "Juridisch",
-		"heading": "Cookiebeleid"
+		"description": "Welke cookies marioalvarez.me gebruikt, welke jouw toestemming nodig hebben en hoe je je keuze op elk moment kunt wijzigen.",
+		"heading": "Cookiebeleid",
+		"eleccionTitulo": "Jouw keuze",
+		"eleccionTexto": "Je kunt je gegevens op elk moment wijzigen of wissen, net zo eenvoudig als je ze hebt gegeven."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Deze website maakt gebruik van cookies en vergelijkbare technologieën (zoals lokale opslag van de browser) voor de juiste werking en, als je toestemming geeft, om anoniem te analyseren hoe de inhoud wordt gebruikt."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Gebruikte cookies:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Naam",
-				"Doel",
-				"Type",
-				"Duur"
-			],
-			"filas": [
-				[
-					"cookie_toestemming",
-					"Onthouden van je keuze met betrekking tot dit cookiebeleid",
-					"Eigen, technisch (vrijgesteld van toestemming)",
-					"12 maanden"
-				],
-				[
-					"bezoeker_id",
-					"Anonieme identificatie om je bezoeken te koppelen en te weten welke inhoud nuttig is",
-					"Eigen, analytisch (vereist je toestemming)",
-					"12 maanden"
-				]
+			"titulo": "1. Wat ze zijn en of ik je toestemming nodig heb",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookies en vergelijkbare technologieën (zoals lokale browseropslag) slaan kleine gegevensbestandjes op op je apparaat. Volgens artikel 22.2 van de LSSI-CE en de Gids over het gebruik van cookies van het Spaanse Agentschap voor Gegevensbescherming (AEPD) hebben cookies die strikt noodzakelijk zijn voor iets dat jij vraagt geen toestemming nodig; analytische cookies wel."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Daarom slaat deze website de analytische cookie alleen op als je deze accepteert, en kun je deze accepteren of weigeren met twee gelijke knoppen, op hetzelfde scherm en zonder vooraf aangevinkte vakjes. Het weigeren ervan belet je niet om gebruik te maken van de website."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Geen van deze cookies is van derden, geen enkele wordt gebruikt voor advertentiedoeleinden en geen enkele wordt gedeeld met iemand buiten deze site."
+			"titulo": "2. Cookies die deze website gebruikt",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Naam",
+						"Waarvoor",
+						"Type",
+						"Heeft het je toestemming nodig?",
+						"Duur"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Jouw keuze, de versie van dit beleid en de pseudonieme identificatie van je toestemmingsregistratie opslaan",
+							"Eigen, technisch",
+							"Nee",
+							"12 maanden"
+						],
+						[
+							"visitante_id",
+							"Pseudonieme identificatie om te weten welke inhoud nuttig is",
+							"Eigen, analytisch",
+							"Ja",
+							"12 maanden"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Onthouden of je de lichte of donkere modus prefereert; wordt alleen opgeslagen als je dit wijzigt",
+							"Eigen, voor personalisatie op jouw verzoek",
+							"Nee",
+							"Totdat je deze wist"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Je kunt je beslissing wijzigen of je toestemming op elk moment intrekken via de link \"Cookies configureren\" in de voettekst, en al je gegevens onmiddellijk wissen met de knop \"Mijn gegevens wissen\" in datzelfde paneel."
+			"titulo": "3. Wat er niet is",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Er zijn geen third-party cookies, geen reclame, geen ingesloten socialemedia-inhoud en geen Google Analytics. Lettertypen en afbeeldingen worden vanaf dezezelfde website geladen."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Raadpleeg het Privacybeleid voor meer informatie over hoe je gegevens worden verwerkt."
+			"titulo": "4. Hoe je van gedachten kunt veranderen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Je kunt je keuze wijzigen of je toestemming op elk moment intrekken via «Configurar cookies» in de footer van elke pagina, of met de knop op deze pagina. Vanaf daar kun je ook direct de analytische gegevens gekoppeld aan je browser wissen. En je kunt cookies wissen via je browserinstellingen."
+				}
+			]
+		},
+		{
+			"titulo": "5. Registratie van je keuze",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Elke keer dat je toestemming accepteert, weigert of intrekt, wordt er een registratie opgeslagen (pseudonieme identificatie, beslissing, versie van dit beleid, datum en tijd, pagina, taal, bron en browser), zonder jouw IP-adres, om te kunnen aantonen dat de toestemming geldig was. Deze wordt 3 jaar bewaard. Meer details in het privacybeleid."
+				}
+			]
+		},
+		{
+			"titulo": "6. Wijzigingen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Als dit beleid ingrijpend wijzigt, verschijnt de cookiemelding opnieuw zodat je opnieuw kunt beslissen."
+				}
+			]
 		}
 	]
 }

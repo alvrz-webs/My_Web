@@ -3,11 +3,54 @@
 		"title": "Yhteystiedot — Mario Álvarez",
 		"description": "Ota yhteyttä Mario Álvareziin keskustellaksesi datasta, urheilun suorituskyvystä ja projekteista.",
 		"eyebrow": "Yhteystiedot",
-		"heading": "Onko sinulla dataa ja ratkaistava kysymys?",
-		"intro": "Puhutaan asiasta. Olipa kyseessä urheiluanalytiikkaprojekti, datayhteistyö tai vain idea, jota haluat pallotella, vastaan mielelläni.",
+		"heading": "Onko sinulla dataa ja kysymys?",
+		"intro": "Puhutaan asiasta. Olipa kyseessä urheiluanalytiikkaprojekti, datayhteistyö tai idea, jota haluat pallotella, minä vastaan.",
 		"email": "Sähköposti",
 		"telefono": "Puhelin",
 		"verTelefono": "Näytä puhelinnumero",
-		"redesSociales": "Sosiaalinen media"
+		"redesSociales": "Sosiaalinen media",
+		"temaTitulo": "Mistä haluat puhua?",
+		"temaAyuda": "Valitse aihe, niin valmiiksi kirjoitettu sähköposti odottaa sinua. Sinun tarvitsee vain kertoa minulle tilanteestasi.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Suorituskykyanalyysi"
+			},
+			{
+				"id": "herramientas",
+				"label": "Räätälöity työkalu"
+			},
+			{
+				"id": "datos",
+				"label": "Tietokannat ja raportit"
+			},
+			{
+				"id": "carrera",
+				"label": "Uratuki"
+			},
+			{
+				"id": "otro",
+				"label": "Jokin muu"
+			}
+		],
+		"escribir": "Kirjoita sähköposti",
+		"copiar": "Kopioi sähköposti",
+		"copiado": "Sähköposti kopioitu",
+		"asunto": "Kysely osoitteesta marioalvarez.me",
+		"cuerpo": "Hei Mario:\n\nKirjoitan koskien aihetta: {tema}.\n\nMitä minulla on:\n\nMitä haluaisin tietää:\n\nKiitos.",
+		"otrosCanales": "Muut kanavat",
+		"base": "Tukikohta",
+		"baseValor": "Benidorm ja Valencia",
+		"idiomas": "Kielet",
+		"idiomasValor": "Espanja, valencia ja englanti",
+		"aceptacionesTitulo": "Ennen kuin kirjoitat minulle",
+		"aceptoTerminos": "Olen lukenut ja hyväksyn seuraavat: {enlace}.",
+		"enlaceTerminos": "käyttöehdot",
+		"aceptoCookies": "Hyväksyn analysointievästeet, jotka kuvataan täällä: {enlace} (valinnainen).",
+		"enlaceCookies": "evästekäytäntö",
+		"faltaTerminos": "Kirjoittaaksesi minulle, valitse ensin käyttöehtojen ruutu.",
+		"primeraCapa": "Vastuuhenkilö: Mario Álvarez Martínez. Tarkoitus: vastata kyselyysi ja, jos pyydät sitä, laatia sinulle ehdotus. Oikeutus: pyyntösi. Vastaanottajat: ei kukaan, paitsi lain edellyttäessä. Oikeudet: pääsy, oikaisju, poistaminen ja muut {enlace}:ssä selitetyt oikeudet.",
+		"enlacePrivacidad": "tietosuojakäytäntö",
+		"refEmail": "Ehtojen hyväksymisen viite: {ref}"
 	}
 }

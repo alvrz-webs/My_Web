@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Startpagina",
 		"sobreMi": "Over mij",
 		"proyectos": "Projecten",
 		"experiencia": "Ervaring",
@@ -7,10 +8,22 @@
 		"ariaMain": "Hoofdnavigatie",
 		"openMenu": "Menu openen"
 	},
+	"saltar": "Ga naar de inhoud",
+	"tema": "Schakelen tussen lichte en donkere modus",
+	"telefono": "Telefoon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spaans kampioen madison. Datawetenschapper.",
+		"disponible": "Beschikbaar voor data- en sportprestatieprojecten.",
+		"escribeme": "Schrijf me",
+		"navLabel": "Secties",
+		"legalLabel": "Juridisch",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sociale media"
+	},
+	"cierre": {
+		"title": "Zullen we praten?",
+		"text": "Als je prestatiegegevens en onbeantwoorde vragen hebt, schrijf me dan en we bekijken het samen.",
+		"cta": "Schrijf me"
 	},
 	"langSwitch": {
 		"label": "Taal wijzigen",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Cookie toestemming"
 	},
 	"legal": {
+		"terminos": "Algemene voorwaarden",
 		"privacidad": "Privacybeleid",
-		"cookies": "Cookiebeleid"
+		"cookies": "Cookiebeleid",
+		"reembolso": "Restitutiebeleid",
+		"actualizado": "Laatste update",
+		"indice": "Op deze pagina",
+		"otros": "Andere documenten"
 	},
 	"person": {
 		"jobTitle": "Datawetenschapper",
 		"description": "Datawetenschapper gespecialiseerd in sportanalyse, met ervaring in de professionele wielrennerij."
+	},
+	"pizarra": {
+		"vueltas": "ronden",
+		"campana": "laatste"
 	}
 }

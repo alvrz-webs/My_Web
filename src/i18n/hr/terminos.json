@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Uvjeti korištenja — Mario Álvarez",
+		"description": "Pravna obavijest i uvjeti korištenja stranice marioalvarez.me: tko je vlasnik, kako se web stranica može koristiti i koji se zakon primjenjuje.",
+		"heading": "Uvjeti korištenja"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Tko stoji iza ove web stranice",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "U skladu s člankom 10. Zakona 34/2002 o uslugama informacijskog društva i elektroničke trgovine (LSSI-CE), ovo su podaci o vlasniku stranice marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Vlasnik: {nombre}",
+						"NIF: {nif}",
+						"Adresa: {domicilio}",
+						"E-pošta: {email}",
+						"Djelatnost: profesionalni portfolio i pružanje usluga analize podataka, prilagođenih alata, baza podataka i izvješća te podrška u karijeri."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Što ovi uvjeti reguliraju",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ovi uvjeti reguliraju pristup i korištenje stranice marioalvarez.me („web stranica”) na bilo kojem od njezinih jezika. Pregledavanjem prihvaćate korištenje u skladu s ovdje navedenim. Ako mi pišete putem kontakt obrasca, molim vas da ih izričito prihvatite označavanjem kućice."
+				}
+			]
+		},
+		{
+			"titulo": "3. Kako se web stranica može koristiti",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Možete pregledavati i dijeliti sadržaj uz navođenje izvora. Nije dopušteno:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"koristiti web stranicu u nezakonite svrhe ili svrhe koje štete trećim stranama;",
+						"pokušavati pristupiti ograničenim područjima (poput privatne ploče) ili sustavima koji je hostingom podržavaju;",
+						"unositi viruse ili bilo koji štetni kod, ili je namjerno preopteretiti;",
+						"kopirati sadržaj kako bi se predstavio kao vlastiti."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Usluge i ugovaranje",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Web stranica ne prodaje proizvode niti naplaćuje online plaćanja. Ako vas neka usluga zanima, razgovaramo putem e-pošte ili telefona te vam šaljem pisanu ponudu s opsegom, cijenom, rokovima te uvjetima plaćanja i otkazivanja. Ta ponuda, jednom kada je obostrano prihvaćena, uređuje uslugu i ima prednost pred ovim uvjetima."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kako funkcioniraju otkazivanja, pravo na odustajanje i povrati objašnjeno je u politici povrata novca."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intelektualno i industrijsko vlasništvo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tekstovi, dizajn, izvorni kod, logotip i fotografije Maria Álvareza u njegovom su vlasništvu ili se koriste uz dopuštenje njihovih autora. Nije dopušteno njihovo reproduciranje u komercijalne svrhe bez pisanog dopuštenja."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Nazivi i logotipi trećih strana (poput LinkedIna, GitHub-a, Instagrama ili timova i subjekata navedenih u iskustvu) pripadaju njihovim vlasnicima. Njihovo spominjanje ne podrazumijeva nikakav poslovni odnos ili sponzorstvo, osim ako je izričito navedeno."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web stranica koristi resurse trećih strana s dopuštajućim licencama: fontove Fira Sans Extra Condensed i Source Serif 4 (SIL Open Font License 1.1), ikone Lucide (ISC licenca) i Simple Icons (CC0 1.0) te biblioteku za animaciju GSAP (besplatna standardna licenca GreenSock, s platforme Webflow). Svaki projekt povezan na GitHub-u ima svoju licencu."
+				}
+			]
+		},
+		{
+			"titulo": "6. Odgovornost",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Radim na tome da informacije budu točne i web stranica dostupna, ali ne mogu jamčiti da neće biti pogrešaka ili prekida. Sadržaji su informativnog karaktera i ne zamjenjuju stručni savjet o vašem konkretnom slučaju."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Web stranica sadrži poveznice na web stranice trećih strana (društvene mreže, repozitorije, web stranice projekata). Ne kontroliram njihov sadržaj ni politike i nisam odgovoran za njih."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privatnost i kolačići",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kako se postupa s vašim podacima i koji se kolačići koriste objašnjeno je u politici privatnosti i politici kolačića. Nijedan dio web stranice ne prisiljava vas na prihvaćanje kolačića kako biste je mogli koristiti."
+				}
+			]
+		},
+		{
+			"titulo": "8. Evidencija prihvaćanja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kako bi se mogao dokazati pristanak kada je to potrebno (članak 7.1 GDPR-a), kada prihvatite ove uvjete u kontakt obrascu ili odaberete koje kolačiće dopuštate, pohranjuje se evidencija koja sadrži: pseudonimizirani identifikator, ono što ste prihvatili ili odbili, verziju svakog dokumenta, datum i vrijeme, stranicu i jezik s kojih ste to učinili, izvor (natpis, postavke ili obrazac), preglednik i, u obrascu, referentni kod koji putuje u vašoj e-pošti. Vaša IP adresa se ne pohranjuje. Pojedinosti se nalaze u politici privatnosti."
+				}
+			]
+		},
+		{
+			"titulo": "9. Jezici",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Verzija ovih tekstova na španjolskom jeziku je originalna i ima prednost u slučaju sumnje. Ostalo su automatski prijevodi koji se nude radi praktičnosti."
+				}
+			]
+		},
+		{
+			"titulo": "10. Promjene",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Mogu ažurirati ove uvjete kako bih ih prilagodio zakonskim promjenama ili promjenama na web stranici. Datum važeće verzije nalazi se na početku ove stranice. Ako je promjena važna, ponovno ću zatražiti da ih prihvatite."
+				}
+			]
+		},
+		{
+			"titulo": "11. Mjerodavni zakon i nadležnost",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ovi uvjeti podliježu španjolskom zakonu. Ako postupate kao potrošač, možete se obratiti sudovima svog mjesta prebivališta te sustavima arbitraže i rješavanja potrošačkih sporova vaše autonomne zajednice. U svim ostalim slučajevima, obje strane se podvrgavaju sudovima i tribunalima u Benidormu (Alicante)."
+				}
+			]
+		}
+	]
+}

@@ -4,7 +4,10 @@
 		"description": "Repozitoriji in projekti analize podatkov, vizualizacije in strojne učenja, katerih avtor je Mario Álvarez.",
 		"eyebrow": "Projekti",
 		"heading": "Projekti",
-		"intro": "Pregled mojega dela: od orodij za profesionalno kolesarjenje do akademskih projektov analize in strojnega učenja."
+		"intro": "Pregled mojega dela: od orodij za profesionalno kolesarjenje do akademskih projektov analize in strojnega učenja.",
+		"cifraRepos": "javni repozitoriji v GitHubu",
+		"cifraWebs": "objavljena spletna mesta",
+		"cifraHerramientas": "jeziki in orodja"
 	},
 	"list": {
 		"eyebrow": "Delo",

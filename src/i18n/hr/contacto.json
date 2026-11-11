@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Stupite u kontakt s Mariom Álvarezom kako biste razgovarali o podacima, sportskim performansama i projektima.",
 		"eyebrow": "Kontakt",
-		"heading": "Imate podatke i pitanje koje treba riješiti?",
-		"intro": "Razgovarajmo. Bilo da se radi o projektu sportske analitike, suradnji s podacima ili jednostavno o ideji koju želite provjeriti, rado ću odgovoriti.",
+		"heading": "Imate podatke i pitanje?",
+		"intro": "Razgovarajmo. Bilo da se radi o projektu sportske analitike, podatkovnoj suradnji ili ideji koju želite provjeriti, ja vam odgovaram.",
 		"email": "E-pošta",
 		"telefono": "Telefon",
 		"verTelefono": "Prikaži telefon",
-		"redesSociales": "Društvene mreže"
+		"redesSociales": "Društvene mreže",
+		"temaTitulo": "O čemu želite razgovarati?",
+		"temaAyuda": "Odaberite temu i pripremiti ću vam e-poštu. Samo mi trebate ispričati svoj slučaj.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analiza učinka"
+			},
+			{
+				"id": "herramientas",
+				"label": "Prilagođeni alat"
+			},
+			{
+				"id": "datos",
+				"label": "Baze podataka i izvješća"
+			},
+			{
+				"id": "carrera",
+				"label": "Podrška u karijeri"
+			},
+			{
+				"id": "otro",
+				"label": "Nešto drugo"
+			}
+		],
+		"escribir": "Napiši e-poštu",
+		"copiar": "Kopiraj e-poštu",
+		"copiado": "E-pošta kopirana",
+		"asunto": "Upit s marioalvarez.me",
+		"cuerpo": "Pozdrav Mario:\n\nPišem vam o: {tema}.\n\nOno što imam:\n\nOno što bih želio/la znati:\n\nHvala.",
+		"otrosCanales": "Ostali kanali",
+		"base": "Baza",
+		"baseValor": "Benidorm i Valencia",
+		"idiomas": "Jezici",
+		"idiomasValor": "Španjolski, valencijski i engleski",
+		"aceptacionesTitulo": "Prije nego što mi pišete",
+		"aceptoTerminos": "Pročitao/la sam i prihvaćam {enlace}.",
+		"enlaceTerminos": "uvjeti i odredbe",
+		"aceptoCookies": "Prihvaćam analitičke kolačiće opisane u {enlace} (izborno).",
+		"enlaceCookies": "politika kolačića",
+		"faltaTerminos": "Za pisanje poruke prvo označite kućicu s uvjetima i odredbama.",
+		"primeraCapa": "Voditelj obrade: Mario Álvarez Martínez. Svrha: odgovor na vaš upit i, ako zatražite, priprema prijedloga. Pravna osnova: vaš zahtjev. Primatelji: nitko, osim u slučaju zakonske obveze. Prava: pristup, ispravak, brisanje i druga koja su objašnjena u {enlace}.",
+		"enlacePrivacidad": "politika privatnosti",
+		"refEmail": "Referenca prihvaćanja uvjeta: {ref}"
 	}
 }

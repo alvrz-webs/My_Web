@@ -1,7 +1,5 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import PageHeader from '../PageHeader.astro';
-import PoliticaBloques from '../PoliticaBloques.astro';
+import PaginaLegal from '../PaginaLegal.astro';
 import { type Locale } from '../../lib/i18n';
 import { getDict } from '../../lib/dictionary';
 
@@ -11,26 +9,36 @@ interface Props {
 
 const { lang = 'es' } = Astro.props;
 
-const politica = getDict(lang, 'politica-cookies') as any;
-const t = politica.meta;
+const t = (getDict(lang, 'politica-cookies') as any).meta;
+const cookies = (getDict(lang, 'common') as any).cookies;
 ---
 
-<Layout title={t.title} description={t.description} lang={lang}>
-	<PageHeader eyebrow={t.eyebrow} title={t.heading} />
-
-	<section class="politica">
-		<div class="container politica-inner">
-			<PoliticaBloques bloques={politica.bloques} />
-		</div>
-	</section>
-</Layout>
+<PaginaLegal lang={lang} pagina="politica-cookies" version="cookies">
+	<div slot="aside" class="eleccion">
+		<h2 class="eleccion-titulo">{t.eleccionTitulo ?? cookies.configurar}</h2>
+		{t.eleccionTexto && <p class="eleccion-texto">{t.eleccionTexto}</p>}
+		<button type="button" class="btn btn-ghost" data-configurar-cookies>
+			{cookies.configurar}
+		</button>
+	</div>
+</PaginaLegal>
 
 <style>
-	.politica {
-		padding-block: 1rem 6rem;
+	.eleccion {
+		display: grid;
+		justify-items: start;
+		gap: 0.75rem;
+		padding-block-start: 1rem;
+		border-block-start: 3px solid var(--color-text);
 	}
 
-	.politica-inner {
-		max-width: 74ch;
+	.eleccion-titulo {
+		font-size: var(--fs-h3);
+		font-weight: 700;
+	}
+
+	.eleccion-texto {
+		color: var(--color-text-dim);
+		margin-block-end: 0.5rem;
 	}
 </style>

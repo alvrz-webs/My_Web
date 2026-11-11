@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Política de Cookies — Mario Álvarez",
-		"description": "Que cookies este site utiliza, com que finalidade e como alterar o seu consentimento a qualquer momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"version": "2026-11-10",
+		"title": "Política de cookies — Mario Álvarez",
+		"description": "Que cookies marioalvarez.me usa, quais precisam da sua permissão e como alterar sua escolha a qualquer momento.",
+		"heading": "Política de cookies",
+		"eleccionTitulo": "Sua escolha",
+		"eleccionTexto": "Você pode alterá-la ou excluir seus dados quando quiser, tão fácil quanto os forneceu."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Este site utiliza cookies e tecnologias semelhantes (como o armazenamento local do navegador) para o seu correto funcionamento e, se deres o teu consentimento, para analisar de forma anónima como o conteúdo é utilizado."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nome",
-				"Finalidade",
-				"Tipo",
-				"Duração"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Lembrar a tua escolha sobre esta política de cookies",
-					"Própria, técnica (isenta de consentimento)",
-					"12 meses"
-				],
-				[
-					"visitante_id",
-					"Identificador anónimo para relacionar as tuas visitas e saber que conteúdo resulta útil",
-					"Própria, analítica (requer o teu consentimento)",
-					"12 meses"
-				]
+			"titulo": "1. O que são e se preciso da sua permissão",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Os cookies e tecnologias semelhantes (como o armazenamento local do navegador) salvam pequenos dados no seu dispositivo. De acordo com o artigo 22.2 da LSSI-CE e o Guia sobre o uso de cookies da Agência Espanhola de Proteção de Dados, aqueles estritamente necessários para algo que você solicita não precisam de consentimento; os de análise, sim."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Por isso este site só salva o cookie de análise se você aceitar, e permite aceitar ou rejeitar com dois botões iguais, na mesma tela e sem caixas marcadas antecipadamente. Rejeitá-lo não impede você de usar nada do site."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Nenhum destes cookies é de terceiros, nenhum é utilizado para fins publicitários e nenhum é partilhado com ninguém fora deste site."
+			"titulo": "2. Cookies que este site usa",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nome",
+						"Para que serve",
+						"Tipo",
+						"Precisa da sua permissão?",
+						"Duração"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Salvar sua escolha, a versão desta política e o identificador pseudônimo do seu registro de consentimento",
+							"Própria, técnica",
+							"Não",
+							"12 meses"
+						],
+						[
+							"visitante_id",
+							"Identificador pseudônimo para saber quais conteúdos são úteis",
+							"Própria, de análise",
+							"Sim",
+							"12 meses"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Lembrar se você prefere o tema claro ou escuro; só é salvo se você o alterar",
+							"Própria, de personalização solicitada por você",
+							"Não",
+							"Até que você o exclua"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Podes alterar a tua decisão ou retirar o teu consentimento a qualquer momento através do link \"Configurar cookies\" no rodapé, e apagar de imediato todos os teus dados com o botão \"Apagar os meus dados\" nesse mesmo painel."
+			"titulo": "3. O que não há",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Não há cookies de terceiros, nem publicidade, nem conteúdos de redes sociais incorporados, nem Google Analytics. As tipografias e as imagens são servidas a partir deste próprio site."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Para mais informações sobre como os teus dados são tratados, consulta a Política de Privacidade."
+			"titulo": "4. Como mudar de ideia",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Você pode alterar sua escolha ou retirar o consentimento quando quiser em «Configurar cookies», no rodapé de cada página, ou com o botão desta página. A partir daí, você também pode excluir imediatamente os dados de análise associados ao seu navegador. E você pode excluir os cookies através das configurações do seu navegador."
+				}
+			]
+		},
+		{
+			"titulo": "5. Registro da sua escolha",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cada vez que você aceita, rejeita ou retira o consentimento, um registro é salvo (identificador pseudônimo, decisão, versão desta política, data e hora, página, idioma, origem e navegador), sem o seu endereço IP, para poder comprovar que o consentimento foi válido. É conservado por 3 anos. Mais detalhes na política de privacidade."
+				}
+			]
+		},
+		{
+			"titulo": "6. Alterações",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Se esta política mudar de forma relevante, o aviso de cookies aparecerá novamente para que você decida de novo."
+				}
+			]
 		}
 	]
 }

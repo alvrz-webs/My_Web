@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Termes i condicions — Mario Álvarez",
+		"description": "Avís legal i condicions d'ús de marioalvarez.me: qui n'és el titular, com es pot utilitzar el web i quina llei s'aplica.",
+		"heading": "Termes i condicions"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Qui hi ha darrere d'aquest web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "En compliment de l'article 10 de la Llei 34/2002, de serveis de la societat de la informació i de comerç electrònic (LSSI-CE), aquestes són les dades del titular de marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Titular: {nombre}",
+						"NIF: {nif}",
+						"Domicili: {domicilio}",
+						"Email: {email}",
+						"Activitat: portafoli professional i oferiment de serveis d'anàlisi de dades, eines a mida, bases de dades i informes i suport en carrera."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Què regulen aquests termes",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aquests termes regulen l'accés i l'ús de marioalvarez.me (el «web») en qualsevol dels seus idiomes. En navegar-hi acceptes usar-lo d'acord amb el que s'hi diu. Si m'escrius des del formulari de contacte, et demano que els acceptis de manera expressa marcant una casella."
+				}
+			]
+		},
+		{
+			"titulo": "3. Com es pot utilitzar el web",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pots consultar i compartir els continguts citant-ne l'origen. No està permès:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"utilitzar el web amb finalitats il·lícites o que perjudiquin tercers;",
+						"intentar accedir a zones restringides (com el panell privat) o als sistemes que l'allotgen;",
+						"introduir virus o qualsevol codi nociu, o sobrecarregar-lo de manera deliberada;",
+						"copiar els continguts per presentar-los com a propis."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Serveis i contractació",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "El web no ven productes ni cobra pagaments en linia. Si t'interessa un servei, en parlem per email o per telèfon i t'envio una proposta per escrit amb l'abast, el preu, els terminis i les condicions de pagament i de cancel·lació. Aquesta proposta, un cop acceptada per tots dos, és la que regeix el servei i preval sobre aquests termes."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Com funcionen les cancel·lacions, el dret de desistiment i les devolucions s'explica en la política de reemborsament."
+				}
+			]
+		},
+		{
+			"titulo": "5. Propietat intel·lectual i industrial",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Els textos, el disseny, el codi propi, el logotip i les fotografies de Mario Álvarez són de la seva titularitat o s'usen amb autorització dels seus autors. No es permet reproduir-los amb finalitats comercials sense permís per escrit."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Els noms i logotips de tercers (com LinkedIn, GitHub, Instagram o els equips i entitats citats en l'experiència) pertanyen als seus amos. Mencionar-los no implica cap relació comercial ni patrocini, tret que es digui expressament."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "El web utilitza recursos de tercers amb llicències que ho permeten: les tipografies Fira Sans Extra Condensed i Source Serif 4 (SIL Open Font License 1.1), les icones de Lucide (llicència ISC) i de Simple Icons (CC0 1.0) i la biblioteca d'animació GSAP (llicència estàndard gratuïta de GreenSock, de Webflow). Cada projecte enllaçat a GitHub té la seva pròpia llicència."
+				}
+			]
+		},
+		{
+			"titulo": "6. Responsabilitat",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Treballo perquè la informació sigui correcta i el web estigui disponible, però no puc garantir que no hi hagi errors o interrupcions. Els continguts són informatius i no substitueixen un assessorament professional sobre el teu cas concret."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "El web enllaça a llocs de tercers (xarxes socials, repositoris, webs de projectes). No controlo el seu contingut ni les seves polítiques i no en responc."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privadesa i galetes",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Com es tracten les teues dades i quines galetes s'usen s'explica en la política de privadesa i en la política de galetes. Cap part del web t'obliga a acceptar galetes per poder utilitzar-lo."
+				}
+			]
+		},
+		{
+			"titulo": "8. Registre d'acceptacions",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Per poder demostrar el consentiment quan calgui (article 7.1 del RGPD), quan acceptes aquests termes en el formulari de contacte o tries quines galetes permets es guarda un registre amb: un identificador pseudònim, què vas acceptar o rebutjar, la versió de cada document, la data i l'hora, la pàgina i l'idioma des dels quals ho vas fer, l'origen (bàner, configuració o formulari), el navegador i, al formulari, un codi de referència que viatja al teu email. No es guarda la teva adreça IP. Els detalls estan a la política de privadesa."
+				}
+			]
+		},
+		{
+			"titulo": "9. Idiomes",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "La versió en espanyol d'aquests textos és l'original i preval en cas de dubte. Les altres són traduccions automàtiques que s'ofereixen per comoditat."
+				}
+			]
+		},
+		{
+			"titulo": "10. Canvis",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pc actualitzar aquests termes per adaptar-los a canvis legals o del web. La data de la versió vigent apareix al principi d'aquesta pàgina. Si el canvi és rellevant, et tornaré a demanar que els acceptis."
+				}
+			]
+		},
+		{
+			"titulo": "11. Llei aplicable i jurisdicció",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Aquests termes es regeixen per la llei espanyola. Si actues com a consumidor, pots acudir als jutjats del teu domicili i als sistemes d'arbitratge i resolució de conflictes de consum de la teva comunitat autònoma. En els altres casos, ambdues parts se sotmeten als jutjats i tribunals de Benidorm (Alacant)."
+				}
+			]
+		}
+	]
+}

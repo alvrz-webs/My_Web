@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Trang chủ",
 		"sobreMi": "Về tôi",
 		"proyectos": "Dự án",
 		"experiencia": "Kinh nghiệm",
@@ -7,10 +8,22 @@
 		"ariaMain": "Điều hướng chính",
 		"openMenu": "Mở menu"
 	},
+	"saltar": "Chuyển đến nội dung",
+	"tema": "Chuyển đổi giữa chế độ sáng và tối",
+	"telefono": "Điện thoại",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Nhà vô địch madison Tây Ban Nha. Nhà khoa học dữ liệu.",
+		"disponible": "Sẵn sàng cho các dự án dữ liệu và hiệu suất thể thao.",
+		"escribeme": "Viết cho tôi",
+		"navLabel": "Các phần",
+		"legalLabel": "Pháp lý",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Mạng xã hội"
+	},
+	"cierre": {
+		"title": "Chúng ta nói chuyện chứ?",
+		"text": "Nếu bạn có dữ liệu hiệu suất và các câu hỏi chưa có lời đáp, hãy viết cho tôi và chúng ta sẽ cùng xem xét.",
+		"cta": "Viết cho tôi"
 	},
 	"langSwitch": {
 		"label": "Đổi ngôn ngữ",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Sự đồng ý về cookie"
 	},
 	"legal": {
+		"terminos": "Điều khoản và điều kiện",
 		"privacidad": "Chính sách quyền riêng tư",
-		"cookies": "Chính sách cookie"
+		"cookies": "Chính sách cookie",
+		"reembolso": "Chính sách hoàn tiền",
+		"actualizado": "Cập nhật lần cuối",
+		"indice": "Trên trang này",
+		"otros": "Các tài liệu khác"
 	},
 	"person": {
 		"jobTitle": "Nhà khoa học dữ liệu",
 		"description": "Nhà khoa học dữ liệu chuyên về phân tích thể thao, có kinh nghiệm trong bộ môn đạp xe chuyên nghiệp."
+	},
+	"pizarra": {
+		"vueltas": "vòng",
+		"campana": "cuối cùng"
 	}
 }

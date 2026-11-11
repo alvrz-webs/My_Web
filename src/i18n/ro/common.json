@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Acasă",
 		"sobreMi": "Despre mine",
 		"proyectos": "Proiecte",
 		"experiencia": "Experiență",
@@ -7,10 +8,22 @@
 		"ariaMain": "Navigare principală",
 		"openMenu": "Deschide meniul"
 	},
+	"saltar": "Treci la conținut",
+	"tema": "Schimbă între modul luminos și cel întunecat",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Campion al Spaniei la madison. Om de știință al datelor.",
+		"disponible": "Disponibil pentru proiecte de date și performanță sportivă.",
+		"escribeme": "Scrie-mi",
+		"navLabel": "Secțiuni",
+		"legalLabel": "Legal",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Rețele sociale"
+	},
+	"cierre": {
+		"title": "Vorbim?",
+		"text": "Dacă ai date de performanță și întrebări fără răspuns, scrie-mi și le analizăm împreună.",
+		"cta": "Scrie-mi"
 	},
 	"langSwitch": {
 		"label": "Schimbă limba",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Consimțământ privind cookie-urile"
 	},
 	"legal": {
+		"terminos": "Termeni și condiții",
 		"privacidad": "Politica de confidențialitate",
-		"cookies": "Politica de cookie-uri"
+		"cookies": "Politica de cookie-uri",
+		"reembolso": "Politica de rambursare",
+		"actualizado": "Ultima actualizare",
+		"indice": "Pe această pagină",
+		"otros": "Alte documente"
 	},
 	"person": {
 		"jobTitle": "Om de știință a datelor",
 		"description": "Om de știință a datelor specializat în analitică sportivă, cu experiență în ciclismul profesionist."
+	},
+	"pizarra": {
+		"vueltas": "ture",
+		"campana": "ultima"
 	}
 }

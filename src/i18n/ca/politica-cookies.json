@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Política de galetes — Mario Álvarez",
-		"description": "Quines galetes utilitza aquest lloc, amb quina finalitat i com canviar el teu consentiment en qualsevol moment.",
-		"eyebrow": "Legal",
-		"heading": "Política de galetes"
+		"description": "Quines galetes utilitza marioalvarez.me, quines necessiten el teu permís i com pots canviar la teva tria en qualsevol moment.",
+		"heading": "Política de galetes",
+		"eleccionTitulo": "La teva tria",
+		"eleccionTexto": "Pots canviar-la o esborrar les teves dades quan vulguis, amb la mateixa facilitat amb què la vas donar."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Aquest web utilitza galetes i tecnologies similars (com l'emmagatzematge local del navegador) per al seu funcionament correcte i, si dones el teu consentiment, per analitzar de manera anònima com s'utilitza el contingut."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Galetes utilitzades:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nom",
-				"Finalitat",
-				"Tipus",
-				"Durada"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Recordar la teva elecció sobre aquesta política de galetes",
-					"Pròpia, tècnica (exenta de consentiment)",
-					"12 mesos"
-				],
-				[
-					"visitante_id",
-					"Identificador anònim per relacionar les teues visites i saber quin contingut resulta útil",
-					"Pròpia, analítica (requereix el teu consentiment)",
-					"12 mesos"
-				]
+			"titulo": "1. Què són i si necessito el teu permís",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Les galetes i tecnologies semblants (com l'emmagatzematge local del navegador) guarden petites dades al teu dispositiu. Segons l'article 22.2 de la LSSI-CE i la Guia sobre l'ús de les galetes de l'Agència Espanyola de Protecció de Dades, les que són estrictament necessàries per a alguna cosa que tu demanes no necessiten consentiment; les d'anàlisi, sí."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Per això aquest lloc web només guarda la galeta d'anàlisi si l'acceptes, i et deixa acceptar o rebutjar amb dos botons iguals, a la mateixa pantalla i sense caselles marcades de bestreta. Rebutjar-la no t'impedeix utilitzar res del lloc web."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Cap d'estes galetes és de tercers, cap s'utilitza amb finalitats publicitàries, i cap es compartix amb ningú fora d'este lloc."
+			"titulo": "2. Galetes que utilitza aquest lloc web",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nom",
+						"Per a què",
+						"Tipus",
+						"Necessita el teu permís?",
+						"Durada"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Guardar la teva tria, la versió d'aquesta política i l'identificador pseudònim del teu registre de consentiment",
+							" Pròpia, tècnica",
+							"No",
+							"12 mesos"
+						],
+						[
+							"visitante_id",
+							"Identificador pseudònim per saber quins continguts resulten útils",
+							"Pròpia, d'anàlisi",
+							"Sí",
+							"12 mesos"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Recordar si prefereixes el tema clar o fosc; només es guarda si el canvies",
+							"Pròpia, de personalització demanada per tu",
+							"No",
+							"Fins que l'esborris"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Pots canviar la teua decisió o retirar el teu consentiment en qualsevol moment des de l'enllaç \"Configurar galetes\" al peu de pàgina, i esborrar de manera immediata totes les teues dades amb el botó \"Esborrar les meues dades\" en eixe mateix panell."
+			"titulo": "3. El que no hi ha",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "No hi ha galetes de tercers, ni publicitat, ni continguts de xarxes socials incrustats, ni Google Analytics. Les tipografies i les imatges se serveixen des d'aquest mateix lloc web."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Per a més informació sobre com es tracten les teues dades, consulta la Política de Privacitat."
+			"titulo": "4. Com canviar d'opinió",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pots canviar la teva tria o retirar el consentiment quan vulguis des de «Configurar galetes», al peu de cada pàgina, o amb el botó d'aquesta pàgina. Des d'allà també pots esborrar al moment les dades d'anàlisi associades al teu navegador. I pots esborrar les galetes des de la configuració del teu navegador."
+				}
+			]
+		},
+		{
+			"titulo": "5. Registre de la teva tria",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cada vegada que acceptes, rebutges o retires el consentiment es guarda un registre (identificador pseudònim, decisió, versió d'aquesta política, data i hora, pàgina, idioma, origen i navegador), sense la teva adreça IP, per poder demostrar que el consentiment va ser vàlid. Es conserva 3 anys. Més detalls a la política de privadesa."
+				}
+			]
+		},
+		{
+			"titulo": "6. Canvis",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Si aquesta política canvia de manera rellevant, l'avís de galetes tornarà a aparèixer perquè decideixis de nou."
+				}
+			]
 		}
 	]
 }

@@ -1,93 +1,159 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Privacybeleid — Mario Álvarez",
-		"description": "Privacybeleid van de website van Mario Álvarez: welke gegevens worden verzameld, met welk doel en hoe je je rechten kunt uitoefenen.",
-		"eyebrow": "Juridisch",
+		"description": "Welke gegevens marioalvarez.me verwerkt, voor welk doel, op welke wettelijke basis, hoe lang en hoe je je rechten kunt uitoefenen.",
 		"heading": "Privacybeleid"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Verantwoordelijke voor de verwerking",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, met adres in Benidorm (Alicante), Spanje. Contact: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Doel van de verwerking",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Deze website analyseert intern en uitsluitend voor statistische doeleinden welke inhoud (secties, projecten) het meest nuttig is voor bezoekers, met als doel de inhoud te verbeteren. Het wordt niet gebruikt voor reclamedoeleinden, niet gedeeld met derden en onder geen enkele beding verkocht."
-				}
-			]
-		},
-		{
-			"titulo": "3. Verzamelde gegevens (alleen als je analytische cookies accepteert)",
+			"titulo": "1. Verantwoordelijke",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Een willekeurige anonieme identificator, niet gekoppeld aan je naam, e-mailadres of andere informatie die je direct identificeert.",
-						"Pagina's en projecten die je bezoekt, en de tijd besteed aan elk daarvan (terwijl het tabblad actief is).",
-						"Interacties (klikken op projecten, links of knoppen).",
-						"Datum en tijd van het bezoek.",
-						"Taal van de geraadpleegde site.",
-						"Apparaattype (mobiel of desktop).",
-						"Geschat land, verkregen via de infrastructuur van Cloudflare, zonder je IP-adres op te slaan.",
-						"Herkomstpagina (bijvoorbeeld LinkedIn of een zoekmachine)."
+						"Verantwoordelijke: {nombre}",
+						"NIF: {nif}",
+						"Adres: {domicilio}",
+						"E-mail voor al je privacyvragen: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Je IP-adres wordt niet verzameld, er worden geen technieken voor browseridentificatie (fingerprinting) gebruikt en er worden geen tools van derden zoals Google Analytics of vergelijkbare diensten gebruikt."
+					"texto": "Gezien de omvang en de aard van de activiteit is het niet verplicht om een functionaris voor gegevensbescherming aan te stellen, dus die is er niet: schrijf mij rechtstreeks."
 				}
 			]
 		},
 		{
-			"titulo": "4. Wettelijke grondslag",
+			"titulo": "2. Welke gegevens ik verwerk, voor welk doel en waarom",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "De verwerking is gebaseerd op je uitdrukkelijke toestemming (artikel 6.1.a van de AVG en artikel 22.2 van de LSSI-CE), die je op elk moment kunt intrekken via de cookiebeheerder van de website zelf."
+					"tipo": "tabla",
+					"columnas": [
+						"Waarvoor",
+						"Welke gegevens",
+						"Wettelijke basis",
+						"Hoe lang"
+					],
+					"filas": [
+						[
+							"Gebruiksanalytica, alleen als je akkoord gaat met de analytische cookies",
+							"Een willekeurig pseudoniem identificatiemiddel (cookie visitante_id), de secties en projecten die je bekijkt en de tijd op elk daarvan, klikken op links en knoppen, de taal, het type apparaat (mobiel of desktop), het geschatte land en de pagina van de website waarop elk event plaatsvindt.",
+							"Jouw toestemming (art. 6.1.a AVG en art. 22.2 LSSI-CE).",
+							"12 maanden; daarna wordt elk event automatisch verwijderd."
+						],
+						[
+							"Toestemmingsregister",
+							"Het pseudoniem identificatiemiddel, wat je hebt geaccepteerd, geweigerd of ingetrokken, de versie van elk document, de datum en tijd, de pagina, de taal, de herkomst (banner, configuratie of formulier), de browser (user-agent) en het geschatte land; in het formulier bovendien de referentiecode van je e-mail.",
+							"Voldoen aan de verplichting om aan te tonen dat er toestemming is verkregen (art. 6.1.c en 7.1 AVG).",
+							"3 jaar vanaf elke registratie (de maximale verjaringstermijn voor overtredingen van de LOPDGDD); daarna wordt het automatisch verwijderd."
+						],
+						[
+							"Antwoorden op je vraag via e-mail of telefoon",
+							"De gegevens die je ervoor kiest om mij te sturen: meestal je naam, je e-mail of telefoonnummer en de inhoud van het bericht.",
+							"Precontractuele maatregelen toepassen op jouw verzoek (art. 6.1.b AVG) of mijn gerechtvaardigd belang om te antwoorden (art. 6.1.f).",
+							"Zolang het gesprek duurt en tot 1 jaar daarna, tenzij we een contract aangaan."
+						],
+						[
+							"Het beheren van een gecontracteerde dienst",
+							"Identificatie-, contact- en factureringsgegevens.",
+							"Uitvoering van het contract (art. 6.1.b AVG) en fiscale en boekhoudkundige verplichtingen (art. 6.1.c).",
+							"Wat de belasting- en handelswetgeving vereist (over het algemeen tussen 4 en 6 jaar)."
+						],
+						[
+							"Onthouden of je de lichte of donkere thema verkiest",
+							"De voorkeur «tema», alleen opgeslagen in je browser (lokale opslag). Bereikt mij niet.",
+							"Een functie die je aanvraagt door op de knop te drukken (vrijgesteld van toestemming volgens art. 22.2 LSSI-CE).",
+							"Totdat je deze uit je browser verwijdert."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Bewaartermijn",
+			"titulo": "3. Wat ik niet vraag of verzamel",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Gegevens worden maximaal 12 maanden bewaard vanaf je laatste bezoek, waarna ze automatisch worden verwijderd."
+					"texto": "Ik verwerk alleen het strikt noodzakelijke voor elk doel. Concreet:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Het contactformulier vraagt niet om je naam, je e-mail of je telefoonnummer: het opent je e-mailprogramma en jij besluit wat je mij stuurt.",
+						"Ik bewaar je IP-adres niet, wederom niet in de analytica noch in het toestemmingsregister.",
+						"Ik gebruik geen browseridentificatietechnieken (fingerprinting), Google Analytics, advertentiepixels of cookies van derden.",
+						"Lettertypen en afbeeldingen worden vanaf dezezelfde website geladen: bij een bezoek maakt je browser geen verbinding met Google Fonts, GitHub of andere externe diensten."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Ontvangers en internationale doorgiften",
+			"titulo": "4. Wie er nog meer bij betrokken zijn",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Gegevens worden niet doorgegeven of verkocht aan derden. Ze worden opgeslagen in Cloudflare D1, een databasedienst geleverd door Cloudflare, Inc., die optreedt als verwerker. Cloudflare kan gegevens verwerken buiten de Europese Economische Ruimte; in dat geval is een dergelijke doorgifte gebaseerd op de door de Europese Commissie goedgekeurde standaardcontractbepalingen. Meer informatie in het privacybeleid van Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ik verkoop of geef je gegevens aan niemand door, behalve bij wettelijke verplichting. Om de website te laten werken en je te antwoorden gebruik ik deze leveranciers:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: host de website en de database (Cloudflare Pages en D1) en treedt op als verwerker. Om de website te tonen verwerkt het technische verbindingsgegevens, zoals je IP-adres, waartoe ik geen toegang heb. Hun beleid: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): de e-mailservice waarin ik e-mails ontvang en beantwoord; verwerkt deze berichten volgens hun eigen beleid: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Jouw rechten",
+			"titulo": "5. Internationale doorgiften",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Je kunt op elk moment je rechten op inzage, rectificatie, verwijdering, bezwaar, beperking van de verwerking en overdraagbaarheid uitoefenen door te schrijven naar malvmar5@hotmail.com. Daarnaast kun je je gegevens direct wissen, zonder dat je iemand hoeft te schrijven, via de knop \"Mijn gegevens wissen\" die beschikbaar is in de cookie-instellingen van de site. Je hebt ook het recht om een klacht in te dienen bij de Spaanse gegevensbeschermingsautoriteit (www.aepd.es) als je van mening bent dat je rechten niet correct zijn behandeld."
+					"texto": "Cloudflare en Microsoft kunnen gegevens verwerken in de Verenigde Staten. Beide zijn aangesloten bij het EU-VS Privacypramework (adequaatheidsbesluit van de Europese Commissie van 10 juli 2023) en bieden daarnaast de door de Commissie goedgekeurde modelcontractbepalingen."
 				}
 			]
 		},
 		{
-			"titulo": "8. Wijzigingen in dit beleid",
+			"titulo": "6. Jouw rechten",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dit beleid kan worden bijgewerkt om zich aan te passen aan wettelijke wijzigingen of veranderingen op de site zelf."
+					"texto": "Je kunt mij op elk moment vragen om toegang tot je gegevens, rectificatie, verwijdering, bezwaar tegen de verwerking, beperking daarvan of om ze te ontvangen om ze ergens anders te gebruiken (overdraagbaarheid), en je toestemming intrekken zonder dat dit invloed heeft op hetgeen daarvoor is verwerkt. Schrijf naar {email}; ik antwoord je binnen maximaal een maand."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analytische gegevens kun je zelf direct wissen met de knop «Mijn gegevens wissen» in de cookie-instellingen. Het toestemmingsregister wordt bewaardzelfs als je de toestemming intrekt, omdat het juist dient om te bewrijven wanneer je deze hebt gegeven en wanneer je deze hebt ingetrokken."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Als je vindt dat ik niet goed ben omgegaan met je rechten, kun je een klacht indienen bij de Spaanse Gegevensbeschermingsautoriteit (Agencia Española de Protección de Datos): https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Minderjarigen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "De website is niet gericht op minderjarigen jonger dan 14 jaar. Als je jonger bent dan 14 jaar, stuur dan geen persoonsgegevens zonder toestemming van je ouders of voogden (art. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Beveiliging",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Gegevens reizen versleuteld (HTTPS) en worden opgeslagen in een database die alleen toegankelijk is via het privépaneel, beveiligd met een gebruikersnaam en wachtwoord."
+				}
+			]
+		},
+		{
+			"titulo": "9. Wijzigingen in dit beleid",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Als er iets belangrijks verandert, werk ik deze pagina en de versiedatum bij. Als de wijziging betrekking heeft op cookies, wordt je opnieuw om toestemming gevraagd."
 				}
 			]
 		}

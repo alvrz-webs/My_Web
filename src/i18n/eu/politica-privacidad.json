@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Pribatutasun Politika — Mario Álvarez",
-		"description": "Mario Álvarez-ren webgunearen pribatutasun-politika: zer datu biltzen diren, zein helbururekin eta nola erabili zure eskubideak.",
-		"eyebrow": "Legezkoa",
-		"heading": "Pribatutasun Politika"
+		"version": "2026-11-10",
+		"title": "Pribatutasun politika — Mario Álvarez",
+		"description": "Zein datu tratatzen dituen marioalvarez.me-k, zertarako, zer oinarri legalekin, zenbat denboraz eta nola erabili ditzakezun zure eskubideak.",
+		"heading": "Pribatutasun politika"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Tratuaren arduraduna",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, egoitza Benidormen (Alacant), Espainia duena. Harremana: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Tratuaren helburua",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Web honek barne-mailan eta soilik estatistika-helburuekin aztertzen du zein edukik (atalak, proiektuak) diren baliotsuagoak bisitarientzat, edukia hobetzeko asmoz. Ez da publizitate-helburuekin erabiltzen, ez da hirugarrenekin partekatzen eta ez da inola ere saltzen."
-				}
-			]
-		},
-		{
-			"titulo": "3. Biltzen diren datuak (cookie analitikoak onartzen badituzu soilik)",
+			"titulo": "1. Arduraduna",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Ausazko identifikatzaile anonimo bat, zure izenari, e-postari edo zuzenean zuri identifikatzen zaituen beste edozein informazioari lotu gabekoa.",
-						"Bisitatzen dituzun orriak eta proiektuak, eta bakoitzean emandako arreta-denbora (fitxa aktibo dagoen bitartean).",
-						"Elkarrekintzak (proiektuetan, esteketan edo botoietan egindako klikak).",
-						"Bisitaren data eta ordua.",
-						"Kontsultatutako gunearen hizkuntza.",
-						"Gailu mota (mugikorra edo mahaigaina).",
-						"Gutxi gorabeherako herrialdea, Cloudflare azpiegituraren bidez lortua, zure IP helbidea gorde gabe.",
-						"Jatorrizko orria (adibidez, LinkedIn edo bilatzaile bat)."
+						"Arduraduna: {nombre}",
+						"NIF: {nif}",
+						"Helbidea: {domicilio}",
+						"Helbide elektronikoa pribatutasunari buruzko edozein gairektarako: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Ez da zure IP helbidea biltzen, ez da nabigatzailea identifikatzeko teknikarik erabiltzen (fingerprinting), ezta hirugarrenen tresnarik ere, hala nola Google Analytics edo antzekoak."
+					"texto": "Tamaina eta jarduera mota dela eta, ez da derrigorrezkoa datuak babesteko ordezkari bat izendatzea, beraz, ez dago bat ere: idatzi niri zuzenean."
 				}
 			]
 		},
 		{
-			"titulo": "4. Oinarri legea",
+			"titulo": "2. Zer datu tratatzen ditudan, zertarako eta zergatik",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Tratamendua zure berrespen esplizituan oinarritzen da (RGPDaren 6.1.a artikulua eta LSSI-CEaren 22.2 artikulua), edozein unetan ken dezakezuna gunearen bereko cookie-kudeatzailetik."
+					"tipo": "tabla",
+					"columnas": [
+						"Zertarako",
+						"Zer datu",
+						"Oinarri legala",
+						"Zenbat denboraz"
+					],
+					"filas": [
+						[
+							"Erabileraren analitika, analisirako cookieak onartzen baditituzu soilik",
+							"Identifikatzaile pseudonimo aleatorio bat (bisitariaren cookiea visitante_id), ikusten dituzun atalak eta proiektuak eta bakoitzean emandako denbora, esteketan eta botoietan egindako klikak, hizkuntza, gailu mota (mugikorra ala mahaigainekoa), gutxi gorabeherako herrialdea eta gertaera bakoitza gertatzen den webguneko orria.",
+							"Zure baimena (DBEOaren 6.1.a art. eta LSSI-CEren 22.2 art.).",
+							"12 hilabete; ondoren, gertaera bakoitza automatikoki ezabatzen da."
+						],
+						[
+							"Baimenen erregistroa",
+							"Identifikatzaile pseudonimoa, zer onartu, baztertu edo atzera botatzen duzun, dokumentu bakoitzaren bertsioa, data eta ordua, orria, hizkuntza, jatorria (bannerra, konfigurazioa edo formularioa), nabigatzailea (erabiltzaile-agentea) eta gutxi gorabeherako herrialdea; formularioan, gainera, zure posta elektronikoaren erreferentzia-kodea.",
+							"Baimena frogatu ahal izateko betebeharra betetzea (DBEOaren 6.1.c eta 7.1 art.).",
+							"Erregistro bakoitzetik 3 urtera (LOPDGDDren arau-hausteen preskripzio-epe maximoa); ondoren, automatikoki ezabatzen da."
+						],
+						[
+							"Zure kontsultari posta elektronikoz edo telefonoz erantzutea",
+							"Bidaltzea erabakitzen dituzun datuak: normalean zure izena, posta elektronikoa edo telefonoa eta mezuaren edukia.",
+							"Zure eskariz aurrekontratuko neurriak aplikatzea (DBEOaren 6.1.b art.) edo zuri erantzuteko nire interes legitimoa (6.1.f art.).",
+							"Elkarrizketak dirauen bitartean eta urtebete geroago arte, kontratatzera iristen ez bagara behintzat."
+						],
+						[
+							"Kontratatutako zerbitzu bat kudeatzea",
+							"Identifikazio-, kontaktu- eta fakturazio-datuak.",
+							"Kontratuaren exekuzioa (DBEOaren 6.1.b art.) eta zerga- eta kontabilitate-betebeharrak (6.1.c art.).",
+							"Zerga- eta merkataritza-legeek eskatzen dutena (orokorrean, 4 eta 6 urte artean)."
+						],
+						[
+							"Gai argia edo iluna nahiago duzun gogoratzea",
+							"«tema» lehentasuna, zure nabigatzailean bakarrik gordeta (tokiko biltegiratzea). Ez zaitut iristen.",
+							"Botoian sakatzean eskatzen duzun funtzio bat (baimenduta egon beharrekoa LSSI-CEren 22.2 art.aren arabera).",
+							"Nabigatzailetik ezabatzen duzun arte."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Kontserbazio-epea",
+			"titulo": "3. Eskatzen edo biltzen ez dudana",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Datuak gehienez 12 hilabetez gordetzen dira azken bisitatik aurrera, eta epe hori igarotakoan automatikoki ezabatzen dira."
+					"texto": "Helburu bakoitzerako ezinbestekoa dena bakarrik tratatzen dut. Zehazki:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kontaktu-formularioak ez du zure izena, posta elektronikoa edo telefonoa eskatzen: zure posta-programa irekitzen du eta zuk erabakitzen du zer bidaltzen didazun.",
+						"Ez dut zure IP helbidea gordetzen analitikan eta ezta baimenen erregistroan ere.",
+						"Ez dut nabigatzailea identifikatzeko teknikarik erabiltzen (fingerprinting), ez Google Analytics, ez publizitate-pixelik, ez hirugarrenen cookierik.",
+						"Tipografiak eta irudiak webgune honetatik bertatik zerbitzatzen dira: bisitatzean, zure nabigatzailea ez da konektatzen Google Fonts-era, GitHub-era edo kanpoko beste zerbitzu batzuetara."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Hartzaileak eta nazioarteko transferentziak",
+			"titulo": "4. Nor gehiagok esku hartzen duen",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Datuak ez zaizkie hirugarrenei lagatzen edo saltzen. Cloudflare D1 zerbitzuan gordetzen dira, Cloudflare, Inc.-ek eskainitako datu-base zerbitzu batean, tratamenduaren arduradun gisa jokatzen duena. Cloudflarek Europako Espazio Ekonomikotik kanpo prozesatu ditzake datuak; kasu horretan, transferentzia hori Europako Batzordeak onartutako Kontratu Eredu Estandarretan oinarritzen da. Informazio gehiago Cloudflare-ren pribatutasun-politikan: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ez dizkiot zure datuak inori saltzen edo lagatzen, lege-betebeharrik ezean. Webguneak funtziona dezan eta zuri erantzuteko hornitzaile hauek erabiltzen ditut:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: webgunea eta datu-basea ostatatzen ditu (Cloudflare Pages eta D1) eta tratamenduaren arduradun gisa jokatzen du. Webgunea zerbitzatzeko konexioaren datu teknikoak prozesatzen ditu, hala nola zure IPa, eta nik ez daukat horietarako sarbiderik. Bere politika: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): mezu elektronikoak jaso eta erantzuten dizkidaten posta-zerbitzua; mezu horiek bere politika propioaren arabera tratatzen ditu: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Zure eskubideak",
+			"titulo": "5. Nazioarteko transferentziak",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Edozein unetan erabil ditzakezu sarbide, zuzenketa, ezabatze, aurka egiteko, tratamendua mugatzeko eta eramangarritasun eskubideak malvmar5@hotmail.com helbidera idatziz. Gainera, zure datuak berehala ezabatu ditzakezu, inori idatzi beharrik gabe, gunearen cookie-en konfigurazioan eskuragarri dagoen \"Ezabatu nire datuak\" botoitik. Espainiako Datu Babes Bulegoaren aurrean (www.aepd.es) erreklamazio bat aurkezteko eskubidea ere baduzu, zure eskubideak behar bezala ez direla artatu uste baduzu."
+					"texto": "Cloudflarek eta Microsoft-ek Estatu Batuetan trata ditzakete datuak. Biak daude Europar Batasunaren eta Estatu Batuen arteko Datu Pribatutasunaren Markari atxikita (Europako Batzordearen 2023ko uztailaren 10eko egokitasun-erabakia) eta, gainera, Batzordeak onartutako klausula kontratual tipoak eskaintzen dituzte."
 				}
 			]
 		},
 		{
-			"titulo": "8. Politika honen aldaketak",
+			"titulo": "6. Zure eskubideak",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Politika hau eguneratu egin daiteke lege-aldaketetara edo gunearen beraren aldaketetara egokitzeko."
+					"texto": "Edozein unetan eska diezadakezu zure datuak eskuratzea, zuzentzea, ezabatzea, tratamenduari aurka egitea, mugatzea edo beste toki batera eramateko jasotzea (eramangarritasuna), eta zure baimena atzera thetzea, horrek aurretik tratatutakoari eragin gabe. Idatzi {email} helbidera; gehienez hilabeteko epean erantzungo dizut."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analitikako datuak zuk zeuk ezaba ditzakezu une bertan, cookieen konfigurazioko «Borrar mis datos» botoiarekin. Baimenen erregistroa gordeta geratzen da baimena atzera bota arren, hain zuzen ere noiz eman zen eta noiz kendu zen egiaztatzeko balio duelako."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Zure eskubideak behar bezala ez ditugula erantzun uste baduzu, erreklamatu dezakezu Datuak Babesteko Espainiako Agentziaren aurrean: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Adingabeak",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Webgunea ez dago zuzenduta 14 urtetik beherakoei. 14 urtetik behera baldin badaukazu, ez bidali datu pertsonalik gurasoen edo tutoreen baimenik gabe (LOPDGDDren 7. art.)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Segurtasuna",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Datuak zifratuta bidaiatzen dute (HTTPS) eta erabiltzaile eta pasahitzaz babestutako panel pribatutik bakarrik sartzen den datu-base batean gordetzen dira."
+				}
+			]
+		},
+		{
+			"titulo": "9. Aldaketak politika honetan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Zerbait garrantzitsua aldatzen bada, orri hau eta bere bertsioaren data eguneratuko ditut. Aldaketak cookieei eragiten badie, berriro galdetuko zaizu."
 				}
 			]
 		}

@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Politika privatnosti — Mario Álvarez",
-		"description": "Politika privatnosti sajta Mario Álvarez: koji se podaci sakupljaju, u koje svrhe i kako da ostvarite svoja prava.",
-		"eyebrow": "Pravno",
-		"heading": "Politika Privatnosti"
+		"version": "2026-11-10",
+		"title": "Politika privatčnosti — Mario Álvarez",
+		"description": "Koji podaci se obrađuju na marioalvarez.me, u koje svrhe, po kom pravnom osnovu, koliko dugo i kako možete da ostvarite svoja prava.",
+		"heading": "Politika privatčnosti"
 	},
 	"secciones": [
 		{
-			"titulo": "1. Rukovalac obrade podataka",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, sa sedištem u Benidormu (Alikante), Španija. Kontakt: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Svrha obrade",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Ovaj veb-sajt interno i isključivo u statističke svrhe analizira koji sadržaji (odeljci, projekti) su najkorisniji posetiocima, sa ciljem poboljšanja njegovog sadržaja. Ne koristi se u reklamne svrhe, ne deli se sa trećim licima i ni pod kojim okolnostima se ne prodaje."
-				}
-			]
-		},
-		{
-			"titulo": "3. Podaci koji se sakupljaju (samo ako prihvatite analitičke kolačiće)",
+			"titulo": "1. Rukovalac",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Nasumični anonimni identifikator, koji nije povezan sa vašim imenom, e-poštom ili bilo kojom drugom informacijom koja vas direktno identifikuje.",
-						"Stranice i projekti koje posećujete, kao i vreme zadržavanja na svakom od njih (dok je kartica aktivna).",
-						"Interakcije (klikovi na projekte, veze ili dugmad).",
-						"Datum i vreme posete.",
-						"Jezik konsultovanog sajta.",
-						"Tip uređaja (mobilni ili računar).",
-						"Približna država, dobijena preko Cloudflare infrastrukture, bez čuvanja vaše IP adrese.",
-						"Izvorna stranica (na primer, LinkedIn ili pretraživač)."
+						"Rukovalac: {nombre}",
+						"NIF: {nif}",
+						"Adresa: {domicilio}",
+						"E-adresa za sva pitanja u vezi sa privatnošću: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Vaša IP adresa se ne sakuplja, ne koriste se tehnike identifikacije pregledača (fingerprinting), niti alati trećih strana kao što su Google Analytics ili slični."
+					"texto": "Zbog veličine i vrste aktivnosti, nije obavezno imenovanje službenika za zaštitu podataka, tako da ga nema: pišite mi direktno."
 				}
 			]
 		},
 		{
-			"titulo": "4. Pravni osnov",
+			"titulo": "2. Koje podatke obrađujem, u koje svrhe i zašto",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Obrada se zasniva na vašem izričitom pristanku (član 6.1.a GDPR-a i član 22.2 LSSI-CE), koji možete opozvati u bilo kom trenutku putem menadžera kolačića na samom sajtu."
+					"tipo": "tabla",
+					"columnas": [
+						"Za šta",
+						"Koji podaci",
+						"Pravni osnov",
+						"Koliko dugo"
+					],
+					"filas": [
+						[
+							"Analitika korišćenja, samo ako prihvatite kolačiće za analitiku",
+							"Nasumični pseudonimizovani identifikator (kolačić visitante_id), odeljci i projekti koje pregledate i vreme provedeno na svakom od njih, klikovi na veze i dugmad, jezik, tip uređaja (mobilni ili računar), približna država i stranica veb-sajta na kojoj se svaki događaj dešava.",
+							"Vaša saglasnost (čl. 6.1.a GDPR-a i čl. 22.2 LSSI-CE).",
+							"12 meseci; nakon toga se svaki događaj automatski briše."
+						],
+						[
+							"Evidencija saglasnosti",
+							"Pseudonimizovani identifikator, šta ste prihvatili, odbili ili povukli, verzija svakog dokumenta, datum i vreme, stranica, jezik, izvor (baner, podešavanja ili obrazac), pretraživač (korisnički agent) i približna država; u obrascu, dodatno, referentni kod vaše e-adrese.",
+							"Ispunjenje obaveze dokazivanja saglasnosti (čl. 6.1.c i 7.1 GDPR-a).",
+							"3 godine od svake evidencije (maksimalni rok zastarelosti prekršaja prema LOPDGDD-u); nakon toga se automatski briše."
+						],
+						[
+							"Odgovaranje na vaš upit putem e-adrese ili telefona",
+							"Podaci koje odlučite da mi pošaljete: obično vaše ime, e-adresa ili telefon i sadržaj poruke.",
+							"Primenjivanje predugovornih mera na vaš zahtev (čl. 6.1.b GDPR-a) ili moj legitimni interes da vam odgovorim (čl. 6.1.f).",
+							"Dok traje razgovor i do 1 godina kasnije, osim ako ne sklopimo ugovor."
+						],
+						[
+							"Upravljanje ugovorenom uslugom",
+							"Identifikacioni podaci, podaci za kontakt i fakturisanje.",
+							"Izvršenje ugovora (čl. 6.1.b GDPR-a) i poreske i računovodstvene obaveze (čl. 6.1.c).",
+							"Ono što zahtevaju poreski i trgovinski propisi (u opštem slučaju, između 4 i 6 godina)."
+						],
+						[
+							"Pamćenje da li više volite svetlu ili tamnu temu",
+							"Postavka „tema“, sačuvana samo u vašem pretraživaču (lokalna memorija). Ne stiže do mene.",
+							"Funkcija koju zatražite pritiskom na dugme (izuzeto od saglasnosti prema čl. 22.2 LSSI-CE).",
+							"Dok je ne obrišete iz svog pretraživača."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Rok čuvanja",
+			"titulo": "3. Ono što ne tražim niti sakupljam",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Podaci se čuvaju najviše 12 meseci od vaše poslednje posete, nakon čega se automatski brišu."
+					"texto": "Obrađujem samo ono što je neophodno za svaku svrhu. Konkretno:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Obrazac za kontakt ne traži vaše ime, e-adresa ni telefon: otvara vaš program za e-poštu i vi sami odlučujete šta ćete mi poslati.",
+						"Ne čuvam vašu IP adresu ni u analitici ni u evidenciji saglasnosti.",
+						"Ne koristim tehnike identifikacije pretraživača (fingerprinting), Google Analytics, marketinške piksele ni kolačiće trećih strana.",
+						"Fontovi i slike se serviraju sa ovog istog veb-sajta: prilikom posete, vaš pretraživač se ne povezuje na Google Fonts, GitHub ni druge spoljne usluge."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Primaoci i međunarodni prenos podataka",
+			"titulo": "4. Ko još učestvuje",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Podaci se ne ustupaju niti prodaju trećim licima. Čuvaju se u Cloudflare D1, servisu baza podataka koji obezbeđuje Cloudflare, Inc., koji deluje kao obrađivač podataka. Cloudflare može obrađivati podatke van Evropskog ekonomskog prostora; u tom slučaju, takav prenos je pokriven Standardnim ugovornim klauzulama koje je odobrila Evropska komisija. Više informacija u politici privatnosti kompanije Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Ne prodajem niti ustupam vaše podatke nikome, osim u slučaju zakonske obaveze. Da bi veb-sajt funkcionisao i da bih vam odgovorio, koristim sledeće pružaoce usluga:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: hostuje veb-sajt i bazu podataka (Cloudflare Pages i D1) i deluje kao obrađivač podataka. Radi serviranja veb-sajta obrađuje tehničke podatke o konekciji, kao što je vaša IP adresa, kojima ja nemam pristup. Njihova politika: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): usluga e-pošte preko koje primam i odgovaram na e-poruke; obrađuje te poruke u skladu sa sopstvenom politikom: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Vaša prava",
+			"titulo": "5. Međunarodni prenosi",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "U bilo kom trenutku možete ostvariti svoja prava na pristup, ispravku, brisanje, prigovor, ograničenje obrade i prenosivost slanjem poruke na malvmar5@hotmail.com. Pored toga, svoje podatke možete odmah izbrisati, bez potrebe da bilo kome pišete, pomoću dugmeta „Izbriši moje podatke“ dostupnog u podešavanjima kolačića na sajtu. Takođe imate pravo da podnesete žalbu Španskoj agenciji za zaštitu podataka (www.aepd.es) ako smatrate da vaša prava nisu ispravno ispoštovana."
+					"texto": "Cloudflare i Microsoft mogu obrađivati podatke u Sjedinjenim Američkim Državama. Obe kompanije pristupaju Okviru za privatnost podataka između EU i SAD (odluka o primerenosti Evropske komisije od 10. jula 2023.) i takođe nude standardne ugovorne klauzule koje je odobrila Komisija."
 				}
 			]
 		},
 		{
-			"titulo": "8. Izmene ove politike",
+			"titulo": "6. Vaša prava",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Ova politika se može ažurirati radi usklađivanja sa zakonskim izmenama ili promenama na samom sajtu."
+					"texto": "U svakom trenutku možete zatražiti pristup svojim podatcima, njihovu ispravku, brisanje, prigovor na obradu, ograničenje obrade ili preuzimanje radi prenosa na drugo mesto (prenosivost), kao i povlačenje saglasnosti bez uticaja na obradu izvršenu pre toga. Pišite mi na {email}; odgovoriću vam u roku od najviše mesec dana."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Podatke analitike možete sami izbrisati u trenutku pomoću dugmeta „Obriši moje podatke“ u podešavanjima kolačića. Evidencija saglasnosti se čuva iako povučete saglasnost, jer služi upravo za dokazivanje kada ste je dali i kada ste je povukli."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ako smatrate da nisam adekvatno postupio po vašim pravima, možete uložiti žalbu Španskoj agenciji za zaštitu podataka (Agencia Española de Protección de Datos): https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Maloletnici",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Veb-sajt nije namenjen mlađima od 14 godina. Ako imate manje od 14 godina, nemojte mi slati lične podatke bez dozvole roditelja ili staratelja (čl. 7 LOPDGDD-u)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Bezbednost",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Podaci putuju šifrovano (HTTPS) i čuvaju se u bazi podataka kojoj se pristupa samo preko privatnog panela, zaštićenog korisničkim imenom i lozinkom."
+				}
+			]
+		},
+		{
+			"titulo": "9. Izmene ove politike",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ako se nešto značajno promeni, ažuriraću ovu stranicu i datum njene verzije. Ako izmena utiče na kolačiće, ponovo ćete biti upitani."
 				}
 			]
 		}

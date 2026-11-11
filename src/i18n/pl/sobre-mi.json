@@ -3,7 +3,13 @@
 		"title": "O mnie — Mario Álvarez",
 		"description": "Od mistrza Hiszpanii w madisonie do studenta nauki o danych: droga Mario Álvareza między kolarstwem elitarnym a analityką sportową.",
 		"eyebrow": "O mnie",
-		"heading": "Od welodromu do danych"
+		"heading": "Od welodromu do danych",
+		"lead": "Nadal jestem w kolarstwie, na torze i w samochodzie techniczno-sportowym. Zmieniło się tylko to, jak na to patrzę: teraz także poprzez dane.",
+		"historiaTitulo": "Kolarz, dyrektor sportowy i analityk danych",
+		"fichaTitulo": "W skrócie",
+		"fichaTexto": "To, co najważniejsze, na wypadek gdybyś się spieszył.",
+		"retratoAlt": "Portret Mario Álvareza",
+		"escenaFrase": "Najpierw nogi. Teraz dane."
 	},
 	"bio": [
 		"Zacząłem od rywalizacji. W wieku 18 lat zostałem mistrzem Hiszpanii w madisonie na torze, a Hiszpańska Reprezentacja Kolarska powołała mnie na Mistrzostwa Świata i Europy, gdzie w obu przypadkach zajmełem szóste miejsce, co dało mi status sportowca elitarnego.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Baza",
-			"value": "Benidorm · Walencja"
+			"value": "Benidorm i Walencja"
 		},
 		{
 			"label": "Status",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Podejście",
-			"value": "Dane + wyniki sportowe"
+			"value": "Dane i wyniki sportowe"
 		},
 		{
 			"label": "Języki",
-			"value": "Hiszpański ojczysty · Walencki · Angielski B1"
+			"value": "Hiszpański (ojczysty), walencki i angielski (B1)"
 		},
 		{
 			"label": "Wykształcenie",
-			"value": "Studia licencjackie z nauki o danych (UPV) · Studia magisterske z cyfryzacji, innowacji i technologii w sporcie"
+			"value": "Studia licencjackie z nauk o danych (UPV) oraz studia magisterskie z cyfryzacji, innowacji i technologii w sporcie"
 		}
 	]
 }

@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Endursgreiðslustefna — Mario Álvarez",
+		"description": "Hvernig afpantanir, réttur til riftunar og skil á þjónustu Mario Álvarez virka.",
+		"heading": "Endursgreiðslustefna"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Þessi vefur innheimtir engar greiðslur",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Á marioalvarez.me eru engar vörur seldar né greiðslur innheimtar á netinu. Þjónustan (frammistöðugreining, sérsniðin verkfæri, gagnagrunnar og skýrslur og ferilstuðningur) er keypt sérstaklega með skriflegu tilboði."
+				}
+			]
+		},
+		{
+			"titulo": "2. Það sem tilboðið þitt segir",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvert tilboð tilgreinir verðið, hvernig og hvenær greitt er og afpöntunarskilmála. Ef tilboðið segir eitthvað annað en þessi stefna, skal miða við tilboðið, nema þessi stefna veiti þér meiri réttindi sem neytanda."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ef þtu afpantanir",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nema annað sé samið skriflega:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ef þú afpantar áður en vinnan hefst, endurgreiði ég að fullu allar fyrirframgreiðslur.",
+						"Ef þú afpantar þegar vinnan er hafin, er eingöngu innheimtur sá hluti sem þegar hefur verið unninn og ég endurgreiði afganginn af því sem þú greiddir fyrirfram.",
+						"Vinnu sem þegar hefur verið afhent samþykkt er ekki endurgreidd, nema hún sé með galla sem ekki er hægt að laga."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Réttur til riftunar (ef þú ert neytandi)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ef þú semur sem neytandi (einstaklingur sem starfar utan síns fagsviðs) og samningurinn er gerður í fjarskiptum, með tölvupósti eða í síma, áttu 14 almanaksdaga frá því að hann er gerður til að rifta honum án þess að gefa upp ástæður, í samræmi við greinar 102 til 108 í hinum endurskoðaða texta laga um vernd neytenda og notenda (konungsúrskurðarlög 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ef þú biður mig sérstaklega um að hefja vinnu innan þessara 14 daga og riftir síðan, munt þú aðeins greiða hlutfallshluta þess þjónustu sem veitt var fram að þeim tíma. Ef þjónustunni hefur verið lokið að fullu innan tímamarksins, með þínu fyrri og skýra samþykki og með vitneskju um að þú missir þannig þennan rétt, munt þú ekki lengur geta rift (grein 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Hvernig á að biðja um það",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Skrifaðu mér á {email} með nafni þínu, þjónustunni og dagsetningunni sem þú samdir um hana. Þú getur notað þetta eyðublað til riftunar (ekki skylda):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Til athugunar fyrir {nombre}, {domicilio}, {email}:",
+						"Hér með tilkynni ég að ég rifti samningi mínum um veitingu eftirfarandi þjónustu: [servicio].",
+						"Samið þann: [fecha].",
+						"Nafn neytanda: [nombre].",
+						"Heimilisfang neytanda: [domicilio].",
+						"Dagsetning: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Frestur oghætti endurgreiðslu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ég endurgreiði það sem við á innan mest 14 almanaksdaga frá því að þú tilkynnir mér ákvörðun þína, með sama greiðslumiðli og þú notaðist við, nema við semjum um annað. Endurgreiðslan hefur engan kostnað í för með sér fyrir þig."
+				}
+			]
+		}
+	]
+}

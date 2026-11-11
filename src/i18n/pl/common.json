@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Strona główna",
 		"sobreMi": "O mnie",
 		"proyectos": "Projekty",
 		"experiencia": "Doświadczenie",
@@ -7,10 +8,22 @@
 		"ariaMain": "Główna nawigacja",
 		"openMenu": "Otwórz menu"
 	},
+	"saltar": "Przejdź do treści",
+	"tema": "Przełącz tryb jasny i ciemny",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Mistrz Hiszpanii w madisonie. Data scientist.",
+		"disponible": "Dostępny do projektów z dziedziny danych i wydajności sportowej.",
+		"escribeme": "Napisz do mnie",
+		"navLabel": "Sekcje",
+		"legalLabel": "Informacje prawne",
 		"copySufijo": "Mario Álvarez. Walencja.",
 		"ariaSocial": "Media społecznościowe"
+	},
+	"cierre": {
+		"title": "Porozmawiajmy?",
+		"text": "Jeśli masz dane dotyczące wydajności i pytania bez odpowiedzi, napisz do mnie, a spójrzymy na to razem.",
+		"cta": "Napisz do mnie"
 	},
 	"langSwitch": {
 		"label": "Zmień język",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Zgoda na pliki cookie"
 	},
 	"legal": {
+		"terminos": "Regulamin",
 		"privacidad": "Polityka prywatności",
-		"cookies": "Polityka plików cookie"
+		"cookies": "Polityka plików cookie",
+		"reembolso": "Polityka zwrotów",
+		"actualizado": "Ostatnia aktualizacja",
+		"indice": "Na tej stronie",
+		"otros": "Inne dokumenty"
 	},
 	"person": {
 		"jobTitle": "Data Scientist",
 		"description": "Data Scientist specjalizujący się w analityce sportowej, z doświadczeniem w kolarstwie zawodowym."
+	},
+	"pizarra": {
+		"vueltas": "okrążenia",
+		"campana": "ostatnia"
 	}
 }

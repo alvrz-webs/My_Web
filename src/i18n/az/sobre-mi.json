@@ -3,7 +3,13 @@
 		"title": "Haqqımda — Mario Álvarez",
 		"description": "İspaniya madison çempionundan Data Elmi tələbəsinə: Mario Alvárezin elit velosiped idmanı və idman analitikası arasındakı yolu.",
 		"eyebrow": "Haqqımda",
-		"heading": "Velodromdan verilənlərə"
+		"heading": "Velodromdan verilənlərə",
+		"lead": "Velosiped idmanında qaliram, həm trekdə, həm də komanda maşınında. Dəyişən yeganə şey ona baxış bucağımdır: indi həm də məlumatlarla.",
+		"historiaTitulo": "Velosipedçi, idman direktoru və məlumat elmi mütəxəssisi",
+		"fichaTitulo": "Qısaca",
+		"fichaTexto": "Tələsirsinizsə, ən vacib olanlar.",
+		"retratoAlt": "Mario Alvarez-in portreti",
+		"escenaFrase": "Əvvəlcə ayaqlar. İndi isə məlumatlar."
 	},
 	"bio": [
 		"Mən yarışmaqla başlamışam. 18 yaşımda trekdə madison növü üzrə İspaniya çempionu oldum və İspaniya Velosiped İdmanı Milli Komandası məni hər ikisində altıncı olduğum Dünya və Avropa Çempionatlarına dəvət etdi, bu da mənə elit idmançı statusu qazandırdı.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Baza",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm və Valensiya"
 		},
 		{
 			"label": "Status",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Yanaşma",
-			"value": "Məlumatlar + idman göstəriciləri"
+			"value": "Məlumatlar və idman göstəriciləri"
 		},
 		{
 			"label": "Dillər",
-			"value": "Ana dili ispan · Valensiya dili · İngilis dili B1"
+			"value": "İspan dili (ana dili), valensiya dili və ingilis dili (B1)"
 		},
 		{
 			"label": "Təhsil",
-			"value": "Data Elmi üzrə Bakalavr (UPV) · İdman Rəqəmsallaşması, İnnovasiyası və Texnologiyası üzrə Magistratura"
+			"value": "Məlumat elmi üzrə bakalavr dərəcəsi (UPV) və İdman sahəsində rəqəmsallaşma, innovasiya və texnologiya üzrə magistr dərəcəsi"
 		}
 	]
 }

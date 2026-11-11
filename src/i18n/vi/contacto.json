@@ -3,11 +3,54 @@
 		"title": "Liên hệ — Mario Álvarez",
 		"description": "Hãy liên hệ với Mario Álvarez để thảo luận về dữ liệu, hiệu suất thể thao và các dự án.",
 		"eyebrow": "Liên hệ",
-		"heading": "Bạn có dữ liệu và một câu hỏi cần giải quyết?",
-		"intro": "Hãy trò chuyện nhé. Dù là một dự án phân tích thể thao, sự hợp tác về dữ liệu hay chỉ đơn giản là một ý tưởng bạn muốn trao đổi, tôi luôn sẵn lòng phản hồi.",
+		"heading": "Bạn có dữ liệu và một câu hỏi?",
+		"intro": "Hãy trò chuyện nhé. Dù là một dự án phân tích thể thao, sự hợp tác về dữ liệu hay một ý tưởng bạn muốn thảo luận, tôi sẽ trực tiếp trả lời bạn.",
 		"email": "Email",
 		"telefono": "Điện thoại",
 		"verTelefono": "Xem số điện thoại",
-		"redesSociales": "Mạng xã hội"
+		"redesSociales": "Mạng xã hội",
+		"temaTitulo": "Bạn muốn thảo luận về điều gì?",
+		"temaAyuda": "Hãy chọn một chủ đề và tôi sẽ chuẩn bị sẵn email cho bạn. Bạn chỉ cần kể cho tôi nghe trường hợp của mình.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Phân tích hiệu suất"
+			},
+			{
+				"id": "herramientas",
+				"label": "Một công cụ tùy chỉnh"
+			},
+			{
+				"id": "datos",
+				"label": "Cơ sở dữ liệu và báo cáo"
+			},
+			{
+				"id": "carrera",
+				"label": "Hỗ trợ sự nghiệp"
+			},
+			{
+				"id": "otro",
+				"label": "Việc khác"
+			}
+		],
+		"escribir": "Viết email",
+		"copiar": "Sao chép email",
+		"copiado": "Đã sao chép email",
+		"asunto": "Yêu cầu từ marioalvarez.me",
+		"cuerpo": "Xin chào Mario:\n\nTôi viết thư cho bạn về vấn đề: {tema}.\n\nNhững gì tôi có:\n\nNhững gì tôi muốn biết:\n\nCảm ơn.",
+		"otrosCanales": "Các kênh khác",
+		"base": "Cơ sở",
+		"baseValor": "Benidorm và Valencia",
+		"idiomas": "Ngôn ngữ",
+		"idiomasValor": "Tiếng Tây Ban Nha, tiếng Valencia và tiếng Anh",
+		"aceptacionesTitulo": "Trước khi viết cho tôi",
+		"aceptoTerminos": "Tôi đã đọc và đồng ý với các {enlace}.",
+		"enlaceTerminos": "điều khoản và điều kiện",
+		"aceptoCookies": "Tôi đồng ý với các cookie phân tích được mô tả trong {enlace} (tùy chọn).",
+		"enlaceCookies": "chính sách cookie",
+		"faltaTerminos": "Để viết thư cho tôi, trước tiên hãy đánh dấu vào ô điều khoản và điều kiện.",
+		"primeraCapa": "Người chịu trách nhiệm: Mario Álvarez Martínez. Mục đích: trả lời thắc mắc của bạn và, nếu bạn yêu cầu, chuẩn bị một đề xuất cho bạn. Cơ sở pháp lý: yêu cầu của bạn. Người nhận: không ai cả, trừ khi có nghĩa vụ pháp lý. Quyền: truy cập, cải chính, xóa và các quyền khác được giải thích trong {enlace}.",
+		"enlacePrivacidad": "chính sách quyền riêng tư",
+		"refEmail": "Mã tham chiếu chấp nhận điều khoản: {ref}"
 	}
 }

@@ -1,93 +1,159 @@
 {
 	"meta": {
-		"title": "Patakaran sa Pagkapribado — Mario Álvarez",
-		"description": "Patakaran sa pagkapribado ng site ni Mario Álvarez: anong mga datos ang kinokolekta, para sa anong layunin at paano gamitin ang iyong mga karapatan.",
-		"eyebrow": "Legal",
-		"heading": "Patakaran sa Pagkapribado"
+		"version": "2026-11-10",
+		"title": "Patakaran sa privacy — Mario Álvarez",
+		"description": "Anong data ang pinoproseso ng marioalvarez.me, para saan, sa anong legal na batayan, gaano katagal at paano gamitin ang iyong mga karapatan.",
+		"heading": "Patakaran sa privacy"
 	},
 	"secciones": [
 		{
-			"titulo": "1. May-ari ng pagproseso",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, na may tirahan sa Benidorm (Alicante), Espanya. Makipag-ugnayan sa: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Layunin ng pagproseso",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Ang web na ito ay nagsusuri sa loob at para sa mga layuning estadistika lamang kung aling mga nilalaman (mga seksyon, proyekto) ang pinaka-kapaki-pakinabang sa mga bumibisita dito, na may layuning mapabuti ang nilalaman nito. Hindi ito ginagamit para sa mga layuning pang-ad, hindi ito ibinabahagi sa mga ikatlong partido at hindi ito ipinagbibili sa anumang sitwasyon."
-				}
-			]
-		},
-		{
-			"titulo": "3. Mga datos na kinokolekta (kung tatanggapin mo lamang ang mga analitikal na cookies)",
+			"titulo": "1. Responsableng partido",
 			"bloques": [
 				{
 					"tipo": "lista",
 					"items": [
-						"Isang random na hindi nagpapakilalang identifier, na hindi nakakonekta sa iyong pangalan, email o anumang iba pang impormasyon na direktang nagpapakilala sa iyo.",
-						"Mga pahina at proyektong binibisita mo, at ang oras ng atensyon sa bawat isa (habang aktibo ang tab).",
-						"Mga pakikipag-ugnayan (mga click sa mga proyekto, link o pindutan).",
-						"Petsa at oras ng pagbisita.",
-						"Wika ng site na kinonsulta.",
-						"Uri ng aparato (mobile o desktop).",
-						"Tinatayang bansa, na nakuha sa pamamagitan ng imprastruktura ng Cloudflare, nang hindi iniimbak ang iyong IP address.",
-						"Pahina ng pinanggalingan (halimbawa, LinkedIn o isang search engine)."
+						"Responsable: {nombre}",
+						"NIF: {nif}",
+						"Tirahan: {domicilio}",
+						"Email para sa anumang usapin sa privacy: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Hindi kinokolekta ang iyong IP address, walang ginagamit na mga pamamaraan ng pagkakakilanlan ng browser (fingerprinting), o mga tool ng mga ikatlong partido tulad ng Google Analytics o mga katulad nito."
+					"texto": "Dahil sa laki at uri ng aktibidad, hindi sapilitang mag-italaga ng opisyal ng proteksyon ng data, kaya wala nito: sumulat nang direkta sa akin."
 				}
 			]
 		},
 		{
-			"titulo": "4. Legal na batayan",
+			"titulo": "2. Anong data ang pinoproseso ko, para saan at bakit",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Ang pagproseso ay batay sa iyong malinaw na pahintulot (artikulo 6.1.a ng RGPD at artikulo 22.2 ng LSSI-CE), na maaari mong bawiin anumang oras mula sa tag Pamahalaan ng cookies ng mismong site."
+					"tipo": "tabla",
+					"columnas": [
+						"Para saan",
+						"Anong data",
+						"Legal na batayan",
+						"Gaano katagal"
+					],
+					"filas": [
+						[
+							"Analytics sa paggamit, kung tatanggapin mo lamang ang mga cookie sa analytics",
+							"Isang random na pseudonymized identifier (cookie visitante_id), ang mga seksyon at proyektong nakikita mo at ang oras sa bawat isa, ang mga pag-click sa mga link at button, ang wika, ang uri ng aparato (mobile o desktop), ang tinatayang bansa at ang pahina sa web kung saan nagaganap ang bawat kaganapan.",
+							"Ang iyong pahintulot (art. 6.1.a GDPR at art. 22.2 LSSI-CE).",
+							"12 buwan; pagkatapos ay awtomatikong binubura ang bawat kaganapan."
+						],
+						[
+							"Talaan ng mga pahintulot",
+							"Ang pseudonymized identifier, kung ano ang iyong tinanggihan, tinanggap o binawi, ang bersyon ng bawat dokumento, ang petsa at oras, ang pahina, ang wika, ang pinagmulan (banner, configuration o form), ang browser (user agent) at ang tinatayang bansa; sa form, bukod dito, ang reference code ng iyong email.",
+							"Upang tuparin ang obligasyon na mapatunayan ang pahintulot (mga art. 6.1.c at 7.1 GDPR).",
+							"3 taon mula sa bawat pagpaparehistro (ang pinakamataas na takdang panahon para sa pagtatapos ng mga paglabag sa LOPDGDD); pagkatapos ay awtomatikong binubura."
+						],
+						[
+							"Tumugon sa iyong katanungan sa pamamagitan ng email o telepono",
+							"Ang data na napagpasyahan mong ipadala sa akin: karaniwang ang iyong pangalan, ang iyong email o telepono at ang nilalaman ng mensahe.",
+							"Mag-apply ng mga hakbang bago ang kontrata sa iyong kahilingan (art. 6.1.b GDPR) o ang aking lehitimong interes na sagutin ka (art. 6.1.f).",
+							"Hangga't tumatagal ang pag-uusap at hanggang 1 taon pagkatapos, maliban kung magkasundo kaming pumasok sa isang kontrata."
+						],
+						[
+							"Pamahalaan ang isang kinontratang serbisyo",
+							"Data ng pagkakakilanlan, pakikipag-ugnayan at pagsingil.",
+							"Pagpapatupad ng kontrata (art. 6.1.b GDPR) at mga obligasyon sa buwis at pagpapautang (art. 6.1.c).",
+							"Kung ano ang hinihingi ng mga batas sa buwis at komersyo (sa pangkalahatan, sa pagitan ng 4 at 6 na taon)."
+						],
+						[
+							"Tandaan kung mas gusto mo ang maliwanag o madilim na tema",
+							"Ang kagustuhan «tema», na nakaimbak lamang sa iyong browser (lokal na imbakan). Hindi ito dumarating sa akin.",
+							"Isang function na hiniling mo sa pamamagitan ng pagpindot sa button (malaya sa pahintulot ayon sa art. 22.2 LSSI-CE).",
+							"Hanggang sa burahin mo ito sa iyong browser."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Panahon ng pagpapanatili",
+			"titulo": "3. Ang hindi ko hinihingi o kinokolekta",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Ang mga datos ay iniimbak nang maximum na 12 buwan mula sa iyong huling pagbisita, pagkatapos nito ay awtomatikong tinatanggal."
+					"texto": "Pinoproseso ko lamang ang kailangan para sa bawat layunin. Sa partikular:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ang form ng pakikipag-ugnayan ay hindi humihingi ng iyong pangalan, email o telepono: binubuksan nito ang iyong programa sa email at ikaw ang nagpapasya kung ano ang ipapadala sa akin.",
+						"Hindi ko iniimbak ang iyong IP address maging sa analytics o sa talaan ng mga pahintulot.",
+						"Hindi ako gumagamit ng mga teknik sa pagkakakilanlan ng browser (fingerprinting), Google Analytics, mga pixel sa advertising o mga cookie ng third-party.",
+						"Ang mga font at larawan ay inihahatid mula sa mismong web na ito: kapag binisita mo ito, ang iyong browser ay hindi kumokonekta sa Google Fonts, GitHub o iba pang mga panlabas na serbisyo."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Mga tatanggap at internasyonal na paglilipat",
+			"titulo": "4. Sino pa ang kasangkot",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Ang mga datos ay hindi ibinibigay o ipinagbibili sa mga ikatlong partido. Ang mga ito ay nakaimbak sa Cloudflare D1, isang serbisyo ng database na ibinigay ng Cloudflare, Inc., na kumikilos bilang tagapamahala ng pagproseso. Ang Cloudflare ay maaaring magproseso ng mga datos sa labas ng European Economic Area; sa kasong iyon, ang naturang paglilipat ay sinusuportahan ng Standard Contractual Clauses na inaprubahan ng European Commission. Higit pang impormasyon sa patakaran sa pagkapribado ng Cloudflare: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Hindi ko ipinagbibili o ibinibigay ang iyong data sa sinuman, maliban kung may legal na obligasyon. Upang gumana ang web at masagot ka, ginagamit ko ang mga tagapagbigay na ito:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: nagho-host ng web at database (Cloudflare Pages at D1) at kumikilos bilang processor. Upang maihatid ang web, pinoproseso nito ang teknikal na data ng koneksyon, tulad ng iyong IP, na hindi ko ma-access. Ang kanilang patakaran: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): ang serbisyo ng email kung saan natatanggap at sinasagot ko ang mga email; pinoproseso nito ang mga mensaheng iyon ayon sa kanilang sariling patakaran: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Ang iyong mga karapatan",
+			"titulo": "5. Mga internasyonal na paglilipat",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Maaari mong gamitin anumang oras ang iyong mga karapatan sa pag-access, pagwawasto, pagtanggal, pagsalungat, paghigpit ng pagproseso at paglilipat sa pamamagitan ng pagsulat sa malvmar5@hotmail.com. Bilang karagdagan, maaari mong tanggalin ang iyong datos kaagad, nang hindi kinakailangang magsulat sa sinuman, mula sa pindutang \"Burahin ang aking mga datos\" na magagamit sa mga setting ng cookies ng site. May karapatan ka ring maghain ng reklamo sa Spanish Data Protection Agency (www.aepd.es) kung naniniwala kang ang iyong mga karapatan ay hindi natugunan nang maayos."
+					"texto": "Ang Cloudflare at Microsoft ay maaaring magproseso ng data sa Estados Unidos. Pareho silang sumusunod sa EU-US Data Privacy Framework (desisyon ng pagiging angkop ng European Commission noong Hulyo 10, 2023) at nag-aalok din ng mga karaniwang sugnay na kontraktwal na inaprubahan ng Komisyon."
 				}
 			]
 		},
 		{
-			"titulo": "8. Mga pagbabago sa patakarang ito",
+			"titulo": "6. Ang iyong mga karapatan",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Ang patakarang ito ay maaaring i-update upang umangkop sa mga pagbabago sa batas o sa mismong site."
+					"texto": "Maaari mong hilingin sa akin anumang oras na i-access ang iyong data, iwasto ito, tanggalin ito, tutulan ang pagproseso nito, limitahan ito o tanggapin ito upang dalhin sa ibang lugar (paglilipat), at bawiin ang iyong pahintulot nang hindi naaapektuhan ang naproseso na dati. Sumulat sa akin sa {email}; sasagutin kita sa loob ng maximum na isang buwan."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ang data ng analytics ay maaari mong burahin nang mag-isa sa pamamagitan ng button na «Burahin ang aking data» sa configuration ng cookies. Ang talaan ng mga pahintulot ay pinapanatili kahit na bawiin mo ang pahintulot, dahil nagsisilbi ito nang eksakto upang patunayan kung kailan mo ito ibinigay at kailan mo ito binawi."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Kung naniniwala ka na hindi ko natugunan nang maayos ang iyong mga karapatan, maaari kang magreklamo sa Spanish Data Protection Agency: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Mga menor de edad",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang web ay hindi nakadirekta sa mga menor de edad na wala pang 14 taong gulang. Kung ikaw ay wala pang 14 taong gulang, huwag magpadala sa akin ng personal na data nang walang pahintulot ng iyong mga magulang o tagapag-alaga (art. 7 LOPDGDD)."
+				}
+			]
+		},
+		{
+			"titulo": "8. Seguridad",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ang data ay naglalakbay na naka-encrypt (HTTPS) at nakaimbak sa isang database na maa-access lamang mula sa pribadong panel, na protektado ng username at password."
+				}
+			]
+		},
+		{
+			"titulo": "9. Mga pagbabago sa patakarang ito",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kung may magbago na mahalaga, ia-update ko ang pahinang ito at ang petsa ng bersyon nito. Kung ang pagbabago ay nakakaapekto sa mga cookie, tatanungin kang muli."
 				}
 			]
 		}

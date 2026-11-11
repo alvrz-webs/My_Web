@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez datu analīzes, vizualizācijas un mašīnmācīšanās krātuves un projekti.",
 		"eyebrow": "Projekti",
 		"heading": "Projekti",
-		"intro": "Ieskats manos darbos: no profesionāliem riteņbraukšanas rīkiem līdz akadēmiskiem analīzes un mašīnmācīšanās projektiem."
+		"intro": "Ieskats manos darbos: no profesionāliem riteņbraukšanas rīkiem līdz akadēmiskiem analīzes un mašīnmācīšanās projektiem.",
+		"cifraRepos": "publiskie repozitoriji pakalpojumā GitHub",
+		"cifraWebs": "publicētās vietnes",
+		"cifraHerramientas": "valodas un rīki"
 	},
 	"list": {
 		"eyebrow": "Darbs",

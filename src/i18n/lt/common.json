@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Pradžia",
 		"sobreMi": "Apie mane",
 		"proyectos": "Projektai",
 		"experiencia": "Patirtis",
@@ -7,10 +8,22 @@
 		"ariaMain": "Pagrindinė navigacija",
 		"openMenu": "Atidaryti meniu"
 	},
+	"saltar": "Pereiti prie turinio",
+	"tema": "Perjungti šviesų ir tamsų režimą",
+	"telefono": "Telefonas",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Ispanijos „madison“ čempionas. Duomenų mokslininkas.",
+		"disponible": "Galima derinti duomenų ir sportinių rezultatų projektus.",
+		"escribeme": "Parašykite man",
+		"navLabel": "Skyriai",
+		"legalLabel": "Teisinė informacija",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Socialiniai tinklai"
+	},
+	"cierre": {
+		"title": "Pasikalbėkime?",
+		"text": "Jei turite sportinių rezultatų duomenų ir neatsakytų klausimų, parašykite man ir aptarsime kartu.",
+		"cta": "Parašykite man"
 	},
 	"langSwitch": {
 		"label": "Pakeisti kalbą",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Sutikimas dėl slapukų"
 	},
 	"legal": {
+		"terminos": "Sąlygos ir taisyklės",
 		"privacidad": "Privatumo politika",
-		"cookies": "Slapukų politika"
+		"cookies": "Slapukų politika",
+		"reembolso": "Pinigų grąžinimo politika",
+		"actualizado": "Paskutinis atnaujinimas",
+		"indice": "Šiame puslapyje",
+		"otros": "Kiti dokumentai"
 	},
 	"person": {
 		"jobTitle": "Duomenų mokslininkas",
 		"description": "Duomenų mokslininkas, kurio sritis – sporto analitika, turintis patirties profesionalų dviračių sporte."
+	},
+	"pizarra": {
+		"vueltas": "ratai",
+		"campana": "paskutinė"
 	}
 }

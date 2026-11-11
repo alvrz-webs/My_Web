@@ -4,13 +4,28 @@
 		"description": "Dos mons, un mateix llenguatge: el rendiment. Experiència de Mario Álvarez en dades i enginyeria, i en ciclisme d'elit.",
 		"eyebrow": "Experiència",
 		"heading": "Dos mons, un mateix llenguatge: el rendiment",
-		"colDatos": "Dades i Tecnologia",
+		"lead": "En una base de dades o al cotxe d'equip, el treball és el mateix: mesurar bé per decidir millor.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "registres a la base que optimitzo a SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "eines en Python per a l'equip Cofidis"
+			},
+			{
+				"cifra": "6è",
+				"texto": "al Mundial i a l'Europeu de pista"
+			}
+		],
+		"colDatos": "Dades i tecnologia",
 		"colDeporte": "Esport d'elit"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Pràctiques de Ciència de Dades",
-			"meta": "Enginyeria de Dades · Benidorm · 2026",
+			"meta": "Enginyeria de dades, Benidorm, 2026",
 			"paragraphs": [
 				"SIME desenvolupa programari de gestió (reserves, facturació, informes, comandes de restauració) que serveix a centenars de clients des d'un sistema central, sobre una base de dades de +580 taules interconnectades i +100 milions de registres. El creixement havia obligat a repartir clients en diverses bases per alleujar la càrrega i les queixes de lentitud.",
 				"La meva feina: analitzar aquestes bases i, mitjançant optimització de consultes i índexs, dissenyar la unificación de totes les dades en una única base eficient sense escalar gairebé el maquinari (RAM/CPU). Millora ja desenvolupada, en fase de validació sobre servidor de proves."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projectes amb l'equip Cofidis (World Tour)",
-			"meta": "Python · Estiu 2025",
+			"meta": "Python, estiu 2025",
 			"paragraphs": [
 				"Projecte propi que vaig realitzar com a prova per accedir a l'anàlisi de dades en el ciclisme professional:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Competició",
 			"paragraphs": [
 				"Campió d'Espanya de madison (18 anys); Mundial i Europeu de pista amb la Selecció Espanyola (6è en ambós); esportista d'elit; ciclista de pista federat, en actiu."
-			]
+			],
+			"meta": "Ciclisme en pista, Selecció Espanyola"
 		},
 		{
 			"title": "Direcció esportiva",
 			"paragraphs": [
 				"Director Esportiu Nivell I i II (RFEC); formació i seguiment de ciclistes de base (14–18) juntament amb el meu pare; auxiliar amb la Selecció de la Comunitat Valenciana en competicions (2026)."
-			]
+			],
+			"meta": "RFEC, nivells I i II"
 		},
 		{
 			"title": "Quiromassatge i staff tècnic",

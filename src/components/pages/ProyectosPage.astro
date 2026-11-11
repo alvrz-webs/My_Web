@@ -2,8 +2,11 @@
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../PageHeader.astro';
 import Proyectos from '../Proyectos.astro';
-import { type Locale } from '../../lib/i18n';
+import CierreContacto from '../CierreContacto.astro';
+import { localizedPath, type Locale } from '../../lib/i18n';
 import { getDict } from '../../lib/dictionary';
+import { obtenerRepos } from '../../lib/repos';
+import { obtenerWebs } from '../../lib/webs';
 
 interface Props {
 	lang?: Locale;
@@ -12,10 +15,80 @@ interface Props {
 const { lang = 'es' } = Astro.props;
 
 const t = (getDict(lang, 'proyectos') as any).page;
+const cierre = (getDict(lang, 'common') as any).cierre;
+
+// Cifras reales para la cabecera, de las mismas fuentes que la lista (ambas cachean, no hay
+// peticiones de más). Si GitHub no responde, la cabecera se queda sin cifras en vez de mostrar ceros.
+const repos = await obtenerRepos();
+let webs: Awaited<ReturnType<typeof obtenerWebs>> = [];
+try {
+	webs = await obtenerWebs();
+} catch {
+	webs = [];
+}
+const lenguajes = new Set([...repos.map((r) => r.language).filter(Boolean), 'R', 'SQL', 'Power BI']);
+
+const cifras = [
+	{ valor: repos.length, texto: t.cifraRepos },
+	{ valor: webs.length, texto: t.cifraWebs },
+	{ valor: lenguajes.size, texto: t.cifraHerramientas },
+].filter((c) => c.valor > 0 && c.texto);
 ---
 
 <Layout title={t.title} description={t.description} lang={lang}>
-	<PageHeader eyebrow={t.eyebrow} title={t.heading} description={t.intro} />
+	<PageHeader eyebrow={t.eyebrow} title={t.heading} description={t.intro}>
+		{
+			cifras.length > 0 && (
+				<ul slot="aside" class="cifras">
+					{cifras.map((c) => (
+						<li class="cifra">
+							<span class="cifra-valor">{c.valor}</span>
+							<span class="cifra-texto">{c.texto}</span>
+						</li>
+					))}
+				</ul>
+			)
+		}
+	</PageHeader>
 
-	<Proyectos lang={lang} />
+	<div class="proyectos-pagina">
+		<Proyectos lang={lang} cabecera={false} />
+	</div>
+
+	<CierreContacto titulo={cierre.title} texto={cierre.text} cta={cierre.cta} href={localizedPath('/contacto', lang)} />
 </Layout>
+
+<style>
+	.cifras {
+		list-style: none;
+		inline-size: 100%;
+		max-inline-size: 380px;
+		border-block-start: 3px solid var(--color-text);
+	}
+
+	.cifra {
+		display: grid;
+		grid-template-columns: 5rem minmax(0, 1fr);
+		gap: 1rem;
+		align-items: baseline;
+		padding-block: 1rem;
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.cifra-valor {
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: 2.1rem;
+		line-height: 1;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.cifra-texto {
+		font-size: 1rem;
+		line-height: 1.45;
+	}
+
+	.proyectos-pagina {
+		padding-block: var(--space-tras-cabecera) clamp(1rem, 3vw, 2rem);
+	}
+</style>

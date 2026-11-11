@@ -3,11 +3,54 @@
 		"title": "Kontakt — Mario Álvarez",
 		"description": "Spojte se s Mariem Álvarezem a promluvte si o datech, sportovním výkonu a projektech.",
 		"eyebrow": "Kontakt",
-		"heading": "Máte data a otázku, kterou je třeba vyřešit?",
-		"intro": "Pojďme si promluvit. Ať už jde o projekt sportovní analytiky, datovou spolupráci, nebo jen o nápad, který chcete konzultovat, rád odpovím.",
+		"heading": "Máš data a otázku?",
+		"intro": "Pojďme si promluvit. Ať už jde o projekt sportovní analytiky, datovou spolupráci nebo nápad, který chceš probrat, odpovím ti osobně.",
 		"email": "E-mail",
 		"telefono": "Telefon",
 		"verTelefono": "Zobrazit telefon",
-		"redesSociales": "Sociální sítě"
+		"redesSociales": "Sociální sítě",
+		"temaTitulo": "O čem chceš mluvit?",
+		"temaAyuda": "Vyber si téma a já ti připravím e-mail. Stačí mi jen popsat tvůj případ.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Analýza výkonu"
+			},
+			{
+				"id": "herramientas",
+				"label": "Nástroj na míru"
+			},
+			{
+				"id": "datos",
+				"label": "Databáze a reporty"
+			},
+			{
+				"id": "carrera",
+				"label": "Podpora kariéry"
+			},
+			{
+				"id": "otro",
+				"label": "Něco jiného"
+			}
+		],
+		"escribir": "Napsat e-mail",
+		"copiar": "Kopírovat e-mail",
+		"copiado": "E-mail zkopírován",
+		"asunto": "Dotaz z marioalvarez.me",
+		"cuerpo": "Ahoj Mario:\n\nPíšu ti ohledně: {tema}.\n\nCo mám:\n\nCo bych chtěl vědět:\n\nDěkuji.",
+		"otrosCanales": "Ostatní kanály",
+		"base": "Základna",
+		"baseValor": "Benidorm a Valencie",
+		"idiomas": "Jazyky",
+		"idiomasValor": "Španělština, valencijština a angličtina",
+		"aceptacionesTitulo": "Než mi napíšeš",
+		"aceptoTerminos": "Přečetl/a jsem si {enlace} a souhlasím s nimi.",
+		"enlaceTerminos": "obchodní podepsat a podmínky",
+		"aceptoCookies": "Souhlasím s analytickými soubory cookie popsanými v {enlace} (volitelné).",
+		"enlaceCookies": "zásady používání souborů cookie",
+		"faltaTerminos": "Než mi napíšeš, zaškrtni políčko pro oborové podmínky.",
+		"primeraCapa": "Správce: Mario Álvarez Martínez. Účel: odpovědět na tvůj dotaz a případně ti připravit nabídku. Právní základ: tvá žádost. Příjemci: nikdo, pokud to nevyžaduje zákon. Práva: přístup, oprava, výmaz a další, jak vysvětluje {enlace}.",
+		"enlacePrivacidad": "zásady ochrany osobních údajů",
+		"refEmail": "Odkaz na přijetí podmínek: {ref}"
 	}
 }

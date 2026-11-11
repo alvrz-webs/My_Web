@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "בית",
 		"sobreMi": "אודותי",
 		"proyectos": "פרויקטים",
 		"experiencia": "ניסיון",
@@ -7,10 +8,22 @@
 		"ariaMain": "ניווט ראשי",
 		"openMenu": "פתח תפריט"
 	},
+	"saltar": "דלغ לתוכן",
+	"tema": "החלף בין מצב בהיר לכהה",
+	"telefono": "טלפון",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "אלוף ספרד במדיסון. מדען נתונים.",
+		"disponible": "זמין לפרויקטים של נתונים וביצועי ספורט.",
+		"escribeme": "כתוב לי",
+		"navLabel": "סעיפים",
+		"legalLabel": "משפטי",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "רשתות חברתיות"
+	},
+	"cierre": {
+		"title": "נדבר?",
+		"text": "אם יש לך נתוני ביצועים ושאלות ללא מענה, כתוב לי ונתבונן בזה ביחד.",
+		"cta": "כתוב לי"
 	},
 	"langSwitch": {
 		"label": "שנה שפה",
@@ -27,11 +40,20 @@
 		"ariaBanner": "הסכמת עוגיות"
 	},
 	"legal": {
+		"terminos": "תנאים והגבלות",
 		"privacidad": "מדיניות פרטיות",
-		"cookies": "מדיניות עוגיות"
+		"cookies": "מדיניות עוגיות",
+		"reembolso": "מדיניות החזרים",
+		"actualizado": "עדכון אחרון",
+		"indice": "במודעה זו",
+		"otros": "מסמכים אחרים"
 	},
 	"person": {
 		"jobTitle": "מדען נתונים",
 		"description": "מדען נתונים המתמחה באנליטיקה של ספורט, עם ניסיון ברכיבת אופניים מקצוענית."
+	},
+	"pizarra": {
+		"vueltas": "הקפות",
+		"campana": "אחרון"
 	}
 }

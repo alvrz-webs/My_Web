@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Zásady vrátenia peňazí — Mario Álvarez",
+		"description": "Ako fungujú zrušenia, právo na odstúpenie od zmluvy a vrátenie peňazí za služby poskytované Mario Álvarez.",
+		"heading": "Zásady vrátenia peňazí"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Táto webová stránka nespracováva platby",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Na stránke marioalvarez.me sa nepredávajú žiadne produkty ani sa nevykonávajú online platby. Služby (analýza výkonnosti, zákazkové nástroje, databázy a správy, ako aj kariérna podpora) sa uzatvárajú samostatne prostredníctvom písomnej ponuky."
+				}
+			]
+		},
+		{
+			"titulo": "2. To, čo uvádza vaša ponuka",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Každá ponuka obsahuje cenu, spôsob a čas platby, ako aj podmienky zrušenia. Ak ponuka uvádza niečo iné ako tieto zásady, platí ponuka, pokiaľ vám tieto zásady neposkytujú väčšie práva ako spotrebiteľovi."
+				}
+			]
+		},
+		{
+			"titulo": "3. V prípade zrušenia",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pokiaľ nie je písomne dohodnuté inak:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ak zrušíte objednávku pred začatím prác, vrátim vám v plnej výške akúkoľvek zálohu.",
+						"Ak zrušíte objednávku po začatí prác, účtuje sa iba už vykonaná časť a zvyšok zaplatenej zálohy vám vrátim.",
+						"Už odovzdaná a prijatá práca sa nevracia, pokiaľ nevykazuje chyby, ktoré nie sú opravené."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Právo na odstúpenie od zmluvy (ak ste spotrebiteľ)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ak uzatvárate zmluvu ako spotrebiteľ (osoba, ktorá koná mimo svojej odbornej činnosti) a zmluva sa uzatvára na diaľku, e-mailom alebo telefonicky, máte 14 kalendárnych dní od jej uzavretia na odstúpenie bez udania dôvodu v súlade s príslušnými predpismi na ochranu spotrebiteľa."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ak ma výslovne požiadate, aby som začal pracovať v rámci týchto 14 dní, a potom odstúpite od zmluvy, zaplatíte iba pomernú časť služby poskytnutej do toho momentu. Ak bola služba úplne dokončená v stanovenej lehote s vaším predchádzajúcim výslovným súhlasom a s vedomím, že týmto strácate toto právo, už nebudete môcť odstúpiť od zmluvy."
+				}
+			]
+		},
+		{
+			"titulo": "5. Ako požiadať o vrátenie",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Napíšte mi na adresu {email} s uvedením vášho mena, služby a dátumu, kedy ste ju objednali. Môžete použiť tento vzorový formulár na odstúpenie od zmluvy (nie je povinný):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Pre {nombre}, {domicilio}, {email}:",
+						"Týmto vám oznamujem, že odstupujem od zmluvy o poskytnutí nasledujúcej služby: [servicio].",
+						"Objednané dňa: [fecha].",
+						"Meno spotrebiteľa: [nombre].",
+						"Adresa spotrebiteľa: [domicilio].",
+						"Dátum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Lehota a spôsob vrátenia peňazí",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Príslušnú čiastku vám vrátim najneskôr do 14 kalendárnych dní odo dňa, keď ma informujete o svojom rozhodnutí, a to rovnakým spôsobom platby, aký ste použili, pokiaľ sa nedohodneme inak. Vrátenie peňazí je pre vás bezplatné."
+				}
+			]
+		}
+	]
+}

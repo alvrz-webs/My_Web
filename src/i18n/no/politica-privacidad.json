@@ -1,8 +1,8 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Personvernerklæring — Mario Álvarez",
-		"description": "Personvernerklæring for nettsiden til Mario Álvarez: hvilke data som samles inn, i hvilke hensikter, og hvordan du kan utøve dine rettigheter.",
-		"eyebrow": "Juridisk",
+		"description": "Hvilke data marioalvarez.me behandler, for hva, på hvilket rettslig grunnlag, hvor lenge og hvordan du kan utøve dine rettigheter.",
 		"heading": "Personvernerklæring"
 	},
 	"secciones": [
@@ -10,84 +10,150 @@
 			"titulo": "1. Behandlingsansvarlig",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Mario Álvarez Martínez, med bosted i Benidorm (Alicante), Spania. Kontakt: malvmar5@hotmail.com"
-				}
-			]
-		},
-		{
-			"titulo": "2. Formål med behandlingen",
-			"bloques": [
-				{
-					"tipo": "parrafo",
-					"texto": "Denne nettsiden analyserer internt og utelukkende i statistisk øyemed hvilket innhold (seksjoner, prosjekter) som er mest nyttig for de som besøker den, med sikte på å forbedre innholdet. Den brukes ikke til reklameformål, deles ikke med tredjeparter og selges ikke under noen omstendigheter."
-				}
-			]
-		},
-		{
-			"titulo": "3. Data som samles inn (kun hvis du godtar analysekapsler)",
-			"bloques": [
-				{
 					"tipo": "lista",
 					"items": [
-						"En tilfeldig anonym identifikator, ikke knyttet til navnet ditt, e-posten din eller annen informasjon som identifiserer deg direkte.",
-						"Sider og prosjekter du besøker, og tidsbruk på hver enkelt (mens fanen er aktiv).",
-						"Interaksjoner (klikk på prosjekter, lenker eller knapper).",
-						"Dato og klokkeslett for besøket.",
-						"Språk på nettstedet som ble konsultert.",
-						"Enhetstype (mobil eller stasjonær).",
-						"Omtrentlig land, innhentet gjennom infrastrukturen til Cloudflare, uten å lagre IP-adressen din.",
-						"Henvisningsside (for eksempel LinkedIn eller en søkemotor)."
+						"Behandlingsansvarlig: {nombre}",
+						"NIF: {nif}",
+						"Adresse: {domicilio}",
+						"E-post for alle personvernspørsmål: {email}"
 					]
 				},
 				{
 					"tipo": "parrafo",
-					"texto": "Din IP-adresse samles ikke inn, det brukes ikke teknikker for nettlesergjenkjenning (fingerprinting), og heller ikke verktøy fra tredjeparter som Google Analytics eller lignende."
+					"texto": "På grunn av nettstedets størrelse og type aktivitet er det ikke obligatorisk å utnevne et personvernombud, så det finnes ikke noe: skriv direkte til meg."
 				}
 			]
 		},
 		{
-			"titulo": "4. Rettslig grunnlag",
+			"titulo": "2. Hvilke data jeg behandler, for hva og hvorfor",
 			"bloques": [
 				{
-					"tipo": "parrafo",
-					"texto": "Behandlingen er basert på ditt uttrykkelige samtykke (artikkel 6.1.a i GDPR og artikkel 22.2 i LSSI-CE), som du når som helst kan trekke tilbake fra nettstedets egen informasjonskapselbehandler."
+					"tipo": "tabla",
+					"columnas": [
+						"For hva",
+						"Hvilke data",
+						"Rettslig grunnlag",
+						"Hvor lenge"
+					],
+					"filas": [
+						[
+							"Bruksanalyse, bare hvis du aksepterer analysekapsler",
+							"En tilfeldig pseudonym identifikator (visiter_id-informasjonskapsel), seksjonene og prosjektene du ser på og tiden som brukes på hver enkelt, klikk på lenker og knapper, språket, enhetstypen (mobil eller datamaskin), det omtrentlige landet og nettsiden der hver hendelse skjer.",
+							"Ditt samtykke (art. 6.1.a GDPR).",
+							"12 måneder; deretter slettes hver hendelse automatisk."
+						],
+						[
+							"Samtykkeregister",
+							"Den pseudonyme identifikatoren, hva du aksepterte, avslo eller trakk tilbake, versjonen av hvert dokument, dato og klokkeslett, siden, språket, kilden (banner, innstillinger eller skjema), nettleseren (brukeragent) og det omtrentlige landet; i skjemaet i tillegg referansekoden for e-posten din.",
+							"Å oppfylle forpliktelsen til å kunne bevise samtykke (art. 6.1.c og 7.1 GDPR).",
+							"3 år fra hver registrering (maksimal foreldelsesfrist for overtredelser); deretter slettes det automatisk."
+						],
+						[
+							"Svare på din forespørsel via e-post eller telefon",
+							"Dataene du velger å sende meg: vanligvis navn, e-post eller telefonnummer og innholdet i meldingen.",
+							"Å iverksette førkontraktuelle tiltak på din oppfordring (art. 6.1.b GDPR) eller min berettigede interesse i å svare deg (art. 6.1.f).",
+							"Så lenge samtalen varer og opptil 1 år etter, med mindre vi inngår en avtale."
+						],
+						[
+							"Administrere en avtalt tjeneste",
+							"Identifikasjons-, kontakt- og faktureringsdata.",
+							"Utførelse av kontrakten (art. 6.1.b GDPR) og skatte- og regnskapsmessige forpliktelser (art. 6.1.c).",
+							"Det skatte- og selskapsrettslige lover krever (vanligvis mellom 4 og 6 år)."
+						],
+						[
+							"Husk om du foretrekker lyst eller mørkt tema",
+							"Preferansen «tema», lagret bare i nettleseren din (lokal lagring). Den når ikke fram til meg.",
+							"En funksjon du ber om ved å trykke på knappen.",
+							"Til du sletter den fra nettleseren din."
+						]
+					]
 				}
 			]
 		},
 		{
-			"titulo": "5. Lagringsperiode",
+			"titulo": "3. Det jeg ikke ber om eller samler inn",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dataene oppbevares i maksimalt 12 måneder fra ditt siste besøk, hvorefter de slettes automatisk."
+					"texto": "Jeg behandler bare det som er strengt nødvendig for hvert formål. Nærmere bestemt:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kontaktskjemaet ber ikke om navnet ditt, e-posten din eller telefonnummeret ditt: åpne e-postprogrammet ditt, og det er du som bestemmer hva du sender meg.",
+						"Jeg lagrer ikke IP-adressen din, hverken i analysen eller i samtykkeregisteret.",
+						"Jeg bruker ikke teknikker for nettleseridentifikasjon (fingerprinting), Google Analytics, annonsepiksler eller informasjonskapsler fra tredjeparter.",
+						"Typografier og bilder serveres fra dette samme nettstedet: når du besøker det, kobler ikke nettleseren din seg til Google Fonts, GitHub eller andre eksterne tjenester."
+					]
 				}
 			]
 		},
 		{
-			"titulo": "6. Mottakere og internasjonale overføringer",
+			"titulo": "4. Hvem andre som er involvert",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Dataene blir ikke utlevert eller solgt til tredjeparter. De lagres i Cloudflare D1, en databasetjeneste levert av Cloudflare, Inc., som opptrer som databehandler. Cloudflare kan behandle data utenfor Det europeiske økonomiske samarbeidsområde; i slike tilfeller er overføringen basert på standardavtaleklausulene godkjent av EU-kommisjonen. Mer informasjon i Cloudflares personvernerklæring: https://www.cloudflare.com/privacypolicy/"
+					"texto": "Jeg selger eller overdrar ikke dataene dine til noen, med mindre det foreligger en rettslig forpliktelse. For at nettstedet skal fungere og for å svare deg, bruker jeg følgende leverandører:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Cloudflare, Inc.: hoster nettstedet og databasen (Cloudflare Pages og D1) og opptrer som databehandler. For å levere nettstedet behandler den tekniske tilkoblingsdata, som IP-adressen din, som jeg ikke har tilgang til. Retningslinjer: https://www.cloudflare.com/privacypolicy/",
+						"Microsoft Corporation (Outlook.com): e-posttjenesten der jeg mottar og svarer på e-poster; den behandler disse meldingene i henhold til sine egne retningslinjer: https://privacy.microsoft.com/es-es/privacystatement"
+					]
 				}
 			]
 		},
 		{
-			"titulo": "7. Dine rettigheter",
+			"titulo": "5. Internasjonale overføringer",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Du kan når som helst utøve dine rettigheter til innsyn, retting, sletting, innsigelse, begrenset behandling og dataportabilitet ved å skrive til malvmar5@hotmail.com. I tillegg kan du slette dataene dine umiddelbart, uten å måtte skrive til noen, fra knappen \"Slett mine data\" som er tilgjengelig i nettstedets informasjonskapselinnstillinger. Du har også rett til å klage til den spanske datatilsynet (www.aepd.es) hvis du mener at dine rettigheter ikke har blitt behandlet på en korrekt måte."
+					"texto": "Cloudflare og Microsoft kan behandle data i USA. Begge er tilsluttet Data Privacy Framework mellom EU og USA (EU-kommisjonens vedtak om tilstrekkelig beskyttelsesnivå av 10. juli 2023) og tilbyr i tillegg standardavtaleklausulene godkjent av Kommisjonen."
 				}
 			]
 		},
 		{
-			"titulo": "8. Endringer i denne retningslinjen",
+			"titulo": "6. Dine rettigheter",
 			"bloques": [
 				{
 					"tipo": "parrafo",
-					"texto": "Denne retningslinjen kan bli oppdatert for å tilpasse seg juridiske endringer eller endringer på selve nettstedet."
+					"texto": "Du kan når som helst be meg om å få tilgang til dine data, rette dem, slette dem, protestere mot behandlingen av dem, begrense den eller motta dem for å flytte dem til et annet sted (portabilitet), og trekke tilbake samtykket ditt uten at det påvirker det som er behandlet tidligere. Skriv til meg på {email}; jeg vil svare deg innen maksimalt én måned."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Analytiske data kan slettes av deg selv umiddelbart med knappen «Slett mine data» i innstillingene for informasjonskapsler. Samtykkeregisteret beholder selv om du trekker tilbake samtykket, fordi det nettopp tjener til å dokumentere når du ga det og når du trakk det tilbake."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis du mener at jeg ikke har ivaretatt rettighetene dine på en god måte, kan du klage til den relevante datatilsynsmyndigheten: https://www.aepd.es"
+				}
+			]
+		},
+		{
+			"titulo": "7. Mindreårige",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nettstedet er ikke rettet mot personer under 14 år. Hvis du er under 14 år, må du ikke sende meg personopplysninger uten tillatelse fra foreldre eller foresatte."
+				}
+			]
+		},
+		{
+			"titulo": "8. Sikkerhet",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dataene reiser kryptert (HTTPS) og lagres i en database som bare nås fra det private panelet, beskyttet med brukernavn og passord."
+				}
+			]
+		},
+		{
+			"titulo": "9. Endringer i denne retningslinjen",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvis noe vesentlig endrer seg, vil jeg oppdatere denne siden og dens versjonsdato. Hvis endringen gjelder informasjonskapsler, vil du bli spurt på nytt."
 				}
 			]
 		}

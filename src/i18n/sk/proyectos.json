@@ -4,7 +4,10 @@
 		"description": "Repozitáre a projekty analýzy dát, vizualizácie a machine learning od Maria Álvareza.",
 		"eyebrow": "Projekty",
 		"heading": "Projekty",
-		"intro": "Pohľad na moju prácu: od nástrojov pre profesionálnu cyklistiku až po akademické projekty analýzy a machine learning."
+		"intro": "Pohľad na moju prácu: od nástrojov pre profesionálnu cyklistiku až po akademické projekty analýzy a machine learning.",
+		"cifraRepos": "verejné úložiská na GitHub",
+		"cifraWebs": "zverejnené webové stránky",
+		"cifraHerramientas": "jazyky a nástroje"
 	},
 	"list": {
 		"eyebrow": "Práca",

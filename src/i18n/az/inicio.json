@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — İdman üzrə ixtisaslaşmış məlumat elmi mütəxəssisi",
-		"description": "Valensiyada idman analitikası üzrə ixtisaslaşmış məlumat elmi mütəxəssisi Mario Álvarez. Data · Sport · Progress.",
+		"description": "Valensiyada idman analitikası üzrə ixtisaslaşmış məlumat elmi mütəxəssisi Mario Alvarez. İspaniya madison çempionu və RFEC idman direktoru.",
 		"verProyectos": "Layihələrə bax",
-		"contacto": "Əlaqə",
-		"verMas": "Daha çox bax",
+		"verServicios": "Sizə necə kömək edə biləcəyimi görün",
+		"contacto": "Mənə yazın",
+		"verMas": "Daha çox oxu",
 		"verTodosProyectos": "Bütün layihələrə bax",
-		"irAContacto": "Əlaqəyə keç",
+		"irAContacto": "Mənə yazın",
 		"herramientas": "Əsas alətlər"
 	},
 	"hero": {
-		"eyebrow": "Məlumat elmi mütəxəssisi · İdman analitikası · Valensiya",
-		"titlePre": "Məlumatları çevirirəm ",
-		"titleHighlight": "aydın qərarlara",
-		"subtitle": "Məlumat analitikası ilə elita idmanının arasında körpüyəm: performans ölçülərini meydançada fərq yaradan strategiyalara çevirirəm.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Alvarez, məlumat elmi mütəxəssisi",
+		"title": "İspaniyanın madison çempionu olmuşam.",
+		"subtitle": "İndi UPV-də Məlumat Elmi öyrənirəm və performansın arxasında duran amilləri təhlil edirəm: güc, yük və nəticələr. Bir rəqəmin yarışçı üçün nə demək olduğunu bilirəm, çünki mən həmin yarışçı olmuşam.",
+		"palmaresLabel": "Nailiyyətlər",
+		"palmares": [
+			{
+				"pos": "1º",
+				"texto": "İspaniya madison çempionatı",
+				"nota": "Trek, 18 yaşında"
+			},
+			{
+				"pos": "6º",
+				"texto": "Treklər üzrə Dünya Çempionatı",
+				"nota": "İspaniya Milli Komandası"
+			},
+			{
+				"pos": "6º",
+				"texto": "Treklər üzrə Avropa Çempionatı",
+				"nota": "İspaniya Milli Komandası"
+			}
+		],
+		"retratoAlt": "Mario Alvaresin portreti"
+	},
+	"servicios": {
+		"title": "Sizə nədə kömək edə bilərəm",
+		"text": "Məlumatları olan və onlardan səmərəli istifadə etmək istəyən komandalar, məşqçilər və velosipedçilərlə işləyirəm. Həmçinin öz məlumatlarını qaydaya salmağa ehtiyacı olan şirkətlərlə.",
+		"cta": "Vəziyyətinizi mənə danışın",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Performans təhlili",
+				"texto": "Gücü, yükü və nəticələri yarışçı gözü ilə oxuyuram. Nə baş verdiyini və nəyi dəyişmək lazım olduğunu sizə izah edirəm.",
+				"prueba": "Elit yarışçı və RFEC idman direktoru, I və II səviyyələr."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Fərdi alətlər",
+				"texto": "Komandanızın konkret sualına cavab verən Skraypinq, modellər və Python-da kiçik tətbiqlər.",
+				"prueba": "Cofidis komandası üçün iki alət: UCI çətinliyi və yarış profili."
+			},
+			{
+				"id": "datos",
+				"nombre": "Verilənlər bazaları və hesabatlar",
+				"texto": "Daha sürətli sorğular, vahid bazalar və Power BI-da bir baxışda başa düşülən idarəetmə panelləri.",
+				"prueba": "SIME Telecom-da optimallaşdırdığım bazada 580-dən çox cədvəl və 100 milyon qeyd."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Yarış dəstəyi",
+				"texto": "Yarışa hazırlıq, yarışçıların izlənməsi və yarış zamanı kiromassaj.",
+				"prueba": "Valensiya İcması Milli Komandasının heyəti."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Haqqımda",
-		"title": "meydança, yol və yarış konteksti olan məlumatlar",
-		"text": "Mən Mario Álvarezəm, peşəkar velosiped idmanında real təcrübəsi olan UPV-də Məlumat Elmi tələbəsiyəm. Hər bir ölçünü nəticələri yaxşılaşdıran qərara çevirmək üçün məlumat analitikasını elita idman performansı ilə birləşdirirəm."
+		"title": "Velotrekdən məlumatlara",
+		"text": "UPV-də Məlumat Elmi üzrə 3-cü kursda oxuyuram və idmana tətbiq olunan rəqəmsal texnologiyalar üzrə magistratura bitirmişəm. Velosiped idmanından uzaqlaşmamışam: trekdə yarışmağa davam edirəm, gənc velosipedçilərə rəhbərlik edirəm və peşəkarlarla kiromassajist kimi işləyirəm."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Baza",
+			"value": "Benidorm və Valensiya"
+		},
+		{
 			"label": "Təhsil",
-			"detail": "Məlumat Elmi üzrə Bakalavr dərəcəsi, Universitat Politècnica de València."
+			"value": "Məlumat Elmi üzrə Bakalavr (UPV) və İdman üzrə Rəqəmsallaşma, İnnovasiya və Texnologiya Magistri"
 		},
 		{
-			"value": "Elita",
-			"label": "Təcrübə",
-			"detail": "Peşəkar velosiped komandası daxilində real iş."
+			"label": "Titullar",
+			"value": "RFEC idman direktoru, I və II səviyyələr"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Yanaşma",
-			"detail": "İdman performansının yaxşılaşdırılmasına tətbiq olunan analitika."
+			"label": "İndi",
+			"value": "Məlumat və performans layihələri üçün əlçatandır"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Təcrübə",
-		"title": "İki dünya, tək bir dil: performans",
-		"text": "Ən yüksək səviyyədə yarışmışam və bu gün eyni meyarı məlumatlara tətbiq edirəm: bir rəqəmin idmançı üçün nə demək olduğunu anlayıram, çünki mən həmin idmançı olmuşam."
+		"title": "İki yol, eyni iş",
+		"text": "Birində verilənlər bazalarını optimallaşdırıram və modellər yazıram. Digərində yarışlara hazırlaşıram və yarışçıları izləyirəm. Hər ikisi eyni məqsədə xidmət edir: daha yaxşı qərar vermək üçün düzgün ölçmək.",
+		"carriles": [
+			{
+				"nombre": "Məlumatlar",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "aparat təminatını genişləndirmədən bir neçə bazanı birində birləşdirmək üçün SIME Telecom-da təhlil edilmiş cədvəllər"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "optimallaşdırdığım verilənlər bazasındakı qeydlər"
+					},
+					{
+						"cifra": "2",
+						"texto": "Cofidis komandası üçün Python-da alətlər: UCI çətinliyi və yarış profili"
+					}
+				]
+			},
+			{
+				"nombre": "Trek və şosse",
+				"items": [
+					{
+						"cifra": "I və II",
+						"texto": "İspaniya Kral Velosiped İdmanı Federasiyasının idman direktoru səviyyələri"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "atatamla birlikdə məşq etdiyim və izlədiyim gənc yarışçıların yaşları"
+					},
+					{
+						"cifra": "2026",
+						"texto": "yarışda Valensiya İcması Milli Komandası ilə köməkçi"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Məlumatlar haqqında danışaq?",
-		"text": "Layihənizi mənə danışın və performansı yaxşılaşdıran qərarların harada olduğunu birlikdə tapaq."
+		"title": "Sonuncu dövrə",
+		"text": "Əgər performans məlumatlarınız və cavabsız suallarınız varsa, mənə yazın və birlikdə baxaq."
 	}
 }

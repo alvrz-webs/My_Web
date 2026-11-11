@@ -4,13 +4,28 @@
 		"description": "Twee wêrelde, dieselfde taal: prestasie. Mario Álvarez se ervaring in data en ingenieurswese, en in elite-fietsry.",
 		"eyebrow": "Ervaring",
 		"heading": "Twee wêrelde, dieselfde taal: prestasie",
-		"colDatos": "Data & Tegnologie",
+		"lead": "In 'n databasis of in die spanmotor is die werk dieselfde: meet goed om beter te besluit.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "rekords in die databasis wat ek by SIME Telecom optimaliseer"
+			},
+			{
+				"cifra": "2",
+				"texto": "nutsgoed in Python vir die Cofidis-span"
+			},
+			{
+				"cifra": "6º",
+				"texto": "op die Wêreld- en Europese Baankampioenskap"
+			}
+		],
+		"colDatos": "Data en tegnologie",
 		"colDeporte": "Elite-sport"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Datawetenskap-internskap",
-			"meta": "Data-ingenieurswese · Benidorm · 2026",
+			"meta": "Data-ingenieurswese, Benidorm, 2026",
 			"paragraphs": [
 				"SIME ontwikkel bestuursagteware (besprekings, fakturering, verslae, restaurantbestellings) wat honderde kliënte van 'n sentrale stelsel bedien, op 'n databasis van +580 onderling verbonde tabelle en +100 miljoen rekords. Groei het dit genoodsaak om kliënte oor verskeie databasisse te versprei om die las en stadige klagtes te verlig.",
 				"My werk: ontleed daardie databasisse en, deur navraag- en indeksoptimalisering, die unifikasie van alle data in 'n enkele doeltreffende databasis te ontwerp sonder om die hardeware (RAM/CPU) skaars op te skaal. Verbetering reeds ontwikkel, in die valideringsfase op 'n toetsserver."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekte met die Cofidis-span (World Tour)",
-			"meta": "Python · Somer 2025",
+			"meta": "Python, somer 2025",
 			"paragraphs": [
 				"Eie projek wat ek uitgevoer het as 'n toetstoegang tot data-analise in professionele fietsry:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Kompetisie",
 			"paragraphs": [
 				"Spaanse Madison-kampioen (18 jaar oud); Wêreld- en Europese baanbyeenkomste met die Spaanse Nasionale Span (6de in beide); elite-atleet; federatiewe baanfietsryer, aktief."
-			]
+			],
+			"meta": "Baankompetisie, Spaanse Nasionale Span"
 		},
 		{
 			"title": "Sportbestuur",
 			"paragraphs": [
 				"Sportdirekteur Vlak I en II (RFEC); opleiding en monitering van junior fietsryers (14–18) saam met my pa; assistent met die Valenciaanse Gemeenskap se Nasionale Span in kompetisies (2026)."
-			]
+			],
+			"meta": "RFEC, vlakke I en II"
 		},
 		{
 			"title": "Sportmassering en tegniese personeel",

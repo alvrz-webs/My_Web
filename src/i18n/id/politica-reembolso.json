@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Kebijakan Pengembalian Dana — Mario Álvarez",
+		"description": "Cara kerja pembatalan, hak pembatalan, dan pengembalian dana untuk layanan Mario Álvarez.",
+		"heading": "Kebijakan Pengembalian Dana"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Situs web ini tidak memungut pembayaran",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Di marioalvarez.me tidak ada produk yang dijual atau pembayaran online yang ditarik. Layanan (analisis kinerja, perangkat khusus, basis data dan laporan, serta dukungan karier) dikontrak secara terpisah, dengan proposal tertulis."
+				}
+			]
+		},
+		{
+			"titulo": "2. Apa yang dinyatakan dalam proposal Anda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Setiap proposal menunjukkan harga, cara dan waktu pembayaran, serta ketentuan pembatalan. Jika proposal menyatakan hal yang berbeda dari kebijakan ini, proposal tersebut yang berlaku, kecuali kebijakan ini memberi Anda lebih banyak hak sebagai konsumen."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jika Anda membatalkan",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kecuali disepakati lain secara tertulis:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Jika Anda membatalkan sebelum pekerjaan dimulai, saya akan mengembalikan penuh pembayaran di muka apa pun.",
+						"Jika Anda membatalkan saat pekerjaan sudah dimulai, hanya bagian yang sudah dikerjakan yang akan ditagih dan saya akan mengembalikan sisa dari apa yang telah Anda bayar di muka.",
+						"Pekerjaan yang sudah diserahkan dan diterima tidak dapat dikembalikan dananya, kecuali jika memiliki cacat yang tidak diperbaiki."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Hak pembatalan (jika Anda adalah konsumen)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jika Anda berkontrak sebagai konsumen (seseorang yang bertindak di luar aktivitas profesionalnya) dan kontrak ditutup dari jarak jauh, melalui email atau telepon, Anda memiliki waktu 14 hari kalender sejak kontrak ditutup untuk membatalkan tanpa memberikan penjelasan, sesuai dengan pasal 102 hingga 108 dari teks konsolidasi Undang-Undang Umum untuk Pembelaan Konsumen dan Pengguna (Real Decreto Legislativo 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jika Anda secara tegas meminta saya untuk mulai bekerja dalam waktu 14 hari tersebut dan kemudian Anda membatalkan, Anda hanya akan membayar bagian yang proporsional dari layanan yang diberikan hingga saat itu. Jika layanan telah diselesaikan sepenuhnya dalam jangka waktu tersebut, dengan persetujuan Anda sebelumnya dan secara tegas serta mengetahui bahwa dengan demikian Anda kehilangan hak ini, Anda tidak akan dapat membatalkan lagi (pasal 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Cara memintanya",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Tulis kepada saya di {email} beserta nama Anda, layanan, dan tanggal Anda mengontraknya. Anda dapat menggunakan model formulir pembatalan ini (tidak wajib):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Kepada perhatian {nombre}, {domicilio}, {email}:",
+						"Dengan ini saya memberitahukan bahwa saya membatalkan kontrak penyediaan layanan berikut: [servicio].",
+						"Dikontrak pada: [fecha].",
+						"Nama konsumen: [nombre].",
+						"Alamat konsumen: [domicilio].",
+						"Tanggal: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Jangka waktu dan cara pengembalian dana",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Saya akan mengembalikan dana yang sesuai selambat-lambatnya 14 hari kalender sejak Anda mengomunikasikan keputusan Anda, melalui sarana pembayaran yang sama yang Anda gunakan, kecuali jika kami menyepakati cara lain. Pengembalian dana tidak dikenakan biaya apa pun untuk Anda."
+				}
+			]
+		}
+	]
+}

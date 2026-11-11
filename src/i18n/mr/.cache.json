@@ -46,10 +46,6 @@
 			"hash": "1a7de9bc490f0ea32cda44e40cc097eb3aed625fa2e7a34e0082bd8505c26b91",
 			"value": "मेनू उघडा"
 		},
-		"footer/tagline": {
-			"hash": "5b2ba90faaf2e116c6116f1d7007d8f234f67733e1b8ecb3b08ada8c8e572154",
-			"value": "Data · Sport · Progress"
-		},
 		"footer/copySufijo": {
 			"hash": "807c1cacb815c9d8435591c85249302da1303d0e8288f1c00c160c4586dc8332",
 			"value": "Mario Álvarez. Valencia."
@@ -113,6 +109,82 @@
 		"person/description": {
 			"hash": "94f5c309f38b1bda63f2e52516d7784942dba337aa62001ca1efbec3880f0db2",
 			"value": "व्यावसायिक सायकलिंगमधील अनुभवासह क्रीडा विश्लेषणात तज्ञ असलेला डेटा सायंटिस्ट."
+		},
+		"nav/inicio": {
+			"hash": "58fcc9468fe1f60716a71caef50fce70a6d2d46f7a2c0d0f45f1f76dc7779625",
+			"value": "मुख्यपृष्ठ"
+		},
+		"saltar": {
+			"hash": "fdab69210d5cdafd00ef529d44ae9a661276fce0e6a923b3bf319d989e1f558f",
+			"value": "μπεριकडे जा"
+		},
+		"tema": {
+			"hash": "8524e4fec08b2b0a84a45e82e4850e44563e44e66124778c56a0fc5d6eaec8af",
+			"value": "प्रकाश आणि गडद मोड दरम्यान स्विच करा"
+		},
+		"telefono": {
+			"hash": "f1186abd0b8bec580263d92f0b7ea2da7c8ee8b48a1b8f7f9a8d2b2d4a49e397",
+			"value": "दूरध्वनी"
+		},
+		"footer/tagline": {
+			"hash": "a83df9d4951df975da74ce031a93531fdd895ca877e133c125a0a51d997d5ebb",
+			"value": "मॅडिसनचे स्पॅनिश चॅम्पियन. डेटा सायंटिस्ट."
+		},
+		"footer/disponible": {
+			"hash": "891aaf426cd49ddc53cdf30bea97390bab2ac4ab12c91b11c9f95de240f05561",
+			"value": "डेटा आणि क्रीडा कामगिरी प्रकल्पांसाठी उपलब्ध."
+		},
+		"footer/escribeme": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "मला लिहा"
+		},
+		"footer/navLabel": {
+			"hash": "0bbc7f1e927d67314fa74100ae3fd332f5edcd0417b878c8a46728fd1fbdf01d",
+			"value": "विभाग"
+		},
+		"footer/legalLabel": {
+			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
+			"value": "कायदेशीर"
+		},
+		"cierre/title": {
+			"hash": "e132be6412d729ead8526cfc43d5087c499fcf8676e7099aa6d1d744d03770bb",
+			"value": "आपण बोलूया का?"
+		},
+		"cierre/text": {
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "तुमच्याकडे परफॉर्मन्स डेटा आणि अनुत्तरित प्रश्न असल्यास, मला लिहा आणि आम्ही ते एकत्र पाहू."
+		},
+		"cierre/cta": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "मला लिहा"
+		},
+		"legal/terminos": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "नियम आणि अटी"
+		},
+		"legal/reembolso": {
+			"hash": "5a21795626545779b629f1c3dcc056f356195953c854ca139dc0984e786f1e5c",
+			"value": "परतावा धोरण"
+		},
+		"legal/actualizado": {
+			"hash": "eb4d33d5830376fed4e35d9e5e850c164657d47e1f41ceeaf2ef0a6cefb01e6e",
+			"value": "शेवटचे अपडेट"
+		},
+		"legal/indice": {
+			"hash": "a4847f7ca6bc42a8f454975eb094948a322325c10fc5ea7c40294a829e17b2f5",
+			"value": "या पृष्ठावर"
+		},
+		"legal/otros": {
+			"hash": "0ce5d49731fe74924737a4546b0b20fe23be2755bf346db49c24be7431b98605",
+			"value": "इतर कागदपत्रे"
+		},
+		"pizarra/vueltas": {
+			"hash": "786fb244bf22bee63592ad323292a48d0750e96d5d345883b5567ffba9fcb5d0",
+			"value": "लपवते"
+		},
+		"pizarra/campana": {
+			"hash": "c8a29b4b5da7cae92b1ebb8b07becaaa4b7f80607ea036c5d8df384ab52c30dd",
+			"value": "शेवटचे"
 		}
 	},
 	"inicio": {
@@ -120,137 +192,265 @@
 			"hash": "9f4d84b1697b26f6171e0a987da71b3126430f9257eaa374f43913fa2fe298a9",
 			"value": "Mario Álvarez — क्रीडा विशेष, डेटा सायंटिस्ट"
 		},
-		"meta/description": {
-			"hash": "ec3b48916e1c48f8b683488020aa27d614476ebd9ad590b86863b88749abd8b7",
-			"value": "Mario Álvarez, व्हॅलेन्सिया येथील क्रीडा विश्लेषणात विशेष प्राविण्य असलेला डेटा सायंटिस्ट. Data · Sport · Progress."
-		},
 		"meta/verProyectos": {
 			"hash": "8a66fb21b742267787a32c7f389be497436e83d345c0c83df07ea2fa8e250272",
 			"value": "प्रकल्प पहा"
-		},
-		"meta/contacto": {
-			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
-			"value": "संपर्क"
-		},
-		"meta/verMas": {
-			"hash": "6044f32c7a20e32eeca6bedcbb98787b7197cb19b7b99a5757dba3e25c6c6c0f",
-			"value": "अधिक पहा"
 		},
 		"meta/verTodosProyectos": {
 			"hash": "53d1aa2539714d7db933eb12d1b8d7a7996c5cdcb616f3d8e5bf380b210f87d4",
 			"value": "सर्व प्रकल्प पहा"
 		},
-		"meta/irAContacto": {
-			"hash": "36aab9bd00fbbe54a91da148a9b6cc9cc16bd65f34104248dfda6589205e3499",
-			"value": "संपर्काaकडे जा"
-		},
 		"meta/herramientas": {
 			"hash": "139d5d9e196942b679c79f4bb6e35704ab96b697c6a809347aefb9cf9c506dc8",
 			"value": "मुख्य साधने"
 		},
-		"hero/eyebrow": {
-			"hash": "5f0adb549badebbee8809fd2a261512adc20d74bcbea6c03fc5037aaa29927b2",
-			"value": "डेटा सायंटिस्ट · क्रीडा विश्लेषण · व्हॅलेन्सिया"
+		"meta/description": {
+			"hash": "a5870d55222306890607891a6459f9b134312ae1f60d34e5ae4208d9037cad81",
+			"value": "मario álvarez, व्हेंथियामधील डेटा सायंटिस्ट, क्रीडा विश्लेषणात तज्ञ. मॅडिसनचे स्पॅनिश चॅम्पियन आणि RFEC स्पोर्ट्स डायरेक्टर."
 		},
-		"hero/titlePre": {
-			"hash": "6340530885bf8bc06f39674fe9ce6c34a93dc3504096879c293ad6f6e68e0295",
-			"value": "मी डेटाचे रूपांतर करतो "
+		"meta/verServicios": {
+			"hash": "d9216da4b1c74540f197643773ee83dc9dc9c66c20ecb0c518f92302e441a9b2",
+			"value": "मी तुम्हाला कशी मदत करतो ते पहा"
 		},
-		"hero/titleHighlight": {
-			"hash": "3d656e1bdda0d0121a118b7f9f92efced0a388143ec8f8ceb7c6f4a51ca8e70b",
-			"value": "स्पष्ट निर्णयांमध्ये"
+		"meta/contacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "मला लिहा"
+		},
+		"meta/verMas": {
+			"hash": "b808bffe6e242d45b970c0abd9f4ce2ad2542fe54d91b1a6d124892d0d46f21b",
+			"value": "अधिक वाचा"
+		},
+		"meta/irAContacto": {
+			"hash": "9600907980ab2757dba6b803def2c1550e5b09b74fbe18d0e4dcf84a4569816d",
+			"value": "मला लिहा"
+		},
+		"hero/kicker": {
+			"hash": "1e4c1d7e9d7fdc990abc6113723c1ab6f3bd0c01c5120ee40465cca3d2529cb9",
+			"value": "मario álvarez, डेटा सायंटिस्ट"
+		},
+		"hero/title": {
+			"hash": "3eec3915c27ccb887abe6d51f63415c1bde2e601e5780b28397a75903c42cf98",
+			"value": "मी मॅडिसनचा स्पॅनिश चॅम्पियन होतो."
 		},
 		"hero/subtitle": {
-			"hash": "fcb30a41842fd9e1e2d9690f29fe09be7377b69221c9acbe7233ffe1945ae339",
-			"value": "मी डेटा विश्लेषण आणि उच्च-स्तरीय क्रीडा यांच्यातील दुवा आहे: मैदानावर फरक करणाऱ्या धोरणांमध्ये मी कामगिरीच्या मेट्रिक्सचे रूपांतर करतो."
+			"hash": "cc55b60890f7f06f3abdec1a8da76c5d21591b30431c740cf7353e5ec845fee1",
+			"value": "आता मी UPV मध्ये डेटा सायन्सचा अभ्यास करतो आणि कामगिरीमागील घटकांचे विश्लेषण करतो: पॉवर, लोड आणि निकाल. रायडरसाठी नंबरचा काय अर्थ होतो हे मला मागुत आहे कारण मी तो रायडर राहिलो आहे."
 		},
-		"hero/tools/0": {
-			"hash": "18885f27b5af9012df19e496460f9294d5ab76128824c6f993787004f6d9a7db",
-			"value": "Python"
+		"hero/palmaresLabel": {
+			"hash": "3d4d589eec5ff33459a82494976387e87d6bfccbb5ca3db7ef8283f5f4c72b19",
+			"value": "पॅलमारिस"
 		},
-		"hero/tools/1": {
-			"hash": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
-			"value": "R"
+		"hero/palmares/0/pos": {
+			"hash": "7b8135642633f3d9b4cf703eb0ae6062fa4243325aba34d462e33f0bf0f67fb4",
+			"value": "१º"
 		},
-		"hero/tools/2": {
-			"hash": "a7056a455639d1c7deec82ee787db24a0c1878e2792b4597709f0facf7cc7b35",
-			"value": "SQL"
+		"hero/palmares/0/texto": {
+			"hash": "5e84dbe3bf6a95d7e84a5a747c09fdd410e50698bbf00defeeb1bb59f957c092",
+			"value": "मॅडिसनचे स्पॅनिश चॅम्पियनशिप"
 		},
-		"hero/tools/3": {
-			"hash": "d4347223667fdf00232c099b6282a64a438cad67405263c4d50abefe12eed3e2",
-			"value": "Power BI"
+		"hero/palmares/0/nota": {
+			"hash": "398b70f73c6b4e3753b24585a535217cc538f2e5ca6e02ea3d026d58f6770022",
+			"value": "ट्रॅक, १८ व्या वर्षी"
 		},
-		"hero/tools/4": {
-			"hash": "9316cd4d881e21d7494cada328686b37ef1ffda61a93354a0370c21d6f2f2c1e",
-			"value": "Machine Learning"
+		"hero/palmares/1/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "६º"
 		},
-		"sobreMiResumen/eyebrow": {
-			"hash": "ee6d6aedc0ae76956d66653aa3ad9804006ac76f9372582942a0e3f47279bbd8",
-			"value": "माझ्याबद्दल"
+		"hero/palmares/1/texto": {
+			"hash": "a70d0efba0f1f30dbceff7e71ed66f39a3bf3f4205b4b29f1130cf04ee207a1c",
+			"value": "ट्रॅक वर्ल्ड चॅम्पियनशिप"
+		},
+		"hero/palmares/1/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "स्पॅनिश राष्ट्रीय संघ"
+		},
+		"hero/palmares/2/pos": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "६º"
+		},
+		"hero/palmares/2/texto": {
+			"hash": "3ea391266023aea9de35bbc85cc50233c9df087d86c4d2d417bee67a869a3763",
+			"value": "ट्रॅक युरोपियन चॅम्पियनशिप"
+		},
+		"hero/palmares/2/nota": {
+			"hash": "6a6db743b37eb7127eed4e82b281946e60177319941603af45f9583eb4ceea42",
+			"value": "स्पॅनिश राष्ट्रीय संघ"
+		},
+		"hero/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "मario álvarez यांचे पोर्ट्रेट"
+		},
+		"servicios/title": {
+			"hash": "f3aa1fa7175ac1aef5ed630067e1e56154b31b772416316abb49a763f032ff04",
+			"value": "मी तुम्हाला कशामध्ये मदत करू शकतो"
+		},
+		"servicios/text": {
+			"hash": "d3557a76029ccc6fad8764c351054eb01424d3f05fb53af9e2540fe700a7d61b",
+			"value": "मी अशा संघ, प्रशिक्षक आणि रायडर्ससोबत काम करतो ज्यांच्याकडे डेटा आहे आणि त्यांना त्याचा फायदा घ्यायचा आहे. आणि अशा कंपन्यांसोबत ज्यांना त्यांचा डेटा व्यवस्थित करायचा आहे."
+		},
+		"servicios/cta": {
+			"hash": "82e5d15b234158187e9f0a8070d093451d8cccaee2332f78c384e9ad5d7e5672",
+			"value": "तुमची केस मला सांगा"
+		},
+		"servicios/items/0/nombre": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "कामगिरी विश्लेषण"
+		},
+		"servicios/items/0/texto": {
+			"hash": "0d4a1a272fa0755125e327ea1c83c649bdbdbf4a87034c8289aa0c47fbaabf1b",
+			"value": "मी रायडरच्या नजरेतून पॉवर, लोड आणि निकालांचे वाचन करतो. मी तुम्हाला सांगतो काय घडत आहे आणि काय बदलले पाहिजे."
+		},
+		"servicios/items/0/prueba": {
+			"hash": "18e90a456d7bb11b9c95dd4b39632414a448bf76925db254cb92ba50bf578aef",
+			"value": "एलिट रायडर आणि RFEC स्पोर्ट्स डायरेक्टर, स्तर I आणि II."
+		},
+		"servicios/items/1/nombre": {
+			"hash": "5cab38e83ad089be520324bbddf73d6234a32a258fe0605b42c449fb66faa30d",
+			"value": "सानुकूल साधने"
+		},
+		"servicios/items/1/texto": {
+			"hash": "441e3c0fe593f26115602d06f8f4a41fb1f6895ed4dcb0ca1c9e8c7bc3ace974",
+			"value": "स्क्रॅपिंग, मॉडेल्स आणि Python मधील लहान ॲप्लिकेशन्स जे तुमच्या टीमच्या विशिष्ट प्रश्नाचे उत्तर देतात."
+		},
+		"servicios/items/1/prueba": {
+			"hash": "159970b9e4004ceb54b6f5ae7c75c26555d849437a125f6e7aa92030e2481d53",
+			"value": "Cofidis टीमसाठी दोन साधने: UCI अडचण आणि रेस प्रोफाईल."
+		},
+		"servicios/items/2/nombre": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "डेटाबेस आणि अहवाल"
+		},
+		"servicios/items/2/texto": {
+			"hash": "086280789be58d1070f0633238f34cae0ca03802be6bd202533a20fa0bf0d696",
+			"value": "वेगवान क्वेरी, एकत्रित डेटाबेस आणि Power BI मधील डॅशबोर्ड जे पहिल्याच नजरेत समजतात."
+		},
+		"servicios/items/2/prueba": {
+			"hash": "c415aef584e3af6c0f09fefe1b6c957cb42bd982140f295263a4574ec057960c",
+			"value": "SIME Telecom मध्ये मी ऑप्टिमायझ करत असलेल्या डेटाबेसमध्ये ५८० पेक्षा जास्त टेबल आणि १०० दशलक्ष रेकॉर्ड."
+		},
+		"servicios/items/3/nombre": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "रेस सपोर्ट"
+		},
+		"servicios/items/3/texto": {
+			"hash": "6203ff5f93b7d3bddf3384cb895b8148c1eb8c7d282cfc93bcb4b2637fdd3f12",
+			"value": "रेस तयारी, रायडर्सचे अनुसरण आणि स्पर्धेत कायरोमासेज."
+		},
+		"servicios/items/3/prueba": {
+			"hash": "7f2f61b45ac846f3737b5022381f9211e8fa036c1496e87e12c50391d8cac595",
+			"value": "व्हेंथिया कम्युनिटी नॅशनल टीमचा स्टाफ."
 		},
 		"sobreMiResumen/title": {
-			"hash": "6210f2e44a03903aa5b0bea20e2d29f04b9a9ee5abc860781e046649f0067aaa",
-			"value": "ट्रॅक, रस्ता आणि स्पर्धा संदर्भासह डेटा"
+			"hash": "9fd41fd70d777da84f59b0515b4880212df8574caec879bd9545a461d5052fc7",
+			"value": "व्हेलड्रोमपासून डेटापर्यंत"
 		},
 		"sobreMiResumen/text": {
-			"hash": "dad327cad1b7a9fd0fad2c312612e980b47320b4be9cb2c245f19d427e83cf14",
-			"value": "मी Mario Álvarez आहे, UPV मध्ये डेटा सायन्सचा विद्यार्थी असून व्यावसायिक सायकलिंगचा खरा अनुभव आहे. प्रत्येक मेट्रिकचे परिणामांमध्ये सुधारणा करणाऱ्या निर्णयात रूपांतर करण्यासाठी मी डेटा विश्लेषणाची उच्च-स्तरीय क्रीडा कामगिरीसोबत सांगड घालतो."
+			"hash": "c7947e53120e17bd1a3c40892482a6dcd7d4645570c3f1447ad27804b33705d5",
+			"value": "मी UPV मध्ये डेटा सायन्सच्या पदवीचा तिसरा वर्ष अभ्यास करत आहे आणि स्पोर्ट्सवर लागू डिजिटायझेशन आणि तंत्रज्ञानामध्ये मास्टर पूर्ण केले आहे. मी सायकलिंग सोडलेले नाही: मी ट्रॅकवर धावणे सुरू ठेवतो, बेस रायडर्सना मार्गदर्शन करतो आणि व्यावसायिकांसोबत कायरोमासेजतज्ज्ञ म्हणून काम करतो."
 		},
-		"stats/0/value": {
-			"hash": "4b0062b59f1d024a276a8bffab6378aaf90d9a9289b60cacc65430e1843bb923",
-			"value": "UPV"
+		"ficha/0/label": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "बेस"
 		},
-		"stats/0/label": {
+		"ficha/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "बेनिडोर्म आणि व्हेंथिया"
+		},
+		"ficha/1/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
-			"value": "शिक्षण"
+			"value": "प्रशिक्षण"
 		},
-		"stats/0/detail": {
-			"hash": "4bb551db31929243131b24d8687dd9255a352a8b173f543b35a5598755dbb32a",
-			"value": "डेटा सायन्स पदवी, Universitat Politècnica de València."
+		"ficha/1/value": {
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "डेटा सायन्समध्ये पदवी (UPV) आणि स्पोर्ट्समधील डिजिटायझेशन, इनोव्हेशन आणि टेक्नॉलॉजीमध्ये मास्टर"
 		},
-		"stats/1/value": {
-			"hash": "c0f7bce355ae25238ccf42215e1eac005945280975f69d56d15ac30a35700c73",
-			"value": "उच्च-स्तरीय"
+		"ficha/2/label": {
+			"hash": "4349947e66185eb846a51fff8512e04ecaca5730afbd8e4e380e9a8b239b7af6",
+			"value": "टायटल"
 		},
-		"stats/1/label": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "अनुभव"
+		"ficha/2/value": {
+			"hash": "97f3842c99bf0452274d6ea986830f1d975b7d5ceb844d29c7d716400880a49f",
+			"value": "RFEC स्पोर्ट्स डायरेक्टर, स्तर I आणि II"
 		},
-		"stats/1/detail": {
-			"hash": "128824eed726f7a4d143e5d10d420daf43bd63ed3ce1a12c0e46f1413c85aaa3",
-			"value": "व्यावसायिक सायकलिंग संघातील प्रत्यक्ष काम."
+		"ficha/3/label": {
+			"hash": "00cd944998c0012d4be5abc276a6d8befe2127c05c24e8a4b8c48fa6f9edca0f",
+			"value": "आता"
 		},
-		"stats/2/value": {
-			"hash": "a47cd2fb6ab15dd45c7299467d39fa49f423215c9abb23ad23fc223cfa5bcaf1",
-			"value": "Data + Sport"
-		},
-		"stats/2/label": {
-			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
-			"value": "दृष्टिकोन"
-		},
-		"stats/2/detail": {
-			"hash": "a0fe08c99e6608d32652c42d99e6920409ef4bbb36d928939c8696b71fbdfa12",
-			"value": "क्रीडा कामगिरी सुधारण्यासाठी लागू केलेले विश्लेषण."
-		},
-		"experienciaResumen/eyebrow": {
-			"hash": "2dba6bf7c79f75d22c710e160206dec6460bf0b4509e0afe4778cd89f98e4f68",
-			"value": "अनुभव"
+		"ficha/3/value": {
+			"hash": "3289812b214a4f177a542d27269722df2fe78c36a1ff3ffc1acc777ae695dc53",
+			"value": "डेटा आणि परफॉर्मन्स प्रकल्पांसाठी उपलब्ध"
 		},
 		"experienciaResumen/title": {
-			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
-			"value": "दोन जग, एकच भाषा: कामगिरी"
+			"hash": "eada8bbf2b3809fb21138fdea349140b7b43dccbbd84721a8489ce38f94231ae",
+			"value": "दोन मार्ग, एकच काम"
 		},
 		"experienciaResumen/text": {
-			"hash": "fab92a26eae655346db1662eb8971457d54d58c22526368ec25b46ab46f46fee",
-			"value": "मी सर्वोच्च पातळीवर स्पर्धा केली आहे आणि आज डेटावरही मी तोच निकष लावतो: खेळाडूसाठी संख्येचा काय अर्थ होतो हे मला समजते कारण मी तो खेळाडू राहिलो आहे."
+			"hash": "cc011767d3cbd3236f27be76e916c6ebcf835919a34dfb11c4061413bdc9eb18",
+			"value": "एकामध्ये मी डेटाबेस ऑप्टिमाइझ करतो आणि मॉडेल्स लिहितो. दुसऱ्यामध्ये मी रेसेसची तयारी करतो आणि रायडर्सचे अनुसरण करतो. दोन्ही एकाच गोष्टीसाठी आहेत: चांगल्या निर्णयासाठी योग्य मोजमाप."
+		},
+		"experienciaResumen/carriles/0/nombre": {
+			"hash": "84707d1c269aa3427f199424c9a44b40913dc0e558ce99770c4627bf5ace2204",
+			"value": "डेटा"
+		},
+		"experienciaResumen/carriles/0/items/0/cifra": {
+			"hash": "ae126b2ee302b54b528f4d960ef7e41f2615dece5e208c327d7775d30b96e493",
+			"value": "+५८0"
+		},
+		"experienciaResumen/carriles/0/items/0/texto": {
+			"hash": "e6dc1b23e1eacdc6d4e41bb2bc032831acde9d93b26851396bdd1f2b9fab6e9d",
+			"value": "हार्डवेअर न वाढवता अनेक डेटाबेस एकाच डेटाबेसमध्ये एकत्र करण्यासाठी SIME Telecom मध्ये विश्लेषित केलेले टेबल"
+		},
+		"experienciaResumen/carriles/0/items/1/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+१०० M"
+		},
+		"experienciaResumen/carriles/0/items/1/texto": {
+			"hash": "183eecbdc0726155d98d948692a1a65e570a665f8c0bbf2cdd4ec9e5d2a876a8",
+			"value": "मी ऑप्टिमाइझ करत असलेल्या डेटाबेसमधील रेकॉर्ड"
+		},
+		"experienciaResumen/carriles/0/items/2/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "२"
+		},
+		"experienciaResumen/carriles/0/items/2/texto": {
+			"hash": "9ceac04c357cbe1f284f795653c442b987782729295a0e38526981c95f8d5f45",
+			"value": "Cofidis टीमसाठी Python मधील साधने: UCI अडचण आणि रेस प्रोफाईल"
+		},
+		"experienciaResumen/carriles/1/nombre": {
+			"hash": "7191ab7051aa95e52c053ead977ceeb8e7fb1a1e0cbcc256ff8b1c9c55ef6102",
+			"value": "ट्रॅक आणि रोड"
+		},
+		"experienciaResumen/carriles/1/items/0/cifra": {
+			"hash": "cea6c0f2c5455a3c15b72b2c1b14d4ecf6f22267b9d302ecfa9a8cd944ed50ef",
+			"value": "I आणि II"
+		},
+		"experienciaResumen/carriles/1/items/0/texto": {
+			"hash": "3e179d96a88fcc41b07eb8afc2ea2cc8a9510fc0fc4de06bc718d3b202c327f9",
+			"value": "रॉयल स्पॅनिश सायकलिंग फेडरेशनचे स्पोर्ट्स डायरेक्टर स्तर"
+		},
+		"experienciaResumen/carriles/1/items/1/cifra": {
+			"hash": "ff18c37ac2424ae6ffc24dfb010e532951440c3e70acd7568a6701536757f3cf",
+			"value": "१४–१८"
+		},
+		"experienciaResumen/carriles/1/items/1/texto": {
+			"hash": "c697298fb6289554e1812d306cb6d763f8646a48d88079f487c787e92ef94ef2",
+			"value": "माझ्या वडिलांसोबत मी प्रशिक्षित आणि अनुसरण करत असलेल्या बेस रायडर्सचे वय"
+		},
+		"experienciaResumen/carriles/1/items/2/cifra": {
+			"hash": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+			"value": "२०२६"
+		},
+		"experienciaResumen/carriles/1/items/2/texto": {
+			"hash": "aed5c34519db742262eb2aab26a760c5b75dafa752da2f05862a0766bc26b454",
+			"value": "स्पर्धेत व्हेंथिया कम्युनिटी नॅशनल टीमसोबत सहाय्यक"
 		},
 		"ctaFinal/title": {
-			"hash": "4f8488bbf0bfd5f01ce9eceb492dfd38151a6c58c043589aa86a0dbeeea289e0",
-			"value": "डेटाबद्दल बोलूया का?"
+			"hash": "51d86577cad18a203f217d2f40e8f89876b853f5cccdb06c10c7ea46030f1a86",
+			"value": "शेवटची फेरी"
 		},
 		"ctaFinal/text": {
-			"hash": "d03b92b93f54bdd2b6acaad1dfec53aac018610e7bcfc914c87162edf401a51f",
-			"value": "तुमच्या प्रकल्पाबद्दल मला सांगा आणि कामगिरी सुधारणारे निर्णय कुठे आहेत ते आपण एकत्र शोधू."
+			"hash": "8822b1832c9e236cc74687d4708bc77e6c4c8f5158c78a58093ea851a303aa9a",
+			"value": "जर तुमच्याकडे कार्यक्षमतेचा डेटा आणि अनुत्तरित प्रश्न असतील, तर मला लिहा आणि आपण ते एकत्र पाहू."
 		}
 	},
 	"sobre-mi": {
@@ -290,10 +490,6 @@
 			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
 			"value": "मुख्यालय"
 		},
-		"facts/0/value": {
-			"hash": "bd7dbad3dc4c051dbb592e42dd7ad9b44844f8412fe2163b91f240f73532aa92",
-			"value": "Benidorm · Valencia"
-		},
 		"facts/1/label": {
 			"hash": "98e5acddb6c46a248f96e8a549b4103a91f47299e1dbf508e436d738912c5cbd",
 			"value": "स्थिती"
@@ -306,25 +502,53 @@
 			"hash": "02d6a8538edee94fe011472b9fcd8e5db50a0dc3abf2ccf9a4e043749f74b462",
 			"value": "दृष्टिकोन"
 		},
-		"facts/2/value": {
-			"hash": "92ed588eded38d4c74d62eed517b03d48e867e85340ec117bea4e7e8a90e7d9f",
-			"value": "डेटा + क्रीडा कामगिरी"
-		},
 		"facts/3/label": {
 			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
 			"value": "भाषा"
-		},
-		"facts/3/value": {
-			"hash": "9452ae3abf5fe430b5e13a192d51e467c38a95f18f9aa2a006171891771011e3",
-			"value": "स्थानिक स्पॅनिश · व्हॅलेन्शियन · इंग्रजी B1"
 		},
 		"facts/4/label": {
 			"hash": "510c0f518c4be4eebb8ca00837cad491d370503a7654b8e92712e74eb63f92fd",
 			"value": "शिक्षण"
 		},
+		"meta/lead": {
+			"hash": "7ee3da635be4c70e8ede5885d528a3c01eecbf919c3f994bab19c8ccefb87931",
+			"value": "मी अजूनही सायकलिंगमध्ये आहे, ट्रॅकवर आणि टीम कारमध्ये. जे बदलले आहे ते म्हणजे मी त्याकडे कसे पाहतो: आता डेटासह देखील."
+		},
+		"meta/historiaTitulo": {
+			"hash": "e30800ccc0dbdab27986a342a10d15a04ec7f8875c588796d3250904b8174131",
+			"value": "रायडर, डायरेक्टर आणि डेटा सायंटिस्ट"
+		},
+		"meta/fichaTitulo": {
+			"hash": "e5c49b0f4ecf2856bbbc44433eaa1bb62a649f793239e64e265a1afdab3f41f6",
+			"value": "थोडक्यात"
+		},
+		"meta/fichaTexto": {
+			"hash": "3e379b5ce7446ab24e910f7d7b1a669abdd7ac1453d1c4aa8ab3c351476eb51a",
+			"value": "महत्त्वाचे मुद्दे, जर तुम्हाला घाई असेल तर."
+		},
+		"meta/retratoAlt": {
+			"hash": "dfd848719af42080c82d55112f316918c3ac69b0b2481f4e027df54923fe8617",
+			"value": "मारिओ आल्भारेझचे पोर्ट्रेट"
+		},
+		"meta/escenaFrase": {
+			"hash": "48af554611577f7bc90160b6a186a1c4e270cff5e63c00574585b23af471e0b9",
+			"value": "आधी, पाय. आता, डेटा."
+		},
+		"facts/0/value": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "बेनिडोर्म आणि व्हॅलेन्सिया"
+		},
+		"facts/2/value": {
+			"hash": "1ff9e92e5e24901e1ef4ec437081743a0483cb4485e11d6b2e261eb6342b18cd",
+			"value": "डेटा आणि क्रीडा कार्यक्षमता"
+		},
+		"facts/3/value": {
+			"hash": "036ab698940687f39e8eeeefb1d37fdf6ef0504a54ba1c9c10f1110866af1e87",
+			"value": "स्पॅनिश (मातृभाषा), व्हॅलेन्सियन आणि इंग्रजी (B1)"
+		},
 		"facts/4/value": {
-			"hash": "feabc3bdf01b2857e37bac8236e989dec1814c3bd098d75ce910c954e82781d4",
-			"value": "डेटा सायन्समध्ये पदवी (UPV) · खेळातील डिजिटायझेशन, इनोव्हेशन आणि टेक्नॉलॉजीमध्ये मास्टर"
+			"hash": "5159a8b28b57f2307ea8d6f2927924cdc0af6d55419af2fef1166f93861fdb41",
+			"value": "डेटा सायन्समध्ये पदवी (UPV) आणि क्रीडा क्षेत्रातील डिजिटायझेशन, इनोव्हेशन आणि टेक्नॉलॉजीमध्ये पदव्युत्तर पदवी"
 		}
 	},
 	"experiencia": {
@@ -344,10 +568,6 @@
 			"hash": "077eeafeaba85ca233eb8c419d41076238aca8fc18a3d2d035b791607bcccc1a",
 			"value": "दोन जग, एकच भाषा: कार्यप्रदर्शन"
 		},
-		"meta/colDatos": {
-			"hash": "0225f00994c5c8be452413f81280ca9e776cf552a94df02388948f87ef1bd464",
-			"value": "डेटा आणि तंत्रज्ञान"
-		},
 		"meta/colDeporte": {
 			"hash": "663be1ebba5f3d435a2ed6113e5483f7d94a2c384cb631a57a3372474d9c2856",
 			"value": "एलिट खेळ"
@@ -355,10 +575,6 @@
 		"datos/0/title": {
 			"hash": "13cef0dcb61fc73058ec321707889f11b0168613745fa04b982101456aea1628",
 			"value": "SIME TELECOM — डेटा सायन्स इन्टर्नशिप"
-		},
-		"datos/0/meta": {
-			"hash": "87ebafa84cbcbff26ec4f3a92e21005f295389782d7c36ca4ad1ac8def78386b",
-			"value": "डेटा अभियांत्रिकी · बेनिडोर्म · 2026"
 		},
 		"datos/0/paragraphs/0": {
 			"hash": "57f164dfc01f0d482069a82ca0f94414be995d79c1c1c0726f23a36349e6450d",
@@ -371,10 +587,6 @@
 		"datos/1/title": {
 			"hash": "713d758668b5870715b25afdbd2943093657f8f79038522da209181e9032bfb2",
 			"value": "Cofidis टीम (World Tour) सोबतचे प्रकल्प"
-		},
-		"datos/1/meta": {
-			"hash": "6488308725c46c512b036773a45036dee5b317312760e99314bbe019f348333a",
-			"value": "Python · उन्हाळा 2025"
 		},
 		"datos/1/paragraphs/0": {
 			"hash": "88812d1a8e39e12980bd0aad35d319151c4b34517b3fea94b689926ea882db75",
@@ -435,6 +647,54 @@
 		"deporte/2/paragraphs/0": {
 			"hash": "c46a0525722fd6b77650f20d6fcb485187aa219ea1b9064462a9b8b533f75a83",
 			"value": "प्रमाणित चिरोमॅसेउर; व्यावसायिक सायकलस्वारांचे मसुत; व्हॅलेन्शियन कम्युनिटी राष्ट्रीय संघ, फिलिपिन्सच्या कॉन्टिनेंटल टीम आणि बेनिडोर्ममधील वैयक्तिक सायकलस्वारांसोबत कर्मचारी."
+		},
+		"meta/lead": {
+			"hash": "0aeb978a872f2b1bc75486cbec64d555d5d6f077164281b04c0ee004dff13a12",
+			"value": "डेटाबेसमध्ये असो किंवा टीमच्या कारमध्ये, काम तेच आहे: चांगल्या निर्णयासाठी अचूक मोजमाप."
+		},
+		"meta/cifras/0/cifra": {
+			"hash": "38dfed221a668a1a21279c7790d7affbc309df0022422d86c984331cc016d1c7",
+			"value": "+100 M"
+		},
+		"meta/cifras/0/texto": {
+			"hash": "8b34de27ed0b4ca871e1c043a3b9a5d0a2e7cf20c41d199880ad58232e42794c",
+			"value": "SIME Telecom मध्ये मी ऑप्टिमाइझ केलेल्या डेटाबेसमधील नोंदी"
+		},
+		"meta/cifras/1/cifra": {
+			"hash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+			"value": "2"
+		},
+		"meta/cifras/1/texto": {
+			"hash": "d6381db79c473ffe51a55daba4e3fac68a5111b62207b0f947b2bf354322696e",
+			"value": "Cofidis टीमसाठी Python मधील टूल्स"
+		},
+		"meta/cifras/2/cifra": {
+			"hash": "8667404d6cc3c18ef854f7ef073715ccf5f09c4e121a9b5b15355175808892d8",
+			"value": "6º"
+		},
+		"meta/cifras/2/texto": {
+			"hash": "353e084d1d2f9cf58b58145b226bc684ee5f54ba8afd41362c909c1ce6194f5e",
+			"value": "ट्रॅक वर्ल्ड आणि युरोपियन चॅम्पियनशिपमध्ये"
+		},
+		"meta/colDatos": {
+			"hash": "82c81d743fb696c4c8319bc2bc8513eb81acc354581ee67af8de4314cffd1648",
+			"value": "डेटा आणि तंत्रज्ञान"
+		},
+		"datos/0/meta": {
+			"hash": "522c02ac3adddbc5f7936a8eb9de907d9cc8087d8dd5bdfc3b00d887c360de38",
+			"value": "डेटा अभियांत्रिकी, बेनिडोर्म्, 2026"
+		},
+		"datos/1/meta": {
+			"hash": "c2d445db7850e2fa93d0e894c6a1a437c1ad905314d9039c69a42115a4338723",
+			"value": "Python, उन्हाळा 2025"
+		},
+		"deporte/0/meta": {
+			"hash": "77fe5bdb05c5a77ddf3715951e646a897a86a220b461b8e64afd02730fed5910",
+			"value": "ट्रॅक सायकलिंग, स्पॅनिश राष्ट्रीय संघ"
+		},
+		"deporte/1/meta": {
+			"hash": "f9a1d2607b1ebf41e92fd77ebc2588e3c7c777cfd65d082295630d5e7ddc3e28",
+			"value": "RFEC, स्तर I आणि II"
 		}
 	},
 	"proyectos": {
@@ -521,6 +781,18 @@
 		"list/vacioWebs": {
 			"hash": "53f8a659e3e80d1378a3595bc027f680d35666d6a7a291af242a5b764221f201",
 			"value": "या विभागात अद्याप कोणतीही वेब प्रकाशित केलेली नाही."
+		},
+		"page/cifraRepos": {
+			"hash": "1d58b1fec3406620ad9fd0cb15a84dfaccfd529ec266c3840a84a650d454e53b",
+			"value": "GitHub मधील सार्वजनिक रिपॉझिटरीज"
+		},
+		"page/cifraWebs": {
+			"hash": "b706eb6c50a4bb5b4240aac4fceb27e219726b2add2a79ec3e2705d847681452",
+			"value": "प्रसिद्ध वेबसाइट्स"
+		},
+		"page/cifraHerramientas": {
+			"hash": "5216090eb8b58ce02ea7d201302b2b758c79d1108ea9bb648a31fd4a7a8f93c2",
+			"value": "भाषा आणि साधने"
 		}
 	},
 	"contacto": {
@@ -535,14 +807,6 @@
 		"meta/eyebrow": {
 			"hash": "771b96b0812dd393ffeac789c2b8da1b78c20530a7365dd8181b1e3580db063f",
 			"value": "संपर्क"
-		},
-		"meta/heading": {
-			"hash": "041dadbadd4578c25b9cbacfc00280059719066b451cbde7c614ca3bb875722b",
-			"value": "तुमच्याकडे डेटा आणि सोडवण्यासाठी एखादा प्रश्न आहे का?"
-		},
-		"meta/intro": {
-			"hash": "4200de3c16c2bc5ffdb7ae5a6426be693c8f7b679e9f7068b2c2aac8fcbc78fa",
-			"value": "चला बोलूया. क्रीडा विश्लेषण प्रकल्प असो, डेटा सहयोग असो किंवा फक्त एखाدی कल्पना जी तुम्हाला तपासायची असेल, मी आनंदाने उत्तर देतो."
 		},
 		"meta/email": {
 			"hash": "969ccbd3cf6300ecd5c880459d81ae9027df7517563184a1b8b15282db230621",
@@ -559,206 +823,640 @@
 		"meta/redesSociales": {
 			"hash": "2a657d94e879e2ce696789dead4e4a4f896ac3f79a75b94d6341948a80a4b188",
 			"value": "सोशल मीडिया"
+		},
+		"meta/heading": {
+			"hash": "aff14234190fec84c07af182b658b1c7ad178f1d33aae129fb74268c5791f593",
+			"value": "तुमच्याकडे डेटा आणि एखादा प्रश्न आहे का?"
+		},
+		"meta/intro": {
+			"hash": "6b89b16094b042b3630bc3bdbae9a1b4f62076a3a8ebfe30fc024b262b49c41f",
+			"value": "चला बोलूया. मग तो क्रीडा विश्लेषण प्रकल्प असो, डेटा सहकार्य असो किंवा तुम्हाला पडलेली एखादी कल्पना असो, मी स्वतः उत्तर देतो."
+		},
+		"meta/temaTitulo": {
+			"hash": "4fba01ba79d476e053753942274d57e5af2370fab2a286050b454ea7c651f5e9",
+			"value": "तुम्हाला कशाबद्दल बोलायचे आहे?"
+		},
+		"meta/temaAyuda": {
+			"hash": "2fa54b27289d6b524ce5b937dc5ddb9165c99652dbcd4050c4538c812d0de83a",
+			"value": "एक विषय निवडा आणि मी तुमच्यासाठी ईमेल तयार करून ठेवतो. तुम्हाला फक्त तुमची अडचण मला सांगायची आहे."
+		},
+		"meta/temas/0/label": {
+			"hash": "0ab14a15c604abf791e074424eff2c546ef29c44929e9d701ffead0271e24fe6",
+			"value": "कार्यप्रदर्शन विश्लेषण"
+		},
+		"meta/temas/1/label": {
+			"hash": "8a4d96145356613b87ec787d60acfa59863b763bdc2bac93e9ff68a5f5c4a201",
+			"value": "एक सानुकूल साधन"
+		},
+		"meta/temas/2/label": {
+			"hash": "0ed8c8ba3c95e156aa3146b450b69b8fb1d0539351202788c409690a60b10788",
+			"value": "डेटाबेस आणि अहवाल"
+		},
+		"meta/temas/3/label": {
+			"hash": "5dccdae6ab62358828d109d28d78e347b9005a55cb6ae3947f11d8ca9b616e6c",
+			"value": "करिअरमधील मदत"
+		},
+		"meta/temas/4/label": {
+			"hash": "fc6bb9bef6ddf1f74174592255ce8c1eea212dc4aee6a21ddd109a6599d3240c",
+			"value": "इतर काहीतरी"
+		},
+		"meta/escribir": {
+			"hash": "da56e66d5a30f2827586028836a4f37204050271456456608e679a093a2566b6",
+			"value": "ईमेल लिहा"
+		},
+		"meta/copiar": {
+			"hash": "1bcafd5deb7fe18ca29d463bf67d4cecff2230793f2cde1db8d2dd63782b95bd",
+			"value": "ईमेल कॉपी करा"
+		},
+		"meta/copiado": {
+			"hash": "00d32de5cf7d0bf4f9f0b81c7793e7a2e96709b17b052eec791cc62edf7892f7",
+			"value": "ईमेल कॉपी केला"
+		},
+		"meta/asunto": {
+			"hash": "af03bcd4d9097b413f448b77288a0ea325b7aee7d69195a3821fb946a691f32d",
+			"value": "marioalvarez.me वरील चौकशी"
+		},
+		"meta/cuerpo": {
+			"hash": "1edd44cef1a71c0219010c19b4a5dbb6735083b85e5972f1f8d5e8caa0a65e69",
+			"value": "हॅलो मारिओ:\n\nमी यासंदर्भात लिहीत आहे: {tema}.\n\nमाझ्याकडे काय आहे:\n\nमला काय जाणून घ्यायचे आहे:\n\nधन्यवाद."
+		},
+		"meta/otrosCanales": {
+			"hash": "59deb5b3a0b4f7002a2e8232e281a0fb61209a38397e9700277b12c00c0bdc7a",
+			"value": "इतर चॅनेल"
+		},
+		"meta/base": {
+			"hash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880",
+			"value": "बेस"
+		},
+		"meta/baseValor": {
+			"hash": "2156fd04ddccd3a24d5365061bf2821d34b292f6ee5c55cef43e3ae2db0f2aac",
+			"value": "बेनिडोम आणि व्हॅलेन्सिया"
+		},
+		"meta/idiomas": {
+			"hash": "dfee336770735631febd62318a933fd66d6462c02e4ecfe0eb88a0638c8d0a2b",
+			"value": "भाषा"
+		},
+		"meta/idiomasValor": {
+			"hash": "be940e447006298040ca6a013a1e5a74a49d7a5bdce3973bbe9047192288a387",
+			"value": "स्पॅनिश, व्हॅलेन्सियन आणि इंग्रजी"
+		},
+		"meta/aceptacionesTitulo": {
+			"hash": "fc107ac75729021e9fb3eb96e823b5325a5d70b47a2372cd92f69381d1ebf0a7",
+			"value": "मला लिहिण्यापूर्वी"
+		},
+		"meta/aceptoTerminos": {
+			"hash": "c2de8a92b2b823162d516dd4477a66b960e01f63b8a1127719991e369ac1df7e",
+			"value": "मी वाचले आहे आणि {enlace} स्वीकारले आहेत."
+		},
+		"meta/enlaceTerminos": {
+			"hash": "bd52dea991b06640b2ba32be219d355326f8fdf833823e86aa58f6e235b30807",
+			"value": "अटी आणि शर्ती"
+		},
+		"meta/aceptoCookies": {
+			"hash": "5a2a83efcd7c3dfec381016ec3a22efbb1b72c8a166e73e0605044f68dea2165",
+			"value": "{enlace} मध्ये वर्णन केलेले विश्लेषण कुकीज मी स्वीकारतो (पर्यायी)."
+		},
+		"meta/enlaceCookies": {
+			"hash": "c4b9173254d0048a6c8cae26ffb85677e7b49cc597bddb49072ae4f984f966db",
+			"value": "कुकी धोरण"
+		},
+		"meta/faltaTerminos": {
+			"hash": "99550ad07e124b1cf9d4d9648bf93158a16413ec6399620cd31f627c8755dd5b",
+			"value": "मला लिहिण्यापूर्वी, कृपया अटी आणि शर्तींच्या चौकटीवर खूण करा."
+		},
+		"meta/primeraCapa": {
+			"hash": "7354573a2274a7365eef4f555736ade7a41628beff4bd09d2e7142f21ae4af92",
+			"value": "जबाबदार: Mario Álvarez Martínez. उद्देश: तुमच्या चौकशीचे उत्तर देणे आणि तुम्ही विचारल्यास, तुमच्यासाठी प्रस्ताव तयार करणे. कायदेशीर आधार: तुमची विनंती. प्राप्तकर्ते: कोणीही नाही, कायदेशीर obligaciones खेरीज. हक्क: प्रवेश, सुधारणा, वगळणे आणि {enlace} मध्ये स्पष्ट केलेले इतर हक्क."
+		},
+		"meta/enlacePrivacidad": {
+			"hash": "b52552de1cdd3d33b624d518e172b2738f6adc367a9ae922c8086d58c7597669",
+			"value": "गोपनीयता धोरण"
+		},
+		"meta/refEmail": {
+			"hash": "d4502fb4f0f59f22b0901c13b6347a16ee6a49305481e58ff45ffb6019fb58b5",
+			"value": "अटी स्वीकारल्याचा संदर्भ: {ref}"
 		}
 	},
 	"politica-cookies": {
 		"meta/title": {
-			"hash": "ff391c80c7c82b6e63ef6862086a634a00d621baebbddac3ab4e12893eee676b",
-			"value": "कुकीज धोरण — Mario Álvarez"
+			"hash": "009459ebb6f008a600ac3232619a1a7cb5b5fddd66cbc315457fec53ad51d0c4",
+			"value": "कुकी धोरण — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "a4f1a476b3200cd52b729560395661f0add1021d3e2e56acd524b4a0150335c7",
-			"value": "हे साइट कोणत्या कुकीज वापरते, कोणत्या उद्देशाने आणि तुमची सहमती कधीही कशी बदलायची."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "कायदेशीर"
+			"hash": "66ad75a2b36df9128aacf36fb17b5958e1600b4e656aefd9831137a7f76f69dc",
+			"value": "marioalvarez.me कोणती कुकीज वापरते, कशाला तुमच्या परवानगीची गरज असते आणि तुमची पसंती केव्हाही कशी बदलायची."
 		},
 		"meta/heading": {
-			"hash": "e4124618327d933ffeb091afc88ab0a14227ed69e83aaf285ca403866111d3eb",
-			"value": "कुकीज धोरण"
+			"hash": "31477853657732c997c1ddc1d3482bd57bf24f0f96ec8b801e4d23d39217ce0f",
+			"value": "कुकी धोरण"
 		},
-		"bloques/0/texto": {
-			"hash": "df0b70813839255ba6f0aef16202c89953164136f2532b92425c91beee04b8fb",
-			"value": "ही वेबसाइट योग्य कार्यासाठी आणि, जर तुम्ही संमती दिली तर, सामग्रीचा वापर निनावीपणे विश्लेषित करण्यासाठी कुकीज आणि तत्सम तंत्रज्ञान (जसे की ब्राउझर स्थानिक स्टोरेज) वापरते."
+		"meta/eleccionTitulo": {
+			"hash": "c670c6fa1c30c00ed56435970fd5ca4c02c580ec0cc6efa20b60a657c3ad8139",
+			"value": "तुमची पसंती"
 		},
-		"bloques/1/texto": {
-			"hash": "e940e1ef985d9395730ef5290b220f2331274816823e76bcc7e0be58cc291f87",
-			"value": "वापरलेल्या कुकीज:"
+		"meta/eleccionTexto": {
+			"hash": "f89fbe03c2fce6ad0e502a3c25b5636c3b5057591f91807cbd903aa96b14d2c3",
+			"value": "तुम्ही तुमची पसंती बदलू शकता किंवा तुमचा डेटा केव्हाही डिलीट करू शकता, जितक्या सहजपणे तुम्ही तो दिला होता."
 		},
-		"bloques/2/columnas/0": {
+		"secciones/0/titulo": {
+			"hash": "8d7d7e0a9ff78b31a93b381f88ff7705711d4cd67464d331e9e79f6a2b0f6163",
+			"value": "1. कुकीज म्हणजे काय आणि मला तुमच्या परवानगीची गरज आहे का"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "33085e9d8cdd7f8af7fbc3af2724110a47c9c63092049688dbe49c6b8e241c8a",
+			"value": "कुकीज आणि तत्सम तंत्रज्ञान (जसे की ब्राउझरचे लोकल स्टोरेज) तुमच्या डिव्हाइसवर लहान डेटा सेव्ह करतात. स्पॅनिश LSSI-CE च्या कलम २२.२ आणि स्पॅनिश डेटा प्रोटेक्शन एजन्सीच्या कुकीजच्या वापरावरील मार्गदर्शक तत्त्वांच्या मते, तुम्ही विचारलेल्या एखाद्या गोष्टीसाठी ज्या पूर्णपणे आवश्यक आहेत त्यांना संमतीची गरज नसते; विश्लेषणात्मक (अॅनालिसिस) कुकीजसाठी असते."
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "13bf6ce0bb5dedb297d12957382119571e29e0a60674861ab25fb853e0a45a61",
+			"value": "म्हणून ही वेबसाइट फक्त तुम्ही स्वीकारल्यासच विश्लेषण कुकी सेव्ह करते, आणि तुम्हाला कोणत्याही पूर्व-निवडलेल्या बॉक्सेसशिवाय, त्याच स्क्रीनवर दोन समान बटणांसह स्वीकारण्याची किंवा नाकारण्याची परवानगी देते. ती नाकारल्याने तुम्हाला वेबसाइटवरील कोणतीही गोष्ट वापरण्यापासून अडवले जात नाही."
+		},
+		"secciones/1/titulo": {
+			"hash": "bc77d7d4d205345359d4095e2b3d0d447b4bbf14cb32a96f440d84cd854ecdab",
+			"value": "2. ही वेबसाइट वापरत असलेल्या कुकीज"
+		},
+		"secciones/1/bloques/0/columnas/0": {
 			"hash": "562bb15757a8b593d6fdc812b0767c0e198bf7d8e19157933110de09c9db9012",
 			"value": "नाव"
 		},
-		"bloques/2/columnas/1": {
-			"hash": "25c2d36c49812b71d0b8d2b43de364c4b8b82606701a7d08e5eade99d9af667c",
-			"value": "उद्देश"
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "कशासाठी"
 		},
-		"bloques/2/columnas/2": {
+		"secciones/1/bloques/0/columnas/2": {
 			"hash": "3868d2843d5924c192e2f8e32700b6df9b50769ab3dcf5839607c4657a1c4162",
 			"value": "प्रकार"
 		},
-		"bloques/2/columnas/3": {
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "ebf4777a9018abbc74d1ac63419848051d2312851198beb8fe274a191de79cc4",
+			"value": "परवानगीची गरज आहे का?"
+		},
+		"secciones/1/bloques/0/columnas/4": {
 			"hash": "d5a804455b3392ca88333e92191b96b51f59b644511a73ee3d478fb14d9175d5",
 			"value": "कालावधी"
 		},
-		"bloques/2/filas/0/0": {
-			"hash": "9b9d58a5d3bd23f1a527509516e0adf5e5be9ed502640fcc0149e8e428d98ca8",
-			"value": "consentimiento_cookies"
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "52709e0b4a308f3f6bb11dba26753874f8f5888480f1c328b3973e422f03f648",
+			"value": "तुमची पसंती, या धोरणाची आवृत्ती आणि तुमच्या संमती रेकॉर्डचे छद्मनाव ओळखचिन्ह (pseudonymous identifier) सेव्ह करण्यासाठी"
 		},
-		"bloques/2/filas/0/1": {
-			"hash": "526746432ab0b8216448dc3f4f9aa90177641e413c0f362412c8607a0ad58c60",
-			"value": "या कुकीज धोरणाबद्दल तुमची पसंती लक्षात ठेवा"
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "b35e673bbeffe46275eb90c307517914af26d230d71554d67fa1ce1d753ad6be",
+			"value": "स्वतःची, तांत्रिक"
 		},
-		"bloques/2/filas/0/2": {
-			"hash": "e3c9d33af46786951131d096bfd0afca7a45113c203ff264ee3cafb667709165",
-			"value": "स्वतःची, तांत्रिक (संमतीपासून सूट)"
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "नाही"
 		},
-		"bloques/2/filas/0/3": {
+		"secciones/1/bloques/0/filas/0/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
-			"value": "12 महिने"
+			"value": "१२ महिने"
 		},
-		"bloques/2/filas/1/0": {
-			"hash": "e0f202a1c6e8a418ed21ee100ff75aa5d5359a103cf68a933e4ff65da01e73fd",
-			"value": "visitante_id"
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "ad5ce7a524d0bd89db3e12ed24421859441a6066ff0769b601cdab35560cac16",
+			"value": "कोणती सामग्री उपयुक्त ठरते हे जाणून घेण्यासाठी छद्मनाव ओळखचिन्ह"
 		},
-		"bloques/2/filas/1/1": {
-			"hash": "b3919a32c22f00fb5e847e80e59edbd9870c5dd4105ff2ccf863e601ab0b7832",
-			"value": "तुमच्या भेटी जोडण्यासाठी आणि कोणती सामग्री उपयुक्त आहे हे जाणून घेण्यासाठी निनावी ओळखकर्ता"
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "6d35c38422af2ce9c3df85517a4d93cbcb41ff4923fc9a953f05e90b603578b9",
+			"value": "स्वतःची, विश्लेषणात्मक"
 		},
-		"bloques/2/filas/1/2": {
-			"hash": "64d8b5b55e8b71350902309574cc2873bad88a946e8ded53d21e858419cd92be",
-			"value": "स्वतःची, विश्लेषणात्मक (तुमची संमती आवश्यक आहे)"
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "739215889580345e7630a71acd2863cd8ffd6db4bca79a39d1a276b8b3bcec6a",
+			"value": "होय"
 		},
-		"bloques/2/filas/1/3": {
+		"secciones/1/bloques/0/filas/1/4": {
 			"hash": "1672d102f0209f0e0ffcbffbec218b4290f317de6c83a64c8f5dc17741f7284c",
-			"value": "12 महिने"
+			"value": "१२ महिने"
 		},
-		"bloques/3/texto": {
-			"hash": "6f4f63a9b064b4de6d9c8a394445f2b9fb957a6a3d11454d9b2f7234424cd45b",
-			"value": "यापैकी कोणतीही कुकी तृतीय-पक्षाची नाही, कोणतीही जाहिरातीच्या उद्देशाने वापरली जात नाही आणि या साइटबाहेर कोणाशीही सामायिक केली जात नाही."
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "fbb1b332ba257c0679a5ad0459745752b9789a8a6f8454dfb23ee32571475939",
+			"value": "tema (almacenamiento local)"
 		},
-		"bloques/4/texto": {
-			"hash": "73006d4d6e97a1c4c05012796e37d3aa19c01ffe4b9499ffcc6e0dbd7d1aedde",
-			"value": "तुम्ही पादसंकेतातील (footer) \"कुकीज कॉन्फिगर करा\" (“Configurar cookies”) लिंकवरून कधीही तुमचा निर्णय बदलू शकता किंवा तुमची संमती मागे घेऊ शकता आणि त्याच पॅनलमधील \"माझा डेटा हटवा\" (“Borrar mis datos”) बटणासह तुमचा सर्व डेटा त्वरित हटवू शकता."
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "b7b804d18f8062f5aff72f996b9d347cbd580f702ddd063dbd2a311331a7701a",
+			"value": "तुम्हाला हलकी किंवा गडद थीम आवडते हे लक्षात ठेवण्यासाठी; तुम्ही बदलल्यासच ती सेव्ह केली जाते"
 		},
-		"bloques/5/texto": {
-			"hash": "933290e837562b81d3a381c76d73848c4470a0806e8e74fb8bd21c5686dc9011",
-			"value": "तुमच्या डेटावर कशी प्रक्रिया केली जाते याबद्दल अधिक माहितीसाठी, गोपनीयता धोरण पहा."
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "3fac4f3a5d51b0073e6411bc10ec3a9c8db769c16636b454c67fa7b9d3459955",
+			"value": "स्वतःची, तुम्ही विनंती केलेल्या वैयक्तिककरणासाठी"
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+			"value": "नाही"
+		},
+		"secciones/1/bloques/0/filas/2/4": {
+			"hash": "7cbd82eea898634a3cf09145c1765224c0a0da0efd213f4b6f122e6b331c3ee1",
+			"value": "तुम्ही ते डिलीट करेपर्यंत"
+		},
+		"secciones/2/titulo": {
+			"hash": "e70c2a42ac07e49a03bcbd2c971f29432f71dc4157efa149436c8e85c273e43f",
+			"value": "3. जे येथे नाही"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "557b450574b69140746de842e81ea6c60614b30cd078427d7ce399781fdc0260",
+			"value": "तिसऱ्या पक्षाच्या कुकीज, जाहिराती, एम्बेड केलेले सोशल मीडिया सामग्री किंवा Google Analytics नाही. फॉन्ट आणि प्रतिमा याच वेबसाइटवरून सर्व्ह केल्या जातात."
+		},
+		"secciones/3/titulo": {
+			"hash": "d655c431f6fe8f48df62ff4b78ca1491be499ab94fab194be4b7e1cdf5c9959d",
+			"value": "4. मत कसे बदलावे"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "67043a45828becd73760097b9760758d206355f824ddd34958ed2080e9aa97e1",
+			"value": "तुम्ही प्रत्येक पृष्ठाच्या पायथ्याशी (footer) असलेल्या «कुकीज कॉन्फिगर करा» मधून किंवा या पृष्ठावरील बटणावरून, तुम्हाला जेव्हा वाटेल तेव्हा तुमची पसंती बदलू शकता किंवा संमती मागे घेऊ शकता. तिथून तुम्ही तुमच्या ब्राउझरशी संबंधित विश्लेषणात्मक डेटा देखील त्वरित डिलीट करू शकता. आणि तुम्ही तुमच्या ब्राउझरच्या सेटिंग्जमधून कुकीज डिलीट करू शकता."
+		},
+		"secciones/4/titulo": {
+			"hash": "9bea199c1816f453f8290efe987b2fea0e11583c5e160ea8244bfe566f2b1597",
+			"value": "5. तुमच्या पसंतीची नोंद (रेकॉर्ड)"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "a880630b323ed3e273920fd5df359485a1f0eaaeb7989364a04fb2677d0cfa0d",
+			"value": "जेव्हा जेव्हा तुम्ही संमती स्वीकारता, नाकारता किंवा मागे घेता तेव्हा एक रेकॉर्ड सेव्ह केला जातो (छद्मनाव ओळखचिन्ह, निर्णय, या धोरणाची आवृत्ती, तारीख आणि वेळ, पृष्ठ, भाषा, स्त्रोत आणि ब्राउझर), तुमचा IP पत्ता न घेता, संमती वैध होती हे सिद्ध करण्यासाठी. हा डेटा ३ वर्षे जतन केला जातो. अधिक तपशील गोपनीयता धोरणात आहेत."
+		},
+		"secciones/5/titulo": {
+			"hash": "dc3aa5142e13d6ac58de043d47fac4f580d920a84649582f3b0ca2341ecbf049",
+			"value": "6. बदल"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "89cd6a5589014e8d643826e50e61734eb5c506dc5801418ae603cfe85132fd1f",
+			"value": "जर हे धोरण महत्त्वपूर्णपणे बदलले, तर कुकी सूचना पुन्हा दिसून येईल जेणेकरून तुम्ही पुन्हा निर्णय घेऊ शकाल."
 		}
 	},
 	"politica-privacidad": {
 		"meta/title": {
-			"hash": "5eb1ffaae207ebfdc01206669160a7eb13bbda5f7d0df07c91a61347d04201cd",
+			"hash": "42071aae1686801e5e4d10f528b7ea46c5763923ea327ea82dd99d7216c615cc",
 			"value": "गोपनीयता धोरण — Mario Álvarez"
 		},
 		"meta/description": {
-			"hash": "55cbde0a4c616c7963ed80ea74d1d2e49ba6d9244098464d2b01a18a94622b4f",
-			"value": "Mario Álvarez च्या साइटचे गोपनीयता धोरण: कोणտ्या डेटा गोळा केला जातो, कोणत्या उद्देशाने आणि तुमच्या अधिकारांचा वापर कसा करावा."
-		},
-		"meta/eyebrow": {
-			"hash": "4787eaf7c938045fd5285fe6a2cd72558caf7bd5faeb93fd1ad490a502e0e37b",
-			"value": "कायदेशीर"
+			"hash": "835ff2101ffc889e493af11033230e7e7c68e148b166dfda511fa4dc11cf8f23",
+			"value": "marioalvarez.me कोणता डेटा गोळा करते, कशासाठी, कोणत्या कायदेशीर आधारावर, किती काळासाठी आणि तुम्ही तुमचे अधिकार कसे वापरू शकता."
 		},
 		"meta/heading": {
-			"hash": "fa322aa36e894213aed9f8a79fec4ddd0216728531ff91865fe6b4dd64414b19",
+			"hash": "298dfe180a7fba9106901410763f4fc5cb2e2df9880f32caa50570a95b67d05d",
 			"value": "गोपनीयता धोरण"
 		},
 		"secciones/0/titulo": {
-			"hash": "f40a08d55695b46cb06936305609a659cf2264635ce95082b10adbe117704945",
-			"value": "1. डेटा नियंत्रक"
+			"hash": "f26db73f9b3e3b1ff6e9079253f37e391e699fc0a2d4f1d75cc4ad5e736e95a0",
+			"value": "1. उत्तरदायी"
 		},
-		"secciones/0/bloques/0/texto": {
-			"hash": "ac3102e120f1de213123ba2c257915460c24e3b41b2afe2253f02c5c2def52a9",
-			"value": "Mario Álvarez Martínez, Benidorm (Alicante), स्पेन येथे स्थित. संपर्क: malvmar5@hotmail.com"
+		"secciones/0/bloques/0/items/0": {
+			"hash": "30b867430b07e1173b004c27dbfa003df6e989a4730e364af948572908bd1d7b",
+			"value": "उत्तरदायी: {nombre}"
+		},
+		"secciones/0/bloques/0/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/0/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "पत्ता: {domicilio}"
+		},
+		"secciones/0/bloques/0/items/3": {
+			"hash": "dc9414558e3d4d2f18d1a3674b75de6fadddac371f9d47a3b552090af8eb521e",
+			"value": "गोपनीयतेशी संबंधित कोणत्याही प्रश्नासाठी ईमेल: {email}"
+		},
+		"secciones/0/bloques/1/texto": {
+			"hash": "4ded33c4f911f981554d9312d284fb6c54397059545a170e4cc7fe589462e16d",
+			"value": "आकाराच्या आणि क्रियाकलापाच्या प्रकारामुळे डेटा संरक्षण अधिकारी नेमणे बंधनकारक नाही, त्यामुळे तो नाही: मला थेट लिहा."
 		},
 		"secciones/1/titulo": {
-			"hash": "369b07a4ec05109e35b70619a64c071e530c120ee701be931eaabc05f5483c11",
-			"value": "2. प्रक्रिया करण्याचा उद्देश"
+			"hash": "7945e3b3ea085d4541900f91dd5ee53aa546f0101caa5a0e3e02151f2787a1d8",
+			"value": "2. मी कोणता डेटा हाताळतो, कशासाठी आणि का"
 		},
-		"secciones/1/bloques/0/texto": {
-			"hash": "afc2570cb8faf47c545fce55f68ac37408c3e2848f90499ec793ee2a506d474d",
-			"value": "ही वेबसाइट अंतर्गत आणि केवळ सांख्यिकीय उद्देशांसाठी कोणती सामग्री (विभाग, प्रकल्प) भेट देणाऱ्यांसाठी सर्वात उपयुक्त आहे याचे विश्लेषण करते, ज्याचा उद्देश तिची सामग्री सुधारणे हा आहे. याचा वापर जाहिरातींच्या उद्देशाने केला जात नाही, तो तृतीय पक्षांसोबत सामायिक केला जात नाही आणि कोणत्याही परिस्थितीत विकला जात नाही."
+		"secciones/1/bloques/0/columnas/0": {
+			"hash": "329c859874105234b57210af0bb27d5034ef2387a9b823f7f66cd01e5fdf49de",
+			"value": "कशासाठी"
+		},
+		"secciones/1/bloques/0/columnas/1": {
+			"hash": "972848ecab8712f1568b40ae2e85d79982921d9fb636715f12c3ee77922e3552",
+			"value": "कोणता डेटा"
+		},
+		"secciones/1/bloques/0/columnas/2": {
+			"hash": "0e2ca19b51a48180494077bf03cdc3954e09bdee2636072ad50078371e62a9a5",
+			"value": "कायदेशीर आधार"
+		},
+		"secciones/1/bloques/0/columnas/3": {
+			"hash": "37f1242360cae04ca75412a4e8cb1f99084336707371d837bfc22cb6e7f5573f",
+			"value": "किती काळ"
+		},
+		"secciones/1/bloques/0/filas/0/0": {
+			"hash": "66f19c829749fd1569fc7654b5c44b3cfab1a9f5435c0500d82c758b69eba6f8",
+			"value": "वापर विश्लेषण, केवळ तुम्ही विश्लेषण कुकीज स्वीकारल्यास"
+		},
+		"secciones/1/bloques/0/filas/0/1": {
+			"hash": "2316c78abc893aa7ee9c70d0d8941a2f1773cb0072467c8339cd9fe754f34ffd",
+			"value": "एक यादृच्छिक छद्मनाव ओळखकर्ता (कुकी visitante_id), तुम्ही पाहलेले विभाग आणि प्रकल्प आणि प्रत्येकावर खर्च केलेला वेळ, दुवे आणि बटणांवर क्लिक, भाषा, डिव्हाइसचा प्रकार (मोबाइल किंवा डेस्कटॉप), अंदाजे देश आणि प्रत्येक इव्हेंट घडणारे वेब पेज."
+		},
+		"secciones/1/bloques/0/filas/0/2": {
+			"hash": "48f423d1cad8999cc02a95461334fb67708564a718aae008e8e3d4bd6f1abe5c",
+			"value": "तुमची संमती (कला. 6.1.a RGPD आणि कला. 22.2 LSSI-CE)."
+		},
+		"secciones/1/bloques/0/filas/0/3": {
+			"hash": "7793be198aa2fa735865c4d0184ca23264562c7145f55c2181325fac495c2008",
+			"value": "12 महिने; त्यानंतर प्रत्येक इव्हेंट आपोआप हटवला जातो."
+		},
+		"secciones/1/bloques/0/filas/1/0": {
+			"hash": "c9085a6241675f43631bb0acc7db73240979340e52f215e12bac23565cfb2c26",
+			"value": "संमती नोंद"
+		},
+		"secciones/1/bloques/0/filas/1/1": {
+			"hash": "4a6cae5ac5e5e2b02740d4fd1afb185091db19db70cf3c1532949b5a71f6d025",
+			"value": "छद्मनाव ओळखकर्ता, तुम्ही काय स्वीकारले, नाकारले किंवा मागे घेतले, प्रत्येक दस्तऐवजाची आवृत्ती, तारीख आणि वेळ, पृष्ठ, भाषा, स्त्रोत (बॅनर, कॉन्फिगरेशन किंवा फॉर्म), ब्राउझर (वापरकर्ता एजंट) आणि अंदाजे देश; फॉर्ममध्ये, त्याशिवाय, तुमच्या ईमेलचा संदर्भ कोड."
+		},
+		"secciones/1/bloques/0/filas/1/2": {
+			"hash": "f49d2c07e64734bea73e86a5f913788d7fbef6b7ba587c45d3e43a2fe892e954",
+			"value": "संमती सिद्ध करण्यास सक्षम असण्याची जबाबदारी पूर्ण करणे (कला. 6.1.c आणि 7.1 RGPD)."
+		},
+		"secciones/1/bloques/0/filas/1/3": {
+			"hash": "a2ecf36d6bf6235f3dcca3b1c5fde18943f1cf05d1520617dc789b7a4217b98d",
+			"value": "प्रत्येक नोंदणीपासून 3 वर्षे (LOPDGDD उल्लंघनांची कमाल कालबाह्यता मर्यादा); त्यानंतर तो आपोआप हटवला जातो."
+		},
+		"secciones/1/bloques/0/filas/2/0": {
+			"hash": "a0b02e5aea3ce82e5aeb02b12c9a190e7b4b8161dadce962d7469d0a4e5c5427",
+			"value": "तुमच्या ईमेल किंवा फोनवरील चौकशीला उत्तर देणे"
+		},
+		"secciones/1/bloques/0/filas/2/1": {
+			"hash": "6fed1a34cd293c983716f8c74612d9b18e8869913be6cbfb6dda6384e8613438",
+			"value": "तुम्ही मला पाठवण्याचा निर्णय घेतलेला डेटा: सामान्यतः तुमचे नाव, तुमचा ईमेल किंवा फोन आणि संदेशाची सामग्री."
+		},
+		"secciones/1/bloques/0/filas/2/2": {
+			"hash": "89d10b2cde2d06df634b68d50f4bc73acd354488c981db6412af30a4f424f360",
+			"value": "तुमच्या विनंतीनुसार पूर्व-करार उपाय लागू करणे (कला. 6.1.b RGPD) किंवा तुम्हाला उत्तर देण्यातील माझे कायदेशीर हित (कला. 6.1.f)."
+		},
+		"secciones/1/bloques/0/filas/2/3": {
+			"hash": "74f9dde75113c5650697044fdbc4c3a3a97598af5331ce0ef428bbf822cc0c21",
+			"value": "संभाषण चालेपर्यंत आणि त्यानंतर 1 वर्षांपर्यंत, जोपर्यंत आमचा करार होत नाही."
+		},
+		"secciones/1/bloques/0/filas/3/0": {
+			"hash": "f9c4c0ee00650b320f51840cabbb7e6e642e3b61c8837a74d8d996e267df1b24",
+			"value": "कराराचे व्यवस्थापन करणे"
+		},
+		"secciones/1/bloques/0/filas/3/1": {
+			"hash": "63ec8a60b26e57f8d39da6ce54f8230cb8530bcf816369573da70e9e591e2822",
+			"value": "ओळख, संपर्क आणि बीजक डेटा."
+		},
+		"secciones/1/bloques/0/filas/3/2": {
+			"hash": "d802d684897cfb64dab5dfb2b82d148f56cec2c89e6f825d0e1bc61ac73971a3",
+			"value": "कराराची अंमलबजावणी (कला. 6.1.b RGPD) आणि कर आणि लेखा दायित्वे (कला. 6.1.c)."
+		},
+		"secciones/1/bloques/0/filas/3/3": {
+			"hash": "11f2d939b6159a847bc51d24414c4b9e793bf6825f7c1398abd8db2c71593d92",
+			"value": "कर आणि व्यावसायिक कायदे ज्याची मागणी करतात (सामान्यतः 4 ते 6 वर्षांच्या মধ্যে)."
+		},
+		"secciones/1/bloques/0/filas/4/0": {
+			"hash": "063288f4f5c95e4a853b475581be68a6fe1a5d2f897f910b64cf1e112b6ad45c",
+			"value": "तुम्हाला हलकी किंवा गडद थीम आवडते का ते लक्षात ठेवणे"
+		},
+		"secciones/1/bloques/0/filas/4/1": {
+			"hash": "dc01e55b7f3a74f530144f1343bf45325fd1f19a6506d36f1a840187ea7c2ce1",
+			"value": "«tema» प्राधान्य, फक्त तुमच्या ब्राउझरमध्ये सेव्ह केलेले (स्थानिक स्टोरेज). माझ्यापर्यंत पोहोचत नाही."
+		},
+		"secciones/1/bloques/0/filas/4/2": {
+			"hash": "b040ff84d8f2d571755a6a5e7ef2c402852e9dec6a680b046a8840b517f0258f",
+			"value": "बटन दाबून तुम्ही विचारलेली फंक्शन (कला. 22.2 LSSI-CE नुसार संमतीपासून मुक्त)."
+		},
+		"secciones/1/bloques/0/filas/4/3": {
+			"hash": "8fb068d79a6505e39426755b0e06217d53afb0432147bf3814d2980ab9e64f5a",
+			"value": "जोपर्यंत तुम्ही ते तुमच्या ब्राउझरमधून हटवत नाही."
 		},
 		"secciones/2/titulo": {
-			"hash": "14f786ea9ef7e0ab79b9c1c839d43d8f00f1a3dad7b3e4d585e1ca16bac30de3",
-			"value": "3. गोळा केलेला डेटा (फक्त तुम्ही विश्लेषणात्मक कुकीज स्वीकारल्यास)"
+			"hash": "7feaf44c775a941b92da3e422a3dfbbf1af6d00c97a112d765f00b6c6e69145c",
+			"value": "3. मी काय विचारत नाही किंवा गोळा करत नाही"
 		},
-		"secciones/2/bloques/0/items/0": {
-			"hash": "af9dbef21552a998898a6e6b87ce3ab608a25ee145ba00d9b39c7e0e058c7b94",
-			"value": "एक यादृच्छिक निनामी ओळखकर्ता, तुमच्या नावाशी, ईमेलशी किंवा तुम्हाला थेट ओळखणाऱ्या इतर कोणत्याही माहितीशी जोडलेला नाही."
+		"secciones/2/bloques/0/texto": {
+			"hash": "2e532d9922da0772b96e789b3bc6716e06e430392ef62cdbafbf5a64a8b602a0",
+			"value": "मी प्रत्येक उद्देशासाठी केवळ आवश्यक असलेलेच हाताळतो. विशेषतः:"
 		},
-		"secciones/2/bloques/0/items/1": {
-			"hash": "c78cee22ee30d940fc9510cb8a9a54dc35331852e95b33c7c167defe4100563b",
-			"value": "तुम्ही भेट दिलेली पृष्ठे आणि प्रकल्प, आणि प्रत्येकावर लागलेला लक्ष देण्याचा वेळ (टॅब सक्रिय असताना)."
+		"secciones/2/bloques/1/items/0": {
+			"hash": "162d4749f1b4ecef620defa8cc4315c9cdeb14495be2b079d86990bab9921fcc",
+			"value": "संपर्क फॉर्म तुमचे नाव, तुमचा ईमेल किंवा तुमचा फोन विचारत नाही: तुमचा मेल प्रोग्राम उघडा आणि तुम्ही मला काय पाठवायचे हे ठरवता."
 		},
-		"secciones/2/bloques/0/items/2": {
-			"hash": "58eb754e814f1b0cd7a755bae6f582d6b70812a4770dbae0ed91588a4c9ffafe",
-			"value": "परस्परसंवाद (प्रकल्प, दुवे किंवा बटणांवर क्लिक)."
+		"secciones/2/bloques/1/items/1": {
+			"hash": "ff397d4902c0ffd1189f8e1e35e2bcb687831fb514a3f9e543d45b5097cd02cf",
+			"value": "मी विश्लेषणामध्ये किंवा संमती नोंदणीमध्ये तुमचा आयपी पत्ता जतन करत नाही."
 		},
-		"secciones/2/bloques/0/items/3": {
-			"hash": "7c88de12fdd883efe563e638c70bce66b6fb9fd4fc27e31d2a7ca6fc72a47b63",
-			"value": "भेटीची तारीख आणि वेळ."
+		"secciones/2/bloques/1/items/2": {
+			"hash": "f56194a61aec7b27015853b20033d553cbb9ac044fe9f04346b24415eb7adbcb",
+			"value": "मी ब्राउझर ओळख तंत्र (fingerprinting), Google Analytics, जाहिरात पिक्सेल किंवा तृतीय-पक्ष कुकीज वापरत नाही."
 		},
-		"secciones/2/bloques/0/items/4": {
-			"hash": "e54a7cdd886ad5055264d01aea081fb51d909d54d0024e9e4a01e43bccbe5ead",
-			"value": "पाहिलेली साइटची भाषा."
-		},
-		"secciones/2/bloques/0/items/5": {
-			"hash": "5709d70ab8af14465ad963432975debae9d95d4ad23a47eeac819cc60819fed0",
-			"value": "डिव्हाइसचा प्रकार (मोबाइल किंवा डेस्कटॉप)."
-		},
-		"secciones/2/bloques/0/items/6": {
-			"hash": "0c368fa7c18141ac18d5d56f78801fced4707f4052cc2b808ce9c625116c1b29",
-			"value": "अंदाजे देश, Cloudflare इन्फ्रास्ट्रक्चरद्वारे प्राप्त केलेला, तुमचा IP पत्ता संचयित न करता."
-		},
-		"secciones/2/bloques/0/items/7": {
-			"hash": "1f3aa8c499ab923ba2a459524c44358dd24b8e18592d64472b44710437af9c62",
-			"value": "मूळ पृष्ठ (उदाहरणार्थ, LinkedIn किंवा शोध इंजिन)."
-		},
-		"secciones/2/bloques/1/texto": {
-			"hash": "d175666aba57f0dfb2dc69cd692375e4e02f6ddf9ff9c9e2d0257bf0cb352703",
-			"value": "तुमचा IP पत्ता गोळा केला जात नाही, ब्राउझर ओळख तंत्रे (fingerprinting) वापरली जात नाहीत, किंवा Google Analytics किंवा तत्सम तृतीय-पक्षाची साधने वापरली जात नाहीत."
+		"secciones/2/bloques/1/items/3": {
+			"hash": "0ba62a40c9ed5bff67053ea0f359fcdfe831ea6223962396ea3e25270f49b79e",
+			"value": "फॉन्ट आणि प्रतिमा या वेबसाइட்டवरूनच वितरीत केल्या जातात: भेट देताना, तुमचा ब्राउझर Google Fonts, GitHub किंवा इतर बाह्य सेवांशी कनेक्ट होत नाही."
 		},
 		"secciones/3/titulo": {
-			"hash": "33c48d6078a48147685e7677503e27d7f86fe5eae823d85ac870cdb7c94fa8d5",
-			"value": "4. कायदेशीर पाया"
+			"hash": "e97f09119206a0bb54b91a4d0525a1611a86cd2a1ffb1ce68ecee7e407f5b4b2",
+			"value": "4. इतर कोण सहभागी आहे"
 		},
 		"secciones/3/bloques/0/texto": {
-			"hash": "f1ae41312216be39906db5c7cb7d0a005bab509b6b7cb783065384072dfb8964",
-			"value": "प्रक्रिया तुमच्या स्पष्ट संमतीवर आधारित आहे (GDPR चे कलम 6.1.a आणि LSSI-CE चे कलम 22.2), जी तुम्ही साइटच्या स्वतःच्या कुकी व्यवस्थापकावरून कोणत्याही वेळी मागे घेऊ शकता."
+			"hash": "9379c1c29056fb76c9aaac14eec204ccc80f1839470f1fa57d869d5ede4e8554",
+			"value": "मी तुमचा डेटा कोणालाही विकत नाही किंवा हस्तांतरित करत नाही, कायदेशीर दायित्व वगळता. वेबसाइट कार्य करण्यासाठी आणि तुम्हाला उत्तर देण्यासाठी मी या प्रदात्यांचा वापर करतो:"
+		},
+		"secciones/3/bloques/1/items/0": {
+			"hash": "ba8d5055f95f76f5d5f213f9ea6abd0d2e73614739ee762b8e003da614270e78",
+			"value": "Cloudflare, Inc.: वेबसाइट आणि डेटाबेस होस्ट करते (Cloudflare Pages आणि D1) आणि प्रोसेसर म्हणून कार्य करते. वेबसाइट वितरीत करण्यासाठी ते तुमच्या आयपी सारख्या तांत्रिक कनेक्शन डेटावर प्रक्रिया करते, ज्यामध्ये मला प्रवेश नाही. त्याचे धोरण: https://www.cloudflare.com/privacypolicy/"
+		},
+		"secciones/3/bloques/1/items/1": {
+			"hash": "e5466224dac0fab3f83206452f2e1dce4d397ed8821b014e24422d4c03931809",
+			"value": "Microsoft Corporation (Outlook.com): मेल सेवा ज्यामध्ये मी ईमेल प्राप्त करतो आणि उत्तर देतो; ते संदेश त्याच्या स्वतःच्या धोरणांनुसार हाताळते: https://privacy.microsoft.com/es-es/privacystatement"
 		},
 		"secciones/4/titulo": {
-			"hash": "a41ded5492687d08a215c7490d62f74228987bb06111c2ba69490ea3025be80d",
-			"value": "5. जतन करण्याचा कालावधी"
+			"hash": "0f1733989dcc9d3e7da935c30da90d6d47f7e418e0623ece20bdddea5480e10d",
+			"value": "5. आंतरराष्ट्रीय हस्तांतरण"
 		},
 		"secciones/4/bloques/0/texto": {
-			"hash": "7bb8833d1eab1765f9c083deceec4044357b6de859de2e32fc39a41a113862eb",
-			"value": "डेटा तुमच्या शेवटच्या भेटीपासून जास्तीत जास्त 12 महिने जतन केला जातो, त्यानंतर तो आपोआप हटवला जातो."
+			"hash": "730d0cdbf2408bcb369456290dbb1557289c98b1c1ad50e6c7738990068ee833",
+			"value": "Cloudflare आणि Microsoft युनायटेड स्टेट्समध्ये डेटा प्रक्रिया करू शकतात. दोन्ही EU-US डेटा गोपनीयता फ्रेमवर्कचे पालन करतात (युरोपियन आयोगाचा 10 जुलै 2023 चा पर्याप्तता निर्णय) आणि आयोगाद्वारे मंजूर मानक कराराच्या शर्ती देखील देतात."
 		},
 		"secciones/5/titulo": {
-			"hash": "7c2b75743b9e94adb5f4706fa030121ec1fa06a82e145afc84b7a30d60de7694",
-			"value": "6. प्राप्तकर्ते आणि आंतरराष्ट्रीय हस्तांतरण"
+			"hash": "4ec1c1d4af17035281741f9ce83569b18261968bce5f1398635042c17d1ea5aa",
+			"value": "6. तुमचे अधिकार"
 		},
 		"secciones/5/bloques/0/texto": {
-			"hash": "9ce7964082f3b503954b8d19202472e7adccae03b47c270bee9150745637c8ce",
-			"value": "डेटा तृतीय पक्षांना हस्तांतरित किंवा विकला जात नाही. तो Cloudflare D1 मध्ये सामायिक केला जातो, जी Cloudflare, Inc. द्वारे प्रदान केलेली डेटाबेस सेवा आहे, जी प्रक्रिया करणारी म्हणून कार्य करते. Cloudflare युरोपियन आर्थिक क्षेत्राच्या बाहेर डेटावर प्रक्रिया करू शकते; त्या बाबतीत, असे हस्तांतरण युरोपियन आयोगाद्वारे मंजूर केलेल्या मानक कंत्राटी कलमांवर आधारित आहे. Cloudflare च्या गोपनीयता धोरणात अधिक माहिती: https://www.cloudflare.com/privacypolicy/"
+			"hash": "6315177b90b21cdfbed7fbfaec8577e8da3be3f21abc4b0aa4ee3768d05d5730",
+			"value": "तुम्ही कधीही तुमच्या डेटामध्ये प्रवेश करण्याची, ती दुरुस्त करण्याची, ती हटवण्याची, तिच्यावर प्रक्रिया करण्यास विरोध करण्याची, ती मर्यादित करण्याची किंवा ती दुसऱ्या ठिकाणी नेण्यासाठी प्राप्त करण्याची (पोर्टेबिलिटी) आणि आधी हाताळलेल्या गोष्टींवर परिणाम न करता तुमची संमती मागे घेण्याची मागणी करू शकता. {email} वर मला लिहा; मी जास्तीत जास्त एका महिन्यात उत्तर देईन."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "861c3a71db2dc302875ad844414aa75c76842e60449a723c31645d069833fcce",
+			"value": "विश्लेषण डेटा तुम्ही कुकी कॉन्फिगरेशनमधील «Borrar mis datos» बटणाने स्वतः त्वरित हटवू शकता. संमती मागे घेतली तरी संमती नोंद ठेवली जाते, कारण ती नेमके कधी दिली आणि कधी मागे घेतली हे सिद्ध करण्यासाठी उपयोगात येते."
+		},
+		"secciones/5/bloques/2/texto": {
+			"hash": "893606189520d2e9c25fbc294f12b208763cd9a34b5e2e9260c64d938f8c636c",
+			"value": "तुम्हाला वाटत असेल की मी तुमच्या अधिकारांकडे योग्य लक्ष दिले नाही, तर तुम्ही स्पॅनिश डेटा संरक्षण एजन्सीकडे तक्रार करू शकता: https://www.aepd.es"
 		},
 		"secciones/6/titulo": {
-			"hash": "3d62da5234ceaa31566dbcfaae30ea5b42ca2e0e47744e6eb4ed49d6b5de736f",
-			"value": "7. तुमचे अधिकार"
+			"hash": "003ddb2514982633893943d31d98d557414a83f3a0566ffe931a21885a10d93c",
+			"value": "7. अल्पवयीन"
 		},
 		"secciones/6/bloques/0/texto": {
-			"hash": "601306cdeb3e9eb384a4a1271889c8f722ab000f6d52027acab166e0ecd50959",
-			"value": "malvmar5@hotmail.com वर लिहून तुम्ही कधीही प्रवेश, दुरुस्ती, हटवणे, विरोध, प्रक्रिया मर्यादित करणे आणि सुलभतेचे अधिकार वापरू शकता. याव्यतिरिक्त, साइटच्या कुकी कॉन्फिगरेशनमध्ये उपलब्ध असलेल्या \"माझा डेटा हटवा\" बटणावरून कोणालाही न लिहिता तुम्ही तुमचा डेटा त्वरित हटवू शकता. तुमचे अधिकार योग्य प्रकारे हाताळले गेले नाहीत असे तुम्हाला वाटल्यास, स्पॅनिश डेटा प्रोटेक्शन एजन्सीकडे (www.aepd.es) तक्रार दाखल करण्याचा अधिकार तुम्हाला आहे."
+			"hash": "a5bc9a70e47befee36963581af0ce2875c63d35566435cb7078f36ee013a0da5",
+			"value": "वेबसाइट 14 वर्षांपेक्षा कमी वयाच्या मुलांसाठी नाही. तुमचे वय 14 वर्षांपेक्षा कमी असल्यास, तुमच्या पालकांच्या किंवा कायदेशीर पालकांच्या परवानगीशिवाय मला वैयक्तिक डेटा पाठवू नका (कला. 7 LOPDGDD)."
 		},
 		"secciones/7/titulo": {
-			"hash": "4421ef735f17920d95672a4ae66c564ac1730cd7e91a8394647ea2a49c49c8a3",
-			"value": "8. या धोरणातील बदल"
+			"hash": "89bad5840c8dee67d2a6178a78cebda20b28cbe970a49fd79a807b44b36df8c4",
+			"value": "8. सुरक्षा"
 		},
 		"secciones/7/bloques/0/texto": {
-			"hash": "2a4ab076dd286654e51a114fc7dcc2b7f6837cf459753f8292aa56008ea7877e",
-			"value": "कायदेशीर बदलांनुसार किंवा साइट स्वतः बदलण्यासाठी हे धोरण अद्यतनित केले जाऊ शकते."
+			"hash": "42a5a107a1cdae9c58164e80236ff37ee90982816a2bc13cca85a541687e78ce",
+			"value": "डेटा एन्क्रिप्टेड प्रवास करतो (HTTPS) आणि डेटाबेसमध्ये सेव्ह केला जातो ज्यामध्ये केवळ खाजगी पॅनेलवरून प्रवेश केला जाऊ शकतो, ज्याचे वापरकर्तानाव आणि पासवर्डद्वारे संरक्षण केले जाते."
+		},
+		"secciones/8/titulo": {
+			"hash": "281d85edd7253d4dfcfac85764031516f590f798423fec77375a13cd6628419b",
+			"value": "9. या धोरणातील बदल"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "c02f8e64ffd3e30fd572c5e4ffa814fa674bc2ce1bc1ae97cbda29bc426a0641",
+			"value": "काहीतरी महत्त्वाचे बदलल्यास, मी हे पृष्ठ आणि त्याची आवृत्ती तारीख अद्यतनित करेन. बदलाचा कुकीजवर परिणाम होत असल्यास, तुम्हाला पुन्हा विचारले जाईल."
+		}
+	},
+	"terminos": {
+		"meta/title": {
+			"hash": "32bd32f715f40de590a9dd3c9f73267526c23fd772f3028087713f7cf982a035",
+			"value": "नियम आणि अटी — Mario Álvarez"
+		},
+		"meta/description": {
+			"hash": "6909b2d2dd9ff5e9ffdee5c69781fa5274d828842760194435f19e4c02223042",
+			"value": "marioalvarez.me चे कायदेशीर सूचना आणि वापरΟच्या अटी: मालक कोण आहे, वेबसाइट कशी वापरली जाऊ शकते आणि कोणती कायदा लागू होतो."
+		},
+		"meta/heading": {
+			"hash": "e7c76e1c6a33e059280ffc3799b6ae3f5ee27ce9a224f869cfce782daeca98c4",
+			"value": "नियम आणि अटी"
+		},
+		"secciones/0/titulo": {
+			"hash": "25995bfabcaa9952bd1ee61853a578049c1546b3406779ed610d421b665fd62e",
+			"value": "१. या वेबसाइटच्या मागे कोण आहे"
+		},
+		"secciones/0/bloques/0/texto": {
+			"hash": "8b1f5a892b055dadd8f56f6a85d53e1578a41ea5fcc6d19cc36fc665d2c6ec6a",
+			"value": "माहिती समाज आणि इलेक्ट्रॉनिक कॉमर्सच्या सेवांवरील ३४/२००२ च्या कायद्याच्या (LSSI-CE) कलम १० च्या अनुपालनात, marioalvarez.me च्या मालकाचा डेटा खालीलप्रमाणे आहे:"
+		},
+		"secciones/0/bloques/1/items/0": {
+			"hash": "5e6cc3f60479df1e7772ae8f0572aa6420f2bf2076300ce525dd70cece9beefb",
+			"value": "मालक: {nombre}"
+		},
+		"secciones/0/bloques/1/items/1": {
+			"hash": "7bbe8260f95afb0aefd7325d01d1df083c3cb41847a0943c8e82b2700170d3fb",
+			"value": "NIF: {nif}"
+		},
+		"secciones/0/bloques/1/items/2": {
+			"hash": "8d3695ccee83b85500255d775396a00b3e532b5c3f8e75cb2ed1fcfbe8a2f37c",
+			"value": "पत्ता: {domicilio}"
+		},
+		"secciones/0/bloques/1/items/3": {
+			"hash": "c8bb119fabe0d59b6475dec695954a49f55f2fa399699053a9f4e8bcd3695d15",
+			"value": "इमेल: {email}"
+		},
+		"secciones/0/bloques/1/items/4": {
+			"hash": "f5726eeeb5ac35916ef968d7f96cf8b7d66cb48b3a2348939fee76338355a7ae",
+			"value": "क्रियाकलाप: व्यावसायिक पोर्टफोलिओ आणि डेटा विश्लेषणाची सेवा देणे, सानुकूल साधने, डेटाबेस आणि अहवाल आणि करिअरमध्ये मदत."
+		},
+		"secciones/1/titulo": {
+			"hash": "0953b09805430f1317610661d594aa5a1ec49e17de4fceb0cb7ba7654414cece",
+			"value": "२. हे नियम कशाचे नियमन करतात"
+		},
+		"secciones/1/bloques/0/texto": {
+			"hash": "71f38be4f9358489abddcd755014dba737e32e898f29975890cf6004b3167155",
+			"value": "हे नियम कोणत्याही भाषेमध्ये marioalvarez.me (\"वेबसाइट\") वर प्रवेश आणि वापराचे नियमन करतात. त्यावर ब्राउझ करून तुम्ही येथे सांगितल्यानुसार ते वापरण्यास सहमत आहात. तुम्ही मला संपर्क फॉर्मवरून लिहिल्यास, मी तुम्हाला एका बॉक्सवर खूण करून त्यांचे स्पष्टपणे स्वीकार करण्यास सांगतो."
+		},
+		"secciones/2/titulo": {
+			"hash": "a8c3a10287bd647e6d13b3a066118bb60742a1cc60f0f38874ec1dae28799a8b",
+			"value": "३. वेबसाइट कशी वापरली जाऊ शकते"
+		},
+		"secciones/2/bloques/0/texto": {
+			"hash": "37b50f5d7154219f58af553380ed898804671dff21ec74e6d350d758204ea345",
+			"value": "तुम्ही स्त्रोताचा उल्लेख करून सामग्रीचा सल्ला घेऊ शकता आणि सामायिक करू शकता. याची परवानगी नाही:"
+		},
+		"secciones/2/bloques/1/items/0": {
+			"hash": "e11f3fc44cc37609b4cf183eaeff16678e0f377c6612a28b04a860f63cede2c2",
+			"value": "बेकायदेशीर हेतूंसाठी किंवा तिसऱ्या पक्षांचे नुकसान करण्यासाठी वेबसाइट वापरणे;"
+		},
+		"secciones/2/bloques/1/items/1": {
+			"hash": "bd529a6627aad8314d79f92768f7473813613071379007ec43ae0a317da10aca",
+			"value": "प्रतिबंधित क्षेत्रांमध्ये (जसे की खाजगी पॅनेल) किंवा ते होस्ट करणाऱ्या सिस्टममध्ये प्रवेश करण्याचा प्रयत्न करणे;"
+		},
+		"secciones/2/bloques/1/items/2": {
+			"hash": "c317563df3f45a324f99b9836a94202f261bf968c6fa31b5925aebce55f7eb32",
+			"value": "व्हायरस किंवा कोणतीही हानिकारक कोड जोडणे, किंवा जाणूनबुजून ते ओव्हरलोड करणे;"
+		},
+		"secciones/2/bloques/1/items/3": {
+			"hash": "470bcea54a49b947c4c708151777b699fbf143f68848064a73598db9479d80ea",
+			"value": "सामग्री स्वतःची म्हणून प्रस्तुत करण्यासाठी कॉपी करणे."
+		},
+		"secciones/3/titulo": {
+			"hash": "2bfcc6135b16e446a217aed1f28f106b5f5fdcd5d30653cc93b715a766eee1ba",
+			"value": "४. सेवा आणि करार"
+		},
+		"secciones/3/bloques/0/texto": {
+			"hash": "c3f0e04c9df3237540f58ce04927bd85e4067e425fc788ed498ba3890b9e5a34",
+			"value": "वेबसाइट उत्पादने विकत नाही किंवा ऑनलाइन पेमेंट घेत नाही. तुम्हाला एखाद्या सेवेमध्ये रस असल्यास, आम्ही इमेल किंवा फोनवर बोलतो आणि मी तुम्हाला व्याप्ती, किंमत, मुदती आणि पेमेंट आणि रद्दीकरणाच्या अटींसह लिखित प्रस्ताव पाठवतो. एकदा दोघांनी स्वीकारला की हा प्रस्ताव सेवेचे नियमन करतो आणि या नियमांपेक्षा वरचढ ठरतो."
+		},
+		"secciones/3/bloques/1/texto": {
+			"hash": "585bc0abeb721b3ff7d6f07e0c9866b7eef9806bccfe699f65b37668d3355420",
+			"value": "रद्दीकरण, पैसे परत मिळवण्याचा हक्क आणि परतावा कसा कार्य करतो हे रिफंड धोरणात स्पष्ट केले आहे."
+		},
+		"secciones/4/titulo": {
+			"hash": "7c53943c306df0f8f34adfdd790aeab732887f1d9e6fab444ada5ba5be64f435",
+			"value": "५. बौद्धिक आणि औद्योगिक संपदा"
+		},
+		"secciones/4/bloques/0/texto": {
+			"hash": "6863a50aaa348f0d947555d62b35c520ac586937e27614a2fbaa24ddd64ac171",
+			"value": "Mario Álvarez यांचे ग्रंथ, डिझाइन, स्वतःचा कोड, लोगो आणि छायाचित्रे त्यांच्या मालकीची आहेत किंवा त्यांच्या लेखकांच्या परवानगीने वापरली जातात. लिखित परवानगीशिवाय व्यावसायिक हेतूंसाठी त्यांचे पुनरुत्पादन करण्यास परवानगी नाही."
+		},
+		"secciones/4/bloques/1/texto": {
+			"hash": "79812179b1e4884643b8eb2ee95dffe9b6559f3f2620a7f0a0bb350c477eca1f",
+			"value": "तिसऱ्या पक्षांचे नाव आणि लोगो (जसे की LinkedIn, GitHub, Instagram किंवा अनुभवामध्ये नमूद केलेले संघ आणि संस्था) त्यांच्या मालकांच्या मालकीचे आहेत. स्पष्टपणे सांगितल्याशिवाय त्यांचा उल्लेख करणे म्हणजे कोणतीही व्यावसायिक संबंध किंवा प्रायोजकत्व नाही."
+		},
+		"secciones/4/bloques/2/texto": {
+			"hash": "e937122cbe2ad691870546e8705c1028248f8a267ab5eab719d5400988fd427b",
+			"value": "वेबसाइट परवानगी देणाऱ्या परवान्यांसह तिसऱ्या पक्षाची संसाधने वापरते: Fira Sans Extra Condensed आणि Source Serif 4 टायपोग्राफी (SIL Open Font License 1.1), Lucide (ISC परवाना) आणि Simple Icons (CC0 1.0) चे चिन्ह आणि GSAP अॅनिमेशन लायब्ररी (Webflow कडून विनामूल्य मानक GreenSock परवाना). GitHub वर जोडलेल्या प्रत्येक प्रकल्पाचा स्वतःचा परवाना आहे."
+		},
+		"secciones/5/titulo": {
+			"hash": "7bb2f4e2478a22d27b768f9c58c7b2db85d5e2dfefdf1a038349d198801f798b",
+			"value": "६. उत्तरदायित्व"
+		},
+		"secciones/5/bloques/0/texto": {
+			"hash": "6b37ac571f8681dabe06377426f05047bc71ebb6172eba90befc2fd59dacc5b9",
+			"value": "माहिती अचूक असावी आणि वेबसाइट उपलब्ध असावी यासाठी मी काम करतो, परंतु यामध्ये कोणतीही त्रुटी किंवा व्यत्यय येणार नाही याची हमी मी देऊ शकत नाही. सामग्री माहितीपूर्ण आहे आणि तुमच्या विशिष्ट प्रकरणावर व्यावसायिक सल्ल्याची जागा घेत नाही."
+		},
+		"secciones/5/bloques/1/texto": {
+			"hash": "466934caecf80fd28cdc485f246cc876a702ea70fd9204707cf038886b643746",
+			"value": "वेबसाइट तिसऱ्या पक्षाच्या साइट्सशी जोडलेली आहे (सोशल नेटवर्क, रिपॉझिटरी, प्रोजेक्ट वेबसाइट्स). मी त्यांच्या सामग्री किंवा त्यांच्या धोरणांवर नियंत्रण ठेवत नाही आणि त्यांच्यासाठी उत्तरदायी नाही."
+		},
+		"secciones/6/titulo": {
+			"hash": "6154377d62e8942503f5e231323f2cb8afa7e81cf7c0fa8c8fb8b79215f6890a",
+			"value": "७. गोपनीयता आणि कुकीज"
+		},
+		"secciones/6/bloques/0/texto": {
+			"hash": "171c1fa54a74727be2911da0e757a490570fa25da3402a2efb5daf1502492b0c",
+			"value": "तुमचा डेटा कसा हाताळला जातो आणि कोणती कुकीज वापरली जातात हे गोपनीयता धोरणात आणि कुकीज धोरणात स्पष्ट केले आहे. वेबसाइटचा वापर करण्यासाठी कोणतीही बाजू तुम्हाला कुकीज स्वीकारण्यास भाग पाडत नाही."
+		},
+		"secciones/7/titulo": {
+			"hash": "73b1f30105cec97963a1b9022947fbd264c77fd4d7469465d140913bb8b5f84c",
+			"value": "८. स्वीकृती नोंद"
+		},
+		"secciones/7/bloques/0/texto": {
+			"hash": "7c284cc587d46211b2fa2c8039eaabfef012840cca619e3c507cd5dbe4baf6d9",
+			"value": "जेव्हा गरज असेल तेव्हा संमती सिद्ध करण्यासाठी (GDPR चे कलम ७.१), जेव्हा तुम्ही संपर्क फॉर्ममध्ये या अटी स्वीकारता किंवा कोणत्या कुकीजला परवानगी द्यायची हे निवडता तेव्हा खालील गोष्टींसह एक नोंद जतन केली जाते: एक छद्मनाव ओळखकर्ता, तुम्ही काय स्वीकारले किंवा नाकारले, प्रत्येक दस्तऐवजाची आवृत्ती, तारीख आणि वेळ, ज्या पृष्ठ आणि भाषेतून तुम्ही ते केले, मूळ (बॅनर, कॉन्फिगरेशन किंवा फॉर्म), ब्राउझर आणि फॉर्ममध्ये, तुमच्या इमेलमध्ये प्रवास करणारा संदर्भ कोड. तुमचा IP पत्ता जतन केला जात नाही. तपशील गोपनीयता धोरणात आहेत."
+		},
+		"secciones/8/titulo": {
+			"hash": "0603fc25223b50c27f27e50457e3e473af7ab23fd18de9c4343e8fc7b80fbeb9",
+			"value": "९. भाषा"
+		},
+		"secciones/8/bloques/0/texto": {
+			"hash": "55a1732e798be6865b841afb4dc3ad125eed390d4c1b1552e9669e96c109bf7a",
+			"value": "या ग्रंथांची स्पॅनिश आवृत्ती मूळ आहे आणि संशयाच्या बाबतीत तीच प्राधान्य देते. इतर भाषा स्वयंचलित भाषांतरे आहेत जी सोयीसाठी ऑफर केली जातात."
+		},
+		"secciones/9/titulo": {
+			"hash": "1d0c3f8d301ee4f27369bda3a165135e6757c391aa08a64d602a90793a8f4b4d",
+			"value": "१०. बदल"
+		},
+		"secciones/9/bloques/0/texto": {
+			"hash": "c83606042db1ebcc89958a83089203dd0f053c6baa0e12ba5da8fd0b42a87a86",
+			"value": "कायदेशीर किंवा वेबसाइटच्या बदलांशी जुळवून घेण्यासाठी मी हे नियम अद्यतनित करू शकतो. वर्तमान आवृत्तीची तारीख या पृष्ठाच्या सुरुवातीला दिसते. बदल महत्त्वाचा असल्यास, मी तुम्हाला ते पुन्हा स्वीकारण्यास सागेन."
+		},
+		"secciones/10/titulo": {
+			"hash": "700d8707e584b32ad246f136912d1fd0f010b0ea963682cc99d3d3a531f471a0",
+			"value": "११. लागू कायदा आणि अधिकारक्षेत्र"
+		},
+		"secciones/10/bloques/0/texto": {
+			"hash": "7f0d48b2384bba5ac838131e5451c6221c899195db1d85df594a7acc46968c19",
+			"value": "हे नियम स्पॅनिश कायद्याद्वारे शासित आहेत. तुम्ही ग्राहक म्हणून कृती करत असल्यास, तुम्ही तुमच्या निवासस्थानाच्या न्यायालयात आणि तुमच्या स्वायत्त समुदायाच्या वाटाघाटी आणि ग्राहक विवाद निराकरण प्रणालींकडे जाऊ शकता. इतर सर्व प्रकरणांमध्ये, दोन्ही पक्ष बेनिडोर्म् (अलिकेन्ते) च्या न्यायालये आणि न्यायाधिकरणांच्या अधीन आहेत."
 		}
 	}
 }

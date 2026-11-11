@@ -4,7 +4,10 @@
 		"description": "Repozytoria i projekty z zakresu analizy danych, wizualizacji i uczenia maszynowego autorstwa Mario Álvareza.",
 		"eyebrow": "Projekty",
 		"heading": "Projekty",
-		"intro": "Przegląd mojej pracy: od narzędzi dla kolarstwa zawodowego po akademickie projekty z zakresu analizy i uczenia maszynowego."
+		"intro": "Przegląd mojej pracy: od narzędzi dla kolarstwa zawodowego po akademickie projekty z zakresu analizy i uczenia maszynowego.",
+		"cifraRepos": "publiczne repozytoria na GitHub",
+		"cifraWebs": "opublikowane strony internetowe",
+		"cifraHerramientas": "języki i narzędzia"
 	},
 	"list": {
 		"eyebrow": "Praca",

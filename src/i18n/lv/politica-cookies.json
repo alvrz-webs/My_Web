@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Sīkdatņu politika — Mario Álvarez",
-		"description": "Kādas sīkdatnes šī vietne izmanto, kādam nolūkam un kā jebkurā laikā mainīt savu piekrišanu.",
-		"eyebrow": "Juridiskā informācija",
-		"heading": "Sīkdatņu politika"
+		"version": "2026-11-10",
+		"title": "Sīkfailu politika — Mario Álvarez",
+		"description": "Kādus sīkfailus izmanto marioalvarez.me, kuriem ir nepieciešama jūsu atļauja un kā jebkurā laikāmainīt savu izvēli.",
+		"heading": "Sīkfailu politika",
+		"eleccionTitulo": "Jūsu izvēle",
+		"eleccionTexto": "Jūs varat mainīt vai dzēst savus datus, kad vien vēlaties, tikpat vienkārši, kā tos devāt."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Šī vietne izmanto sīkdatnes un līdzīgas tehnoloģijas (piemēram, pārlūkprogrammas vietējo krātuvi), lai nodrošinātu tās pareizu darbību un, ja jūs sniedzat savu piekrišanu, lai anonīmi analizētu, kā tiek izmantots saturs."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Izmantotās sīkdatnes:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nosaukums",
-				"Nolūks",
-				"Veids",
-				"Ilgums"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Atcerēties jūsu izvēli par šo sīkdatņu politiku",
-					"Paša, tehniska (atbrīvota no piekrišanas)",
-					"12 mēneši"
-				],
-				[
-					"visitante_id",
-					"Anonīms identifikators, lai saistītu jūsu apmeklējumus un noskaidrotu, kurš saturs ir noderīgs",
-					"Paša, analītiska (nepieciešama jūsu piekrišana)",
-					"12 mēneši"
-				]
+			"titulo": "1. Kas tie ir un vai man ir nepieciešama jūsu atļauja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Sīkfaili un līdzīgas tehnoloģijas (piemēram, pārlūkprogrammas lokālā krātuve) saglabā nelielus datus jūsu ierīcē. Saskaņā ar Spānijas LSSI-CE 22.2. pantu un Spānijas Datu aizsardzības aģentūras (AEPD) Sīkfailu izmantošanas ceļvedi, tiem, kas ir stingri nepieciešami kaut kam, ko jūs pieprasāt, piekrišana nav vajadzīga; analītiskajiem sīkfailiem tā ir nepieciešama."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Tāpēc šī vietne saglabā analītisko sīkfailu tikai tad, ja jūs tam piekrītat, un ļauj jums pieņemt vai noraidīt ar divām vienādām pogām, tajā pašā ekrānā un bez iepriekš atzīmētajām izvēles rūtiņām. Tā noraidīšana neliedz jums izmantot nevienu vietnes daļu."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Neviena no šīm sīkdatnēm nav trešo pušu, neviena netiek izmantota reklāmas nolūkos, un neviena netiek kopīgota ar kādu ārpus šīs vietnes."
+			"titulo": "2. Sīkfaili, ko izmanto šī vietne",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Nosaukums",
+						"Kam tas paredzēts",
+						"Veids",
+						"Vai ir nepieciešama jūsu atļauja?",
+						"Ilgums"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Saglabāt jūsu izvēli, šīs politikas versiju un jūsu piekrišanas reģistra pseidonimizēto identifikatoru",
+							"Paša, tehniska",
+							"Nē",
+							"12 mēneši"
+						],
+						[
+							"visitante_id",
+							"Pseidonimizēts identifikators, lai uzzinātu, kurš saturs ir noderīgs",
+							"Paša, analītiska",
+							"Jā",
+							"12 mēneši"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Atcerēties, vai vēlaties gaišo vai tumšo tēmu; tas tiek saglabāts tikai tad, ja to maināt",
+							"Paša, jūsu pieprasīta personalizācija",
+							"Nē",
+							"Līdz brīdim, kad tos izdzēšat"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Jūs varat mainīt savu lēmumu vai atsaukt piekrišanu jebkurā laikā no saites \"Konfigurēt sīkdatnes\" lapas apakšdaļā un nekavējoties dzēst visus savus datus ar pogu \"Dzēst manus datus\" šajā pašā panelī."
+			"titulo": "3. Tas, kā šeit nav",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Šeit nav trešo pušu sīkfailu, reklāmu, iegultā sociālo tīklu satura vai Google Analytics. Burtu veidi un attēli tiek pasniegti no šīs pašas vietnes."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Papildinformāciju par to, kā tiek apstrādāti jūsu dati, skatiet Privātuma politikā."
+			"titulo": "4. Kā mainīt savas domas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jūs varat mainīt savu izvēli vai atsaukt piekrišanu, kad vien vēlaties, sadaļā «Konfigurēt sīkfailus» katras lapas apakšdaļā vai ar šīs lapas pogu. No turienes jūs varat arī uzreiz dzēst ar jūsu pārlūkprogrammu saistītos analītiskos datus. Un jūs varat dzēst sīkfailus no savas pārlūkprogrammas iestatījumiem."
+				}
+			]
+		},
+		{
+			"titulo": "5. Jūsu izvēles reģistrs",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Katru reizi, kad jūs piekrītat, noraidāt vai atsaucat piekrišanu, tiek saglabāts ieraksts (pseidonimizēts identifikators, lēmums, šīs politikas versija, datums un laiks, lapa, valoda, izcelsme un pārlūkprogramma) bez jūsu IP adreses, lai varētu pierādīt, ka piekrišana bija derīga. Tas tiek glabāts 3 gadus. Sīkāka informācija privātuma politikā."
+				}
+			]
+		},
+		{
+			"titulo": "6. Izmaiņas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ja šī politika būtiski mainīsies, sīkfailu paziņojums parādīsies vēlreiz, lai jūs varētu izlemt no jauna."
+				}
+			]
 		}
 	]
 }

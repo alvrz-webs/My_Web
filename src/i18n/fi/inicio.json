@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Urheilutilastotieteilijä",
-		"description": "Mario Álvarez, datatieteilijä Valenciassa, erikoistunut urheiluanalytiikkaan. Data · Sport · Progress.",
+		"description": "Mario Álvarez, datatieteilija Valenciassa, joka on erikoistunut urheiluanalytiikkaan. Madisonin Espanjan mestari ja RFEC:n urheilujohtaja.",
 		"verProyectos": "Näytä projektit",
-		"contacto": "Yhteystiedot",
-		"verMas": "Näytä lisää",
+		"verServicios": "Katso miten autan sinua",
+		"contacto": "Kirjoita minulle",
+		"verMas": "Lue lisää",
 		"verTodosProyectos": "Näytä kaikki projektit",
-		"irAContacto": "Siirry yhteystietoihin",
+		"irAContacto": "Kirjoita minulle",
 		"herramientas": "Päätyökalut"
 	},
 	"hero": {
-		"eyebrow": "Datatieteilijä · Urheiluanalytiikka · Valencia",
-		"titlePre": "Muutan datan ",
-		"titleHighlight": "selkeiksi päätöksiksi",
-		"subtitle": "Olen siltä kilpaurheilun ja datan analyysin välillä: muunnaan suorituskykymetriikat strategioiksi, jotka tekevät eron kentällä.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, datatieteilija",
+		"title": "Olin Madisonin Espanjan mestari.",
+		"subtitle": "Nyt opiskelen datatiedettä UPV:ssä ja analysoin suorituskyvyn taustalla olevia tekijöitä: tehoa, kuormitusta ja tuloksia. Tiedän, mitä luku merkitsee pyöräilijälle, koska olen itse ollut se pyöräilijä.",
+		"palmaresLabel": "Saavutukset",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Madisonin Espanjan mestaruus",
+				"nota": "Rata, 18-vuotiaana"
+			},
+			{
+				"pos": "6.",
+				"texto": "Ratakilpailun maailmanmestaruuskilpailut",
+				"nota": "Espanjan maajoukkue"
+			},
+			{
+				"pos": "6.",
+				"texto": "Ratakilpailun Euroopan-mestaruuskilpailut",
+				"nota": "Espanjan maajoukkue"
+			}
+		],
+		"retratoAlt": "Muotokuva Mario Álvarezista"
+	},
+	"servicios": {
+		"title": "Miten voin auttaa sinua",
+		"text": "Työskentelen joukkueiden, valmentajien ja pyöräilijöiden kanssa, joilla on dataa ja jotka haluavat hyödyntää sitä. Ja yritysten kanssa, joiden täytyy järjestää oma datansa.",
+		"cta": "Kerro tilanteestasi",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Suorituskyvyn analyysi",
+				"texto": "Luulen tehoa, kuormitusta ja tuloksia pyöräilijän silmin. Selitän sinulle, mitä tapahtuu ja mitä tulisi muuttaa.",
+				"prueba": "Eliittiluokan pyöräilijä ja RFEC:n urheilujohtaja, tasot I ja II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Mittatilaustyönä tehdyt työkalut",
+				"texto": "Verkon kaavinta (scraping), mallit ja pienet Python-sovellukset, jotka vastaavat joukkueesi tiettyyn kysymykseen.",
+				"prueba": "Kaksi työkalua Cofidis-joukkueelle: UCI-vaikeusaste ja kilpailureitti."
+			},
+			{
+				"id": "datos",
+				"nombre": "Tietokannat ja raportit",
+				"texto": "Nopeammat kyselyt, yhtenäiset tietokannat ja Power BI -hallintapaneelit, jotka ymmärretään heti.",
+				"prueba": "Yli 580 taulukkoa ja 100 miljoonaa tietuetta tietokannassa, jota optimoin SIME Telecomilla."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Kilpailutuki",
+				"texto": "Kilpailujen valmistelu, pyöräilijöiden seuranta ja urheiluhieronta kilpailuissa.",
+				"prueba": "Valencian alueen maajoukkueen henkilökunta."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Minusta",
-		"title": "Dataa radan, maantien ja kilpailun kontekstissa",
-		"text": "Olen Mario Álvarez, datatieteen opiskelija UPV:ssä, jolla on todellista kokemusta ammattilaispyöräilystä. Yhdistän data-analyysin huippu-urheilun suorituskykyyn muuttaakseni jokaisen metriikan päätökseksi, joka parantaa tuloksia."
+		"title": "Velodromilta dataan",
+		"text": "Opiskelen datatieteen kandidaatiksi UPV:ssä ja olen suorittanut maisterin tutkinnon urheiluun sovelletusta digitalisaatiosta ja teknologiasta. En ole poistunut pyöräilystä: ajan edelleen radalla, valmennan nuoria pyöräilijöitä ja työskentelen urheiluhierojana ammattilaisten parissa."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Tukikohta",
+			"value": "Benidorm ja Valencia"
+		},
+		{
 			"label": "Koulutus",
-			"detail": "Datatieteen kandidaatti, Universitat Politècnica de València."
+			"value": "Datatieteen kandidaatti (UPV) ja digitaalisen murroksen, innovaatioiden ja urheiluteknologian maisteri"
 		},
 		{
-			"value": "Huippu-urheilu",
-			"label": "Kokemus",
-			"detail": "Todellista työtä ammattilaispyöräilytallissa."
+			"label": "Tutkinnot",
+			"value": "RFEC:n urheilujohtaja, tasot I ja II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Lähestymistapa",
-			"detail": "Urheilun suorituskyvyn parantamiseen sovellettu analytiikka."
+			"label": "Nyt",
+			"value": "Käytettävissä data- ja suorituskykyprojekteille"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Kokemus",
-		"title": "Kaksi maailmaa, sama kieli: suorituskyky",
-		"text": "Olen kilpaillut korkeimmalla tasolla ja sovellettan samaa kriteeriä dataan tänään: ymmärrän, mitä luku merkitsee urheilijalle, koska olen ollut tuo urheilija."
+		"title": "Kaksi kaistaa, sama työ",
+		"text": "Toisella optimoin tietokantoja ja kirjoitan malleja. Toisella valmistan kilpailuja ja seuraan pyöräilijöitä. Molemmissa on kyse samasta asiasta: mitataan oikein, jotta päätetään paremmin.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "analysoitua taulukkoa SIME Telecomilla useiden tietokantojen yhdistämiseksi yhdeksi laitteistoa laajentamatta"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "tietuetta tietokannassa, jota optimoin"
+					},
+					{
+						"cifra": "2",
+						"texto": "työkalua Pythonilla Cofidis-joukkueelle: UCI-vaikeusaste ja kilpailureitti"
+					}
+				]
+			},
+			{
+				"nombre": "Rata ja maantie",
+				"items": [
+					{
+						"cifra": "I ja II",
+						"texto": "Espanjan kuninkaallisen pyöräilyliiton urheilujohtajan tasot"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "vuotiaita ovat nuoret pyöräilijät, joita valmennan ja seuraan yhdessä isäni kanssa"
+					},
+					{
+						"cifra": "2026",
+						"texto": "huoltajana Valencian alueen maajoukkueessa kilpailuissa"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Puhutaanko datasta?",
-		"text": "Kerro minulle projektistasi ja etsimme yhdessä kohdat, joissa päätökset parantavat suorituskykyä."
+		"title": "Viimeinen kierros",
+		"text": "Jos sinulla on suorituskykytietoja ja vastaamattomia kysymyksiä, kirjoita minulle, niin katsotaan asiaa yhdessä."
 	}
 }

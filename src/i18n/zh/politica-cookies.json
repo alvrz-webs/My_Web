@@ -1,53 +1,99 @@
 {
 	"meta": {
-		"title": "Cookie Policy — Mario Álvarez",
-		"description": "Qué cookies utiliza este sitio, con qué finalidad y cómo cambiar tu consentimiento en cualquier momento.",
-		"eyebrow": "Legal",
-		"heading": "Política de Cookies"
+		"version": "2026-11-10",
+		"title": "Cookie 政策 — Mario Álvarez",
+		"description": "marioalvarez.me 使用哪些 Cookie、哪些需要您的许可以及如何随时更改您的选择。",
+		"heading": "Cookie 政策",
+		"eleccionTitulo": "您的选择",
+		"eleccionTexto": "您可以随时更改或删除您的数据，就像您授予时一样简单。"
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Esta web utiliza cookies y tecnologías similares (como el almacenamiento local del navegador) para su correcto funcionamiento y, si das tu consentimiento, para analizar de forma anónima cómo se usa el contenido."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Cookies utilizadas:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Nombre",
-				"Finalidad",
-				"Tipo",
-				"Duración"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Recordar tu elección sobre esta política de cookies",
-					"Propia, técnica (exenta de consentimiento)",
-					"12 meses"
-				],
-				[
-					"visitante_id",
-					"Identificador anónimo para relacionar tus visitas y saber qué contenido resulta útil",
-					"Propia, analítica (requiere tu consentimiento)",
-					"12 meses"
-				]
+			"titulo": "1. 什么是 Cookie 以及我是否需要您的许可",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cookie 和类似技术（如浏览器本地存储）会在您的设备上保存少量数据。根据 LSSI-CE 第 22.2 条以及西班牙数据保护局的 Cookie 使用指南，对您请求的内容绝对必要的 Cookie 不需要同意；而分析类 Cookie 则需要。"
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "因此，本网站仅在您接受的情况下保存分析 Cookie，并允许您在同一屏幕上使用两个相同的按钮接受或拒绝，且不预先勾选任何复选框。拒绝不会妨碍您使用本网站的任何功能。"
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Ninguna de estas cookies es de terceros, ninguna se usa con fines publicitarios, y ninguna se comparte con nadie fuera de este sitio."
+			"titulo": "2. 本网站使用的 Cookie",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"名称",
+						"用途",
+						"类型",
+						"是否需要您的许可？",
+						"期限"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"保存您的选择、本政策的版本以及您同意记录的化名标识符",
+							"第一方，技术",
+							"否",
+							"12 个月"
+						],
+						[
+							"visitante_id",
+							"用于了解哪些内容有用的化名标识符",
+							"第一方，分析",
+							"是",
+							"12 个月"
+						],
+						[
+							"tema (almacenamiento local)",
+							"记住您偏好明亮还是黑暗主题；仅在您更改时保存",
+							"第一方，由您请求的个性化",
+							"否",
+							"直到您删除它"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Puedes cambiar tu decisión o retirar tu consentimiento en cualquier momento desde el enlace \"Configurar cookies\" en el pie de página, y borrar de forma inmediata todos tus datos con el botón \"Borrar mis datos\" en ese mismo panel."
+			"titulo": "3. 不存在的内容",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "这里没有第三方 Cookie、广告、嵌入式社交媒体内容，也没有 Google Analytics。字体和图像均由本网站提供。"
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Para más información sobre cómo se tratan tus datos, consulta la Política de Privacidad."
+			"titulo": "4. 如何改变主意",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "您可以随时从每个页面页脚的“配置 Cookie”或通过本页面上的按钮更改您的选择或撤销同意。从那里，您还可以立即删除与您的浏览器关联的分析数据。您也可以通过浏览器设置删除 Cookie。"
+				}
+			]
+		},
+		{
+			"titulo": "5. 您的选择记录",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "每次您接受、拒绝或撤销同意时，都会保存一条记录（化名标识符、决定、本政策版本、日期和时间、页面、语言、来源和浏览器），不包含您的 IP 地址，以便证明该同意是有效的。该记录保存 3 年。更多详情请参见隐私政策。"
+				}
+			]
+		},
+		{
+			"titulo": "6. 变更",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "如果本政策发生重大变更，Cookie 通知将再次出现，以便您重新做出决定。"
+				}
+			]
 		}
 	]
 }

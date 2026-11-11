@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Ana Sayfa",
 		"sobreMi": "Hakkımda",
 		"proyectos": "Projeler",
 		"experiencia": "Deneyim",
@@ -7,10 +8,22 @@
 		"ariaMain": "Ana menü",
 		"openMenu": "Menüyü aç"
 	},
+	"saltar": "İçeriğe atla",
+	"tema": "Açık ve koyu mod arasında geçiş yap",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Madison İspanya Şampiyonu. Veri Bilimci.",
+		"disponible": "Veri ve spor performansı projeleri için uygun.",
+		"escribeme": "Bana yaz",
+		"navLabel": "Bölümler",
+		"legalLabel": "Yasal",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sosyal medya"
+	},
+	"cierre": {
+		"title": "Konuşalım mı?",
+		"text": "Performans verileriniz ve yanıtlanmamış sorularınız varsa, bana yazın birlikte inceleyelim.",
+		"cta": "Bana yaz"
 	},
 	"langSwitch": {
 		"label": "Dili değiştir",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Çerez onayı"
 	},
 	"legal": {
+		"terminos": "Şartlar ve Koşullar",
 		"privacidad": "Gizlilik politikası",
-		"cookies": "Çerez politikası"
+		"cookies": "Çerez politikası",
+		"reembolso": "İade Politikası",
+		"actualizado": "Son güncelleme",
+		"indice": "Bu sayfada",
+		"otros": "Diğer belgeler"
 	},
 	"person": {
 		"jobTitle": "Veri Bilimcisi",
 		"description": "Profesyonel bisiklet alanında deneyime sahip, spor analitiği konusunda uzmanlaşmış veri bilimcisi."
+	},
+	"pizarra": {
+		"vueltas": "turlar",
+		"campana": "son"
 	}
 }

@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Política de reembolso — Mario Álvarez",
+		"description": "Como funcionan as cancelacións, o dereito de desistencia e as devolucións dos servizos de Mario Álvarez.",
+		"heading": "Política de reembolso"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Esta web non cobra pagos",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "En marioalvarez.me non se venden produtos nin se cobran pagos en liña. Os servizos (análise de rendemento, ferramentas a medida, bases de datos e informes e apoio en carreira) contrátanse á parte, cunha proposta por escrito."
+				}
+			]
+		},
+		{
+			"titulo": "2. O que diga a túa proposta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cada proposta indica o prezo, como e cando se paga e as condicións de cancelación. Se a proposta di algo distinto a esta política, manda a proposta, agás que esta política de che máis dereitos como consumidor."
+				}
+			]
+		},
+		{
+			"titulo": "3. Se cancelas",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Salvo que se pacte outra cousa por escrito:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Se cancelas antes de que empece o traballo, devólvocho íntegro calquera pago adiantado.",
+						"Se cancelas co traballo empezado, cóbrase só a parte xa feita e devólvoche o resto do que adiantases.",
+						"O traballo xa entregado e aceptado non se reembursa, agás que teña defectos que non se corrixan."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Dereito de desistencia (se es consumidor)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Se contratas como consumidor (unha persoa que actúa fóra da súa actividade profesional) e o contrato péchase a distancia, por email ou por teléfono, tes 14 días naturais desde que se pecha para desistir sen dar explicacións, segundo os artigos 102 a 108 do texto refundido da Lei Xeral para a Defensa dos Consumidores e Usuarios (Real Decreto Lexislativo 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Se me pides expresamente que empece a traballar dentro deses 14 días e logo desistes, pagarás só a parte proporcional do servizo prestado ata ese momento. Se o servizo se completou do todo dentro do prazo, co teu consentimento previo e expreso e sabendo que así perdes este dereito, xa non poderás desistir (artigo 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Como pedilo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Escríbeme a {email} co teu nome, o servizo e a data en que o contrataste. Podes usar este modelo de formulario de desistencia (non é obrigatorio):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Á atención de {nombre}, {domicilio}, {email}:",
+						"Polo presente comunícolle que desisto do meu contrato de prestación do seguinte servizo: [servicio].",
+						"Contratado o: [fecha].",
+						"Nome do consumidor: [nombre].",
+						"Domicilio do consumidor: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Prazo e forma da devolución",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Devólvoche o que corresponda nun máximo de 14 días naturais desde que me comuniques a tua decisión, polo mesmo medio de pago que usases, agás que acordemos outro. A devolución non ten ningún custo para ti."
+				}
+			]
+		}
+	]
+}

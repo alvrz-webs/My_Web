@@ -4,7 +4,10 @@
 		"description": "Mario Álvarezi andnianüütika, visualiseerimise ja masinõppe repositooriumid ja projektid.",
 		"eyebrow": "Projektid",
 		"heading": "Projektid",
-		"intro": "Pilguheit minu tööle: alates tööriistadest professionaalsele jalgrattaspordile kuni akadeemiliste analüüsi- ja masinõppeprojektideni."
+		"intro": "Pilguheit minu tööle: alates tööriistadest professionaalsele jalgrattaspordile kuni akadeemiliste analüüsi- ja masinõppeprojektideni.",
+		"cifraRepos": "avalikud hoidlad GitHubis",
+		"cifraWebs": "avaldatud veebilehed",
+		"cifraHerramientas": "keeled ja tööriistad"
 	},
 	"list": {
 		"eyebrow": "Töö",

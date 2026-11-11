@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Početna",
 		"sobreMi": "O meni",
 		"proyectos": "Projekti",
 		"experiencia": "Iskustvo",
@@ -7,10 +8,22 @@
 		"ariaMain": "Glavna navigacija",
 		"openMenu": "Otvori izbornik"
 	},
+	"saltar": "Preskoči na sadržaj",
+	"tema": "Prebaci između svijetlog i tamnog načina rada",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Španjolski prvak u madisonu. Znanstvenik za podatke.",
+		"disponible": "Dostupan za projekte podataka i sportske izvedbe.",
+		"escribeme": "Piši mi",
+		"navLabel": "Odjeljci",
+		"legalLabel": "Pravno",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Društvene mreže"
+	},
+	"cierre": {
+		"title": "Razgovaramo li?",
+		"text": "Ako imaš podatke o izvedbi i neodgovorena pitanja, piši mi pa ćemo to zajedno pogledati.",
+		"cta": "Piši mi"
 	},
 	"langSwitch": {
 		"label": "Promijeni jezik",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Privola za kolačiće"
 	},
 	"legal": {
+		"terminos": "Uvjeti i odredbe",
 		"privacidad": "Politika privatnosti",
-		"cookies": "Pravila o kolačićima"
+		"cookies": "Pravila o kolačićima",
+		"reembolso": "Politika povrata novca",
+		"actualizado": "Posljednje ažuriranje",
+		"indice": "Na ovoj stranici",
+		"otros": "Ostali dokumenti"
 	},
 	"person": {
 		"jobTitle": "Znanstvenik za podatke",
 		"description": "Znanstvenik za podatke specijaliziran za sportsku analitiku, s iskustvom u profesionalnom biciklizmu."
+	},
+	"pizarra": {
+		"vueltas": "krugovi",
+		"campana": "posljednje"
 	}
 }

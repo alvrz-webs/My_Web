@@ -3,7 +3,13 @@
 		"title": "O mně — Mario Álvarez",
 		"description": "Od španělského šampiona v madisonu ke studentu datové vědy: cesta Maria Álvareze mezi elitní cyklistikou a sportovní analytikou.",
 		"eyebrow": "O mně",
-		"heading": "Od velodromu k datům"
+		"heading": "Od velodromu k datům",
+		"lead": "Pořád jsem v cyklistice, na dráze i v týmovém autě. Co se změnilo, je pohled na ni: teď už i skrz data.",
+		"historiaTitulo": "Závodník, sportovní ředitel a datový vědec",
+		"fichaTitulo": "Stručně",
+		"fichaTexto": "To podstatné, pro případ, že spěcháte.",
+		"retratoAlt": "Portrét Maria Álvareze",
+		"escenaFrase": "Nejprve nohy. Teď data."
 	},
 	"bio": [
 		"Začal jsem závodit. V 18 letech jsem se stal španělským šampionem v dráhovém madisonu a španělská cyklistická reprezentace mě povolala na mistrovství světa a Evropy, kde jsem na obou skončil šestý, což mi vyneslo status elitního sportovce.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Základna",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm a Valencie"
 		},
 		{
 			"label": "Stav",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Zaměření",
-			"value": "Data + sportovní výkon"
+			"value": "Data a sportovní výkon"
 		},
 		{
 			"label": "Jazyky",
-			"value": "Španělština rodilý mluvčí · Valencijština · Angličtina B1"
+			"value": "Španělština (rodilý mluvčí), valencijština a angličtina (B1)"
 		},
 		{
 			"label": "Vzdělání",
-			"value": "Bakalářský titul v oboru datové vědy (UPV) · Magisterský titul v oboru digitalizace, inovací a technologií ve sportu"
+			"value": "Bakalářský titul v oboru datové vědy (UPV) a magisterský titul v oboru digitalizace, inovací a technologií ve sportu"
 		}
 	]
 }

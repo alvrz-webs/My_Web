@@ -3,7 +3,13 @@
 		"title": "Um mig — Mario Álvarez",
 		"description": "Frá því að verða Spánarmeistari í madison-hjólreiðum yfir í að verða gagnafræðinemandi: ferill Mario Álvarez á milli afrekshjólreiða og íþróttagreiningar.",
 		"eyebrow": "Um mig",
-		"heading": "Frá keppnisbrautinni til gagnanna"
+		"heading": "Frá keppnisbrautinni til gagnanna",
+		"lead": "Ég er enn í hjólreiðum, á brautinni og í fylgdarbíl liðsins. Það sem hefur breyst er hvernig ég lít á þetta: núna líka með gögnum.",
+		"historiaTitulo": "Keppnismaður, íþróttastjóri og gagnafræðingur",
+		"fichaTitulo": "Stutt í spilið",
+		"fichaTexto": "Það helsta, ef þ你 ert í flýti.",
+		"retratoAlt": "Mynd af Mario Álvarez",
+		"escenaFrase": "Fyrst fæturnir. Núna gögnin."
 	},
 	"bio": [
 		"Ég byrjaði að keppa. Tvískiptur varð ég Spánarmeistari í madison-brautarhjólreiðum 18 ára gamall og landslið Spánar í hjólreiðum valdi mig í Evrópu- og heimsmeistaramótið þar sem ég lenti í sjötta sæti á báðum mótum, sem gaf mér stöðu afreksíþróttamanns.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Staðsetning",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm og Valencia"
 		},
 		{
 			"label": "Staða",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Áhersla",
-			"value": "Gögn + íþróttaárangur"
+			"value": "Gögn og íþróttaárangur"
 		},
 		{
 			"label": "Tungumál",
-			"value": "Spænska (móðurmál) · Valencíska · Enska B1"
+			"value": "Spænska (móðurmál), valensíska og enska (B1)"
 		},
 		{
 			"label": "Menntun",
-			"value": "Gráða í gagnafræði (UPV) · Meistaragráða í stafrænni væðingu, nýsköpun og tækni í íþróttum"
+			"value": "BS-gráða í gagnafræði (UPV) og meistaranám í stafrænni væðingu, nýsköpun og tækni í íþróttum"
 		}
 	]
 }

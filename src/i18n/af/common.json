@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Tuis",
 		"sobreMi": "Oor my",
 		"proyectos": "Projekte",
 		"experiencia": "Ervaring",
@@ -7,10 +8,22 @@
 		"ariaMain": "Hoofnavigasie",
 		"openMenu": "Maak kieslys oop"
 	},
+	"saltar": "Spring na inhoud",
+	"tema": "Wissel tussen ligte en donker modus",
+	"telefono": "Telefoon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Spaanse kampioen in madison. Datawetenskaplike.",
+		"disponible": "Beskikbaar vir data- en sportprestasieprojekte.",
+		"escribeme": "Skryf aan my",
+		"navLabel": "Afdelings",
+		"legalLabel": "Regsaangeleenthede",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Sosiale netwerke"
+	},
+	"cierre": {
+		"title": "Praat ons?",
+		"text": "As jy prestasiedata en onbeantwoorde vrae het, skryf aan my en ons kyk daarna saam.",
+		"cta": "Skryf aan my"
 	},
 	"langSwitch": {
 		"label": "Verander taal",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Koekietoestemming"
 	},
 	"legal": {
+		"terminos": "Bepalings en voorwaardes",
 		"privacidad": "Privaatheidsbeleid",
-		"cookies": "Koekiebeleid"
+		"cookies": "Koekiebeleid",
+		"reembolso": "Terugbetalingsbeleid",
+		"actualizado": "Laaste opdatering",
+		"indice": "Op hierdie bladsy",
+		"otros": "Ander dokumente"
 	},
 	"person": {
 		"jobTitle": "Datawetenskaplike",
 		"description": "Datawetenskaplike gespesialiseerd in sportanalitika, met ervaring binne professionele fietsry."
+	},
+	"pizarra": {
+		"vueltas": "rondtes",
+		"campana": "laaste"
 	}
 }

@@ -3,7 +3,13 @@
 		"title": "Om meg — Mario Álvarez",
 		"description": "Fra spansk mester i madison til datavitenskapstudent: Mario Álvarez' reise mellom elitesykling og sportsanalyse.",
 		"eyebrow": "Om meg",
-		"heading": "Fra velodromen til dataene"
+		"heading": "Fra velodromen til dataene",
+		"lead": "Jeg er fortsatt innen sykling, på banen og i sportsdirektørbilen. Det som har endret seg, er hvordan jeg ser på det: nå også med data.",
+		"historiaTitulo": "Syklist, sportsdirektør og datavitenskapelig",
+		"fichaTitulo": "Kort fortalt",
+		"fichaTexto": "Det vesentlige, hvis du har dårlig tid.",
+		"retratoAlt": "Portrett av Mario Álvarez",
+		"escenaFrase": "Først beinene. Nå dataene."
 	},
 	"bio": [
 		"Jeg begynte å konkurrere. Som 18-åring ble jeg spansk mester i banesykling i madison, og det spanske sykkelandslaget tok meg ut til VM og EM, hvor jeg ble nummer seks i begge, noe som ga meg status som utøver på elitenivå.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Base",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorm og Valencia"
 		},
 		{
 			"label": "Status",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fokus",
-			"value": "Data + idrettsprestasjon"
+			"value": "Data og idrettsprestasjoner"
 		},
 		{
 			"label": "Språk",
-			"value": "Spansk morsmål · Valenciansk · Engelsk B1"
+			"value": "Spansk (morsmål), valenciansk og engelsk (B1)"
 		},
 		{
 			"label": "Utdanning",
-			"value": "Bachelor i datavitenskap (UPV) · Master i digitalisering, innovasjon og teknologi i sport"
+			"value": "Bachelorgrad i datavitenskap (UPV) og mastergrad i digitalisering, innovasjon og teknologi innen idrett"
 		}
 	]
 }

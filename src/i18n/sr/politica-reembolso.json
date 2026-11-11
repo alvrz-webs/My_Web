@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Politika povraćaja novca — Mario Álvarez",
+		"description": "Kako funkcionišu otkazivanja, pravo na odustanak i povraćaj novca za usluge koje pruža Mario Álvarez.",
+		"heading": "Politika povraćaja novca"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Ova veb lokacija ne vrši naplatu",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Na marioalvarez.me se ne prodaju proizvodi niti se vrše onlajn plaćanja. Usluge (analiza učinka, prilagođeni alati, baze podataka i izveštaji, kao i podrška u karijeri) ugovaraju se zasebno, putem pisane ponude."
+				}
+			]
+		},
+		{
+			"titulo": "2. Ono što kaže vaša ponuda",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Svaka ponuda navodi cenu, način i vreme plaćanja, kao i uslove otkazivanja. Ako ponuda navodi nešto drugačije od ove politike, važi ponuda, osim ako vam ova politika daje veća prava kao potrošaču."
+				}
+			]
+		},
+		{
+			"titulo": "3. Ako otkažete",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Osim ako nije drugačije pismeno dogovoreno:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Ako otkažete pre nego što rad počne, vraćam vam u celosti svaku unapred izvršenu uplatu.",
+						"Ako otkažete kada je rad već počeo, naplaćuje se samo već urađeni deo, a ostatak avansa vam vraćam.",
+						"Već isporučen i prihvaćen rad se ne refundira, osim ako ima nedostataka koji se ne mogu ispraviti."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Pravo na odustanak (ako ste potrošač)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ako sklapate ugovor kao potrošač (lice koje deluje van svoje profesionalne delatnosti) i ugovor se zaključuje na daljinu, putem e-pošte ili telefona, imate 14 kalendarskih dana od dana sklapanja ugovora da odustanete bez navođenja razloga, u skladu sa članovima 102 do 108 prečišćenog teksta Opšte zakona za zaštitu potrošača i korisnika (Kraljevski zakonodavni dekret 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Ako me izričito zatražite da počnem sa radom u roku od tih 14 dana i kasnije odustanete, platićete samo srazmerni deo usluge pružen do tog trenutka. Ako je usluga u potpunosti završena u roku, uz vaš prethodni i izričiti pristanak i uz svest da time gubite ovo pravo, više nećete moći da odustanete (član 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Kako da zatražite povraćaj",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pišite mi na {email} sa svojim imenom, nazivom usluge i datumom kada ste je ugovorili. Možete koristiti ovaj model obrasca za odustanak (nije obavezno):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Za {nombre}, {domicilio}, {email}:",
+						"Ovim vas obaveštavam da odustajem od ugovora o pružanju sledeće usluge: [servicio].",
+						"Ugovoreno dana: [fecha].",
+						"Ime potrošača: [nombre].",
+						"Adresa potrošača: [domicilio].",
+						"Datum: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Rok i način povraćaja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Vraćenje odgovarajućeg iznosa izvršiću u roku od najviše 14 kalendarskih dana od dana kada me obavestite o svojoj odluci, istim sredstvom plaćanja koje ste koristili, osim ako se drugačije ne dogovorimo. Povraćaj novca nema nikakve troškove za vas."
+				}
+			]
+		}
+	]
+}

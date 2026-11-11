@@ -4,13 +4,28 @@
 		"description": "Kaks maailma, üks keel: tulemuslikkus. Mario Álvareze kogemus andmete ja inseneriteaduse ning tipptasemel jalgrattaspordi vallas.",
 		"eyebrow": "Kogemus",
 		"heading": "Kaks maailma, üks keel: tulemuslikkus",
+		"lead": "Andmebaasis või tiimiautos on töö sama: mõõda hästi, et otsustada paremini.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "kirjet andmebaasis, mida optimeerin ettevõttes SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "tööriista Pythonis meeskonnale Cofidis"
+			},
+			{
+				"cifra": "6.",
+				"texto": "maailmameistrivõistlustel ja Euroopa meistrivõistlustel trekil"
+			}
+		],
 		"colDatos": "Andmed ja tehnoloogia",
 		"colDeporte": "Tippspordiala"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Andmeteaduse praktikant",
-			"meta": "Andmete inseneeria · Benidorm · 2026",
+			"meta": "Andmetehnika, Benidorm, 2026",
 			"paragraphs": [
 				"SIME arendab haldustarkvara (broneeringud, arveldamine, aruanded, toitlustustellimused), mis teenindab sadu kliente kesksüsteemi kaudu, tuginedes andmebaasile, mis sisaldab üle 580 omavahel seotud tabeli ja üle 100 miljoni kirje. Kasv oli sundinud kliente koormuse leevendamiseks ja aeglusekaebuste vähendamiseks mitmesse baasi jagama.",
 				"Minu töö: nende baaside analüüsimine ja päringute ning indeksite optimeerimise kaudu kõigi andmete ühendamise kavandamine ühteainsasse tõhusasse andmebaasi, ilma riistvara (RAM/CPU) peaaegu üldse suurendamata. Parandus on juba välja töötatud, valideerimisffaasis testserveris."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projektid meeskonnaga Cofidis (World Tour)",
-			"meta": "Python · Suvi 2025",
+			"meta": "Python, suvi 2025",
 			"paragraphs": [
 				"Isiklik projekt, mille tegin testina professionaalsesse rattaspordi andmeanalüüsi pääsemiseks:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Võistlus",
 			"paragraphs": [
 				"Hispaania meister madisonis (18-aastaselt); maailma- ja Euroopa meistrivõistlused trekisõidus Hispaania koondisega (mõlemal 6. koht); tippsportlane; aktiivne litsentseeritud trekirattur."
-			]
+			],
+			"meta": "Trekkjalgrattasõit, Hispaania koondis"
 		},
 		{
 			"title": "Spordijuhtimine",
 			"paragraphs": [
 				"I ja II taseme spordidirektor (RFEC); noorratturite (14–18) koolitamine ja järelvalve koos mu isaga; abiline Valencia piirkonna koondises võistlustel (2026)."
-			]
+			],
+			"meta": "RFEC, I ja II tase"
 		},
 		{
 			"title": "Spordimassaaž ja tehniline personal",

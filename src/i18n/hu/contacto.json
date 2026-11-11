@@ -3,11 +3,54 @@
 		"title": "Kapcsolat — Mario Álvarez",
 		"description": "Lépj kapcsolatba Mario Álvarez-szel adatokról, sportteljesítményről és projektekről szóló beszélgetés céljából.",
 		"eyebrow": "Kapcsolat",
-		"heading": "Vannek adataid és megválaszolandó kérdésed?",
-		"intro": "Beszéljünk. Legyen szó sportanalitikai projektről, adatelemzési együttműködésről vagy csak egy ötletről, amit meg akarsz osztani, szívesen válaszolok.",
+		"heading": "Van adataid és egy kérdésed?",
+		"intro": "Beszéljünk. Legyen szó sportanalitikai projektről, adatokkal kapcsolatos együttműködésről vagy egy megvitatni kívánt ötletről, én válaszolok.",
 		"email": "E-mail",
 		"telefono": "Telefon",
 		"verTelefono": "Telefon mutatása",
-		"redesSociales": "Közösségi média"
+		"redesSociales": "Közösségi média",
+		"temaTitulo": "Miről szeretnél beszélni?",
+		"temaAyuda": "Válassz egy témát, és előkészítem neked az e-mailt. Csak el kell mesélned az esetedet.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Teljesítményelemzés"
+			},
+			{
+				"id": "herramientas",
+				"label": "Egyedi eszköz"
+			},
+			{
+				"id": "datos",
+				"label": "Adatbázisok és jelentések"
+			},
+			{
+				"id": "carrera",
+				"label": "Karriertámogatás"
+			},
+			{
+				"id": "otro",
+				"label": "Valami más"
+			}
+		],
+		"escribir": "E-mail írása",
+		"copiar": "E-mail másolása",
+		"copiado": "E-mail másolva",
+		"asunto": "Megkeresés a marioalvarez.me oldalsról",
+		"cuerpo": "Szia Mario:\n\nAzért írok, mert: {tema}.\n\nAmim van:\n\nAmit szeretnék tudni:\n\nKöszönöm.",
+		"otrosCanales": "Egyéb csatornák",
+		"base": "Bázis",
+		"baseValor": "Benidorm és Valencia",
+		"idiomas": "Nyelvek",
+		"idiomasValor": "Spanyol, valenciai és angol",
+		"aceptacionesTitulo": "Mielőtt írsz nekem",
+		"aceptoTerminos": "Elolvastam és elfogadom a következőt: {enlace}.",
+		"enlaceTerminos": "általános szerződési feltételek",
+		"aceptoCookies": "Elfogadom a {enlace} által leírt elemzési sütiket (opcionális).",
+		"enlaceCookies": "sütiszabályzat",
+		"faltaTerminos": "Ahhoz, hogy írni tudj nekem, előbb jelöld be az általános szerződési feltételek dobozát.",
+		"primeraCapa": "Felelős: Mario Álvarez Martínez. Cél: a megkeresésed megválaszolása és, ha kéred, ajánlat készítése számodra. Jogalap: a te kérelmed. Címzettek: senki, kivéve jogi kötelezettség esetén. Jogok: hozzáférés, helyesbítés, törlés és a {enlace} által részletezett egyéb jogok.",
+		"enlacePrivacidad": "adatvédelmi szabályzat",
+		"refEmail": "A feltételek elfogadásának hivatkozása: {ref}"
 	}
 }

@@ -4,7 +4,10 @@
 		"description": "Mario Álvarez dataanalys, visualiserings- och maskininlärningsrepositorier och projekt.",
 		"eyebrow": "Projekt",
 		"heading": "Projekt",
-		"intro": "En titt på mitt arbete: från verktyg för professionell cykling till akademiska analys- och maskininlärningsprojekt."
+		"intro": "En titt på mitt arbete: från verktyg för professionell cykling till akademiska analys- och maskininlärningsprojekt.",
+		"cifraRepos": "offentliga förråd på GitHub",
+		"cifraWebs": "publicerade webbplatser",
+		"cifraHerramientas": "språk och verktyg"
 	},
 	"list": {
 		"eyebrow": "Arbete",

@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Politica di rimborso — Mario Álvarez",
+		"description": "Come funzionano le cancellazioni, il diritto di recesso e i resi dei servizi di Mario Álvarez.",
+		"heading": "Politica di rimborso"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Questo sito web non riscuote pagamenti",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Su marioalvarez.me non si vendono prodotti né si riscuotono pagamenti online. I servizi (analisi delle prestazioni, strumenti su misura, database e report e supporto alla carriera) vengono contrattati separatamente, tramite una proposta scritta."
+				}
+			]
+		},
+		{
+			"titulo": "2. Ciò che dice la tua proposta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ciascuna proposta indica il prezzo, come e quando si paga e le condizioni di cancellazione. Se la proposta dice qualcosa di diverso rispetto a questa politica, vale la proposta, a meno che questa politica non ti offra maggiori diritti come consumatore."
+				}
+			]
+		},
+		{
+			"titulo": "3. Se cancelli",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Salvo diverso accordo scritto:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Se cancelli prima che inizi il lavoro, ti restituisco integralmente qualsiasi pagamento anticipato.",
+						"Se cancelli a lavoro iniziato, viene addebitata solo la parte già svolta e ti restituisco il resto di quanto hai anticipato.",
+						"Il lavoro già consegnato e accettato non viene rimborsato, a meno che non presenti difetti che non vengono corretti."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Diritto di recesso (se sei un consumatore)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Se stipuli un contratto come consumatore (una persona che agisce al di fuori della propria attività professionale) e il contratto viene concluso a distanza, via email o per telefono, hai 14 giorni di calendario dalla conclusione per recedere senza fornire spiegazioni, ai sensi degli articoli da 102 a 108 del testo unico della Legge Generale per la Difesa dei Consumatori e degli Utenti (Reale Decreto Legislativo 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Se mi chiedi espressamente di iniziare a lavorare entro quei 14 giorni e poi recedi, pagherai solo la parte proporzionale del servizio prestato fino a quel momento. Se il servizio è stato completamente ultimato entro i termini, con il tuo consenso previo ed espresso e sapendo che in tal modo perdi questo diritto, non potrai più recedere (articolo 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Come richiederlo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Scrivimi a {email} con il tuo nome, il servizio e la data in cui lo hai acquistato. Puoi utilizzare questo modello di modulo di recesso (non è obbligatorio):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"All'attenzione di {nombre}, {domicilio}, {email}:",
+						"Con la presente comunico il recesso dal mio contratto di fornitura del seguente servizio: [servicio].",
+						"Ordinato il: [fecha].",
+						"Nome del consumatore: [nombre].",
+						"Indirizzo del consumatore: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Termini e modalità del rimborso",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ti restituisco quanto dovuto entro un massimo di 14 giorni di calendario da quando mi comunichi la tua decisione, tramite lo stesso mezzo di pagamento che hai utilizzato, salvo diverso accordo. Il rimborso non comporta alcun costo per te."
+				}
+			]
+		}
+	]
+}

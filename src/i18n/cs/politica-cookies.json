@@ -1,53 +1,99 @@
 {
 	"meta": {
+		"version": "2026-11-10",
 		"title": "Zásady používání souborů cookie — Mario Álvarez",
-		"description": "Jaké soubory cookie tento web používá, za jakým účelem a jak můžete kdykoli změnit svůj souhlas.",
-		"eyebrow": "Právní informace",
-		"heading": "Zásady používání souborů cookie"
+		"description": "Jaké soubory cookie marioalvarez.me používá, které vyžadují vaše povolení a jak můžete svou volbu kdykoli změnit.",
+		"heading": "Zásady používání souborů cookie",
+		"eleccionTitulo": "Vaše volba",
+		"eleccionTexto": "Své údaje můžete kdykoli změnit nebo smazat, stejně snadno, jako jste je poskytli."
 	},
-	"bloques": [
+	"secciones": [
 		{
-			"tipo": "parrafo",
-			"texto": "Tento web používá soubory cookie a podobné technologie (jako je místní úložiště prohlížeče) pro své správné fungování a, pokud s tím souhlasíte, k anonymní analýze používání obsahu."
-		},
-		{
-			"tipo": "parrafo",
-			"texto": "Používané soubory cookie:"
-		},
-		{
-			"tipo": "tabla",
-			"columnas": [
-				"Název",
-				"Účel",
-				"Typ",
-				"Doba trvanlivosti"
-			],
-			"filas": [
-				[
-					"consentimiento_cookies",
-					"Zapamatování vaší volby ohledně těchto zásad používání souborů cookie",
-					"Vlastní, technické (osvobozené od povinnosti získat souhlas)",
-					"12 měsíců"
-				],
-				[
-					"visitante_id",
-					"Anonymní identifikátor pro propojení vašich návštěv a zjištění, který obsah je užitečný",
-					"Vlastní, analytické (vyžaduje váš souhlas)",
-					"12 měsíců"
-				]
+			"titulo": "1. Co jsou to soubory cookie a zda potřebuji vaše povolení",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Soubory cookie a podobné technologie (například místní úložiště prohlížeče) ukládají do vašeho zařízení malá data. Podle článku 22.2 španělského zákona LSSI-CE a Průvodce používáním souborů cookie Španělské agentury pro ochranu údajů ty, které jsou přísně nezbytné pro něco, o co žádáte, nevyžadují souhlas; analytické ano."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Proto tento web ukládá analytický soubor cookie pouze tehdy, když jej přijmete, a umožňuje vám přijmout nebo odmítnout pomocí dvou stejných tlačítek, na stejné obrazovce a bez předem zaškrtnutých políček. Jejich odmítnutí vám nebrání v používání jakékoli části webu."
+				}
 			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Žádná z těchto souborů cookie není od třetích stran, žádná se nepoužívá k reklamním účelům a žádná se nesdílí s nikým mimo tento web."
+			"titulo": "2. Soubory cookie, které tento web používá",
+			"bloques": [
+				{
+					"tipo": "tabla",
+					"columnas": [
+						"Název",
+						"K čemu slouží",
+						"Typ",
+						"Vyžaduje vaše povolení?",
+						"Doba platnosti"
+					],
+					"filas": [
+						[
+							"consentimiento_cookies",
+							"Uložení vaší volby, verze těchto zásad a pseudonymního identifikátoru vašeho záznamu o souhlasu",
+							"Vlastní, technická",
+							"Ne",
+							"12 měsíců"
+						],
+						[
+							"visitante_id",
+							"Pseudonymní identifikátor pro zjištění, jaký obsah je užitečný",
+							"Vlastní, analytická",
+							"Ano",
+							"12 měsíců"
+						],
+						[
+							"tema (almacenamiento local)",
+							"Zapamatování si, zda preferujete světlý nebo tmavý motiv; ukládá se pouze v případě, že jej změníte",
+							"Vlastní, pro personalizaci vyžádanou vámi",
+							"Ne",
+							"Dokud ji neodstraníte"
+						]
+					]
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Své rozhodnutí můžete kdykoli změnit nebo svůj souhlas odvolat prostřednictvím odkazu „Nastavení cookies“ v patičce stránky a okamžitě smazat všechna svá data pomocí tlačítka „Smazat moje data“ v témže panelu."
+			"titulo": "3. Co zde nenajdete",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Nejsou zde žádné soubory cookie třetích stran, žádná reklama, žádný vložený obsah sociálních sítí ani Google Analytics. Písma a obrázky jsou poskytovány přímo z tohoto webu."
+				}
+			]
 		},
 		{
-			"tipo": "parrafo",
-			"texto": "Další informace o tom, jak jsou vaše údaje zpracovávány, naleznete v Zásadách ochrany osobních údajů."
+			"titulo": "4. Jak změnit názor",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Svou volbu můžete kdykoli změnit nebo odvolat souhlas v sekci „Nastavení souborů cookie“ v zápatí každé stránky nebo pomocí tlačítka na této stránce. Odtud můžete také okamžitě smazat analytická data spojená s vaším prohlížečem. Soubory cookie můžete rovněž smazat v nastavení svého prohlížeče."
+				}
+			]
+		},
+		{
+			"titulo": "5. Záznam vaší volby",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pokaždé, když přijmete, odmítnete nebo odvoláte souhlas, se uloží záznam (pseudonymní identifikátor, rozhodnutí, verze těchto zásad, datum a čas, stránka, jazyk, zdroj a prohlížeč) bez vaší IP adresy, aby bylo možné prokázat, že souhlas byl platný. Uchovává se po dobu 3 let. Další podrobnosti naleznete v zásadách ochrany osobních údajů."
+				}
+			]
+		},
+		{
+			"titulo": "6. Změny",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pokud se tyto zásady podstatně změní, upozornění na soubory cookie se zobrazí znovu, abyste se mohli rozhodnout, jak budete pokračovat."
+				}
+			]
 		}
 	]
 }

@@ -17,7 +17,16 @@
  * tienen mucha más confianza.
  */
 
-export const SECCIONES = ['proyectos', 'sobre-mi', 'experiencia', 'contacto', 'politica-de-cookies', 'politica-de-privacidad'];
+export const SECCIONES = [
+	'proyectos',
+	'sobre-mi',
+	'experiencia',
+	'contacto',
+	'politica-de-cookies',
+	'politica-de-privacidad',
+	'terminos-y-condiciones',
+	'politica-de-reembolso',
+];
 
 export const SLUGS = {
 	es: {
@@ -27,6 +36,8 @@ export const SLUGS = {
 		contacto: 'contacto',
 		'politica-de-cookies': 'politica-de-cookies',
 		'politica-de-privacidad': 'politica-de-privacidad',
+		'terminos-y-condiciones': 'terminos-y-condiciones',
+		'politica-de-reembolso': 'politica-de-reembolso',
 	},
 	en: {
 		proyectos: 'projects',
@@ -35,6 +46,8 @@ export const SLUGS = {
 		contacto: 'contact',
 		'politica-de-cookies': 'cookie-policy',
 		'politica-de-privacidad': 'privacy-policy',
+		'terminos-y-condiciones': 'terms-and-conditions',
+		'politica-de-reembolso': 'refund-policy',
 	},
 	fr: {
 		proyectos: 'projets',
@@ -43,6 +56,8 @@ export const SLUGS = {
 		contacto: 'contact',
 		'politica-de-cookies': 'politique-de-cookies',
 		'politica-de-privacidad': 'politique-de-confidentialite',
+		'terminos-y-condiciones': 'conditions-generales',
+		'politica-de-reembolso': 'politique-de-remboursement',
 	},
 	de: {
 		proyectos: 'projekte',
@@ -51,6 +66,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'cookie-richtlinie',
 		'politica-de-privacidad': 'datenschutzrichtlinie',
+		'terminos-y-condiciones': 'nutzungsbedingungen',
+		'politica-de-reembolso': 'rueckerstattungsrichtlinie',
 	},
 	it: {
 		proyectos: 'progetti',
@@ -59,6 +76,8 @@ export const SLUGS = {
 		contacto: 'contatti',
 		'politica-de-cookies': 'politica-dei-cookie',
 		'politica-de-privacidad': 'informativa-privacy',
+		'terminos-y-condiciones': 'termini-e-condizioni',
+		'politica-de-reembolso': 'politica-di-rimborso',
 	},
 	pt: {
 		proyectos: 'projetos',
@@ -67,6 +86,8 @@ export const SLUGS = {
 		contacto: 'contato',
 		'politica-de-cookies': 'politica-de-cookies',
 		'politica-de-privacidad': 'politica-de-privacidade',
+		'terminos-y-condiciones': 'termos-e-condicoes',
+		'politica-de-reembolso': 'politica-de-reembolso',
 	},
 	ca: {
 		proyectos: 'projectes',
@@ -75,6 +96,8 @@ export const SLUGS = {
 		contacto: 'contacte',
 		'politica-de-cookies': 'politica-de-cookies',
 		'politica-de-privacidad': 'politica-de-privacitat',
+		'terminos-y-condiciones': 'termes-i-condicions',
+		'politica-de-reembolso': 'politica-de-reemborsament',
 	},
 	eu: {
 		proyectos: 'proiektuak',
@@ -83,6 +106,8 @@ export const SLUGS = {
 		contacto: 'kontaktua',
 		'politica-de-cookies': 'cookien-politika',
 		'politica-de-privacidad': 'pribatutasun-politika',
+		'terminos-y-condiciones': 'baldintzak',
+		'politica-de-reembolso': 'itzulketa-politika',
 	},
 	gl: {
 		proyectos: 'proxectos',
@@ -91,6 +116,8 @@ export const SLUGS = {
 		contacto: 'contacto',
 		'politica-de-cookies': 'politica-de-cookies',
 		'politica-de-privacidad': 'politica-de-privacidade',
+		'terminos-y-condiciones': 'termos-e-condicions',
+		'politica-de-reembolso': 'politica-de-reembolso',
 	},
 	nl: {
 		proyectos: 'projecten',
@@ -99,6 +126,8 @@ export const SLUGS = {
 		contacto: 'contact',
 		'politica-de-cookies': 'cookiebeleid',
 		'politica-de-privacidad': 'privacybeleid',
+		'terminos-y-condiciones': 'algemene-voorwaarden',
+		'politica-de-reembolso': 'terugbetalingsbeleid',
 	},
 	sv: {
 		proyectos: 'projekt',
@@ -107,6 +136,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'cookiepolicy',
 		'politica-de-privacidad': 'integritetspolicy',
+		'terminos-y-condiciones': 'anvandarvillkor',
+		'politica-de-reembolso': 'aterbetalningspolicy',
 	},
 	no: {
 		proyectos: 'prosjekter',
@@ -115,6 +146,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'cookieerklaering',
 		'politica-de-privacidad': 'personvernerklaering',
+		'terminos-y-condiciones': 'vilkar',
+		'politica-de-reembolso': 'refusjonspolicy',
 	},
 	da: {
 		proyectos: 'projekter',
@@ -123,6 +156,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'cookiepolitik',
 		'politica-de-privacidad': 'privatlivspolitik',
+		'terminos-y-condiciones': 'vilkar-og-betingelser',
+		'politica-de-reembolso': 'refusionspolitik',
 	},
 	fi: {
 		proyectos: 'projektit',
@@ -131,6 +166,8 @@ export const SLUGS = {
 		contacto: 'yhteystiedot',
 		'politica-de-cookies': 'evastekaytanto',
 		'politica-de-privacidad': 'tietosuojakaytanto',
+		'terminos-y-condiciones': 'kayttoehdot',
+		'politica-de-reembolso': 'palautuskaytanto',
 	},
 	is: {
 		proyectos: 'verkefni',
@@ -139,6 +176,8 @@ export const SLUGS = {
 		contacto: 'samband',
 		'politica-de-cookies': 'vefkokustefna',
 		'politica-de-privacidad': 'personuverndarstefna',
+		'terminos-y-condiciones': 'skilmalar',
+		'politica-de-reembolso': 'endurgreidslustefna',
 	},
 	pl: {
 		proyectos: 'projekty',
@@ -147,6 +186,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'polityka-cookies',
 		'politica-de-privacidad': 'polityka-prywatnosci',
+		'terminos-y-condiciones': 'regulamin',
+		'politica-de-reembolso': 'polityka-zwrotow',
 	},
 	cs: {
 		proyectos: 'projekty',
@@ -155,6 +196,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'zasady-cookies',
 		'politica-de-privacidad': 'zasady-soukromi',
+		'terminos-y-condiciones': 'obchodni-podminky',
+		'politica-de-reembolso': 'zasady-vraceni-penez',
 	},
 	sk: {
 		proyectos: 'projekty',
@@ -163,6 +206,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'zasady-cookies',
 		'politica-de-privacidad': 'zasady-ochrany-sukromia',
+		'terminos-y-condiciones': 'obchodne-podmienky',
+		'politica-de-reembolso': 'zasady-vratenia-penazi',
 	},
 	hu: {
 		proyectos: 'projektek',
@@ -171,6 +216,8 @@ export const SLUGS = {
 		contacto: 'kapcsolat',
 		'politica-de-cookies': 'sutik-szabalyzata',
 		'politica-de-privacidad': 'adatvedelmi-szabalyzat',
+		'terminos-y-condiciones': 'felhasznalasi-feltetelek',
+		'politica-de-reembolso': 'visszateritesi-szabalyzat',
 	},
 	ro: {
 		proyectos: 'proiecte',
@@ -179,6 +226,8 @@ export const SLUGS = {
 		contacto: 'contact',
 		'politica-de-cookies': 'politica-de-cookie-uri',
 		'politica-de-privacidad': 'politica-de-confidentialitate',
+		'terminos-y-condiciones': 'termeni-si-conditii',
+		'politica-de-reembolso': 'politica-de-rambursare',
 	},
 	bg: {
 		proyectos: 'проекти',
@@ -187,6 +236,8 @@ export const SLUGS = {
 		contacto: 'контакти',
 		'politica-de-cookies': 'политика-за-бисквитки',
 		'politica-de-privacidad': 'политика-за-поверителност',
+		'terminos-y-condiciones': 'общи-условия',
+		'politica-de-reembolso': 'политика-за-възстановяване',
 	},
 	el: {
 		proyectos: 'εργα',
@@ -195,6 +246,8 @@ export const SLUGS = {
 		contacto: 'επικοινωνια',
 		'politica-de-cookies': 'πολιτικη-cookies',
 		'politica-de-privacidad': 'πολιτικη-απορρητου',
+		'terminos-y-condiciones': 'οροι-και-προυποθεσεις',
+		'politica-de-reembolso': 'πολιτικη-επιστροφων',
 	},
 	ru: {
 		proyectos: 'проекты',
@@ -203,6 +256,8 @@ export const SLUGS = {
 		contacto: 'контакты',
 		'politica-de-cookies': 'политика-cookie',
 		'politica-de-privacidad': 'политика-конфиденциальности',
+		'terminos-y-condiciones': 'условия-использования',
+		'politica-de-reembolso': 'политика-возврата',
 	},
 	uk: {
 		proyectos: 'проекти',
@@ -211,6 +266,8 @@ export const SLUGS = {
 		contacto: 'контакти',
 		'politica-de-cookies': 'політика-cookie',
 		'politica-de-privacidad': 'політика-конфіденційності',
+		'terminos-y-condiciones': 'умови-використання',
+		'politica-de-reembolso': 'політика-повернення',
 	},
 	hr: {
 		proyectos: 'projekti',
@@ -219,6 +276,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'pravila-o-kolacicima',
 		'politica-de-privacidad': 'politika-privatnosti',
+		'terminos-y-condiciones': 'uvjeti-koristenja',
+		'politica-de-reembolso': 'pravila-o-povratu',
 	},
 	sr: {
 		proyectos: 'пројекти',
@@ -227,6 +286,8 @@ export const SLUGS = {
 		contacto: 'контакт',
 		'politica-de-cookies': 'политика-колачића',
 		'politica-de-privacidad': 'политика-приватности',
+		'terminos-y-condiciones': 'услови-коришћења',
+		'politica-de-reembolso': 'политика-повраћаја',
 	},
 	sl: {
 		proyectos: 'projekti',
@@ -235,6 +296,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'politika-piskotkov',
 		'politica-de-privacidad': 'politika-zasebnosti',
+		'terminos-y-condiciones': 'pogoji-uporabe',
+		'politica-de-reembolso': 'politika-vracil',
 	},
 	lt: {
 		proyectos: 'projektai',
@@ -243,6 +306,8 @@ export const SLUGS = {
 		contacto: 'kontaktai',
 		'politica-de-cookies': 'slapuku-politika',
 		'politica-de-privacidad': 'privatumo-politika',
+		'terminos-y-condiciones': 'naudojimo-salygos',
+		'politica-de-reembolso': 'grazinimo-politika',
 	},
 	lv: {
 		proyectos: 'projekti',
@@ -251,6 +316,8 @@ export const SLUGS = {
 		contacto: 'kontakti',
 		'politica-de-cookies': 'sikdatnu-politika',
 		'politica-de-privacidad': 'privatuma-politika',
+		'terminos-y-condiciones': 'lietosanas-noteikumi',
+		'politica-de-reembolso': 'atmaksas-politika',
 	},
 	et: {
 		proyectos: 'projektid',
@@ -259,6 +326,8 @@ export const SLUGS = {
 		contacto: 'kontakt',
 		'politica-de-cookies': 'kupsiste-poliitika',
 		'politica-de-privacidad': 'privaatsuspoliitika',
+		'terminos-y-condiciones': 'kasutustingimused',
+		'politica-de-reembolso': 'tagastuspoliitika',
 	},
 	tr: {
 		proyectos: 'projeler',
@@ -267,6 +336,8 @@ export const SLUGS = {
 		contacto: 'iletisim',
 		'politica-de-cookies': 'cerez-politikasi',
 		'politica-de-privacidad': 'gizlilik-politikasi',
+		'terminos-y-condiciones': 'sartlar-ve-kosullar',
+		'politica-de-reembolso': 'iade-politikasi',
 	},
 	ar: {
 		proyectos: 'مشاريع',
@@ -275,6 +346,8 @@ export const SLUGS = {
 		contacto: 'اتصل',
 		'politica-de-cookies': 'سياسة-الكوكيز',
 		'politica-de-privacidad': 'سياسة-الخصوصية',
+		'terminos-y-condiciones': 'الشروط-والأحكام',
+		'politica-de-reembolso': 'سياسة-الاسترداد',
 	},
 	he: {
 		proyectos: 'פרויקטים',
@@ -283,6 +356,8 @@ export const SLUGS = {
 		contacto: 'צור-קשר',
 		'politica-de-cookies': 'מדיניות-עוגיות',
 		'politica-de-privacidad': 'מדיניות-פרטיות',
+		'terminos-y-condiciones': 'תנאי-שימוש',
+		'politica-de-reembolso': 'מדיניות-החזרים',
 	},
 	fa: {
 		proyectos: 'پروژه‌ها',
@@ -291,6 +366,8 @@ export const SLUGS = {
 		contacto: 'تماس',
 		'politica-de-cookies': 'سیاست-کوکی',
 		'politica-de-privacidad': 'حریم-خصوصی',
+		'terminos-y-condiciones': 'شرایط-و-ضوابط',
+		'politica-de-reembolso': 'سیاست-بازپرداخت',
 	},
 	ur: {
 		proyectos: 'منصوبے',
@@ -299,6 +376,8 @@ export const SLUGS = {
 		contacto: 'رابطہ',
 		'politica-de-cookies': 'کوکی-پالیسی',
 		'politica-de-privacidad': 'رازداری-کی-پالیسی',
+		'terminos-y-condiciones': 'شرائط-و-ضوابط',
+		'politica-de-reembolso': 'رقم-کی-واپسی-کی-پالیسی',
 	},
 	hi: {
 		proyectos: 'परियोजनाएं',
@@ -307,6 +386,8 @@ export const SLUGS = {
 		contacto: 'संपर्क',
 		'politica-de-cookies': 'कुकी-नीति',
 		'politica-de-privacidad': 'गोपनीयता-नीति',
+		'terminos-y-condiciones': 'नियम-और-शर्तें',
+		'politica-de-reembolso': 'धनवापसी-नीति',
 	},
 	bn: {
 		proyectos: 'প্রকল্প',
@@ -315,6 +396,8 @@ export const SLUGS = {
 		contacto: 'যোগাযোগ',
 		'politica-de-cookies': 'কুকি-নীতি',
 		'politica-de-privacidad': 'গোপনীয়তা-নীতি',
+		'terminos-y-condiciones': 'শর্তাবলী',
+		'politica-de-reembolso': 'ফেরত-নীতি',
 	},
 	pa: {
 		proyectos: 'ਪ੍ਰੋਜੈਕਟ',
@@ -323,6 +406,8 @@ export const SLUGS = {
 		contacto: 'ਸੰਪਰਕ',
 		'politica-de-cookies': 'ਕੂਕੀ-ਨੀਤੀ',
 		'politica-de-privacidad': 'ਗੋਪਨੀਯਤਾ-ਨੀਤੀ',
+		'terminos-y-condiciones': 'ਨਿਯਮ-ਅਤੇ-ਸ਼ਰਤਾਂ',
+		'politica-de-reembolso': 'ਰਿਫੰਡ-ਨੀਤੀ',
 	},
 	gu: {
 		proyectos: 'પ્રોજેક્ટ્સ',
@@ -331,6 +416,8 @@ export const SLUGS = {
 		contacto: 'સંપર્ક',
 		'politica-de-cookies': 'કૂકી-નીતિ',
 		'politica-de-privacidad': 'ગોપનીયતા-નીતિ',
+		'terminos-y-condiciones': 'નિયમો-અને-શરતો',
+		'politica-de-reembolso': 'રિફંડ-નીતિ',
 	},
 	mr: {
 		proyectos: 'प्रकल्प',
@@ -339,6 +426,8 @@ export const SLUGS = {
 		contacto: 'संपर्क',
 		'politica-de-cookies': 'कुकी-धोरण',
 		'politica-de-privacidad': 'गोपनीयता-धोरण',
+		'terminos-y-condiciones': 'अटी-आणि-शर्ती',
+		'politica-de-reembolso': 'परतावा-धोरण',
 	},
 	ta: {
 		proyectos: 'திட்டங்கள்',
@@ -347,6 +436,8 @@ export const SLUGS = {
 		contacto: 'தொடர்பு',
 		'politica-de-cookies': 'குக்கீ-கொள்கை',
 		'politica-de-privacidad': 'தனியுரிமை-கொள்கை',
+		'terminos-y-condiciones': 'விதிமுறைகள்',
+		'politica-de-reembolso': 'பணத்திருப்பக்-கொள்கை',
 	},
 	te: {
 		proyectos: 'ప్రాజెక్టులు',
@@ -355,6 +446,8 @@ export const SLUGS = {
 		contacto: 'సంప్రదించండి',
 		'politica-de-cookies': 'కుకీ-విధానం',
 		'politica-de-privacidad': 'గోప్యతా-విధానం',
+		'terminos-y-condiciones': 'నిబంధనలు-మరియు-షరతులు',
+		'politica-de-reembolso': 'వాపసు-విధానం',
 	},
 	kn: {
 		proyectos: 'ಯೋಜನೆಗಳು',
@@ -363,6 +456,8 @@ export const SLUGS = {
 		contacto: 'ಸಂಪರ್ಕ',
 		'politica-de-cookies': 'ಕುಕೀ-ನೀತಿ',
 		'politica-de-privacidad': 'ಗೌಪ್ಯತಾ-ನೀತಿ',
+		'terminos-y-condiciones': 'ನಿಯಮಗಳು-ಮತ್ತು-ಷರತ್ತುಗಳು',
+		'politica-de-reembolso': 'ಮರುಪಾವತಿ-ನೀತಿ',
 	},
 	ml: {
 		proyectos: 'പദ്ധതികൾ',
@@ -371,6 +466,8 @@ export const SLUGS = {
 		contacto: 'ബന്ധപ്പെടുക',
 		'politica-de-cookies': 'കുക്കി-നയം',
 		'politica-de-privacidad': 'സ്വകാര്യതാ-നയം',
+		'terminos-y-condiciones': 'നിബന്ധനകളും-വ്യവസ്ഥകളും',
+		'politica-de-reembolso': 'റീഫണ്ട്-നയം',
 	},
 	ne: {
 		proyectos: 'परियोजनाहरू',
@@ -379,6 +476,8 @@ export const SLUGS = {
 		contacto: 'सम्पर्क',
 		'politica-de-cookies': 'कुकी-नीति',
 		'politica-de-privacidad': 'गोपनीयता-नीति',
+		'terminos-y-condiciones': 'नियम-र-सर्तहरू',
+		'politica-de-reembolso': 'फिर्ता-नीति',
 	},
 	si: {
 		proyectos: 'ව්‍යාපෘති',
@@ -387,6 +486,8 @@ export const SLUGS = {
 		contacto: 'සම්බන්ධ-වන්න',
 		'politica-de-cookies': 'කුකී-ප්‍රතිපත්තිය',
 		'politica-de-privacidad': 'පෞද්ගලිකත්ව-ප්‍රතිපත්තිය',
+		'terminos-y-condiciones': 'නියම-සහ-කොන්දේසි',
+		'politica-de-reembolso': 'ආපසු-ගෙවීම්-ප්‍රතිපත්තිය',
 	},
 	th: {
 		proyectos: 'โปรเจกต์',
@@ -395,6 +496,8 @@ export const SLUGS = {
 		contacto: 'ติดต่อ',
 		'politica-de-cookies': 'นโยบายคุกกี้',
 		'politica-de-privacidad': 'นโยบายความเป็นส่วนตัว',
+		'terminos-y-condiciones': 'ข้อกำหนดและเงื่อนไข',
+		'politica-de-reembolso': 'นโยบายการคืนเงิน',
 	},
 	vi: {
 		proyectos: 'du-an',
@@ -403,6 +506,8 @@ export const SLUGS = {
 		contacto: 'lien-he',
 		'politica-de-cookies': 'chinh-sach-cookie',
 		'politica-de-privacidad': 'chinh-sach-bao-mat',
+		'terminos-y-condiciones': 'dieu-khoan-va-dieu-kien',
+		'politica-de-reembolso': 'chinh-sach-hoan-tien',
 	},
 	id: {
 		proyectos: 'proyek',
@@ -411,6 +516,8 @@ export const SLUGS = {
 		contacto: 'kontak',
 		'politica-de-cookies': 'kebijakan-cookie',
 		'politica-de-privacidad': 'kebijakan-privasi',
+		'terminos-y-condiciones': 'syarat-dan-ketentuan',
+		'politica-de-reembolso': 'kebijakan-pengembalian-dana',
 	},
 	ms: {
 		proyectos: 'projek',
@@ -419,6 +526,8 @@ export const SLUGS = {
 		contacto: 'hubungi',
 		'politica-de-cookies': 'dasar-kuki',
 		'politica-de-privacidad': 'dasar-privasi',
+		'terminos-y-condiciones': 'terma-dan-syarat',
+		'politica-de-reembolso': 'dasar-bayaran-balik',
 	},
 	tl: {
 		proyectos: 'mga-proyekto',
@@ -427,6 +536,8 @@ export const SLUGS = {
 		contacto: 'makipag-ugnayan',
 		'politica-de-cookies': 'patakaran-sa-cookie',
 		'politica-de-privacidad': 'patakaran-sa-privacy',
+		'terminos-y-condiciones': 'mga-tuntunin-at-kundisyon',
+		'politica-de-reembolso': 'patakaran-sa-refund',
 	},
 	my: {
 		proyectos: 'ပရောဂျက်များ',
@@ -435,6 +546,8 @@ export const SLUGS = {
 		contacto: 'ဆက်သွယ်ရန်',
 		'politica-de-cookies': 'ကွတ်ကီးမူဝါဒ',
 		'politica-de-privacidad': 'ကိုယ်ရေးမူဝါဒ',
+		'terminos-y-condiciones': 'စည်းကမ်းချက်များ',
+		'politica-de-reembolso': 'ငွေပြန်အမ်းမူဝါဒ',
 	},
 	km: {
 		proyectos: 'គម្រោង',
@@ -443,6 +556,8 @@ export const SLUGS = {
 		contacto: 'ទំនាក់ទំនង',
 		'politica-de-cookies': 'គោលការណ៍ខូគី',
 		'politica-de-privacidad': 'គោលការណ៍ភាពឯកជន',
+		'terminos-y-condiciones': 'លក្ខខណ្ឌ',
+		'politica-de-reembolso': 'គោលការណ៍សងប្រាក់វិញ',
 	},
 	lo: {
 		proyectos: 'ໂຄງການ',
@@ -451,6 +566,8 @@ export const SLUGS = {
 		contacto: 'ຕິດຕໍ່',
 		'politica-de-cookies': 'ນະໂຍບາຍຄຸກກີ້',
 		'politica-de-privacidad': 'ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ',
+		'terminos-y-condiciones': 'ຂໍ້ກຳນົດແລະເງື່ອນໄຂ',
+		'politica-de-reembolso': 'ນະໂຍບາຍການຄືນເງິນ',
 	},
 	zh: {
 		proyectos: '项目',
@@ -459,6 +576,8 @@ export const SLUGS = {
 		contacto: '联系',
 		'politica-de-cookies': 'cookie政策',
 		'politica-de-privacidad': '隐私政策',
+		'terminos-y-condiciones': '条款和条件',
+		'politica-de-reembolso': '退款政策',
 	},
 	ja: {
 		proyectos: 'プロジェクト',
@@ -467,6 +586,8 @@ export const SLUGS = {
 		contacto: 'お問い合わせ',
 		'politica-de-cookies': 'クッキーポリシー',
 		'politica-de-privacidad': 'プライバシーポリシー',
+		'terminos-y-condiciones': '利用規約',
+		'politica-de-reembolso': '返金ポリシー',
 	},
 	ko: {
 		proyectos: '프로젝트',
@@ -475,6 +596,8 @@ export const SLUGS = {
 		contacto: '문의',
 		'politica-de-cookies': '쿠키정책',
 		'politica-de-privacidad': '개인정보처리방침',
+		'terminos-y-condiciones': '이용약관',
+		'politica-de-reembolso': '환불정책',
 	},
 	sw: {
 		proyectos: 'miradi',
@@ -483,6 +606,8 @@ export const SLUGS = {
 		contacto: 'mawasiliano',
 		'politica-de-cookies': 'sera-ya-vidakuzi',
 		'politica-de-privacidad': 'sera-ya-faragha',
+		'terminos-y-condiciones': 'sheria-na-masharti',
+		'politica-de-reembolso': 'sera-ya-kurejesha-pesa',
 	},
 	am: {
 		proyectos: 'ፕሮጀክቶች',
@@ -491,6 +616,8 @@ export const SLUGS = {
 		contacto: 'ያግኙን',
 		'politica-de-cookies': 'የኩኪ-ፖሊሲ',
 		'politica-de-privacidad': 'የግላዊነት-ፖሊሲ',
+		'terminos-y-condiciones': 'ውሎች-እና-ሁኔታዎች',
+		'politica-de-reembolso': 'የገንዘብ-ተመላሽ-ፖሊሲ',
 	},
 	af: {
 		proyectos: 'projekte',
@@ -499,6 +626,8 @@ export const SLUGS = {
 		contacto: 'kontak',
 		'politica-de-cookies': 'koekiebeleid',
 		'politica-de-privacidad': 'privaatheidsbeleid',
+		'terminos-y-condiciones': 'terme-en-voorwaardes',
+		'politica-de-reembolso': 'terugbetalingsbeleid',
 	},
 	az: {
 		proyectos: 'layiheler',
@@ -507,6 +636,8 @@ export const SLUGS = {
 		contacto: 'elaqe',
 		'politica-de-cookies': 'kuki-siyaseti',
 		'politica-de-privacidad': 'mexfilik-siyaseti',
+		'terminos-y-condiciones': 'sertler-ve-qaydalar',
+		'politica-de-reembolso': 'geri-qaytarma-siyaseti',
 	},
 	ka: {
 		proyectos: 'პროექტები',
@@ -515,6 +646,8 @@ export const SLUGS = {
 		contacto: 'კონტაქტი',
 		'politica-de-cookies': 'ქუქი-პოლიტიკა',
 		'politica-de-privacidad': 'კონფიდენციალურობის-პოლიტიკა',
+		'terminos-y-condiciones': 'წესები-და-პირობები',
+		'politica-de-reembolso': 'თანხის-დაბრუნების-პოლიტიკა',
 	},
 	hy: {
 		proyectos: 'նախագծեր',
@@ -523,6 +656,8 @@ export const SLUGS = {
 		contacto: 'կապ',
 		'politica-de-cookies': 'cookie-քաղաքականություն',
 		'politica-de-privacidad': 'գաղտնիության-քաղաքականություն',
+		'terminos-y-condiciones': 'պայմաններ-և-դրույթներ',
+		'politica-de-reembolso': 'գումարի-վերադարձի-քաղաքականություն',
 	},
 	ga: {
 		proyectos: 'tionscadail',
@@ -531,6 +666,8 @@ export const SLUGS = {
 		contacto: 'teagmhail',
 		'politica-de-cookies': 'polasai-fianan',
 		'politica-de-privacidad': 'polasai-priobhaideachais',
+		'terminos-y-condiciones': 'tearmai-agus-coinniollacha',
+		'politica-de-reembolso': 'polasai-aisiocaiochta',
 	},
 };
 

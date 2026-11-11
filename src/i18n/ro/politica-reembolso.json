@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Politica de rambursare — Mario Álvarez",
+		"description": "Cum funcționează anulările, dreptul de retragere și returnările pentru serviciile lui Mario Álvarez.",
+		"heading": "Politica de rambursare"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Acest site web nu percepe plăți",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Pe marioalvarez.me nu se vând produse și nu se încasează plăți online. Serviciile (analiză de performanță, instrumente personalizate, baze de date și rapoarte, și sprijin în carieră) se contractează separat, printr-o propunere scrisă."
+				}
+			]
+		},
+		{
+			"titulo": "2. Ceea ce menționează propunerea ta",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Fiecare propunere indică prețul, modalitatea și momentul plății, precum și condițiile de anulare. Dacă propunerea menționează altceva decât această politică, se aplică propunerea, cu excepția cazului în care această politică îți oferă mai multe drepturi ca și consumator."
+				}
+			]
+		},
+		{
+			"titulo": "3. Dacă anulezi",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Cu excepția cazului în care se convine altfel în scris:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Dacă anulezi înainte ca munca să înceapă, îți returnez integral orice plată în avans.",
+						"Dacă anulezi după începerea lucrării, se percepe doar partea deja efectuată și îți returnez restul sumei achitate în avans.",
+						"Lucrarea deja livrată și acceptată nu se rambursează, cu excepția cazului în care prezintă defecte care nu sunt remediate."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Dreptul de retragere (dacă ești consumator)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Dacă contractezi ca și consumator (o persoană care acționează în afara activității sale profesionale) și contractul este încheiat la distanță, prin email sau telefon, ai la dispoziție 14 zile calendaristice de la încheiere pentru a te retrage fără a oferi explicații, în conformitate cu articolele 102 - 108 din textul reunit al Legii Generale pentru Apărarea Consumatorilor și Utilizatorilor (Decretul Regal Legislativ 1/2007)."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Dacă îmi ceri în mod expres să încep lucrul în aceste 14 zile și apoi te retragi, vei plăti doar partea proporțională din serviciul prestat până în acel moment. Dacă serviciul a fost complet finalizat în termenul prevăzut, cu acordul tău prealabil și expres și știind că astfel pierzi acest drept, nu te vei mai putea retrage (articolul 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Cum se solicită",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Scrie-mi la {email} menționând numele tău, serviciul și data la care l-ai contractat. Poți folosi acest model de formular de retragere (nu este obligatoriu):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"În atenția {nombre}, {domicilio}, {email}:",
+						"Prin prezenta vă informez că mă retrag din contractul meu privind prestarea următorului serviciu: [servicio].",
+						"Contractat la data de: [fecha].",
+						"Numele consumatorului: [nombre].",
+						"Adresa consumatorului: [domicilio].",
+						"Data: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Termenul și modalitatea de returnare",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Îți voi returna suma cuvenită în maximum 14 zile calendaristice de la data la care îmi comunici decizia ta, prin aceeași metodă de plată pe care ai folosit-o, cu excepția cazului în care convenim altfel. Returnarea nu implică niciun cost pentru tine."
+				}
+			]
+		}
+	]
+}

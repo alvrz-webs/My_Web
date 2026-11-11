@@ -3,7 +3,13 @@
 		"title": "Par mani — Mario Álvarez",
 		"description": "No Spānijas čempiona madisonā līdz Datu zinātnes studentam: Mario Álvarez ceļš starp elites riteņbraukšanu un sporta analītiku.",
 		"eyebrow": "Par mani",
-		"heading": "No velodroma līdz datiem"
+		"heading": "No velodroma līdz datiem",
+		"lead": "Esmu joprojām riteņbraukšanā – trekā un komandas auto. Mainījies ir tikai tas, kā es uz to skatos: tagad arī caur datiem.",
+		"historiaTitulo": "Braucējs, direktors un datu zinātnieks",
+		"fichaTitulo": "Īsumā",
+		"fichaTexto": "Pats galvenais, ja tev steidzami.",
+		"retratoAlt": "Mario Alvaresa portrets",
+		"escenaFrase": "Vispirms – kājas. Tagad – dati."
 	},
 	"bio": [
 		"Es sāku sacensties. 18 gadu vecumā kļuvu par Spānijas čempionu madisonā trekā, un Spānijas Riteņbraukšanas izlase mani uzaicināja uz Pasaules un Eiropas čempionātiem, kuros abos ieņēmu sesto vietu, kas man deva elites sportista statusu.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Bāze",
-			"value": "Benidorm · Valencia"
+			"value": "Benidorma un Valensija"
 		},
 		{
 			"label": "Statuss",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Fokuss",
-			"value": "Dati + sportiskais sniegums"
+			"value": "Dati un sportiskais sniegums"
 		},
 		{
 			"label": "Valodas",
-			"value": "Dzimtā spāņu · valensiešu · angļu B1"
+			"value": "Spāņu (dzimtā), valensiešu un angļu (B1)"
 		},
 		{
 			"label": "Izglītība",
-			"value": "Datu zinātnes bakalaurs (UPV) · Maģistra grāds sporta digitalizācijā, inovācijās un tehnoloģijās"
+			"value": "Bakalaura grāds datu zinātnē (UPV) un maģistra grāds digitalizācijā, inovācijās un tehnoloģijās sportā"
 		}
 	]
 }

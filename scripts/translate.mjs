@@ -35,7 +35,7 @@ const NEW_LOCALES = IDIOMAS.map((idioma) => idioma.codigo);
 // inicio/sobre-mi/experiencia en ES viven en src/data/ (el panel privado los lee/escribe ahí
 // directamente vía GitHub, ver functions/api/guardar.js); el resto vive en src/i18n/es/.
 const PANEL_PAGES = new Set(['inicio', 'sobre-mi', 'experiencia']);
-const PAGES = ['common', 'inicio', 'sobre-mi', 'experiencia', 'proyectos', 'contacto', 'politica-cookies', 'politica-privacidad', '404'];
+const PAGES = ['common', 'inicio', 'sobre-mi', 'experiencia', 'proyectos', 'contacto', 'politica-cookies', 'politica-privacidad', 'terminos', 'politica-reembolso', '404'];
 
 // Compartido a nivel de módulo (no dentro de una función por idioma) para que el margen entre
 // llamadas se respete entre TODAS las llamadas del proceso, sin importar idioma o página —
@@ -140,6 +140,7 @@ Reglas estrictas:
 - Devuelve EXCLUSIVAMENTE un array JSON válido, con exactamente ${textos.length} elementos, en el mismo orden que el original.
 - No traduzcas nombres propios, marcas, nombres de tecnologías (Python, SQL, R, Power BI, Astro, GitHub, etc.), URLs, rutas (empiezan por "/"), direcciones de correo, ni datos numéricos o fechas.
 - Si un elemento ya está vacío, o son solo símbolos, una ruta o un número, devuélvelo tal cual.
+- Conserva exactamente, sin traducir ni sacar de la frase, los marcadores entre llaves ({nombre}, {nif}, {domicilio}, {email}, {telefono}, {enlace}, {ref}, {tema}) y los identificadores técnicos con guion bajo (por ejemplo consentimiento_cookies, visitante_id).
 - No añadas texto antes ni después del array. No uses bloques de código markdown.
 
 Array original:
@@ -174,6 +175,14 @@ async function traducirLote(model, textos, idiomaInfo) {
 				throw new Error(`Traducción con formato inesperado (elemento ${indiceInvalido} no es un string: ${JSON.stringify(traducidas[indiceInvalido])})`);
 			}
 
+			// Los marcadores ({nombre}, {enlace}…) se rellenan al compilar: si una traducción pierde o
+			// cambia alguno, el texto se quedaría sin ese dato o sin su enlace. Se reintenta el lote.
+			const marcadores = (t) => (t.match(/\{\w+\}/g) ?? []).sort().join(',');
+			const indiceSinMarcadores = traducidas.findIndex((valor, i) => marcadores(valor) !== marcadores(textos[i]));
+			if (indiceSinMarcadores !== -1) {
+				throw new Error(`La traducción ${indiceSinMarcadores} no conserva los marcadores: ${JSON.stringify(traducidas[indiceSinMarcadores])}`);
+			}
+
 			return traducidas;
 		} catch (error) {
 			const status = extraerStatusHttp(error);
@@ -199,7 +208,14 @@ async function traducirPagina(model, lang, idiomaInfo, page, cachePage) {
 	// "tipo" es un discriminador interno de PoliticaBloques.astro ('parrafo' | 'lista' | 'tabla'),
 	// no texto de usuario: traducirlo rompe el matching en el componente (ver bug de nl con
 	// "paragraaf"/"tabel"). Se deja tal cual en destino vía structuredClone, sin pasar por Gemini.
-	const hojas = recogerHojas(esSource).filter((hoja) => hoja.path[hoja.path.length - 1] !== 'tipo');
+	// Por lo mismo tampoco se traducen: "id" (temas y servicios: enlazan /contacto?tema=… entre
+	// páginas), "version" (fecha del documento legal: si cambia, la página legal cae al inglés) ni
+	// los identificadores técnicos sueltos como consentimiento_cookies o visitante_id.
+	const CLAVES_LITERALES = new Set(['tipo', 'id', 'version']);
+	const esIdentificador = (valor) => /^[a-z0-9]+(_[a-z0-9]+)+$/.test(valor);
+	const hojas = recogerHojas(esSource).filter(
+		(hoja) => !CLAVES_LITERALES.has(String(hoja.path[hoja.path.length - 1])) && !esIdentificador(hoja.value),
+	);
 	const nuevaCachePage = {};
 	const pendientes = [];
 
@@ -212,7 +228,12 @@ async function traducirPagina(model, lang, idiomaInfo, page, cachePage) {
 			nuevaCachePage[clave] = cacheada;
 			hoja.traducido = cacheada.value;
 		} else {
-			pendientes.push({ ...hoja, clave, hash });
+			// Se encola la propia hoja (no una copia): así la traducción que se le asigna más abajo
+			// llega también a `destino`. Con una copia, lo recién traducido solo quedaba en la caché
+			// y el archivo del idioma se escribía con esas claves vacías hasta la siguiente ejecución.
+			hoja.clave = clave;
+			hoja.hash = hash;
+			pendientes.push(hoja);
 		}
 	}
 

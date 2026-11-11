@@ -4,13 +4,28 @@
 		"description": "Dva svijeta, isti jezik: performanse. Iskustvo Marija Álvareza u podatcima i inženjerstvu te u vrhunskom biciklizmu.",
 		"eyebrow": "Iskustvo",
 		"heading": "Dva svijeta, isti jezik: performanse",
-		"colDatos": "Podatci i tehnologija",
+		"lead": "U bazi podataka ili u momčadskom automobilu, posao je isti: dobro mjeriti kako bi se bolje odlučivalo.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "zapisa u bazi koju optimiziram u SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "alata u Pythonu za momčad Cofidis"
+			},
+			{
+				"cifra": "6.",
+				"texto": "na Svjetskom i Europskom prvenstvu na pisti"
+			}
+		],
+		"colDatos": "Podaci i tehnologija",
 		"colDeporte": "Vrhunski sport"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Praksa u znanosti o podatcima",
-			"meta": "Podatkovno inženjerstvo · Benidorm · 2026.",
+			"meta": "Inženjerstvo podataka, Benidorm, 2026.",
 			"paragraphs": [
 				"SIME razvija softver za upravljanje (rezervacije, fakturiranje, izvješća, ugostiteljske narudžbe) koji opslužuje stotine klijenata iz središnjeg sustava, na bazi podataka s više od 580 međusobno povezanih tablica i više od 100 milijuna zapisa. Rast je primorao na raspodjelu klijenata na nekoliko baza kako bi se smanjilo opterećenje i pritužbe na sporu brzinu.",
 				"Moj posao: analizirati te baze i, kroz optimizaciju upita i indeksa, dizajnirati ujedinjenje svih podataka u jednu učinkovitu bazu jedva skalirajući hardver (RAM/CPU). Poboljšanje je već razvijeno, u fazi provjere valjanosti na testnom poslužitelju."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekti s momčadi Cofidis (World Tour)",
-			"meta": "Python · Ljeto 2025.",
+			"meta": "Python, ljeto 2025.",
 			"paragraphs": [
 				"Vlastiti projekt koji sam izradio kao test za pristup analizi podataka u profesionalnom biciklizmu:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Natjecanje",
 			"paragraphs": [
 				"Prvak Španjolske u madisonu (18 godina); Svjetsko i Europsko prvenstvo na pisti sa španjolskom reprezentacijom (6. mjesto na oba); vrhunski sportaš; licencirani biciklist na pisti, aktivan."
-			]
+			],
+			"meta": "Biciklizam na pisti, Španjolska reprezentacija"
 		},
 		{
 			"title": "Sportsko vođenje",
 			"paragraphs": [
 				"Sportski direktor I. i II. stupnja (RFEC); obuka i praćenje mlađih biciklista (14–18) zajedno s ocem; pomoćno osoblje s reprezentacijom Valencijske Zajednice na natjecanjima (2026.)."
-			]
+			],
+			"meta": "RFEC, razine I i II"
 		},
 		{
 			"title": "Kiroterapija i tehničko osoblje",

@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Kirolaren arloan espezializatutako datu-zientzialaria",
-		"description": "Mario Álvarez, Valentziako datu-zientzialaria, kirol-analitikan espezializatua. Data · Sport · Progress.",
+		"description": "Mario Álvarez, datu-zientzialaria Valentzian, kirol-analitikan espezializatua. Madisoneko Espainiako txapelduna eta RFECeko kirol-zuzendaria.",
 		"verProyectos": "Ikusi proiektuak",
-		"contacto": "Kontaktua",
-		"verMas": "Ikusi gehiago",
+		"verServicios": "Ikusi nola lagun zaitzaketen",
+		"contacto": "Idatzi nazazu",
+		"verMas": "Gehiago irakurri",
 		"verTodosProyectos": "Ikusi proiektu guztiak",
-		"irAContacto": "Joan kontaktuara",
+		"irAContacto": "Idatzi nazazu",
 		"herramientas": "Tresna nagusiak"
 	},
 	"hero": {
-		"eyebrow": "Datu-zientzialaria · Kirol-analitika · Valentzia",
-		"titlePre": "Datuak bihurtzen ditut ",
-		"titleHighlight": "erabaki argi",
-		"subtitle": "Datu-analisiaren eta eliteko kirolaren arteko zubia naiz: errendimendu-metrikak zelaian aldea markatzen duten estrategia bihurtzen ditut.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, datu-zientzialaria",
+		"title": "Madisoneko Espainiako txapelduna izan nintzen.",
+		"subtitle": "Orain Datu Zientzia ikasten ari naiz UPV/EHUan eta errendimenduaren atzean dagoena aztertzen dut: potentzia, karga eta emaitzak. Korrikalari batentzat zenbaki batek zer esan nahi duen badakit, korrikalari hori izan naizelako.",
+		"palmaresLabel": "Palmaresa",
+		"palmares": [
+			{
+				"pos": "1.",
+				"texto": "Madisoneko Espainiako Txapelketa",
+				"nota": "Pista, 18 urterekin"
+			},
+			{
+				"pos": "6.",
+				"texto": "Pistako Munduko Txapelketa",
+				"nota": "Espainiako Selekzioa"
+			},
+			{
+				"pos": "6.",
+				"texto": "Pistako Europako Txapelketa",
+				"nota": "Espainiako Selekzioa"
+			}
+		],
+		"retratoAlt": "Mario Álvarezen erretratua"
+	},
+	"servicios": {
+		"title": "Zertan lagun zaitzaket",
+		"text": "Datuak dituzten eta probetxu ateratzea nahi duten talde, entrenatzaile eta txirrindulariekin egiten dut lan. Eta beren datuak antolatu behar dituzten enpresekin ere bai.",
+		"cta": "Kontatzaile zure kasua",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Errendimenduaren analisia",
+				"texto": "Potentzia, karga eta emaitzak korrikalari baten begiekin irakurtzen ditut. Zer gertatzen ari den eta zer aldatuko luzatzen dizut.",
+				"prueba": "Eliteko txirrindularia eta RFECeko kirol-zuzendaria, I eta II mailak."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Neurrirako tresnak",
+				"texto": "Scraping-a, modeloak eta Python-eko aplikazio txikiak, zure taldearen galdera zehatz bati erantzuten diotenak.",
+				"prueba": "Cofidis talderako bi tresna: UCI zailtasuna eta lasterketa-profila."
+			},
+			{
+				"id": "datos",
+				"nombre": "Datu-baseak eta txostenak",
+				"texto": "Kontsulta azkarragoak, datu-base bateratuak eta lehen begiratuan ulertzen diren Power BI-ko aginte-koadroak.",
+				"prueba": "SIME Telecom-en optimizatzen dudan datu-basean 580 taula baino gehiago eta 100 milioi erregistro baino gehiago."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Lasterketako babesa",
+				"texto": "Lasterketen prestakuntza, txirrindularien jarraipena eta kirol-masajea lehian.",
+				"prueba": "Valentziako Erkidegoko Selekzioko staffa."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Honi buruz",
-		"title": "Pistako, errepideko eta lehiaketako testuingurua duten datuak",
-		"text": "Mario Álvarez naiz, UPVko Datu Zientziako ikaslea, eta txirrindularitza profesionalean esperientzia erreala dut. Datu-analisia eta eliteko kirol-errendimendua uztartzen ditut, metrika bakoitza emaitzak hobetzen dituen erabaki bihurtzeko."
+		"title": "Belodromotik datuetara",
+		"text": "Datu Zientziako Graduko 3. maila ikasten ari naiz UPV/EHUan eta kirolari aplikatutako digitalizazio eta teknologia arloko master bat amaitu dut. Ez naiz ziklismotik irten: pistan korrika jarraitzen dut, oinarrizko mailako txirrindulariak zuzentzen ditut eta profesionalekin kirol-masajista gisa egiten dut lan."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Oinarria",
+			"value": "Benidorm eta Valentzia"
+		},
+		{
 			"label": "Prestakuntza",
-			"detail": "Datu Zientziako Gradua, Valentziako Unibertsitate Politeknikoa."
+			"value": "Datu Zientziako Gradua (UPV) eta Kirolaren Digitalizazio, Berrikuntza eta Teknologia Masterra"
 		},
 		{
-			"value": "Elitea",
-			"label": "Esperientzia",
-			"detail": "Lan erreala talde profesional bateko txirrindularitzan."
+			"label": "Tituluak",
+			"value": "RFECeko kirol-zuzendaria, I eta II mailak"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Ikuspegia",
-			"detail": "Kirol-errendimendua hobetzeko aplikatutako analitika."
+			"label": "Orain",
+			"value": "Datu eta errendimendu proiektuetarako erabilgarri"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Esperientzia",
-		"title": "Bi mundu, hizkuntza bera: errendimendua",
-		"text": "Maila gorenean lehiatu naiz eta gaur egun irizpide bera aplikatzen diet datuei: zenbaki batek kirolari batentzat zer esnahi duen ulertzen dut, kirolari hori izan naizelako."
+		"title": "Bi bide, lan berezia",
+		"text": "Batean datu-baseak optimizatzen ditut eta modeloak idazten ditut. Bestean lasterketak prestatzen ditut eta txirrindularien jarraipena egiten dut. Biek gauza bera bilatzen dute: hobeto erabakitzeko ondo neurtzea.",
+		"carriles": [
+			{
+				"nombre": "Datuak",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "analizatutako taula SIME Telecom-en hainbat datu-base bakarrean bateratzeko, hardwarea handitu gabe"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "optimizatzen ari naizen datu-baseko erregistroak"
+					},
+					{
+						"cifra": "2",
+						"texto": "tresna Python-en Cofidis talderako: UCI zailtasuna eta lasterketa-profila"
+					}
+				]
+			},
+			{
+				"nombre": "Pista eta errepidea",
+				"items": [
+					{
+						"cifra": "I eta II",
+						"texto": "Espainiako Txirrindularitza Errege Federazioko kirol-zuzendariaren mailak"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "urte dituzte nire aitarekin batera entrenatu eta jarraipena egiten dieten oinarrizko mailako txirrindulariek"
+					},
+					{
+						"cifra": "2026",
+						"texto": "laguntzailea Valentziako Erkidegoko Selekzioarekin lehiaketan"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Datai buruz hitz egingo al dugu?",
-		"text": "Kontaidazu zure proiektua eta elkarrekin bilatuko ditugu errendimendua hobetzen duten erabakiak non dauden."
+		"title": "Azken itzulia",
+		"text": "Errendimendu-datuak eta erantzun gabeko galderak badituzu, idatzi eta elkarrekin aztertuko dugu."
 	}
 }

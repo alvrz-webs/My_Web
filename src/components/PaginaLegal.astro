@@ -1,0 +1,246 @@
+---
+/**
+ * Plantilla común de los documentos legales (términos, privacidad, cookies, reembolso): cabecera,
+ * fecha de la versión vigente, apartados con índice lateral y enlaces a los demás documentos.
+ *
+ * Los textos viven en src/i18n/<lang>/<pagina>.json con la forma { meta, secciones: [{ titulo,
+ * bloques }] } y pueden llevar marcadores {nombre}, {nif}, {domicilio}, {email}, {telefono}, que se
+ * rellenan con src/data/legal.js. Un párrafo o elemento de lista con un marcador vacío no se pinta.
+ */
+import Layout from '../layouts/Layout.astro';
+import PageHeader from './PageHeader.astro';
+import PoliticaBloques from './PoliticaBloques.astro';
+import { localizedPath, type Locale } from '../lib/i18n';
+import { getDict, getDictCrudo, type Page } from '../lib/dictionary';
+import { TITULAR, VERSIONES } from '../data/legal.js';
+
+interface Props {
+	lang: Locale;
+	pagina: Extract<Page, 'terminos' | 'politica-privacidad' | 'politica-cookies' | 'politica-reembolso'>;
+	version: keyof typeof VERSIONES;
+}
+
+const { lang, pagina, version } = Astro.props;
+
+// Un texto legal desfasado o a medias es peor que uno en otro idioma: si la traducción de este
+// idioma no es de la versión vigente (meta.version) o le falta algún texto, se muestra la inglesa
+// entera hasta que se vuelva a traducir.
+const esTexto = (v: unknown) => typeof v === 'string' && v.trim() !== '';
+const completa = (d: any) =>
+	esTexto(d?.meta?.title) &&
+	esTexto(d?.meta?.heading) &&
+	Array.isArray(d?.secciones) &&
+	d.secciones.every(
+		(s: any) =>
+			esTexto(s?.titulo) &&
+			Array.isArray(s?.bloques) &&
+			s.bloques.every((b: any) =>
+				b?.tipo === 'parrafo'
+					? esTexto(b.texto)
+					: b?.tipo === 'lista'
+						? Array.isArray(b.items) && b.items.every(esTexto)
+						: b?.tipo === 'tabla'
+							? Array.isArray(b.columnas) && b.columnas.every(esTexto) && Array.isArray(b.filas) && b.filas.every((f: any) => Array.isArray(f) && f.every(esTexto))
+							: false,
+			),
+	);
+const crudo = getDictCrudo(lang, pagina) as any;
+const traduccionAlDia = lang === 'es' || lang === 'en' || (crudo?.meta?.version === VERSIONES[version] && completa(crudo));
+const dict = getDict(traduccionAlDia ? lang : 'en', pagina) as any;
+const comun = (getDict(lang, 'common') as any).legal ?? {};
+const t = dict.meta;
+
+const valores: Record<string, string> = { ...TITULAR };
+const MARCADOR = /\{(\w+)\}/g;
+const tieneVacio = (texto: string) => [...texto.matchAll(MARCADOR)].some(([, clave]) => !valores[clave]);
+const rellenar = (texto: string) => texto.replace(MARCADOR, (_, clave) => valores[clave] ?? '');
+
+function prepararBloques(bloques: any[] = []) {
+	return bloques
+		.map((bloque) => {
+			if (bloque.tipo === 'parrafo')
+				return typeof bloque.texto !== 'string' || tieneVacio(bloque.texto) ? null : { ...bloque, texto: rellenar(bloque.texto) };
+			if (bloque.tipo === 'lista')
+				return { ...bloque, items: (bloque.items ?? []).filter((i: unknown) => typeof i === 'string' && !tieneVacio(i)).map(rellenar) };
+			if (bloque.tipo === 'tabla')
+				return { ...bloque, filas: (bloque.filas ?? []).map((fila: string[]) => fila.map((celda) => rellenar(celda))) };
+			return bloque;
+		})
+		.filter(Boolean);
+}
+
+const secciones: { titulo: string; bloques: any[] }[] = (dict.secciones ?? []).map((s: any) => ({
+	titulo: s.titulo,
+	bloques: prepararBloques(s.bloques),
+}));
+
+const fechaVersion = VERSIONES[version];
+let fechaLegible = fechaVersion;
+try {
+	fechaLegible = new Intl.DateTimeFormat(lang, { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${fechaVersion}T00:00:00Z`));
+} catch {}
+
+const documentos = [
+	{ href: localizedPath('/terminos-y-condiciones', lang), label: comun.terminos, actual: pagina === 'terminos' },
+	{ href: localizedPath('/politica-de-privacidad', lang), label: comun.privacidad, actual: pagina === 'politica-privacidad' },
+	{ href: localizedPath('/politica-de-cookies', lang), label: comun.cookies, actual: pagina === 'politica-cookies' },
+	{ href: localizedPath('/politica-de-reembolso', lang), label: comun.reembolso, actual: pagina === 'politica-reembolso' },
+].filter((d) => d.label);
+---
+
+<Layout title={t.title} description={t.description} lang={lang}>
+	<PageHeader title={t.heading} description={t.description} tamano="compacto" />
+
+	<section class="politica">
+		<div class="container rejilla-legal">
+			<div class="politica-texto">
+				<p class="politica-version">
+					{comun.actualizado ?? 'Última actualización'}: <time datetime={fechaVersion}>{fechaLegible}</time>
+				</p>
+				{
+					secciones.map((seccion, i) => (
+						<article class="politica-seccion" id={`apartado-${i + 1}`}>
+							<h2>{seccion.titulo}</h2>
+							<PoliticaBloques bloques={seccion.bloques} />
+						</article>
+					))
+				}
+			</div>
+
+			<aside class="politica-lateral">
+				<div class="lateral-fijo">
+					<slot name="aside" />
+
+					<nav class="lateral-bloque" aria-labelledby="indice-titulo">
+						<h2 id="indice-titulo" class="lateral-titulo">{comun.indice ?? 'En esta página'}</h2>
+						<ol class="indice">
+							{
+								secciones.map((seccion, i) => (
+									<li>
+										<a href={`#apartado-${i + 1}`}>{seccion.titulo}</a>
+									</li>
+								))
+							}
+						</ol>
+					</nav>
+
+					<nav class="lateral-bloque" aria-labelledby="otros-titulo">
+						<h2 id="otros-titulo" class="lateral-titulo">{comun.otros ?? 'Otros documentos'}</h2>
+						<ul class="indice">
+							{
+								documentos.map((d) => (
+									<li>
+										<a href={d.href} aria-current={d.actual ? 'page' : undefined}>
+											{d.label}
+										</a>
+									</li>
+								))
+							}
+						</ul>
+					</nav>
+				</div>
+			</aside>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.politica {
+		padding-block: var(--space-tras-cabecera) var(--space-section);
+	}
+
+	.rejilla-legal {
+		display: grid;
+		grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+		gap: var(--space-block) var(--gutter);
+		align-items: start;
+	}
+
+	.politica-texto {
+		max-width: 70ch;
+		display: grid;
+		gap: clamp(2.5rem, 5vw, 3.5rem);
+	}
+
+	.politica-version {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.05rem;
+		color: var(--color-text-dim);
+	}
+
+	.politica-seccion {
+		scroll-margin-top: calc(var(--header-h) + 1.5rem);
+	}
+
+	.politica-seccion h2 {
+		font-size: var(--fs-h3);
+		font-weight: 700;
+		line-height: 1.1;
+		margin-block-end: 1rem;
+		padding-block-start: 0.9rem;
+		border-block-start: 3px solid var(--color-text);
+	}
+
+	.lateral-fijo {
+		position: sticky;
+		inset-block-start: calc(var(--header-h) + 2rem);
+		display: grid;
+		gap: 2rem;
+	}
+
+	.lateral-bloque {
+		padding-block-start: 1rem;
+		border-block-start: 3px solid var(--color-accent);
+	}
+
+	.lateral-bloque + .lateral-bloque {
+		border-block-start-color: var(--color-text);
+	}
+
+	.lateral-titulo {
+		font-size: 1.25rem;
+		font-weight: 700;
+		margin-block-end: 0.5rem;
+	}
+
+	.indice {
+		list-style: none;
+	}
+
+	.indice a {
+		display: block;
+		padding-block: 0.4rem;
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.05rem;
+		line-height: 1.25;
+		color: var(--color-text-dim);
+		text-decoration: none;
+		transition: color var(--transition-fast);
+	}
+
+	.indice a[aria-current='page'] {
+		color: var(--color-text);
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.indice a:hover {
+			color: var(--color-text);
+		}
+	}
+
+	@media (max-width: 860px) {
+		.rejilla-legal {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.politica-lateral {
+			order: -1;
+		}
+
+		.lateral-fijo {
+			position: static;
+		}
+	}
+</style>

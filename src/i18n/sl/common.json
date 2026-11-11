@@ -1,5 +1,6 @@
 {
 	"nav": {
+		"inicio": "Domov",
 		"sobreMi": "O meni",
 		"proyectos": "Projekti",
 		"experiencia": "Izkušnje",
@@ -7,10 +8,22 @@
 		"ariaMain": "Glavna navigacija",
 		"openMenu": "Odpri meni"
 	},
+	"saltar": "Preskoči na vsebino",
+	"tema": "Preklopi med svetlim in temnim načinom",
+	"telefono": "Telefon",
 	"footer": {
-		"tagline": "Data · Sport · Progress",
+		"tagline": "Španec v madisonu. Podatkovni znanstvenik.",
+		"disponible": "Na voljo za projekte s področja podatkov in športne uspešnosti.",
+		"escribeme": "Piši mi",
+		"navLabel": "Razdelki",
+		"legalLabel": "Pravno",
 		"copySufijo": "Mario Álvarez. Valencia.",
 		"ariaSocial": "Družbena omrežja"
+	},
+	"cierre": {
+		"title": "Se pogovorimo?",
+		"text": "Če imate podatke o uspešnosti in neodgovorjena vprašanja, mi pišite in si jih ogledamo skupaj.",
+		"cta": "Piši mi"
 	},
 	"langSwitch": {
 		"label": "Spremeni jezik",
@@ -27,11 +40,20 @@
 		"ariaBanner": "Soglasje za piškotke"
 	},
 	"legal": {
+		"terminos": "Pogoji uporabe",
 		"privacidad": "Politika zasebnosti",
-		"cookies": "Politika piškotkov"
+		"cookies": "Politika piškotkov",
+		"reembolso": "Politika vračil",
+		"actualizado": "Zadnja posodobitev",
+		"indice": "Na tej strani",
+		"otros": "Drugi dokumenti"
 	},
 	"person": {
 		"jobTitle": "Podatkovni znanstvenik",
 		"description": "Podatkovni znanstvenik, specializiran za športno analitiko, z izkušnjami v profesionalnem kolesarstvu."
+	},
+	"pizarra": {
+		"vueltas": "krogi",
+		"campana": "zadnji"
 	}
 }

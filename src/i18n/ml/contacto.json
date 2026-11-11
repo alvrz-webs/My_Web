@@ -3,11 +3,54 @@
 		"title": "ബന്ധപ്പെടുക — Mario Álvarez",
 		"description": "ഡാറ്റ, കായിക പ്രകടനം, പ്രോജക്റ്റുകൾ എന്നിവയെക്കുറിച്ച് സംസാരിക്കാൻ Mario Álvarez-മായി ബന്ധപ്പെടുക.",
 		"eyebrow": "ബന്ധപ്പെടുക",
-		"heading": "നിങ്ങളുടെ പക്കൽ ഡാറ്റയും പരിഹരിക്കേണ്ട ഒരു ചോദ്യവുമുണ്ടോ?",
-		"intro": "സംസാരിക്കാം. സ്പോർട്സ് അനലിറ്റിക്സ് പ്രോജക്റ്റോ, ഡാറ്റ സഹകരണമോ, അല്ലെങ്കിൽ ചർച്ച ചെയ്യാൻ ആഗ്രഹിക്കുന്ന ഒരു ആശയമോ ആകട്ടെ, ഞാൻ സന്തോഷത്തോടെ മറുപടി നൽകാം.",
+		"heading": "നിenikku datamum oru chodyavum undoo?",
+		"intro": "Namukku samsarikkaam. Athu oru sports analytics project, data collaboration, allengil ningalkku charchayyeythu nokkanulla oru idea aayirikkatte, njan madarikkam.",
 		"email": "ഇമെയിൽ",
 		"telefono": "ഫോൺ",
 		"verTelefono": "ഫോൺ കാണുക",
-		"redesSociales": "സമൂഹ മാധ്യമങ്ങൾ"
+		"redesSociales": "സമൂഹ മാധ്യമങ്ങൾ",
+		"temaTitulo": "Ningalkku enthane parayanullath?",
+		"temaAyuda": "Oru vishayam thereduka, njan email tayarakkivekkaam. Ningalude karyam matram ennodu paranjaal mathi.",
+		"temas": [
+			{
+				"id": "rendimiento",
+				"label": "Performance analysis"
+			},
+			{
+				"id": "herramientas",
+				"label": "Oru custom tool"
+			},
+			{
+				"id": "datos",
+				"label": "Databasukalum reportukalum"
+			},
+			{
+				"id": "carrera",
+				"label": "Career support"
+			},
+			{
+				"id": "otro",
+				"label": "Verenthengilum"
+			}
+		],
+		"escribir": "Email ezhuthaan",
+		"copiar": "Email kopiyakku",
+		"copiado": "Email kopiyakkiyirikkunnu",
+		"asunto": "marioalvarez.me-nnulla chodyam",
+		"cuerpo": "Hello Mario:\n\nNjan ezhuthunnathu ithinaanu: {tema}.\n\nEnikkullathu:\n\nEnikkariyaan agrahamullathu:\n\nNandri.",
+		"otrosCanales": "Matra channalukal",
+		"base": "Base",
+		"baseValor": "Benidorm, Valencia",
+		"idiomas": "Bhashakal",
+		"idiomasValor": "Spanish, Valencian, English",
+		"aceptacionesTitulo": "Ennodu ezhuthunnatHinu munpu",
+		"aceptoTerminos": "Njan {enlace} vayichu angikarichirikkunnu.",
+		"enlaceTerminos": "terms and conditions",
+		"aceptoCookies": "{enlace}-yil varnichirikkunna analytics cookie-kal njan angikarikkunnu (optional).",
+		"enlaceCookies": "cookie policy",
+		"faltaTerminos": "Ennodu ezhuthaan, munpulla terms and conditions box check cheyyuka.",
+		"primeraCapa": "Responsible: Mario Álvarez Martínez. Uddheshyam: ningalude chodyathinum madanguka, ennode avashyappettal oru proposal tayarakkuka. Legitimation: ningalude abhyarthana. Destinatarigal: arumilla, legal obligation ullatallathe. Adhikarangal: aashrayam, thiruthiyal, neakkal, mattu {enlace}-yil vivarichirikkunna matram.",
+		"enlacePrivacidad": "privacy policy",
+		"refEmail": "Terms angikaricha reference: {ref}"
 	}
 }

@@ -1,0 +1,87 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Palautuskäytäntö — Mario Álvarez",
+		"description": "Miten peruutukset, peruutusoikeus ja palautukset toimivat Mario Álvarezin palveluissa.",
+		"heading": "Palautuskäytäntö"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Tämä sivusto ei peri maksuja",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Osoitteessa marioalvarez.me ei myydä tuotteita eikä peritä verkkomaksuja. Palvelut (suorituskykyanalyysi, räätälöidyt työkalut, tietokannat ja raportit sekä uratuki) tilataan erikseen kirjallisella tarjouksella."
+				}
+			]
+		},
+		{
+			"titulo": "2. Mitä tarjouksesi sanoo",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jokaisessa tarjouksessa ilmoitetaan hinta, maksutapa ja -ajankohta sekä peruutusehdot. Jos tarjouksessa sanotaan muuta kuin tässä käytännössä, tarjous on etusijalla, paitsi jos tämä käytäntö antaa sinulle enemmän oikeuksia kuluttajana."
+				}
+			]
+		},
+		{
+			"titulo": "3. Jos peruutat",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Ellei toisin ole kirjallisesti sovittu:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Jos peruutat ennen työn alkua, palautan minkä tahansa ennakkomaksun kokonaisuudessaan.",
+						"Jos peruutat työn jo aljettua, veloitetaan vain jo tehdystä osasta ja palautan loput ennakkoon maksamastasi summasta.",
+						"Jo toimitettua ja hyväksyttyä työtä ei hyvitetä, ellei siinä ole vikoja, joita ei korjata."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Peruutusoikeus (jos olet kuluttaja)",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jos tilaat kuluttajana (henkilönä, joka toimii ammatillisen toimintansa ulkopuolella) ja sopimus tehdään etänä, sähköpostitse tai puhelimitse, sinulla on 14 kalenteripäivää aikaa sopimuksen tekemisestä peruuttaa se ilman perusteluja kuluttajien ja käyttäjien suojelusta annetun yleislain tarkistetun tekstin (kuningasasetus 1/2007) pyhien 102–108 mukaisesti."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Jos pyydät minua nimenomaisesti aloittamaan työt kyseisen 14 päivän aikana ja peruutat sen jälkeen, maksat vain palvelun siihen mennessä suoritetun osuuden suhteellisen osan. Jos palvelu on suoritettu kokonaan määräajassa, etukäteisellä suostumuksellasi ja tietäen, että menetät siten tämän oikeuden, et voi enää peruuttaa (artikkeli 103.a)."
+				}
+			]
+		},
+		{
+			"titulo": "5. Miten pyytää sitä",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Kirjoita minulle osoitteeseen {email} ilmoittaen nimesi, palvelun ja päivämäärän, jolloin tilasit sen. Voit käyttää tätä peruuttamislomakemallia (ei ole pakollinen):"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Vastaanottaja {nombre}, {domicilio}, {email}:",
+						"Ilmoitan täten peruuttvani seuraavan palvelun tuottamista koskevan sopimukseni: [servicio].",
+						"Tilattu: [fecha].",
+						"Kuluttajan nimi: [nombre].",
+						"Kuluttajan osoite: [domicilio].",
+						"Päivämäärä: [fecha]."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "6. Palautuksen määräaika ja tapa",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Palautan asianmukaisen summan enintään 14 kalenteripäivän kuluessa siitä, kun ilmoitat päätöksestäsi, samalla maksutavalla, jota käytit, ellemme sovi toisin. Palautuksesta ei koidu sinulle mitään kuluja."
+				}
+			]
+		}
+	]
+}

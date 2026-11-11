@@ -4,13 +4,28 @@
 		"description": "Divas pasaules, viena valoda: veiktspēja. Mario Alvaresa (Mario Álvarez) pieredze datu un inženierijas jomā, kā arī elites riteņbraukšanā.",
 		"eyebrow": "Pieredze",
 		"heading": "Divas pasaules, viena valoda: veiktspēja",
+		"lead": "Datubāzē vai komandas automašīnā darbs ir vienāds: mērīt pareizi, lai pieņemtu labākus lēmumus.",
+		"cifras": [
+			{
+				"cifra": "+100 M",
+				"texto": "ieraksti datubāzē, ko optimizēju uzņēmumā SIME Telecom"
+			},
+			{
+				"cifra": "2",
+				"texto": "rīki Python valodā komandai Cofidis"
+			},
+			{
+				"cifra": "6.",
+				"texto": "pasaules un Eiropas čempionātā trekā"
+			}
+		],
 		"colDatos": "Dati un tehnoloģijas",
 		"colDeporte": "Elites sports"
 	},
 	"datos": [
 		{
 			"title": "SIME TELECOM — Datu zinātnes prakse",
-			"meta": "Datu inženierija · Benidorma · 2026",
+			"meta": "Datu inženierija, Benidorma, 2026",
 			"paragraphs": [
 				"SIME izstrādā pārvaldības programmatūru (rezervācijas, rēķinus, atskaites, restorānu pasūtījumus), kas apkalpo simtiem klientu no centralizētas sistēmas, kuras pamatā ir vairāk nekā 580 savstarpēji saistītas tabulas un vairāk nekā 100 miljoni ierakstu. Izaugsme bija likusi sadalīt klientus vairākās datu bāzēs, lai mazinātu slodzi un sūdzības par lēnām darbībām.",
 				"Mans darbs: analizēt šīs datu bāzes un, izmantojot vaicājumu un indeksu optimizāciju, izstrādāt visu datu apvienošanu vienā efektivizētā datu bāzē, gandrīz nepalielinot aparatūras (RAM/CPU) resursus. Uzlabojums jau ir izstrādāts un atrodas validācijas fāzē testa serverī."
@@ -18,7 +33,7 @@
 		},
 		{
 			"title": "Projekti ar komandu Cofidis (World Tour)",
-			"meta": "Python · 2025. gada vasara",
+			"meta": "Python, 2025. gada vasara",
 			"paragraphs": [
 				"Pašu veidots projekts, ko izstrādāju kā testu, lai iekļūtu datu analīzē profesionālajā riteņbraukšanā:"
 			],
@@ -44,13 +59,15 @@
 			"title": "Sacensības",
 			"paragraphs": [
 				"Spānijas čempions medisonā (18 gadi); Pasaules un Eiropas čempionāti trekā ar Spānijas izlasi (6. vieta abos); elites sportists; federēts un aktīvs treka riteņbraucējs."
-			]
+			],
+			"meta": "Treka riteņbraukšana, Spānijas izlase"
 		},
 		{
 			"title": "Sporta vadība",
 			"paragraphs": [
 				"I un II līmeņa sporta direktors (RFEC); jauniešu riteņbraucēju (14–18) apmācība un uzraudzība kopā ar manu tēvu; asistents Valensijas kopienas izlasē sacensībās (2026)."
-			]
+			],
+			"meta": "RFEC, I un II līmenis"
 		},
 		{
 			"title": "Hiromasāža un tehniskais personāls",

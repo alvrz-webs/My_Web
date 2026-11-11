@@ -3,7 +3,13 @@
 		"title": "Sobre mí — Mario Álvarez",
 		"description": "De campeón de España de madison a estudiante de Ciencia de Datos: la trayectoria de Mario Álvarez entre el ciclismo de élite y la analítica deportiva.",
 		"eyebrow": "Sobre mí",
-		"heading": "Del velódromo a los datos"
+		"heading": "Del velódromo a los datos",
+		"lead": "Sigo dentro del ciclismo, en la pista y en el coche de equipo. Lo que ha cambiado es cómo lo miro: ahora también con datos.",
+		"historiaTitulo": "Corredor, director y científico de datos",
+		"fichaTitulo": "En corto",
+		"fichaTexto": "Lo esencial, por si tienes prisa.",
+		"retratoAlt": "Retrato de Mario Álvarez",
+		"escenaFrase": "Primero, las piernas. Ahora, los datos."
 	},
 	"bio": [
 		"Empecé compitiendo. A los 18 me proclamé campeón de España de madison en pista y la Selección Española de Ciclismo me convocó para los Campeonatos del Mundo y de Europa, donde fui sexto en ambos, lo que me valió la condición de deportista de élite.",
@@ -12,13 +18,25 @@
 		"Además, gracias a mi condición de deportista de élite, obtuve una beca para cursar un Máster en Digitalización, Innovación y Tecnología en el Deporte, que ya he completado y que amplía mi enfoque a todo el ecosistema deportivo, más allá del ciclismo."
 	],
 	"facts": [
-		{ "label": "Base", "value": "Benidorm · Valencia" },
-		{ "label": "Estado", "value": "Disponible para proyectos" },
-		{ "label": "Enfoque", "value": "Datos + rendimiento deportivo" },
-		{ "label": "Idiomas", "value": "Español nativo · Valenciano · Inglés B1" },
+		{
+			"label": "Base",
+			"value": "Benidorm y Valencia"
+		},
+		{
+			"label": "Estado",
+			"value": "Disponible para proyectos"
+		},
+		{
+			"label": "Enfoque",
+			"value": "Datos y rendimiento deportivo"
+		},
+		{
+			"label": "Idiomas",
+			"value": "Español (nativo), valenciano e inglés (B1)"
+		},
 		{
 			"label": "Formación",
-			"value": "Grado en Ciencia de Datos (UPV) · Máster en Digitalización, Innovación y Tecnología en el Deporte"
+			"value": "Grado en Ciencia de Datos (UPV) y Máster en Digitalización, Innovación y Tecnología en el Deporte"
 		}
 	]
 }

@@ -3,7 +3,13 @@
 		"title": "Sobre mi — Mario Álvarez",
 		"description": "De campió d'Espanya de madison a estudiant de Ciència de Dades: la trajectòria de Mario Álvarez entre el ciclisme d'elit i l'analítica esportiva.",
 		"eyebrow": "Sobre mi",
-		"heading": "Del velòdrom a les dades"
+		"heading": "Del velòdrom a les dades",
+		"lead": "Seguix dins del ciclisme, a la pista i al cotxe d'equip. El que ha canviat és com ho miro: ara també amb dades.",
+		"historiaTitulo": "Corredor, director i científic de dades",
+		"fichaTitulo": "En curt",
+		"fichaTexto": "L'essencial, per si tens pressa.",
+		"retratoAlt": "Retrat de Mario Álvarez",
+		"escenaFrase": "Primer, les cames. Ara, les dades."
 	},
 	"bio": [
 		"Vaig començar competint. Als 18 em vaig proclamar campió d'Espanya de madison en pista i la Selecció Espanyola de Ciclisme em va convocar per als Campionats del Món i d'Europa, on vaig ser sisè en ambdós, la qual cosa em va valer la condició d'esportista d'elit.",
@@ -14,7 +20,7 @@
 	"facts": [
 		{
 			"label": "Base",
-			"value": "Benidorm · València"
+			"value": "Benidorm i València"
 		},
 		{
 			"label": "Estat",
@@ -22,15 +28,15 @@
 		},
 		{
 			"label": "Enfocament",
-			"value": "Dades + rendiment esportiu"
+			"value": "Dades i rendiment esportiu"
 		},
 		{
 			"label": "Idiomes",
-			"value": "Espanyol natiu · Valencià · Anglès B1"
+			"value": "Espanyol (natiu), valencià i anglès (B1)"
 		},
 		{
 			"label": "Formació",
-			"value": "Grau en Ciència de Dades (UPV) · Màster en Digitalització, Innovació i Tecnologia a l'Esport"
+			"value": "Grau en Ciència de Dades (UPV) i Màster en Digitalització, Innovació i Tecnologia en l'Esport"
 		}
 	]
 }

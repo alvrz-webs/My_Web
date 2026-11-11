@@ -1,0 +1,144 @@
+{
+	"meta": {
+		"version": "2026-11-10",
+		"title": "Vilkår og betingelser — Mario Álvarez",
+		"description": "Juridisk meddelelse og betingelser for brug af marioalvarez.me: hvem indehaveren er, hvordan websitet kan bruges, og hvilken lov der gælder.",
+		"heading": "Vilkår og betingelser"
+	},
+	"secciones": [
+		{
+			"titulo": "1. Hvem der står bag dette website",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "I overensstemmelse med artikel 10 i lov 34/2002 om informationssamfundets tjenester og e-handel (LSSI-CE) er dette oplysningerne om indehaveren af marioalvarez.me:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"Indehaver: {nombre}",
+						"NIF: {nif}",
+						"Adresse: {domicilio}",
+						"Email: {email}",
+						"Aktivitet: professionel portfolio og udbud af dataanalysetjenester, skræddersyede værktøjer, databaser og rapporter samt karrierestøtte."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "2. Hvad disse vilkår regulerer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Disse vilkår regulerer adgangen til og brugen af marioalvarez.me (\"websitet\") på alle dets sprog. Ved at navigere på det accepterer du at bruge det i overensstemmelse med det, der er anført her. Hvis du skriver til mig via kontaktformularer, beder jeg dig om udtrykkeligt at acceptere dem ved at markere en afkrydsningsboks."
+				}
+			]
+		},
+		{
+			"titulo": "3. Hvordan websitet kan bruges",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Du kan konsultere og dele indholdet ved at angive dets oprindelse. Det er ikke tilladt at:"
+				},
+				{
+					"tipo": "lista",
+					"items": [
+						"bruge websitet til ulovlige formål eller formål, der skader tredjeparter;",
+						"forsøge at få adgang til begrænsede områder (såsom det private panel) eller de systemer, der huser det;",
+						"introducere virussen eller anden skadelig kode eller overbelaste det med vilje;",
+						"kopiere indholdet for at præsentere det som sit eget."
+					]
+				}
+			]
+		},
+		{
+			"titulo": "4. Tjenester og kontraktinvolvering",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Websitet sælger ikke produkter eller opkræver onlinebetalinger. Hvis du er interesseret i en tjeneste, taler vi om det via email eller telefon, og jeg sender dig et skriftligt tilbud med omfang, pris, frister samt betalings- og afbestillingsbetingelser. Dette tilbud, når det er accepteret af begge parter, er det, der styrer tjenesten og har forrang over disse vilkår."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Hvordan aflysninger, fortrydelsesret og returneringer fungerer, forklares i refusionspolitikken."
+				}
+			]
+		},
+		{
+			"titulo": "5. Intellektuel og industriel ejendomsret",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Teksterne, designet, den egne kode, logoet og fotografierne tilhører Mario Álvarez eller bruges med tilladelse fra deres ophavsmænd. Det er ikke tilladt at reproducere dem til kommercielle formål uden skriftlig tilladelse."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Tredjeparts navne og logoer (såsom LinkedIn, GitHub, Instagram eller de hold og enheder, der nævnes i erfaringen) tilhører deres respektive ejere. Nævnelse af dem indebærer ikke nogen forretningsmæssig relation eller sponsorat, medmindre det udtrykkeligt er angivet."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Websitet bruger tredjepartssessourcer med tilladte licenser: skrifttyperne Fira Sans Extra Condensed og Source Serif 4 (SIL Open Font License 1.1), ikonerne fra Lucide (ISC-licens) og Simple Icons (CC0 1.0) samt animationsbiblioteket GSAP (GreenSocks gratis standardlicens fra Webflow). Hvert projekt, der links til på GitHub, har sin egen licens."
+				}
+			]
+		},
+		{
+			"titulo": "6. Ansvar",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jeg arbejder på at sikre, at oplysningerne er korrekte, og at websitet er tilgængeligt, men jeg kan ikke garantere, at der ikke er fejl eller afbrydelser. Indholdet er af informativ karakter og erstatter ikke professionel rådgivning om din specifikke sag."
+				},
+				{
+					"tipo": "parrafo",
+					"texto": "Websitet linker til tredjepartswebsteder (sociale medier, arkiver, projektwebsteder). Jeg kontrollerer ikke deres indhold eller politikker og er ikke ansvarlig for dem."
+				}
+			]
+		},
+		{
+			"titulo": "7. Privatliv og cookies",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Hvordan dine data behandles, og hvilke cookies der bruges, forklares i privatlivspolitikken og cookiepolitikken. Ingen del af websitet tvinger dig til at acceptere cookies for at kunne bruge det."
+				}
+			]
+		},
+		{
+			"titulo": "8. Registrering af accept",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "For at kunne bevise samtykke, når det er nødvendigt (artikel 7.1 i GDPR), når du accepterer disse vilkår i kontaktformularen, eller vælger hvilke cookies du tillader, gemmes der en log med: en pseudonym identifikation, hvad du accepterede eller afviste, versionen af hvert dokument, dato og klokkeslæt, den side og det sprog, hvorfra du gjorde det, oprindelsen (banner, konfiguration eller formular), browseren og i formularen en referencekode, der rejser i din email. Din IP-adresse gemmes ikke. Detaljerne findes i privatlivspolitikken."
+				}
+			]
+		},
+		{
+			"titulo": "9. Sprog",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Den spanske version af disse tekster er den oprindelige og har forrang i tilfælde af tvivl. De øvrige er automatiske oversættelser, der tilbydes for nemheds skyld."
+				}
+			]
+		},
+		{
+			"titulo": "10. Ændringer",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Jeg kan opdatere disse vilkår for at tilpasse dem til juridiske ændringer eller ændringer på websitet. Datoen for den gældende version vises i starten af denne side. Hvis ændringen er relevant, vil jeg bede dig om at acceptere dem igen."
+				}
+			]
+		},
+		{
+			"titulo": "11. Gældende lov og værneting",
+			"bloques": [
+				{
+					"tipo": "parrafo",
+					"texto": "Disse vilkår er underlagt spansk lovgivning. Hvis du handler som forbrugerside, kan du henvende dig til domstolene på din bopæl og til forbrugerklagenævn og tvistbilæggelsessystemer i din selvstyrende region. I alle andre tilfælde underkaster begge parter sig domstolene i Benidorm (Alicante)."
+				}
+			]
+		}
+	]
+}

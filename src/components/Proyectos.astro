@@ -5,12 +5,15 @@ import { obtenerRepos } from '../lib/repos';
 import type { Locale } from '../lib/i18n';
 import { getDict } from '../lib/dictionary';
 import imageOffIcon from 'lucide-static/icons/image-off.svg?raw';
+import { getImage } from 'astro:assets';
 
 interface Props {
 	lang?: Locale;
+	/** En la página de proyectos el h1 ya dice "Proyectos": el título de la sección queda solo para lectores de pantalla. */
+	cabecera?: boolean;
 }
 
-const { lang = 'es' } = Astro.props;
+const { lang = 'es', cabecera = true } = Astro.props;
 
 const t = (getDict(lang, 'proyectos') as any).list;
 
@@ -38,103 +41,70 @@ try {
 } catch (error) {
 	console.error('Error al obtener las webs de la organización de GitHub:', error);
 }
+
+// Las capturas se descargan al compilar y se sirven optimizadas desde esta web: así ninguna visita
+// hace peticiones a GitHub (ni le envía su IP a un tercero) y cargan antes. Si una no existe, se
+// muestra el marcador vacío.
+const capturas = new Map<string, string | null>();
+for (const web of webs) {
+	try {
+		const imagen = await getImage({ src: web.previewUrl, inferSize: true, width: 1280, format: 'webp' });
+		capturas.set(web.name, imagen.src);
+	} catch {
+		capturas.set(web.name, null);
+	}
+}
 ---
 
-<section id="proyectos">
+<section id="proyectos" class="proyectos">
 	<div class="container">
-		<div class="section-header reveal">
-			<p class="eyebrow">{t.eyebrow}</p>
-			<h2>{t.title}</h2>
-			<p class="text-dim">{t.intro}</p>
-		</div>
+		{
+			cabecera ? (
+				<div class="section-header">
+					<h2 class="titulo-seccion" data-entra>
+						{t.title}
+					</h2>
+					<p class="lead" data-entra style="--i:1">
+						{t.intro}
+					</p>
+				</div>
+			) : (
+				<h2 class="sr-only">{t.title}</h2>
+			)
+		}
 
-		<div class="filtro reveal" role="group" aria-label={t.filtroLabel}>
+		<div class="filtro" role="group" aria-label={t.filtroLabel}>
+			<span class="filtro-indicador" aria-hidden="true"></span>
 			<button type="button" class="filtro-btn is-active" data-filtro="todos" aria-pressed="true">
 				{t.filtroTodos}
-			</button>
-			<button type="button" class="filtro-btn" data-filtro="datos" aria-pressed="false">
-				{t.filtroDatos}
 			</button>
 			<button type="button" class="filtro-btn" data-filtro="webs" aria-pressed="false">
 				{t.filtroWebs}
 			</button>
-		</div>
-
-		<div class="panel" data-panel="datos">
-			{
-				languages.length > 0 && (
-					<div class="especializaciones reveal">
-						<h3>{t.especializaciones}</h3>
-						<ul class="tags">
-							{languages.map((especialidad) => (
-								<li class="tag">{especialidad}</li>
-							))}
-						</ul>
-					</div>
-				)
-			}
-
-			{
-				repos.length > 0 ? (
-					<div class="grid">
-						{repos.map((repo, i) => (
-							<article
-								class="card reveal"
-								style={`transition-delay: ${Math.min(i, 6) * 0.06}s`}
-								data-tracking-proyecto={repo.name}
-							>
-								<div class="card-header">
-									<h3>{repo.name}</h3>
-									{repo.language && <span class="language">{repo.language}</span>}
-								</div>
-								<p class="description text-dim">
-									{descripciones[repo.name] || repo.description || t.fallbackDescripcion}
-								</p>
-								<a class="button" href={repo.html_url} target="_blank" rel="noopener noreferrer">
-									{t.verEnGithub}
-								</a>
-							</article>
-						))}
-					</div>
-				) : (
-					<p class="empty text-dim">{t.vacio}</p>
-				)
-			}
+			<button type="button" class="filtro-btn" data-filtro="datos" aria-pressed="false">
+				{t.filtroDatos}
+			</button>
 		</div>
 
 		<div class="panel" data-panel="webs">
 			{
 				webs.length > 0 ? (
-					<div class="grid">
+					<div class="grid grid-webs">
 						{webs.map((web, i) => (
-							<article
-								class="card card-web reveal"
-								style={`transition-delay: ${Math.min(i, 6) * 0.06}s`}
-								data-tracking-proyecto={web.name}
-							>
-								<div class="card-preview">
-									<span class="preview-placeholder" set:html={imageOffIcon} />
-									<img
-										src={web.previewUrl}
-										alt=""
-										loading="lazy"
-										decoding="async"
-										onerror="this.style.display='none'"
-									/>
+							<article class="card card-web" data-tracking-proyecto={web.name} data-entra style={`--i:${i % 2}`}>
+								<div class="card-preview" data-expandir>
+									<div class="card-preview-capa" data-expandir-capa>
+										<span class="preview-placeholder" set:html={imageOffIcon} />
+										{capturas.get(web.name) && (
+											<img src={capturas.get(web.name)} alt="" loading="lazy" decoding="async" onerror="this.style.display='none'" />
+										)}
+									</div>
 									{web.enDesarrollo && <span class="badge-dev">{t.enDesarrollo}</span>}
 								</div>
 								<div class="card-body">
 									<h3>{web.name}</h3>
-									<p class="description text-dim">{web.description || t.fallbackDescripcionWeb}</p>
-									{
-										web.stack.length > 0 && (
-											<ul class="tags card-tags">
-												{web.stack.map((tecnologia) => (
-													<li class="tag">{tecnologia}</li>
-												))}
-											</ul>
-										)
-									}
+									<p class="description">{web.description || t.fallbackDescripcionWeb}</p>
+									{web.stack.length > 0 && <p class="card-stack">{web.stack.join(', ')}</p>}
 									<div class="card-actions">
 										{web.homepage && (
 											<a class="button" href={web.homepage} target="_blank" rel="noopener noreferrer">
@@ -154,6 +124,42 @@ try {
 				)
 			}
 		</div>
+
+		<div class="panel" data-panel="datos">
+			{
+				languages.length > 0 && (
+					<div class="especializaciones">
+						<h3>{t.especializaciones}</h3>
+						<ul class="tags">
+							{languages.map((especialidad) => (
+								<li class="tag">{especialidad}</li>
+							))}
+						</ul>
+					</div>
+				)
+			}
+
+			{
+				repos.length > 0 ? (
+					<div class="grid grid-repos">
+						{repos.map((repo, i) => (
+							<article class="card" data-tracking-proyecto={repo.name} data-entra style={`--i:${i % 3}`}>
+								<div class="card-header">
+									<h3>{repo.name}</h3>
+									{repo.language && <span class="language">{repo.language}</span>}
+								</div>
+								<p class="description">{descripciones[repo.name] || repo.description || t.fallbackDescripcion}</p>
+								<a class="button" href={repo.html_url} target="_blank" rel="noopener noreferrer">
+									{t.verEnGithub}
+								</a>
+							</article>
+						))}
+					</div>
+				) : (
+					<p class="empty text-dim">{t.vacio}</p>
+				)
+			}
+		</div>
 	</div>
 </section>
 
@@ -162,9 +168,36 @@ try {
 	const botones = seccion?.querySelectorAll<HTMLButtonElement>('.filtro-btn');
 	const paneles = seccion?.querySelectorAll<HTMLElement>('[data-panel]');
 
+	const filtroEl = seccion?.querySelector<HTMLElement>('.filtro');
+
+	// El indicador se desliza bajo el botón activo (solo transform y una anchura pequeña).
+	const moverIndicador = (boton: HTMLElement) => {
+		if (!filtroEl) return;
+		const caja = filtroEl.getBoundingClientRect();
+		const destino = boton.getBoundingClientRect();
+		filtroEl.style.setProperty('--indicador-x', `${destino.left - caja.left}px`);
+		filtroEl.style.setProperty('--indicador-w', `${destino.width}px`);
+	};
+
+	const activoInicial = seccion?.querySelector<HTMLElement>('.filtro-btn.is-active');
+	if (activoInicial) {
+		moverIndicador(activoInicial);
+		requestAnimationFrame(() => filtroEl?.classList.add('is-listo'));
+		window.addEventListener('resize', () => {
+			const activo = seccion?.querySelector<HTMLElement>('.filtro-btn.is-active');
+			if (activo) moverIndicador(activo);
+		});
+		// Las fuentes cambian el ancho de los botones al cargar: recolocar el indicador entonces.
+		document.fonts?.ready.then(() => {
+			const activo = seccion?.querySelector<HTMLElement>('.filtro-btn.is-active');
+			if (activo) moverIndicador(activo);
+		});
+	}
+
 	botones?.forEach((boton) => {
 		boton.addEventListener('click', () => {
 			const filtro = boton.dataset.filtro;
+			moverIndicador(boton);
 
 			botones.forEach((b) => {
 				const activo = b === boton;
@@ -176,6 +209,8 @@ try {
 				const visible = filtro === 'todos' || panel.dataset.panel === filtro;
 				panel.hidden = !visible;
 				if (visible) {
+					// Lo que estaba oculto no llegó a "entrar": se muestra ya.
+					panel.querySelectorAll('[data-entra]').forEach((el) => el.classList.add('is-in'));
 					panel.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible'));
 				}
 			});
@@ -218,193 +253,217 @@ try {
 </script>
 
 <style>
-	#proyectos {
-		padding-block: 2rem 6rem;
+	.proyectos {
+		padding-block-end: clamp(3.5rem, 7vw, 5rem);
 	}
 
 	.section-header {
-		max-width: 62ch;
-		margin-block-end: 2.5rem;
+		max-width: 60ch;
+		margin-block-end: var(--space-block);
 	}
 
-	.section-header h2 {
-		font-size: clamp(1.6rem, 3vw, 2.1rem);
-		margin-block: 0.75rem 0.5rem;
+	.section-header .lead {
+		margin-block-start: 1.5rem;
 	}
 
+	/* Filtro: pestañas con una línea que se desliza a la opción activa */
 	.filtro {
+		position: relative;
 		display: inline-flex;
-		gap: 0.4rem;
-		padding: 0.3rem;
-		margin-block-end: 2.5rem;
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 999px;
+		gap: 1.75rem;
+		margin-block-end: clamp(2rem, 4vw, 3rem);
+		border-block-end: 1px solid var(--color-border);
+	}
+
+	.filtro-indicador {
+		position: absolute;
+		inset-block-end: -1px;
+		left: 0;
+		block-size: 3px;
+		inline-size: var(--indicador-w, 0);
+		background: var(--color-accent);
+		transform: translateX(var(--indicador-x, 0));
+	}
+
+	.filtro.is-listo .filtro-indicador {
+		transition:
+			transform 0.32s var(--ease-out),
+			inline-size 0.32s var(--ease-out);
 	}
 
 	.filtro-btn {
-		font-family: var(--font-mono);
-		font-size: 0.85rem;
-		font-weight: 500;
+		min-height: 48px;
+		font-family: var(--font-display);
+		font-size: 1.2rem;
+		font-weight: 600;
 		color: var(--color-text-dim);
 		background: transparent;
 		border: none;
-		border-radius: 999px;
-		padding: 0.5rem 1.1rem;
+		padding: 0.4rem 0;
 		cursor: pointer;
-		transition:
-			background var(--transition-fast),
-			color var(--transition-fast);
+		transition: color var(--transition-fast);
 	}
 
-	.filtro-btn:hover {
+	.filtro-btn:hover,
+	.filtro-btn.is-active {
 		color: var(--color-text);
 	}
 
-	.filtro-btn.is-active {
-		background: rgba(56, 189, 248, 0.14);
-		color: var(--color-blue);
+	.filtro-btn:active {
+		transform: scale(0.97);
 	}
 
 	.panel + .panel {
-		margin-block-start: 3.5rem;
+		margin-block-start: clamp(3.5rem, 7vw, 5.5rem);
 	}
 
 	.especializaciones {
-		margin-block-end: 3rem;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.5rem 1.25rem;
+		margin-block-end: 2rem;
 	}
 
 	.especializaciones h3 {
-		font-family: var(--font-heading);
-		font-size: 1.05rem;
+		font-size: 1.1rem;
 		font-weight: 600;
-		margin-block-end: 1rem;
+		color: var(--color-text-dim);
 	}
 
 	.tags {
 		list-style: none;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.6rem;
+		gap: 0.25rem 1.2rem;
 	}
 
 	.tag {
-		font-family: var(--font-mono);
-		background: rgba(56, 189, 248, 0.1);
-		border: 1px solid rgba(56, 189, 248, 0.35);
-		color: var(--color-blue);
-		font-size: 0.8rem;
-		font-weight: 500;
-		padding: 0.4rem 0.85rem;
-		border-radius: 999px;
+		font-family: var(--font-display);
+		font-size: 1.2rem;
+		font-weight: 600;
 	}
 
-	.card-tags {
-		margin-block-end: 1.25rem;
-	}
-
-	.card-tags .tag {
-		font-size: 0.72rem;
-		padding: 0.3rem 0.7rem;
-	}
-
+	/* Repos como hoja de resultados: filas separadas por la línea de medición, sin cajas */
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-		gap: 1.5rem;
+		column-gap: var(--gutter);
+	}
+
+	.grid-repos {
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+	}
+
+	.grid-webs {
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr));
+		row-gap: clamp(2.5rem, 5vw, 3.5rem);
 	}
 
 	.card {
+		position: relative;
 		display: flex;
 		flex-direction: column;
-		background: var(--color-bg-elevated);
-		border: 1px solid var(--color-border);
-		border-radius: 14px;
-		padding: 1.5rem;
-		transition:
-			transform 0.2s ease,
-			border-color 0.2s ease,
-			opacity 0.6s ease,
-			transform 0.6s ease;
 	}
 
-	.card:hover {
-		transform: translateY(-4px);
-		border-color: var(--color-green);
+	.grid-repos .card {
+		padding-block: 1.6rem 1.25rem;
+		border-block-start: 1px solid var(--color-rule);
+	}
+
+	/* Al pasar por encima, la sprinter recorre la fila */
+	.grid-repos .card::before {
+		content: '';
+		position: absolute;
+		inset-block-start: -1px;
+		inset-inline-start: 0;
+		inline-size: 100%;
+		block-size: 3px;
+		background: var(--color-accent);
+		transform: scaleX(0);
+		transform-origin: var(--origen-inline, left) center;
+		transition: transform 0.45s var(--ease-out);
+	}
+
+	[dir='rtl'] .grid-repos .card::before {
+		--origen-inline: right;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.grid-repos .card:hover::before {
+			transform: scaleX(1);
+		}
 	}
 
 	.card-header {
 		display: flex;
-		align-items: flex-start;
+		align-items: baseline;
 		justify-content: space-between;
 		gap: 0.75rem;
-		margin-bottom: 0.75rem;
+		margin-block-end: 0.7rem;
 	}
 
 	.card-header h3 {
-		font-size: 1.1rem;
+		font-size: 1.45rem;
+		font-weight: 700;
 		word-break: break-word;
 	}
 
 	.language {
 		flex-shrink: 0;
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-		font-weight: 500;
-		color: var(--color-green);
-		background: rgba(52, 211, 153, 0.12);
-		padding: 0.2rem 0.6rem;
-		border-radius: 999px;
+		font-family: var(--font-display);
+		font-size: 1.05rem;
+		font-weight: 600;
+		color: var(--color-text-dim);
 		white-space: nowrap;
 	}
 
 	.description {
 		flex-grow: 1;
-		font-size: 0.92rem;
-		line-height: 1.5;
-		margin: 0 0 1.25rem;
+		font-size: 1rem;
+		line-height: 1.6;
+		margin: 0 0 1rem;
+		max-width: 60ch;
 	}
 
 	.button {
 		align-self: flex-start;
-		color: var(--color-text);
-		background: transparent;
-		border: 1px solid rgba(56, 189, 248, 0.4);
-		font-size: 0.88rem;
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		font-family: var(--font-display);
+		font-size: 1.12rem;
 		font-weight: 600;
-		text-decoration: none;
-		padding: 0.5rem 1.05rem;
-		border-radius: 8px;
-		transition:
-			border-color 0.2s ease,
-			background 0.2s ease;
+		color: var(--color-text);
+		text-decoration: underline;
+		text-decoration-color: var(--color-rule);
+		text-underline-offset: 0.3em;
+		transition: text-decoration-color var(--transition-fast);
 	}
 
-	.button:hover {
-		border-color: var(--color-blue);
-		background: rgba(56, 189, 248, 0.08);
+	@media (hover: hover) and (pointer: fine) {
+		.button:hover {
+			text-decoration-color: var(--color-accent);
+		}
 	}
 
 	.button-secondary {
-		border-color: var(--color-border);
+		color: var(--color-text-dim);
 	}
 
-	.button-secondary:hover {
-		border-color: var(--color-text-dim);
-		background: transparent;
-	}
-
-	/* Tarjetas de la pestaña "Webs" */
-	.card-web {
-		padding: 0;
-		overflow: hidden;
-	}
-
+	/* Webs: la captura manda */
 	.card-preview {
 		position: relative;
-		aspect-ratio: 16 / 9;
-		background: var(--color-bg);
-		border-block-end: 1px solid var(--color-border);
+		aspect-ratio: 16 / 10;
+		overflow: clip;
+		background: var(--color-bg-elevated);
+		border-radius: 4px;
+		margin-block-end: 1.4rem;
+	}
+
+	.card-preview-capa {
+		position: absolute;
+		inset: 0;
+		transform-origin: center;
 	}
 
 	.card-preview img {
@@ -413,6 +472,14 @@ try {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		object-position: top center;
+		transition: transform 0.9s var(--ease-expo);
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.card-web:hover .card-preview img {
+			transform: scale(1.03);
+		}
 	}
 
 	.preview-placeholder {
@@ -421,7 +488,6 @@ try {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(52, 211, 153, 0.1));
 		color: var(--color-text-dim);
 	}
 
@@ -432,35 +498,42 @@ try {
 
 	.badge-dev {
 		position: absolute;
-		top: 0.75rem;
-		right: 0.75rem;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 600;
-		color: var(--color-amber);
-		background: rgba(232, 181, 99, 0.16);
-		border: 1px solid rgba(232, 181, 99, 0.4);
-		padding: 0.25rem 0.65rem;
-		border-radius: 999px;
+		inset-block-start: 0.85rem;
+		inset-inline-start: 0.85rem;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--pista-medicion);
+		background: var(--pista-tarima);
+		padding: 0.2rem 0.6rem;
+		border-radius: 3px;
 	}
 
 	.card-body {
 		display: flex;
 		flex-direction: column;
 		flex-grow: 1;
-		padding: 1.25rem 1.5rem 1.5rem;
 	}
 
 	.card-body h3 {
-		font-size: 1.1rem;
+		font-size: var(--fs-h3);
+		font-weight: 700;
 		word-break: break-word;
+		margin-block-end: 0.6rem;
+	}
+
+	.card-stack {
+		font-family: var(--font-display);
+		font-weight: 600;
+		font-size: 1.02rem;
+		color: var(--color-text-dim);
 		margin-block-end: 0.75rem;
 	}
 
 	.card-actions {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.75rem;
+		gap: 0 1.6rem;
 	}
 
 	.empty {

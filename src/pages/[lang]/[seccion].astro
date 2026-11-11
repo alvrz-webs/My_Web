@@ -6,6 +6,8 @@ import ExperienciaPage from '../../components/pages/ExperienciaPage.astro';
 import ContactoPage from '../../components/pages/ContactoPage.astro';
 import PoliticaCookiesPage from '../../components/pages/PoliticaCookiesPage.astro';
 import PoliticaPrivacidadPage from '../../components/pages/PoliticaPrivacidadPage.astro';
+import TerminosPage from '../../components/pages/TerminosPage.astro';
+import PoliticaReembolsoPage from '../../components/pages/PoliticaReembolsoPage.astro';
 import { NEW_LOCALES, type Locale } from '../../lib/i18n';
 import { SECCIONES, slugParaIdioma } from '../../data/slugs.js';
 
@@ -32,6 +34,8 @@ const PAGINAS: Record<SeccionCanonica, (typeof ProyectosPage)> = {
 	contacto: ContactoPage,
 	'politica-de-cookies': PoliticaCookiesPage,
 	'politica-de-privacidad': PoliticaPrivacidadPage,
+	'terminos-y-condiciones': TerminosPage,
+	'politica-de-reembolso': PoliticaReembolsoPage,
 };
 
 const Pagina = PAGINAS[seccion];

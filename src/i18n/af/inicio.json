@@ -1,56 +1,134 @@
 {
 	"meta": {
 		"title": "Mario Álvarez — Datawetenskaplike gespesialiseerd in sport",
-		"description": "Mario Álvarez, datawetenskaplike in Valencia gespesialiseerd in sportanalise. Data · Sport · Progress.",
+		"description": "Mario Álvarez, datewetenskaplike in Valencia wat gespesialiseerd is in sportanalise. Spaanse kampioen in madison en RFEC-sportdirekteur.",
 		"verProyectos": "Sien projekte",
-		"contacto": "Kontak",
-		"verMas": "Sien meer",
+		"verServicios": "Kyk hoe ek jou help",
+		"contacto": "Skryf aan my",
+		"verMas": "Lees meer",
 		"verTodosProyectos": "Sien alle projekte",
-		"irAContacto": "Gaan na kontak",
+		"irAContacto": "Skryf aan my",
 		"herramientas": "Belangrikste gereedskap"
 	},
 	"hero": {
-		"eyebrow": "Datawetenskaplike · Sportanalise · Valencia",
-		"titlePre": "Ek verander data in ",
-		"titleHighlight": "duidelike besluite",
-		"subtitle": "Ek is die brug tussen data-analise en elitisport: ek transformeer prestasiemetrieke in strategieë wat die verskil maak op die veld.",
-		"tools": [
-			"Python",
-			"R",
-			"SQL",
-			"Power BI",
-			"Machine Learning"
+		"kicker": "Mario Álvarez, datewetenskaplike",
+		"title": "Ek was Spaanse kampioen in madison.",
+		"subtitle": "Nou studeer ek Datawetenskap aan die UPV en analiseer wat agter die prestasie is: drywing, las en resultate. Ek weet wat 'n nommer vir 'n ryger beteken omdat ek daardie ryger gewees het.",
+		"palmaresLabel": "Erelys",
+		"palmares": [
+			{
+				"pos": "1ste",
+				"texto": "Spaanse kampioenskap in madison",
+				"nota": "Baan, op 18-jarige ouderdom"
+			},
+			{
+				"pos": "6de",
+				"texto": "Wêreldkampioenskap op die baan",
+				"nota": "Spaanse Nasionale Span"
+			},
+			{
+				"pos": "6de",
+				"texto": "Europese kampioenskap op die baan",
+				"nota": "Spaanse Nasionale Span"
+			}
+		],
+		"retratoAlt": "Portret van Mario Álvarez"
+	},
+	"servicios": {
+		"title": "Waarin ek jou kan help",
+		"text": "Ek werk met spanne, afrigters en ryers wat data het en dit wil benut. En met maatskappye wat hulle s'n moet organiseer.",
+		"cta": "Vertel my jou saak",
+		"items": [
+			{
+				"id": "rendimiento",
+				"nombre": "Prestasie-analise",
+				"texto": "Ek lees drywing, las en resultate deur die oë van 'n ryger. Ek verduidelik aan jou wat aan die gang is en wat sou verander.",
+				"prueba": "Eliteruyger en RFEC-sportdirekteur, vlakke I en II."
+			},
+			{
+				"id": "herramientas",
+				"nombre": "Pasgemaakte gereedskap",
+				"texto": "Skraping, modelle en klein toepassings in Python wat op 'n spesifieke vraag van jou span antwoord.",
+				"prueba": "Twee gereedskap vir die Cofidis-span: UCI-moeilikheidsgraad en wedrenprofiel."
+			},
+			{
+				"id": "datos",
+				"nombre": "Databasisse en verslae",
+				"texto": "Vinniger navrae, verenigde databasisse en dashboards in Power BI wat met die eerste oogopslag verstaan word.",
+				"prueba": "Meer as 580 tabelle en 100 miljoen rekords in die databasis wat ek by SIME Telecom optimeer."
+			},
+			{
+				"id": "carrera",
+				"nombre": "Ondersteuning tydens wedrenne",
+				"texto": "Wedrenvoorbereiding, opvolg van ryers en sportmassering in kompetisie.",
+				"prueba": "Personeel van die Valenciaanse Gemeenskap se Nasionale Span."
+			}
 		]
 	},
 	"sobreMiResumen": {
-		"eyebrow": "Oor my",
-		"title": "Data met baan-, pad- en kompetisieteks",
-		"text": "Ek is Mario Álvarez, 'n student in Datawetenskap aan die UPV met werklike ervaring binne professionele fietsry. Ek kombineer data-analise met elitisportprestasie om elke metriek te verander in 'n besluit wat resultate verbeter."
+		"title": "Van die velodroom tot die data",
+		"text": "Ek studeer in my 3de jaar van die Graad in Datawetenskap aan die UPV en het 'n meestersgraad in digitalisering en tegnologie toegepas op sport voltooi. Ek het nie uit fietsry weggegaan nie: ek ry steeds op die baan, bestuur basiese ryers en werk as 'n masseur met professionele persone."
 	},
-	"stats": [
+	"ficha": [
 		{
-			"value": "UPV",
+			"label": "Basis",
+			"value": "Benidorm en Valencia"
+		},
+		{
 			"label": "Opleiding",
-			"detail": "Graad in Datawetenskap, Universitat Politècnica de València."
+			"value": "Graad in Datawetenskap (UPV) en Meestersgraad in Digitalisering, Innovasie en Tegnologie in Sport"
 		},
 		{
-			"value": "Elite",
-			"label": "Ervaring",
-			"detail": "Egte werk binne 'n professionele fietsryspan."
+			"label": "Titels",
+			"value": "RFEC-sportdirekteur, vlakke I en II"
 		},
 		{
-			"value": "Data + Sport",
-			"label": "Benadering",
-			"detail": "Analise toegepas op die verbetering van sportprestasie."
+			"label": "Nou",
+			"value": "Beskikbaar vir data- en prestasieprojekte"
 		}
 	],
 	"experienciaResumen": {
-		"eyebrow": "Ervaring",
-		"title": "Twee wêrelde, dieselfde taal: die prestasie",
-		"text": "Ek het op die hoogste vlak meegeding en pas vandag dieselfde kriteria toe op data: ek verstaan wat 'n nommer vir 'n sportman beteken omdat ek daardie sportman gewees het."
+		"title": "Twee bane, dieselfde werk",
+		"text": "In die een optimeer ek databasisse en skryf ek modelle. In die ander berei ek wedrenne voor en volg ek ryers. Al twee gaan oor dieselfde ding: meet goed om beter te besluit.",
+		"carriles": [
+			{
+				"nombre": "Data",
+				"items": [
+					{
+						"cifra": "+580",
+						"texto": "tabelle geanaliseer in SIME Telecom om verskeie databasisse in een te verenig, sonder om die hardeware uit te brei"
+					},
+					{
+						"cifra": "+100 M",
+						"texto": "rekords in die databasis wat ek optimeer"
+					},
+					{
+						"cifra": "2",
+						"texto": "gereedskap in Python vir die Cofidis-span: UCI-moeilikheidsgraad en wedrenprofiel"
+					}
+				]
+			},
+			{
+				"nombre": "Baan en pad",
+				"items": [
+					{
+						"cifra": "I en II",
+						"texto": "vlakke van sportdirekteur van die Koninklike Spaanse Fietsryfederasie"
+					},
+					{
+						"cifra": "14–18",
+						"texto": "jaar oud is die basiese ryers wat ek saam met my pa afrig en volg"
+					},
+					{
+						"cifra": "2026",
+						"texto": "assistent met die Valenciaanse Gemeenskap se Nasionale Span in kompetisie"
+					}
+				]
+			}
+		]
 	},
 	"ctaFinal": {
-		"title": "Praat ons oor data?",
-		"text": "Vertel my van jou projek en ons soek saam waar die besluite is wat prestasie verbeter."
+		"title": "Laaste rond",
+		"text": "As jy prestasiedata en onbeantwoorde vrae het, skryf vir my en ons kyk daarna saam."
 	}
 }

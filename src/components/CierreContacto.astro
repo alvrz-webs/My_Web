@@ -1,0 +1,73 @@
+---
+/**
+ * Cierre de cada página: el campo de tarima (madera de la pista) con una invitación a escribir.
+ * En inicio es la "Última vuelta" (la pizarra marca la campana aquí); en las subpáginas usa el
+ * texto común de common.json → cierre.
+ */
+interface Props {
+	titulo: string;
+	texto: string;
+	cta: string;
+	href: string;
+	vuelta?: string;
+}
+
+const { titulo, texto, cta, href, vuelta } = Astro.props;
+---
+
+<section class="cierre campo-tarima" data-vuelta={vuelta}>
+	<div class="container cierre-inner">
+		<h2 class="titulo-display cierre-titulo" data-entra><span class="cierre-deriva" data-deriva="14">{titulo}</span></h2>
+		<div class="cierre-cuerpo" data-entra style="--i:1">
+			<p class="lead">{texto}</p>
+			<a href={href} class="btn btn-primary cierre-btn" data-tracking-clic="cierre-contacto">{cta}</a>
+		</div>
+	</div>
+</section>
+
+<style>
+	.cierre {
+		padding-block: clamp(4.5rem, 10vw, 8rem);
+		overflow: clip;
+	}
+
+	.cierre-inner {
+		display: grid;
+		grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+		gap: var(--gutter);
+		align-items: end;
+	}
+
+	.cierre-titulo {
+		font-size: clamp(3.2rem, 8.6vw, 7.5rem);
+		line-height: 0.88;
+	}
+
+	.cierre-deriva {
+		display: block;
+	}
+
+	.cierre-cuerpo {
+		display: grid;
+		justify-items: start;
+		gap: 1.5rem;
+	}
+
+	.cierre-cuerpo .lead {
+		max-width: 34ch;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.cierre-btn:hover {
+			background: var(--pista-sprinter);
+			color: #fff;
+		}
+	}
+
+	@media (max-width: 860px) {
+		.cierre-inner {
+			grid-template-columns: minmax(0, 1fr);
+			gap: 1.5rem;
+		}
+	}
+</style>
