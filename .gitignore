@@ -26,6 +26,8 @@ pnpm-debug.log*
 # secretos y wrangler (nunca subir)
 .dev.vars
 .wrangler/
+# seeds con datos reales de usuarios: se crean con npm run panel:usuario
+db/seed-*.sql
 public/panel-prueba.html
 
 # artefacto de scripts/probar-cv.mjs

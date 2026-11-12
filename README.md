@@ -99,6 +99,21 @@ nuevo es seguro) hay que ejecutarla a mano contra la D1 real:
 npx wrangler d1 execute web-mario-analitica --remote --file=db/schema.sql
 ```
 
+### Usuarios del panel
+
+No hay seed con credenciales en el repo. El primer usuario (o el cambio de contraseña de uno
+existente) se hace con:
+
+```sh
+npm run panel:usuario -- --remote   # o --local para la D1 de panel:dev
+```
+
+Lee `PANEL_ADMIN_EMAIL` (y `PANEL_ADMIN_NOMBRE`, opcional) de `.env`, pide la contraseña por
+teclado (mínimo 10 caracteres), calcula hash y sal con `functions/api/_auth.js` y hace un upsert
+en `usuarios_panel`: si el email ya existe, solo cambia la contraseña. Ni el email ni el hash
+pasan por ningún fichero. Con una sesión iniciada, el resto de usuarios se gestionan desde el
+propio panel.
+
 ### ⚠️ Cuota de Gemini
 
 El modelo `gemini-flash-latest` tiene, en el nivel gratuito, un límite muy bajo de peticiones al
